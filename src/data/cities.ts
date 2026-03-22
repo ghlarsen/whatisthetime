@@ -9,19 +9,13 @@ export interface CityEntry {
 
 export const cities: CityEntry[] = [
   {
-    "slug": "‘ibrī",
-    "name": "‘Ibrī",
-    "country": "Oman",
-    "timezone": "Asia/Muscat"
-  },
-  {
     "slug": "aalborg",
     "name": "Aalborg",
     "country": "Denmark",
     "timezone": "Europe/Copenhagen"
   },
   {
-    "slug": "abéché",
+    "slug": "abeche",
     "name": "Abéché",
     "country": "Chad",
     "timezone": "Africa/Ndjamena"
@@ -105,7 +99,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Almaty"
   },
   {
-    "slug": "al-aḩmadī",
+    "slug": "al-ahmadi",
     "name": "Al Aḩmadī",
     "country": "Kuwait",
     "timezone": "Asia/Kuwait"
@@ -117,25 +111,25 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Dubai"
   },
   {
-    "slug": "al-başrah-al-qadīmah",
+    "slug": "al-basrah-al-qadimah",
     "name": "Al Başrah al Qadīmah",
     "country": "Iraq",
     "timezone": "Asia/Baghdad"
   },
   {
-    "slug": "al-manşūrah",
+    "slug": "al-mansurah",
     "name": "Al Manşūrah",
     "country": "Qatar",
     "timezone": "Asia/Qatar"
   },
   {
-    "slug": "al-maţār-al-‘atīq",
+    "slug": "al-matar-al-atiq",
     "name": "Al Maţār al ‘Atīq",
     "country": "Qatar",
     "timezone": "Asia/Qatar"
   },
   {
-    "slug": "al-mawşil-al-jadīdah",
+    "slug": "al-mawsil-al-jadidah",
     "name": "Al Mawşil al Jadīdah",
     "country": "Iraq",
     "timezone": "Asia/Baghdad"
@@ -309,13 +303,13 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Urumqi"
   },
   {
-    "slug": "ar-rayyān",
+    "slug": "ar-rayyan",
     "name": "Ar Rayyān",
     "country": "Qatar",
     "timezone": "Asia/Qatar"
   },
   {
-    "slug": "ar-rifā‘",
+    "slug": "ar-rifa",
     "name": "Ar Rifā‘",
     "country": "Bahrain",
     "timezone": "Asia/Bahrain"
@@ -333,13 +327,13 @@ export const cities: CityEntry[] = [
     "timezone": "America/Lima"
   },
   {
-    "slug": "århus",
+    "slug": "arhus",
     "name": "Århus",
     "country": "Denmark",
     "timezone": "Europe/Copenhagen"
   },
   {
-    "slug": "as-sālimīyah",
+    "slug": "as-salimiyah",
     "name": "As Sālimīyah",
     "country": "Kuwait",
     "timezone": "Asia/Kuwait"
@@ -363,13 +357,13 @@ export const cities: CityEntry[] = [
     "timezone": "Atlantic/Cape_Verde"
   },
   {
-    "slug": "asunción",
+    "slug": "asuncion",
     "name": "Asunción",
     "country": "Paraguay",
     "timezone": "America/Asuncion"
   },
   {
-    "slug": "atakpamé",
+    "slug": "atakpame",
     "name": "Atakpamé",
     "country": "Togo",
     "timezone": "Africa/Lome"
@@ -399,7 +393,7 @@ export const cities: CityEntry[] = [
     "timezone": "Pacific/Rarotonga"
   },
   {
-    "slug": "bafatá",
+    "slug": "bafata",
     "name": "Bafatá",
     "country": "Guinea-Bissau",
     "timezone": "Africa/Bissau"
@@ -435,7 +429,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Makassar"
   },
   {
-    "slug": "bălţi",
+    "slug": "balti",
     "name": "Bălţi",
     "country": "Moldova",
     "timezone": "Europe/Chisinau"
@@ -555,7 +549,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Muscat"
   },
   {
-    "slug": "bayamón",
+    "slug": "bayamon",
     "name": "Bayamón",
     "country": "Puerto Rico",
     "timezone": "America/Puerto_Rico"
@@ -573,7 +567,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Singapore"
   },
   {
-    "slug": "bégoua",
+    "slug": "begoua",
     "name": "Bégoua",
     "country": "Central African Republic",
     "timezone": "Africa/Bangui"
@@ -681,7 +675,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Kathmandu"
   },
   {
-    "slug": "biên-hòa",
+    "slug": "bien-hoa",
     "name": "Biên Hòa",
     "country": "Vietnam",
     "timezone": "Asia/Ho_Chi_Minh"
@@ -759,7 +753,7 @@ export const cities: CityEntry[] = [
     "timezone": "Africa/Ouagadougou"
   },
   {
-    "slug": "bogotá",
+    "slug": "bogota",
     "name": "Bogotá",
     "country": "Colombia",
     "timezone": "America/Bogota"
@@ -771,7 +765,7 @@ export const cities: CityEntry[] = [
     "timezone": "Africa/Mogadishu"
   },
   {
-    "slug": "bouaké",
+    "slug": "bouake",
     "name": "Bouaké",
     "country": "Ivory Coast",
     "timezone": "Africa/Abidjan"
@@ -969,7 +963,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Manila"
   },
   {
-    "slug": "camagüey",
+    "slug": "camaguey",
     "name": "Camagüey",
     "country": "Cuba",
     "timezone": "America/Havana"
@@ -987,7 +981,7 @@ export const cities: CityEntry[] = [
     "timezone": "America/Manaus"
   },
   {
-    "slug": "cần-thơ",
+    "slug": "can-tho",
     "name": "Cần Thơ",
     "country": "Vietnam",
     "timezone": "Asia/Ho_Chi_Minh"
@@ -999,7 +993,7 @@ export const cities: CityEntry[] = [
     "timezone": "Australia/Sydney"
   },
   {
-    "slug": "cancún",
+    "slug": "cancun",
     "name": "Cancún",
     "country": "Mexico",
     "timezone": "America/Cancun"
@@ -1011,7 +1005,7 @@ export const cities: CityEntry[] = [
     "timezone": "Africa/Johannesburg"
   },
   {
-    "slug": "capiatá",
+    "slug": "capiata",
     "name": "Capiatá",
     "country": "Paraguay",
     "timezone": "America/Asuncion"
@@ -1197,7 +1191,7 @@ export const cities: CityEntry[] = [
     "timezone": "Pacific/Chuuk"
   },
   {
-    "slug": "ciudad-acuña",
+    "slug": "ciudad-acuna",
     "name": "Ciudad Acuña",
     "country": "Mexico",
     "timezone": "America/Matamoros"
@@ -1209,13 +1203,13 @@ export const cities: CityEntry[] = [
     "timezone": "America/Asuncion"
   },
   {
-    "slug": "ciudad-juárez",
+    "slug": "ciudad-juarez",
     "name": "Ciudad Juárez",
     "country": "Mexico",
     "timezone": "America/Ciudad_Juarez"
   },
   {
-    "slug": "cobán",
+    "slug": "coban",
     "name": "Cobán",
     "country": "Guatemala",
     "timezone": "America/Guatemala"
@@ -1263,7 +1257,7 @@ export const cities: CityEntry[] = [
     "timezone": "Europe/Copenhagen"
   },
   {
-    "slug": "córdoba",
+    "slug": "cordoba",
     "name": "Córdoba",
     "country": "Argentina",
     "timezone": "America/Argentina/Buenos_Aires"
@@ -1317,13 +1311,13 @@ export const cities: CityEntry[] = [
     "timezone": "America/Guayaquil"
   },
   {
-    "slug": "cuiabá",
+    "slug": "cuiaba",
     "name": "Cuiabá",
     "country": "Brazil",
     "timezone": "America/Manaus"
   },
   {
-    "slug": "culiacán",
+    "slug": "culiacan",
     "name": "Culiacán",
     "country": "Mexico",
     "timezone": "America/Hermosillo"
@@ -1407,7 +1401,7 @@ export const cities: CityEntry[] = [
     "timezone": "Australia/Darwin"
   },
   {
-    "slug": "daşoguz",
+    "slug": "dasoguz",
     "name": "Daşoguz",
     "country": "Turkmenistan",
     "timezone": "Asia/Ashgabat"
@@ -1563,7 +1557,7 @@ export const cities: CityEntry[] = [
     "timezone": "Europe/Luxembourg"
   },
   {
-    "slug": "dumbéa",
+    "slug": "dumbea",
     "name": "Dumbéa",
     "country": "New Caledonia",
     "timezone": "Pacific/Noumea"
@@ -1581,7 +1575,7 @@ export const cities: CityEntry[] = [
     "timezone": "Africa/Johannesburg"
   },
   {
-    "slug": "durrës",
+    "slug": "durres",
     "name": "Durrës",
     "country": "Albania",
     "timezone": "Europe/Tirane"
@@ -1785,7 +1779,7 @@ export const cities: CityEntry[] = [
     "timezone": "Africa/Gaborone"
   },
   {
-    "slug": "gabú",
+    "slug": "gabu",
     "name": "Gabú",
     "country": "Guinea-Bissau",
     "timezone": "Africa/Bissau"
@@ -1833,7 +1827,7 @@ export const cities: CityEntry[] = [
     "timezone": "Africa/Monrovia"
   },
   {
-    "slug": "genève",
+    "slug": "geneve",
     "name": "Genève",
     "country": "Switzerland",
     "timezone": "Europe/Zurich"
@@ -1905,7 +1899,7 @@ export const cities: CityEntry[] = [
     "timezone": "Africa/Addis_Ababa"
   },
   {
-    "slug": "göteborg",
+    "slug": "goteborg",
     "name": "Göteborg",
     "country": "Sweden",
     "timezone": "Europe/Stockholm"
@@ -1947,7 +1941,7 @@ export const cities: CityEntry[] = [
     "timezone": "America/Guayaquil"
   },
   {
-    "slug": "guédiawaye",
+    "slug": "guediawaye",
     "name": "Guédiawaye",
     "country": "Senegal",
     "timezone": "Africa/Dakar"
@@ -1959,7 +1953,7 @@ export const cities: CityEntry[] = [
     "timezone": "America/St_Barthelemy"
   },
   {
-    "slug": "hafnarfjörður",
+    "slug": "hafnarfjor-ur",
     "name": "Hafnarfjörður",
     "country": "Iceland",
     "timezone": "Atlantic/Reykjavik"
@@ -1983,7 +1977,7 @@ export const cities: CityEntry[] = [
     "timezone": "Europe/Berlin"
   },
   {
-    "slug": "hamhŭng",
+    "slug": "hamhung",
     "name": "Hamhŭng",
     "country": "North Korea",
     "timezone": "Asia/Pyongyang"
@@ -2013,7 +2007,7 @@ export const cities: CityEntry[] = [
     "timezone": "America/Havana"
   },
   {
-    "slug": "ḩawallī",
+    "slug": "hawalli",
     "name": "Ḩawallī",
     "country": "Kuwait",
     "timezone": "Asia/Kuwait"
@@ -2025,7 +2019,7 @@ export const cities: CityEntry[] = [
     "timezone": "Europe/Helsinki"
   },
   {
-    "slug": "herāt",
+    "slug": "herat",
     "name": "Herāt",
     "country": "Afghanistan",
     "timezone": "Asia/Kabul"
@@ -2067,7 +2061,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Ho_Chi_Minh"
   },
   {
-    "slug": "holguín",
+    "slug": "holguin",
     "name": "Holguín",
     "country": "Cuba",
     "timezone": "America/Havana"
@@ -2133,7 +2127,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Kolkata"
   },
   {
-    "slug": "iaşi",
+    "slug": "iasi",
     "name": "Iaşi",
     "country": "Romania",
     "timezone": "Europe/Bucharest"
@@ -2149,6 +2143,12 @@ export const cities: CityEntry[] = [
     "name": "Ibb",
     "country": "Yemen",
     "timezone": "Asia/Aden"
+  },
+  {
+    "slug": "ibri",
+    "name": "‘Ibrī",
+    "country": "Oman",
+    "timezone": "Asia/Muscat"
   },
   {
     "slug": "incheon",
@@ -2181,7 +2181,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Dushanbe"
   },
   {
-    "slug": "isil’kul’",
+    "slug": "isil-kul",
     "name": "Isil’kul’",
     "country": "Russia",
     "timezone": "Asia/Omsk"
@@ -2205,7 +2205,7 @@ export const cities: CityEntry[] = [
     "timezone": "Europe/Samara"
   },
   {
-    "slug": "i̇zmir",
+    "slug": "izmir",
     "name": "İzmir",
     "country": "Turkey",
     "timezone": "Europe/Istanbul"
@@ -2217,7 +2217,7 @@ export const cities: CityEntry[] = [
     "timezone": "America/Mexico_City"
   },
   {
-    "slug": "jabālyā",
+    "slug": "jabalya",
     "name": "Jabālyā",
     "country": "Palestinian Territory",
     "timezone": "Asia/Hebron"
@@ -2289,7 +2289,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Kuala_Lumpur"
   },
   {
-    "slug": "juan-díaz",
+    "slug": "juan-diaz",
     "name": "Juan Díaz",
     "country": "Panama",
     "timezone": "America/Panama"
@@ -2355,7 +2355,7 @@ export const cities: CityEntry[] = [
     "timezone": "Africa/Lubumbashi"
   },
   {
-    "slug": "kandahār",
+    "slug": "kandahar",
     "name": "Kandahār",
     "country": "Afghanistan",
     "timezone": "Asia/Kabul"
@@ -2385,7 +2385,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Taipei"
   },
   {
-    "slug": "kaouéni",
+    "slug": "kaoueni",
     "name": "Kaouéni",
     "country": "Mayotte",
     "timezone": "Indian/Mayotte"
@@ -2475,7 +2475,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Vladivostok"
   },
   {
-    "slug": "khān-yūnis",
+    "slug": "khan-yunis",
     "name": "Khān Yūnis",
     "country": "Palestinian Territory",
     "timezone": "Asia/Hebron"
@@ -2583,7 +2583,7 @@ export const cities: CityEntry[] = [
     "timezone": "Africa/Lusaka"
   },
   {
-    "slug": "klaipėda",
+    "slug": "klaipeda",
     "name": "Klaipėda",
     "country": "Lithuania",
     "timezone": "Europe/Vilnius"
@@ -2595,7 +2595,7 @@ export const cities: CityEntry[] = [
     "timezone": "Africa/Freetown"
   },
   {
-    "slug": "köln",
+    "slug": "koln",
     "name": "Köln",
     "country": "Germany",
     "timezone": "Europe/Berlin"
@@ -2607,7 +2607,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Vladivostok"
   },
   {
-    "slug": "kópavogur",
+    "slug": "kopavogur",
     "name": "Kópavogur",
     "country": "Iceland",
     "timezone": "Atlantic/Reykjavik"
@@ -2631,7 +2631,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Sakhalin"
   },
   {
-    "slug": "košice",
+    "slug": "kosice",
     "name": "Košice",
     "country": "Slovakia",
     "timezone": "Europe/Bratislava"
@@ -2673,7 +2673,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Hong_Kong"
   },
   {
-    "slug": "kraków",
+    "slug": "krakow",
     "name": "Kraków",
     "country": "Poland",
     "timezone": "Europe/Warsaw"
@@ -2709,7 +2709,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Kuala_Lumpur"
   },
   {
-    "slug": "kŭlob",
+    "slug": "kulob",
     "name": "Kŭlob",
     "country": "Tajikistan",
     "timezone": "Asia/Dushanbe"
@@ -2859,7 +2859,7 @@ export const cities: CityEntry[] = [
     "timezone": "Indian/Reunion"
   },
   {
-    "slug": "león",
+    "slug": "leon",
     "name": "León",
     "country": "Nicaragua",
     "timezone": "America/Managua"
@@ -2889,13 +2889,13 @@ export const cities: CityEntry[] = [
     "timezone": "Africa/Libreville"
   },
   {
-    "slug": "liepāja",
+    "slug": "liepaja",
     "name": "Liepāja",
     "country": "Latvia",
     "timezone": "Europe/Riga"
   },
   {
-    "slug": "likisá",
+    "slug": "likisa",
     "name": "Likisá",
     "country": "Timor Leste",
     "timezone": "Asia/Dili"
@@ -2925,7 +2925,7 @@ export const cities: CityEntry[] = [
     "timezone": "Europe/Dublin"
   },
   {
-    "slug": "limón",
+    "slug": "limon",
     "name": "Limón",
     "country": "Costa Rica",
     "timezone": "America/Costa_Rica"
@@ -2961,19 +2961,13 @@ export const cities: CityEntry[] = [
     "timezone": "Africa/Mbabane"
   },
   {
-    "slug": "łódź",
-    "name": "Łódź",
-    "country": "Poland",
-    "timezone": "Europe/Warsaw"
-  },
-  {
     "slug": "logan-city",
     "name": "Logan City",
     "country": "Australia",
     "timezone": "Australia/Brisbane"
   },
   {
-    "slug": "lomé",
+    "slug": "lome",
     "name": "Lomé",
     "country": "Togo",
     "timezone": "Africa/Lome"
@@ -3063,7 +3057,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Riyadh"
   },
   {
-    "slug": "madīnat-ḩamad",
+    "slug": "madinat-hamad",
     "name": "Madīnat Ḩamad",
     "country": "Bahrain",
     "timezone": "Asia/Bahrain"
@@ -3099,7 +3093,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Colombo"
   },
   {
-    "slug": "maipú",
+    "slug": "maipu",
     "name": "Maipú",
     "country": "Chile",
     "timezone": "America/Santiago"
@@ -3159,7 +3153,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Dili"
   },
   {
-    "slug": "malmö",
+    "slug": "malmo",
     "name": "Malmö",
     "country": "Sweden",
     "timezone": "Europe/Stockholm"
@@ -3351,13 +3345,13 @@ export const cities: CityEntry[] = [
     "timezone": "Antarctica/Mawson"
   },
   {
-    "slug": "mazār-e-sharīf",
+    "slug": "mazar-e-sharif",
     "name": "Mazār-e Sharīf",
     "country": "Afghanistan",
     "timezone": "Asia/Kabul"
   },
   {
-    "slug": "mazatlán",
+    "slug": "mazatlan",
     "name": "Mazatlán",
     "country": "Mexico",
     "timezone": "America/Hermosillo"
@@ -3387,7 +3381,7 @@ export const cities: CityEntry[] = [
     "timezone": "Antarctica/McMurdo"
   },
   {
-    "slug": "medellín",
+    "slug": "medellin",
     "name": "Medellín",
     "country": "Colombia",
     "timezone": "America/Bogota"
@@ -3543,7 +3537,7 @@ export const cities: CityEntry[] = [
     "timezone": "America/Montevideo"
   },
   {
-    "slug": "montréal",
+    "slug": "montreal",
     "name": "Montréal",
     "country": "Canada",
     "timezone": "America/Toronto"
@@ -3699,7 +3693,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Tashkent"
   },
   {
-    "slug": "namp’o",
+    "slug": "namp-o",
     "name": "Namp’o",
     "country": "North Korea",
     "timezone": "Asia/Pyongyang"
@@ -3819,13 +3813,13 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Nicosia"
   },
   {
-    "slug": "nikšić",
+    "slug": "niksic",
     "name": "Nikšić",
     "country": "Montenegro",
     "timezone": "Europe/Podgorica"
   },
   {
-    "slug": "niš",
+    "slug": "nis",
     "name": "Niš",
     "country": "Serbia",
     "timezone": "Europe/Belgrade"
@@ -3879,7 +3873,7 @@ export const cities: CityEntry[] = [
     "timezone": "Africa/Nouakchott"
   },
   {
-    "slug": "nouméa",
+    "slug": "noumea",
     "name": "Nouméa",
     "country": "New Caledonia",
     "timezone": "Pacific/Noumea"
@@ -3903,7 +3897,7 @@ export const cities: CityEntry[] = [
     "timezone": "America/Matamoros"
   },
   {
-    "slug": "nuku‘alofa",
+    "slug": "nuku-alofa",
     "name": "Nuku‘alofa",
     "country": "Tonga",
     "timezone": "Pacific/Tongatapu"
@@ -3927,7 +3921,7 @@ export const cities: CityEntry[] = [
     "timezone": "Africa/Khartoum"
   },
   {
-    "slug": "nzérékoré",
+    "slug": "nzerekore",
     "name": "Nzérékoré",
     "country": "Guinea",
     "timezone": "Africa/Conakry"
@@ -3945,7 +3939,13 @@ export const cities: CityEntry[] = [
     "timezone": "Europe/Kyiv"
   },
   {
-    "slug": "ölgii",
+    "slug": "odz",
+    "name": "Łódź",
+    "country": "Poland",
+    "timezone": "Europe/Warsaw"
+  },
+  {
+    "slug": "olgii",
     "name": "Ölgii",
     "country": "Mongolia",
     "timezone": "Asia/Hovd"
@@ -4059,7 +4059,7 @@ export const cities: CityEntry[] = [
     "timezone": "Australia/Darwin"
   },
   {
-    "slug": "panamá",
+    "slug": "panama",
     "name": "Panamá",
     "country": "Panama",
     "timezone": "America/Panama"
@@ -4101,25 +4101,25 @@ export const cities: CityEntry[] = [
     "timezone": "Europe/Paris"
   },
   {
-    "slug": "pärnu",
+    "slug": "parnu",
     "name": "Pärnu",
     "country": "Estonia",
     "timezone": "Europe/Tallinn"
   },
   {
-    "slug": "pātan",
+    "slug": "patan",
     "name": "Pātan",
     "country": "Nepal",
     "timezone": "Asia/Kathmandu"
   },
   {
-    "slug": "pátra",
+    "slug": "patra",
     "name": "Pátra",
     "country": "Greece",
     "timezone": "Europe/Athens"
   },
   {
-    "slug": "paysandú",
+    "slug": "paysandu",
     "name": "Paysandú",
     "country": "Uruguay",
     "timezone": "America/Montevideo"
@@ -4167,7 +4167,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Kamchatka"
   },
   {
-    "slug": "petržalka",
+    "slug": "petrzalka",
     "name": "Petržalka",
     "country": "Slovakia",
     "timezone": "Europe/Bratislava"
@@ -4287,7 +4287,7 @@ export const cities: CityEntry[] = [
     "timezone": "America/Port-au-Prince"
   },
   {
-    "slug": "port-aux-français",
+    "slug": "port-aux-francais",
     "name": "Port-aux-Français",
     "country": "French Southern Territories",
     "timezone": "Indian/Kerguelen"
@@ -4401,7 +4401,7 @@ export const cities: CityEntry[] = [
     "timezone": "America/Santiago"
   },
   {
-    "slug": "puerto-aysén",
+    "slug": "puerto-aysen",
     "name": "Puerto Aysén",
     "country": "Chile",
     "timezone": "America/Punta_Arenas"
@@ -4419,7 +4419,7 @@ export const cities: CityEntry[] = [
     "timezone": "Pacific/Tahiti"
   },
   {
-    "slug": "punākha",
+    "slug": "punakha",
     "name": "Punākha",
     "country": "Bhutan",
     "timezone": "Asia/Thimphu"
@@ -4455,7 +4455,7 @@ export const cities: CityEntry[] = [
     "timezone": "America/Guayaquil"
   },
   {
-    "slug": "ra’s-bayrūt",
+    "slug": "ra-s-bayrut",
     "name": "Ra’s Bayrūt",
     "country": "Lebanon",
     "timezone": "Asia/Beirut"
@@ -4485,13 +4485,13 @@ export const cities: CityEntry[] = [
     "timezone": "America/Regina"
   },
   {
-    "slug": "reykjanesbær",
+    "slug": "reykjanesb-r",
     "name": "Reykjanesbær",
     "country": "Iceland",
     "timezone": "Atlantic/Reykjavik"
   },
   {
-    "slug": "reykjavík",
+    "slug": "reykjavik",
     "name": "Reykjavík",
     "country": "Iceland",
     "timezone": "Atlantic/Reykjavik"
@@ -4605,7 +4605,7 @@ export const cities: CityEntry[] = [
     "timezone": "Africa/Ouagadougou"
   },
   {
-    "slug": "şabāḩ-as-sālim",
+    "slug": "sabah-as-salim",
     "name": "Şabāḩ as Sālim",
     "country": "Kuwait",
     "timezone": "Asia/Kuwait"
@@ -4635,7 +4635,7 @@ export const cities: CityEntry[] = [
     "timezone": "Europe/Jersey"
   },
   {
-    "slug": "saint-john’s",
+    "slug": "saint-john-s",
     "name": "Saint John’s",
     "country": "Antigua and Barbuda",
     "timezone": "America/Antigua"
@@ -4749,12 +4749,6 @@ export const cities: CityEntry[] = [
     "timezone": "America/Los_Angeles"
   },
   {
-    "slug": "san-josé",
-    "name": "San José",
-    "country": "Costa Rica",
-    "timezone": "America/Costa_Rica"
-  },
-  {
     "slug": "san-juan",
     "name": "San Juan",
     "country": "Puerto Rico",
@@ -4791,7 +4785,7 @@ export const cities: CityEntry[] = [
     "timezone": "America/Aruba"
   },
   {
-    "slug": "san-pawl-il-baħar",
+    "slug": "san-pawl-il-ba-ar",
     "name": "San Pawl il-Baħar",
     "country": "Malta",
     "timezone": "Europe/Malta"
@@ -4881,13 +4875,13 @@ export const cities: CityEntry[] = [
     "timezone": "America/Santo_Domingo"
   },
   {
-    "slug": "são-paulo",
+    "slug": "sao-paulo",
     "name": "São Paulo",
     "country": "Brazil",
     "timezone": "America/Sao_Paulo"
   },
   {
-    "slug": "são-tomé",
+    "slug": "sao-tome",
     "name": "São Tomé",
     "country": "Sao Tome and Principe",
     "timezone": "Africa/Sao_Tome"
@@ -4929,7 +4923,7 @@ export const cities: CityEntry[] = [
     "timezone": "America/Nuuk"
   },
   {
-    "slug": "sé",
+    "slug": "se",
     "name": "Sé",
     "country": "Macao",
     "timezone": "Asia/Macau"
@@ -4953,7 +4947,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Muscat"
   },
   {
-    "slug": "ségou",
+    "slug": "segou",
     "name": "Ségou",
     "country": "Mali",
     "timezone": "Africa/Bamako"
@@ -5025,7 +5019,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Urumqi"
   },
   {
-    "slug": "shubrā-al-khaymah",
+    "slug": "shubra-al-khaymah",
     "name": "Shubrā al Khaymah",
     "country": "Egypt",
     "timezone": "Africa/Cairo"
@@ -5037,7 +5031,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Almaty"
   },
   {
-    "slug": "šiauliai",
+    "slug": "siauliai",
     "name": "Šiauliai",
     "country": "Lithuania",
     "timezone": "Europe/Vilnius"
@@ -5091,7 +5085,7 @@ export const cities: CityEntry[] = [
     "timezone": "Europe/Sofia"
   },
   {
-    "slug": "sokodé",
+    "slug": "sokode",
     "name": "Sokodé",
     "country": "Togo",
     "timezone": "Africa/Lome"
@@ -5169,7 +5163,7 @@ export const cities: CityEntry[] = [
     "timezone": "Europe/Stockholm"
   },
   {
-    "slug": "stróvolos",
+    "slug": "strovolos",
     "name": "Stróvolos",
     "country": "Cyprus",
     "timezone": "Asia/Nicosia"
@@ -5193,13 +5187,13 @@ export const cities: CityEntry[] = [
     "timezone": "Africa/Banjul"
   },
   {
-    "slug": "sumqayıt",
+    "slug": "sumqay-t",
     "name": "Sumqayıt",
     "country": "Azerbaijan",
     "timezone": "Asia/Baku"
   },
   {
-    "slug": "sunch’ŏn",
+    "slug": "sunch-on",
     "name": "Sunch’ŏn",
     "country": "North Korea",
     "timezone": "Asia/Pyongyang"
@@ -5361,7 +5355,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Omsk"
   },
   {
-    "slug": "tarauacá",
+    "slug": "tarauaca",
     "name": "Tarauacá",
     "country": "Brazil",
     "timezone": "America/Rio_Branco"
@@ -5427,7 +5421,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Jayapura"
   },
   {
-    "slug": "thakhèk",
+    "slug": "thakhek",
     "name": "Thakhèk",
     "country": "Laos",
     "timezone": "Asia/Vientiane"
@@ -5445,7 +5439,7 @@ export const cities: CityEntry[] = [
     "timezone": "America/Anguilla"
   },
   {
-    "slug": "thessaloníki",
+    "slug": "thessaloniki",
     "name": "Thessaloníki",
     "country": "Greece",
     "timezone": "Europe/Athens"
@@ -5511,7 +5505,7 @@ export const cities: CityEntry[] = [
     "timezone": "America/Toronto"
   },
   {
-    "slug": "tórshavn",
+    "slug": "torshavn",
     "name": "Tórshavn",
     "country": "Faroe Islands",
     "timezone": "Atlantic/Faroe"
@@ -5577,7 +5571,7 @@ export const cities: CityEntry[] = [
     "timezone": "Europe/Rome"
   },
   {
-    "slug": "türkmenabat",
+    "slug": "turkmenabat",
     "name": "Türkmenabat",
     "country": "Turkmenistan",
     "timezone": "Asia/Ashgabat"
@@ -5625,7 +5619,7 @@ export const cities: CityEntry[] = [
     "timezone": "Europe/Stockholm"
   },
   {
-    "slug": "ürümqi",
+    "slug": "urumqi",
     "name": "Ürümqi",
     "country": "China",
     "timezone": "Asia/Urumqi"
@@ -5727,7 +5721,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Vladivostok"
   },
   {
-    "slug": "vlorë",
+    "slug": "vlore",
     "name": "Vlorë",
     "country": "Albania",
     "timezone": "Europe/Tirane"
@@ -5811,7 +5805,7 @@ export const cities: CityEntry[] = [
     "timezone": "America/Winnipeg"
   },
   {
-    "slug": "wrocław",
+    "slug": "wroc-aw",
     "name": "Wrocław",
     "country": "Poland",
     "timezone": "Europe/Warsaw"
@@ -5835,7 +5829,7 @@ export const cities: CityEntry[] = [
     "timezone": "Asia/Yangon"
   },
   {
-    "slug": "yaoundé",
+    "slug": "yaounde",
     "name": "Yaoundé",
     "country": "Cameroon",
     "timezone": "Africa/Douala"
@@ -5949,7 +5943,7 @@ export const cities: CityEntry[] = [
     "timezone": "Africa/Blantyre"
   },
   {
-    "slug": "zürich",
+    "slug": "zurich",
     "name": "Zürich",
     "country": "Switzerland",
     "timezone": "Europe/Zurich"

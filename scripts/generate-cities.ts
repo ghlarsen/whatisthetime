@@ -4,10 +4,13 @@ import { writeFileSync } from 'fs';
 
 function toSlug(name: string): string {
   return name
+    .normalize('NFD')                          // decompose accented chars (é → e + combining accent)
+    .replace(/[\u0300-\u036f]/g, '')           // strip combining diacritical marks
+    .replace(/[^\x00-\x7F]/g, '-')             // replace any remaining non-ASCII with hyphen
     .toLowerCase()
-    .replace(/[\s,.'()]/g, '-')
-    .replace(/-+/g, '-')
-    .replace(/^-|-$/g, '');
+    .replace(/[\s,.'()']/g, '-')               // spaces, punctuation → hyphen (including curly quote)
+    .replace(/-+/g, '-')                       // collapse multiple hyphens
+    .replace(/^-|-$/g, '');                    // trim leading/trailing hyphens
 }
 
 interface CityEntry {
