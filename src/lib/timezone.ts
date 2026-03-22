@@ -77,29 +77,31 @@ export interface DSTTransitions {
   hasDST: boolean;
   start: Date | null; // date clocks spring forward
   end: Date | null;   // date clocks fall back
+  winterOffset: number; // UTC offset in minutes during winter (standard time)
+  summerOffset: number; // UTC offset in minutes during summer (DST active)
 }
 
 export function getDSTTransitions(timezone: string, year: number): DSTTransitions {
   const janOffset = getUtcOffsetMinutes(timezone, new Date(year, 0, 15));
   const julOffset = getUtcOffsetMinutes(timezone, new Date(year, 6, 15));
 
-  if (janOffset === julOffset) return { hasDST: false, start: null, end: null };
+  if (janOffset === julOffset) return { hasDST: false, start: null, end: null, winterOffset: janOffset, summerOffset: janOffset };
 
   // Northern hemisphere: offset higher in July (summer forward)
   // Southern hemisphere: offset higher in January
   const isNorthern = julOffset > janOffset;
 
   // Probe month ranges for the transition
-  const springMonths = isNorthern ? [2, 3] : [8, 9, 10]; // Mar-Apr or Sep-Nov
-  const fallMonths   = isNorthern ? [9, 10] : [3, 4];    // Oct-Nov or Mar-Apr
+  const springMonths = isNorthern ? [1, 2, 3, 4] : [7, 8, 9, 10, 11]; // wider range to cover unusual cases
+  const fallMonths   = isNorthern ? [8, 9, 10, 11] : [2, 3, 4, 5];
 
   function findTransition(months: number[]): Date | null {
     for (const month of months) {
       const daysInMonth = new Date(year, month + 1, 0).getDate();
       for (let day = 1; day < daysInMonth; day++) {
-        const before = getUtcOffsetMinutes(timezone, new Date(year, month, day,     1, 0));
-        const after  = getUtcOffsetMinutes(timezone, new Date(year, month, day + 1, 1, 0));
-        if (before !== after) return new Date(year, month, day + 1);
+        const before = getUtcOffsetMinutes(timezone, new Date(Date.UTC(year, month, day,     12, 0)));
+        const after  = getUtcOffsetMinutes(timezone, new Date(Date.UTC(year, month, day + 1, 12, 0)));
+        if (before !== after) return new Date(Date.UTC(year, month, day + 1));
       }
     }
     return null;
@@ -109,5 +111,7 @@ export function getDSTTransitions(timezone: string, year: number): DSTTransition
     hasDST: true,
     start: findTransition(springMonths),
     end:   findTransition(fallMonths),
+    winterOffset: Math.min(janOffset, julOffset),
+    summerOffset: Math.max(janOffset, julOffset),
   };
 }

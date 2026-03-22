@@ -29,7 +29,7 @@ export const GET: APIRoute = ({ params }) => {
     .join(', ');
 
   const utcSummer = dst.hasDST
-    ? ` During summer, the offset shifts to ${formatUtcOffset(time.utcOffsetMinutes + 60)}.`
+    ? ` During summer, the offset shifts to ${formatUtcOffset(dst.summerOffset)}.`
     : '';
 
   const md = `# What time is it in ${city.name}?

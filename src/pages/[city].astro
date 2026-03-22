@@ -36,7 +36,7 @@ const canonical = `https://whatisthetime.now/${city.slug}`;
   <!-- Static copy for SEO -->
   <section class="city-info">
     <p>{city.name} is in the <strong>{city.timezone}</strong> timezone ({utcLabel}).
-    {time.utcOffsetMinutes !== 0 && `It is currently ${Math.abs(time.utcOffsetMinutes / 60)} hour${Math.abs(time.utcOffsetMinutes / 60) !== 1 ? 's' : ''} ${time.utcOffsetMinutes > 0 ? 'ahead of' : 'behind'} UTC.`}
+    {time.utcOffsetMinutes !== 0 && `It is currently ${formatUtcOffset(time.utcOffsetMinutes)} (${time.utcOffsetMinutes > 0 ? 'ahead of' : 'behind'} UTC).`}
     </p>
   </section>
 </Base>
