@@ -1,0 +1,120 @@
+---
+// src/pages/when/[timecity]/[dest].astro
+// Edge SSR — no prerender directive
+
+import Base from '../../../layouts/Base.astro';
+import Nav from '../../../components/Nav.astro';
+import ComparisonWidget from '../../../components/ComparisonWidget.astro';
+import { getCityBySlug, formatUtcOffset, getUtcOffsetMinutes } from '../../../lib/timezone.ts';
+import { parseTimecitySegment, timeTokenToHour, convertHour, formatConvertedTime } from '../../../lib/when.ts';
+
+const { timecity, dest } = Astro.params;
+
+// Parse origin segment
+const parsed = parseTimecitySegment(timecity ?? '');
+if (!parsed) {
+  return new Response('Not found', { status: 404 });
+}
+
+const originCity = getCityBySlug(parsed.citySlug);
+const destCity = getCityBySlug(dest ?? '');
+
+if (!originCity || !destCity) {
+  return new Response('City not found', { status: 404 });
+}
+
+const originHour = timeTokenToHour(parsed.timeToken);
+const originOffset = getUtcOffsetMinutes(originCity.timezone);
+const destOffset = getUtcOffsetMinutes(destCity.timezone);
+
+const converted = convertHour({
+  hour: originHour,
+  fromOffsetMinutes: originOffset,
+  toOffsetMinutes: destOffset,
+});
+
+const destTimeToken = formatConvertedTime(converted);
+const originUtcLabel = formatUtcOffset(originOffset);
+const destUtcLabel = formatUtcOffset(destOffset);
+
+const dayOffsetLabel = converted.dayOffset === 1
+  ? ' (+1 day)'
+  : converted.dayOffset === -1
+  ? ' (-1 day)'
+  : '';
+
+const title = `${parsed.timeToken} in ${originCity.name} = ${destTimeToken}${dayOffsetLabel} in ${destCity.name} | whatisthetime.now`;
+const description = `When it's ${parsed.timeToken} in ${originCity.name} (${originUtcLabel}), it's ${destTimeToken}${dayOffsetLabel} in ${destCity.name} (${destUtcLabel}).`;
+const canonical = `https://whatisthetime.now/when/${timecity}/${dest}`;
+---
+
+<Base title={title} description={description} canonical={canonical}>
+  <Nav />
+
+  <section class="conversion-hero">
+    <div class="from-block">
+      <div class="city-label">{originCity.name} · {originUtcLabel}</div>
+      <div class="time-display">{parsed.timeToken}</div>
+    </div>
+
+    <div class="arrow">→</div>
+
+    <div class="to-block">
+      <div class="city-label">{destCity.name} · {destUtcLabel}</div>
+      <div class="time-display">{destTimeToken}<span class="day-offset">{dayOffsetLabel}</span></div>
+    </div>
+  </section>
+
+  <ComparisonWidget defaultCities={[originCity.slug, destCity.slug, 'london', 'singapore']} />
+
+  <!-- Static SEO copy -->
+  <section class="when-info">
+    <p>{description}</p>
+  </section>
+</Base>
+
+<style>
+  .conversion-hero {
+    padding: 48px 28px 32px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+
+  .city-label {
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .time-display {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: clamp(48px, 12vw, 160px);
+    font-variation-settings: 'wght' 800, 'opsz' 50;
+    font-variant-numeric: tabular-nums;
+    line-height: 0.9;
+    color: var(--text);
+  }
+
+  .day-offset {
+    font-size: 0.3em;
+    color: var(--text-muted);
+    vertical-align: super;
+  }
+
+  .arrow {
+    font-size: 48px;
+    color: var(--text-muted);
+    flex-shrink: 0;
+  }
+
+  .when-info {
+    padding: 20px 28px;
+    font-size: 12px;
+    color: var(--text-muted);
+    border-top: 1px solid var(--border);
+  }
+</style>
