@@ -2,10 +2,12 @@
 // src/pages/index.astro
 import Base from '../layouts/Base.astro';
 import Nav from '../components/Nav.astro';
+import ClockHero from '../components/ClockHero.astro';
+import { getCityBySlug } from '../lib/timezone.ts';
+
+const city = getCityBySlug('copenhagen')!;
 ---
-<Base title="whatisthetime.now — World Clock">
+<Base title={`What time is it in ${city.name}?`}>
   <Nav />
-  <main style="padding: 48px 28px;">
-    <p style="color: var(--text-muted);">Clock coming soon...</p>
-  </main>
+  <ClockHero city={city} />
 </Base>

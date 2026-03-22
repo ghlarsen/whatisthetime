@@ -1,0 +1,99 @@
+---
+// src/components/ClockHero.astro
+import { getCurrentTime, formatUtcOffset } from '../lib/timezone.ts';
+import type { CityEntry } from '../data/cities.ts';
+
+export interface Props {
+  city: CityEntry;
+}
+
+const { city } = Astro.props;
+const time = getCurrentTime(city.timezone);
+const pad = (n: number) => String(n).padStart(2, '0');
+const initialTime = `${pad(time.hours)}:${pad(time.minutes)}:${pad(time.seconds)}`;
+const utcLabel = formatUtcOffset(Math.round(time.utcOffsetMinutes));
+---
+
+<section class="clock-section">
+  <div class="city-label">{city.name}, {city.country} · {utcLabel}</div>
+  <div
+    id="clock"
+    data-timezone={city.timezone}
+  >{initialTime}</div>
+  <div class="date-line" id="date-line">{time.dateString}</div>
+</section>
+
+<style>
+  .clock-section {
+    padding: 48px 28px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .city-label {
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  #clock {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: clamp(60px, 18vw, 260px);
+    line-height: 0.9;
+    letter-spacing: -0.02em;
+    color: var(--text);
+    font-variation-settings: 'wght' 800, 'opsz' 50;
+    font-variant-numeric: tabular-nums;
+    text-align: left;
+    width: 100%;
+  }
+
+  .date-line {
+    font-size: 11px;
+    color: var(--text-dim);
+    margin-top: 16px;
+    letter-spacing: 1px;
+  }
+</style>
+
+<script>
+  function pad(n: number): string {
+    return String(n).padStart(2, '0');
+  }
+
+  const clockEl = document.getElementById('clock')!;
+  const dateEl = document.getElementById('date-line')!;
+  const timezone = clockEl.dataset.timezone!;
+
+  function tick() {
+    const now = new Date();
+    const timeParts = new Intl.DateTimeFormat('en-US', {
+      timeZone: timezone,
+      hour: '2-digit',
+      minute: '2-digit',
+      second: '2-digit',
+      hour12: false,
+    }).formatToParts(now);
+
+    const get = (type: string) =>
+      timeParts.find(p => p.type === type)?.value ?? '00';
+
+    // Intl returns '24' at midnight with hour12:false — normalise to '00'
+    const hour = get('hour') === '24' ? '00' : get('hour');
+    clockEl.textContent = `${hour}:${get('minute')}:${get('second')}`;
+
+    dateEl.textContent = new Intl.DateTimeFormat('en-US', {
+      timeZone: timezone,
+      weekday: 'long',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+    }).format(now);
+  }
+
+  tick();
+  setInterval(tick, 1000);
+</script>
