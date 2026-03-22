@@ -131,19 +131,27 @@ const defaultData = defaultCities.map(slug => {
   function drawBars() {
     const rows = document.querySelectorAll<HTMLElement>('.city-row');
     const now = new Date();
-    const nowUtcMinutes = now.getUTCHours() * 60 + now.getUTCMinutes();
 
     rows.forEach(row => {
-      const utcOffset = parseInt(row.querySelector<HTMLElement>('.bar-track')!.dataset.utcOffset ?? '0', 10);
       const timezone = row.dataset.timezone!;
-
-      // Current local hour in this timezone (fraction, e.g. 14.5 = 14:30)
-      const localMinutes = (nowUtcMinutes + utcOffset + 1440) % 1440;
-      const localHour = localMinutes / 60;
 
       // Business hours: 9-17
       const workStart = 9;
       const workEnd = 17;
+
+      // Get current local time from Intl (DST-aware, always correct)
+      const timeParts = new Intl.DateTimeFormat('en-US', {
+        timeZone: timezone,
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false,
+      }).formatToParts(now);
+
+      const get = (type: string) => timeParts.find(p => p.type === type)?.value ?? '00';
+      const hourRaw = get('hour');
+      const hourNum = parseInt(hourRaw === '24' ? '0' : hourRaw, 10);
+      const minuteNum = parseInt(get('minute'), 10);
+      const localHour = hourNum + minuteNum / 60;
 
       const track = row.querySelector<HTMLElement>('.bar-track')!;
       track.innerHTML = '';
@@ -156,29 +164,21 @@ const defaultData = defaultCities.map(slug => {
         track.appendChild(seg);
       }
 
-      // Now line — appended to bar-wrap (position:relative), not bar-track
+      // Now line — appended to bar-wrap (position:relative)
       const barWrap = row.querySelector<HTMLElement>('.bar-wrap')!;
-      // Remove any existing now-line before re-drawing
       barWrap.querySelector('.now-line')?.remove();
       const nowLine = document.createElement('div');
       nowLine.className = 'now-line';
       nowLine.style.left = `${(localHour / 24) * 100}%`;
       barWrap.appendChild(nowLine);
 
-      // Update time display — handle midnight '24' quirk
-      const timeParts = new Intl.DateTimeFormat('en-US', {
-        timeZone: timezone,
-        hour: '2-digit',
-        minute: '2-digit',
-        hour12: false,
-      }).formatToParts(now);
-
-      const get = (type: string) => timeParts.find(p => p.type === type)?.value ?? '00';
-      const hourStr = get('hour') === '24' ? '00' : get('hour');
+      // Update time display
+      const hourStr = hourRaw === '24' ? '00' : hourRaw;
       row.querySelector<HTMLElement>('.time-val')!.textContent = `${hourStr}:${get('minute')}`;
     });
   }
 
   drawBars();
-  setInterval(drawBars, 60_000); // update every minute
+  const interval = setInterval(drawBars, 60_000);
+  document.addEventListener('astro:before-swap', () => clearInterval(interval), { once: true });
 </script>
