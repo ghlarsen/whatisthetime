@@ -11,7 +11,7 @@ const { city } = Astro.props;
 const time = getCurrentTime(city.timezone);
 const pad = (n: number) => String(n).padStart(2, '0');
 const initialTime = `${pad(time.hours)}:${pad(time.minutes)}:${pad(time.seconds)}`;
-const utcLabel = formatUtcOffset(Math.round(time.utcOffsetMinutes));
+const utcLabel = formatUtcOffset(time.utcOffsetMinutes);
 ---
 
 <section class="clock-section">

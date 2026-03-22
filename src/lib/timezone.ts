@@ -62,7 +62,7 @@ export function getUtcOffsetMinutes(timezone: string, date: Date = new Date()): 
     +p.year, +p.month - 1, +p.day,
     +p.hour % 24, +p.minute, +p.second,
   );
-  return (localMs - date.getTime()) / 60000;
+  return Math.round((localMs - date.getTime()) / 60000);
 }
 
 export function formatUtcOffset(offsetMinutes: number): string {
