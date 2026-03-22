@@ -44,7 +44,7 @@ export interface ConvertHourInput {
 export interface ConvertHourResult {
   hour: number;      // 0–23, in toTimezone
   minutes: number;   // 0–59 (non-zero for timezones like India UTC+5:30)
-  dayOffset: number; // -1, 0, or +1
+  dayOffset: number; // days offset from origin (-1, 0, +1, rarely ±2+ for extreme offset differences)
 }
 
 export function convertHour(input: ConvertHourInput): ConvertHourResult {
