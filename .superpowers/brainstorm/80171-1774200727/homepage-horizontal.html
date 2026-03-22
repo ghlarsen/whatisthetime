@@ -1,0 +1,125 @@
+<h2>whatisthetime.now — Stacked layout</h2>
+<p class="subtitle">Massive clock hero → comparison widget below. Two flavours of the same idea.</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="dark" onclick="toggleSelect(this)">
+    <div class="card-image" style="font-family:system-ui,sans-serif;background:#0a0a0a;padding:0;overflow:hidden">
+
+      <!-- Hero clock section -->
+      <div style="background:#0a0a0a;padding:28px 24px 20px;text-align:center;border-bottom:1px solid #1a1a1a">
+        <div style="color:#555;font-size:9px;letter-spacing:3px;margin-bottom:6px">COPENHAGEN, DENMARK · CET</div>
+        <div style="color:#fff;font-size:56px;font-weight:100;letter-spacing:-3px;line-height:1">17:42<span style="color:#444;font-size:32px">:09</span></div>
+        <div style="color:#444;font-size:10px;margin-top:6px">Sunday, March 22, 2026</div>
+        <div style="margin-top:14px">
+          <input style="background:#111;border:1px solid #222;color:#aaa;padding:7px 14px;border-radius:20px;width:180px;font-size:11px;outline:none" placeholder="🔍 Search any city..." />
+        </div>
+      </div>
+
+      <!-- WTB-style comparison widget -->
+      <div style="background:#0f0f0f;padding:16px 24px">
+        <div style="color:#444;font-size:9px;letter-spacing:2px;margin-bottom:10px">COMPARE TIMEZONES</div>
+
+        <!-- City row 1 -->
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+          <div style="color:#fff;font-size:11px;width:90px">🏠 Copenhagen</div>
+          <div style="color:#888;font-size:9px;width:32px">17:42</div>
+          <div style="flex:1;display:flex;gap:1px">
+            <div style="height:14px;border-radius:2px;flex:8;background:#1a1a1a"></div>
+            <div style="height:14px;border-radius:2px;flex:9;background:#1e3a2f"></div>
+            <div style="height:14px;border-radius:2px;flex:7;background:#1a1a1a;position:relative">
+              <div style="position:absolute;top:0;left:30%;width:2px;height:100%;background:#e94560;border-radius:1px"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- City row 2 -->
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+          <div style="color:#aaa;font-size:11px;width:90px">🗼 Tokyo</div>
+          <div style="color:#888;font-size:9px;width:32px">01:42</div>
+          <div style="flex:1;display:flex;gap:1px">
+            <div style="height:14px;border-radius:2px;flex:24;background:#111"></div>
+            <div style="height:14px;border-radius:2px;flex:8;background:#1e3a2f"></div>
+            <div style="height:14px;border-radius:2px;flex:4;background:#111"></div>
+          </div>
+        </div>
+
+        <!-- City row 3 -->
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+          <div style="color:#aaa;font-size:11px;width:90px">🗽 New York</div>
+          <div style="color:#888;font-size:9px;width:32px">11:42</div>
+          <div style="flex:1;display:flex;gap:1px">
+            <div style="height:14px;border-radius:2px;flex:12;background:#1a1a1a"></div>
+            <div style="height:14px;border-radius:2px;flex:9;background:#1e3a2f"></div>
+            <div style="height:14px;border-radius:2px;flex:11;background:#1a1a1a"></div>
+          </div>
+        </div>
+
+        <div style="color:#333;font-size:9px">+ Add city &nbsp;·&nbsp; 🟩 business hours &nbsp;·&nbsp; 🟥 now</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Dark mode</h3>
+      <p>Sleek, premium, works great at night. Clock hero dominates, comparison tool slots in below naturally.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="light" onclick="toggleSelect(this)">
+    <div class="card-image" style="font-family:system-ui,sans-serif;background:#fff;padding:0;overflow:hidden">
+
+      <!-- Hero clock section -->
+      <div style="background:#fff;padding:28px 24px 20px;text-align:center;border-bottom:1px solid #f0f0f0">
+        <div style="color:#bbb;font-size:9px;letter-spacing:3px;margin-bottom:6px">COPENHAGEN, DENMARK · CET</div>
+        <div style="color:#111;font-size:56px;font-weight:200;letter-spacing:-3px;line-height:1">17:42<span style="color:#ccc;font-size:32px">:09</span></div>
+        <div style="color:#bbb;font-size:10px;margin-top:6px">Sunday, March 22, 2026</div>
+        <div style="margin-top:14px">
+          <input style="background:#f8f8f8;border:1px solid #eee;color:#666;padding:7px 14px;border-radius:20px;width:180px;font-size:11px;outline:none" placeholder="🔍 Search any city..." />
+        </div>
+      </div>
+
+      <!-- WTB-style comparison widget -->
+      <div style="background:#fafafa;padding:16px 24px">
+        <div style="color:#ccc;font-size:9px;letter-spacing:2px;margin-bottom:10px">COMPARE TIMEZONES</div>
+
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+          <div style="color:#333;font-size:11px;width:90px">🏠 Copenhagen</div>
+          <div style="color:#aaa;font-size:9px;width:32px">17:42</div>
+          <div style="flex:1;display:flex;gap:1px">
+            <div style="height:14px;border-radius:2px;flex:8;background:#f0f0f0"></div>
+            <div style="height:14px;border-radius:2px;flex:9;background:#d4edda"></div>
+            <div style="height:14px;border-radius:2px;flex:7;background:#f0f0f0;position:relative">
+              <div style="position:absolute;top:0;left:30%;width:2px;height:100%;background:#e94560;border-radius:1px"></div>
+            </div>
+          </div>
+        </div>
+
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+          <div style="color:#666;font-size:11px;width:90px">🗼 Tokyo</div>
+          <div style="color:#aaa;font-size:9px;width:32px">01:42</div>
+          <div style="flex:1;display:flex;gap:1px">
+            <div style="height:14px;border-radius:2px;flex:24;background:#f0f0f0"></div>
+            <div style="height:14px;border-radius:2px;flex:8;background:#d4edda"></div>
+            <div style="height:14px;border-radius:2px;flex:4;background:#f0f0f0"></div>
+          </div>
+        </div>
+
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+          <div style="color:#666;font-size:11px;width:90px">🗽 New York</div>
+          <div style="color:#aaa;font-size:9px;width:32px">11:42</div>
+          <div style="flex:1;display:flex;gap:1px">
+            <div style="height:14px;border-radius:2px;flex:12;background:#f0f0f0"></div>
+            <div style="height:14px;border-radius:2px;flex:9;background:#d4edda"></div>
+            <div style="height:14px;border-radius:2px;flex:11;background:#f0f0f0"></div>
+          </div>
+        </div>
+
+        <div style="color:#ccc;font-size:9px">+ Add city &nbsp;·&nbsp; 🟩 business hours &nbsp;·&nbsp; 🔴 now</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Light mode</h3>
+      <p>Clean, Scandinavian, professional. Works for business users. Clock is still massive, comparison tool feels like a natural extension.</p>
+    </div>
+  </div>
+
+</div>

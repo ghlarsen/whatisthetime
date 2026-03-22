@@ -71,6 +71,18 @@ const canonical = `https://whatisthetime.now/when/${timecity}/${dest}`;
   <section class="when-info">
     <p>{description}</p>
   </section>
+
+  <!-- Proton VPN affiliate — contextual for remote workers comparing timezones -->
+  <section class="proton-affiliate">
+    <a
+      href="https://go.getproton.me/aff_c?offer_id=26&aff_id=15505"
+      target="_blank"
+      rel="noopener sponsored"
+      class="proton-link"
+    >
+      Working across timezones? Stay private with Proton VPN →
+    </a>
+  </section>
 </Base>
 
 <style>
@@ -116,5 +128,21 @@ const canonical = `https://whatisthetime.now/when/${timecity}/${dest}`;
     font-size: 12px;
     color: var(--text-muted);
     border-top: 1px solid var(--border);
+  }
+
+  .proton-affiliate {
+    padding: 16px 28px;
+    border-top: 1px solid var(--border);
+  }
+
+  .proton-link {
+    font-size: 11px;
+    color: var(--text-muted);
+    text-decoration: none;
+    letter-spacing: 0.5px;
+  }
+
+  .proton-link:hover {
+    color: var(--text);
   }
 </style>

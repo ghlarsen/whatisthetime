@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>whatisthetime.now — variable font playground</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #0a0a0a;
+    color: #fff;
+    font-family: system-ui, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* NAV */
+  nav {
+    padding: 14px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #151515;
+  }
+  .logo { font-size: 12px; font-weight: 600; letter-spacing: -0.3px; opacity: 0.5; }
+
+  /* CLOCK HERO */
+  .clock-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 40px 28px 20px;
+    text-align: left;
+  }
+
+  .city-label {
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: #444;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  #clock {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: clamp(60px, 18vw, 260px);
+    line-height: 0.9;
+    letter-spacing: -0.02em;
+    font-variation-settings: 'wght' 800, 'opsz' 50;
+    transition: font-variation-settings 0.1s;
+    cursor: default;
+    font-variant-numeric: tabular-nums;
+    /* fill the width */
+    width: 100%;
+    text-align: left;
+  }
+
+  .date-line {
+    font-size: 11px;
+    color: #333;
+    margin-top: 16px;
+    letter-spacing: 1px;
+  }
+
+  /* CONTROLS */
+  .controls {
+    padding: 24px 28px 20px;
+    border-top: 1px solid #111;
+    background: #0a0a0a;
+  }
+
+  .control-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 14px;
+  }
+
+  .control-label {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #444;
+    text-transform: uppercase;
+    width: 80px;
+    flex-shrink: 0;
+  }
+
+  .slider {
+    flex: 1;
+    -webkit-appearance: none;
+    height: 2px;
+    background: #222;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+  }
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    transition: transform 0.1s;
+  }
+  .slider::-webkit-slider-thumb:hover { transform: scale(1.3); }
+
+  .slider-val {
+    font-size: 11px;
+    color: #444;
+    width: 36px;
+    text-align: right;
+    flex-shrink: 0;
+  }
+
+  /* COLOR ROW */
+  .color-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+  .color-swatch {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: transform 0.15s, border-color 0.15s;
+  }
+  .color-swatch:hover { transform: scale(1.2); }
+  .color-swatch.active { border-color: #fff; transform: scale(1.15); }
+
+  /* EMBED CTA */
+  .embed-cta {
+    margin-top: 4px;
+    padding: 10px 16px;
+    background: #0d1a0d;
+    border: 1px solid #1a3a1a;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .embed-cta:hover { background: #112211; }
+  .embed-cta-text { font-size: 11px; color: #4caf50; }
+  .embed-cta-sub { font-size: 10px; color: #2a4a2a; margin-top: 2px; }
+  .embed-btn {
+    font-size: 10px;
+    background: #1e4a1e;
+    color: #4caf50;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+    letter-spacing: 1px;
+  }
+
+  .bg-dark { background: #0a0a0a !important; }
+  .bg-warm { background: #0f0a05 !important; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">whatisthetime.now</div>
+  <div style="font-size:10px;color:#333;letter-spacing:2px">MAKE IT YOURS</div>
+</nav>
+
+<div class="clock-section" id="bg">
+  <div class="city-label">Copenhagen, Denmark · CET (UTC+1)</div>
+  <div id="clock">00:00:00</div>
+  <div class="date-line" id="dateline">Sunday, March 22, 2026</div>
+</div>
+
+<div class="controls">
+
+  <!-- Weight slider -->
+  <div class="control-row">
+    <div class="control-label">Weight</div>
+    <input type="range" class="slider" id="weight" min="200" max="800" value="800"
+      oninput="update()">
+    <div class="slider-val" id="weight-val">800</div>
+  </div>
+
+  <!-- Optical size slider -->
+  <div class="control-row">
+    <div class="control-label">Optical</div>
+    <input type="range" class="slider" id="opsz" min="12" max="96" value="50"
+      oninput="update()">
+    <div class="slider-val" id="opsz-val">96</div>
+  </div>
+
+  <!-- Letter spacing -->
+  <div class="control-row">
+    <div class="control-label">Spacing</div>
+    <input type="range" class="slider" id="spacing" min="-1" max="3" step="0.1" value="0"
+      oninput="update()">
+    <div class="slider-val" id="spacing-val">-2</div>
+  </div>
+
+  <!-- Color -->
+  <div class="color-row">
+    <div class="control-label">Color</div>
+    <div class="color-swatch active" style="background:#ffffff" onclick="setColor('#ffffff',this)" title="White"></div>
+    <div class="color-swatch" style="background:#00ff88" onclick="setColor('#00ff88',this)" title="Matrix green"></div>
+    <div class="color-swatch" style="background:#e94560" onclick="setColor('#e94560',this)" title="Red"></div>
+    <div class="color-swatch" style="background:#60a0ff" onclick="setColor('#60a0ff',this)" title="Blue"></div>
+    <div class="color-swatch" style="background:#ffcc00" onclick="setColor('#ffcc00',this)" title="Gold"></div>
+    <div class="color-swatch" style="background:#ff6b35" onclick="setColor('#ff6b35',this)" title="Orange"></div>
+    <div class="color-swatch" style="background:#c084fc" onclick="setColor('#c084fc',this)" title="Purple"></div>
+  </div>
+
+  <!-- Embed CTA — the money maker -->
+  <div class="embed-cta" onclick="showEmbed()">
+    <div>
+      <div class="embed-cta-text">✨ Love this look? Embed it on your site</div>
+      <div class="embed-cta-sub">Free widget · your custom style · one line of code</div>
+    </div>
+    <button class="embed-btn">GET WIDGET →</button>
+  </div>
+
+</div>
+
+<script>
+const clock = document.getElementById('clock');
+
+function pad(n){ return String(n).padStart(2,'0'); }
+
+function tick() {
+  const now = new Date();
+  clock.textContent = `${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;
+}
+tick();
+setInterval(tick, 1000);
+
+function update() {
+  const w = document.getElementById('weight').value;
+  const o = document.getElementById('opsz').value;
+  const s = document.getElementById('spacing').value;
+  clock.style.fontVariationSettings = `'wght' ${w}, 'opsz' ${o}`;
+  clock.style.letterSpacing = `${s/100}em`;
+  document.getElementById('weight-val').textContent = w;
+  document.getElementById('opsz-val').textContent = o;
+  document.getElementById('spacing-val').textContent = parseFloat(s).toFixed(1);
+}
+
+function setColor(color, el) {
+  clock.style.color = color;
+  document.querySelectorAll('.color-swatch').forEach(s => s.classList.remove('active'));
+  el.classList.add('active');
+}
+
+function showEmbed() {
+  const w = document.getElementById('weight').value;
+  const s = document.getElementById('spacing').value;
+  const color = clock.style.color || '#ffffff';
+  const code = `<script src="https://whatisthetime.now/widget.js?city=copenhagen&weight=${w}&color=${encodeURIComponent(color)}"><\/script>`;
+  alert(`Your widget code:\n\n${code}\n\nPaste this anywhere on your site.`);
+}
+
+update();
+</script>
+</body>
+</html>

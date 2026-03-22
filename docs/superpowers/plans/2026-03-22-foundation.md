@@ -4,9 +4,9 @@
 
 **Goal:** Ship a working world time site with city pages, a live ticking clock, dark/light toggle, timezone comparison widget, `/when/` time conversion routes, basic SEO, and Google AdSense.
 
-**Architecture:** Astro `output: 'hybrid'` with `@astrojs/cloudflare` adapter. Top-500 city pages are statically pre-rendered at build time. The `/when/[timecity]/[dest]` routes are edge-SSR (too many combinations to pre-build). Client-side JS handles the ticking clock, comparison widget state, and theme toggle. No React/Vue — vanilla JS only for client behavior.
+**Architecture:** Astro `output: 'static'` (Astro 6 unified mode) with `@astrojs/cloudflare` adapter. Default is static — SSR routes opt out with `export const prerender = false`. Top-500 city pages prerender at build time (default). The `/when/[timecity]/[dest]` routes and homepage use `export const prerender = false` for edge-SSR. Client-side JS handles the ticking clock, comparison widget state, and theme toggle. No React/Vue — vanilla JS only for client behavior.
 
-**Tech Stack:** Astro 4, `@astrojs/cloudflare`, TypeScript, Vitest, `@vvo/tzdb` (city→IANA mapping), `Intl.DateTimeFormat` (offset/DST, built-in), Bricolage Grotesque variable font (Google Fonts), Cloudflare Pages.
+**Tech Stack:** Astro 6, `@astrojs/cloudflare`, TypeScript, Vitest, `@vvo/tzdb` (city→IANA mapping), `Intl.DateTimeFormat` (offset/DST, built-in), Bricolage Grotesque variable font (Google Fonts), Cloudflare Pages.
 
 **Spec:** `docs/superpowers/specs/2026-03-22-whatisthetime-design.md`
 
@@ -86,7 +86,7 @@ import { defineConfig } from 'astro/config';
 import cloudflare from '@astrojs/cloudflare';
 
 export default defineConfig({
-  output: 'hybrid',
+  output: 'static',  // Astro 6: default static, SSR pages opt out with prerender = false
   adapter: cloudflare(),
   site: 'https://whatisthetime.now',
 });
@@ -111,10 +111,9 @@ export default defineConfig({
 ```toml
 # wrangler.toml
 name = "whatisthetime"
-compatibility_date = "2024-01-01"
-
-[site]
-bucket = "./dist"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = "./dist"
 ```
 
 - [ ] **Step 6: Add npm test script to package.json**
@@ -1192,11 +1191,150 @@ git commit -m "feat: worldtimebuddy-style comparison widget"
 
 ---
 
+## Content Rules for AI Agents (.md Routes)
+
+Every city page and `/when/` page exposes a `.md` version for AI crawlers. These follow these rules:
+
+**Universal:**
+- Every sentence must contain a specific fact (UTC offset, IANA name, DST date, city name, hour difference). No filler.
+- First sentence directly answers the page title question.
+- UTC offset written as both label and season-qualified: `UTC+1 (CET in winter, CEST in summer)`.
+- DST: if observed, specific dates for current year. If not: "does not observe daylight saving time."
+- IANA timezone name always present (e.g. `Europe/Copenhagen`, not just "European timezone").
+- Entity consistency: city name and IANA name identical throughout the document.
+
+**City `.md` structure:**
+1. Opening sentence: city + IANA zone + UTC label + DST status
+2. DST section: current-year dates (computed from Intl probe, not hardcoded)
+3. Shared timezone cities: list of other cities in the same IANA zone (derived from cities.ts)
+4. FAQ: 3 questions — "What timezone is X in?", "What is the UTC offset for X?", "What time is it in X right now?"
+
+**`/when/` `.md` structure:**
+1. Opening sentence: direct answer "When it's Xam in OriginCity (UTC+N), it's Y in DestCity (UTC+M)."
+2. Time difference section: UTC offsets for both, hour difference, DST note if one observes and other doesn't
+3. FAQ: 2 questions — exact search query phrasing, plus "How many hours ahead is X from Y?"
+
+---
+
 ## Task 7: City Pages (Static, 500 Cities)
 
 **Files:**
 - Modify: `src/pages/index.astro` (auto-detect city via CF header)
 - Create: `src/pages/[city].astro`
+- Modify: `src/lib/timezone.ts` (add `getDSTTransitions`)
+- Create: `src/pages/[city].md.ts`
+
+- [ ] **Step 0a: Add `getDSTTransitions` to src/lib/timezone.ts**
+
+This function probes the Intl API to find DST transition dates for a given timezone and year. Add it to `src/lib/timezone.ts`:
+
+```ts
+export interface DSTTransitions {
+  hasDST: boolean;
+  start: Date | null; // date clocks spring forward
+  end: Date | null;   // date clocks fall back
+}
+
+export function getDSTTransitions(timezone: string, year: number): DSTTransitions {
+  const janOffset = getUtcOffsetMinutes(timezone, new Date(year, 0, 15));
+  const julOffset = getUtcOffsetMinutes(timezone, new Date(year, 6, 15));
+
+  if (janOffset === julOffset) return { hasDST: false, start: null, end: null };
+
+  // Northern hemisphere: offset higher in July (summer forward)
+  // Southern hemisphere: offset higher in January
+  const isNorthern = julOffset > janOffset;
+
+  // Probe month ranges for the transition
+  const springMonths = isNorthern ? [2, 3] : [8, 9, 10]; // Mar-Apr or Sep-Nov
+  const fallMonths   = isNorthern ? [9, 10] : [3, 4];    // Oct-Nov or Mar-Apr
+
+  function findTransition(months: number[]): Date | null {
+    for (const month of months) {
+      const daysInMonth = new Date(year, month + 1, 0).getDate();
+      for (let day = 1; day < daysInMonth; day++) {
+        const before = getUtcOffsetMinutes(timezone, new Date(year, month, day,  1, 0));
+        const after  = getUtcOffsetMinutes(timezone, new Date(year, month, day + 1, 1, 0));
+        if (before !== after) return new Date(year, month, day + 1);
+      }
+    }
+    return null;
+  }
+
+  return {
+    hasDST: true,
+    start: findTransition(springMonths),
+    end:   findTransition(fallMonths),
+  };
+}
+```
+
+Run `npm run build` to confirm no TS errors before continuing.
+
+- [ ] **Step 0b: Create src/pages/[city].md.ts — AI agent markdown endpoint**
+
+```ts
+// src/pages/[city].md.ts
+export const prerender = true;
+
+import type { APIRoute, GetStaticPaths } from 'astro';
+import cities from '../data/cities.ts';
+import { getCurrentTime, formatUtcOffset, getDSTTransitions } from '../lib/timezone.ts';
+
+export const getStaticPaths: GetStaticPaths = () =>
+  cities.map(city => ({ params: { city: city.slug } }));
+
+export const GET: APIRoute = ({ params }) => {
+  const city = cities.find(c => c.slug === params.city);
+  if (!city) return new Response('Not found', { status: 404 });
+
+  const time = getCurrentTime(city.timezone);
+  const utcLabel = formatUtcOffset(time.utcOffsetMinutes);
+  const year = new Date().getFullYear();
+  const dst = getDSTTransitions(city.timezone, year);
+
+  const dstSentence = dst.hasDST && dst.start && dst.end
+    ? `In ${year}, clocks advance on ${dst.start.toLocaleDateString('en-US', { month: 'long', day: 'numeric' })} and revert on ${dst.end.toLocaleDateString('en-US', { month: 'long', day: 'numeric' })}.`
+    : `${city.name} does not observe daylight saving time.`;
+
+  // Co-zone cities (same IANA zone, excluding this city, max 8)
+  const coZone = cities
+    .filter(c => c.timezone === city.timezone && c.slug !== city.slug)
+    .slice(0, 8)
+    .map(c => c.name)
+    .join(', ');
+
+  const utcSummer = dst.hasDST
+    ? ` During summer, the offset shifts to ${formatUtcOffset(time.utcOffsetMinutes + 60)}.`
+    : '';
+
+  const md = `# What time is it in ${city.name}?
+
+${city.name} uses the ${city.timezone} timezone (${utcLabel}). ${dstSentence}
+
+## Cities sharing the ${city.timezone} timezone
+
+${coZone || 'No other major cities share this exact IANA timezone zone.'} All cities in this group observe the same timezone rules.
+
+## Frequently Asked Questions
+
+### What timezone is ${city.name} in?
+${city.name} is in the ${city.timezone} timezone (${utcLabel}).${utcSummer}
+
+### What is the UTC offset for ${city.name}?
+${city.name} is currently ${utcLabel}. The IANA timezone identifier is ${city.timezone}.
+
+### What time is it in ${city.name} right now?
+The current local time in ${city.name} is shown live at whatisthetime.now/${city.slug}.
+`;
+
+  return new Response(md, {
+    headers: { 'Content-Type': 'text/markdown; charset=utf-8' },
+  });
+};
+```
+
+Run `npm run build`. Expected: 990 `.md` static pages generated alongside the HTML pages.
 
 - [ ] **Step 1: Create [city].astro**
 
@@ -1234,7 +1372,7 @@ const canonical = `https://whatisthetime.now/${city.slug}`;
 <Base title={title} description={description} canonical={canonical}>
   <Nav />
   <ClockHero city={city} />
-  <ComparisonWidget defaultCities={['copenhagen', 'tokyo', 'new-york', 'london']} />
+  <ComparisonWidget defaultCities={['copenhagen', 'tokyo', 'new-york-city', 'london']} />
 
   <!-- Static copy for SEO -->
   <section class="city-info">
@@ -1288,7 +1426,7 @@ const city = getCityBySlug(defaultSlug) ?? cities[0]!;
 >
   <Nav />
   <ClockHero city={city} />
-  <ComparisonWidget defaultCities={['copenhagen', 'tokyo', 'new-york', 'london']} />
+  <ComparisonWidget defaultCities={['copenhagen', 'tokyo', 'new-york-city', 'london']} />
 </Base>
 ```
 
@@ -1462,6 +1600,69 @@ Navigate to:
 
 Check: correct time displayed, day offset shown where applicable, 404 on `http://localhost:4321/when/badslug/tokyo`.
 
+- [ ] **Step 2b: Create src/pages/when/[timecity]/[dest].md.ts — AI agent markdown endpoint**
+
+Edge SSR, no prerender. Uses same libs as the main route.
+
+```ts
+// src/pages/when/[timecity]/[dest].md.ts
+// Edge SSR — no prerender directive
+
+import type { APIRoute } from 'astro';
+import { getCityBySlug, formatUtcOffset, getUtcOffsetMinutes } from '../../../lib/timezone.ts';
+import { parseTimecitySegment, timeTokenToHour, convertHour, formatConvertedTime } from '../../../lib/when.ts';
+
+export const GET: APIRoute = ({ params }) => {
+  const { timecity, dest } = params;
+
+  const parsed = parseTimecitySegment(timecity ?? '');
+  if (!parsed) return new Response('Not found', { status: 404 });
+
+  const originCity = getCityBySlug(parsed.citySlug);
+  const destCity   = getCityBySlug(dest ?? '');
+  if (!originCity || !destCity) return new Response('City not found', { status: 404 });
+
+  const originOffset = getUtcOffsetMinutes(originCity.timezone);
+  const destOffset   = getUtcOffsetMinutes(destCity.timezone);
+  const originHour   = timeTokenToHour(parsed.timeToken);
+  const converted    = convertHour({ hour: originHour, fromOffsetMinutes: originOffset, toOffsetMinutes: destOffset });
+  const destTimeToken = formatConvertedTime(converted);
+
+  const originUtcLabel = formatUtcOffset(originOffset);
+  const destUtcLabel   = formatUtcOffset(destOffset);
+  const diffMinutes    = destOffset - originOffset;
+  const diffHours      = diffMinutes / 60;
+  const aheadBehind    = diffHours >= 0 ? `${diffHours} hours ahead of` : `${Math.abs(diffHours)} hours behind`;
+
+  const dayOffsetNote = converted.dayOffset === 1
+    ? ' (the next day)'
+    : converted.dayOffset === -1
+    ? ' (the previous day)'
+    : '';
+
+  const md = `# ${parsed.timeToken} in ${originCity.name} = ${destTimeToken} in ${destCity.name}
+
+When it is ${parsed.timeToken} in ${originCity.name} (${originUtcLabel}), it is ${destTimeToken}${dayOffsetNote} in ${destCity.name} (${destUtcLabel}). ${destCity.name} is ${aheadBehind} ${originCity.name}.
+
+## Time difference: ${originCity.name} and ${destCity.name}
+
+${originCity.name} operates on ${originCity.timezone} (${originUtcLabel}). ${destCity.name} operates on ${destCity.timezone} (${destUtcLabel}). The offset between them is ${Math.abs(diffHours)} hours.
+
+## Frequently Asked Questions
+
+### What time is it in ${destCity.name} when it's ${parsed.timeToken} in ${originCity.name}?
+When it is ${parsed.timeToken} in ${originCity.name} (${originUtcLabel}), it is ${destTimeToken}${dayOffsetNote} in ${destCity.name} (${destUtcLabel}).
+
+### How many hours ahead is ${destCity.name} from ${originCity.name}?
+${destCity.name} is ${aheadBehind} ${originCity.name} (${Math.abs(diffHours)} hours difference).
+`;
+
+  return new Response(md, {
+    headers: { 'Content-Type': 'text/markdown; charset=utf-8' },
+  });
+};
+```
+
 - [ ] **Step 3: Commit**
 
 ```bash
@@ -1471,11 +1672,13 @@ git commit -m "feat: /when/ time conversion routes with edge SSR"
 
 ---
 
-## Task 9: Sitemap + SEO Metadata
+## Task 9: Sitemap + SEO Metadata + AI Agent Files
 
 **Files:**
 - Create: `src/pages/sitemap.xml.ts`
 - Modify: `src/layouts/Base.astro` (add JSON-LD)
+- Create: `src/pages/llms.txt.ts`
+- Create: `public/robots.txt`
 
 - [ ] **Step 1: Create sitemap endpoint**
 
@@ -1527,11 +1730,84 @@ npm run build && npm run preview
 
 Navigate to `http://localhost:4321/sitemap.xml`. Check: valid XML, contains `<url>` entries for city pages.
 
+- [ ] **Step 3b: Create src/pages/llms.txt.ts**
+
+```ts
+// src/pages/llms.txt.ts
+export const prerender = true;
+
+import type { APIRoute } from 'astro';
+import cities from '../data/cities.ts';
+
+export const GET: APIRoute = () => {
+  const sample = cities.slice(0, 20).map(c => `- /${c.slug} — ${c.name} (${c.timezone})`).join('\n');
+
+  const content = `# whatisthetime.now
+
+Live world clock for ${cities.length} cities. Shows current local time, timezone comparison, and time conversions between cities.
+
+## What This Site Does
+
+- /[city-slug] — Current local time for that city (live clock, ticks every second)
+- /when/[time]-[origin]/[destination] — Converts a time between two cities
+- /[city-slug].md — Markdown timezone facts for AI agents
+- /when/[time]-[origin]/[destination].md — Markdown time conversion facts for AI agents
+
+## Coverage
+
+${cities.length} cities across all IANA timezone zones. City slugs are lowercase hyphenated (new-york-city, sao-paulo, kuala-lumpur).
+
+## Example City Pages
+
+${sample}
+
+## Time Conversion Examples
+
+- /when/9am-copenhagen/tokyo — 9am Copenhagen → Tokyo
+- /when/5pm-new-york-city/london — 5pm New York → London
+- /when/12pm-sydney/berlin — 12pm Sydney → Berlin
+
+## URL Rules
+
+Time token format: [hour][am|pm] (e.g. 9am, 11pm, 12pm). Hours 1–12 only.
+City slugs: lowercase, hyphenated, no diacritics.
+`;
+
+  return new Response(content, {
+    headers: { 'Content-Type': 'text/plain; charset=utf-8' },
+  });
+};
+```
+
+- [ ] **Step 3c: Create public/robots.txt**
+
+```
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://whatisthetime.now/sitemap.xml
+```
+
 - [ ] **Step 4: Commit**
 
 ```bash
-git add src/pages/sitemap.xml.ts src/layouts/Base.astro
-git commit -m "feat: sitemap.xml and JSON-LD structured data"
+git add src/pages/sitemap.xml.ts src/layouts/Base.astro src/pages/llms.txt.ts public/robots.txt
+git commit -m "feat: sitemap, JSON-LD, llms.txt, and robots.txt for AI agents"
 ```
 
 ---

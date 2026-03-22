@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>whatisthetime.now — toggle demo</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; transition: background 0.3s, color 0.3s, border-color 0.3s; }
+
+  body { font-family: system-ui, -apple-system, sans-serif; }
+
+  /* DARK */
+  body.dark { background: #0a0a0a; color: #fff; }
+  body.dark .site-header { background: #0a0a0a; border-bottom: 1px solid #1a1a1a; }
+  body.dark .city-label { color: #555; }
+  body.dark .seconds { color: #333; }
+  body.dark .date-line { color: #444; }
+  body.dark .search-input { background: #111; border-color: #222; color: #aaa; }
+  body.dark .compare-section { background: #0f0f0f; border-top: 1px solid #1a1a1a; }
+  body.dark .compare-label { color: #444; }
+  body.dark .city-name { color: #fff; }
+  body.dark .city-name.dim { color: #888; }
+  body.dark .time-val { color: #555; }
+  body.dark .bar-empty { background: #1a1a1a; }
+  body.dark .bar-work { background: #1e3a2f; }
+  body.dark .footer-hint { color: #333; }
+  body.dark .toggle-btn { background: #1a1a1a; color: #888; border-color: #333; }
+  body.dark .clock-main { color: #fff; }
+  body.dark .dst-pill { background: #1a1a1a; color: #666; }
+
+  /* LIGHT */
+  body.light { background: #fff; color: #111; }
+  body.light .site-header { background: #fff; border-bottom: 1px solid #f0f0f0; }
+  body.light .city-label { color: #bbb; }
+  body.light .seconds { color: #ccc; }
+  body.light .date-line { color: #bbb; }
+  body.light .search-input { background: #f8f8f8; border-color: #eee; color: #666; }
+  body.light .compare-section { background: #fafafa; border-top: 1px solid #f0f0f0; }
+  body.light .compare-label { color: #ccc; }
+  body.light .city-name { color: #222; }
+  body.light .city-name.dim { color: #888; }
+  body.light .time-val { color: #bbb; }
+  body.light .bar-empty { background: #f0f0f0; }
+  body.light .bar-work { background: #d4edda; }
+  body.light .footer-hint { color: #ccc; }
+  body.light .toggle-btn { background: #f5f5f5; color: #888; border-color: #eee; }
+  body.light .clock-main { color: #111; }
+  body.light .dst-pill { background: #f5f5f5; color: #aaa; }
+
+  /* LAYOUT */
+  .site-header { padding: 12px 20px; display: flex; justify-content: space-between; align-items: center; }
+  .logo { font-size: 13px; font-weight: 600; letter-spacing: -0.5px; }
+  .logo span { opacity: 0.4; }
+  .toggle-btn { border: 1px solid; border-radius: 20px; padding: 5px 12px; font-size: 11px; cursor: pointer; }
+
+  .hero { padding: 40px 24px 32px; text-align: center; }
+  .city-label { font-size: 10px; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 8px; }
+  .clock-main { font-size: 80px; font-weight: 100; letter-spacing: -5px; line-height: 1; }
+  .seconds { font-size: 44px; font-weight: 100; }
+  .date-line { font-size: 11px; margin-top: 8px; }
+  .search-wrap { margin-top: 20px; }
+  .search-input { border: 1px solid; border-radius: 24px; padding: 9px 18px; width: 220px; font-size: 12px; outline: none; }
+  .dst-pill { display: inline-block; margin-top: 14px; border-radius: 12px; padding: 4px 12px; font-size: 10px; }
+
+  .compare-section { padding: 20px 24px 16px; }
+  .compare-label { font-size: 9px; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 14px; }
+
+  .city-row { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+  .city-name { font-size: 12px; width: 100px; }
+  .time-val { font-size: 10px; width: 36px; }
+  .bars { flex: 1; display: flex; gap: 2px; height: 16px; border-radius: 3px; overflow: hidden; position: relative; }
+  .bar-empty { flex: 1; height: 100%; }
+  .bar-work { flex: 1; height: 100%; }
+  .now-line { position: absolute; top: 0; left: 73%; width: 2px; height: 100%; background: #e94560; border-radius: 1px; }
+
+  .footer-hint { font-size: 10px; margin-top: 14px; }
+  .add-city { color: #0066cc; font-size: 11px; cursor: pointer; }
+</style>
+</head>
+<body class="dark">
+
+<div class="site-header">
+  <div class="logo">whatisthetime<span>.now</span></div>
+  <button class="toggle-btn" onclick="toggleMode()">☀️ light mode</button>
+</div>
+
+<div class="hero">
+  <div class="city-label">Copenhagen, Denmark · CET (UTC+1)</div>
+  <div class="clock-main" id="clock">17:42<span class="seconds">:09</span></div>
+  <div class="date-line">Sunday, March 22, 2026</div>
+  <div class="search-wrap">
+    <input class="search-input" placeholder="🔍 Search any city or timezone..." />
+  </div>
+  <div class="dst-pill">⏰ DST in 6 days — clocks go forward Mar 29</div>
+</div>
+
+<div class="compare-section">
+  <div class="compare-label">Compare timezones</div>
+
+  <div class="city-row">
+    <div class="city-name">🏠 Copenhagen</div>
+    <div class="time-val">17:42</div>
+    <div class="bars">
+      <div class="bar-empty" style="flex:8"></div>
+      <div class="bar-work" style="flex:9"></div>
+      <div class="bar-empty" style="flex:7"><div class="now-line"></div></div>
+    </div>
+  </div>
+
+  <div class="city-row">
+    <div class="city-name dim">🗼 Tokyo</div>
+    <div class="time-val">01:42</div>
+    <div class="bars">
+      <div class="bar-empty" style="flex:24"></div>
+      <div class="bar-work" style="flex:8"></div>
+      <div class="bar-empty" style="flex:4"></div>
+    </div>
+  </div>
+
+  <div class="city-row">
+    <div class="city-name dim">🗽 New York</div>
+    <div class="time-val">11:42</div>
+    <div class="bars">
+      <div class="bar-empty" style="flex:12"></div>
+      <div class="bar-work" style="flex:9"></div>
+      <div class="bar-empty" style="flex:11"></div>
+    </div>
+  </div>
+
+  <div class="city-row">
+    <div class="city-name dim">🇬🇧 London</div>
+    <div class="time-val">16:42</div>
+    <div class="bars">
+      <div class="bar-empty" style="flex:8"></div>
+      <div class="bar-work" style="flex:9"></div>
+      <div class="bar-empty" style="flex:7"></div>
+    </div>
+  </div>
+
+  <div class="footer-hint">
+    <span class="add-city">+ Add city</span>
+    &nbsp;·&nbsp; 🟩 business hours &nbsp;·&nbsp; 🔴 now
+  </div>
+</div>
+
+<script>
+function toggleMode() {
+  const body = document.body;
+  const btn = document.querySelector('.toggle-btn');
+  if (body.classList.contains('dark')) {
+    body.classList.replace('dark', 'light');
+    btn.textContent = '🌙 dark mode';
+  } else {
+    body.classList.replace('light', 'dark');
+    btn.textContent = '☀️ light mode';
+  }
+}
+
+// Live clock
+function tick() {
+  const now = new Date();
+  const h = String(now.getHours()).padStart(2,'0');
+  const m = String(now.getMinutes()).padStart(2,'0');
+  const s = String(now.getSeconds()).padStart(2,'0');
+  document.getElementById('clock').innerHTML = `${h}:${m}<span class="seconds">:${s}</span>`;
+}
+tick();
+setInterval(tick, 1000);
+</script>
+</body>
+</html>

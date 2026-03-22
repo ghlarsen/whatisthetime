@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Font showdown</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Unbounded:wght@900&family=Archivo+Black&family=Geist:wght@900&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0a0a0a; color: #fff; }
+
+  .font-block {
+    padding: 40px 32px 28px;
+    border-bottom: 1px solid #111;
+    cursor: pointer;
+    transition: background 0.2s;
+    position: relative;
+  }
+  .font-block:hover { background: #0f0f0f; }
+  .font-block.selected { background: #0d1a0d; border-left: 3px solid #00ff88; }
+
+  .font-label {
+    font-family: system-ui, sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: #444;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .font-block.selected .font-label { color: #00ff88; }
+
+  .clock-display {
+    line-height: 0.9;
+    color: #fff;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .font-sub {
+    font-family: system-ui, sans-serif;
+    font-size: 10px;
+    color: #333;
+    margin-top: 10px;
+  }
+
+  .select-badge {
+    position: absolute;
+    top: 40px;
+    right: 32px;
+    font-family: system-ui, sans-serif;
+    font-size: 10px;
+    color: #00ff88;
+    display: none;
+  }
+  .font-block.selected .select-badge { display: block; }
+
+  /* Font styles */
+  .f-bricolage { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; }
+  .f-unbounded  { font-family: 'Unbounded', sans-serif; font-weight: 900; }
+  .f-archivo    { font-family: 'Archivo Black', sans-serif; font-weight: 900; }
+  .f-geist      { font-family: 'Geist', sans-serif; font-weight: 900; }
+  .f-mono       { font-family: 'Space Mono', monospace; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div style="font-family:system-ui;font-size:11px;color:#333;padding:16px 32px;border-bottom:1px solid #111;letter-spacing:2px">
+  FONT SHOWDOWN — CLICK TO SELECT YOUR FAVOURITE
+</div>
+
+<!-- Bricolage Grotesque -->
+<div class="font-block" onclick="selectFont(this,'bricolage')">
+  <div class="font-label">Bricolage Grotesque ExtraBold — 🔥 most trendy right now</div>
+  <div class="clock-display f-bricolage" id="c1" style="font-size:clamp(60px,12vw,160px)">00:00:00</div>
+  <div class="font-sub">Variable font · slightly quirky · warm grotesque · everyone in design is using this</div>
+  <div class="select-badge">✓ SELECTED</div>
+</div>
+
+<!-- Unbounded -->
+<div class="font-block" onclick="selectFont(this,'unbounded')">
+  <div class="font-label">Unbounded Black — 💀 most aggressive / brutalist</div>
+  <div class="clock-display f-unbounded" id="c2" style="font-size:clamp(48px,9vw,120px)">00:00:00</div>
+  <div class="font-sub">Super wide · extremely heavy · takes up ALL the space · almost violent</div>
+  <div class="select-badge">✓ SELECTED</div>
+</div>
+
+<!-- Archivo Black -->
+<div class="font-block" onclick="selectFont(this,'archivo')">
+  <div class="font-label">Archivo Black — ⚡ pure mass, zero fuss</div>
+  <div class="clock-display f-archivo" id="c3" style="font-size:clamp(60px,12vw,160px)">00:00:00</div>
+  <div class="font-sub">No personality, just weight · extremely readable · the workhorse heavy font</div>
+  <div class="select-badge">✓ SELECTED</div>
+</div>
+
+<!-- Geist -->
+<div class="font-block" onclick="selectFont(this,'geist')">
+  <div class="font-label">Geist Black — 🤍 ultra clean, very 2025 tech</div>
+  <div class="clock-display f-geist" id="c4" style="font-size:clamp(60px,12vw,160px)">00:00:00</div>
+  <div class="font-sub">Vercel's font · Swiss-influenced · geometric precision · startup aesthetic</div>
+  <div class="select-badge">✓ SELECTED</div>
+</div>
+
+<!-- Space Mono -->
+<div class="font-block" onclick="selectFont(this,'mono')">
+  <div class="font-label">Space Mono Bold — 🖥️ terminal / clock energy</div>
+  <div class="clock-display f-mono" id="c5" style="font-size:clamp(52px,10vw,140px)">00:00:00</div>
+  <div class="font-sub">Monospace · equal-width digits (no jumping!) · feels like a real clock</div>
+  <div class="select-badge">✓ SELECTED</div>
+</div>
+
+<script>
+function pad(n){ return String(n).padStart(2,'0'); }
+
+function tick() {
+  const now = new Date();
+  const t = `${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;
+  for(let i=1;i<=5;i++) document.getElementById('c'+i).textContent = t;
+}
+tick();
+setInterval(tick, 1000);
+
+function selectFont(el, name) {
+  document.querySelectorAll('.font-block').forEach(b => b.classList.remove('selected'));
+  el.classList.add('selected');
+  // Report selection
+  if(window.__superpowers_helper) {
+    window.__superpowers_helper.recordChoice(name, el.querySelector('.font-label').textContent);
+  }
+}
+</script>
+</body>
+</html>
