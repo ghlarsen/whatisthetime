@@ -15,6 +15,15 @@ const { title, description = 'World clock. What time is it anywhere.', canonical
   <title>{title}</title>
   {description && <meta name="description" content={description} />}
   {canonical && <link rel="canonical" href={canonical} />}
+  {canonical && (
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": title,
+      "description": description,
+      "url": canonical,
+    })} />
+  )}
 
   <!-- Prevent theme flash: read localStorage before paint -->
   <script is:inline>
