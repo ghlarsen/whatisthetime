@@ -1,0 +1,184 @@
+---
+// src/components/ComparisonWidget.astro
+import { getCityBySlug, getCurrentTime } from '../lib/timezone.ts';
+
+export interface Props {
+  defaultCities: string[]; // slugs
+}
+
+const { defaultCities } = Astro.props;
+
+// Compute default city data server-side for initial render
+const defaultData = defaultCities.map(slug => {
+  const city = getCityBySlug(slug);
+  if (!city) return null;
+  const t = getCurrentTime(city.timezone);
+  const pad = (n: number) => String(n).padStart(2, '0');
+  return {
+    slug: city.slug,
+    name: city.name,
+    timezone: city.timezone,
+    displayTime: `${pad(t.hours)}:${pad(t.minutes)}`,
+    utcOffsetMinutes: t.utcOffsetMinutes,
+  };
+}).filter(Boolean);
+---
+
+<section class="compare-section" id="compare-section">
+  <div class="compare-label">Compare timezones</div>
+
+  <div id="city-rows">
+    {defaultData.map(d => (
+      <div class="city-row" data-timezone={d!.timezone} data-slug={d!.slug}>
+        <div class="city-name">{d!.name}</div>
+        <div class="time-val">{d!.displayTime}</div>
+        <div class="bar-wrap">
+          <div class="bar-track" data-utc-offset={d!.utcOffsetMinutes}></div>
+        </div>
+      </div>
+    ))}
+  </div>
+
+  <div class="footer-row">
+    <button class="add-city-btn" id="add-city-btn">+ Add city</button>
+    <span class="legend">🟩 business hours &nbsp;·&nbsp; 🔴 now</span>
+  </div>
+</section>
+
+<style>
+  .compare-section {
+    padding: 24px 28px 20px;
+    background: var(--bg-subtle);
+    border-top: 1px solid var(--border);
+  }
+
+  .compare-label {
+    font-size: 9px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 14px;
+  }
+
+  .city-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+  }
+
+  .city-name {
+    font-size: 12px;
+    color: var(--text);
+    width: 110px;
+    flex-shrink: 0;
+  }
+
+  .time-val {
+    font-size: 10px;
+    color: var(--text-muted);
+    width: 36px;
+    flex-shrink: 0;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .bar-wrap {
+    flex: 1;
+    height: 14px;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .bar-track {
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+
+  .bar-seg { height: 100%; }
+  .bar-seg.off  { background: var(--bar-empty); }
+  .bar-seg.work { background: var(--bar-work); }
+  .now-line {
+    position: absolute;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: #e94560;
+    border-radius: 1px;
+  }
+
+  .footer-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 6px;
+  }
+
+  .add-city-btn {
+    background: none;
+    border: none;
+    color: #0066cc;
+    font-size: 11px;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .legend { font-size: 9px; color: var(--text-muted); }
+</style>
+
+<script>
+  function drawBars() {
+    const rows = document.querySelectorAll<HTMLElement>('.city-row');
+    const now = new Date();
+    const nowUtcMinutes = now.getUTCHours() * 60 + now.getUTCMinutes();
+
+    rows.forEach(row => {
+      const utcOffset = parseInt(row.querySelector<HTMLElement>('.bar-track')!.dataset.utcOffset ?? '0', 10);
+      const timezone = row.dataset.timezone!;
+
+      // Current local hour in this timezone (fraction, e.g. 14.5 = 14:30)
+      const localMinutes = (nowUtcMinutes + utcOffset + 1440) % 1440;
+      const localHour = localMinutes / 60;
+
+      // Business hours: 9-17
+      const workStart = 9;
+      const workEnd = 17;
+
+      const track = row.querySelector<HTMLElement>('.bar-track')!;
+      track.innerHTML = '';
+
+      // Build 24 hour segments
+      for (let h = 0; h < 24; h++) {
+        const seg = document.createElement('div');
+        seg.className = `bar-seg ${h >= workStart && h < workEnd ? 'work' : 'off'}`;
+        seg.style.flex = '1';
+        track.appendChild(seg);
+      }
+
+      // Now line — appended to bar-wrap (position:relative), not bar-track
+      const barWrap = row.querySelector<HTMLElement>('.bar-wrap')!;
+      // Remove any existing now-line before re-drawing
+      barWrap.querySelector('.now-line')?.remove();
+      const nowLine = document.createElement('div');
+      nowLine.className = 'now-line';
+      nowLine.style.left = `${(localHour / 24) * 100}%`;
+      barWrap.appendChild(nowLine);
+
+      // Update time display — handle midnight '24' quirk
+      const timeParts = new Intl.DateTimeFormat('en-US', {
+        timeZone: timezone,
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false,
+      }).formatToParts(now);
+
+      const get = (type: string) => timeParts.find(p => p.type === type)?.value ?? '00';
+      const hourStr = get('hour') === '24' ? '00' : get('hour');
+      row.querySelector<HTMLElement>('.time-val')!.textContent = `${hourStr}:${get('minute')}`;
+    });
+  }
+
+  drawBars();
+  setInterval(drawBars, 60_000); // update every minute
+</script>
