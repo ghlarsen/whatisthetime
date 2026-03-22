@@ -31,19 +31,6 @@ const canonical = `https://whatisthetime.now/${city.slug}`;
 <Base title={title} description={description} canonical={canonical}>
   <Nav />
   <ClockHero city={city} />
-  {import.meta.env.PROD && (
-    <div class="ad-unit">
-      <ins
-        class="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-XXXXXXXXXX"
-        data-ad-slot="YYYYYYYYYY"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      />
-      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-    </div>
-  )}
   <ComparisonWidget defaultCities={['copenhagen', 'tokyo', 'new-york-city', 'london']} />
 
   <!-- Static copy for SEO -->
@@ -55,11 +42,6 @@ const canonical = `https://whatisthetime.now/${city.slug}`;
 </Base>
 
 <style>
-  .ad-unit {
-    padding: 8px 28px;
-    min-height: 90px; /* prevent layout shift */
-  }
-
   .city-info {
     padding: 20px 28px;
     font-size: 12px;
