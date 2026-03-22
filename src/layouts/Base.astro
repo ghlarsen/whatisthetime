@@ -1,0 +1,69 @@
+---
+// src/layouts/Base.astro
+export interface Props {
+  title: string;
+  description?: string;
+  canonical?: string;
+}
+const { title, description = 'World clock. What time is it anywhere.', canonical } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  {description && <meta name="description" content={description} />}
+  {canonical && <link rel="canonical" href={canonical} />}
+
+  <!-- Prevent theme flash: read localStorage before paint -->
+  <script is:inline>
+    (function() {
+      const stored = localStorage.getItem('theme');
+      const prefer = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', stored || prefer);
+    })();
+  </script>
+
+  <!-- Bricolage Grotesque variable font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet" />
+
+  <style is:global>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root[data-theme="dark"] {
+      --bg: #0a0a0a;
+      --bg-subtle: #0f0f0f;
+      --text: #ffffff;
+      --text-muted: #444444;
+      --text-dim: #333333;
+      --border: #1a1a1a;
+      --bar-empty: #1a1a1a;
+      --bar-work: #1e3a2f;
+    }
+    :root[data-theme="light"] {
+      --bg: #ffffff;
+      --bg-subtle: #fafafa;
+      --text: #111111;
+      --text-muted: #bbbbbb;
+      --text-dim: #cccccc;
+      --border: #f0f0f0;
+      --bar-empty: #f0f0f0;
+      --bar-work: #d4edda;
+    }
+
+    html, body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, sans-serif;
+      min-height: 100vh;
+      transition: background 0.3s, color 0.3s;
+    }
+  </style>
+</head>
+<body>
+  <slot />
+</body>
+</html>

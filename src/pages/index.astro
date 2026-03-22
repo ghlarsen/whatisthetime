@@ -1,17 +1,11 @@
 ---
-
+// src/pages/index.astro
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Base title="whatisthetime.now — World Clock">
+  <Nav />
+  <main style="padding: 48px 28px;">
+    <p style="color: var(--text-muted);">Clock coming soon...</p>
+  </main>
+</Base>

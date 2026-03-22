@@ -1,0 +1,55 @@
+---
+// src/components/Nav.astro
+---
+<nav>
+  <a href="/" class="logo">whatisthetime<span class="logo-tld">.now</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+    <span class="toggle-label-dark">☀️ light</span>
+    <span class="toggle-label-light">🌙 dark</span>
+  </button>
+</nav>
+
+<style>
+  nav {
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .logo {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    color: var(--text);
+    text-decoration: none;
+  }
+  .logo-tld { opacity: 0.4; }
+
+  .theme-toggle {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    border-radius: 20px;
+    padding: 5px 12px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: border-color 0.2s;
+  }
+  .theme-toggle:hover { border-color: var(--text-muted); }
+
+  /* Show the right label based on current theme */
+  :root[data-theme="dark"]  .toggle-label-light { display: none; }
+  :root[data-theme="light"] .toggle-label-dark  { display: none; }
+</style>
+
+<script>
+  const btn = document.getElementById('theme-toggle')!;
+  btn.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
