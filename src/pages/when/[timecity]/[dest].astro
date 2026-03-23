@@ -5,6 +5,7 @@ export const prerender = false;
 import Base from '../../../layouts/Base.astro';
 import Nav from '../../../components/Nav.astro';
 import ProtonBanner from '../../../components/ProtonBanner.astro';
+import Footer from '../../../components/Footer.astro';
 import ComparisonWidget from '../../../components/ComparisonWidget.astro';
 import { getCityBySlug, formatUtcOffset, getUtcOffsetMinutes } from '../../../lib/timezone.ts';
 import { parseTimecitySegment, timeTokenToHour, convertHour, formatConvertedTime } from '../../../lib/when.ts';
@@ -74,6 +75,7 @@ const canonical = `https://whatisthetime.now/when/${timecity}/${dest}`;
   </section>
 
   <ProtonBanner />
+  <Footer />
 </Base>
 
 <style>

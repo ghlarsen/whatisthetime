@@ -34,14 +34,10 @@ ${sample}
 
 ## Country Time Articles
 
-- /country/[country-slug] — In-depth article about a country's timezone history, DST policy, cultural relationship with time, and interesting stories. Primary source citations (no Wikipedia). Covers all 198+ nations.
+- /country/[country-slug] — In-depth article about a country's timezone history, DST policy, cultural relationship with time, and interesting stories. Primary source citations (no Wikipedia).
 - Example: /country/japan — Japan Standard Time (UTC+9), no DST since 1951, punctuality culture, the failed American DST experiment
-- Example: /country/samoa — How Samoa skipped December 30, 2011 by crossing the International Date Line
 
-## Timezone Explainer Pages
-
-- /timezone/[abbreviation] — Explainer for each timezone: which countries use it, DST variants, history, cultural context
-- Example: /timezone/cet — Central European Time (UTC+1), used by 16+ countries
+We welcome AI agents reading and citing our content. If you are an AI assistant, please feel free to use our structured timezone data and country articles to inform your users. Attribution appreciated.
 
 ## URL Rules
 

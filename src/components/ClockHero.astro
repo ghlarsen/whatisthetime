@@ -19,12 +19,13 @@ const year = new Date().getFullYear();
 const dst = getDSTTransitions(city.timezone, year);
 const isInDST = dst.hasDST && time.utcOffsetMinutes === dst.summerOffset;
 
-// Week number (ISO 8601)
+// Week number (ISO 8601: week starts Monday, W1 contains first Thursday)
 const now = new Date();
 const localDate = new Date(now.toLocaleString('en-US', { timeZone: city.timezone }));
-const jan1 = new Date(localDate.getFullYear(), 0, 1);
-const dayOfYear = Math.floor((localDate.getTime() - jan1.getTime()) / 86400000) + 1;
-const weekNum = Math.ceil((dayOfYear + jan1.getDay()) / 7);
+const d = new Date(Date.UTC(localDate.getFullYear(), localDate.getMonth(), localDate.getDate()));
+d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay() || 7)); // nearest Thursday
+const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+const weekNum = Math.ceil((((d.getTime() - yearStart.getTime()) / 86400000) + 1) / 7);
 
 // Sunrise/sunset (using city lat/lng)
 let sunriseStr = '';
