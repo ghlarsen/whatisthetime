@@ -9,7 +9,10 @@ const regions = [
       { slug: 'chicago', name: 'Chicago' },
       { slug: 'toronto', name: 'Toronto' },
       { slug: 'sao-paulo', name: 'São Paulo' },
+      { slug: 'buenos-aires', name: 'Buenos Aires' },
       { slug: 'mexico-city', name: 'Mexico City' },
+      { slug: 'bogota', name: 'Bogotá' },
+      { slug: 'lima', name: 'Lima' },
     ],
   },
   {
@@ -24,9 +27,8 @@ const regions = [
       { slug: 'stockholm', name: 'Stockholm' },
       { slug: 'copenhagen', name: 'Copenhagen' },
       { slug: 'oslo', name: 'Oslo' },
-      { slug: 'helsinki', name: 'Helsinki' },
       { slug: 'zurich', name: 'Zurich' },
-      { slug: 'vienna', name: 'Vienna' },
+      { slug: 'nuuk', name: 'Nuuk' },
     ],
   },
   {
@@ -34,9 +36,16 @@ const regions = [
     cities: [
       { slug: 'dubai', name: 'Dubai' },
       { slug: 'istanbul', name: 'Istanbul' },
+      { slug: 'tel-aviv', name: 'Tel Aviv' },
+      { slug: 'tehran', name: 'Tehran' },
       { slug: 'cairo', name: 'Cairo' },
       { slug: 'lagos', name: 'Lagos' },
       { slug: 'nairobi', name: 'Nairobi' },
+      { slug: 'johannesburg', name: 'Johannesburg' },
+      { slug: 'casablanca', name: 'Casablanca' },
+      { slug: 'addis-ababa', name: 'Addis Ababa' },
+      { slug: 'accra', name: 'Accra' },
+      { slug: 'dar-es-salaam', name: 'Dar es Salaam' },
     ],
   },
   {
@@ -58,8 +67,20 @@ const regions = [
     ],
   },
 ];
+
+const navLinks = [
+  { href: '/timezones', label: 'World Timezone Map' },
+  { href: '/cities', label: 'All 990 Cities' },
+];
 ---
 <footer>
+  <!-- Navigation links -->
+  <div class="footer-nav">
+    {navLinks.map(link => (
+      <a href={link.href} class="footer-nav-link">{link.label}</a>
+    ))}
+  </div>
+
   <div class="footer-grid">
     {regions.map(region => (
       <div class="footer-region">
@@ -73,7 +94,7 @@ const regions = [
 
   <div class="footer-inner">
     <a href="/" class="footer-brand">whatisthetime<span class="tld">.now</span></a>
-    <span class="footer-meta">990 cities · © {new Date().getFullYear()}</span>
+    <span class="footer-meta">990 cities · 245 countries · © {new Date().getFullYear()}</span>
   </div>
 </footer>
 
@@ -85,6 +106,25 @@ const regions = [
     margin-top: 0;
     transition: background 0.3s, color 0.3s;
   }
+
+  /* ── Footer nav ───────────────────────────────────────── */
+  .footer-nav {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--footer-region);
+    flex-wrap: wrap;
+  }
+
+  .footer-nav-link {
+    font-size: var(--t-sm);
+    color: var(--footer-city);
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    transition: color 0.15s;
+  }
+  .footer-nav-link:hover { color: var(--bg); }
 
   /* ── City grid ───────────────────────────────────────── */
   .footer-grid {

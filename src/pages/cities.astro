@@ -1,0 +1,217 @@
+---
+// src/pages/cities.astro
+export const prerender = true;
+
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import ProtonBanner from '../components/ProtonBanner.astro';
+import Footer from '../components/Footer.astro';
+import cities from '../data/cities.ts';
+import { getUtcOffsetMinutes, formatUtcOffset } from '../lib/timezone.ts';
+
+// Group cities by continent (derived from timezone prefix)
+function getContinent(tz: string): string {
+  const prefix = tz.split('/')[0];
+  const map: Record<string, string> = {
+    'America': 'Americas',
+    'Europe': 'Europe',
+    'Asia': 'Asia',
+    'Africa': 'Africa',
+    'Pacific': 'Pacific',
+    'Atlantic': 'Atlantic',
+    'Indian': 'Indian Ocean',
+    'Australia': 'Oceania',
+    'Antarctica': 'Antarctica',
+    'Arctic': 'Arctic',
+  };
+  return map[prefix] ?? 'Other';
+}
+
+// Build continent -> timezone -> cities structure
+const continents = new Map<string, Map<string, { label: string; offset: number; cities: typeof cities }>>();
+
+for (const city of cities) {
+  const continent = getContinent(city.timezone);
+  const offset = getUtcOffsetMinutes(city.timezone);
+  const label = formatUtcOffset(offset);
+
+  if (!continents.has(continent)) continents.set(continent, new Map());
+  const tzMap = continents.get(continent)!;
+
+  if (!tzMap.has(label)) tzMap.set(label, { label, offset, cities: [] });
+  tzMap.get(label)!.cities.push(city);
+}
+
+// Sort continents, then timezones within each
+const continentOrder = ['Americas', 'Europe', 'Africa', 'Asia', 'Oceania', 'Pacific', 'Indian Ocean', 'Atlantic', 'Arctic', 'Antarctica'];
+const sortedContinents = [...continents.entries()]
+  .sort((a, b) => continentOrder.indexOf(a[0]) - continentOrder.indexOf(b[0]))
+  .map(([name, tzMap]) => ({
+    name,
+    timezones: [...tzMap.values()].sort((a, b) => a.offset - b.offset),
+    cityCount: [...tzMap.values()].reduce((sum, tz) => sum + tz.cities.length, 0),
+  }));
+
+const title = 'All 990 Cities by Timezone and Continent | whatisthetime.now';
+const description = 'Browse all 990 cities organized by continent and UTC timezone. Find the current time in any city, from Aalborg to Zürich.';
+const canonical = 'https://whatisthetime.now/cities';
+---
+
+<Base title={title} description={description} canonical={canonical}>
+  <Nav />
+
+  <header class="cities-hero">
+    <h1 class="cities-title">All {cities.length} cities</h1>
+    <p class="cities-sub">Organized by continent and timezone. Click any city for live time, stories, and timezone facts.</p>
+    <nav class="continent-nav">
+      {sortedContinents.map(c => (
+        <a href={`#${c.name.toLowerCase().replace(/\s/g, '-')}`} class="continent-chip">
+          {c.name} <span class="chip-count">{c.cityCount}</span>
+        </a>
+      ))}
+    </nav>
+  </header>
+
+  <ProtonBanner />
+
+  {sortedContinents.map(continent => (
+    <section class="continent-section" id={continent.name.toLowerCase().replace(/\s/g, '-')}>
+      <h2 class="continent-heading">{continent.name} <span class="continent-count">{continent.cityCount} cities</span></h2>
+
+      {continent.timezones.map(tz => (
+        <div class="tz-group">
+          <span class="tz-label">{tz.label}</span>
+          <div class="tz-cities">
+            {tz.cities.sort((a, b) => a.name.localeCompare(b.name)).map(c => (
+              <a href={`/${c.slug}`} class="city-item">
+                <span class="city-name">{c.name}</span>
+                <span class="city-country">{c.country}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </section>
+  ))}
+
+  <ProtonBanner />
+  <Footer />
+</Base>
+
+<style>
+  .cities-hero {
+    padding: 48px var(--page-pad) 32px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .cities-title {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-variation-settings: 'wght' 800;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+
+  .cities-sub {
+    font-size: var(--t-base);
+    color: var(--text-muted);
+    margin-bottom: 20px;
+  }
+
+  .continent-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .continent-chip {
+    font-size: var(--t-sm);
+    color: var(--text-muted);
+    text-decoration: none;
+    padding: 4px 12px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    transition: color 0.15s, border-color 0.15s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .continent-chip:hover {
+    color: var(--text);
+    border-color: var(--text-muted);
+  }
+
+  .chip-count {
+    font-size: var(--t-xs);
+    color: var(--text-dim);
+  }
+
+  /* Continent sections */
+  .continent-section {
+    padding: 32px var(--page-pad) 40px;
+    border-top: 1px solid var(--border);
+  }
+
+  .continent-heading {
+    font-size: var(--t-base);
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 24px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+
+  .continent-count {
+    font-size: var(--t-xs);
+    font-weight: 400;
+    color: var(--text-dim);
+  }
+
+  .tz-group {
+    margin-bottom: 20px;
+  }
+
+  .tz-label {
+    font-family: ui-monospace, 'SF Mono', monospace;
+    font-size: var(--t-xs);
+    color: var(--text-dim);
+    display: block;
+    margin-bottom: 6px;
+    letter-spacing: 0.03em;
+  }
+
+  .tz-cities {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 2px;
+  }
+
+  .city-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 6px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background 0.1s;
+    gap: 8px;
+  }
+  .city-item:hover { background: var(--bg-subtle); }
+
+  .city-name {
+    font-size: var(--t-sm);
+    color: var(--text);
+  }
+
+  .city-country {
+    font-size: var(--t-xs);
+    color: var(--text-dim);
+    white-space: nowrap;
+  }
+
+  @media (max-width: 500px) {
+    .cities-hero { padding-top: 32px; }
+    .tz-cities { grid-template-columns: 1fr; }
+  }
+</style>
