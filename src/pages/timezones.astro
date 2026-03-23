@@ -50,6 +50,10 @@ const faqSchema = [
   { q: 'What is the furthest timezone ahead of UTC?', a: 'UTC+14, used by the Line Islands of Kiribati. This means Kiribati is the first place to see each new day, 14 hours ahead of London.' },
   { q: 'What is the furthest timezone behind UTC?', a: 'UTC-12, used by Baker Island and Howland Island (uninhabited US territories in the Pacific). UTC-11 is the furthest behind with permanent residents (American Samoa, Niue).' },
   { q: 'Which country has the most timezones?', a: 'France, with 12 distinct timezones across its overseas territories (from UTC-10 in French Polynesia to UTC+12 in Wallis and Futuna). Russia has 11 contiguous timezones. The United States has 6 principal timezones.' },
+  { q: 'Why don\'t timezone boundaries follow straight lines?', a: 'Timezone boundaries follow political borders, not meridian lines. Countries choose which UTC offset to use based on trade relationships, politics, and practical considerations. Spain uses UTC+1 (Central European Time) despite being geographically in the UTC+0 zone, because Franco aligned with Nazi Germany in 1940. China uses a single timezone (UTC+8) despite spanning five geographical zones.' },
+  { q: 'What are half-hour and quarter-hour timezones?', a: 'Most timezones are offset from UTC by whole hours, but some use 30-minute or 45-minute offsets. India uses UTC+5:30, Iran uses UTC+3:30, Nepal uses UTC+5:45 (the only 45-minute offset on the mainland), Myanmar uses UTC+6:30, and parts of Australia use UTC+8:45, UTC+9:30, and UTC+10:30.' },
+  { q: 'What is the IANA timezone database?', a: 'The IANA Time Zone Database (also called the Olson database or tz database) is the authoritative source of timezone definitions used by virtually all computers, phones, and programming languages. It uses location-based identifiers like America/New_York, Europe/London, and Asia/Tokyo. It is maintained by a volunteer community and updated several times per year when countries change their timezone rules.' },
+  { q: 'What is the difference between UTC and GMT?', a: 'UTC (Coordinated Universal Time) and GMT (Greenwich Mean Time) are practically identical for everyday purposes, both representing the time at zero degrees longitude. The difference is technical: UTC is defined by atomic clocks and is the modern international standard, while GMT is an older astronomical definition based on the mean solar time at the Royal Observatory in Greenwich, London. UTC is the standard used in computing, aviation, and international law.' },
 ];
 ---
 
@@ -61,9 +65,29 @@ const faqSchema = [
     <p class="tz-sub">{zones.length} UTC offsets, 245 countries. Each one has a story.</p>
   </header>
 
-  <!-- World map -->
+  <!-- World map (simplified, country-level coloring. Phase 2: real timezone boundaries) -->
   <section class="tz-map-section">
     <Fragment set:html={await import('../components/WorldMap.svg?raw').then(m => m.default)} />
+    <p class="map-note">Simplified view. Countries colored by primary UTC offset. Actual timezone boundaries follow political borders, not meridian lines.</p>
+  </section>
+
+  <!-- How to use -->
+  <section class="tz-manual">
+    <h2 class="section-heading">How to use this page</h2>
+    <div class="manual-grid">
+      <div class="manual-item">
+        <span class="manual-icon">1</span>
+        <p>Find your timezone in the color strip below the map, or scroll the directory to your UTC offset.</p>
+      </div>
+      <div class="manual-item">
+        <span class="manual-icon">2</span>
+        <p>Click any country name to read its full timezone history, stories, and cultural references.</p>
+      </div>
+      <div class="manual-item">
+        <span class="manual-icon">3</span>
+        <p>Countries that span multiple timezones (Russia, US, Canada, Australia, Indonesia) appear under each offset they use.</p>
+      </div>
+    </div>
   </section>
 
   <!-- Visual UTC strip -->
@@ -139,6 +163,57 @@ const faqSchema = [
     width: 100%;
     height: auto;
     display: block;
+  }
+
+  .map-note {
+    font-size: var(--t-xs);
+    color: var(--text-dim);
+    padding: 8px var(--page-pad);
+    line-height: 1.5;
+  }
+
+  /* Manual */
+  .tz-manual {
+    padding: 32px var(--page-pad);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .manual-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  @media (max-width: 600px) {
+    .manual-grid { grid-template-columns: 1fr; gap: 16px; }
+  }
+
+  .manual-item {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .manual-icon {
+    font-family: ui-monospace, 'SF Mono', monospace;
+    font-size: var(--t-sm);
+    font-weight: 700;
+    color: var(--text);
+    width: 24px;
+    height: 24px;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .manual-item p {
+    font-size: var(--t-sm);
+    color: var(--text-muted);
+    line-height: 1.5;
+    margin: 0;
   }
 
   /* Hero */
