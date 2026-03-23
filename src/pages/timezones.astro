@@ -65,10 +65,9 @@ const faqSchema = [
     <p class="tz-sub">{zones.length} UTC offsets, 245 countries. Each one has a story.</p>
   </header>
 
-  <!-- World map (simplified, country-level coloring. Phase 2: real timezone boundaries) -->
+  <!-- World timezone map (real IANA boundaries, Robinson projection) -->
   <section class="tz-map-section">
-    <Fragment set:html={await import('../components/WorldMap.svg?raw').then(m => m.default)} />
-    <p class="map-note">Simplified view. Countries colored by primary UTC offset. Actual timezone boundaries follow political borders, not meridian lines.</p>
+    <Fragment set:html={await import('../components/TimezoneMap.svg?raw').then(m => m.default)} />
   </section>
 
   <!-- How to use -->
@@ -159,10 +158,24 @@ const faqSchema = [
     line-height: 0;
   }
 
-  .tz-map-section :global(.world-map) {
+  .tz-map-section :global(.tz-world-map) {
     width: 100%;
     height: auto;
     display: block;
+  }
+
+  .tz-map-section :global(.tz-zone) {
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+
+  .tz-map-section :global(.tz-zone:hover) {
+    opacity: 1 !important;
+    filter: brightness(1.3);
+  }
+
+  .tz-map-section :global(.tz-zone.dimmed) {
+    opacity: 0.3 !important;
   }
 
   .map-note {
@@ -370,3 +383,42 @@ const faqSchema = [
     .pip-label { font-size: 8px; }
   }
 </style>
+
+<script>
+  // Timezone map hover interaction
+  const zones = document.querySelectorAll<SVGGElement>('.tz-zone');
+  const label = document.querySelector<SVGTextElement>('.tz-hover-label');
+
+  zones.forEach(zone => {
+    zone.addEventListener('mouseenter', () => {
+      const offset = zone.dataset.offset ?? '';
+      // Dim all other zones
+      zones.forEach(z => {
+        if (z !== zone) z.classList.add('dimmed');
+      });
+      // Show label
+      if (label) {
+        label.textContent = offset;
+        label.setAttribute('opacity', '1');
+      }
+    });
+
+    zone.addEventListener('mouseleave', () => {
+      zones.forEach(z => z.classList.remove('dimmed'));
+      if (label) label.setAttribute('opacity', '0');
+    });
+
+    zone.addEventListener('click', () => {
+      const slug = zone.dataset.slug ?? '';
+      // Scroll to the directory section for this offset
+      const target = document.getElementById(`tz-${slug.replace('utc', 'UTC').replace(/-(\d)$/, ':$1').replace(/-/g, '')}`);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        target.style.outline = '2px solid var(--text-dim)';
+        target.style.outlineOffset = '8px';
+        target.style.borderRadius = '4px';
+        setTimeout(() => { target.style.outline = 'none'; }, 2000);
+      }
+    });
+  });
+</script>
