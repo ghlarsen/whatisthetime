@@ -12,10 +12,16 @@ import DualClock from '../components/DualClock.astro';
 import Footer from '../components/Footer.astro';
 import cities from '../data/cities.ts';
 import { formatUtcOffset, getCurrentTime, getDSTTransitions, getUtcOffsetMinutes } from '../lib/timezone.ts';
+import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
   return cities.map(city => ({ params: { city: city.slug } }));
 }
+
+// Try to find a city story from content collection
+const allCityStories = await getCollection('cities').catch(() => []);
+const cityStory = allCityStories.find(s => s.data.slug === (Astro.params.city ?? ''));
+const StoryContent = cityStory ? (await render(cityStory)).Content : null;
 
 const { city: citySlug } = Astro.params;
 const city = cities.find(c => c.slug === citySlug);
@@ -91,6 +97,68 @@ const canonical = `https://whatisthetime.now/${city.slug}`;
   <ProtonBanner />
   <MeetingGrid defaultCities={[city.slug, 'new-york-city', 'london', 'tokyo']} />
   <ProtonBanner />
+
+  {StoryContent && (
+    <section class="city-story">
+      <StoryContent />
+      <a href={`/country/${cityStory!.data.countrySlug}`} class="country-link">Read more about time in {cityStory!.data.country} &rarr;</a>
+    </section>
+  )}
+
   <CityContent city={city} />
   <Footer />
 </Base>
+
+<style>
+  .city-story {
+    padding: 32px var(--page-pad) 40px;
+    border-top: 1px solid var(--border);
+    max-width: 720px;
+  }
+
+  .city-story :global(h2) {
+    font-size: var(--t-base);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin: 32px 0 12px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+  }
+
+  .city-story :global(h2:first-child) {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .city-story :global(p) {
+    font-size: var(--t-base);
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin: 0 0 16px;
+  }
+
+  .city-story :global(a) {
+    color: var(--text);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .country-link {
+    display: inline-block;
+    font-size: var(--t-sm);
+    color: var(--text-muted);
+    text-decoration: none;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 2px;
+    margin-top: 8px;
+    transition: color 0.15s, border-color 0.15s;
+  }
+
+  .country-link:hover {
+    color: var(--text);
+    border-color: var(--text-muted);
+  }
+</style>

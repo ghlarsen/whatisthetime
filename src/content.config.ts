@@ -33,4 +33,18 @@ const timezones = defineCollection({
   }),
 });
 
-export const collections = { countries, timezones };
+const cities = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/cities' }),
+  schema: z.object({
+    city: z.string(),
+    slug: z.string(),
+    country: z.string(),
+    countrySlug: z.string(),
+    timezone: z.string(),
+    title: z.string(),
+    description: z.string(),
+    lastUpdated: z.string(),
+  }),
+});
+
+export const collections = { countries, timezones, cities };
