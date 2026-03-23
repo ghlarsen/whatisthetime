@@ -36,5 +36,5 @@ Eritrea controls the Dahlak Archipelago, a scatter of islands in the Red Sea off
 ## Sources
 
 - [IANA Time Zone Database](https://data.iana.org/time-zones/tz-link.html)
-- [UNESCO World Heritage — Asmara: A Modernist African City](https://whc.unesco.org/en/list/1539/)
+- [UNESCO World Heritage - Asmara: A Modernist African City](https://whc.unesco.org/en/list/1539/)
 - Connell, Dan. *Against All Odds: A Chronicle of the Eritrean Revolution*. Red Sea Press, 1993.

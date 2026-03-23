@@ -26,5 +26,5 @@ None of this history touched the timezone, which remained UTC+0.
 ## Sources
 
 - [IANA Time Zone Database](https://data.iana.org/time-zones/tz-link.html)
-- [Institut National de la Statistique — Guinée](https://www.stat-guinee.org/)
+- [Institut National de la Statistique - Guinée](https://www.stat-guinee.org/)
 - Chafer, Tony. *The End of Empire in French West Africa*. Berg, 2002.

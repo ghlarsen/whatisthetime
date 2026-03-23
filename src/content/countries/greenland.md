@@ -54,6 +54,6 @@ A weather station staffed by a handful of researchers in permanent UTC+0, at the
 ## Sources
 
 - [IANA Time Zone Database](https://data.iana.org/time-zones/tz-link.html)
-- [Naalakkersuisut — Government of Greenland](https://naalakkersuisut.gl/en)
-- [Danish Meteorological Institute — Greenland](https://www.dmi.dk/en/greenland/)
-- [National Snow and Ice Data Center — Greenland Ice Sheet](https://nsidc.org/greenland-today/)
+- [Naalakkersuisut - Government of Greenland](https://naalakkersuisut.gl/en)
+- [Danish Meteorological Institute - Greenland](https://www.dmi.dk/en/greenland/)
+- [National Snow and Ice Data Center - Greenland Ice Sheet](https://nsidc.org/greenland-today/)

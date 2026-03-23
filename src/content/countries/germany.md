@@ -50,7 +50,7 @@ The PTB also operates the DCF77 radio time signal, which broadcasts the precise 
 ## Sources
 
 - [IANA Time Zone Database](https://data.iana.org/time-zones/tz-link.html)
-- [PTB — Physikalisch-Technische Bundesanstalt](https://www.ptb.de/cms/en.html)
+- [PTB - Physikalisch-Technische Bundesanstalt](https://www.ptb.de/cms/en.html)
 - [DCF77 time signal](https://www.ptb.de/cms/en/ptb/fachabteilungen/abt4/fb-44/ag-442/dissemination-of-legal-time/dcf77.html)
 - Helmert, Friedrich Robert. *Die mathematischen und physikalischen Theorien der höheren Geodäsie*. Teubner, 1880.
 - Heidegger, Martin. *Sein und Zeit*. Max Niemeyer Verlag, 1927.

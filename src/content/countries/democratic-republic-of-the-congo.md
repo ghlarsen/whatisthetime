@@ -46,6 +46,6 @@ The IANA timezone identifiers are `Africa/Kinshasa` (UTC+1) and `Africa/Lubumbas
 ## Sources
 
 - [IANA Time Zone Database](https://data.iana.org/time-zones/tz-link.html)
-- [BIPM — UTC and time scales](https://www.bipm.org/en/time-faq)
+- [BIPM - UTC and time scales](https://www.bipm.org/en/time-faq)
 - Hochschild, Adam. *King Leopold's Ghost*. Houghton Mifflin, 1998.
-- [UN Statistics Division — DRC country profile](https://unstats.un.org/unsd/demographic-social/products/dyb/)
+- [UN Statistics Division - DRC country profile](https://unstats.un.org/unsd/demographic-social/products/dyb/)

@@ -42,5 +42,5 @@ The Dominican Republic has produced more Major League Baseball players per capit
 ## Sources
 
 - [IANA Time Zone Database](https://data.iana.org/time-zones/tz-link.html)
-- [Oficina Nacional de Estadística — Dominican Republic](https://www.one.gob.do/)
-- [UNESCO World Heritage — Colonial City of Santo Domingo](https://whc.unesco.org/en/list/526/)
+- [Oficina Nacional de Estadística - Dominican Republic](https://www.one.gob.do/)
+- [UNESCO World Heritage - Colonial City of Santo Domingo](https://whc.unesco.org/en/list/526/)

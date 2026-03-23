@@ -37,4 +37,4 @@ The prison closed in 1953 and the ruins remain a historical site. The island sit
 
 - [IANA Time Zone Database](https://data.iana.org/time-zones/tz-link.html)
 - [Centre Spatial Guyanais (ESA)](https://www.esa.int/Enabling_Support/Space_Transportation/Launch_sites/Guiana_Space_Centre)
-- [Institut National de la Statistique et des Études Économiques (INSEE) — Guyane](https://www.insee.fr/fr/statistiques?categorieTheme=1&geo=DEP-973)
+- [Institut National de la Statistique et des Études Économiques (INSEE) - Guyane](https://www.insee.fr/fr/statistiques?categorieTheme=1&geo=DEP-973)

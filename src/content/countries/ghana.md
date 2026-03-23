@@ -39,4 +39,4 @@ The weaving process is measured not in clock minutes but in rows completed, in t
 
 - [IANA Time Zone Database](https://data.iana.org/time-zones/tz-link.html)
 - [Ghana Statistical Service](https://statsghana.gov.gh/)
-- [Royal Observatory Greenwich — Prime Meridian](https://www.rmg.co.uk/royal-observatory/prime-meridian)
+- [Royal Observatory Greenwich - Prime Meridian](https://www.rmg.co.uk/royal-observatory/prime-meridian)

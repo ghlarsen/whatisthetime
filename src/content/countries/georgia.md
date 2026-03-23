@@ -40,5 +40,5 @@ Georgian farmers who make wine this way are observing the lunar calendar for pla
 ## Sources
 
 - [IANA Time Zone Database](https://data.iana.org/time-zones/tz-link.html)
-- [GeoStat — National Statistics Office of Georgia](https://www.geostat.ge/en)
-- [UNESCO — Georgian traditional winemaking in qvevri](https://ich.unesco.org/en/RL/georgian-traditional-qvevri-wine-making-method-00870)
+- [GeoStat - National Statistics Office of Georgia](https://www.geostat.ge/en)
+- [UNESCO - Georgian traditional winemaking in qvevri](https://ich.unesco.org/en/RL/georgian-traditional-qvevri-wine-making-method-00870)

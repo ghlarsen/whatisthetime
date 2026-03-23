@@ -58,8 +58,8 @@ France's experiment with decimal time was a reminder that timekeeping is not pur
 ## Sources
 
 - [IANA Time Zone Database](https://data.iana.org/time-zones/tz-link.html)
-- [Bureau des Longitudes — Paris](https://www.bureau-des-longitudes.fr/)
-- [Paris Observatory — History](https://www.obspm.fr/en/the-observatory/history.html)
+- [Bureau des Longitudes - Paris](https://www.bureau-des-longitudes.fr/)
+- [Paris Observatory - History](https://www.obspm.fr/en/the-observatory/history.html)
 - Verne, Jules. *Le Tour du monde en quatre-vingts jours*. Hetzel, 1872.
 - Howse, Derek. *Greenwich Time and the Longitude*. Philip Wilson Publishers, 1997.
 - Zerubavel, Eviatar. *The Seven Day Circle: The History and Meaning of the Week*. University of Chicago Press, 1989.

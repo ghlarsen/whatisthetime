@@ -70,7 +70,7 @@ Vikram Seth's *A Suitable Boy* (1993), set in the early years of independent Ind
 ## Sources
 
 - [IANA Time Zone Database](https://data.iana.org/time-zones/tz-link.html)
-- [National Physical Laboratory India — Indian Standard Time](https://www.nplindia.org/time-and-frequency/)
+- [National Physical Laboratory India - Indian Standard Time](https://www.nplindia.org/time-and-frequency/)
 - Agrawal, Parthasarathi. *National Institute of Advanced Studies Report on Multiple Timezones in India*. NIAS, 2006.
 - Seth, Vikram. *A Suitable Boy*. HarperCollins, 1993.
 - Narayan, R.K. *The Guide*. Viking, 1958.

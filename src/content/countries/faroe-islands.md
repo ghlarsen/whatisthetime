@@ -39,4 +39,4 @@ The grindadráp is controversial internationally, defended vigorously by Faroese
 
 - [IANA Time Zone Database](https://data.iana.org/time-zones/tz-link.html)
 - [Faroese Statistics Bureau](https://hagstova.fo/en)
-- [Løgting — The Faroese Parliament](https://www.logting.fo/en)
+- [Løgting - The Faroese Parliament](https://www.logting.fo/en)

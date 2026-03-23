@@ -32,4 +32,4 @@ The sugar industry still exists, producing rum as well as raw sugar, but it is n
 ## Sources
 
 - [IANA Time Zone Database](https://data.iana.org/time-zones/tz-link.html)
-- [Institut National de la Statistique et des Études Économiques (INSEE) — Guadeloupe](https://www.insee.fr/fr/statistiques?geo=DEP-971)
+- [Institut National de la Statistique et des Études Économiques (INSEE) - Guadeloupe](https://www.insee.fr/fr/statistiques?geo=DEP-971)

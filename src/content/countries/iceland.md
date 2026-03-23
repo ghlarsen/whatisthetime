@@ -55,5 +55,5 @@ The Althing is still Iceland's parliament, now meeting in Reykjavik year-round.
 
 - [IANA Time Zone Database](https://data.iana.org/time-zones/tz-link.html)
 - [Icelandic Meteorological Office](https://en.vedur.is/)
-- [Althingi — The Icelandic Parliament](https://www.althingi.is/english/)
+- [Althingi - The Icelandic Parliament](https://www.althingi.is/english/)
 - Byock, Jesse. *Viking Age Iceland*. Penguin, 2001.

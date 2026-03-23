@@ -39,4 +39,4 @@ The implementation was controversial and the International Monetary Fund express
 
 - [IANA Time Zone Database](https://data.iana.org/time-zones/tz-link.html)
 - [Banco Central de Reserva de El Salvador](https://www.bcr.gob.sv/)
-- [Ley Bitcoin — Legislative Assembly of El Salvador, 2021](https://www.asamblea.gob.sv/)
+- [Ley Bitcoin - Legislative Assembly of El Salvador, 2021](https://www.asamblea.gob.sv/)

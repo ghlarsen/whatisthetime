@@ -37,4 +37,4 @@ The catastrophe had no effect on timezone policy, but it reshaped the meaning of
 
 - [IANA Time Zone Database](https://data.iana.org/time-zones/tz-link.html)
 - [Government of Dominica](https://www.dominica.gov.dm/)
-- [World Meteorological Organization — Hurricane Maria report](https://public.wmo.int/)
+- [World Meteorological Organization - Hurricane Maria report](https://public.wmo.int/)

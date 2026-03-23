@@ -40,6 +40,6 @@ This is the informal "two-speed day" that hot climate countries develop: the clo
 ## Sources
 
 - [IANA Time Zone Database](https://data.iana.org/time-zones/tz-link.html)
-- [BIPM — UTC and international time coordination](https://www.bipm.org/en/time-faq)
+- [BIPM - UTC and international time coordination](https://www.bipm.org/en/time-faq)
 - [Port of Djibouti Authority](https://www.dpfza.gov.dj/)
 - Rouaud, Jean. *Fields of Glory*. Arcade Publishing, 1992. (French fiction set partly in East Africa)
