@@ -18,10 +18,26 @@ Features and ideas not yet ready for implementation. When ready to build, conver
 - If override cookie set: respect it, ignore sunrise/sunset logic
 
 **Implementation notes:**
-- Geolocation: browser `navigator.geolocation` for precise location, or IP-based fallback (Cloudflare provides `CF-IPCountry` + lat/lon headers on Pages — check if available)
-- Sunrise/sunset calculation: can be done client-side with a small pure-JS formula (no API needed) — SunCalc is ~4kb or roll a simple formula
-- Cookie vs localStorage: cookie so Cloudflare edge can potentially read it server-side for SSR theme (no flash)
-- Flash prevention: the existing `is:inline` script in Base.astro needs updating to read cookie first, then fall back to sunrise/sunset calc, then system preference
+
+Cloudflare injects `CF-IPLatitude` and `CF-IPLongitude` on every edge request — use these for server-side sunrise/sunset calculation. No geolocation API needed.
+
+**SSR pages (homepage, `/when/` routes):**
+- Read `CF-IPLatitude` / `CF-IPLongitude` + `Cookie` header in the Astro frontmatter
+- If override cookie present → use it, skip sun calc
+- Otherwise → run SunCalc server-side, set `data-theme` directly in the HTML response
+- Result: correct theme baked into HTML before a single byte reaches the browser. Zero flash, zero JS required for initial render.
+
+**Static city pages (prerendered, no server context):**
+- Inline script in Base.astro reads cookie first
+- If no cookie → client-side SunCalc with `navigator.geolocation` (or reuse IP lat/lon if stored in cookie by a prior SSR page visit)
+- Falls back to system preference if geolocation denied
+
+**Manual override:**
+- Toggle button writes a `theme` cookie (not localStorage)
+- SSR pages read the cookie on next request → override respected before HTML is sent
+- Cookie format: `theme=dark` / `theme=light` / absent = auto
+
+**SunCalc:** ~4kb pure JS, no dependencies, can be inlined or bundled. Alternatively roll a minimal formula (sunrise/sunset only needs ~20 lines of trig).
 
 ---
 
