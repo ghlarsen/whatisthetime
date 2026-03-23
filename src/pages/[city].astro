@@ -7,6 +7,7 @@ import Nav from '../components/Nav.astro';
 import ClockHero from '../components/ClockHero.astro';
 import MeetingGrid from '../components/MeetingGrid.astro';
 import CityContent from '../components/CityContent.astro';
+import ProtonBanner from '../components/ProtonBanner.astro';
 import Footer from '../components/Footer.astro';
 import cities from '../data/cities.ts';
 import { formatUtcOffset, getCurrentTime, getDSTTransitions, getUtcOffsetMinutes } from '../lib/timezone.ts';
@@ -85,6 +86,7 @@ const canonical = `https://whatisthetime.now/${city.slug}`;
 <Base title={title} description={description} canonical={canonical} faqs={schemaFaqs}>
   <Nav />
   <ClockHero city={city} />
+  <ProtonBanner />
   <MeetingGrid defaultCities={[city.slug, 'new-york-city', 'london', 'tokyo']} />
   <CityContent city={city} />
   <Footer />

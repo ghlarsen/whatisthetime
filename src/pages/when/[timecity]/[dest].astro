@@ -4,6 +4,7 @@ export const prerender = false;
 
 import Base from '../../../layouts/Base.astro';
 import Nav from '../../../components/Nav.astro';
+import ProtonBanner from '../../../components/ProtonBanner.astro';
 import ComparisonWidget from '../../../components/ComparisonWidget.astro';
 import { getCityBySlug, formatUtcOffset, getUtcOffsetMinutes } from '../../../lib/timezone.ts';
 import { parseTimecitySegment, timeTokenToHour, convertHour, formatConvertedTime } from '../../../lib/when.ts';
@@ -72,17 +73,7 @@ const canonical = `https://whatisthetime.now/when/${timecity}/${dest}`;
     <p>{description}</p>
   </section>
 
-  <!-- Proton VPN affiliate — contextual for remote workers comparing timezones -->
-  <section class="proton-affiliate">
-    <a
-      href="https://go.getproton.me/aff_c?offer_id=26&aff_id=15505"
-      target="_blank"
-      rel="noopener sponsored"
-      class="proton-link"
-    >
-      Working across timezones? Stay private with Proton VPN →
-    </a>
-  </section>
+  <ProtonBanner />
 </Base>
 
 <style>

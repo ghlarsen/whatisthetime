@@ -5,6 +5,7 @@ import Base from '../layouts/Base.astro';
 import Nav from '../components/Nav.astro';
 import WorldClocks from '../components/WorldClocks.astro';
 import MeetingGrid from '../components/MeetingGrid.astro';
+import ProtonBanner from '../components/ProtonBanner.astro';
 import Footer from '../components/Footer.astro';
 import { getUtcOffsetMinutes, formatUtcOffset, getCityBySlug, getCurrentTime } from '../lib/timezone.ts';
 
@@ -131,6 +132,7 @@ const websiteSchema = {
   </header>
 
   <WorldClocks />
+  <ProtonBanner />
   <MeetingGrid defaultCities={['new-york-city', 'london', 'tokyo', 'sydney']} />
 
   <!-- FAQ -->
