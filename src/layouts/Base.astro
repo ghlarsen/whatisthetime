@@ -4,8 +4,30 @@ export interface Props {
   title: string;
   description?: string;
   canonical?: string;
+  faqs?: { q: string; a: string }[];
+  ogImage?: string;
 }
-const { title, description = 'World clock. What time is it anywhere.', canonical } = Astro.props;
+const {
+  title,
+  description = 'What time is it anywhere in the world? Live clocks for 990 cities with timezone info, DST dates, and meeting planner.',
+  canonical,
+  faqs,
+  ogImage = 'https://whatisthetime.now/og.png',
+} = Astro.props;
+
+const faqSchema = faqs?.length ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(({ q, a }) => ({
+    "@type": "Question",
+    "name": q,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      // Strip HTML tags for clean schema text
+      "text": a.replace(/<[^>]+>/g, ''),
+    },
+  })),
+} : null;
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -15,6 +37,22 @@ const { title, description = 'World clock. What time is it anywhere.', canonical
   <title>{title}</title>
   {description && <meta name="description" content={description} />}
   {canonical && <link rel="canonical" href={canonical} />}
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  {canonical && <meta property="og:url" content={canonical} />}
+  <meta property="og:image" content={ogImage} />
+  <meta property="og:site_name" content="whatisthetime.now" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={ogImage} />
+
+  <!-- WebPage schema -->
   {canonical && (
     <script type="application/ld+json" set:html={JSON.stringify({
       "@context": "https://schema.org",
@@ -22,7 +60,17 @@ const { title, description = 'World clock. What time is it anywhere.', canonical
       "name": title,
       "description": description,
       "url": canonical,
+      "publisher": {
+        "@type": "Organization",
+        "name": "whatisthetime.now",
+        "url": "https://whatisthetime.now",
+      },
     })} />
+  )}
+
+  <!-- FAQPage schema — huge for GEO (Perplexity, ChatGPT Search, Gemini) -->
+  {faqSchema && (
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   )}
 
   <!-- Prevent theme flash: read localStorage before paint -->
@@ -42,25 +90,64 @@ const { title, description = 'World clock. What time is it anywhere.', canonical
   <style is:global>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+    /* ── Type scale — four levels, defined once ─────────────────────
+       L1 micro    11px               captions, offsets, status dots
+       L2 label    12px               city names, chips, buttons, nav
+       L3 body     14px               FAQ, facts, dates, descriptions
+       L4a panel   36px               compact grid clocks (meeting, world grid)
+       L4b display clamp(3–9rem,14vw) hero/page clocks — fluid, one token
+    ─────────────────────────────────────────────────────────────── */
+    :root {
+      --t-xs:      0.6875rem;               /* 11px — L1 micro */
+      --t-sm:      0.75rem;                /* 12px — L2 label */
+      --t-base:    0.875rem;               /* 14px — L3 body */
+      --t-panel:   2.25rem;                /* 36px — L4a compact grid clock */
+      --t-display: clamp(3rem, 14vw, 9rem); /* L4b hero/page clock — fluid */
+      --page-pad:  1.75rem;                /* 28px — horizontal page padding */
+    }
+
+    @media (max-width: 500px) {
+      :root { --page-pad: 1rem; } /* 16px on mobile */
+    }
+
+    /* ── Grey system ─────────────────────────────────────────────────
+       Dark mode: greys are LIGHT — near-white reads crisply on black.
+         --text-muted: #b0b0b0  8.5:1  secondary text, city names
+         --text-dim:   #666666  3.9:1  labels, hints, captions
+         --bar-empty:  #3a3a3a        visible "off" band on dark bg
+         --bar-work:   #1e6640        clear green "work" band
+
+       Light mode: greys are DARK — enough contrast on white.
+         --text-muted: #606060  6.0:1  secondary text
+         --text-dim:   #999999  2.8:1  labels/hints (large/caps only)
+         --bar-empty:  #e8e8e8        subtle "off" band on white bg
+         --bar-work:   #d4edda        soft green "work" band
+    ─────────────────────────────────────────────────────────────── */
     :root[data-theme="dark"] {
       --bg: #0a0a0a;
-      --bg-subtle: #0f0f0f;
+      --bg-subtle: #111111;
       --text: #ffffff;
-      --text-muted: #888888;
-      --text-dim: #666666;
-      --border: #1a1a1a;
-      --bar-empty: #1a1a1a;
-      --bar-work: #1e3a2f;
+      --text-muted: #f2f5f4;  /* near-white on black */
+      --text-dim: #f2f5f4;    /* same — both levels light on dark */
+      --border: #222222;
+      --bar-empty: #5a5a5a;
+      --bar-work: #1e6640;
+      /* footer is inverted (white bg) — grey on white */
+      --footer-city: #606060;
+      --footer-region: #999999;
     }
     :root[data-theme="light"] {
       --bg: #ffffff;
       --bg-subtle: #fafafa;
       --text: #111111;
-      --text-muted: #555555;
-      --text-dim: #777777;
-      --border: #f0f0f0;
-      --bar-empty: #f0f0f0;
-      --bar-work: #d4edda;
+      --text-muted: #191932;  /* deep indigo on white */
+      --text-dim: #7070a0;    /* same mid blue-grey — mirrors dark */
+      --border: #ebebeb;
+      --bar-empty: #b8b8b8;   /* clearly visible mid-grey on white */
+      --bar-work: #6dba8e;    /* proper saturated green on white */
+      /* footer is inverted (dark bg) — grey on dark, same as dark mode text-muted */
+      --footer-city: #f2f5f4;
+      --footer-region: #8a8a8a;
     }
 
     html, body {

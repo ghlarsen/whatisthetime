@@ -1,0 +1,140 @@
+---
+// src/components/WorldClocks.astro
+import { getCurrentTime, formatUtcOffset } from '../lib/timezone.ts';
+
+const clockCities = [
+  { slug: 'los-angeles', name: 'Los Angeles', tz: 'America/Los_Angeles' },
+  { slug: 'new-york-city', name: 'New York',   tz: 'America/New_York' },
+  { slug: 'sao-paulo',     name: 'São Paulo',  tz: 'America/Sao_Paulo' },
+  { slug: 'london',        name: 'London',     tz: 'Europe/London' },
+  { slug: 'paris',         name: 'Paris',      tz: 'Europe/Paris' },
+  { slug: 'dubai',         name: 'Dubai',      tz: 'Asia/Dubai' },
+  { slug: 'mumbai',        name: 'Mumbai',     tz: 'Asia/Kolkata' },
+  { slug: 'singapore',     name: 'Singapore',  tz: 'Asia/Singapore' },
+  { slug: 'tokyo',         name: 'Tokyo',      tz: 'Asia/Tokyo' },
+  { slug: 'sydney',        name: 'Sydney',     tz: 'Australia/Sydney' },
+];
+
+const cities = clockCities.map(c => {
+  const t = getCurrentTime(c.tz);
+  const h = String(t.hours).padStart(2, '0');
+  const m = String(t.minutes).padStart(2, '0');
+  const s = String(t.seconds).padStart(2, '0');
+  return { ...c, timeStr: `${h}:${m}:${s}`, offset: formatUtcOffset(t.utcOffsetMinutes) };
+});
+---
+
+<section class="wc-section">
+  <div class="wc-grid">
+    {cities.map(c => (
+      <a href={`/${c.slug}`} class="wc-card" data-world-tz={c.tz}>
+        <span class="wc-city">{c.name}</span>
+        <span class="wc-time">{c.timeStr}</span>
+        <span class="wc-offset">{c.offset}</span>
+        <span class="wc-biz"></span>
+      </a>
+    ))}
+  </div>
+</section>
+
+<style>
+  .wc-section {
+    padding: 0 var(--page-pad) 48px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .wc-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+  }
+
+  @media (max-width: 700px) {
+    .wc-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  .wc-card {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 20px 16px;
+    background: var(--bg);
+    text-decoration: none;
+    transition: background 0.15s;
+  }
+  .wc-card:hover { background: var(--bg-subtle); }
+
+  .wc-city {
+    font-size: var(--t-xs);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+  }
+
+  .wc-time {
+    font-family: ui-monospace, 'SF Mono', 'Fira Code', monospace;
+    font-size: var(--t-panel);
+    font-variant-numeric: tabular-nums;
+    color: var(--text);
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+
+  @media (max-width: 900px) {
+    .wc-time { font-size: 1.5rem; }
+  }
+
+  .wc-offset {
+    font-size: var(--t-xs);
+    color: var(--text-dim);
+    letter-spacing: 0.02em;
+  }
+
+  .wc-biz {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--bar-empty);
+    margin-top: 4px;
+    transition: background 0.3s;
+  }
+  .wc-biz.open   { background: var(--bar-work); }
+  .wc-biz.closed { background: var(--bar-empty); }
+</style>
+
+<script>
+  function tickWorld() {
+    const now = new Date();
+    document.querySelectorAll<HTMLElement>('[data-world-tz]').forEach(card => {
+      const tz = card.dataset.worldTz!;
+      const timeEl = card.querySelector('.wc-time') as HTMLElement | null;
+      const bizEl  = card.querySelector('.wc-biz')  as HTMLElement | null;
+      if (!timeEl || !bizEl) return;
+
+      const parts = new Intl.DateTimeFormat('en-US', {
+        timeZone: tz,
+        hour: '2-digit', minute: '2-digit', second: '2-digit',
+        weekday: 'short',
+        hour12: false,
+      }).formatToParts(now);
+
+      const get = (t: string) => parts.find(p => p.type === t)?.value ?? '';
+      const h = parseInt(get('hour'), 10) % 24;
+      const m = get('minute');
+      const s = get('second');
+      const day = get('weekday');
+
+      timeEl.textContent =
+        `${String(h).padStart(2,'0')}:${m}:${s}`;
+
+      const isOpen = !['Sat','Sun'].includes(day) && h >= 9 && h < 17;
+      bizEl.className = 'wc-biz ' + (isOpen ? 'open' : 'closed');
+    });
+  }
+
+  tickWorld();
+  setInterval(tickWorld, 1000);
+</script>

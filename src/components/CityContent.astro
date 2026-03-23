@@ -262,7 +262,7 @@ if (isEuropeCET) {
 <style>
   /* ── Facts ── */
   .facts-section {
-    padding: 20px 28px;
+    padding: 40px var(--page-pad) 32px;
     border-top: 1px solid var(--border);
   }
   .facts-grid {
@@ -276,30 +276,31 @@ if (isEuropeCET) {
     gap: 2px;
   }
   .fact-label {
-    font-size: 11px;
+    font-size: var(--t-xs);
     letter-spacing: 0.05em;
     color: var(--text-dim);
     text-transform: uppercase;
   }
   .fact-value {
-    font-size: 14px;
+    font-size: var(--t-sm);
     color: var(--text);
   }
   .fact-value.mono,
   .mono {
     font-family: ui-monospace, 'SF Mono', 'Fira Code', monospace;
-    font-size: 13px;
+    font-size: var(--t-sm);
   }
 
   /* ── Business Hours ── */
   .biz-section {
-    padding: 14px 28px;
+    padding: 24px var(--page-pad);
     border-top: 1px solid var(--border);
   }
   .biz-row {
     display: flex;
     align-items: center;
     gap: 10px;
+    flex-wrap: wrap;
   }
   .biz-dot {
     width: 8px;
@@ -312,22 +313,22 @@ if (isEuropeCET) {
   .biz-dot.open { background: #4caf50; }
   .biz-dot.closed { background: var(--text-dim); }
   .biz-label {
-    font-size: 13px;
+    font-size: var(--t-sm);
     color: var(--text);
     min-width: 180px;
   }
   .biz-hint {
-    font-size: 12px;
+    font-size: var(--t-xs);
     color: var(--text-dim);
   }
 
   /* ── Co-zone ── */
   .cozone-section {
-    padding: 20px 28px;
+    padding: 36px var(--page-pad) 32px;
     border-top: 1px solid var(--border);
   }
   .section-heading {
-    font-size: 12px;
+    font-size: var(--t-sm);
     font-weight: 600;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -340,7 +341,7 @@ if (isEuropeCET) {
     gap: 6px;
   }
   .cozone-chip {
-    font-size: 13px;
+    font-size: var(--t-sm);
     color: var(--text-muted);
     text-decoration: none;
     padding: 4px 10px;
@@ -353,7 +354,7 @@ if (isEuropeCET) {
     border-color: var(--text-muted);
   }
   .cozone-more {
-    font-size: 12px;
+    font-size: var(--t-sm);
     color: var(--text-dim);
     padding: 4px 10px;
     align-self: center;
@@ -361,7 +362,7 @@ if (isEuropeCET) {
 
   /* ── FAQ ── */
   .faq-section {
-    padding: 20px 28px 32px;
+    padding: 40px var(--page-pad) 64px;
     border-top: 1px solid var(--border);
     max-width: 680px;
   }
@@ -369,7 +370,7 @@ if (isEuropeCET) {
     margin: 0;
   }
   .faq-q {
-    font-size: 14px;
+    font-size: var(--t-base);
     font-weight: 600;
     color: var(--text);
     margin: 20px 0 6px;
@@ -379,14 +380,14 @@ if (isEuropeCET) {
     margin-top: 0;
   }
   .faq-a {
-    font-size: 14px;
+    font-size: var(--t-base);
     color: var(--text-muted);
     line-height: 1.7;
     margin: 0;
   }
   .faq-a :global(code) {
     font-family: ui-monospace, 'SF Mono', 'Fira Code', monospace;
-    font-size: 12px;
+    font-size: var(--t-sm);
     background: var(--bg-subtle);
     padding: 1px 5px;
     border-radius: 3px;

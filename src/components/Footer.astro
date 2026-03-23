@@ -1,0 +1,163 @@
+---
+// src/components/Footer.astro
+const regions = [
+  {
+    label: 'Americas',
+    cities: [
+      { slug: 'new-york-city', name: 'New York' },
+      { slug: 'los-angeles', name: 'Los Angeles' },
+      { slug: 'chicago', name: 'Chicago' },
+      { slug: 'toronto', name: 'Toronto' },
+      { slug: 'sao-paulo', name: 'São Paulo' },
+      { slug: 'mexico-city', name: 'Mexico City' },
+    ],
+  },
+  {
+    label: 'Europe',
+    cities: [
+      { slug: 'london', name: 'London' },
+      { slug: 'paris', name: 'Paris' },
+      { slug: 'berlin', name: 'Berlin' },
+      { slug: 'amsterdam', name: 'Amsterdam' },
+      { slug: 'madrid', name: 'Madrid' },
+      { slug: 'rome', name: 'Rome' },
+      { slug: 'stockholm', name: 'Stockholm' },
+      { slug: 'copenhagen', name: 'Copenhagen' },
+      { slug: 'oslo', name: 'Oslo' },
+      { slug: 'helsinki', name: 'Helsinki' },
+      { slug: 'zurich', name: 'Zurich' },
+      { slug: 'vienna', name: 'Vienna' },
+    ],
+  },
+  {
+    label: 'Middle East & Africa',
+    cities: [
+      { slug: 'dubai', name: 'Dubai' },
+      { slug: 'istanbul', name: 'Istanbul' },
+      { slug: 'cairo', name: 'Cairo' },
+      { slug: 'lagos', name: 'Lagos' },
+      { slug: 'nairobi', name: 'Nairobi' },
+    ],
+  },
+  {
+    label: 'Asia & Pacific',
+    cities: [
+      { slug: 'tokyo', name: 'Tokyo' },
+      { slug: 'beijing', name: 'Beijing' },
+      { slug: 'shanghai', name: 'Shanghai' },
+      { slug: 'hong-kong', name: 'Hong Kong' },
+      { slug: 'singapore', name: 'Singapore' },
+      { slug: 'seoul', name: 'Seoul' },
+      { slug: 'mumbai', name: 'Mumbai' },
+      { slug: 'delhi', name: 'Delhi' },
+      { slug: 'bangkok', name: 'Bangkok' },
+      { slug: 'jakarta', name: 'Jakarta' },
+      { slug: 'taipei', name: 'Taipei' },
+      { slug: 'sydney', name: 'Sydney' },
+      { slug: 'auckland', name: 'Auckland' },
+    ],
+  },
+];
+---
+<footer>
+  <div class="footer-grid">
+    {regions.map(region => (
+      <div class="footer-region">
+        <span class="region-label">{region.label}</span>
+        {region.cities.map(c => (
+          <a href={`/${c.slug}`} class="city-link">{c.name}</a>
+        ))}
+      </div>
+    ))}
+  </div>
+
+  <div class="footer-inner">
+    <a href="/" class="footer-brand">whatisthetime<span class="tld">.now</span></a>
+    <span class="footer-meta">990 cities · © {new Date().getFullYear()}</span>
+  </div>
+</footer>
+
+<style>
+  footer {
+    background: var(--text);
+    color: var(--bg);
+    padding: 40px var(--page-pad) 32px;
+    margin-top: 0;
+    transition: background 0.3s, color 0.3s;
+  }
+
+  /* ── City grid ───────────────────────────────────────── */
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px 24px;
+    padding-bottom: 36px;
+    border-bottom: 1px solid var(--footer-region);
+    margin-bottom: 28px;
+  }
+
+  @media (max-width: 700px) {
+    .footer-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px 16px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .footer-grid { grid-template-columns: 1fr; }
+  }
+
+  .footer-region {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .region-label {
+    font-size: var(--t-xs);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--footer-region);
+    margin-bottom: 4px;
+  }
+
+  .city-link {
+    color: var(--footer-city);
+    text-decoration: none;
+    font-size: var(--t-sm);
+    line-height: 1.5;
+    transition: color 0.15s;
+  }
+  .city-link:hover { color: var(--bg); }
+
+  /* ── Brand bar ───────────────────────────────────────── */
+  .footer-inner {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .footer-brand {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-variation-settings: 'wght' 800, 'opsz' 50;
+    font-size: clamp(1.5rem, 6vw, 3rem);
+    letter-spacing: -0.03em;
+    line-height: 1;
+    color: var(--bg);
+    text-decoration: none;
+    transition: opacity 0.15s;
+  }
+  .footer-brand:hover { opacity: 0.7; }
+
+  .tld { opacity: 0.4; }
+
+  .footer-meta {
+    font-size: var(--t-xs);
+    opacity: 0.4;
+    letter-spacing: 0.04em;
+    align-self: flex-end;
+    padding-bottom: 4px;
+  }
+</style>

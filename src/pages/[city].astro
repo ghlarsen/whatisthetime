@@ -7,8 +7,9 @@ import Nav from '../components/Nav.astro';
 import ClockHero from '../components/ClockHero.astro';
 import MeetingGrid from '../components/MeetingGrid.astro';
 import CityContent from '../components/CityContent.astro';
+import Footer from '../components/Footer.astro';
 import cities from '../data/cities.ts';
-import { formatUtcOffset, getCurrentTime } from '../lib/timezone.ts';
+import { formatUtcOffset, getCurrentTime, getDSTTransitions, getUtcOffsetMinutes } from '../lib/timezone.ts';
 
 export async function getStaticPaths() {
   return cities.map(city => ({ params: { city: city.slug } }));
@@ -23,15 +24,68 @@ if (!city) {
 
 const time = getCurrentTime(city.timezone);
 const utcLabel = formatUtcOffset(time.utcOffsetMinutes);
+const year = new Date().getFullYear();
+const dst = getDSTTransitions(city.timezone, year);
+const winterLabel = formatUtcOffset(dst.winterOffset);
+const summerLabel = dst.hasDST ? formatUtcOffset(dst.summerOffset) : null;
+const isInDST = dst.hasDST && time.utcOffsetMinutes === dst.summerOffset;
+const currentOffset = formatUtcOffset(time.utcOffsetMinutes);
+
+// Helper: current diff vs another timezone
+function diffVs(tz: string) {
+  const diff = time.utcOffsetMinutes - getUtcOffsetMinutes(tz);
+  if (diff === 0) return null;
+  const abs = Math.abs(diff);
+  const h = Math.floor(abs / 60), m = abs % 60;
+  const parts = [];
+  if (h > 0) parts.push(`${h} hour${h !== 1 ? 's' : ''}`);
+  if (m > 0) parts.push(`${m} minute${m !== 1 ? 's' : ''}`);
+  return { label: parts.join(' '), sign: diff > 0 ? 'ahead of' : 'behind' };
+}
+
+// Core FAQs for JSON-LD schema (plain text — no HTML tags)
+const schemaFaqs: { q: string; a: string }[] = [];
+
+schemaFaqs.push({
+  q: `What timezone is ${city.name} in?`,
+  a: dst.hasDST
+    ? `${city.name} uses the IANA timezone ${city.timezone}. The UTC offset is ${winterLabel} in winter (standard time) and ${summerLabel} during daylight saving time (summer).`
+    : `${city.name} uses the IANA timezone ${city.timezone}. The UTC offset is always ${winterLabel} — this timezone does not observe daylight saving time.`,
+});
+
+schemaFaqs.push({
+  q: `Does ${city.name} observe daylight saving time?`,
+  a: dst.hasDST
+    ? `Yes. ${city.name} observes daylight saving time, shifting from ${winterLabel} (standard time) to ${summerLabel} in summer.`
+    : `No. ${city.name} does not observe daylight saving time. The UTC offset remains ${winterLabel} all year round.`,
+});
+
+schemaFaqs.push({
+  q: `What is the current UTC offset for ${city.name}?`,
+  a: `${city.name} is currently at ${currentOffset}.${dst.hasDST ? ` It is ${isInDST ? 'currently observing daylight saving time' : 'not currently observing daylight saving time'}.` : ''}`,
+});
+
+const vsNY = diffVs('America/New_York');
+if (vsNY) schemaFaqs.push({
+  q: `What is the time difference between ${city.name} and New York?`,
+  a: `${city.name} is currently ${vsNY.label} ${vsNY.sign} New York.`,
+});
+
+const vsLondon = diffVs('Europe/London');
+if (vsLondon && city.timezone !== 'Europe/London') schemaFaqs.push({
+  q: `What is the time difference between ${city.name} and London?`,
+  a: `${city.name} is currently ${vsLondon.label} ${vsLondon.sign} London.`,
+});
 
 const title = `What time is it in ${city.name}? | whatisthetime.now`;
 const description = `Current local time in ${city.name}, ${city.country}. Live clock showing ${utcLabel}.`;
 const canonical = `https://whatisthetime.now/${city.slug}`;
 ---
 
-<Base title={title} description={description} canonical={canonical}>
+<Base title={title} description={description} canonical={canonical} faqs={schemaFaqs}>
   <Nav />
   <ClockHero city={city} />
   <MeetingGrid defaultCities={[city.slug, 'new-york-city', 'london', 'tokyo']} />
   <CityContent city={city} />
+  <Footer />
 </Base>

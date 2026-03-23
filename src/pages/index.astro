@@ -1,31 +1,258 @@
 ---
 export const prerender = false;
 // src/pages/index.astro
-// No prerender — needs edge SSR to read CF-IPCountry header
 import Base from '../layouts/Base.astro';
 import Nav from '../components/Nav.astro';
-import ClockHero from '../components/ClockHero.astro';
-import ComparisonWidget from '../components/ComparisonWidget.astro';
-import cities from '../data/cities.ts';
-import { getCityBySlug } from '../lib/timezone.ts';
+import WorldClocks from '../components/WorldClocks.astro';
+import MeetingGrid from '../components/MeetingGrid.astro';
+import Footer from '../components/Footer.astro';
+import { getUtcOffsetMinutes, formatUtcOffset, getCityBySlug, getCurrentTime } from '../lib/timezone.ts';
 
-// Cloudflare provides CF-IPCountry header; we pick a default city per country
+// Geo-detect user's city from Cloudflare header
 const countryToCitySlug: Record<string, string> = {
   DK: 'copenhagen', GB: 'london', US: 'new-york-city', JP: 'tokyo',
   DE: 'berlin', FR: 'paris', AU: 'sydney', CN: 'beijing',
   IN: 'mumbai', BR: 'sao-paulo', CA: 'toronto', SG: 'singapore',
+  SE: 'stockholm', NO: 'oslo', FI: 'helsinki', NL: 'amsterdam',
+  ES: 'madrid', IT: 'rome', CH: 'zurich', AE: 'dubai',
+  TW: 'taipei', KR: 'seoul', TH: 'bangkok', NZ: 'auckland',
 };
-
 const countryCode = Astro.request.headers.get('CF-IPCountry') ?? 'XX';
-const defaultSlug = countryToCitySlug[countryCode] ?? 'london';
-const city = getCityBySlug(defaultSlug) ?? cities[0]!;
+const localSlug = countryToCitySlug[countryCode] ?? 'london';
+const localCity = getCityBySlug(localSlug)!;
+const localTime = getCurrentTime(localCity.timezone);
+const localH = String(localTime.hours).padStart(2, '0');
+const localM = String(localTime.minutes).padStart(2, '0');
+const localS = String(localTime.seconds).padStart(2, '0');
+const localOffset = formatUtcOffset(localTime.utcOffsetMinutes);
+
+// Compute a handful of authoritative world-time facts at SSR time
+// so AI agents get real answers, not placeholders
+const now = new Date();
+
+function currentTimeStr(tz: string) {
+  return new Intl.DateTimeFormat('en-US', {
+    timeZone: tz, hour: '2-digit', minute: '2-digit', hour12: true,
+  }).format(now);
+}
+
+function diff(a: string, b: string) {
+  const d = getUtcOffsetMinutes(a) - getUtcOffsetMinutes(b);
+  if (d === 0) return 'the same time';
+  const abs = Math.abs(d);
+  const h = Math.floor(abs / 60), m = abs % 60;
+  const parts = [];
+  if (h) parts.push(`${h} hour${h !== 1 ? 's' : ''}`);
+  if (m) parts.push(`${m} minute${m !== 1 ? 's' : ''}`);
+  return `${parts.join(' ')} ${d > 0 ? 'ahead of' : 'behind'}`;
+}
+
+const nyTime  = currentTimeStr('America/New_York');
+const lonTime = currentTimeStr('Europe/London');
+const tokTime = currentTimeStr('Asia/Tokyo');
+const synTime = currentTimeStr('Australia/Sydney');
+const utcOff  = formatUtcOffset(getUtcOffsetMinutes('UTC'));
+
+const nyVsLondon = diff('America/New_York', 'Europe/London');
+const lonVsTokyo = diff('Europe/London', 'Asia/Tokyo');
+const nyVsTokyo  = diff('America/New_York', 'Asia/Tokyo');
+
+const homeFaqs = [
+  {
+    q: 'What time is it right now in major world cities?',
+    a: `Right now it is ${nyTime} in New York, ${lonTime} in London, ${tokTime} in Tokyo, and ${synTime} in Sydney. All times update live on this page.`,
+  },
+  {
+    q: 'What is UTC time?',
+    a: 'UTC (Coordinated Universal Time) is the global time standard. All world timezones are defined as offsets from UTC — for example, New York is UTC−5 in winter, London is UTC+0, Tokyo is UTC+9. UTC never observes daylight saving time.',
+  },
+  {
+    q: 'How many timezones are there in the world?',
+    a: 'There are 24 standard timezones, but with half-hour and quarter-hour offsets (used by India, Iran, Nepal, and others) the total is around 38 distinct UTC offsets in use worldwide.',
+  },
+  {
+    q: `What is the time difference between New York and London?`,
+    a: `New York is currently ${nyVsLondon} London. This gap is 5 hours in winter (EST vs GMT) and 4–6 hours during the brief spring and autumn transition periods when the two cities switch to daylight saving time on different dates.`,
+  },
+  {
+    q: `What is the time difference between London and Tokyo?`,
+    a: `London is currently ${lonVsTokyo} Tokyo. Tokyo does not observe daylight saving time, so this gap shifts by 1 hour when London moves between GMT (UTC+0) and BST (UTC+1) in summer.`,
+  },
+  {
+    q: `What is the time difference between New York and Tokyo?`,
+    a: `New York is currently ${nyVsTokyo} Tokyo.`,
+  },
+  {
+    q: 'Which countries observe daylight saving time?',
+    a: 'Most of Europe, the United States, Canada, and Australia observe daylight saving time, shifting clocks forward by one hour in summer. Countries near the equator (including Japan, China, India, and most of Africa and Southeast Asia) do not observe DST. Russia abolished DST in 2014.',
+  },
+  {
+    q: 'What is the IANA timezone database?',
+    a: 'The IANA Time Zone Database (also called the Olson database) is the authoritative global list of timezone identifiers used by operating systems, programming languages, and APIs. Examples: America/New_York, Europe/London, Asia/Tokyo. This site uses IANA identifiers for all 990 cities.',
+  },
+];
+
+const title = 'What time is it right now? | Live world clocks | whatisthetime.now';
+const description = 'Live world clocks for 990 cities. Current time in every timezone, meeting planner, DST dates, and UTC offset info. No signup required.';
+const canonical = 'https://whatisthetime.now';
+
+// WebSite schema for AI and search engines
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'whatisthetime.now',
+  url: 'https://whatisthetime.now',
+  description,
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: { '@type': 'EntryPoint', urlTemplate: 'https://whatisthetime.now/{search_term_string}' },
+    'query-input': 'required name=search_term_string',
+  },
+};
 ---
 
-<Base
-  title={`What time is it in ${city.name}? | whatisthetime.now`}
-  description={`Live world clock. Current time in ${city.name} and any city worldwide.`}
->
+<Base title={title} description={description} canonical={canonical} faqs={homeFaqs}>
+  <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} slot="head" />
   <Nav />
-  <ClockHero city={city} />
-  <ComparisonWidget defaultCities={['copenhagen', 'tokyo', 'new-york-city', 'london']} />
+
+  <!-- Hero -->
+  <header class="home-hero">
+    <div
+      class="hero-clock"
+      id="local-clock"
+      data-tz={localCity.timezone}
+    >{localH}:{localM}:{localS}</div>
+    <div class="hero-city-row">
+      <a href={`/${localCity.slug}`} class="hero-city-link" id="local-city">{localCity.name}</a>
+      <span class="hero-offset" id="local-offset">{localOffset}</span>
+    </div>
+    <h1 class="hero-title">What time is it right now?</h1>
+    <p class="hero-sub">Live clocks for 990 cities · Every timezone · Meeting planner</p>
+  </header>
+
+  <WorldClocks />
+  <MeetingGrid defaultCities={['new-york-city', 'london', 'tokyo', 'sydney']} />
+
+  <!-- FAQ -->
+  <section class="home-faq">
+    <h2 class="faq-heading">World time — answered</h2>
+    <dl class="faq-list">
+      {homeFaqs.map(({ q, a }) => (
+        <>
+          <dt class="faq-q">{q}</dt>
+          <dd class="faq-a">{a}</dd>
+        </>
+      ))}
+    </dl>
+  </section>
+
+  <Footer />
+  <script>
+    // Override SSR geo-guess with browser's actual local timezone
+    const clockEl  = document.getElementById('local-clock');
+    const offsetEl = document.getElementById('local-offset');
+    const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+    function tickLocal() {
+      const now = new Date();
+      const parts = new Intl.DateTimeFormat('en-US', {
+        timeZone: tz,
+        hour: '2-digit', minute: '2-digit', second: '2-digit',
+        hour12: false,
+      }).formatToParts(now);
+      const get = (t: string) => parts.find(p => p.type === t)?.value ?? '00';
+      const h = String(parseInt(get('hour'), 10) % 24).padStart(2, '0');
+      if (clockEl) clockEl.textContent = `${h}:${get('minute')}:${get('second')}`;
+    }
+
+    tickLocal();
+    setInterval(tickLocal, 1000);
+  </script>
 </Base>
+
+<style>
+  /* ── Hero ── */
+  .home-hero {
+    padding: 48px var(--page-pad) 40px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .hero-clock {
+    font-family: ui-monospace, 'SF Mono', 'Fira Code', monospace;
+    font-size: var(--t-display);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    color: var(--text);
+    margin-bottom: 12px;
+  }
+
+  .hero-city-row {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 32px;
+  }
+
+  .hero-city-link {
+    font-size: var(--t-base);
+    color: var(--text-muted);
+    text-decoration: none;
+    border-bottom: 1px solid var(--border);
+    transition: border-color 0.15s;
+  }
+  .hero-city-link:hover { border-color: var(--text-muted); }
+
+  .hero-offset {
+    font-size: var(--t-sm);
+    color: var(--text-dim);
+    font-family: ui-monospace, 'SF Mono', monospace;
+  }
+
+  .hero-title {
+    font-size: var(--t-sm);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 6px;
+  }
+  .hero-sub {
+    font-size: var(--t-sm);
+    color: var(--text-dim);
+    letter-spacing: 0.01em;
+  }
+
+  @media (max-width: 500px) {
+    .home-hero { padding-top: 32px; padding-bottom: 28px; }
+  }
+
+  /* ── FAQ ── */
+  .home-faq {
+    padding: 48px var(--page-pad) 64px;
+    border-top: 1px solid var(--border);
+    max-width: 720px;
+  }
+  .faq-heading {
+    font-size: var(--t-sm);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 24px;
+  }
+  .faq-list { margin: 0; }
+  .faq-q {
+    font-size: var(--t-base);
+    font-weight: 600;
+    color: var(--text);
+    margin: 24px 0 6px;
+    line-height: 1.4;
+  }
+  .faq-q:first-child { margin-top: 0; }
+  .faq-a {
+    font-size: var(--t-base);
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin: 0;
+  }
+</style>

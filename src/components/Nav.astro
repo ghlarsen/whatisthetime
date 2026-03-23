@@ -3,6 +3,19 @@
 ---
 <nav>
   <a href="/" class="logo">whatisthetime<span class="logo-tld">.now</span></a>
+
+  <div class="nav-search" id="nav-search">
+    <input
+      id="nav-search-input"
+      class="nav-search-input"
+      type="text"
+      placeholder="Search city…"
+      autocomplete="off"
+      spellcheck="false"
+    />
+    <div class="nav-ac" id="nav-ac"></div>
+  </div>
+
   <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
     <span class="toggle-label-dark">☀️ light</span>
     <span class="toggle-label-light">🌙 dark</span>
@@ -11,45 +24,140 @@
 
 <style>
   nav {
-    padding: 12px 24px;
+    padding: 12px var(--page-pad);
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid var(--border);
+    gap: 16px;
   }
 
   .logo {
-    font-size: 13px;
+    font-size: var(--t-sm);
     font-weight: 600;
     letter-spacing: -0.5px;
     color: var(--text);
     text-decoration: none;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
   .logo-tld { opacity: 0.4; }
 
+  /* ── City search ── */
+  .nav-search {
+    position: relative;
+    flex: 1;
+    max-width: 280px;
+  }
+
+  .nav-search-input {
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+    font-size: var(--t-sm);
+    font-family: inherit;
+    padding: 4px 0;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+  .nav-search-input:focus { border-color: var(--text-muted); }
+  .nav-search-input::placeholder { color: var(--text-dim); }
+
+  .nav-ac {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--bg-subtle);
+    border: 1px solid var(--border);
+    border-top: none;
+    z-index: 100;
+    max-height: 260px;
+    overflow-y: auto;
+  }
+
+  .nav-ac-item {
+    padding: 9px 14px;
+    cursor: pointer;
+    font-size: var(--t-sm);
+    color: var(--text);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-ac-item:hover { background: var(--bar-empty); }
+  .nav-ac-item span { font-size: var(--t-xs); color: var(--text-dim); }
+
+  /* ── Theme toggle ── */
   .theme-toggle {
     background: none;
     border: 1px solid var(--border);
     color: var(--text-muted);
     border-radius: 20px;
     padding: 5px 12px;
-    font-size: 11px;
+    font-size: var(--t-xs);
     cursor: pointer;
     transition: border-color 0.2s;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
   .theme-toggle:hover { border-color: var(--text-muted); }
 
-  /* Show the right label based on current theme */
   :root[data-theme="dark"]  .toggle-label-light { display: none; }
   :root[data-theme="light"] .toggle-label-dark  { display: none; }
+
+  /* ── Mobile: hide search, keep logo + toggle ── */
+  @media (max-width: 500px) {
+    .nav-search { display: none; }
+  }
 </style>
 
 <script>
-  const btn = document.getElementById('theme-toggle')!;
-  btn.addEventListener('click', () => {
+  import allCities from '../data/cities.ts';
+
+  // ── Theme toggle
+  const themeBtn = document.getElementById('theme-toggle')!;
+  themeBtn.addEventListener('click', () => {
     const current = document.documentElement.getAttribute('data-theme');
     const next = current === 'dark' ? 'light' : 'dark';
     document.documentElement.setAttribute('data-theme', next);
     localStorage.setItem('theme', next);
+  });
+
+  // ── City search
+  const input = document.getElementById('nav-search-input') as HTMLInputElement;
+  const ac = document.getElementById('nav-ac')!;
+
+  function showAc(q: string) {
+    if (!q.trim()) { ac.innerHTML = ''; return; }
+    const matches = allCities
+      .filter(c =>
+        c.name.toLowerCase().includes(q.toLowerCase()) ||
+        c.country.toLowerCase().includes(q.toLowerCase())
+      )
+      .slice(0, 8);
+
+    ac.innerHTML = matches.map(c =>
+      `<div class="nav-ac-item" data-slug="${c.slug}">
+        ${c.name}, <span>${c.country}</span>
+      </div>`
+    ).join('');
+  }
+
+  input.addEventListener('input', () => showAc(input.value));
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') { ac.innerHTML = ''; input.blur(); }
+  });
+  input.addEventListener('blur', () => {
+    setTimeout(() => { ac.innerHTML = ''; }, 150);
+  });
+
+  ac.addEventListener('mousedown', (e) => {
+    const item = (e.target as HTMLElement).closest('.nav-ac-item') as HTMLElement | null;
+    if (!item) return;
+    e.preventDefault();
+    window.location.href = '/' + item.dataset.slug;
   });
 </script>
