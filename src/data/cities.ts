@@ -3105,7 +3105,7 @@ export const cities: CityEntry[] = [
     "timezone": "Pacific/Majuro"
   },
   {
-    "slug": "makakilo-/-kapolei-/-honokai-hale",
+    "slug": "makakilo-kapolei-honokai-hale",
     "name": "Makakilo / Kapolei / Honokai Hale",
     "country": "United States",
     "timezone": "Pacific/Honolulu"

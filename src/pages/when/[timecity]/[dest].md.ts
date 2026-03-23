@@ -1,5 +1,5 @@
 // src/pages/when/[timecity]/[dest].md.ts
-// Edge SSR — no prerender directive
+export const prerender = false;
 
 import type { APIRoute } from 'astro';
 import { getCityBySlug, formatUtcOffset, getUtcOffsetMinutes } from '../../../lib/timezone.ts';
