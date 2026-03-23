@@ -168,5 +168,25 @@ export default cities;
 `;
 
 writeFileSync('src/data/cities.ts', output, 'utf-8');
+
+// Client-only index (no lat/lng, smaller bundle for search + meeting grid)
+const clientCities = cities.map(({ slug, name, country, timezone }) => ({ slug, name, country, timezone }));
+const clientOutput = `// AUTO-GENERATED — lightweight client bundle (no lat/lng)
+// Use this in <script> tags. Use cities.ts in Astro frontmatter.
+export interface CityIndexEntry {
+  slug: string;
+  name: string;
+  country: string;
+  timezone: string;
+}
+
+export const cities: CityIndexEntry[] = ${JSON.stringify(clientCities)};
+
+export default cities;
+`;
+
+writeFileSync('src/data/cities-client.ts', clientOutput, 'utf-8');
+
 console.log(`Generated ${cities.length} cities → src/data/cities.ts`);
+console.log(`Generated ${clientCities.length} cities → src/data/cities-client.ts (no lat/lng)`);
 console.log(`  Geocoded: ${matched} matched, ${unmatched} unmatched (lat/lng = 0,0)`);

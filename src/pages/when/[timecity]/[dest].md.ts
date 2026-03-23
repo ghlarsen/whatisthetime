@@ -24,10 +24,16 @@ export const GET: APIRoute = ({ params }) => {
   const originUtcLabel = formatUtcOffset(originOffset);
   const destUtcLabel   = formatUtcOffset(destOffset);
   const diffMinutes    = destOffset - originOffset;
-  const diffHours      = diffMinutes / 60;
-  const aheadBehind    = diffHours >= 0
-    ? `${Math.abs(diffHours)} hours ahead of`
-    : `${Math.abs(diffHours)} hours behind`;
+  const absDiff        = Math.abs(diffMinutes);
+  const diffH          = Math.floor(absDiff / 60);
+  const diffM          = absDiff % 60;
+  const diffParts: string[] = [];
+  if (diffH > 0) diffParts.push(`${diffH} hour${diffH !== 1 ? 's' : ''}`);
+  if (diffM > 0) diffParts.push(`${diffM} minute${diffM !== 1 ? 's' : ''}`);
+  const diffLabel      = diffParts.join(' ') || '0 hours';
+  const aheadBehind    = diffMinutes >= 0
+    ? `${diffLabel} ahead of`
+    : `${diffLabel} behind`;
 
   const dayOffsetNote = converted.dayOffset === 1
     ? ' (the next day)'
@@ -41,7 +47,7 @@ When it is ${parsed.timeToken} in ${originCity.name} (${originUtcLabel}), it is 
 
 ## Time difference: ${originCity.name} and ${destCity.name}
 
-${originCity.name} operates on ${originCity.timezone} (${originUtcLabel}). ${destCity.name} operates on ${destCity.timezone} (${destUtcLabel}). The offset between them is ${Math.abs(diffHours)} hours.
+${originCity.name} operates on ${originCity.timezone} (${originUtcLabel}). ${destCity.name} operates on ${destCity.timezone} (${destUtcLabel}). The offset between them is ${diffLabel}.
 
 ## Frequently Asked Questions
 
@@ -49,7 +55,7 @@ ${originCity.name} operates on ${originCity.timezone} (${originUtcLabel}). ${des
 When it is ${parsed.timeToken} in ${originCity.name} (${originUtcLabel}), it is ${destTimeToken}${dayOffsetNote} in ${destCity.name} (${destUtcLabel}).
 
 ### How many hours ahead is ${destCity.name} from ${originCity.name}?
-${destCity.name} is ${aheadBehind} ${originCity.name} (${Math.abs(diffHours)} hours difference).
+${destCity.name} is ${aheadBehind} ${originCity.name} (${diffLabel} difference).
 `;
 
   return new Response(md, {

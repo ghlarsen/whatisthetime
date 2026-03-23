@@ -61,6 +61,11 @@ const vsLondon = diffText('Europe/London');
 const vsLosAngeles = diffText('America/Los_Angeles');
 const vsTokyo = diffText('Asia/Tokyo');
 
+// Sanitize HTML: only allow <code> tags
+function sanitizeHtml(html: string): string {
+  return html.replace(/<(?!\/?code\b)[^>]*>/gi, '');
+}
+
 // FAQ entries — generated at build time
 interface FAQ { q: string; a: string; }
 
@@ -253,7 +258,7 @@ if (isEuropeCET) {
     {faqs.map(({ q, a }) => (
       <>
         <dt class="faq-q">{q}</dt>
-        <dd class="faq-a" set:html={a} />
+        <dd class="faq-a" set:html={sanitizeHtml(a)} />
       </>
     ))}
   </dl>

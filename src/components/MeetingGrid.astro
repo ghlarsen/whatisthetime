@@ -326,7 +326,7 @@ const initialCities = defaultCities
 </style>
 
 <script>
-  import allCities from '../data/cities.ts';
+  import allCities from '../data/cities-client.ts';
 
   // ── Types ──────────────────────────────────────────────────────────
   type City = { slug: string; name: string; country: string; timezone: string };
@@ -697,6 +697,9 @@ const initialCities = defaultCities
     });
     const rowsElForResize = document.getElementById('mg-scroll-wrap') ?? document.getElementById('mg-rows');
     if (rowsElForResize) ro.observe(rowsElForResize);
+
+    // Cleanup on view transitions
+    document.addEventListener('astro:before-swap', () => ro.disconnect(), { once: true });
   }
 
   // ── Init ───────────────────────────────────────────────────────────

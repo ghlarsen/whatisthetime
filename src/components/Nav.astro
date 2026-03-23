@@ -105,7 +105,7 @@
     justify-content: space-between;
     align-items: center;
   }
-  .nav-ac-item:hover { background: var(--bar-empty); }
+  .nav-ac-item:hover, .nav-ac-item.ac-active { background: var(--bar-empty); }
   .nav-ac-item span { font-size: var(--t-xs); color: var(--text-dim); }
 
   /* ── Theme toggle ── */
@@ -142,7 +142,7 @@
 </style>
 
 <script>
-  import allCities from '../data/cities.ts';
+  import allCities from '../data/cities-client.ts';
 
   // ── Theme toggle
   const themeBtn = document.getElementById('theme-toggle')!;
@@ -159,8 +159,12 @@
     const ac = document.getElementById(acId);
     if (!input || !ac) return;
 
+    let activeIndex = -1;
+
     function showAc(q: string) {
-      if (!q.trim()) { ac!.innerHTML = ''; return; }
+      ac!.textContent = '';
+      activeIndex = -1;
+      if (!q.trim()) return;
       const matches = allCities
         .filter(c =>
           c.name.toLowerCase().includes(q.toLowerCase()) ||
@@ -168,19 +172,58 @@
         )
         .slice(0, 8);
 
-      ac!.innerHTML = matches.map(c =>
-        `<div class="nav-ac-item" data-slug="${c.slug}">
-          ${c.name}, <span>${c.country}</span>
-        </div>`
-      ).join('');
+      ac!.setAttribute('role', 'listbox');
+      matches.forEach((c, i) => {
+        const div = document.createElement('div');
+        div.className = 'nav-ac-item';
+        div.dataset.slug = c.slug;
+        div.setAttribute('role', 'option');
+        div.id = `${acId}-opt-${i}`;
+        div.textContent = `${c.name}, `;
+        const span = document.createElement('span');
+        span.textContent = c.country;
+        div.appendChild(span);
+        ac!.appendChild(div);
+      });
     }
 
-    input.addEventListener('input', () => showAc(input.value));
+    function selectItem(index: number) {
+      const items = ac!.querySelectorAll('.nav-ac-item');
+      items.forEach((el, i) => {
+        el.classList.toggle('ac-active', i === index);
+      });
+      if (items[index]) {
+        input.setAttribute('aria-activedescendant', items[index].id);
+      }
+    }
+
+    input.setAttribute('role', 'combobox');
+    input.setAttribute('aria-autocomplete', 'list');
+    input.setAttribute('aria-expanded', 'false');
+    input.setAttribute('aria-controls', acId);
+
+    input.addEventListener('input', () => {
+      showAc(input.value);
+      input.setAttribute('aria-expanded', ac!.children.length > 0 ? 'true' : 'false');
+    });
     input.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') { ac!.innerHTML = ''; input.blur(); }
+      const items = ac!.querySelectorAll('.nav-ac-item');
+      if (e.key === 'Escape') { ac!.textContent = ''; input.blur(); }
+      else if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        activeIndex = Math.min(activeIndex + 1, items.length - 1);
+        selectItem(activeIndex);
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        activeIndex = Math.max(activeIndex - 1, 0);
+        selectItem(activeIndex);
+      } else if (e.key === 'Enter' && activeIndex >= 0 && items[activeIndex]) {
+        e.preventDefault();
+        window.location.href = '/' + (items[activeIndex] as HTMLElement).dataset.slug;
+      }
     });
     input.addEventListener('blur', () => {
-      setTimeout(() => { ac!.innerHTML = ''; }, 150);
+      setTimeout(() => { ac!.textContent = ''; input.setAttribute('aria-expanded', 'false'); }, 150);
     });
 
     ac.addEventListener('mousedown', (e) => {

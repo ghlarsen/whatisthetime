@@ -87,10 +87,11 @@ const faqSchema = faqs?.length ? {
     })();
   </script>
 
-  <!-- Bricolage Grotesque variable font -->
+  <!-- Bricolage Grotesque variable font (non-blocking) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
 
   <style is:global>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -146,7 +147,7 @@ const faqSchema = faqs?.length ? {
       --bg-subtle: #fafafa;
       --text: #111111;
       --text-muted: #191932;  /* deep indigo on white */
-      --text-dim: #7070a0;    /* same mid blue-grey — mirrors dark */
+      --text-dim: #5a5a8a;    /* mid blue-grey, WCAG AA 4.6:1 on white */
       --border: #ebebeb;
       --bar-empty: #b8b8b8;   /* clearly visible mid-grey on white */
       --bar-work: #6dba8e;    /* proper saturated green on white */

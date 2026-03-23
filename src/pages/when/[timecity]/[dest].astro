@@ -80,7 +80,7 @@ const canonical = `https://whatisthetime.now/when/${timecity}/${dest}`;
 
 <style>
   .conversion-hero {
-    padding: 48px 28px 32px;
+    padding: 48px var(--page-pad) 32px;
     display: flex;
     align-items: center;
     gap: 32px;
@@ -88,7 +88,7 @@ const canonical = `https://whatisthetime.now/when/${timecity}/${dest}`;
   }
 
   .city-label {
-    font-size: 10px;
+    font-size: var(--t-xs);
     letter-spacing: 3px;
     color: var(--text-muted);
     text-transform: uppercase;
@@ -118,7 +118,7 @@ const canonical = `https://whatisthetime.now/when/${timecity}/${dest}`;
 
   .when-info {
     padding: 20px 28px;
-    font-size: 12px;
+    font-size: var(--t-sm);
     color: var(--text-muted);
     border-top: 1px solid var(--border);
   }
