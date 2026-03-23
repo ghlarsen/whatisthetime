@@ -1,7 +1,8 @@
 ---
 // src/components/ClockHero.astro
-import { getCurrentTime, formatUtcOffset } from '../lib/timezone.ts';
+import { getCurrentTime, formatUtcOffset, getDSTTransitions, getUtcOffsetMinutes } from '../lib/timezone.ts';
 import type { CityEntry } from '../data/cities.ts';
+import SunCalc from 'suncalc';
 
 export interface Props {
   city: CityEntry;
@@ -12,6 +13,36 @@ const time = getCurrentTime(city.timezone);
 const pad = (n: number) => String(n).padStart(2, '0');
 const initialTime = `${pad(time.hours)}:${pad(time.minutes)}:${pad(time.seconds)}`;
 const utcLabel = formatUtcOffset(time.utcOffsetMinutes);
+
+// DST status
+const year = new Date().getFullYear();
+const dst = getDSTTransitions(city.timezone, year);
+const isInDST = dst.hasDST && time.utcOffsetMinutes === dst.summerOffset;
+
+// Week number (ISO 8601)
+const now = new Date();
+const localDate = new Date(now.toLocaleString('en-US', { timeZone: city.timezone }));
+const jan1 = new Date(localDate.getFullYear(), 0, 1);
+const dayOfYear = Math.floor((localDate.getTime() - jan1.getTime()) / 86400000) + 1;
+const weekNum = Math.ceil((dayOfYear + jan1.getDay()) / 7);
+
+// Sunrise/sunset (using city lat/lng)
+let sunriseStr = '';
+let sunsetStr = '';
+if (city.lat !== 0 || city.lng !== 0) {
+  const sunTimes = SunCalc.getTimes(now, city.lat, city.lng);
+  const fmt = (d: Date) => {
+    try {
+      return new Intl.DateTimeFormat('en-US', {
+        timeZone: city.timezone,
+        hour: '2-digit', minute: '2-digit',
+        hour12: false,
+      }).format(d);
+    } catch { return ''; }
+  };
+  sunriseStr = fmt(sunTimes.sunrise);
+  sunsetStr = fmt(sunTimes.sunset);
+}
 ---
 
 <section class="clock-section">
@@ -21,6 +52,19 @@ const utcLabel = formatUtcOffset(time.utcOffsetMinutes);
     data-timezone={city.timezone}
   >{initialTime}</div>
   <div class="date-line" id="date-line">{time.dateString}</div>
+
+  <div class="meta-row">
+    <span class="meta-item">W{weekNum}</span>
+    {sunriseStr && <span class="meta-item">↑ {sunriseStr}</span>}
+    {sunsetStr && <span class="meta-item">↓ {sunsetStr}</span>}
+    {dst.hasDST ? (
+      isInDST
+        ? <span class="meta-item dst-badge dst-active">DST</span>
+        : <span class="meta-item dst-badge dst-standard">STD</span>
+    ) : (
+      <span class="meta-item dst-badge dst-none">No DST</span>
+    )}
+  </div>
 </section>
 
 <style>
@@ -53,6 +97,44 @@ const utcLabel = formatUtcOffset(time.utcOffsetMinutes);
     font-size: var(--t-base);
     color: var(--text-muted);
     margin-top: 16px;
+  }
+
+  .meta-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+  }
+
+  .meta-item {
+    font-size: var(--t-xs);
+    font-family: ui-monospace, 'SF Mono', 'Fira Code', monospace;
+    color: var(--text-dim);
+    letter-spacing: 0.03em;
+  }
+
+  .dst-badge {
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .dst-active {
+    color: #4caf50;
+    border: 1px solid #4caf50;
+  }
+
+  .dst-standard {
+    color: var(--text-dim);
+    border: 1px solid var(--border);
+  }
+
+  .dst-none {
+    color: var(--text-dim);
+    border: 1px solid var(--border);
   }
 </style>
 

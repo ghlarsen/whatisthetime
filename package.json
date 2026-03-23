@@ -19,10 +19,12 @@
     "@astrojs/cloudflare": "^12.6.13",
     "@vvo/tzdb": "^6.198.0",
     "astro": "^6.0.8",
+    "suncalc": "^1.9.0",
     "typescript": "^5.9.3"
   },
   "devDependencies": {
     "@vitest/coverage-v8": "^4.1.0",
-    "vitest": "^4.1.0"
+    "vitest": "^4.1.0",
+    "world-cities-json": "^1.0.1"
   }
 }

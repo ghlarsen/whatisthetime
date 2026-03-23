@@ -6,34 +6,36 @@ Features and ideas not yet ready for implementation. When ready to build, conver
 
 ## Ready
 
-### Footer city link grid (SEO — internal linking)
-**Why:** time.is's domain authority comes largely from a sitemap-style footer on every page, passing PageRank to every city. We currently have zero internal links in the footer — 990 city pages are SEO islands.
+### DST status badge on city pages
+**Why:** "Is it summertime in [city]?" is a common query. We already compute `isInDST` — we just don't display it prominently.
 
 **What we want:**
-- Footer expands below the brand/copyright bar with a curated grid of ~30-40 cities (major world capitals + high-traffic cities)
-- "Browse all cities →" link to a future `/cities` index page
-- Links are `<a href="/[slug]">City</a>` — plain, crawlable, no JS
-- Grouped loosely by region or alphabetical (TBD)
-- Visually subtle — small type, low opacity — doesn't compete with the brand bar
-
-**Implementation notes:**
-- Hardcode the featured city list (no need to pull from full 990 list)
-- Add to `Footer.astro`, below existing brand bar
-- Mobile: 2-column grid. Desktop: 4-5 column grid.
+- Large, visible DST badge in ClockHero: "DST ACTIVE" (green) or "STANDARD TIME" (neutral)
+- Cities without DST show "No DST" in muted style
+- Links to `/summertime` for full worldwide overview
 
 ---
 
-### Week number + sunrise/sunset in ClockHero
-**Why:** time.is shows week number (huge in Scandinavia/Germany/enterprise) and sunrise/sunset. We're missing both. Adds data density without complexity.
+### Sunrise/sunset on all city pages
+**Why:** time.is has it. High-value passive data that increases time-on-site and positions us for "sunrise in [city]" queries.
 
 **What we want:**
-- Week number (ISO 8601) displayed near the date in ClockHero
-- Sunrise and sunset times for the city's location (approximate, lat/lon from cities data or a lookup table)
-- Subtle display — not competing with the clock
+- SunCalc library (pure trig, no API) — calculate from city lat/lng
+- Display sunrise + sunset times in ClockHero, subtle row below the clock
+- Week number (ISO 8601) alongside
+- Requires adding lat/lng to CityEntry data (990 cities)
 
-**Implementation notes:**
-- Week number: pure JS, no library needed
-- Sunrise/sunset: SunCalc (~4kb) or a minimal trig formula — city lat/lon needed (add to CityEntry or separate lookup)
+---
+
+### `/summertime` — Global DST status page
+**Why:** Single page capturing all "is it summertime" / "daylight saving time" long-tail queries. Feeds link equity back to city pages.
+
+**What we want:**
+- Grid of all countries/major cities showing DST active/inactive
+- Color-coded: green = DST active, neutral = standard time, grey = no DST
+- Countdown to next clock change
+- FAQ schema for GEO
+- Route: `whatisthetime.now/summertime`
 
 ---
 
@@ -47,17 +49,6 @@ Features and ideas not yet ready for implementation. When ready to build, conver
 
 ---
 
-### Ad slot layout zones
-**Why:** We have no defined ad placement areas. time.is wraps their content in a layout that reserves ad slots. We should define zones now so we can activate Setupad/Snigel when traffic hits threshold.
-
-**What we want:**
-- One leaderboard slot below ClockHero (above MeetingGrid)
-- One rectangle slot in the right gutter of CityContent on desktop
-- Slots are empty `<div class="ad-slot">` placeholders for now — Setupad fills them later
-- Mobile: collapse gracefully (no layout shift)
-
----
-
 ### "Ad-free" subscription CTA
 **Why:** time.is has this above the fold on every page. Low-effort revenue signal even before ads are live — builds waitlist.
 
@@ -68,48 +59,67 @@ Features and ideas not yet ready for implementation. When ready to build, conver
 
 ---
 
-### Sunrise/sunset theme auto-detection
-**Current state:** Light/dark toggle exists in Nav, preference stored in localStorage.
+## Planned — Content Empire
 
-**What we want:**
-- On page load, detect whether it's currently day or night at the user's location
-- Set theme automatically: dark after sunset, light after sunrise
-- Manual override button remains (already exists in Nav)
-- Store the **manual override** in a cookie (not localStorage) so it works across subdomains and persists correctly across sessions
-- If no override cookie: auto-mode runs on every page load
-- If override cookie set: respect it, ignore sunrise/sunset logic
+### `/country/[country]` — 198 nation time articles
+**Why:** Massive SEO surface area. Every country has a time story. This creates 198 authoritative, interlinked articles that no competitor has in one place.
 
-**Implementation notes:**
+**URL pattern:** `/country/denmark`, `/country/japan`, `/country/samoa`
 
-Cloudflare injects `CF-IPLatitude` and `CF-IPLongitude` on every edge request — use these for server-side sunrise/sunset calculation. No geolocation API needed.
+**Content per article:**
+- Current time + timezone(s) in use
+- When did they adopt their current timezone? Historical context.
+- Have they ever changed? (Many have — fascinating stories)
+- DST: do they observe it? History of DST in that country.
+- Multiple timezones? How many, which regions?
+- Interesting facts:
+  - Samoa skipped December 30, 2011 entirely (crossed date line)
+  - North Korea created "Pyongyang Time" (UTC+8:30) in 2015, abandoned it 2018
+  - China uses one timezone for a country spanning 5 geographical zones
+  - Nepal is UTC+5:45 (only 15-minute offset in the world)
+  - Kiribati spans the date line — easternmost and westernmost points
+  - Spain should be on GMT but uses CET (Franco aligned with Hitler's timezone)
+  - India debated splitting into 2 timezones for decades, never did
+- Links to all cities in that country on our site
+- Links to relevant timezone pages
 
-**SSR pages (homepage, `/when/` routes):**
-- Read `CF-IPLatitude` / `CF-IPLongitude` + `Cookie` header in the Astro frontmatter
-- If override cookie present → use it, skip sun calc
-- Otherwise → run SunCalc server-side, set `data-theme` directly in the HTML response
-- Result: correct theme baked into HTML before a single byte reaches the browser. Zero flash, zero JS required for initial render.
+**Implementation:** AI-assisted content generation → human review → static pages. Could use Claude API + D1 storage, or generate at build time from a content repo.
 
-**Static city pages (prerendered, no server context):**
-- Inline script in Base.astro reads cookie first
-- If no cookie → client-side SunCalc with `navigator.geolocation` (or reuse IP lat/lon if stored in cookie by a prior SSR page visit)
-- Falls back to system preference if geolocation denied
-
-**Manual override:**
-- Toggle button writes a `theme` cookie (not localStorage)
-- SSR pages read the cookie on next request → override respected before HTML is sent
-- Cookie format: `theme=dark` / `theme=light` / absent = auto
-
-**SunCalc:** ~4kb pure JS, no dependencies, can be inlined or bundled. Alternatively roll a minimal formula (sunrise/sunset only needs ~20 lines of trig).
+**Slug strategy:** Use country names, not ISO codes. `/country/united-states` not `/country/us`. Readable, SEO-friendly.
 
 ---
 
-## Planned (post-launch)
+### `/timezone/[tz]` — ~40 timezone explainer pages
+**Why:** People search "what is CET", "UTC+9 countries", "EST vs EDT". These are high-intent informational queries with no good single-source answer.
+
+**URL pattern options:**
+- `/timezone/cet` — abbreviation (most searched)
+- `/timezone/utc+9` — offset-based
+- `/timezone/central-european-time` — long form
+- All three could exist, with canonical pointing to the abbreviation
+
+**Content per page:**
+- Full name, abbreviation, UTC offset
+- Which countries/cities use this timezone
+- DST variant (CET → CEST, EST → EDT)
+- Current time in this timezone (live)
+- Map highlighting coverage area
+- "Did you know?" facts
+- Links to all cities in this timezone on our site
+
+**Count:** ~40 distinct timezones × abbreviation + offset aliases = ~80-100 pages
+
+---
+
+### Article generation pipeline
+Cloudflare Worker cron → Claude API → Cloudflare D1 → edge SSR pages. Auto-generated SEO articles about timezone pairs, DST transitions, travel time tips. See content empire items above for the editorial strategy.
+
+---
+
+## Planned — Features
 
 ### Variable font playground + `<wtit-clock>` widget embed
 The "Make it yours" section with weight/optical size/spacing/color sliders and embed CTA. Drives backlinks via widget installs. See design spec for full details.
-
-### Article generation pipeline
-Cloudflare Worker cron → Claude API → Cloudflare D1 → `/articles/[slug]` edge SSR pages. Weekly auto-generated SEO articles about timezone pairs. See design spec for architecture.
 
 ### Display ads (Setupad or Snigel)
 Hold until 30–50k PV/month. Contact Setupad (Latvia) or Snigel (Ireland) — both EU-based header bidding networks, no self-serve signup but will respond fast once traffic exists.
@@ -117,10 +127,20 @@ Hold until 30–50k PV/month. Contact Setupad (Latvia) or Snigel (Ireland) — b
 ### Widget Pro upsell tier
 Freemium SaaS play: remove "powered by whatisthetime.now" branding from `<wtit-clock>` embed for $5–15/month. Needs billing infrastructure. Build after widget has meaningful embed traction.
 
+### Sunrise/sunset theme auto-detection
+On page load, detect day/night at user's location → set theme automatically. Manual override via cookie. Uses CF-IPLatitude/CF-IPLongitude for SSR pages, client-side SunCalc fallback for static pages.
+
 ---
 
 ## Ideas (unvalidated)
 
-- `/timezone/[tz]` pages — IANA timezone info pages (e.g. `/timezone/Europe/Copenhagen`)
 - Meeting planner — schedule across timezones with business hours overlay
 - Cal.com affiliate integration on `/when/` pages ("Schedule a meeting at this time →")
+- `isitsummertime.in` / `isitsummertime.now` domain play (low priority — content already served by `/summertime` + city pages)
+
+---
+
+## Done
+
+- ~~Footer city link grid~~ — 4-column grid, 36 cities, grouped by region
+- ~~Ad slot layout zones~~ — Proton VPN banners in all positions (leaderboard + content slot)
