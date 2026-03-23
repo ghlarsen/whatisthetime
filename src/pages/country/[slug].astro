@@ -6,6 +6,7 @@ import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Nav from '../../components/Nav.astro';
 import ProtonBanner from '../../components/ProtonBanner.astro';
+import DualClock from '../../components/DualClock.astro';
 import Footer from '../../components/Footer.astro';
 
 export async function getStaticPaths() {
@@ -26,6 +27,8 @@ const canonical = `https://whatisthetime.now/country/${entry.data.slug}`;
 
 <Base title={title} description={description} canonical={canonical}>
   <Nav />
+
+  <DualClock timezone={entry.data.timezones[0]} label={entry.data.country} />
 
   <article class="country-article">
     <header class="article-header">

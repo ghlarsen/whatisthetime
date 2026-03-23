@@ -1,0 +1,125 @@
+---
+// src/components/DualClock.astro
+// Shows "Your time" alongside the subject's time
+export interface Props {
+  timezone: string;
+  label: string; // e.g. "Tokyo" or "Japan"
+}
+
+const { timezone, label } = Astro.props;
+---
+
+<div class="dual-clock" data-tz={timezone}>
+  <div class="dual-col">
+    <span class="dual-label">Your time</span>
+    <span class="dual-time" id="dual-yours">--:--</span>
+  </div>
+  <div class="dual-sep"></div>
+  <div class="dual-col">
+    <span class="dual-label">{label}</span>
+    <span class="dual-time" id="dual-theirs">--:--</span>
+  </div>
+  <span class="dual-diff" id="dual-diff"></span>
+</div>
+
+<style>
+  .dual-clock {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 16px var(--page-pad);
+    border-top: 1px solid var(--border);
+    flex-wrap: wrap;
+  }
+
+  .dual-col {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .dual-label {
+    font-size: var(--t-xs);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+  }
+
+  .dual-time {
+    font-family: ui-monospace, 'SF Mono', 'Fira Code', monospace;
+    font-size: var(--t-panel);
+    font-variant-numeric: tabular-nums;
+    color: var(--text);
+    line-height: 1;
+  }
+
+  .dual-sep {
+    width: 1px;
+    height: 36px;
+    background: var(--border);
+    flex-shrink: 0;
+  }
+
+  .dual-diff {
+    font-size: var(--t-xs);
+    color: var(--text-dim);
+    margin-left: auto;
+  }
+
+  @media (max-width: 500px) {
+    .dual-time { font-size: 1.5rem; }
+  }
+</style>
+
+<script>
+  const el = document.querySelector('.dual-clock') as HTMLElement;
+  if (el) {
+    const tz = el.dataset.tz!;
+    const yours = document.getElementById('dual-yours')!;
+    const theirs = document.getElementById('dual-theirs')!;
+    const diffEl = document.getElementById('dual-diff')!;
+    const localTz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+    function fmt(date: Date, timeZone: string): string {
+      return new Intl.DateTimeFormat('en-US', {
+        timeZone,
+        hour: '2-digit', minute: '2-digit', second: '2-digit',
+        hour12: false,
+      }).format(date).replace(/^24:/, '00:');
+    }
+
+    function calcDiff(date: Date): string {
+      const localParts = new Intl.DateTimeFormat('en-US', { timeZone: localTz, timeZoneName: 'shortOffset' }).formatToParts(date);
+      const remoteParts = new Intl.DateTimeFormat('en-US', { timeZone: tz, timeZoneName: 'shortOffset' }).formatToParts(date);
+
+      function parseGmt(parts: Intl.DateTimeFormatPart[]): number {
+        const p = parts.find(p => p.type === 'timeZoneName')?.value ?? 'GMT';
+        const m = p.match(/GMT([+-]?\d+)?(?::(\d+))?/);
+        if (!m) return 0;
+        const h = parseInt(m[1] || '0', 10);
+        const min = parseInt(m[2] || '0', 10);
+        return h * 60 + (h < 0 ? -min : min);
+      }
+
+      const diffMins = parseGmt(remoteParts) - parseGmt(localParts);
+      if (diffMins === 0) return 'same time';
+      const abs = Math.abs(diffMins);
+      const h = Math.floor(abs / 60);
+      const m = abs % 60;
+      const parts: string[] = [];
+      if (h > 0) parts.push(`${h}h`);
+      if (m > 0) parts.push(`${m}m`);
+      return `${parts.join(' ')} ${diffMins > 0 ? 'ahead' : 'behind'}`;
+    }
+
+    function tick() {
+      const now = new Date();
+      yours.textContent = fmt(now, localTz);
+      theirs.textContent = fmt(now, tz);
+      diffEl.textContent = calcDiff(now);
+    }
+
+    tick();
+    setInterval(tick, 1000);
+  }
+</script>
