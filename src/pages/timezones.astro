@@ -1,0 +1,265 @@
+---
+// src/pages/timezones.astro
+export const prerender = true;
+
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import ProtonBanner from '../components/ProtonBanner.astro';
+import Footer from '../components/Footer.astro';
+import cities from '../data/cities.ts';
+import { getUtcOffsetMinutes, formatUtcOffset } from '../lib/timezone.ts';
+
+// Group countries by UTC offset
+const offsetMap = new Map<number, { label: string; countries: Map<string, string> }>();
+
+for (const c of cities) {
+  const offset = getUtcOffsetMinutes(c.timezone);
+  if (!offsetMap.has(offset)) {
+    offsetMap.set(offset, { label: formatUtcOffset(offset), countries: new Map() });
+  }
+  const entry = offsetMap.get(offset)!;
+  const countrySlug = c.country.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  if (!entry.countries.has(c.country)) {
+    entry.countries.set(c.country, countrySlug);
+  }
+}
+
+// Sort by offset value
+const zones = [...offsetMap.entries()]
+  .sort((a, b) => a[0] - b[0])
+  .map(([offset, data]) => ({
+    offset,
+    label: data.label,
+    countries: [...data.countries.entries()].map(([name, slug]) => ({ name, slug })),
+  }));
+
+// Color scale: map offset to hue (blue at -12, green at 0, orange/red at +14)
+function offsetToColor(offset: number): string {
+  const min = -720, max = 840;
+  const t = (offset - min) / (max - min); // 0..1
+  const hue = 240 - t * 280; // 240 (blue) to -40 (red/orange)
+  return `hsl(${hue < 0 ? hue + 360 : hue}, 50%, 35%)`;
+}
+
+const title = 'World Timezone Map: Every UTC Offset Explained | whatisthetime.now';
+const description = 'Complete timezone directory showing all UTC offsets from UTC-12 to UTC+14. Every country linked to its timezone history article.';
+const canonical = 'https://whatisthetime.now/timezones';
+
+const faqSchema = [
+  { q: 'How many timezones are there?', a: `There are ${zones.length} distinct UTC offsets in use worldwide, ranging from UTC-12 (Baker Island) to UTC+14 (Kiribati Line Islands). While 24 is the commonly cited number, half-hour and quarter-hour offsets (India at UTC+5:30, Nepal at UTC+5:45, Iran at UTC+3:30) bring the total higher.` },
+  { q: 'What is the furthest timezone ahead of UTC?', a: 'UTC+14, used by the Line Islands of Kiribati. This means Kiribati is the first place to see each new day, 14 hours ahead of London.' },
+  { q: 'What is the furthest timezone behind UTC?', a: 'UTC-12, used by Baker Island and Howland Island (uninhabited US territories in the Pacific). UTC-11 is the furthest behind with permanent residents (American Samoa, Niue).' },
+  { q: 'Which country has the most timezones?', a: 'France, with 12 distinct timezones across its overseas territories (from UTC-10 in French Polynesia to UTC+12 in Wallis and Futuna). Russia has 11 contiguous timezones. The United States has 6 principal timezones.' },
+];
+---
+
+<Base title={title} description={description} canonical={canonical} faqs={faqSchema}>
+  <Nav />
+
+  <header class="tz-hero">
+    <h1 class="tz-title">Every timezone on Earth</h1>
+    <p class="tz-sub">{zones.length} UTC offsets, {offsetMap.size} distinct zones, 245 countries. Each one has a story.</p>
+  </header>
+
+  <!-- Visual UTC strip -->
+  <section class="tz-strip-section">
+    <div class="tz-strip">
+      {zones.map(z => (
+        <a href={`#tz-${z.label.replace(/[^a-z0-9+-]/gi, '')}`} class="tz-pip" style={`background: ${offsetToColor(z.offset)}`} title={`${z.label} (${z.countries.length} ${z.countries.length === 1 ? 'country' : 'countries'})`}>
+          <span class="pip-label">{z.label.replace('UTC', '')}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <ProtonBanner />
+
+  <!-- Timezone directory -->
+  <section class="tz-directory">
+    {zones.map(z => (
+      <div class="tz-block" id={`tz-${z.label.replace(/[^a-z0-9+-]/gi, '')}`}>
+        <div class="tz-block-header" style={`border-left: 4px solid ${offsetToColor(z.offset)}`}>
+          <span class="tz-offset-label">{z.label}</span>
+          <span class="tz-count">{z.countries.length} {z.countries.length === 1 ? 'country' : 'countries'}</span>
+        </div>
+        <div class="tz-country-list">
+          {z.countries.map(c => (
+            <a href={`/country/${c.slug}`} class="tz-country-link">{c.name}</a>
+          ))}
+        </div>
+      </div>
+    ))}
+  </section>
+
+  <!-- FAQ -->
+  <section class="tz-faq">
+    <h2 class="section-heading">Questions about timezones</h2>
+    <dl class="faq-list">
+      {faqSchema.map(({ q, a }) => (
+        <>
+          <dt class="faq-q">{q}</dt>
+          <dd class="faq-a">{a}</dd>
+        </>
+      ))}
+    </dl>
+  </section>
+
+  <ProtonBanner />
+  <Footer />
+</Base>
+
+<style>
+  /* Hero */
+  .tz-hero {
+    padding: 48px var(--page-pad) 32px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .tz-title {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-variation-settings: 'wght' 800;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+
+  .tz-sub {
+    font-size: var(--t-base);
+    color: var(--text-muted);
+  }
+
+  /* UTC strip */
+  .tz-strip-section {
+    padding: 24px var(--page-pad);
+    border-bottom: 1px solid var(--border);
+    overflow-x: auto;
+  }
+
+  .tz-strip {
+    display: flex;
+    gap: 2px;
+    min-width: max-content;
+  }
+
+  .tz-pip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: transform 0.1s, opacity 0.15s;
+    flex-shrink: 0;
+  }
+
+  .tz-pip:hover {
+    transform: scale(1.15);
+    opacity: 0.9;
+  }
+
+  .pip-label {
+    font-size: 9px;
+    font-family: ui-monospace, 'SF Mono', monospace;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    text-align: center;
+    line-height: 1.1;
+  }
+
+  /* Directory */
+  .tz-directory {
+    padding: 32px var(--page-pad) 48px;
+  }
+
+  .tz-block {
+    margin-bottom: 24px;
+  }
+
+  .tz-block-header {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    padding-left: 12px;
+    margin-bottom: 8px;
+  }
+
+  .tz-offset-label {
+    font-family: ui-monospace, 'SF Mono', monospace;
+    font-size: var(--t-base);
+    font-weight: 700;
+    color: var(--text);
+  }
+
+  .tz-count {
+    font-size: var(--t-xs);
+    color: var(--text-dim);
+  }
+
+  .tz-country-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 8px;
+    padding-left: 16px;
+  }
+
+  .tz-country-link {
+    font-size: var(--t-sm);
+    color: var(--text-muted);
+    text-decoration: none;
+    padding: 2px 0;
+    border-bottom: 1px solid transparent;
+    transition: color 0.15s, border-color 0.15s;
+  }
+
+  .tz-country-link:hover {
+    color: var(--text);
+    border-bottom-color: var(--text-dim);
+  }
+
+  .tz-country-link:not(:last-child)::after {
+    content: ',';
+    color: var(--text-dim);
+  }
+
+  /* FAQ */
+  .tz-faq {
+    padding: 40px var(--page-pad) 64px;
+    border-top: 1px solid var(--border);
+    max-width: 720px;
+  }
+
+  .section-heading {
+    font-size: var(--t-sm);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 24px;
+  }
+
+  .faq-list { margin: 0; }
+
+  .faq-q {
+    font-size: var(--t-base);
+    font-weight: 600;
+    color: var(--text);
+    margin: 24px 0 6px;
+    line-height: 1.4;
+  }
+  .faq-q:first-child { margin-top: 0; }
+
+  .faq-a {
+    font-size: var(--t-base);
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  @media (max-width: 500px) {
+    .tz-hero { padding-top: 32px; }
+    .tz-pip { width: 36px; height: 36px; }
+    .pip-label { font-size: 8px; }
+  }
+</style>
