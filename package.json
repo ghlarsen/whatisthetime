@@ -20,7 +20,9 @@
     "@vvo/tzdb": "^6.198.0",
     "astro": "^6.0.8",
     "suncalc": "^1.9.0",
-    "typescript": "^5.9.3"
+    "topojson-client": "^3.1.0",
+    "typescript": "^5.9.3",
+    "world-atlas": "^2.0.2"
   },
   "devDependencies": {
     "@vitest/coverage-v8": "^4.1.0",

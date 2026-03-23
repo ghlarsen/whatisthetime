@@ -58,8 +58,13 @@ const faqSchema = [
 
   <header class="tz-hero">
     <h1 class="tz-title">Every timezone on Earth</h1>
-    <p class="tz-sub">{zones.length} UTC offsets, {offsetMap.size} distinct zones, 245 countries. Each one has a story.</p>
+    <p class="tz-sub">{zones.length} UTC offsets, 245 countries. Each one has a story.</p>
   </header>
+
+  <!-- World map -->
+  <section class="tz-map-section">
+    <Fragment set:html={await import('../components/WorldMap.svg?raw').then(m => m.default)} />
+  </section>
 
   <!-- Visual UTC strip -->
   <section class="tz-strip-section">
@@ -109,6 +114,33 @@ const faqSchema = [
 </Base>
 
 <style>
+  /* Map theme variables */
+  :root[data-theme="dark"] {
+    --map-ocean: #0d1117;
+    --map-land: #2a2a3a;
+    --map-grid: #ffffff;
+    --map-stroke: #0d1117;
+  }
+  :root[data-theme="light"] {
+    --map-ocean: #f0f4f8;
+    --map-land: #c8ccd0;
+    --map-grid: #000000;
+    --map-stroke: #f0f4f8;
+  }
+
+  /* Map */
+  .tz-map-section {
+    padding: 0;
+    border-bottom: 1px solid var(--border);
+    line-height: 0;
+  }
+
+  .tz-map-section :global(.world-map) {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
   /* Hero */
   .tz-hero {
     padding: 48px var(--page-pad) 32px;
