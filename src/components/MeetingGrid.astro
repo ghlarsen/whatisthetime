@@ -1,0 +1,702 @@
+---
+// src/components/MeetingGrid.astro
+import type { CityEntry } from '../data/cities.ts';
+import allCities from '../data/cities.ts';
+
+export interface Props {
+  defaultCities?: string[];
+}
+
+const { defaultCities = ['copenhagen', 'new-york-city', 'london', 'tokyo'] } = Astro.props;
+
+const initialCities = defaultCities
+  .map(slug => allCities.find(c => c.slug === slug))
+  .filter((c): c is CityEntry => !!c)
+  .map(({ slug, name, country, timezone }) => ({ slug, name, country, timezone }));
+---
+
+<section class="mg">
+  <div class="mg-label-row">
+    <span class="mg-section-title">MEETING PLANNER</span>
+    <span class="mg-caption" id="mg-caption">hover a column · click to lock</span>
+  </div>
+
+  <div id="mg-root" data-initial={JSON.stringify(initialCities)}></div>
+</section>
+
+<style is:global>
+  /* ── Shell ─────────────────────────────────────────────────────── */
+  .mg {
+    border-top: 1px solid var(--border);
+  }
+
+  .mg-label-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 28px 8px;
+  }
+
+  .mg-section-title {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    color: var(--text-dim);
+  }
+
+  .mg-caption {
+    font-size: 11px;
+    color: var(--text-dim);
+    transition: opacity 0.4s;
+  }
+
+  /* ── Grid rows wrapper ─────────────────────────────────────────── */
+  .mg-rows {
+    position: relative;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* ── Each city row ─────────────────────────────────────────────── */
+  .mg-row {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    border-top: 1px solid var(--border);
+    min-width: 600px;
+  }
+
+  .mg-row-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 12px 0 28px;
+    position: relative;
+    flex-shrink: 0;
+    min-height: 44px;
+    cursor: default;
+  }
+
+  .mg-city-name {
+    font-size: 13px;
+    color: var(--text);
+    line-height: 1.3;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .mg-city-sub {
+    font-size: 11px;
+    color: var(--text-dim);
+    line-height: 1.2;
+  }
+
+  .mg-row-remove {
+    position: absolute;
+    right: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    font-size: 18px;
+    line-height: 1;
+    padding: 4px 6px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.15s, color 0.15s;
+  }
+  .mg-row:hover .mg-row-remove { opacity: 1; }
+  .mg-row-remove:hover { color: var(--text); }
+
+  /* ── Cell band ─────────────────────────────────────────────────── */
+  .mg-band {
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    min-height: 44px;
+    cursor: crosshair;
+  }
+
+  .mg-cell {
+    transition: filter 0.08s;
+  }
+
+  /* Three states — the entire visual language */
+  .mg-cell.night { background: var(--mg-night); }
+  .mg-cell.off   { background: var(--mg-off);   }
+  .mg-cell.work  { background: var(--mg-work);  }
+
+  /* Column highlight on hover / selection */
+  .mg-cell.col-hover { filter: brightness(1.25); }
+  .mg-cell.col-active { filter: brightness(1.4); }
+
+  /* ── Overlays (now-line, col-line) ─────────────────────────────── */
+  .mg-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 3;
+  }
+
+  .mg-now-line {
+    width: 1px;
+    background: var(--text);
+    opacity: 0.6;
+  }
+
+  .mg-col-line {
+    width: 1px;
+    background: var(--text);
+    opacity: 0;
+    transition: opacity 0.15s;
+  }
+  .mg-col-line.visible { opacity: 1; }
+
+  /* ── Add city row ──────────────────────────────────────────────── */
+  .mg-add-row {
+    border-top: 1px solid var(--border);
+    min-height: 38px;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    padding: 0 28px;
+  }
+
+  .mg-add-btn {
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    font-size: 13px;
+    font-family: inherit;
+    cursor: pointer;
+    padding: 0;
+    letter-spacing: 0;
+  }
+  .mg-add-btn:hover { color: var(--text); }
+
+  .mg-add-input-wrap {
+    position: relative;
+  }
+
+  .mg-add-input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--text-muted);
+    color: var(--text);
+    font-size: 13px;
+    font-family: inherit;
+    padding: 4px 0;
+    outline: none;
+    width: 200px;
+  }
+  .mg-add-input::placeholder { color: var(--text-dim); }
+
+  .mg-ac {
+    position: absolute;
+    top: calc(100% + 2px);
+    left: 0;
+    right: 0;
+    background: var(--bg-subtle);
+    border: 1px solid var(--border);
+    z-index: 20;
+    max-height: 220px;
+    overflow-y: auto;
+  }
+
+  .mg-ac-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 13px;
+    color: var(--text);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mg-ac-item:hover { background: var(--bar-empty); }
+  .mg-ac-item span { font-size: 11px; color: var(--text-dim); }
+
+  /* ── Selected time panel ───────────────────────────────────────── */
+  .mg-panel {
+    border-top: 1px solid var(--border);
+    padding: 16px 28px;
+    display: none;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0 32px;
+    background: var(--bg-subtle);
+  }
+  .mg-panel.open { display: flex; }
+
+  .mg-panel-city {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+  }
+
+  .mg-panel-name {
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 2px;
+  }
+
+  .mg-panel-time {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-variation-settings: 'wght' 700, 'opsz' 50;
+    font-variant-numeric: tabular-nums;
+    font-size: clamp(28px, 5vw, 48px);
+    line-height: 1;
+    color: var(--text);
+  }
+
+  .mg-panel-status {
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    margin-top: 3px;
+  }
+  .mg-panel-status.work  { color: #4caf50; }
+  .mg-panel-status.off   { color: var(--text-dim); }
+  .mg-panel-status.night { color: var(--text-dim); }
+
+  .mg-panel-actions {
+    margin-left: auto;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 4px;
+  }
+
+  .mg-copy-btn {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    font-size: 11px;
+    font-family: inherit;
+    letter-spacing: 0.06em;
+    padding: 5px 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .mg-copy-btn:hover { color: var(--text); border-color: var(--text-muted); }
+
+  /* ── Hour pip labels ───────────────────────────────────────────── */
+  .mg-hour-pips {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    min-width: 600px;
+  }
+  .mg-pips-right {
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    padding: 6px 0 4px;
+  }
+  .mg-pip {
+    font-size: 9px;
+    font-family: ui-monospace, 'SF Mono', monospace;
+    color: var(--text-dim);
+    text-align: center;
+    line-height: 1;
+  }
+
+  /* ── Democratic column indicator ───────────────────────────────── */
+  .mg-demo-bar {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    min-width: 600px;
+  }
+  .mg-demo-bar-right {
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    height: 3px;
+    margin-bottom: 1px;
+  }
+  .mg-demo-pip {
+    background: transparent;
+  }
+  .mg-demo-pip.hit {
+    background: #4caf50;
+  }
+</style>
+
+<script>
+  import allCities from '../data/cities.ts';
+
+  // ── Types ──────────────────────────────────────────────────────────
+  type City = { slug: string; name: string; country: string; timezone: string };
+
+  // ── CSS colour tokens ──────────────────────────────────────────────
+  // We inject them on :root so Astro's scoped styles still work
+  const style = document.createElement('style');
+  style.textContent = `
+    :root {
+      --mg-night: var(--bg);
+      --mg-off:   var(--bar-empty);
+      --mg-work:  var(--bar-work);
+    }
+  `;
+  document.head.appendChild(style);
+
+  // ── Helpers ────────────────────────────────────────────────────────
+  function localHour(utcH: number, tz: string): number {
+    const d = new Date();
+    d.setUTCHours(utcH, 0, 0, 0);
+    const h = new Intl.DateTimeFormat('en-US', {
+      timeZone: tz, hour: 'numeric', hour12: false,
+    }).formatToParts(d).find(p => p.type === 'hour')?.value ?? '0';
+    return parseInt(h, 10) % 24;
+  }
+
+  function localTimeStr(utcH: number, tz: string): string {
+    const d = new Date();
+    d.setUTCHours(utcH, 0, 0, 0);
+    const parts = new Intl.DateTimeFormat('en-US', {
+      timeZone: tz, hour: '2-digit', minute: '2-digit', hour12: false,
+    }).formatToParts(d);
+    const h = parseInt(parts.find(p => p.type === 'hour')?.value ?? '0', 10) % 24;
+    const m = parts.find(p => p.type === 'minute')?.value ?? '00';
+    return `${String(h).padStart(2,'0')}:${m}`;
+  }
+
+  function classify(lh: number): 'night' | 'off' | 'work' {
+    if (lh >= 9 && lh < 17) return 'work';
+    if ((lh >= 7 && lh < 9) || (lh >= 17 && lh <= 21)) return 'off';
+    return 'night';
+  }
+
+  function statusLabel(cls: 'work' | 'off' | 'night'): string {
+    return cls === 'work' ? 'business hours' : cls === 'off' ? 'awake' : 'sleeping';
+  }
+
+  // ── State ──────────────────────────────────────────────────────────
+  const root = document.getElementById('mg-root')!;
+  let cities: City[] = JSON.parse(root.dataset.initial ?? '[]');
+  let lockedCol: number | null = null;
+  let hoveredCol: number | null = null;
+
+  // Parse URL hash
+  (function parseHash() {
+    const p = new URLSearchParams(location.hash.slice(1));
+    const slugs = p.get('cities')?.split(',').filter(Boolean);
+    if (slugs?.length) {
+      const from = slugs.map(s => allCities.find(c => c.slug === s)).filter(Boolean) as City[];
+      if (from.length) cities = from;
+    }
+    const m = p.get('meet');
+    if (m !== null) {
+      const h = parseInt(m, 10);
+      if (h >= 0 && h < 24) lockedCol = h;
+    }
+  })();
+
+  function pushHash() {
+    const p = new URLSearchParams();
+    p.set('cities', cities.map(c => c.slug).join(','));
+    if (lockedCol !== null) p.set('meet', String(lockedCol));
+    history.replaceState(null, '', '#' + p.toString());
+  }
+
+  // ── Grid width helper ──────────────────────────────────────────────
+  const LABEL_W = 140;
+  function gridWidth(): number {
+    const rows = document.getElementById('mg-rows');
+    return rows ? rows.clientWidth - LABEL_W : 0;
+  }
+  function colLeft(h: number): number {
+    return LABEL_W + (h / 24) * gridWidth();
+  }
+  function colW(): number {
+    return gridWidth() / 24;
+  }
+
+  // ── Render ─────────────────────────────────────────────────────────
+  function render() {
+    const nowUtcH = new Date().getUTCHours();
+
+    // Democratic cols (all cities in work hours)
+    const demo = Array.from({ length: 24 }, (_, h) =>
+      cities.length > 0 && cities.every(c => classify(localHour(h, c.timezone)) === 'work')
+    );
+
+    let html = '';
+
+    // ── Democratic bar (3px green pips above grid)
+    if (demo.some(Boolean)) {
+      html += `<div class="mg-demo-bar">
+        <div></div>
+        <div class="mg-demo-bar-right">
+          ${demo.map(hit => `<div class="mg-demo-pip${hit ? ' hit' : ''}"></div>`).join('')}
+        </div>
+      </div>`;
+    }
+
+    // ── Hour pips row
+    html += `<div class="mg-hour-pips">
+      <div></div>
+      <div class="mg-pips-right">
+        ${Array.from({length: 24}, (_, h) =>
+          `<div class="mg-pip">${h % 6 === 0 ? String(h).padStart(2,'0') : ''}</div>`
+        ).join('')}
+      </div>
+    </div>`;
+
+    // ── City rows
+    html += `<div class="mg-rows" id="mg-rows">`;
+
+    // Overlays (positioned absolutely inside mg-rows)
+    html += `<div class="mg-overlay mg-now-line" id="mg-now-line"></div>`;
+    html += `<div class="mg-overlay mg-col-line" id="mg-col-line"></div>`;
+
+    for (const city of cities) {
+      const cells = Array.from({length: 24}, (_, h) => {
+        const lh = localHour(h, city.timezone);
+        const cls = classify(lh);
+        return `<div class="mg-cell ${cls}" data-col="${h}"></div>`;
+      }).join('');
+
+      html += `<div class="mg-row" data-slug="${city.slug}">
+        <div class="mg-row-label">
+          <span class="mg-city-name">${city.name}</span>
+          <span class="mg-city-sub">${city.country}</span>
+          <button class="mg-row-remove" data-slug="${city.slug}" aria-label="Remove ${city.name}">×</button>
+        </div>
+        <div class="mg-band">${cells}</div>
+      </div>`;
+    }
+
+    html += `</div>`; // mg-rows
+
+    // ── Add city
+    html += `<div class="mg-add-row" id="mg-add-row">
+      <button class="mg-add-btn" id="mg-add-btn">+ Add city</button>
+    </div>`;
+
+    // ── Panel
+    html += `<div class="mg-panel${lockedCol !== null ? ' open' : ''}" id="mg-panel">
+      <div id="mg-panel-cities" style="display:flex;flex-wrap:wrap;gap:0 32px;align-items:baseline;flex:1"></div>
+      <div class="mg-panel-actions">
+        <button class="mg-copy-btn" id="mg-copy-btn">Copy link</button>
+      </div>
+    </div>`;
+
+    root.innerHTML = html;
+
+    // Position overlays
+    positionNowLine(nowUtcH);
+    if (lockedCol !== null) {
+      selectCol(lockedCol, false);
+    }
+
+    attachEvents();
+  }
+
+  function positionNowLine(h: number) {
+    const el = document.getElementById('mg-now-line');
+    if (!el) return;
+    const x = colLeft(h) + colW() / 2;
+    el.style.left = `${x}px`;
+  }
+
+  function selectCol(h: number, lock: boolean) {
+    if (lock) {
+      lockedCol = h;
+      pushHash();
+    }
+
+    // Position col-line
+    const line = document.getElementById('mg-col-line');
+    if (line) {
+      line.style.left = `${colLeft(h) + colW() / 2}px`;
+      line.classList.add('visible');
+    }
+
+    // Highlight cells
+    document.querySelectorAll('.mg-cell').forEach(el => {
+      const col = parseInt((el as HTMLElement).dataset.col ?? '-1', 10);
+      el.classList.toggle('col-active', col === h);
+    });
+
+    // Build panel
+    const panelCities = document.getElementById('mg-panel-cities');
+    const panel = document.getElementById('mg-panel');
+    if (!panelCities || !panel) return;
+
+    panelCities.innerHTML = cities.map(city => {
+      const lh = localHour(h, city.timezone);
+      const cls = classify(lh);
+      const time = localTimeStr(h, city.timezone);
+      return `<div class="mg-panel-city">
+        <span class="mg-panel-name">${city.name}</span>
+        <span class="mg-panel-time">${time}</span>
+        <span class="mg-panel-status ${cls}">${statusLabel(cls)}</span>
+      </div>`;
+    }).join('');
+
+    panel.classList.add('open');
+
+    // Hide caption
+    const cap = document.getElementById('mg-caption');
+    if (cap && lock) cap.style.opacity = '0';
+  }
+
+  function clearHover() {
+    if (hoveredCol !== null) {
+      document.querySelectorAll('.mg-cell.col-hover').forEach(el => el.classList.remove('col-hover'));
+      hoveredCol = null;
+    }
+    if (lockedCol === null) {
+      const line = document.getElementById('mg-col-line');
+      line?.classList.remove('visible');
+    }
+  }
+
+  // ── Events ─────────────────────────────────────────────────────────
+  function attachEvents() {
+    const rowsEl = document.getElementById('mg-rows');
+    if (rowsEl) {
+      // Mouse move → hover column
+      rowsEl.addEventListener('mousemove', (e) => {
+        const target = (e.target as HTMLElement).closest('.mg-cell') as HTMLElement | null;
+        if (!target) return;
+        const h = parseInt(target.dataset.col ?? '-1', 10);
+        if (h < 0 || h === hoveredCol) return;
+
+        // Clear old hover
+        document.querySelectorAll('.mg-cell.col-hover').forEach(el => el.classList.remove('col-hover'));
+
+        // Set new hover
+        document.querySelectorAll(`.mg-cell[data-col="${h}"]`).forEach(el => el.classList.add('col-hover'));
+        hoveredCol = h;
+
+        // Move col-line without locking
+        const line = document.getElementById('mg-col-line');
+        if (line && lockedCol === null) {
+          line.style.left = `${colLeft(h) + colW() / 2}px`;
+          line.classList.add('visible');
+          // Update panel too (non-locked preview)
+          selectCol(h, false);
+        }
+      });
+
+      rowsEl.addEventListener('mouseleave', () => {
+        clearHover();
+        if (lockedCol === null) {
+          document.getElementById('mg-panel')?.classList.remove('open');
+          document.querySelectorAll('.mg-cell.col-active').forEach(el => el.classList.remove('col-active'));
+        }
+      });
+
+      // Click → lock column
+      rowsEl.addEventListener('click', (e) => {
+        const target = (e.target as HTMLElement).closest('.mg-cell') as HTMLElement | null;
+        if (!target) return;
+        const h = parseInt(target.dataset.col ?? '-1', 10);
+        if (h < 0) return;
+        selectCol(h, true);
+      });
+    }
+
+    // Remove city
+    root.addEventListener('click', (e) => {
+      const btn = (e.target as HTMLElement).closest('.mg-row-remove') as HTMLElement | null;
+      if (!btn) return;
+      const slug = btn.dataset.slug!;
+      cities = cities.filter(c => c.slug !== slug);
+      if (cities.length === 0) lockedCol = null;
+      render();
+    });
+
+    // Add city
+    const addBtn = document.getElementById('mg-add-btn');
+    const addRow = document.getElementById('mg-add-row');
+    if (addBtn && addRow) {
+      addBtn.addEventListener('click', () => {
+        addRow.innerHTML = `<div class="mg-add-input-wrap">
+          <input id="mg-city-input" class="mg-add-input" type="text" placeholder="Type a city…" autocomplete="off" spellcheck="false" />
+          <div class="mg-ac" id="mg-ac"></div>
+        </div>`;
+
+        const input = document.getElementById('mg-city-input') as HTMLInputElement;
+        input?.focus();
+
+        const alreadySlugs = new Set(cities.map(c => c.slug));
+
+        function showAc(q: string) {
+          const ac = document.getElementById('mg-ac')!;
+          if (!q.trim()) { ac.innerHTML = ''; return; }
+
+          const matches = allCities
+            .filter(c => !alreadySlugs.has(c.slug) &&
+              (c.name.toLowerCase().includes(q.toLowerCase()) ||
+               c.country.toLowerCase().includes(q.toLowerCase())))
+            .slice(0, 8);
+
+          ac.innerHTML = matches.map(c =>
+            `<div class="mg-ac-item" data-slug="${c.slug}">
+              ${c.name}<span>${c.country}</span>
+            </div>`
+          ).join('');
+
+          ac.querySelectorAll('.mg-ac-item').forEach(item => {
+            item.addEventListener('mousedown', (e) => {
+              e.preventDefault();
+              const slug = (item as HTMLElement).dataset.slug!;
+              const city = allCities.find(c => c.slug === slug);
+              if (city) { cities.push(city); render(); }
+            });
+          });
+        }
+
+        input?.addEventListener('input', () => showAc(input.value));
+        input?.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape') render();
+        });
+
+        // Blur to cancel
+        input?.addEventListener('blur', () => setTimeout(render, 150));
+      });
+    }
+
+    // Copy link
+    document.getElementById('mg-copy-btn')?.addEventListener('click', async () => {
+      pushHash();
+      const url = location.href;
+      try {
+        await navigator.clipboard.writeText(url);
+        const btn = document.getElementById('mg-copy-btn');
+        if (btn) { btn.textContent = 'Copied!'; setTimeout(() => { if (btn) btn.textContent = 'Copy link'; }, 2000); }
+      } catch {
+        prompt('Share this link:', url);
+      }
+    });
+
+    // Resize → reposition overlays
+    const ro = new ResizeObserver(() => {
+      positionNowLine(new Date().getUTCHours());
+      if (lockedCol !== null) {
+        const line = document.getElementById('mg-col-line');
+        if (line) line.style.left = `${colLeft(lockedCol) + colW() / 2}px`;
+      }
+    });
+    const rowsElForResize = document.getElementById('mg-rows');
+    if (rowsElForResize) ro.observe(rowsElForResize);
+  }
+
+  // ── Init ───────────────────────────────────────────────────────────
+  render();
+
+  // Tick the now-line every minute
+  setInterval(() => positionNowLine(new Date().getUTCHours()), 60_000);
+
+  window.addEventListener('hashchange', () => {
+    // Re-parse and re-render if hash changes externally
+    const p = new URLSearchParams(location.hash.slice(1));
+    const slugs = p.get('cities')?.split(',').filter(Boolean);
+    if (slugs?.length) {
+      const from = slugs.map(s => allCities.find(c => c.slug === s)).filter(Boolean) as City[];
+      if (from.length) cities = from;
+    }
+    render();
+  });
+</script>
