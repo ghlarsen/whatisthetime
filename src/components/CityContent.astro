@@ -1,0 +1,429 @@
+---
+// src/components/CityContent.astro
+import type { CityEntry } from '../data/cities.ts';
+import cities from '../data/cities.ts';
+import { getCurrentTime, getUtcOffsetMinutes, formatUtcOffset, getDSTTransitions } from '../lib/timezone.ts';
+
+export interface Props {
+  city: CityEntry;
+}
+
+const { city } = Astro.props;
+const year = new Date().getFullYear();
+const dst = getDSTTransitions(city.timezone, year);
+const now = getCurrentTime(city.timezone);
+
+const winterLabel = formatUtcOffset(dst.winterOffset);
+const summerLabel = dst.hasDST ? formatUtcOffset(dst.summerOffset) : null;
+const currentOffset = formatUtcOffset(now.utcOffsetMinutes);
+const isInDST = dst.hasDST && now.utcOffsetMinutes === dst.summerOffset;
+
+// DST transition dates — find by probing change day
+const fmtDate = (d: Date | null) =>
+  d ? new Intl.DateTimeFormat('en-US', { weekday: 'long', month: 'long', day: 'numeric' }).format(d) : null;
+const dstStart = fmtDate(dst.start);
+const dstEnd = fmtDate(dst.end);
+
+// Co-zone cities — same January + July offset = always same time
+const jan = new Date(year, 0, 15);
+const jul = new Date(year, 6, 15);
+const myJan = getUtcOffsetMinutes(city.timezone, jan);
+const myJul = getUtcOffsetMinutes(city.timezone, jul);
+
+const cozone = cities
+  .filter(c => {
+    if (c.slug === city.slug) return false;
+    return (
+      getUtcOffsetMinutes(c.timezone, jan) === myJan &&
+      getUtcOffsetMinutes(c.timezone, jul) === myJul
+    );
+  })
+  .slice(0, 10);
+
+// Time difference helper (current, computed at build time)
+function diffText(targetTz: string): { label: string; sign: string } {
+  const diff = now.utcOffsetMinutes - getUtcOffsetMinutes(targetTz);
+  if (diff === 0) return { label: 'the same time', sign: '' };
+  const abs = Math.abs(diff);
+  const h = Math.floor(abs / 60);
+  const m = abs % 60;
+  const parts = [];
+  if (h > 0) parts.push(`${h} hour${h !== 1 ? 's' : ''}`);
+  if (m > 0) parts.push(`${m} minute${m !== 1 ? 's' : ''}`);
+  return {
+    label: parts.join(' '),
+    sign: diff > 0 ? 'ahead of' : 'behind',
+  };
+}
+
+const vsNewYork = diffText('America/New_York');
+const vsLondon = diffText('Europe/London');
+const vsLosAngeles = diffText('America/Los_Angeles');
+const vsTokyo = diffText('Asia/Tokyo');
+
+// FAQ entries — generated at build time
+interface FAQ { q: string; a: string; }
+
+const faqs: FAQ[] = [];
+
+// Q1: What timezone
+const tzDescription = dst.hasDST
+  ? `${city.name} is in the ${currentOffset} timezone, using the IANA identifier <code>${city.timezone}</code>. It observes Central European Time (CET, ${winterLabel}) in winter and Central European Summer Time (CEST, ${summerLabel}) during daylight saving time.`
+  : `${city.name} is in the ${currentOffset} timezone, using the IANA identifier <code>${city.timezone}</code>. This timezone does not observe daylight saving time.`;
+
+// For non-European cities, the CET/CEST description won't be right
+// Use a generic description instead for those
+const isEuropeCET = dst.hasDST && dst.winterOffset === 60 && dst.summerOffset === 120;
+const isEuropeWET = dst.hasDST && dst.winterOffset === 0 && dst.summerOffset === 60;
+const isUSEastern = dst.hasDST && dst.winterOffset === -300 && dst.summerOffset === -240;
+const isUSCentral = dst.hasDST && dst.winterOffset === -360 && dst.summerOffset === -300;
+const isUSMountain = dst.hasDST && dst.winterOffset === -420 && dst.summerOffset === -360;
+const isUSPacific = dst.hasDST && dst.winterOffset === -480 && dst.summerOffset === -420;
+
+let tzQ1Answer = '';
+if (isEuropeCET) {
+  tzQ1Answer = `${city.name} is in Central European Time (CET), using the IANA timezone <code>${city.timezone}</code>. The standard UTC offset is ${winterLabel} in winter. During daylight saving time (summer), it becomes Central European Summer Time (CEST) at ${summerLabel}.`;
+} else if (isEuropeWET) {
+  tzQ1Answer = `${city.name} is in Western European Time (WET), using the IANA timezone <code>${city.timezone}</code>. The standard UTC offset is UTC+0 in winter. During daylight saving time (summer), it becomes Western European Summer Time (WEST) at UTC+1.`;
+} else if (isUSEastern) {
+  tzQ1Answer = `${city.name} is in Eastern Time (ET), using the IANA timezone <code>${city.timezone}</code>. The standard UTC offset is ${winterLabel} (EST) in winter and ${summerLabel} (EDT) during daylight saving time.`;
+} else if (isUSCentral) {
+  tzQ1Answer = `${city.name} is in Central Time (CT), using the IANA timezone <code>${city.timezone}</code>. The standard UTC offset is ${winterLabel} (CST) in winter and ${summerLabel} (CDT) during daylight saving time.`;
+} else if (isUSMountain) {
+  tzQ1Answer = `${city.name} is in Mountain Time (MT), using the IANA timezone <code>${city.timezone}</code>. The standard UTC offset is ${winterLabel} (MST) in winter and ${summerLabel} (MDT) during daylight saving time.`;
+} else if (isUSPacific) {
+  tzQ1Answer = `${city.name} is in Pacific Time (PT), using the IANA timezone <code>${city.timezone}</code>. The standard UTC offset is ${winterLabel} (PST) in winter and ${summerLabel} (PDT) during daylight saving time.`;
+} else if (dst.hasDST) {
+  tzQ1Answer = `${city.name} uses the IANA timezone <code>${city.timezone}</code>. The UTC offset is ${winterLabel} in winter (standard time) and ${summerLabel} during daylight saving time (summer).`;
+} else {
+  tzQ1Answer = `${city.name} uses the IANA timezone <code>${city.timezone}</code>. The UTC offset is always ${winterLabel} — this timezone does not observe daylight saving time.`;
+}
+
+faqs.push({ q: `What timezone is ${city.name} in?`, a: tzQ1Answer });
+
+// Q2: DST
+if (dst.hasDST) {
+  const dstAnswer = dstStart && dstEnd
+    ? `Yes. ${city.name} observes daylight saving time. In ${year}, clocks spring forward one hour on ${dstStart} and fall back one hour on ${dstEnd}. During DST, the UTC offset shifts from ${winterLabel} to ${summerLabel}.`
+    : `Yes. ${city.name} observes daylight saving time, shifting from ${winterLabel} (standard time) to ${summerLabel} in summer.`;
+  faqs.push({ q: `Does ${city.name} observe daylight saving time?`, a: dstAnswer });
+} else {
+  faqs.push({
+    q: `Does ${city.name} observe daylight saving time?`,
+    a: `No. ${city.name} does not observe daylight saving time. The UTC offset remains ${winterLabel} all year round.`,
+  });
+}
+
+// Q3: Current status
+faqs.push({
+  q: `What is the current UTC offset for ${city.name}?`,
+  a: `${city.name} is currently at ${currentOffset}.${dst.hasDST ? ` It is ${isInDST ? 'currently observing daylight saving time' : 'not currently observing daylight saving time'}.` : ''}`,
+});
+
+// Q4: vs New York
+if (vsNewYork.label !== 'the same time') {
+  const nyNote = (isEuropeCET && isUSEastern)
+    ? ' Note: both cities observe daylight saving time but on different schedules, so the gap may shift by 1 hour during brief transition periods each spring and autumn.'
+    : '';
+  faqs.push({
+    q: `What is the time difference between ${city.name} and New York?`,
+    a: `${city.name} is currently ${vsNewYork.label} ${vsNewYork.sign} New York.${nyNote}`,
+  });
+}
+
+// Q5: vs London
+if (vsLondon.label !== 'the same time' && city.timezone !== 'Europe/London') {
+  const londonNote = (isEuropeCET)
+    ? ' Both cities observe daylight saving time on the same schedule (last Sunday of March and October), so the gap stays consistent year-round.'
+    : '';
+  faqs.push({
+    q: `What is the time difference between ${city.name} and London?`,
+    a: `${city.name} is currently ${vsLondon.label} ${vsLondon.sign} London.${londonNote}`,
+  });
+}
+
+// Q6: vs Los Angeles
+if (vsLosAngeles.label !== 'the same time') {
+  faqs.push({
+    q: `What is the time difference between ${city.name} and Los Angeles?`,
+    a: `${city.name} is currently ${vsLosAngeles.label} ${vsLosAngeles.sign} Los Angeles.`,
+  });
+}
+
+// Q7: vs Tokyo
+if (vsTokyo.label !== 'the same time' && city.timezone !== 'Asia/Tokyo') {
+  const tokyoNote = (dst.hasDST)
+    ? ` Tokyo does not observe daylight saving time, so this gap changes by 1 hour when ${city.name} transitions to/from DST.`
+    : '';
+  faqs.push({
+    q: `What is the time difference between ${city.name} and Tokyo?`,
+    a: `${city.name} is currently ${vsTokyo.label} ${vsTokyo.sign} Tokyo.${tokyoNote}`,
+  });
+}
+
+// Q8: IANA name (developer question)
+faqs.push({
+  q: `What is the IANA timezone name for ${city.name}?`,
+  a: `The IANA timezone database identifier for ${city.name} is <code>${city.timezone}</code>. Use this string in programming languages and APIs: JavaScript (\`new Intl.DateTimeFormat('en-US', { timeZone: '${city.timezone}' })\`), Python (\`pytz.timezone('${city.timezone}')\`), or any IANA-compatible library.`,
+});
+
+// Q9: Is CET the same as CEST (for CET cities)
+if (isEuropeCET) {
+  faqs.push({
+    q: 'Is CET the same as CEST?',
+    a: `No. CET (Central European Time, UTC+1) is the standard winter time used by ${city.name} and most of Central Europe. CEST (Central European Summer Time, UTC+2) is the same zone during daylight saving time. The abbreviation changes, but it is the same IANA timezone — the offset shifts by one hour.`,
+  });
+}
+---
+
+<!-- ─── Timezone Facts ─────────────────────────────────── -->
+<section class="facts-section">
+  <div class="facts-grid">
+    <div class="fact">
+      <span class="fact-label">IANA timezone</span>
+      <span class="fact-value mono">{city.timezone}</span>
+    </div>
+    <div class="fact">
+      <span class="fact-label">Current offset</span>
+      <span class="fact-value">{currentOffset}{dst.hasDST ? (isInDST ? ' (summer)' : ' (winter)') : ''}</span>
+    </div>
+    {dst.hasDST && (
+      <div class="fact">
+        <span class="fact-label">Standard time</span>
+        <span class="fact-value">{winterLabel}</span>
+      </div>
+    )}
+    {dst.hasDST && summerLabel && (
+      <div class="fact">
+        <span class="fact-label">Summer time</span>
+        <span class="fact-value">{summerLabel}</span>
+      </div>
+    )}
+    {dst.hasDST && dstStart && (
+      <div class="fact">
+        <span class="fact-label">Clocks forward</span>
+        <span class="fact-value">{dstStart}</span>
+      </div>
+    )}
+    {dst.hasDST && dstEnd && (
+      <div class="fact">
+        <span class="fact-label">Clocks back</span>
+        <span class="fact-value">{dstEnd}</span>
+      </div>
+    )}
+    {!dst.hasDST && (
+      <div class="fact">
+        <span class="fact-label">Daylight saving</span>
+        <span class="fact-value">No DST observed</span>
+      </div>
+    )}
+  </div>
+</section>
+
+<!-- ─── Business Hours Indicator ─────────────────────────── -->
+<section class="biz-section">
+  <div class="biz-row">
+    <span
+      id="biz-dot"
+      class="biz-dot"
+      data-timezone={city.timezone}
+    ></span>
+    <span id="biz-label" class="biz-label">—</span>
+    <span class="biz-hint">Mon–Fri, 09:00–17:00 {city.name} local time</span>
+  </div>
+</section>
+
+<!-- ─── Co-zone Cities ─────────────────────────────────── -->
+{cozone.length > 0 && (
+  <section class="cozone-section">
+    <h2 class="section-heading">Same time as {city.name}</h2>
+    <div class="cozone-list">
+      {cozone.map(c => (
+        <a href={`/${c.slug}`} class="cozone-chip">{c.name}</a>
+      ))}
+      {cozone.length === 10 && <span class="cozone-more">and more</span>}
+    </div>
+  </section>
+)}
+
+<!-- ─── FAQ ───────────────────────────────────────────── -->
+<section class="faq-section">
+  <h2 class="section-heading">Questions about time in {city.name}</h2>
+  <dl class="faq-list">
+    {faqs.map(({ q, a }) => (
+      <>
+        <dt class="faq-q">{q}</dt>
+        <dd class="faq-a" set:html={a} />
+      </>
+    ))}
+  </dl>
+</section>
+
+<style>
+  /* ── Facts ── */
+  .facts-section {
+    padding: 20px 28px;
+    border-top: 1px solid var(--border);
+  }
+  .facts-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 40px;
+  }
+  .fact {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .fact-label {
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--text-dim);
+    text-transform: uppercase;
+  }
+  .fact-value {
+    font-size: 14px;
+    color: var(--text);
+  }
+  .fact-value.mono,
+  .mono {
+    font-family: ui-monospace, 'SF Mono', 'Fira Code', monospace;
+    font-size: 13px;
+  }
+
+  /* ── Business Hours ── */
+  .biz-section {
+    padding: 14px 28px;
+    border-top: 1px solid var(--border);
+  }
+  .biz-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .biz-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--text-dim);
+    flex-shrink: 0;
+    transition: background 0.3s;
+  }
+  .biz-dot.open { background: #4caf50; }
+  .biz-dot.closed { background: var(--text-dim); }
+  .biz-label {
+    font-size: 13px;
+    color: var(--text);
+    min-width: 180px;
+  }
+  .biz-hint {
+    font-size: 12px;
+    color: var(--text-dim);
+  }
+
+  /* ── Co-zone ── */
+  .cozone-section {
+    padding: 20px 28px;
+    border-top: 1px solid var(--border);
+  }
+  .section-heading {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 12px;
+  }
+  .cozone-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .cozone-chip {
+    font-size: 13px;
+    color: var(--text-muted);
+    text-decoration: none;
+    padding: 4px 10px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .cozone-chip:hover {
+    color: var(--text);
+    border-color: var(--text-muted);
+  }
+  .cozone-more {
+    font-size: 12px;
+    color: var(--text-dim);
+    padding: 4px 10px;
+    align-self: center;
+  }
+
+  /* ── FAQ ── */
+  .faq-section {
+    padding: 20px 28px 32px;
+    border-top: 1px solid var(--border);
+    max-width: 680px;
+  }
+  .faq-list {
+    margin: 0;
+  }
+  .faq-q {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+    margin: 20px 0 6px;
+    line-height: 1.4;
+  }
+  .faq-q:first-child {
+    margin-top: 0;
+  }
+  .faq-a {
+    font-size: 14px;
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin: 0;
+  }
+  .faq-a :global(code) {
+    font-family: ui-monospace, 'SF Mono', 'Fira Code', monospace;
+    font-size: 12px;
+    background: var(--bg-subtle);
+    padding: 1px 5px;
+    border-radius: 3px;
+    color: var(--text);
+  }
+</style>
+
+<script>
+  // Business hours indicator — updates every minute
+  const dot = document.getElementById('biz-dot') as HTMLElement | null;
+  const label = document.getElementById('biz-label') as HTMLElement | null;
+  if (!dot || !label) throw new Error('biz elements missing');
+  const tz = dot.dataset.timezone!;
+
+  function checkBizHours() {
+    const now = new Date();
+    const parts = new Intl.DateTimeFormat('en-US', {
+      timeZone: tz,
+      weekday: 'short',
+      hour: 'numeric',
+      minute: '2-digit',
+      hour12: false,
+    }).formatToParts(now);
+
+    const get = (t: string) => parts.find(p => p.type === t)?.value ?? '';
+    const day = get('weekday'); // Mon, Tue, ...
+    const h = parseInt(get('hour'), 10) % 24;
+    const m = parseInt(get('minute'), 10);
+    const totalMins = h * 60 + m;
+
+    const isWeekday = !['Sat', 'Sun'].includes(day);
+    const isOpen = isWeekday && totalMins >= 9 * 60 && totalMins < 17 * 60;
+
+    dot.className = 'biz-dot ' + (isOpen ? 'open' : 'closed');
+    label.textContent = isOpen ? 'Business hours now' : 'Outside business hours';
+  }
+
+  checkBizHours();
+  setInterval(checkBizHours, 60_000);
+</script>

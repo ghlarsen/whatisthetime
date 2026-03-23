@@ -6,6 +6,7 @@ import Base from '../layouts/Base.astro';
 import Nav from '../components/Nav.astro';
 import ClockHero from '../components/ClockHero.astro';
 import ComparisonWidget from '../components/ComparisonWidget.astro';
+import CityContent from '../components/CityContent.astro';
 import cities from '../data/cities.ts';
 import { formatUtcOffset, getCurrentTime } from '../lib/timezone.ts';
 
@@ -31,24 +32,6 @@ const canonical = `https://whatisthetime.now/${city.slug}`;
 <Base title={title} description={description} canonical={canonical}>
   <Nav />
   <ClockHero city={city} />
-  <ComparisonWidget defaultCities={['copenhagen', 'tokyo', 'new-york-city', 'london']} />
-
-  <!-- Static copy for SEO -->
-  <section class="city-info">
-    <p>{city.name} is in the <strong>{city.timezone}</strong> timezone ({utcLabel}).
-    {time.utcOffsetMinutes !== 0 && `It is currently ${formatUtcOffset(time.utcOffsetMinutes)} (${time.utcOffsetMinutes > 0 ? 'ahead of' : 'behind'} UTC).`}
-    </p>
-  </section>
+  <ComparisonWidget defaultCities={[city.slug, 'new-york-city', 'london', 'tokyo']} />
+  <CityContent city={city} />
 </Base>
-
-<style>
-  .city-info {
-    padding: 20px 28px;
-    font-size: 12px;
-    color: var(--text-muted);
-    line-height: 1.6;
-    border-top: 1px solid var(--border);
-    max-width: 600px;
-  }
-  .city-info strong { color: var(--text); }
-</style>
