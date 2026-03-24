@@ -131,6 +131,51 @@ const websiteSchema = {
     <p class="hero-sub">Live clocks for 990 cities · Every timezone · Meeting planner</p>
   </header>
 
+  <!-- Quick converter -->
+  <section class="home-converter">
+    <div class="hc-row">
+      <span class="hc-label">Convert</span>
+      <select class="hc-select" id="hc-time">
+        <option value="9am">9am</option>
+        <option value="10am">10am</option>
+        <option value="11am">11am</option>
+        <option value="12pm">12pm</option>
+        <option value="1pm">1pm</option>
+        <option value="2pm">2pm</option>
+        <option value="3pm">3pm</option>
+        <option value="4pm">4pm</option>
+        <option value="5pm">5pm</option>
+      </select>
+      <span class="hc-label">in</span>
+      <select class="hc-select" id="hc-from">
+        <option value="london">London</option>
+        <option value="new-york-city">New York</option>
+        <option value="tokyo">Tokyo</option>
+        <option value="paris">Paris</option>
+        <option value="sydney">Sydney</option>
+        <option value="dubai">Dubai</option>
+        <option value="copenhagen">Copenhagen</option>
+        <option value="berlin">Berlin</option>
+        <option value="los-angeles">Los Angeles</option>
+        <option value="singapore">Singapore</option>
+      </select>
+      <span class="hc-label">to</span>
+      <select class="hc-select" id="hc-to">
+        <option value="tokyo">Tokyo</option>
+        <option value="london">London</option>
+        <option value="new-york-city">New York</option>
+        <option value="paris">Paris</option>
+        <option value="sydney">Sydney</option>
+        <option value="dubai">Dubai</option>
+        <option value="copenhagen">Copenhagen</option>
+        <option value="berlin">Berlin</option>
+        <option value="los-angeles">Los Angeles</option>
+        <option value="singapore">Singapore</option>
+      </select>
+      <a class="hc-go" id="hc-go" href="/when/9am-london/tokyo">Go</a>
+    </div>
+  </section>
+
   <!-- My Cities (localStorage, client-side only) -->
   <section class="my-cities" id="my-cities" style="display:none">
     <div class="my-cities-header">
@@ -209,6 +254,21 @@ const websiteSchema = {
 
     tickLocal();
     setInterval(tickLocal, 1000);
+
+    // Home converter
+    const hcTime = document.getElementById('hc-time') as HTMLSelectElement;
+    const hcFrom = document.getElementById('hc-from') as HTMLSelectElement;
+    const hcTo = document.getElementById('hc-to') as HTMLSelectElement;
+    const hcGo = document.getElementById('hc-go') as HTMLAnchorElement;
+
+    function updateHc() {
+      if (hcTime && hcFrom && hcTo && hcGo) {
+        hcGo.href = `/when/${hcTime.value}-${hcFrom.value}/${hcTo.value}`;
+      }
+    }
+    hcTime?.addEventListener('change', updateHc);
+    hcFrom?.addEventListener('change', updateHc);
+    hcTo?.addEventListener('change', updateHc);
 
     // My Cities from localStorage
     const myCities: string[] = JSON.parse(localStorage.getItem('myCities') || '[]');
@@ -298,6 +358,47 @@ const websiteSchema = {
     transition: border-color 0.15s;
   }
   .hero-city-link:hover { border-color: var(--text-muted); }
+
+  /* Home converter */
+  .home-converter {
+    padding: 16px var(--page-pad);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .hc-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .hc-label {
+    font-size: var(--t-sm);
+    color: var(--text-dim);
+  }
+
+  .hc-select {
+    background: var(--bg-subtle);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-size: var(--t-sm);
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-family: inherit;
+  }
+
+  .hc-go {
+    font-size: var(--t-sm);
+    font-weight: 600;
+    color: var(--text);
+    text-decoration: none;
+    padding: 6px 16px;
+    border: 1px solid var(--text);
+    border-radius: 4px;
+    transition: background 0.15s, color 0.15s;
+    margin-left: 4px;
+  }
+  .hc-go:hover { background: var(--text); color: var(--bg); }
 
   /* My Cities */
   .my-cities {

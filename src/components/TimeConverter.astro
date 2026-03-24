@@ -1,0 +1,135 @@
+---
+// src/components/TimeConverter.astro
+// Quick time conversion: "When it's [time] in [this city], what time is it in [other city]?"
+export interface Props {
+  fromCity: string;  // slug
+  fromName: string;
+}
+
+const { fromCity, fromName } = Astro.props;
+---
+
+<section class="converter">
+  <h2 class="converter-heading">Convert time from {fromName}</h2>
+  <div class="converter-row" id="converter">
+    <select class="converter-time" id="converter-time">
+      <option value="6am">6am</option>
+      <option value="7am">7am</option>
+      <option value="8am">8am</option>
+      <option value="9am" selected>9am</option>
+      <option value="10am">10am</option>
+      <option value="11am">11am</option>
+      <option value="12pm">12pm</option>
+      <option value="1pm">1pm</option>
+      <option value="2pm">2pm</option>
+      <option value="3pm">3pm</option>
+      <option value="4pm">4pm</option>
+      <option value="5pm">5pm</option>
+      <option value="6pm">6pm</option>
+      <option value="7pm">7pm</option>
+      <option value="8pm">8pm</option>
+      <option value="9pm">9pm</option>
+      <option value="10pm">10pm</option>
+      <option value="11pm">11pm</option>
+    </select>
+    <span class="converter-in">in {fromName} is</span>
+    <select class="converter-dest" id="converter-dest">
+      <option value="london">London</option>
+      <option value="new-york-city">New York</option>
+      <option value="tokyo">Tokyo</option>
+      <option value="sydney">Sydney</option>
+      <option value="dubai">Dubai</option>
+      <option value="singapore">Singapore</option>
+      <option value="paris">Paris</option>
+      <option value="berlin">Berlin</option>
+      <option value="los-angeles">Los Angeles</option>
+      <option value="mumbai">Mumbai</option>
+      <option value="shanghai">Shanghai</option>
+      <option value="seoul">Seoul</option>
+      <option value="chicago">Chicago</option>
+      <option value="moscow">Moscow</option>
+      <option value="copenhagen">Copenhagen</option>
+      <option value="hong-kong">Hong Kong</option>
+      <option value="bangkok">Bangkok</option>
+      <option value="cairo">Cairo</option>
+      <option value="toronto">Toronto</option>
+      <option value="auckland">Auckland</option>
+    </select>
+    <a class="converter-go" id="converter-go" href={`/when/9am-${fromCity}/london`}>Go</a>
+  </div>
+</section>
+
+<style>
+  .converter {
+    padding: 20px var(--page-pad);
+    border-top: 1px solid var(--border);
+  }
+
+  .converter-heading {
+    font-size: var(--t-sm);
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 12px;
+  }
+
+  .converter-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .converter-time,
+  .converter-dest {
+    background: var(--bg-subtle);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-size: var(--t-base);
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-family: inherit;
+    cursor: pointer;
+  }
+
+  .converter-in {
+    font-size: var(--t-sm);
+    color: var(--text-muted);
+  }
+
+  .converter-go {
+    font-size: var(--t-sm);
+    font-weight: 600;
+    color: var(--text);
+    text-decoration: none;
+    padding: 8px 20px;
+    border: 1px solid var(--text);
+    border-radius: 4px;
+    transition: background 0.15s, color 0.15s;
+  }
+  .converter-go:hover {
+    background: var(--text);
+    color: var(--bg);
+  }
+</style>
+
+<script define:vars={{ fromCity }}>
+  const timeEl = document.getElementById('converter-time');
+  const destEl = document.getElementById('converter-dest');
+  const goEl = document.getElementById('converter-go');
+
+  // Remove self from destination list
+  const selfOpt = destEl.querySelector(`option[value="${fromCity}"]`);
+  if (selfOpt) selfOpt.remove();
+
+  function updateLink() {
+    const time = timeEl.value;
+    const dest = destEl.value;
+    goEl.href = `/when/${time}-${fromCity}/${dest}`;
+  }
+
+  timeEl.addEventListener('change', updateLink);
+  destEl.addEventListener('change', updateLink);
+  updateLink();
+</script>
