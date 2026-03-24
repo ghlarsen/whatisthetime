@@ -1,0 +1,253 @@
+---
+// src/pages/widget.astro
+// Widget configurator + embed code generator
+export const prerender = true;
+
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import ProtonBanner from '../components/ProtonBanner.astro';
+import Footer from '../components/Footer.astro';
+
+const title = 'Embeddable Clock Widget | whatisthetime.now';
+const description = 'Add a live world clock to your website. Free embeddable widget for any city. One line of code.';
+const canonical = 'https://whatisthetime.now/widget';
+---
+
+<Base title={title} description={description} canonical={canonical}>
+  <Nav />
+
+  <section class="widget-hero">
+    <h1 class="widget-title">Clock widget for your website</h1>
+    <p class="widget-sub">Add a live clock to any page. One script tag, no dependencies, updates every second.</p>
+  </section>
+
+  <section class="widget-config">
+    <div class="config-panel">
+      <h2 class="config-heading">Configure</h2>
+
+      <label class="config-label">
+        City
+        <select id="widget-city" class="config-select">
+          <option value="london">London</option>
+          <option value="new-york-city">New York</option>
+          <option value="tokyo">Tokyo</option>
+          <option value="paris">Paris</option>
+          <option value="sydney">Sydney</option>
+          <option value="dubai">Dubai</option>
+          <option value="singapore">Singapore</option>
+          <option value="berlin">Berlin</option>
+          <option value="los-angeles">Los Angeles</option>
+          <option value="chicago">Chicago</option>
+          <option value="mumbai">Mumbai</option>
+          <option value="shanghai">Shanghai</option>
+          <option value="hong-kong">Hong Kong</option>
+          <option value="seoul">Seoul</option>
+          <option value="moscow">Moscow</option>
+          <option value="copenhagen">Copenhagen</option>
+          <option value="amsterdam">Amsterdam</option>
+          <option value="istanbul">Istanbul</option>
+          <option value="cairo">Cairo</option>
+          <option value="bangkok">Bangkok</option>
+          <option value="toronto">Toronto</option>
+          <option value="sao-paulo">São Paulo</option>
+          <option value="auckland">Auckland</option>
+        </select>
+      </label>
+
+      <label class="config-label">
+        Theme
+        <select id="widget-theme" class="config-select">
+          <option value="dark">Dark</option>
+          <option value="light">Light</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="preview-panel">
+      <h2 class="config-heading">Preview</h2>
+      <div id="widget-preview" class="widget-preview-area"></div>
+    </div>
+  </section>
+
+  <section class="embed-section">
+    <h2 class="config-heading">Embed code</h2>
+    <p class="embed-note">Copy and paste this into your HTML. The widget loads asynchronously and won't block your page.</p>
+    <pre class="embed-code" id="embed-code"></pre>
+    <button class="copy-btn" id="copy-btn">Copy to clipboard</button>
+  </section>
+
+  <ProtonBanner />
+
+  <section class="widget-faq">
+    <h2 class="config-heading">How it works</h2>
+    <dl class="faq-list">
+      <dt class="faq-q">Is it free?</dt>
+      <dd class="faq-a">Yes. The widget is free and includes a small "whatisthetime.now" attribution link.</dd>
+      <dt class="faq-q">Does it slow down my page?</dt>
+      <dd class="faq-a">No. The script is 3KB, loads asynchronously, and uses only the browser's built-in Intl API. No external API calls.</dd>
+      <dt class="faq-q">Can I use any timezone?</dt>
+      <dd class="faq-a">Yes. Use any IANA timezone identifier in data-city (e.g. data-city="Asia/Kolkata"). The preset list covers major cities.</dd>
+      <dt class="faq-q">Can I add multiple clocks?</dt>
+      <dd class="faq-a">Yes. Add multiple div tags with different data-city values. They share one script.</dd>
+    </dl>
+  </section>
+
+  <Footer />
+</Base>
+
+<style>
+  .widget-hero {
+    padding: 48px var(--page-pad) 32px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .widget-title {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-variation-settings: 'wght' 800;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+
+  .widget-sub {
+    font-size: var(--t-base);
+    color: var(--text-muted);
+  }
+
+  .widget-config {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    padding: 32px var(--page-pad);
+    border-bottom: 1px solid var(--border);
+  }
+
+  @media (max-width: 600px) {
+    .widget-config { grid-template-columns: 1fr; }
+  }
+
+  .config-heading {
+    font-size: var(--t-sm);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 16px;
+  }
+
+  .config-label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: var(--t-sm);
+    color: var(--text-muted);
+    margin-bottom: 16px;
+  }
+
+  .config-select {
+    background: var(--bg-subtle);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-size: var(--t-base);
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-family: inherit;
+  }
+
+  .widget-preview-area {
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-subtle);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 24px;
+  }
+
+  .embed-section {
+    padding: 32px var(--page-pad);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .embed-note {
+    font-size: var(--t-sm);
+    color: var(--text-muted);
+    margin-bottom: 12px;
+  }
+
+  .embed-code {
+    background: var(--bg-subtle);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 16px;
+    font-family: ui-monospace, 'SF Mono', monospace;
+    font-size: var(--t-sm);
+    color: var(--text);
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-break: break-all;
+    margin-bottom: 12px;
+  }
+
+  .copy-btn {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    padding: 6px 16px;
+    border-radius: 4px;
+    font-size: var(--t-sm);
+    cursor: pointer;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .copy-btn:hover { border-color: var(--text-muted); color: var(--text); }
+
+  .widget-faq {
+    padding: 32px var(--page-pad) 48px;
+    max-width: 720px;
+  }
+  .faq-list { margin: 0; }
+  .faq-q { font-size: var(--t-base); font-weight: 600; color: var(--text); margin: 20px 0 6px; }
+  .faq-q:first-child { margin-top: 0; }
+  .faq-a { font-size: var(--t-base); color: var(--text-muted); line-height: 1.7; margin: 0; }
+</style>
+
+<script>
+  const citySelect = document.getElementById('widget-city') as HTMLSelectElement;
+  const themeSelect = document.getElementById('widget-theme') as HTMLSelectElement;
+  const preview = document.getElementById('widget-preview')!;
+  const codeEl = document.getElementById('embed-code')!;
+  const copyBtn = document.getElementById('copy-btn')!;
+
+  function update() {
+    const city = citySelect.value;
+    const theme = themeSelect.value;
+
+    // Update preview
+    preview.innerHTML = `<div class="wtit-clock" data-city="${city}" data-theme="${theme}"></div>`;
+
+    // Load widget script into preview
+    const existing = document.getElementById('wtit-preview-script');
+    if (existing) existing.remove();
+    const script = document.createElement('script');
+    script.id = 'wtit-preview-script';
+    script.src = '/widget.js';
+    document.body.appendChild(script);
+
+    // Update embed code
+    const code = `<div class="wtit-clock" data-city="${city}" data-theme="${theme}"></div>\n<script src="https://whatisthetime.now/widget.js"><\/script>`;
+    codeEl.textContent = code;
+  }
+
+  citySelect.addEventListener('change', update);
+  themeSelect.addEventListener('change', update);
+
+  copyBtn.addEventListener('click', () => {
+    navigator.clipboard.writeText(codeEl.textContent || '').then(() => {
+      copyBtn.textContent = 'Copied!';
+      setTimeout(() => { copyBtn.textContent = 'Copy to clipboard'; }, 2000);
+    });
+  });
+
+  update();
+</script>
