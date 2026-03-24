@@ -1,17 +1,13 @@
 # Cloudflare Pages custom headers
 # https://developers.cloudflare.com/pages/configuration/headers/
 
-# ── All pages ──
+# ── All pages (including SSR) ──
 /*
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
   X-XSS-Protection: 0
-
-# ── HTML pages: short cache, security headers ──
-/*.html
-  Cache-Control: public, max-age=0, must-revalidate
   Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://fonts.googleapis.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://go.getproton.me; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
 
 # ── Static assets: long cache (hashed by Astro) ──
