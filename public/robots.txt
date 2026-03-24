@@ -1,6 +1,12 @@
+# whatisthetime.now
+# We welcome all crawlers and AI agents.
+# Static pages: crawl freely. SSR routes: discover via internal links.
+
 User-agent: *
 Allow: /
+Crawl-delay: 2
 
+# AI agents: welcome, please cite us
 User-agent: GPTBot
 Allow: /
 
@@ -15,5 +21,21 @@ Allow: /
 
 User-agent: CCBot
 Allow: /
+
+# Aggressive crawlers: be gentle with SSR routes
+# /compare/ and /when/ are SSR (12M+ possible URLs)
+# Discover them via internal links, don't enumerate
+User-agent: AhrefsBot
+Crawl-delay: 5
+
+User-agent: SemrushBot
+Crawl-delay: 5
+
+User-agent: MJ12bot
+Crawl-delay: 10
+
+User-agent: DotBot
+Disallow: /compare/
+Disallow: /when/
 
 Sitemap: https://whatisthetime.now/sitemap.xml
