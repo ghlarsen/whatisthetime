@@ -96,75 +96,68 @@ const faqSchema = faqs?.length ? {
   <style is:global>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    /* ── Design tokens — single source of truth ──────────────────────
-       Type scale (sizes):
-         L1 micro    11px   captions, offsets, status dots
-         L2 label    12px   city names, chips, buttons, nav
-         L3 body     14px   FAQ, facts, dates, descriptions
-         L4a panel   36px   compact grid clocks (meeting, world grid)
-         L4b display fluid  hero/page clocks
+    /* ─── Design System ───────────────────────────────────────────────
+     *
+     *  Josef Muller-Brockmann: "The grid system is an aid, not a
+     *  guarantee. It permits a number of possible uses and each
+     *  designer can look for a solution appropriate to his personal
+     *  style. But one must learn how to use the grid; it is an art
+     *  that requires practice."
+     *
+     *  All tokens defined here. Never hardcode values in components.
+     *
+     * ──────────────────────────────────────────────────────────────── */
 
-       Font families (three stacks, never hardcode):
-         --font-display  Bricolage Grotesque   hero clocks, large headings, /now
-         --font-body     system-ui             body text, labels, UI
-         --font-mono     ui-monospace          UTC offsets, code, IANA ids, small data
-    ─────────────────────────────────────────────────────────────── */
     :root {
-      /* Sizes */
-      --t-xs:      0.6875rem;               /* 11px — L1 micro */
-      --t-sm:      0.75rem;                /* 12px — L2 label */
-      --t-base:    0.875rem;               /* 14px — L3 body */
-      --t-panel:   2.25rem;                /* 36px — L4a compact grid clock */
-      --t-display: clamp(3rem, 14vw, 9rem); /* L4b hero/page clock — fluid */
-      --page-pad:  1.75rem;                /* 28px — horizontal page padding */
+      /* ── Typography ── */
 
-      /* Font families — USE THESE, never hardcode a font stack */
-      --font-display: 'Bricolage Grotesque', sans-serif;
-      --font-body:    system-ui, -apple-system, sans-serif;
-      --font-mono:    ui-monospace, 'SF Mono', 'Fira Code', monospace;
+      /* Scale: 5 steps from micro to display */
+      --t-xs:       0.6875rem;                /* 11px  captions, offsets, dots    */
+      --t-sm:       0.75rem;                  /* 12px  labels, chips, nav         */
+      --t-base:     0.875rem;                 /* 14px  body, FAQ, descriptions    */
+      --t-panel:    2.25rem;                  /* 36px  grid clocks (compact)      */
+      --t-display:  clamp(3rem, 14vw, 9rem);  /* fluid hero clocks               */
+
+      /* Families: three stacks, one truth */
+      --font-display:  'Bricolage Grotesque', sans-serif;
+      --font-body:     system-ui, -apple-system, sans-serif;
+      --font-mono:     ui-monospace, 'SF Mono', 'Fira Code', monospace;
+
+      /* ── Spacing ── */
+      --page-pad:   1.75rem;                  /* 28px  horizontal page gutter     */
     }
 
     @media (max-width: 500px) {
-      :root { --page-pad: 1rem; } /* 16px on mobile */
+      :root {
+        --page-pad: 1rem;                     /* 16px  tighter on mobile          */
+      }
     }
 
-    /* ── Grey system ─────────────────────────────────────────────────
-       Dark mode: greys are LIGHT — near-white reads crisply on black.
-         --text-muted: #b0b0b0  8.5:1  secondary text, city names
-         --text-dim:   #666666  3.9:1  labels, hints, captions
-         --bar-empty:  #3a3a3a        visible "off" band on dark bg
-         --bar-work:   #1e6640        clear green "work" band
-
-       Light mode: greys are DARK — enough contrast on white.
-         --text-muted: #606060  6.0:1  secondary text
-         --text-dim:   #999999  2.8:1  labels/hints (large/caps only)
-         --bar-empty:  #e8e8e8        subtle "off" band on white bg
-         --bar-work:   #d4edda        soft green "work" band
-    ─────────────────────────────────────────────────────────────── */
+    /* ── Colour: Dark ── */
     :root[data-theme="dark"] {
-      --bg: #0a0a0a;
-      --bg-subtle: #111111;
-      --text: #ffffff;
-      --text-muted: #f2f5f4;  /* near-white on black */
-      --text-dim: #f2f5f4;    /* same — both levels light on dark */
-      --border: #222222;
-      --bar-empty: #5a5a5a;
-      --bar-work: #1e6640;
-      /* footer is inverted (white bg) — grey on white */
-      --footer-city: #606060;
+      --bg:            #0a0a0a;
+      --bg-subtle:     #111111;
+      --text:          #ffffff;
+      --text-muted:    #f2f5f4;
+      --text-dim:      #f2f5f4;
+      --border:        #222222;
+      --bar-empty:     #5a5a5a;
+      --bar-work:      #1e6640;
+      --footer-city:   #606060;
       --footer-region: #999999;
     }
+
+    /* ── Colour: Light ── */
     :root[data-theme="light"] {
-      --bg: #ffffff;
-      --bg-subtle: #fafafa;
-      --text: #111111;
-      --text-muted: #191932;  /* deep indigo on white */
-      --text-dim: #5a5a8a;    /* mid blue-grey, WCAG AA 4.6:1 on white */
-      --border: #ebebeb;
-      --bar-empty: #b8b8b8;   /* clearly visible mid-grey on white */
-      --bar-work: #6dba8e;    /* proper saturated green on white */
-      /* footer is inverted (dark bg) — grey on dark, same as dark mode text-muted */
-      --footer-city: #f2f5f4;
+      --bg:            #ffffff;
+      --bg-subtle:     #fafafa;
+      --text:          #111111;
+      --text-muted:    #191932;
+      --text-dim:      #5a5a8a;   /* WCAG AA 4.6:1 on white */
+      --border:        #ebebeb;
+      --bar-empty:     #b8b8b8;
+      --bar-work:      #6dba8e;
+      --footer-city:   #f2f5f4;
       --footer-region: #8a8a8a;
     }
 
