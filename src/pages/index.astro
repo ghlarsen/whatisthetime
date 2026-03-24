@@ -143,23 +143,14 @@ const websiteSchema = {
   <ProtonBanner />
   <MeetingGrid defaultCities={['new-york-city', 'london', 'tokyo', 'sydney']} />
 
-  <!-- FAQ -->
-  <section class="home-faq">
-    <h2 class="faq-heading">World time — answered</h2>
-    <dl class="faq-list">
-      {homeFaqs.map(({ q, a }) => (
-        <>
-          <dt class="faq-q">{q}</dt>
-          <dd class="faq-a">{a}</dd>
-        </>
-      ))}
-    </dl>
-  </section>
-
-  <!-- Featured content -->
+  <!-- Explore -->
   <section class="featured">
     <h2 class="featured-heading">Explore</h2>
     <div class="featured-grid">
+      <a href="/now" class="featured-card">
+        <span class="featured-title">Now</span>
+        <span class="featured-blurb">Every timezone on Earth, live. A typographic clock wall that breathes with the sun.</span>
+      </a>
       <a href="/timezones" class="featured-card">
         <span class="featured-title">World Timezone Map</span>
         <span class="featured-blurb">37 UTC offsets, 245 countries. Interactive map with real IANA timezone boundaries.</span>
@@ -172,11 +163,28 @@ const websiteSchema = {
         <span class="featured-title">The Science of Jet Lag</span>
         <span class="featured-blurb">Why eastbound is worse, the 2017 Nobel Prize research, and what NASA knows about crossing timezones.</span>
       </a>
+      <a href="/my-timezone" class="featured-card">
+        <span class="featured-title">What Timezone Am I In?</span>
+        <span class="featured-blurb">Detect your timezone automatically. See your IANA identifier, UTC offset, and nearby cities.</span>
+      </a>
       <a href="/cities" class="featured-card">
         <span class="featured-title">All 990 Cities</span>
         <span class="featured-blurb">Every city organized by continent and timezone. Stories about time from Aalborg to Zurich.</span>
       </a>
     </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="home-faq">
+    <h2 class="faq-heading">World time — answered</h2>
+    <dl class="faq-list">
+      {homeFaqs.map(({ q, a }) => (
+        <>
+          <dt class="faq-q">{q}</dt>
+          <dd class="faq-a">{a}</dd>
+        </>
+      ))}
+    </dl>
   </section>
 
   <ProtonBanner />
@@ -265,11 +273,12 @@ const websiteSchema = {
   }
 
   .hero-clock {
-    font-family: ui-monospace, 'SF Mono', 'Fira Code', monospace;
+    font-family: 'Bricolage Grotesque', sans-serif;
     font-size: var(--t-display);
+    font-variation-settings: 'wght' 800, 'opsz' 50;
     font-variant-numeric: tabular-nums;
-    letter-spacing: -0.03em;
-    line-height: 1;
+    letter-spacing: -0.02em;
+    line-height: 0.9;
     color: var(--text);
     margin-bottom: 12px;
   }
