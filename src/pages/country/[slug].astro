@@ -23,9 +23,33 @@ const { Content } = await render(entry);
 const title = entry.data.title + ' | whatisthetime.now';
 const description = entry.data.description;
 const canonical = `https://whatisthetime.now/country/${entry.data.slug}`;
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: entry.data.title,
+  description,
+  url: canonical,
+  datePublished: entry.data.lastUpdated,
+  dateModified: entry.data.lastUpdated,
+  author: { '@type': 'Organization', name: 'whatisthetime.now', url: 'https://whatisthetime.now' },
+  publisher: { '@type': 'Organization', name: 'whatisthetime.now', url: 'https://whatisthetime.now' },
+};
+
+const breadcrumbs = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://whatisthetime.now' },
+    { '@type': 'ListItem', position: 2, name: 'Countries', item: 'https://whatisthetime.now/cities' },
+    { '@type': 'ListItem', position: 3, name: entry.data.country, item: canonical },
+  ],
+};
 ---
 
 <Base title={title} description={description} canonical={canonical}>
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbs)} />
   <Nav />
 
   <DualClock timezone={entry.data.timezones[0]} label={entry.data.country} href={`/country/${entry.data.slug}`} />

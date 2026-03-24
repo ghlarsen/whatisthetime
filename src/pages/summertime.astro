@@ -42,8 +42,14 @@ const dstActive = sorted.filter(c => c.isInDST);
 const dstInactive = sorted.filter(c => c.hasDST && !c.isInDST);
 const noDST = sorted.filter(c => !c.hasDST);
 
-const title = 'Is It Summertime? DST Status Worldwide | whatisthetime.now';
-const description = `Daylight saving time status for every country. ${dstActive.length} countries currently in DST, ${noDST.length} countries never observe it.`;
+// Next DST transition for Europe (last Sunday of March)
+const nextDSTEurope = new Date(year, 2, 31); // March 31
+while (nextDSTEurope.getDay() !== 0) nextDSTEurope.setDate(nextDSTEurope.getDate() - 1);
+const daysUntilEurope = Math.ceil((nextDSTEurope.getTime() - new Date().getTime()) / 86400000);
+const europeDate = nextDSTEurope.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+
+const title = `When Do Clocks Change? DST Status ${year} | whatisthetime.now`;
+const description = `Daylight saving time status for every country. ${dstActive.length} countries currently in DST. Europe clocks change ${europeDate}. ${noDST.length} countries never observe DST.`;
 const canonical = 'https://whatisthetime.now/summertime';
 
 const faqs = [
@@ -51,6 +57,9 @@ const faqs = [
   { q: 'Which countries never observe daylight saving time?', a: `${noDST.length} countries do not observe DST. This includes most countries near the equator (where day length barely varies), plus Japan, China, India, Russia, and most of Africa and Southeast Asia.` },
   { q: 'When do clocks change?', a: 'In Europe, clocks go forward on the last Sunday of March and back on the last Sunday of October. In North America, clocks go forward on the second Sunday of March and back on the first Sunday of November. Southern hemisphere countries (Australia, New Zealand, Chile, Paraguay) change on opposite dates.' },
   { q: 'Is daylight saving time being abolished?', a: 'The European Parliament voted to abolish seasonal clock changes in 2019, but implementation has stalled in the European Council. Individual EU member states have not agreed on whether to stay on permanent summer or winter time. The US Sunshine Protection Act (permanent DST) passed the Senate in 2022 but did not pass the House.' },
+  { q: `When do clocks change in Europe in ${year}?`, a: `European clocks spring forward on ${europeDate} (last Sunday of March) and fall back on the last Sunday of October. All EU and EEA countries change simultaneously at 01:00 UTC.` },
+  { q: `When do clocks change in the United States in ${year}?`, a: `US clocks spring forward on the second Sunday of March and fall back on the first Sunday of November. Arizona (except Navajo Nation) and Hawaii do not observe DST.` },
+  { q: 'Do clocks go forward or back in spring?', a: 'Clocks go forward one hour in spring ("spring forward"). You lose an hour of sleep. In autumn, clocks go back one hour ("fall back") and you gain an hour.' },
 ];
 ---
 
@@ -58,13 +67,18 @@ const faqs = [
   <Nav />
 
   <header class="summer-hero">
-    <h1 class="summer-title">Is it summertime?</h1>
+    <h1 class="summer-title">When do clocks change in {year}?</h1>
     <p class="summer-sub">
       DST status for every country, updated live.
       <strong>{dstActive.length}</strong> in DST now,
       <strong>{dstInactive.length}</strong> observing but not active,
       <strong>{noDST.length}</strong> never observe DST.
     </p>
+    {daysUntilEurope > 0 && daysUntilEurope <= 30 && (
+      <p class="dst-countdown">
+        Europe clocks change in <strong>{daysUntilEurope} day{daysUntilEurope !== 1 ? 's' : ''}</strong> ({europeDate})
+      </p>
+    )}
   </header>
 
   {dstActive.length > 0 && (
@@ -145,6 +159,14 @@ const faqs = [
     color: var(--text-muted);
   }
   .summer-sub strong { color: var(--text); }
+
+  .dst-countdown {
+    font-size: var(--t-base);
+    color: #4caf50;
+    font-weight: 600;
+    margin-top: 12px;
+  }
+  .dst-countdown strong { color: #4caf50; }
 
   .dst-section {
     padding: 32px var(--page-pad);

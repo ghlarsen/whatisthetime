@@ -51,7 +51,7 @@ const timeStr2 = `${pad(time2.hours)}:${pad(time2.minutes)}`;
 const countrySlug1 = city1.country.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const countrySlug2 = city2.country.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
-const title = `${city1.name} vs ${city2.name} Time Difference | whatisthetime.now`;
+const title = `Time Difference Between ${city1.name} and ${city2.name} | whatisthetime.now`;
 const description = `${city2.name} is ${diffLabel} ${aheadBehind} ${city1.name}. Compare timezones, business hours, and plan meetings between ${city1.name} (${utcLabel1}) and ${city2.name} (${utcLabel2}).`;
 const canonical = `https://whatisthetime.now/compare/${city1.slug}/${city2.slug}`;
 
