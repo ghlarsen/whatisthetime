@@ -15,6 +15,8 @@ The city runs on Central Africa Time (UTC+2) all year. [Namibia](/country/namibi
 
 At 22 degrees south, Swakopmund has moderate seasonal variation. The fog that rolls in off the cold Benguela Current moderates temperatures dramatically: summer is cool and foggy by coastal standards, winter is relatively mild. The town's consistent cool climate, unusual for the latitude, makes it a popular retreat from the heat of Windhoek inland.
 
+## the Benguela Current and coastal ecology
+
 The Benguela Current, which drives the cold upwelling along this coast, is also the ecological engine of the Skeleton Coast's marine life. The current makes the sea cold enough for penguins and seals to thrive on what would otherwise be tropical African beaches. Those ecological rhythms, the seal colony schedules, the migratory fish patterns, run on biological time that predates any timezone.
 
 [Windhoek](/windhoek) to the east shares the same Central Africa Time.

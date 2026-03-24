@@ -13,6 +13,8 @@ Yokohama opened to foreign trade in 1859 under the Kanagawa Treaty, one of the "
 
 Japan runs on Japan Standard Time, UTC+9, set in 1888, two decades after Yokohama's opening. The clock was adopted precisely because the new Meiji railway system, starting with the line between Tokyo and Yokohama in 1872, required synchronized time across stations. Yokohama's original station (now Sakuragichō) was one of the two endpoints of Japan's first railway. The timetable coordination that made Japan's relationship with precision time necessary began here.
 
+## railway origins of Japanese precision time
+
 No DST has applied to Japanese time since the occupation-era experiment ended in 1951. The clocks stay fixed, the trains run on the fixed schedule, and Yokohama's port operations coordinate with Tokyo's financial and logistics infrastructure on the same reliable baseline.
 
 At 35 degrees north, the city gets meaningful daylight variation: summer evenings past 7pm, winter darkness by 5pm. But the clock doesn't change.

@@ -13,6 +13,8 @@ Siem Reap is the gateway to Angkor, and the temples of Angkor Wat impose their o
 
 [Cambodia](/country/cambodia) observes no daylight saving time. The country sits at about 13 degrees north, where daylight variation is limited enough that clock changes would provide minimal benefit. The fixed UTC+7 aligns Cambodia with Thailand and Laos across the Mekong region.
 
+## temple orientation and solar time
+
 Angkor Wat itself is oriented to the west, making sunset as significant as sunrise at the main entrance. Other temples in the Angkor complex are oriented to the east for sunrise alignment. The Khmer architects of the twelfth century understood solar timing and built it into stone. The UTC+7 clock overlay is an inconsequential footnote on top of a solar calendar that preceded it by nine centuries.
 
 Siem Reap's modern town grew rapidly with tourism, and its daily rhythm is organized around tuk-tuk departures to temples, sunrise photography positions, and afternoon tour bus schedules.

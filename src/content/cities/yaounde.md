@@ -15,6 +15,8 @@ Cameroon keeps West Africa Time, UTC+1, year-round with no DST. At about 3 degre
 
 The country is officially bilingual, with French spoken by roughly 80% and English by 20%, a legacy of the partition between French and British colonial zones that persisted into the unified state. The ongoing Anglophone crisis, centered on the English-speaking northwest and southwest regions, has a temporal dimension in the sense that the conflict has disrupted daily life and schedules in affected areas for years.
 
+## bilingual country, equatorial clock
+
 The Pan African Film and Television Festival of Ouagadougou (FESPACO) and similar cultural events anchor a regional cultural calendar that extends across Francophone Africa, and Yaoundé participates in this circuit.
 
 [9am in Yaoundé is 8am in London](/when/9am-yaounde/london). [Douala](/douala) to the west shares the same West Africa Time.

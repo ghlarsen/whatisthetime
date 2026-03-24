@@ -17,6 +17,8 @@ The Central African Republic is named for its geographic position but is in many
 
 At roughly 4.4 degrees north latitude, Bégoua and the Bangui region have near-constant day length throughout the year: about 12 hours of daylight. The equatorial climate brings two rainy seasons per year. The daily rhythm here follows the heat and rain patterns more than any clock-based schedule.
 
+## Security and the fabric of daily life
+
 The northern suburb of Bangui has been affected by the same security challenges as the capital itself. Periodic unrest has disrupted normal commerce and movement patterns. But the market activity, the daily fabric of life, continues in the gaps between disruptions.
 
 [9am in Bégoua is 8am in London](/when/9am-begoua/london) during European winter.

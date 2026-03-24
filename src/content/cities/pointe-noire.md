@@ -15,6 +15,8 @@ Pointe-Noire faces west across the Atlantic. It is the Republic of the Congo's s
 
 The city grew dramatically after oil was discovered offshore in the 1970s. International oil workers, Congolese engineers, and a cosmopolitan port population give Pointe-Noire a different character from Brazzaville in the interior. The fishing harbor operates on its own schedule, boats heading out before dawn and returning mid-morning with the Atlantic catch.
 
+## the Atlantic coast and its cold current
+
 The Côte Sauvage, the wild beach south of the city center, is famous for its rough surf. The water is cold here, fed by the Benguela Current pushing up from Antarctic waters along the African coast. It looks tropical but doesn't feel it.
 
 [9am in Pointe-Noire is 8am in London](/when/9am-pointe-noire/london) in winter.

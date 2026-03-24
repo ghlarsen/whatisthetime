@@ -13,6 +13,8 @@ Milan is Italy's financial capital and fashion capital, hosting the headquarters
 
 At 45 degrees north, Milan's daylight shifts significantly across the year. Summer evenings are genuinely long, with darkness not falling until after 9pm in June. The aperitivo culture, that perfectly Italian institution of pre-dinner drinks with small foods, makes most sense in the long summer evenings when the light is still warm at 7:30pm.
 
+## fashion week and timezone-neutral time
+
 Moda (fashion) operates on an international calendar: Milan Fashion Week in February and September brings buyers, editors, and photographers from New York (UTC-5), Paris (UTC+1), and Tokyo (UTC+9). The fashion week itself is essentially timezone-neutral, a contained bubble where the global industry gathers on the same street at the same moment.
 
 [Rome](/rome) shares this timezone. [9am in Milan is 8am in London](/when/9am-milan/london) during European winter, a one-hour gap that makes Italy-UK coordination straightforward.

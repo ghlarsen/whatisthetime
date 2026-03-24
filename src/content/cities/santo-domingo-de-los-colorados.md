@@ -13,6 +13,8 @@ Santo Domingo de los Colorados sits in the western foothills of the Andes where 
 
 The city runs on Ecuador Time (UTC-5) all year. [Ecuador](/country/ecuador) lies so close to the equator that daylight saving would be nearly meaningless: the equinox means sunrise and sunset stay close to 6am and 6pm year-round with minimal variation. The fixed offset keeps scheduling simple and consistent.
 
+## the Tsáchila people and traditional calendars
+
 The name "de los Colorados" refers to the Tsáchila indigenous people, known historically for their red-dyed hair, who have lived in this region for centuries. The Tsáchila communities around the city maintain their own traditional calendar and ceremonial schedule, which operates on a different temporal logic than the UTC-5 clock.
 
 [Guayaquil](/guayaquil) on the coast and [Quito](/quito) in the highlands share the same Ecuador Time offset across the country.

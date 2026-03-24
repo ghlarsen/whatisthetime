@@ -15,6 +15,8 @@ The city runs on West Africa Time (UTC+1) all year, the same offset as [N'Djamen
 
 Sarh's daily rhythm is organized around the Chari River and the agricultural patterns of the surrounding land. The river floods seasonally, and the farming calendar, planting and harvesting cycles, governs activity more practically than any clock offset. The city's cotton ginning industry, once central to the local economy, operated on seasonal schedules tied to the harvest rather than the clock.
 
+## border trade and seasonal road access
+
 The city is also a transit point for goods and people moving between Chad and the Central African Republic to the south, and the border trade gives the local economy a rhythm tied to road conditions and seasonal access rather than fixed hours.
 
 [9am in Sarh is 8am in London](/when/9am-sarh/london) in winter, 7am during British Summer Time when clocks in the UK advance.

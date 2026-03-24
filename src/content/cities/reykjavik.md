@@ -15,6 +15,8 @@ Reykjavík sits at 64 degrees north, making it the northernmost capital of a sov
 
 The midnight sun is a genuine experience from the city. In June, Reykjavík holds the Secret Solstice music festival, which runs events at midnight with daylight. The darkness of December is equally real: the city compensates with Christmas lights that go up early and stay up late, hot pools that steam in the dark, and the Northern Lights visible on clear nights from the city center.
 
+## hot pots in every season
+
 The Reykjavík geothermal pool system, the public hot pots, is where the city socializes regardless of season. Whether it is 2pm in June sun or 7pm in December dark, someone is in the hot pot.
 
 [9am in Reykjavík is 9am in London](/when/9am-reykjavik/london) in winter, same time. [Reykjanesbær](/reykjanesb-r) to the south keeps the same clock.

@@ -15,6 +15,8 @@ Central European Time, UTC+1 in winter and UTC+2 in summer, is the official cloc
 
 The DST change in spring and autumn is felt acutely at this latitude. When clocks spring forward in March, an hour of morning light vanishes at a time when the city is still emerging from the dark winter. When they fall back in October, the already-shortening evenings get even shorter.
 
+## Nidaros Cathedral and the long view
+
 Nidaros Cathedral, built over the grave of Saint Olaf who died in 1030, has tracked the passage of time for nearly a thousand years. The cathedral's restoration, ongoing since the 19th century, is itself a monument to the long view.
 
 [9am in Trondheim is 8am in London](/when/9am-trondheim/london). [Bergen](/bergen) and [Oslo](/oslo) share the same Norwegian timezone.

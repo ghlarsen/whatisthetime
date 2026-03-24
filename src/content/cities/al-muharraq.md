@@ -13,6 +13,8 @@ Al Muharraq was Bahrain's capital before it shifted to Manama, and for centuries
 
 Today Al Muharraq runs on Arabia Standard Time, UTC+3. The IANA identifier is Asia/Bahrain. No daylight saving.
 
+## The pearl-trading city preserved
+
 The city has transformed but retained more of its historic character than Manama. The old townhouse district, Muharraq's UNESCO-listed historic core, preserves the architecture of the pearl trading era. The wind-tower houses were designed around heat and the natural ventilation patterns of the Gulf: thick walls, interior courtyards, catching the sea breeze at the times of day when it blows from the northwest.
 
 [Ar Rifa](/ar-rifa), Bahrain's other major urban center, shares the same timezone. Bahrain is one of the world's smallest countries by area, so a single timezone covers everything comfortably.

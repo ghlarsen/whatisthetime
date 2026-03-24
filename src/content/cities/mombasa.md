@@ -13,6 +13,8 @@ Mombasa is Kenya's second city and the country's main port, sitting on a coral i
 
 The city has been a trading hub for over a thousand years. Arab, Persian, Indian, and Portuguese traders all passed through, and the Swahili culture that developed here has its own rich relationship with time: tidal patterns that determine when dhows can leave harbor, monsoon seasons that determined sailing routes, and the Islamic calendar that structures the coastal Muslim communities' year.
 
+## a thousand years of Indian Ocean trade
+
 Fort Jesus, built by the Portuguese in 1593, overlooks the harbor where container ships now dock alongside traditional wooden dhows. The architecture layers centuries of time on a single promontory.
 
 Mombasa sits at 4 degrees south, where day length barely shifts across the year. The heat and humidity are far more meaningful seasonal signals than the sun's position at dawn and dusk.

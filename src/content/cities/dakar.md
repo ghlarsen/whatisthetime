@@ -13,6 +13,8 @@ Dakar sits at the extreme western tip of the African continent, on the Cap-Vert 
 
 Senegal's clock puts [Dakar](/dakar) in the same timezone as London in winter but one hour behind London in summer (when the UK shifts to BST). This asymmetry matters for Dakarois professionals working with European partners. From roughly April to October, calls scheduled for "noon London" mean 11am in Dakar. The rest of the year, noon is noon.
 
+## Two rhythms in one city
+
 Dakar is a city that runs on two rhythms simultaneously. The formal business day follows clock time. The informal economy and social life follow the call to prayer, which shifts throughout the year as sunrise and sunset change, and the evening social gathering called *teranga*, Wolof for hospitality, which begins after the day's heat breaks, usually around 5pm. Clocks measure the first rhythm; the second rhythm measures itself.
 
 [Convert 9am Dakar time to London](/when/9am-dakar/london)

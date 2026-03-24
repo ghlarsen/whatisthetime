@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Maliana is the capital of Bobonaro district in western Timor-Leste, sitting close to the border with Indonesian West Timor. The country runs on Timor-Leste Time, UTC+9, applied uniformly across the half-island nation with no daylight saving.
 
+## independence and a one-hour shift
+
 Timor-Leste's timezone history is entangled with its political history. Under Indonesian occupation from 1975 to 1999, the territory used Indonesia's Central Time (UTC+8). After independence in 2002, the new nation shifted to UTC+9, aligning more with Australia and distancing itself from Indonesia. The clock change was part of a broader process of building distinct national institutions.
 
 Maliana is about 20 kilometers from the border, and cross-border movement with Indonesian West Timor requires adjusting clocks by one hour. For communities whose families and trade relationships span both sides, this adds a small practical complication to daily life.

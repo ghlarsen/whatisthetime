@@ -15,6 +15,8 @@ And yet every Friday afternoon, the city stops.
 
 [Israel](/country/israel) uses Israel Standard Time, UTC+2 in winter and UTC+3 during summer. The DST transitions follow Israeli law rather than European or American schedules, and the precise dates shift slightly year to year based on the Jewish calendar. Israel's DST period is shorter than Europe's, meaning there are windows when Israel and much of Europe are at the same offset, and windows when they differ.
 
+## Shabbat and the weekly reset
+
 The Shabbat rhythm is Tel Aviv's real temporal structure. From roughly 90 minutes before sunset on Friday to nightfall on Saturday, the cadence shifts. Highway traffic clears. Shops close. The city's secular majority uses the time differently than the observant minority, but everyone notices the quiet. Saturday evening, restaurants fill again, and the city restarts. The weekly rhythm is more legible than anything the clock shows.
 
 [9am in Tel Aviv is 7am in London](/when/9am-tel-aviv/london). [West Jerusalem](/west-jerusalem) runs on the same timezone.

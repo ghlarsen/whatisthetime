@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Karachi is one of the world's largest cities, home to over 14 million people, and it runs on a single unfussy clock: Pakistan Standard Time, UTC+5. No daylight saving. The timezone identifier Asia/Karachi covers the entire country, and [Lahore](/lahore) observes the same time. Pakistan experimented with daylight saving from 2008 to 2009 but abandoned it after public complaints about disrupted prayer schedules and minimal energy savings.
 
+## a megacity that runs on its own schedule
+
 The city's relationship with time is complicated by its sheer size. Karachi sprawls across a geography that would swallow several European countries, and the commute culture means that for millions of residents, the workday effectively begins not when the clock says so, but when traffic clears. Evenings often run late. Dinner at 10pm is not unusual.
 
 The port has always imposed its own time logic on the city. Container ships operate on UTC, and the working day at Karachi Port Trust involves constant mental conversion between local Pakistani time and the universal shipboard clock. Karachi has been a major trading port since the British developed it in the 19th century, and that international rhythm persists.

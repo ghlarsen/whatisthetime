@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Khān Yūnis sits in the southern Gaza Strip, one of the most densely populated territories on earth. The city uses Asia/Hebron time, the same timezone identifier used for Palestinian territories: UTC+2 in winter, UTC+3 during daylight saving. The Palestinian Authority sets the DST schedule, though its application in Gaza has been inconsistent due to the political division between the PA-administered West Bank and Gaza.
 
+## conflict, power cuts, and unreliable clocks
+
 Time in Khān Yūnis has been complicated by that political division. Gaza and the West Bank have sometimes observed DST transitions on different dates, creating a situation where two cities under the same nominal timezone were briefly an hour apart. The IANA database uses Asia/Gaza and Asia/Hebron as separate identifiers to reflect this.
 
 The city's daily rhythm has been severely disrupted by conflict. Consistent electricity supply, a precondition for reliable clocks and schedules, has been intermittent for years. People's relationship with time here is shaped more by what is available, light, water, power, than by what the wall clock says.

@@ -15,6 +15,8 @@ Guatemala keeps Central Standard Time, UTC-6, year-round with no daylight saving
 
 Villa Nueva's growth reflects patterns common to Central American urban expansion: former agricultural land converted to residential neighborhoods, industrial zones, and commercial strips as the metropolitan area absorbs rural migration. The commute to Guatemala City is the defining temporal experience for many residents, with bus and van routes running to schedules that matter enormously when employers are strict about arrival times.
 
+## factory shifts and commuter rhythms
+
 The municipality has significant manufacturing presence, including food processing and textiles. Factory shift patterns structure a large portion of the working population's day, with multiple shift starts coordinated across the industrial zones.
 
 [9am in Villa Nueva is 3pm in London](/when/9am-villa-nueva/london). [Guatemala City](/guatemala-city) to the north shares the same UTC-6 clock.

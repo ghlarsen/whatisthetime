@@ -13,6 +13,8 @@ Denpasar, the capital of Bali, uses Central Indonesia Time (WITA), UTC+8, year-r
 
 The one-hour difference between Bali and [Jakarta](/jakarta) (UTC+7) creates a small but real friction point for the millions of Indonesian tourists and business travelers who fly between them. Landing in Denpasar from Jakarta, you set your clock forward one hour. A 7am flight from Jakarta arrives at 9am Bali time despite the flight taking only 90 minutes.
 
+## Same clock as Perth, popular with Australians
+
 Bali's international tourism industry operates on a clock that must accommodate guests arriving from Australia (UTC+8/+10/+11), Japan (UTC+9), Europe, and North America. UTC+8 suits Australian visitors particularly well: Bali and Perth are in the same timezone, making Bali a rare long-haul destination with no clock adjustment. This geographic convenience has made the island especially popular with Western Australians.
 
 [Convert 9am Denpasar time to London](/when/9am-denpasar/london)

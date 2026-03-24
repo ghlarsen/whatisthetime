@@ -13,6 +13,8 @@ Toamasina is the principal port of [Madagascar](/country/madagascar), the city t
 
 Madagascar runs on East Africa Time, UTC+3, the same clock as Nairobi and Addis Ababa on the African mainland. No daylight saving is observed. At roughly 18 degrees south latitude, Toamasina sits in the southern tropics, with moderate daylight variation across the seasons.
 
+## colonial port and cyclone coast
+
 Toamasina was the entry point for French colonization of Madagascar in the 19th century. The French renamed it Tamatave. The original name, which means "many stones" in Malagasy, was restored after independence in 1960. Both names remain in use depending on context and generation.
 
 The city faces the Indian Ocean, and cyclones are a seasonal fact of life. The annual cyclone season runs November through April, roughly coinciding with southern hemisphere summer, and the city's planning and construction standards reflect decades of experience with severe weather.

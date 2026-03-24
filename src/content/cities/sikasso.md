@@ -13,6 +13,8 @@ Sikasso sits in the far south of [Mali](/country/mali), near the borders with Bu
 
 The region's agricultural calendar, mangoes, cotton, and food crops, governs Sikasso's rhythms more directly than the clock. The mango harvest, when the region produces fruit in enormous quantities, draws seasonal laborers from across southern Mali and fills trucks heading north to Bamako and beyond. That is the city's version of high season.
 
+## daylight and the agricultural calendar
+
 At 11 degrees north, Sikasso's daylight varies between roughly 13 hours in June and about 11 hours in December. A fixed GMT offset means the sun is reliable: it rises and sets at predictable times with little drift across the seasons.
 
 Sikasso was the last independent Kenedougou Kingdom stronghold before French colonial conquest in 1898. The city's resistance, and the siege that ended it, is a local historical touchpoint.

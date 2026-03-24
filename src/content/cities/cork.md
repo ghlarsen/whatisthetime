@@ -13,6 +13,8 @@ Cork shares its timezone with [Dublin](/dublin) under the IANA identifier `Europ
 
 At 51.9 degrees north, Cork's daylight variation is significant. On the summer solstice, sunrise comes at around 5:08am and sunset at 9:56pm. On the winter solstice, those numbers flip to 8:39am and 4:15pm. The long summer evenings are culturally important: Cork's outdoor pubs, festivals, and farmer's markets depend on them.
 
+## Borrowed Atlantic light
+
 Cork's position at Ireland's southwest tip means it sees the sun set slightly later than Dublin, because it sits further west. Solar noon in Cork arrives around 1:30pm in summer, meaning the clock is notably ahead of the sun. The city lives in a kind of borrowed light from the Atlantic, where maritime cloud softens the sharpness of those long evenings into something more like a diffuse glow.
 
 [Convert 9am Cork time to London](/when/9am-cork/london)

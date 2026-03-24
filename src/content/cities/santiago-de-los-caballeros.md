@@ -13,6 +13,8 @@ Santiago de los Caballeros sits in the Cibao Valley of the northern [Dominican R
 
 The city runs on Atlantic Standard Time (UTC-4) all year. The Dominican Republic abandoned daylight saving time in 1974 and has not returned to it. At 19 degrees north, the variation in daylight hours across the year is modest enough that the fixed offset causes minimal disruption.
 
+## baseball culture and winter league schedules
+
 The Valle del Cibao has its own identity distinct from the capital Santo Domingo to the south. The local baseball culture here is intense: Santiago has produced more Major League Baseball players per capita than almost anywhere in the world, and the city's Estadio Cibao fills regularly during the Dominican winter league season. Game schedules run on a sporting calendar that the fixed timezone keeps simple.
 
 [Santo Domingo](/santo-domingo) and [Santo Domingo Este](/santo-domingo-este) share the same Atlantic Standard offset across the country.

@@ -15,6 +15,8 @@ The modern clock is Eastern European Time, UTC+2 in winter and UTC+3 during dayl
 
 Athens shares its timezone with [Amman](/amman), [Beirut](/beirut), and [Cairo](/cairo) in winter, creating a timezone band across the eastern Mediterranean. In summer, Turkey adds itself to the UTC+3 group, as Ankara uses permanent UTC+3.
 
+## Late lunches, late nights
+
 The city's daily rhythm is famously shifted later than northern European standards. Lunch happens from 2pm to 4pm. Dinner rarely starts before 9pm. Evenings extend long into the night, especially in summer when the Acropolis and surrounding neighborhoods fill with tourists and locals alike.
 
 Greece's position in the EU means it participates in discussions about potentially ending seasonal time changes. Given Athens' relatively southern latitude (37.9 degrees north), the arguments for DST are weaker than for northern members of the union.

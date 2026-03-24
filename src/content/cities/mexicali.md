@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Mexicali sits directly on the US-Mexico border, facing Calexico, California across a fence that thousands of people cross daily for work, shopping, and family visits. The city runs on Pacific Time, [America/Tijuana](/tijuana) in the IANA database, observing daylight saving in sync with California to the north.
 
+## border economy on shared time
+
 This synchronization is essential. The border economy runs on shared time. Factory workers from Mexicali commute to jobs in Calexico. American shoppers cross into Mexicali for dentistry, eyeglasses, and restaurants. The maquiladora factories on the Mexican side operate on American supply chain schedules. A timezone mismatch would be an immediate logistical problem.
 
 [Mexico](/country/mexico) eliminated DST nationally in 2022, but the states bordering the US maintained it to keep clocks aligned with American border cities. Baja California kept Pacific Time with DST for exactly this reason.

@@ -13,6 +13,8 @@ Maputo is Mozambique's capital and largest city, sitting at the southern tip of 
 
 The city was known as Lourenço Marques under Portuguese colonial rule, changed to Maputo after independence in 1975. It was the colonial capital of Portuguese East Africa and today remains the country's economic center.
 
+## port, bay, and cross-border logistics
+
 Maputo Bay faces east, and the light across the water in the mornings is one of the city's distinctive features. The natural harbor made this a major port for the landlocked countries of southern Africa: Johannesburg is about 600 kilometers west, and Maputo functions as that city's nearest ocean access. South African containers move through Maputo's port, connecting two countries on a single timezone, which simplifies logistics.
 
 [Matola](/matola), Maputo's large suburban neighbor, shares this clock. [9am in Maputo is 7am in London](/when/9am-maputo/london) during European winter, a two-hour gap.

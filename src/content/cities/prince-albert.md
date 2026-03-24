@@ -15,6 +15,8 @@ Saskatchewan is Canada's most time-stable province. While neighboring Manitoba a
 
 Prince Albert sits at 53 degrees north in the boreal forest transition zone, where the flat prairie to the south gives way to the forested Canadian Shield. The Prince Albert National Park begins just north of the city. Summer here is long and bright: June brings nearly 18 hours of daylight. Winter inverts this completely: December days stretch barely 7 hours.
 
+## boreal landscape and seasonal extremes
+
 Unlike Regina and Saskatoon to the south, Prince Albert is surrounded by lakes, rivers, and forests. The North Saskatchewan River runs through the city. Fishing and hunting seasons structure the year as much as the civic calendar.
 
 [9am in Prince Albert is 3pm in London](/when/9am-prince-albert/london) in winter, same as [Regina](/regina).

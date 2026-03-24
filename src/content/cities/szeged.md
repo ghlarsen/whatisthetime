@@ -15,6 +15,8 @@ Szeged has a particular claim on sun: it is statistically one of the sunniest ci
 
 The city visible today was largely built after a catastrophic flood in 1879 destroyed almost the entire older town. The reconstruction was systematic and rapid, planned on a radial street pattern with the involvement of European architects. Every street and square in the historic center is approximately the same age, dating from the 1880s rebuilding.
 
+## a rebuilt city's two rhythms
+
 Szeged is a university city, and the academic year shapes the clock in ways that overlay the seasonal light. The city population swells with students from October to May and empties in summer, creating two distinct temporal registers for the same geographic location.
 
 [Budapest](/budapest) to the north keeps the same Central European Time.

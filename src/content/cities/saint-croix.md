@@ -15,6 +15,8 @@ The [U.S. Virgin Islands](/country/u-s-virgin-islands) run on Atlantic Standard 
 
 Saint Croix is the USVI's largest island, bigger than Saint Thomas and Saint John combined, but less touristically developed. Christiansted and Frederiksted, the two main towns, retain their Danish colonial architecture: colorful arcaded buildings, forts, compact streetscapes. The agricultural land between them has grown sugarcane since colonial times, though the industry collapsed long ago.
 
+## reef, architecture, and island history
+
 The Buck Island Reef National Monument, a short boat ride offshore from Christiansted, protects one of the Caribbean's finest underwater environments. The reef runs on its own time: tide cycles, spawning seasons, feeding rhythms.
 
 [9am in Saint Croix is 1pm in London](/when/9am-saint-croix/london).

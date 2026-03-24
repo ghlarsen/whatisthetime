@@ -13,6 +13,8 @@ Aqsu is an oasis city in western China's Xinjiang region, sitting at the norther
 
 The IANA timezone identifier is Asia/Urumqi, which represents UTC+6. This is the unofficial but widely used Xinjiang Time, two hours behind Beijing's official UTC+8. China officially uses a single timezone across its entire vast territory: Beijing Time, UTC+8. But for Xinjiang, which sits at the far western edge of the country, UTC+8 creates a situation where the sun doesn't rise until 9am or 10am in winter and doesn't set until 10pm or 11pm in summer. Local life operates on solar rhythms that are two hours behind the official clock.
 
+## A two-clock society
+
 The result is a two-clock society. Government offices and schools use Beijing Time. Much of local life, especially in Uyghur communities, operates on Xinjiang Time or local solar time. Restaurants open "late" by Beijing reckoning because lunch at noon Beijing Time means eating at 10am local solar time.
 
 [Beijing](/beijing) officially shares the same UTC+8 clock, but the lived experience of time is completely different.

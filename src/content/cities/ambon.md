@@ -15,6 +15,8 @@ Today Ambon is the capital of Maluku province and runs on Eastern Indonesia Time
 
 Indonesia does not observe daylight saving time, so UTC+9 is the permanent clock here. This puts Ambon in timezone alignment with [Tokyo](/tokyo) and [Seoul](/seoul), though it is geographically far to the south.
 
+## Sea rhythms in the Spice Islands
+
 The city sits on an island surrounded by one of Southeast Asia's richest marine environments. The rhythm here is shaped by the sea, fishing and diving, the morning market, the afternoon heat. The spice trade that once made this city globally significant has been supplanted by fisheries, but the maritime character remains.
 
 [9am in Ambon is 1am in London](/when/9am-ambon/london) during European winter.

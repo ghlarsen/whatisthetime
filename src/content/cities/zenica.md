@@ -13,6 +13,8 @@ Zenica is a city built around steel. The ironworks established in the late 19th 
 
 [Bosnia and Herzegovina](/country/bosnia-and-herzegovina) keeps Central European Time, UTC+1 in winter and UTC+2 during summer DST, matching the rest of the country. Zenica sits in the Bosna River valley in central Bosnia, at about 44 degrees north, with meaningful seasonal daylight variation: summer evenings past 9pm, winter nights coming before 5pm.
 
+## steel shifts and postwar deindustrialization
+
 The Bosna River runs through the city, and for much of the 20th century the river's water quality was a direct measure of the steelworks' output. Zenica was among the most polluted cities in former Yugoslavia during peak industrial production. Post-war deindustrialization reduced both output and pollution significantly.
 
 The 1992-1995 war brought the city under sustained shelling. Zenica was predominantly Bosniak and held by the Bosnian government, and it also received tens of thousands of refugees from surrounding areas.

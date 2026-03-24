@@ -15,6 +15,8 @@ The clock is Central European Time, Europe/Copenhagen, UTC+1 in winter and UTC+2
 
 At 56 degrees north latitude, Aarhus has pronounced seasonal daylight variation. June evenings go on until past 10pm. December afternoons darken before 4pm. The effect on daily life is significant: summer Aarhus is a city of terraces, cyclists, and outdoor activity extending into late evening. Winter Aarhus is a city of warm interiors, candles, and the Danish concept of hygge.
 
+## Standardization and solar offset
+
 Denmark switched to Central European Time in 1893, aligning with Germany and the emerging European railroad network. Before standardization, cities set their clocks to local solar noon. Aarhus's local solar time would be about 20 minutes behind Copenhagen, which sits further east.
 
 The transition to and from daylight saving each year is felt sharply at this latitude: an hour of morning light disappearing in spring, an hour of evening light disappearing in autumn.

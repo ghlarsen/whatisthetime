@@ -13,6 +13,8 @@ San Salvador sits in a mountain valley in central [El Salvador](/country/el-salv
 
 The capital's relationship with time has been shaped by its seismic history. Major earthquakes in 1854, 1873, 1917, 1986, and 2001 repeatedly damaged or destroyed large sections of the city. Each rebuilding brought new street layouts, new neighborhoods, new commercial centers. The city's internal geography has never fully stabilized, but the clock has.
 
+## the working day shaped by heat
+
 At 13 degrees north, sunrise in San Salvador stays between about 5:30am and 6:20am year-round. The afternoon heat builds by 11am and holds through early afternoon, which shapes the working day in a way that no timezone boundary does: commercial life tends to start early and pause through the hottest hours.
 
 [San Miguel](/san-miguel) and [Soyapango](/soyapango) share the same clock across El Salvador's modest width.

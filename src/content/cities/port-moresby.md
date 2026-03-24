@@ -15,6 +15,8 @@ Port Moresby has always had an unusual relationship with its own country. The ca
 
 The harbor that gives Port Moresby its character was named by Captain John Moresby in 1873, who claimed it for Britain. The city that grew around it became the administrative center of what was then British New Guinea, later Papua, later merged into the post-independence capital.
 
+## Pacific hub and regional connections
+
 Port Moresby hosts the Asia-Pacific Economic Cooperation (APEC) meetings and sees itself as a Pacific hub. The time zone, UTC+10, aligns it with eastern Australia: Brisbane is on the same clock, Sydney and Melbourne are one to two hours ahead depending on Australia's DST cycles.
 
 [9am in Port Moresby is 11pm the previous night in London](/when/9am-port-moresby/london).

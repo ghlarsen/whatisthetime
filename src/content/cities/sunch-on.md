@@ -15,6 +15,8 @@ North Korea's timezone history is politically charged. In 2015, the country anno
 
 Then in 2018, ahead of the inter-Korean summit between Kim Jong-un and South Korean President Moon Jae-in, North Korea announced it would return to UTC+9 to synchronize with the South. The clock moved back 30 minutes as a symbolic gesture of rapprochement. Sunch'ŏn and all of North Korea shifted simultaneously.
 
+## diplomatic theater and the clock
+
 It is a rare example of a timezone being changed for explicitly diplomatic reasons. The 30 minutes existed briefly as an expression of political identity, then dissolved in a moment of diplomatic theater.
 
 At 39 degrees north, Sunch'ŏn has real seasonal light variation: about 15 hours in June and about 9.5 hours in December.

@@ -15,6 +15,8 @@ In January, sunset comes at 4:30pm. The city contracts. The outdoor culture move
 
 [Germany](/country/germany) follows Central European Time, UTC+1, shifting to UTC+2 in summer for Central European Summer Time. Munich shares that clock with [Berlin](/berlin) to the north and [Vienna](/vienna) to the east. The daylight saving transition happens on the last Sunday of March and October, in line with all EU countries.
 
+## Oktoberfest, S-Bahn, and precision time
+
 Munich's precision culture, its engineering firms and financial institutions, runs on schedules that would satisfy a Swiss watchmaker. The S-Bahn trains are expected to run to the minute. Oktoberfest tapping ceremonies, which start the festival on the third weekend of September, happen at exactly noon by tradition. In a city that makes precision instruments, precision time is part of the identity.
 
 [9am in Munich is 8am in London](/when/9am-munich/london), a one-hour gap that makes it a natural European business hub.

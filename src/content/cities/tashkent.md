@@ -15,6 +15,8 @@ Tashkent has been a crossroads for two thousand years. Silk Road caravans stoppe
 
 At 41 degrees north, Tashkent gets noticeable seasonal daylight variation without the extremes of northern latitudes. Summers bring long, warm evenings. The city comes alive after dark in the heat months, with evening tea houses and market activity running well past what the clock would suggest as a reasonable hour.
 
+## earthquake, reconstruction, and abrupt chapters
+
 The 1966 earthquake that leveled much of old Tashkent reset the city's physical form. The Soviet reconstruction gave it wide boulevards and the metro. Time, for the city, moved in abrupt chapters.
 
 [9am in Tashkent is 4am in London](/when/9am-tashkent/london). Neighboring cities on UTC+5 include [Samarkand](/samarkand) to the southwest.

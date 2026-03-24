@@ -15,6 +15,8 @@ Bhutan keeps Bhutan Standard Time, UTC+6, year-round, with no daylight saving. T
 
 Thimphu sits at about 2300 meters elevation in a valley in the Himalayas, at 27 degrees north latitude. The city gets genuine seasonal variation in daylight. The mountains compress it further: in deep winter, the surrounding peaks can block direct sunlight from valley floors for hours in the morning and afternoon even when the sky above is clear.
 
+## Gross National Happiness and time use
+
 The country's Gross National Happiness index, introduced in the 1970s by the Fourth King, measures wellbeing across domains including time use. Survey questions ask explicitly how people spend their days, making time allocation a formal matter of national policy in a way it is nowhere else.
 
 [9am in Thimphu is 3am in London](/when/9am-thimphu/london). [Tsirang](/tsirang) in southern Bhutan shares the same Bhutan Time.

@@ -13,6 +13,8 @@ Sofia sits in a basin in western [Bulgaria](/country/bulgaria), surrounded by mo
 
 Eastern European Time puts Sofia one hour ahead of Central European capitals like Vienna and Budapest to the west, despite sharing broadly similar geography and longitude. The difference reflects political history as much as solar position: the post-communist reorganization of European timezones placed Bulgaria firmly in the Eastern European bloc.
 
+## ancient city, layered history
+
 Sofia has one of the longer histories of any European capital, with settlement traces going back thousands of years and the city serving as capital of various empires and kingdoms. The Rotunda of Saint George, a fourth-century Roman church still standing in the city center, is a visible mark of how many different temporal regimes this city has outlasted.
 
 Bulgaria has participated in EU discussions about abolishing DST. Like most EU member states, it has been waiting for a coordinated decision. The twice-yearly clock change remains in force.

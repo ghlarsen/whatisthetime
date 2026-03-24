@@ -13,6 +13,8 @@ Culiacán, the capital of Sinaloa state, runs on `America/Hermosillo` in the IAN
 
 Sinaloa is one of Mexico's most productive agricultural states, known for tomatoes, peppers, and winter vegetables exported to the United States. The farming sector's scheduling is tightly integrated with the US market, and the agricultural supply chain runs on consistent, predictable time. Year-round UTC-7 reduces friction in the export logistics that drive much of the regional economy.
 
+## Agriculture, exports, and dawn in the fields
+
 Culiacán sits at 24 degrees north, where the summer solstice brings about 14 hours of daylight and the winter solstice about 10.5 hours. The city's economic and cultural rhythms are shaped by the agricultural calendar and the seasonal migration of farm workers as much as by the clock. Dawn in the fields starts early, and no policy changes that.
 
 [Convert 9am Culiacán time to London](/when/9am-culiacan/london)

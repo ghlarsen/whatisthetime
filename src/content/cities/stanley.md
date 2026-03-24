@@ -15,6 +15,8 @@ The Falklands used to observe Southern Hemisphere daylight saving time, as befit
 
 At 52 degrees south, Stanley is the southernmost capital in the world (technically Puerto Williams in Chile disputes the claim, depending on definitions). The seasonal light variation is dramatic. In December (local summer), the sun sets around 10:30pm. In June (local winter), daylight lasts only around seven hours. The permanent UTC-3 means that summer evenings are even later by the clock than they were under DST.
 
+## war, isolation, and the permanent clock
+
 The 1982 Falklands War between Argentina and the United Kingdom lasted 74 days and is marked by a war memorial in Stanley. The conflict's temporal compression, a short, intense war at the edge of the world, has shaped the islands' sense of historical time.
 
 [9am in Stanley is 12pm in London](/when/9am-stanley/london) in winter, 1pm during British Summer Time.

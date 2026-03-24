@@ -15,6 +15,8 @@ Nepal Time is UTC+5:45. The 45-minute offset from the hour is unusual enough tha
 
 Pokhara sits beside Phewa Lake at about 800 meters elevation. On clear mornings, the Annapurna massif rises behind the city in extraordinary proximity: the fish-tail peak of Machapuchare appears to hover directly above the lake. Sunrise over the Annapurna range is one of the more documented moments of time-awareness in the world: thousands of hikers set alarms specifically to watch it from Sarangkot hill before dawn.
 
+## trekker time versus market time
+
 The Lakeside district runs on tourist time: cafes open at 7am for trekkers, guesthouses serve dhal bhat at 6am for early departures up the trail. Below, in the old market, traders follow a different rhythm, older and tied to the agricultural calendar of the Pokhara valley.
 
 [9am in Pokhara is 3:15am in London](/when/9am-pokhara/london).

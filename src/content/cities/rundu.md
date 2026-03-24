@@ -15,6 +15,8 @@ Rundu sits on the southern bank of the Okavango River, looking north into Angola
 
 At 18 degrees south, Rundu has a subtropical climate rather than the desert character of central and southern Namibia. The Kavango region receives more rainfall than most of Namibia, supporting agriculture and riverine forest. The daily rhythm follows the river: fishing early morning, market activity mid-morning, the heat of afternoon kept at bay by the river's moisture.
 
+## the river calendar and Kavango tradition
+
 The Kavango people have lived along the Okavango River for centuries, and the river governs their calendar. Flood season (March-May) determines when fields near the riverbanks can be planted. The fishing calendar follows the water levels. Civil timekeeping is one layer over an older one.
 
 [9am in Rundu is 7am in London](/when/9am-rundu/london) in winter.

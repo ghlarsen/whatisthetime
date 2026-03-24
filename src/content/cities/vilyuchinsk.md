@@ -15,6 +15,8 @@ Vilyuchinsk is not a city you visit. It is a closed military city on the Kamchat
 
 At 52 degrees north on the Pacific Ring of Fire, the Kamchatka Peninsula is one of the most geologically active places on Earth. The volcanoes visible from Vilyuchinsk are not decorative. The eruption calendar is tracked by scientists and residents alike as a practical matter, and ashfall from Avachinsky or Koryaksky can affect daily operations without warning.
 
+## submarine base and 24-hour clock culture
+
 The submarine base gives Vilyuchinsk a military precision around schedules that civilian settlements don't share. Watch schedules, maintenance cycles, and operational readiness requirements create a 24-hour clock culture.
 
 [9am in Vilyuchinsk is 9pm the previous day in London](/when/9am-vilyuchinsk/london). [Petropavlovsk-Kamchatsky](/petropavlovsk-kamchatsky) nearby shares Kamchatka Time.

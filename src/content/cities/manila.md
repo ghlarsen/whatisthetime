@@ -15,6 +15,8 @@ The single-timezone decision reflects practical unity more than geographic logic
 
 Manila sits at 14 degrees north, where day length ranges from about 11 hours in December to 13 hours in June. The seasonal variation doesn't strongly motivate clock adjustments, and the humid tropical climate means outdoor life is organized around avoiding midday heat rather than maximizing daylight.
 
+## colonial history and one national clock
+
 The Philippines was under Spanish colonial administration for over 300 years, then American colonial rule until 1946. The current timezone standard dates to the American period. Before that, local mean time was used by region.
 
 [9am in Manila is 1am in London](/when/9am-manila/london) during European winter. The eight-hour gap makes working day overlap challenging for Filipino workers supporting European-market operations.

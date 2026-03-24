@@ -15,6 +15,8 @@ The city runs on Yekaterinburg Time, UTC+5, year-round. Russia eliminated DST in
 
 The Ipatiev House in Yekaterinburg is where Tsar Nicholas II, his family, and their attendants were executed by Bolshevik forces on the night of July 16-17, 1918. The house was demolished by Boris Yeltsin in 1977, then party chief of Sverdlovsk Oblast, reportedly to prevent it becoming a pilgrimage site. The Church on the Blood was built on the site in 2003. The timing: 1918, 1977, 2003. History in Yekaterinburg is layered in specific dates.
 
+## Tsar's execution and specific dates
+
 The city hosted the 2018 FIFA World Cup group matches. At 56 degrees north, the June matches played in near-continuous daylight, the midnight sun barely setting.
 
 [9am in Yekaterinburg is 4am in London](/when/9am-yekaterinburg/london). [Ufa](/ufa) to the west shares the same Yekaterinburg Time.

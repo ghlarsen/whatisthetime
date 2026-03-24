@@ -15,6 +15,8 @@ The clock, though, is shared. Abuja runs on West Africa Time, UTC+1, the same as
 
 Abuja sits at roughly 9 degrees north latitude, giving it fairly consistent day lengths throughout the year. The dry harmattan season from November to February brings cooler mornings and hazy skies. Work starts early to use the cooler hours. By afternoon, the civil service districts are often at reduced pace, picking up again after 4pm.
 
+## Traffic and tempo in a planned city
+
 The city's design built in large roundabouts and wide government precincts, which means that rush hour here is less the dense crush of Lagos and more a broad, dispersed slowdown across the city's arterial roads. Peak traffic tends to be 7am to 9am and 4:30pm to 7pm.
 
 [9am in Abuja is 8am in London](/when/9am-abuja/london) during European winter.

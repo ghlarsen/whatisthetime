@@ -15,6 +15,8 @@ Nagoya sits almost exactly at the midpoint of Japan's main island, which is also
 
 Sunrise in Nagoya ranges from about 4:40am in late June to around 7am in late December. The Tokai region, at 35 degrees north, experiences clear four-season progression. Spring sakura viewing at Nagoya Castle is a major cultural event with precise timing: the bloom forecast is taken seriously, and peak viewing windows are often just a few days.
 
+## industrial heartland on the 135th meridian
+
 Nagoya has a reputation within Japan as a practical, business-focused city, less given to the cultural performance of Tokyo or Kyoto. The pace reflects that: early starts, disciplined schedules, the Shinkansen running exactly on time.
 
 [9am in Nagoya is 12am in London](/when/9am-nagoya/london), the same as [Tokyo](/tokyo) and [Osaka](/osaka).

@@ -15,6 +15,8 @@ The Azores Time Zone, `Atlantic/Azores` in the IANA database, is UTC-1 in winter
 
 São Miguel is a geologically young island, sitting directly on the Mid-Atlantic Ridge. The volcanic landscape is immediate: Lagoa das Sete Cidades, a caldera lake split into blue and green by a bridge, is visible from the hills behind the city. The island's hydrothermal activity means hot springs bubble up near the village of Furnas, and locals cook stew underground in geothermal pots. The earth has its own time here.
 
+## mid-ocean light and volcanic landscape
+
 The light over the Atlantic at Ponta Delgada is specific to mid-ocean: the horizon is vast, sunsets are long, and the stars are extraordinary far from continental light pollution.
 
 [9am in Ponta Delgada is 10am in London](/when/9am-ponta-delgada/london) in winter.

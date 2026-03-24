@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Mount Gambier is the kind of place that surprises you with its geology before it surprises you with its timezone. The city sits around the rim of a dormant volcanic crater, Blue Lake, which turns a vivid electric blue every November and fades back to grey-green by March. No one entirely agrees on why.
 
+## South Australia's half-hour on the Victorian border
+
 On the timezone map, Mount Gambier sits in South Australia, which means it follows [Australia/Adelaide](/country/australia): UTC+9:30 in winter, UTC+10:30 during daylight saving. That 30-minute offset is one of the genuine quirks of Australian timekeeping, splitting the difference between the eastern states and the Northern Territory for historical reasons tied to the telegraph lines of the 1890s.
 
 Sitting at 37 degrees south, Mount Gambier gets more daylight variation than most Australian cities. Summer days push past 8:30pm before the sun sets. Winter evenings arrive by 5:30pm. The switch on and off daylight saving time, when South Australia follows the eastern states into summer time, shifts that by an hour either way.

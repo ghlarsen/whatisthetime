@@ -13,6 +13,8 @@ Moscow runs on UTC+3 year-round. In 2014, President Putin signed a decree ending
 
 The decision was not universally popular. Surveys showed many Russians preferred the lighter mornings. But the change stuck, and Moscow Time has been stable at UTC+3 since October 2014.
 
+## Moscow Time as administrative heartbeat
+
 Moscow Time is one of the world's most politically significant timezones. Russian state television broadcasts on Moscow Time. Russian Railways publishes timetables in Moscow Time regardless of local time at origin or destination. A ticket from Vladivostok to Moscow shows the departure in local Vladivostok time but the arrival in Moscow Time, a convention that has confused travelers for decades.
 
 [Russia](/country/russia) spans eleven timezones, but Moscow Time is the administrative heartbeat. Government schedules, financial markets, and broadcast media all run on Moscow Time.

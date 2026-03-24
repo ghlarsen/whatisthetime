@@ -15,6 +15,8 @@ Nairobi sits 1 degree 17 minutes south of the equator and 1,795 meters above sea
 
 The IANA identifier Africa/Nairobi designates this city as the reference point for its timezone, which covers Kenya, Tanzania, Uganda, Ethiopia, Somalia, and several other countries. Nairobi is the commercial, technology, and logistics hub of the region. The Jomo Kenyatta International Airport processes regional connections that tie together a timezone covering hundreds of millions of people.
 
+## traffic, matatus, and a city that grew fast
+
 Traffic in Nairobi is notorious. The morning rush begins around 6:30am and can persist until 10am. The evening rush starts by 4:30pm. The city's roads have not kept pace with its growth, and Nairobians have built an entire culture of dealing with jams: the matatu minibus system, the boda boda motorcycles, the informal networks of information about which routes are moving.
 
 [9am in Nairobi is 6am in London](/when/9am-nairobi/london), shared with [Nakuru](/nakuru) nearby.

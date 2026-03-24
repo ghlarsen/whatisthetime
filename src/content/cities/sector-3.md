@@ -13,6 +13,8 @@ Sector 3 covers the eastern part of Bucharest, Romania's capital, stretching fro
 
 Bucharest is divided into six sectors for administrative purposes, a system introduced during the communist era that has persisted through the post-1989 transition. The sectors share a timezone but have distinct demographic and architectural characters. Sector 3 contains some of central Bucharest's densest residential areas alongside neighborhoods of older housing stock.
 
+## DST rules and the EU debate
+
 Romania observes DST in line with EU rules, advancing clocks on the last Sunday of March and returning on the last Sunday of October. Romania has debated abandoning DST alongside other EU members, but as of 2026 the biannual change continues.
 
 [Sector 6](/sector-6) on the western side of Bucharest keeps the same clock.

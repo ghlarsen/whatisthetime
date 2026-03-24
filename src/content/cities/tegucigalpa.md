@@ -13,6 +13,8 @@ Tegucigalpa is one of the few Central American capitals that never settled into 
 
 [Honduras](/country/honduras) keeps Central Standard Time, UTC-6, year-round. The country briefly experimented with daylight saving time but gave it up definitively. At 14 degrees north latitude, Honduras doesn't experience dramatic daylight variation across the seasons, which makes the argument for clock adjustments weak. Sunrise varies from about 5:30am in June to about 6:30am in December. Workable either way without shifting the clock.
 
+## highland city, fixed Central time
+
 The city sits at about 1000 meters elevation, which moderates the tropical heat and gives the highland air a quality that distinguishes Tegucigalpa from coastal Honduras. The altitude means the mornings are crisp even at 14 degrees north, and the lunch hour is taken seriously.
 
 [9am in Tegucigalpa is 3pm in London](/when/9am-tegucigalpa/london). [San Salvador](/san-salvador) in El Salvador shares the UTC-6 clock.

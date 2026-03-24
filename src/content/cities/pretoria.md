@@ -15,6 +15,8 @@ South Africa runs on UTC+2 permanently, with no daylight saving time. This decis
 
 Pretoria is the administrative capital, home to the government ministries, the Union Buildings (the presidential seat), and a significant diplomatic community. It functions on official schedules, parliamentary calendars, and diplomatic time. Its twin city Johannesburg 55 kilometers south handles the commercial clock.
 
+## jacaranda season and administrative rhythms
+
 The jacaranda trees are Pretoria's most famous seasonal marker. In October, about a million jacaranda trees bloom purple simultaneously, turning the streets and parks violet. The October jacaranda bloom is as reliable a calendar event as any official marker. When the jacarandas bloom, exams are coming.
 
 [9am in Pretoria is 7am in London](/when/9am-pretoria/london) in winter.

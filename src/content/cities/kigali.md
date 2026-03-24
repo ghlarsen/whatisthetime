@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Kigali occupies a cluster of hills in Rwanda's center, a city of a million and a half people that has rebuilt itself dramatically since the 1994 genocide. It runs on Central Africa Time, UTC+2, year-round. No daylight saving. The IANA identifier is Africa/Kigali.
 
+## tech hub, umuganda, and overlap with European offices
+
 At 1 degree south of the equator, seasonal daylight variation in Kigali is negligible. Sunrise is around 5:30am and sunset around 5:30pm, every day of the year, with perhaps 30 minutes of variation. The two rainy seasons (March-May and October-November) matter more than the solstices for how the city's rhythms shift.
 
 Rwanda has become one of Africa's most ambitious tech hubs, and Kigali functions in a global business context. The UTC+2 offset means overlap with European mornings and afternoon: European offices open around 9am, which is 11am in Kigali, giving several hours of productive overlap with London and Paris. With East African neighbors [Nairobi](/nairobi) and [Dar es Salaam](/dar-es-salaam) (both UTC+3), there is a one-hour gap.

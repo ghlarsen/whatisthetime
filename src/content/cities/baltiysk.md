@@ -17,6 +17,8 @@ Kaliningrad Time is unique in Russia's timezone system: it is the only Russian t
 
 The exclave's geographic position means that local time aligns with neighboring Poland and Lithuania (both UTC+1/UTC+2 with DST) for part of the year and diverges when those countries' clocks change. In summer, Poland and Lithuania move to UTC+2, matching Kaliningrad. In winter, they drop back to UTC+1, moving one hour behind Kaliningrad.
 
+## A closed city, a unique offset
+
 Baltiysk is a closed military city, access-restricted. The Baltic Fleet's presence shapes the city's character entirely.
 
 [9am in Baltiysk is 7am in London](/when/9am-baltiysk/london) during European winter.

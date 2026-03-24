@@ -13,6 +13,8 @@ Cruzeiro do Sul sits on the Juruá River near the Peruvian border, in the state 
 
 Brazil used to extend DST into Acre, but the state consistently argued against it. The Amazon basin's equatorial latitude means minimal daylight variation across seasons, and the disruption of clock changes on remote communities with limited infrastructure outweighed any theoretical energy savings. Brazil exempted Acre from DST in 2008, and the state has run steady since.
 
+## The river sets the real schedule
+
 Cruzeiro do Sul is accessible mainly by boat along the Juruá River or by small aircraft. The river sets the rhythms here more than any timezone policy: floods and low water determine whether goods can arrive, which businesses can open, and when the next supply boat will come. The clock says UTC-5. The river says whenever it says.
 
 [Convert 9am Cruzeiro do Sul time to London](/when/9am-cruzeiro-do-sul/london)

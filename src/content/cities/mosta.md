@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Mosta sits in the center of Malta and is one of the island's largest towns, running on Central European Time, UTC+1 in winter and UTC+2 during summer daylight saving. [Malta](/country/malta) observes the same CET schedule as its EU partners.
 
+## a bomb that did not explode
+
 The town is best known for the Rotunda of Mosta, a nineteenth-century church with one of the largest unsupported domes in the world. During a German air raid on April 9, 1942, a bomb penetrated the dome during mass and landed among the congregation. It did not explode. The unexploded bomb is displayed in the church sacristy. The moment is remembered in Malta as miraculous, a story about time and chance.
 
 Malta at 36 degrees north has Mediterranean daylight patterns: long summer evenings that run to 8:30pm in June, shorter but still pleasant winter days. The island's outdoor cafe culture runs late in summer, taking advantage of the long CET-extended evenings.

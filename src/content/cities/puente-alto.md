@@ -15,6 +15,8 @@ Puente Alto is the largest municipality in Chile by population, a suburb spreadi
 
 The Southern Hemisphere calendar means that DST in Chile runs opposite to the northern pattern: clocks spring forward in October (spring) and fall back in April (autumn). This confuses northern-hemisphere software and travelers alike, but it is simply the southern summer pattern.
 
+## Maipo Valley vineyards and wine harvest
+
 The vineyards of the Maipo Valley begin just beyond Puente Alto. The Concha y Toro winery, one of the most visited tourist sites in Chile, is within the municipality. The wine harvest in March and April is the valley's great seasonal event, falling in late summer as the days start shortening again.
 
 [9am in Puente Alto is 1pm in London](/when/9am-puente-alto/london) during Chilean winter.

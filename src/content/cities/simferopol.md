@@ -13,6 +13,8 @@ Simferopol is the administrative center of Crimea, located in the center of the 
 
 Before March 2014, Simferopol ran on Ukrainian time: Eastern European Time (UTC+2 in winter, UTC+3 in summer, following EU DST rules). After Russia's annexation of Crimea, which [Ukraine](/country/ukraine) and most of the international community do not recognize, the peninsula shifted to Moscow Time: UTC+3 year-round, no daylight saving.
 
+## the 2014 clock change
+
 The shift was immediate and abrupt. Russia announced the timezone change would take effect at 2am on March 30, 2014, just days after the annexation. Residents had little time to adjust. The clock moved forward two hours in a single step, then stayed there permanently.
 
 The IANA timezone database uses `Europe/Simferopol` as the identifier for Crimea and maintains detailed records of the historical transitions. Software that handles scheduling or historical records for Crimea requires careful handling of the 2014 discontinuity.

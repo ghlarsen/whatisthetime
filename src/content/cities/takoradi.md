@@ -15,6 +15,8 @@ Ghana's decision to remain on GMT is geographically unusual: the country straddl
 
 At roughly 5 degrees north, Takoradi has essentially no seasonal daylight variation. Sunrise and sunset times stay within about 30 minutes of 6am and 6pm year-round. The clock and the sun are in reliable alignment, which simplifies scheduling for a port city that coordinates shipping on UTC.
 
+## port logistics and UTC coordination
+
 The port handles cocoa exports (Ghana is the world's second-largest cocoa producer), timber, and petroleum-related logistics. Container ship arrivals and departures follow tide and berth schedules that are themselves coordinated against UTC, making the city's fixed GMT offset a practical convenience.
 
 [Tamale](/tamale) to the north and [Accra](/accra) to the east share the same GMT offset.

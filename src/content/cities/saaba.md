@@ -15,6 +15,8 @@ Saaba sits immediately east of Ouagadougou, Burkina Faso's capital and largest c
 
 At 12 degrees north, Saaba sits in the Sahel, the transitional zone between the Sahara and the tropical forests of West Africa. The climate is semi-arid, defined by the rainy season (June to September) and the long dry season. The harmattan, the dry dusty wind from the northeast, dominates December and January, carrying Saharan dust that reduces visibility and coats everything in fine orange powder.
 
+## the Mossi market week and local time
+
 The Mossi calendar, historically used by Burkina Faso's largest ethnic group, runs on a five-day market week. Market days in the Ouagadougou region rotate through towns on this schedule, and rural communities organize their movements around it alongside the civil clock.
 
 [9am in Saaba is 9am in London](/when/9am-saaba/london) in winter.

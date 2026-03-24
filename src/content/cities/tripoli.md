@@ -15,6 +15,8 @@ Lebanon uses Eastern European Time, UTC+2 in winter and UTC+3 during summer DST.
 
 At 34 degrees north, Tripoli gets Mediterranean daylight patterns: long summer days with late sunsets, moderate winter shortening. The city's pace follows traditional Arab rhythms, with afternoon rest during the heat, evening commerce, and late meals.
 
+## power cuts and battery-kept clocks
+
 The Lebanese electricity crisis has made timekeeping practically complicated for years. With rolling power cuts often exceeding 12 hours per day, battery-powered clocks and phone-based time have become the reliable standards. When the grid goes off, the civil clock continues on batteries.
 
 [9am in Tripoli is 7am in London](/when/9am-tripoli/london). [Beirut](/beirut) to the south shares Lebanon's timezone.

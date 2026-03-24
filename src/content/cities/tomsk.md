@@ -15,6 +15,8 @@ The famous Trans-Siberian Railway bypassed Tomsk, running instead through what b
 
 [Russia](/country/russia) keeps Novosibirsk Time here, UTC+7, the `Asia/Novosibirsk` zone, applied without DST since Russia eliminated the clock change in 2014. At 56 degrees north, Tomsk experiences extreme daylight variation: summer nights are barely dark, and winter brings very short days with sunrise sometimes after 9am.
 
+## university city in Siberian winter
+
 The university presence shapes the city's rhythm. Academic calendars, late-night library hours, and a relatively young population give Tomsk a pace that differs from purely industrial Siberian cities. The cold is extreme, winters regularly reaching -30°C, and the city adapts: underground passages, heavy insulation, a relationship with the indoors that makes the clock matter less than warmth.
 
 [9am in Tomsk is 2am in London](/when/9am-tomsk/london). [Novosibirsk](/novosibirsk) to the southwest shares the same timezone.

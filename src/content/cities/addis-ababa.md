@@ -15,6 +15,8 @@ Ethiopia has its own traditional timekeeping system. The day begins at sunrise, 
 
 This system is widely used in daily conversation, in markets, among taxi drivers, in churches. Signs and broadcast media often use standard time. But a meeting time mentioned casually in Amharic might require clarifying which system you mean.
 
+## Ethiopia's own calendar
+
 [Ethiopia](/country/ethiopia) also uses its own calendar, the Ge'ez calendar, which has 13 months and runs roughly 7 to 8 years behind the Gregorian calendar. In September 2007, Ethiopia celebrated the new millennium while the rest of the world was in 2007.
 
 [Nairobi](/nairobi) shares the UTC+3 timezone, making business coordination across East Africa straightforward on the official clock. [9am in Addis Ababa is 6am in London](/when/9am-addis-ababa/london).

@@ -15,6 +15,8 @@ Musanze is the gateway to the mountain gorillas. The Volcanoes National Park beg
 
 The cool highland climate means Musanze operates on a schedule that differs from lowland African cities. People are up early. The morning market moves quickly in the crisp air. By mid-afternoon, the sky often clouds over, and rain can arrive with little warning. Activity clusters in the morning hours.
 
+## gorilla permits and a restructured rhythm
+
 Tourism has restructured the city's rhythm in recent decades. Gorilla tracking permits are among the most expensive wildlife experiences in Africa, and the demand for them has built an economy of lodges, guides, and porter services that runs on a schedule dictated by permit allocation rather than local custom.
 
 [9am in Musanze is 7am in London](/when/9am-musanze/london).

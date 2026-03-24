@@ -13,6 +13,8 @@ Malmö sits at the southwestern tip of Sweden, separated from Copenhagen by just
 
 [Sweden](/country/sweden) follows Central European Time, UTC+1 in winter and UTC+2 during daylight saving, the same as Denmark and the rest of continental Europe. At 55 degrees north, the seasonal variation in daylight is significant. Midsummer brings near-perpetual twilight: the sun barely sets and rises again within hours. Midwinter afternoons go dark before 3:30pm.
 
+## seasonal extremes at 55 degrees north
+
 The DST transition in October, when clocks fall back, lands hard in Malmö. The extra hour of morning light helps for a few weeks, but by December the city operates largely by artificial light regardless. Spring's clock jump forward in late March is genuinely anticipated.
 
 [Stockholm](/stockholm) to the north shares this timezone. [9am in Malmö is 8am in London](/when/9am-malmo/london) during European winter, a clean one-hour gap useful for the many Swedish companies with UK operations.

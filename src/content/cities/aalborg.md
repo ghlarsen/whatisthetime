@@ -13,6 +13,8 @@ Aalborg sits at 57 degrees north, which sounds like an abstract coordinate until
 
 Winter inverts everything. By mid-December, the sun rises after 8:30am and sets before 3:30pm. Seven hours of light. Aalborg adjusts: streetlights flicker on early, cafes glow warm against the dark, and the city runs on a different pace than its summer self.
 
+## Denmark's shared clock
+
 Denmark follows [Central European Time](/country/denmark) (UTC+1 in winter, UTC+2 during summer DST), the same clock as [Copenhagen](/copenhagen) and [Arhus](/arhus) to the south. The switch to and from daylight saving time lands harder this far north. An hour of morning light yanked away in spring is felt differently here than in Madrid.
 
 The city's old Budolfi Cathedral, with its distinctive white spire, has kept the city's public time for centuries. Modern Aalborg keeps digital time now, but the spire still orients the center.

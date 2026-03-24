@@ -15,6 +15,8 @@ Philipsburg, the Dutch capital, sits on a narrow strip of land between Great Bay
 
 [Sint Maarten](/country/sint-maarten) does not observe daylight saving time, which means it stays at UTC-4 all year. In winter this aligns with [Puerto Rico](/puerto-rico) and [Port of Spain](/port-of-spain). In summer, when the US East Coast jumps to UTC-4 as well, the offset to New York temporarily vanishes.
 
+## harbor trade and cruise tourism
+
 Philipsburg's deep harbor has handled trade ships for centuries. The salt pond behind the main street was the original economic engine. Today the harbor serves cruise ships, and the narrow shopping street serves their passengers on Caribbean Standard Time.
 
 [9am in Philipsburg is 1pm in London](/when/9am-philipsburg/london).

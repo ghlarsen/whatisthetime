@@ -13,6 +13,8 @@ Dudelange sits in Luxembourg's southernmost corner, bordering France, and uses `
 
 Dudelange was one of Luxembourg's steel towns, built around the iron and steel industry that dominated the Minette region in the 19th and early 20th centuries. The ArcelorMittal plant (formerly ARBED) defined the town's rhythm for generations: shift changes, furnace schedules, and the industrial clock that ran around the clock with no regard for sunrise or sunset.
 
+## From steel shifts to arts festivals
+
 The steel industry has largely wound down, and Dudelange now markets itself as a cultural city, home to a photography festival (Photo Luxembourg) and one of Luxembourg's more vibrant arts scenes relative to its size. But the industrial imprint on time remains: the town's working class culture still values punctuality and precision in a way that recalls the factory floor. CET/CEST is the least interesting thing about Dudelange's relationship with time. The steelwork's legacy is more interesting.
 
 [Convert 9am Dudelange time to London](/when/9am-dudelange/london)

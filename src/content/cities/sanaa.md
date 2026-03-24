@@ -13,6 +13,8 @@ Sanaa sits at roughly 2,300 meters above sea level in the western highlands of [
 
 The city keeps Arabia Standard Time (UTC+3) with no daylight saving adjustment. Yemen has not observed DST since 1991. At 15 degrees north, daylight variation is limited: about 13 hours at the summer solstice, just under 11 in December.
 
+## the Old City and prayer time rhythms
+
 Sanaa's Old City, a UNESCO World Heritage Site, is one of the oldest continuously inhabited urban areas in the world. The tower houses with their stained-glass fanlights have marked the city's skyline for centuries. Time in the old city still flows partly by the call to prayer, five fixed points in the day that organize activity around something other than clock precision.
 
 The city's formal timezone aligns it with [Aden](/aden) on the coast and [Taiz](/taiz) to the south, all keeping the same Arabia Standard offset.

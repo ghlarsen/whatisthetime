@@ -13,6 +13,8 @@ Tara is a small city in the Omsk region of southwestern Siberia, sitting on the 
 
 The city keeps Omsk Time (UTC+6) all year. [Russia](/country/russia) abolished daylight saving time in 2014, and the fixed UTC+6 has applied to the Omsk region since. At about 56 degrees north, Tara has significant seasonal variation: roughly 17 hours of daylight in June and about 7 hours in December. The extreme summer light of Siberia at this latitude means June evenings stay bright very late.
 
+## Siberian fortress and the Irtysh route
+
 Tara was a significant administrative and trading post during the Russian expansion across Siberia. The city served as a base for further eastern exploration and as a resupply point on the river routes. The Irtysh, which flows through the Omsk region toward Kazakhstan and eventually to the Ob River, was the highway for that eastward movement.
 
 Today Tara is a quiet regional center, overshadowed by Omsk 300 kilometers to the south. Its identity as Siberia's oldest Russian fortress city gives it a historical significance disproportionate to its current size.

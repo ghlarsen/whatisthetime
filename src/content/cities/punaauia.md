@@ -15,6 +15,8 @@ Punaauia stretches along the west coast of Tahiti, adjacent to Papeete, separate
 
 UTC-10 is among the most extreme offsets in the inhabited world. Punaauia is 10 hours behind London in winter, 11 hours behind in summer when London advances. When it is 9am in Punaauia, it is already 7pm in London. The day that is ending in Europe is just beginning here.
 
+## Gauguin's myth and the real Tahiti
+
 Paul Gauguin came to Tahiti in 1891 seeking what he called a primitive life, escaping Parisian civilization. He found neither what he imagined nor what he painted, but his images of Tahitian women have shaped how the outside world pictures this time zone. The reality is more complex: a Francophone Pacific society navigating between Polynesian tradition and French administrative structure.
 
 [9am in Punaauia is 7pm in London](/when/9am-punaauia/london) in winter.

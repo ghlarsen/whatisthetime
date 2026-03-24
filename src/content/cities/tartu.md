@@ -13,6 +13,8 @@ Tartu is the older soul of [Estonia](/country/estonia). While Tallinn has the me
 
 Estonia operates on Eastern European Time, UTC+2 in winter and UTC+3 during summer DST, matching [Tallinn](/tallinn) and [Riga](/riga) to the north. At nearly 58 degrees north latitude, Tartu gets significant daylight variation: summer evenings stay light past 11pm, while December afternoons go dark before 3:30pm. The university schedule is calibrated to this, with lighter teaching loads in deep winter when the dark seems to press down on the city.
 
+## treaty, memory, and precise timestamps
+
 The Peace of Tartu, signed here in 1920, established Estonia's borders with Soviet Russia. The treaty was signed February 2, 1920, at 4:30pm. Estonians remember the time.
 
 [9am in Tartu is 7am in London](/when/9am-tartu/london), a two-hour gap that matters for tech companies in this digitally-advanced country.

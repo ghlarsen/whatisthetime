@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Keren sits at 1,400 meters in the Eritrean highlands, a market city in a bowl of hills that has served as a regional trading hub for centuries. It runs on East Africa Time, UTC+3, the same clock as [Asmara](/asmara) and all of [Eritrea](/country/eritrea). No daylight saving.
 
+## camel markets, highland shade, and a stable UTC+3
+
 The city is known for its camel market, one of the largest in the Horn of Africa, where trading sessions follow the early morning hours before the highland heat builds. By midday the market thins. By 2pm it has largely closed. The clock follows the logic of shade.
 
 Keren changed hands multiple times during the long Eritrean war of independence (1961-1991). The battles of Keren in 1941, when British and Commonwealth forces fought to dislodge the Italian garrison, are among the most significant engagements of the East African campaign of World War II. The war cemetery near the city commemorates both sides.

@@ -13,6 +13,8 @@ Delhi, India's capital and second-largest metropolitan area, runs on Indian Stan
 
 The half-hour offset is a deliberate middle compromise. India spans from roughly 68 to 97 degrees east longitude, a range that would theoretically justify two or three timezones. UTC+5:30 sits between what western India and eastern India would use if split. Delhi at 77 degrees east is reasonably served by this offset: solar noon arrives around 12:25pm in December, close to clock noon.
 
+## The northeast's argument for a second timezone
+
 Northeastern India is the most daylight-disadvantaged. In Assam and Arunachal Pradesh (nearly 95 degrees east), solar noon arrives around 11:20am, meaning clocks run about 40 minutes slow. These states have periodically advocated for a separate northeastern timezone, and the issue resurfaces in political discussions. Delhi, at the geographic and political center, has resisted any change that would divide the national clock.
 
 [Convert 9am Delhi time to London](/when/9am-delhi/london)

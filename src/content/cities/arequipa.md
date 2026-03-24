@@ -17,6 +17,8 @@ At 16 degrees south latitude, Peru's daylight variation is modest. December days
 
 Arequipa's altitude creates a distinct daily rhythm. Mornings are bright and cool. By midday, the sun is intense at this elevation with less atmosphere to filter it. Afternoons can bring clouds building around the volcanoes. The city's plaza, the Plaza de Armas, is one of South America's finest colonial squares, and it fills with life in the cooler evening hours.
 
+## The Republic of Arequipa
+
 The city has a reputation for being more conservative and independent-minded than Lima, sometimes called the "Republic of Arequipa" by locals. This character extends to its rhythms: a city that keeps its own pace.
 
 [9am in Arequipa is 2pm in London](/when/9am-arequipa/london) during European winter.

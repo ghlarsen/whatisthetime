@@ -17,6 +17,8 @@ Cambodia adopted UTC+7 during the French colonial period and has kept it ever si
 
 Battambang's bamboo train, a local invention for moving produce along old French railway tracks using bamboo platforms powered by small engines, became a tourist attraction before the tracks were restored and replaced with actual trains. The improvised solution said something about how the country adapted to decades of disruption.
 
+## Art and circus in a rice-country city
+
 The city's art scene, particularly visual arts and circus arts (Phare Ponleu Selpak, the famous arts school, is based here), gives Battambang a cultural weight beyond its economic function.
 
 [9am in Battambang is 2am in London](/when/9am-battambang/london) during European winter.

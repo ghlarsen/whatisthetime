@@ -13,6 +13,8 @@ Angarsk is a planned Soviet-era city in eastern Siberia, built in the late 1940s
 
 The clock is Irkutsk Time, UTC+8. The IANA identifier is Asia/Irkutsk, named for the larger regional city nearby. Russia abolished daylight saving in 2014, so UTC+8 is the permanent year-round clock. Moscow is five hours behind at UTC+3.
 
+## Business hours across a nine-hour gap
+
 Siberian time creates a particular psychological landscape. Business with Moscow happens largely in the morning hours, when Moscow's workday is starting and Angarsk is already well into its afternoon. Government communications, broadcasts from Moscow, and national news all arrive offset from the local solar day.
 
 [Irkutsk](/irkutsk), the regional capital, is just 45 kilometers away and shares the same timezone. The two cities are effectively part of the same urban-industrial complex.

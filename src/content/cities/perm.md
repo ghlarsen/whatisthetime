@@ -15,6 +15,8 @@ Perm sits on the Kama River in the western Ural region, historically considered 
 
 At 58 degrees north, Perm's seasonal light extremes are significant. June brings nearly 18 hours of daylight and white nights. December brings under 7.5 hours. The Kama River, one of Russia's major waterways, freezes in winter and the ice breakup in spring is a seasonal event. The river connects Perm to the Volga system and ultimately to the Caspian, and river navigation was historically the city's lifeblood.
 
+## culture and historical memory
+
 Perm has a rich cultural history: the Perm State Art Gallery houses one of Russia's finest collections of wooden religious sculpture. The Perm-36 Gulag memorial site is the only preserved example of a Soviet labor camp in Russia and is one of the country's most important historical monuments.
 
 [9am in Perm is 4am in London](/when/9am-perm/london), the same as [Yekaterinburg](/yekaterinburg).

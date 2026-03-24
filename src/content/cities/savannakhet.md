@@ -15,6 +15,8 @@ Thailand and Laos sharing UTC+7 makes the border crossing logistically straightf
 
 At 16 degrees north, Savannakhet gets about 13 hours of daylight in the hot season and about 11 in the cool season. The Mekong's level changes dramatically between the dry and wet seasons, and the river itself tells the city what time of year it is more clearly than any calendar.
 
+## French colonial streets and the Mekong crossing
+
 The city retains a French colonial architectural character in its historic center, a reminder of its role as an administrative outpost during the Indochina period. The French-era streets are mostly quiet now, the old villas slowly weathering.
 
 [Vientiane](/vientiane) to the north shares the same Indochina Time offset.

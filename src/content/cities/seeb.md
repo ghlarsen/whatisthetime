@@ -15,6 +15,8 @@ The airport at Seeb handles connections across the Gulf, to South Asia, East Afr
 
 Seeb itself has grown considerably in the last few decades, developing from a relatively small coastal settlement into a suburban extension of the Muscat metropolitan area. The Batinah coast that Seeb occupies is a fertile strip between the Al Hajar mountains and the Gulf of Oman, historically important for agriculture and fishing.
 
+## the Omani working week and summer heat
+
 At 23 degrees north, Seeb has noticeable but moderate daylight variation. The long summer days bring heat that pushes activity indoors during the afternoon hours. Oman's working week, adjusted to Sunday through Thursday in the public sector (with Friday and Saturday as the weekend), creates a different weekly rhythm than most of Europe.
 
 [Sharjah](/sharjah) in the UAE across the Gulf shares the same UTC+4 offset.

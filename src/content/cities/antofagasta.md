@@ -15,6 +15,8 @@ The timezone is America/Santiago, used for all of mainland [Chile](/country/chil
 
 Antofagasta's latitude, about 23.6 degrees south, puts it in a zone of minimal seasonal daylight variation. The Atacama's extreme aridity is unrelated to temperature or season: rain here is measured in millimeters per year, and some weather stations have never recorded any at all. The stable climate means the seasonal reasons for daylight saving (saving candle or electric light in the evenings) are particularly weak here. But Chile applies DST nationally.
 
+## Mining schedules, global commodity clocks
+
 The city's mines run on 24-hour schedules. Shift changes at the copper concentrators don't follow sunrise or sunset. The clock matters for logistics, shipping schedules, and commodity market times (London Metal Exchange, Chicago Mercantile Exchange), not solar time.
 
 [9am in Antofagasta is 1pm in London](/when/9am-antofagasta/london) during Chilean winter.

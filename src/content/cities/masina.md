@@ -13,6 +13,8 @@ Masina is one of Kinshasa's most populous communes, sitting in the eastern part 
 
 Kinshasa is one of Africa's largest cities, and Masina is one of its major working-class districts. The commune has a population of several hundred thousand and is known for its music scene, a continuation of the Congolese rumba tradition that has made Kinshasa one of Africa's cultural capitals.
 
+## the river, the rumba, and daily life
+
 The Congo River defines daily life in Masina. The river's flood cycles, ferry crossings to Brazzaville on the opposite bank, and fishing schedules operate on natural time more than civil clock time.
 
 [9am in Masina is 8am in London](/when/9am-masina/london) during European winter, the same single-hour gap as any other West Africa Time city.

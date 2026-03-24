@@ -13,6 +13,8 @@ Adak is one of the most remote towns in the United States. It sits on an island 
 
 Adak uses Hawaii-Aleutian Time, the same timezone as [Honolulu](/honolulu). In winter, that means UTC-10. With daylight saving in summer, it shifts to UTC-9. But here is the quirk: geographically, Adak is so far west that it sits across the 180th meridian from much of Alaska. By strict solar logic, it might belong to a timezone that is east-ahead rather than west-behind. The International Date Line was drawn specifically to loop around the Aleutians, keeping them on the same calendar day as the continental US.
 
+## A clock out of step with the sky
+
 The result: Adak sees sunrise and sunset at times that feel off to anyone thinking about latitude and longitude. In summer, the sun can rise as late as 9am local time and set well into the evening. In winter, daylight is brief and the clock feels disconnected from the sky.
 
 [Anchorage](/anchorage) is one hour ahead of Adak in standard time, despite being geographically to the east.

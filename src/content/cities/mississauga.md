@@ -13,6 +13,8 @@ Mississauga is Canada's sixth-largest city and effectively Toronto's western sub
 
 Pearson International Airport, Canada's busiest airport, sits partly within Mississauga's boundaries. The airport's operations coordinate with flight schedules across multiple timezones simultaneously, making its own relationship with time particularly complex: crews, passengers, and cargo all arrive from different offsets.
 
+## airport hub and global corporate time
+
 The city is home to significant corporate headquarters, particularly in the pharmaceutical and aerospace industries. Many multinationals with Canadian operations chose Mississauga for its airport access and lower costs than central Toronto, and these companies operate on global time rather than purely Eastern Time rhythms.
 
 [9am in Mississauga is 2pm in London](/when/9am-mississauga/london) during European winter.

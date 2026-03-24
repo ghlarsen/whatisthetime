@@ -17,6 +17,8 @@ The Cook Islands chose to remain at UTC-10 rather than adopt the UTC+14 offset t
 
 This means Avarua and Alofi in Niue, its neighbor, are both at UTC-10, among the most western offsets of any inhabited Pacific place. When it is noon in Auckland, it is 2am in Avarua. The two capitals are theoretically closely connected administratively but are almost 12 hours apart on the clock.
 
+## Tourism across a 12-hour gap
+
 Rarotonga has a small but growing tourism economy. The island's visitor arrivals are primarily from New Zealand and Australia. Coordinating flights, accommodations, and communications across a 12-hour timezone gap requires the kind of mental arithmetic that Pacific rim travelers become accustomed to.
 
 [9am in Avarua is 7pm in London](/when/9am-avarua/london) the previous evening during European winter.

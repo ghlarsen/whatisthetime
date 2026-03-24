@@ -15,6 +15,8 @@ Mwanza is built on and around a cluster of large granite boulders that drop dire
 
 At 2 degrees south of the equator, Mwanza's daylight is nearly constant year-round: around 12 hours, with sunrise between 6am and 6:30am and sunset between 6pm and 6:30pm. The lake moderates temperature and adds humidity, and the sky over the water is often spectacular in the early morning before the cloud cover builds.
 
+## Lake Victoria ferries and approximate departures
+
 The MV Victoria and the MV Butiama ferries connect Mwanza to Bukoba and Port Bell in Uganda across the lake, a crossing that can take 12 to 14 hours. Departure times are posted but treated as approximate. The ferry schedule is a running negotiation between the captain and the weather.
 
 [9am in Mwanza is 6am in London](/when/9am-mwanza/london).

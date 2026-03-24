@@ -13,6 +13,8 @@ Manama is the capital of Bahrain, a small island kingdom in the Persian Gulf con
 
 Bahrain has been a financial and trading hub for centuries, and Manama today is one of the Gulf Cooperation Council's major banking centers, competing with Dubai for regional financial business. The no-DST policy makes scheduling across the year consistent, which suits a financial center running international transactions.
 
+## finance, racing, and a fixed clock
+
 The city is also home to the Bahrain Formula 1 Grand Prix, held at the Bahrain International Circuit in Sakhir, which runs on the same offset. Race scheduling teams in Europe coordinate with UTC+3, a fixed point in a sport where every team's home base spans multiple timezones.
 
 [Madīnat Ḩamad](/madinat-hamad), a planned city also in Bahrain, shares this clock. [9am in Manama is 6am in London](/when/9am-manama/london) during European winter, a stable three-hour gap that doesn't shift when European clocks move for DST.

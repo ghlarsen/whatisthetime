@@ -13,6 +13,8 @@ Curepipe sits at around 550 meters elevation in the central plateau of Mauritius
 
 Mauritius is at roughly 20 degrees south, where daylight varies from about 10 hours in winter to 13.5 hours in summer. The variation is meaningful but not extreme. UTC+4 puts Mauritius two hours ahead of Moscow and one hour ahead of the Gulf states, aligning the island's business hours neatly with both its main European trading partners in the morning and regional partners in the afternoon.
 
+## Highland fog and a slow start
+
 Curepipe itself is known for its craft markets, cooler temperatures, and regular rainfall. It's where many Mauritians live who work on the coast but prefer the highland climate. The fog that rolls in from the south can arrive without warning in any month, regardless of what the clock says. Morning here often starts grey before the sun burns through, and the rhythm of the city follows that pattern: slow start, clearer as the day builds.
 
 [Convert 9am Curepipe time to London](/when/9am-curepipe/london)

@@ -13,6 +13,8 @@ Dartmouth sits directly across Halifax Harbour from [Halifax](/halifax), Nova Sc
 
 Atlantic Time puts Dartmouth an hour ahead of Eastern Time cities like New York and Toronto in winter. For Dartmouth's shipbuilding and maritime industries, the Atlantic offset is natural. Halifax Harbour is a major container port, and ships arriving from Europe encounter a clock four hours behind UTC. For those arriving from the US East Coast, it's one hour more.
 
+## Harbor light and the morning ferry
+
 The harbor crossing is a daily feature of Dartmouth life. Ferry riders checking their phones for morning messages from Toronto find them arriving an hour earlier relative to their own clock. The harbor itself, open to the North Atlantic, sees dramatic seasonal daylight changes: the summer solstice brings sunrise before 5:30am and sunset after 9pm in Dartmouth, rewarding the ferry commuter with exceptional evening light.
 
 [Convert 9am Dartmouth time to London](/when/9am-dartmouth/london)

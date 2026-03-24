@@ -15,6 +15,8 @@ Riyadh operates on two simultaneous time systems. The civil clock runs on Arabia
 
 The city has been transformed in the past decade. King Abdullah Financial District, the Red Sea expansion projects, Vision 2030's entertainment reforms: cinemas reopened in 2018 after a 35-year ban. The rhythm of Riyadh after midnight on weekends is now different from what it was a decade ago.
 
+## summer heat and outdoor life
+
 At 24 degrees north, Riyadh's summer heat is absolute. July and August temperatures regularly reach 45 degrees Celsius. Outdoor life shifts to early morning and late evening. The midday hours belong to the air conditioning. Winter is mild and pleasant, the one season when the city's outdoor life fully asserts itself.
 
 [9am in Riyadh is 6am in London](/when/9am-riyadh/london) in winter.

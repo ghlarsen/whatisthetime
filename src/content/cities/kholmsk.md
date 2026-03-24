@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Kholmsk is a port city on the western coast of Sakhalin Island, facing the Tatar Strait toward the Russian mainland. It runs on Sakhalin Time, UTC+11, year-round. Since Russia abolished daylight saving in 2014, the clocks here have not moved.
 
+## Japanese history, Russian clocks, oil logistics
+
 Sakhalin sits at latitudes between 46 and 54 degrees north, producing significant seasonal daylight variation. Kholmsk in summer sees the sun set past 8pm. In December, daylight lasts barely 8 hours. The permanent UTC+11 setting means that in summer, solar noon arrives around 12:30pm, reasonably well aligned, but in December the sun rises at what feels like the right hour for a place this far north and east.
 
 The island has been a contested geographic space. Japan controlled the southern half (Karafuto) until the Soviet Union seized the entire island at the end of World War II. Japanese placenames were replaced with Russian ones, and the time standard shifted accordingly. Kholmsk was Maoka under Japanese administration. The city still has a Japanese-built train ferry port, though the ferry to Vanino on the mainland now uses Russian-gauge tracks.

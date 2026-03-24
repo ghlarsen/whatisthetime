@@ -13,6 +13,8 @@ Dar Naim is one of the nine communes that make up Nouakchott, Mauritania's capit
 
 Nouakchott sits at 18 degrees north, on the edge of the Sahara where it meets the Atlantic coast. Sunrise ranges from about 6:30am to 7:30am across the year, and sunset from 6pm to 7:20pm. The variation is small. More significantly, the city sits in one of the harshest climates in the world: sandstorms, intense heat from March through October, and scarce rainfall. Daily rhythms are shaped far more by the midday heat, which drives people indoors, than by any offset from UTC.
 
+## Aligned with West African neighbors
+
 GMT suits Mauritania's geography reasonably well. The country sits between longitudes that would justify UTC-1 to UTC+1. Mauritania's post-independence government chose GMT to match its West African neighbors. Dar Naim and [Dakar](/dakar) are in the same timezone, and the shared clock facilitates the trade between Mauritania's markets and Senegal's ports.
 
 [Convert 9am Dar Naim time to London](/when/9am-dar-naim/london)

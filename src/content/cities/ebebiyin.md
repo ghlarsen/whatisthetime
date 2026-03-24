@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Ebebiyín is one of the main towns in Río Muni, the mainland portion of Equatorial Guinea, bordering Cameroon and Gabon. The IANA timezone `Africa/Malabo` (named for the island capital of Equatorial Guinea) covers the whole country: UTC+1, year-round, no daylight saving.
 
+## a crossroads on three borders
+
 Equatorial Guinea occupies an unusual geographic position, spanning from the Atlantic island of Bioko (where [Malabo](/malabo) is located) to the mainland enclave and several smaller islands. All use UTC+1, which suits both the islands and the mainland reasonably well given their equatorial location near 1-2 degrees north latitude.
 
 Ebebiyín sits at Equatorial Guinea's northeastern corner, a crossroads town where traders and goods move between Cameroon, Gabon, and the Equatorial Guinean interior. The local economy depends on this cross-border trade, and since all three countries use UTC+1, the clock is consistent across the borders. It's one of the few things that is.

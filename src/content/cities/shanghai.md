@@ -15,6 +15,8 @@ The decision to maintain a single national timezone was made after the People's 
 
 For Shanghai, at roughly 31 degrees north and near the 120-degree meridian, UTC+8 corresponds almost exactly to solar time. Sunrise and sunset align reasonably with the clock. But for a city in Xinjiang 3,000 kilometers to the west, UTC+8 means the sun rises well after 9am in winter. China's single timezone is simultaneously logical for Shanghai and surreal for Urumqi.
 
+## the stock exchange and Asia trading hours
+
 Shanghai's financial markets operate in harmony with Hong Kong on the same clock. The Shanghai Stock Exchange's 9:30am open is a reference point for regional Asian trading. The city's role in global finance means the UTC+8 offset shapes how Wall Street and London schedule their Asia hours.
 
 [Shenzhen](/shenzhen) to the south shares the same China Standard Time.

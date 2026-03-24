@@ -15,6 +15,8 @@ Podgorica was almost completely destroyed during World War II, bombed 72 times b
 
 At 42 degrees north, Podgorica has warm summers and relatively mild winters by Balkan standards, though snow still arrives seasonally. The Morača and Ribnica rivers run through the city, and the surrounding mountains, including Prokletije to the east, catch dramatic afternoon storms in summer. The light in the Zeta plain where Podgorica sits is wide and open.
 
+## landmarks and a young capital's identity
+
 The Millennium Bridge, opened in 2005, has become the city's most recognizable landmark: a cable-stayed arc over the Morača lit at night with changing colors. Podgorica is a small capital, about 180,000 people, but it has the energy of a city still figuring out what it wants to be.
 
 [9am in Podgorica is 8am in London](/when/9am-podgorica/london) in winter.

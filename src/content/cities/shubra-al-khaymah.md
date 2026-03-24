@@ -15,6 +15,8 @@ Shubrā al Khaymah sits immediately north of Cairo on the Nile, so close to the 
 
 The city's textile mills and industrial facilities operate on shift schedules that run around the clock, making the exact offset less relevant to workers than the rotation schedule that governs when they work. The call to prayer marks the day's structure for many residents alongside or instead of the mechanical clock.
 
+## the Nile and industrial transformation
+
 The Nile's western bank here, and the agricultural land beyond, has historically been where Cairenes could access food supplies. The urban industrialization of the area over the twentieth century has changed that relationship.
 
 [9am in Shubrā al Khaymah is 7am in London](/when/9am-shubra-al-khaymah/london) in winter, 6am during British Summer Time when the UK advances and Egypt stays fixed.

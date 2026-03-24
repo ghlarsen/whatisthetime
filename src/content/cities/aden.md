@@ -13,6 +13,8 @@ Aden sits at the southwestern tip of the Arabian Peninsula, where the Gulf of Ad
 
 The city runs on Arabia Standard Time, UTC+3, the same offset as the Saudi Arabian coast to the north and [Addis Ababa](/addis-ababa) across the water to the southwest. The IANA identifier is Asia/Aden. No daylight saving.
 
+## A colonial layer in the clock
+
 Aden's relationship with time has a colonial layer. The British controlled Aden from 1839 to 1967, and the port's operational rhythms were synchronized with the broader British imperial trading network. British India time influenced the practical workday. After independence, Yemen standardized to UTC+3, aligning with the wider Arabian region.
 
 At 12.8 degrees north latitude, Aden gets fairly consistent daylight throughout the year, roughly 11 to 13 hours. The climate is extremely hot and humid from June to September, when even sunrise hours offer little relief. Work shifts to early mornings and evenings. The clock stays the same; the behavior adjusts.

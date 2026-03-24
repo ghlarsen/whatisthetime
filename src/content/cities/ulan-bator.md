@@ -15,6 +15,8 @@ The city runs on Ulaanbaatar Time, UTC+8, year-round. Mongolia introduced DST br
 
 The city's population has swollen in recent decades as herding families from rural Mongolia migrate inward. The ger (yurt) districts on the city's periphery house hundreds of thousands of migrants who maintain nomadic cultural rhythms in a semi-permanent urban setting. Time in the ger districts runs on coal delivery schedules and the rhythm of children's school attendance as much as any clock.
 
+## nomadic rhythms in an urban setting
+
 The Naadam festival in July, celebrating the three traditional Mongolian sports of wrestling, archery, and horse racing, marks the year's high point. The specific hours of events are organized around the competition schedule, not the sun.
 
 [9am in Ulan Bator is 1am in London](/when/9am-ulan-bator/london). [Ulaangom](/ulaangom) in western Mongolia is one hour behind.

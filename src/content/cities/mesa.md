@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Mesa is Arizona's third-largest city and one of the fastest-growing cities in the United States, sitting in the Phoenix metropolitan area. It runs on Mountain Standard Time, UTC-7, year-round. [Arizona](/country/united-states) does not observe daylight saving time.
 
+## Arizona's case against daylight saving
+
 The reasoning is practical and climatic. Arizona summers are brutally hot. When California and Nevada spring forward in March, Arizona stays put. The result is that for half the year, Mesa runs on the same time as California (Pacific Daylight Time is also UTC-7). For the other half, it's one hour ahead. Arizona residents and businesses keep a mental calendar of which offset applies on any given day.
 
 The exception: the Navajo Nation, which occupies a large portion of northeastern Arizona, does observe DST, creating an island of changing time within a fixed-clock state.

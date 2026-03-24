@@ -17,6 +17,8 @@ The clock now runs UTC+13, or UTC+14 during daylight saving. The IANA identifier
 
 [Avarua](/avarua) in the Cook Islands, about 1,100 kilometers to the northeast, sits on the other side of that same date line, running on UTC-10. Two small Pacific capitals, geographically close, separated by a full day on the calendar.
 
+## American Samoa left behind
+
 The move had one complication: American Samoa, a separate US territory to the east of Samoa, did not follow. The two territories, once in the same timezone, are now 25 hours apart, one of the widest timezone gaps between any two neighboring lands.
 
 [9am in Apia is 10pm the previous night in London](/when/9am-apia/london) during European winter.

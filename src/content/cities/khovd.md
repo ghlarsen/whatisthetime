@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Khovd sits in far western Mongolia, near the borders of Russia and China, where the Altai Mountains form one of Central Asia's great natural barriers. It runs on Hovd Time, UTC+7, the timezone for western Mongolia. The capital [Ulaanbaatar](/ulaanbaatar) uses UTC+8, one hour ahead. Mongolia's geographic breadth demands two timezones.
 
+## western Mongolia's own clock
+
 The city sits in the Khovd River valley, a fertile strip surrounded by steppe and mountain desert. At roughly 48 degrees north, summers bring 14+ hours of daylight and temperatures above 30C. Winters are brutal: -30C is common, and the sun provides only about 8 hours of light in December.
 
 Mongolia abolished daylight saving time in 2015, having previously observed it during the summer months. The decision simplified schedules in a country where many people are semi-nomadic and official clock adjustments have limited reach. Herders on the steppe had long operated by solar time rather than legal time.

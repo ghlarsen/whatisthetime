@@ -15,6 +15,8 @@ At about 9 degrees south, the Solomon Islands have minimal seasonal daylight var
 
 The Solomon Islands are best known internationally for the World War II campaign fought across Guadalcanal in 1942-1943, one of the most brutal campaigns in the Pacific Theater. The Battle of Guadalcanal lasted six months and involved sustained naval, air, and ground combat. The island's topography, dense jungle, rivers, and heat, shaped every tactical decision and every soldier's experience of time during the campaign.
 
+## island rhythms beyond the clock
+
 Today the Solomons are a small developing nation dependent on agriculture, fishing, and limited tourism. Daily life on outer islands like those surrounding Guadalcanal runs on rhythms tied to fishing tides, garden cultivation, and community events rather than any commercial clock schedule.
 
 [9am in Tandai is 10pm in London](/when/9am-tandai/london) the previous day in winter, 9pm during British Summer Time.

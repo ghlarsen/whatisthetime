@@ -13,6 +13,8 @@ Doha, Qatar's capital and almost its only major city, runs on UTC+3 year-round. 
 
 Qatar's economy runs around the clock. The liquefied natural gas (LNG) complex at Ras Laffan operates 24/7, its tankers loading and departing continuously. Doha's banking sector coordinates with London (UTC+0/+1) in the morning and Singapore (UTC+8) in the afternoon. The stable UTC+3 makes this arithmetic straightforward: a Doha trader is always 3 hours ahead of London.
 
+## World Cup scheduling and European viewers
+
 The 2022 FIFA World Cup brought Doha to global attention in a way that foregrounded its timezone. Matches scheduled for evening local time aired across European time zones at unusual hours. A 10pm Doha match was 8pm in London, 9pm in Paris, and 11pm in Moscow. The stable UTC+3 was actually well-positioned for European viewership, a fact the tournament's schedulers used deliberately.
 
 [Convert 9am Doha time to London](/when/9am-doha/london)

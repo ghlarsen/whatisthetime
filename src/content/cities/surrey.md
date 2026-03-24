@@ -15,6 +15,8 @@ British Columbia observes DST in line with the US Pacific Coast states to the so
 
 British Columbia has debated permanently switching to Pacific Daylight Time (UTC-7) year-round, which would match parts of the US when the US eventually makes a similar change. The Lower Mainland, including Surrey, has generally been in favor, with the agricultural interior more cautious. The change requires federal Canadian authorization and coordination with US neighbors.
 
+## Pacific Time and DST debates
+
 At 49 degrees north, Surrey has significant seasonal light variation. Summer evenings on PDT push sunset past 9pm. Winter afternoons on PST end before 5pm.
 
 Surrey's population has grown substantially through immigration, particularly from South and East Asia, giving the city a distinctive multicultural character.

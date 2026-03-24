@@ -13,6 +13,8 @@ Yevpatoriya is a resort and spa city on Crimea's western coast, known for its sa
 
 Before 2014, Crimea was on Ukrainian Eastern European Time, UTC+2 in winter and UTC+3 in summer DST, matching Kyiv. After the Russian annexation, clocks were moved to Moscow Time, UTC+3 permanently, one of the most tangible immediate expressions of political control. Waking up one morning and being told the time is different is a specific experience of political change.
 
+## timezone as a marker of contested identity
+
 The practical impact was significant. Ukrainian national television, banking systems, and government services retained Kyiv time, while Russian broadcasters and administrative services operated on Moscow time. For a population with divided loyalties, the timezone became one more marker of contested identity.
 
 At 45 degrees north on the Black Sea, Yevpatoriya had a pre-occupation tourism economy that brought visitors from across the former Soviet space. The spa tradition here dates to the 19th century, when the city was developed as a therapeutic resort.

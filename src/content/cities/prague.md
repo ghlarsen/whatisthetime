@@ -15,6 +15,8 @@ The Orloj, the Prague Astronomical Clock, has been marking time on the Old Town 
 
 At 50 degrees north, Prague's daylight ranges dramatically. The June solstice brings nearly 16 hours of daylight. The December solstice brings fewer than 8 hours. This latitude makes Prague's summers golden and long-eveninged, and its winters short-dayed and interior-focused.
 
+## the clock's creator and medieval power
+
 The legend about the Orloj's creator, Master Hanuš, claims that the city council had him blinded after the clock was completed, to prevent him from building an equal clock elsewhere. Whether true or not, the story reveals something about medieval attitudes toward time: it was power, and some wanted it exclusive.
 
 [9am in Prague is 8am in London](/when/9am-prague/london) in winter.

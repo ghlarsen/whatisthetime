@@ -13,6 +13,8 @@ Amadora is one of Portugal's most densely populated municipalities, sitting imme
 
 The clock is Western European Time, UTC+0 in winter and UTC+1 during daylight saving. The IANA identifier is Europe/Lisbon, shared with [Lisbon](/lisbon) and all of mainland Portugal.
 
+## Portugal's clock, Spain's clock
+
 Portugal's timezone is geographically interesting. Mainland Portugal sits roughly between 7 and 9 degrees west longitude, which would naturally put it in sync with London or even one hour behind. And indeed, Portugal uses UTC+0/UTC+1, aligning with the UK rather than with Spain (UTC+1/UTC+2) immediately to the east. Spain uses Central European Time despite being mostly west of the zero meridian, a legacy of Franco-era alignment with Nazi Germany in 1940. Portugal keeps Western European Time, which matches its actual position.
 
 This means that in summer, Amadora and [Amsterdam](/amsterdam) are synchronized, even though Amsterdam is hundreds of kilometers to the east. In winter, Amadora and London are synchronized.

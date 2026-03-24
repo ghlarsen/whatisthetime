@@ -13,6 +13,8 @@ Miskolc is Hungary's third-largest city, sitting in the foothills of the Norther
 
 The city was once the center of Hungary's steel and mining industries, with massive Soviet-era complexes that have since been decommissioned or restructured. The post-industrial transition has left Miskolc grappling with unemployment and outmigration, though the city retains a university and cultural institutions.
 
+## post-industrial transition and seasonal light
+
 At 48 degrees north, Miskolc sees meaningful seasonal variation. Summer days are long, with sunset after 8:30pm in June. Winter afternoons are short and grey. The heavy industry that once defined the city's rhythm, shift sirens, coal deliveries, steel production quotas, has largely given way to service sector and university schedules.
 
 The Miskolc-Tapolca cave bath, a thermal bath system inside natural caves, is one of the city's distinctive attractions, operating on tourist and wellness time rather than industrial time.

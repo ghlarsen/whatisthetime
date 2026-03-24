@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Esch-sur-Alzette sits in Luxembourg's south, minutes from the French border, and is the country's second city. It shares `Europe/Luxembourg` with [Dudelange](/dudelange) and the rest of the country: CET (UTC+1) in winter and CEST (UTC+2) in summer, following EU daylight saving rules.
 
+## iron city, working-class counterpoint
+
 Esch was the heart of Luxembourg's iron and steel industry, the Minette belt that ran across the border into France's Moselle and Lorraine regions. The ArcelorMittal steelworks that still exists here, though much reduced, once employed most of the city's working population. The industrial legacy is visible in the city's architecture and its cultural identity as a working-class counterpoint to Luxembourg City's financial polish.
 
 The steel industry's shifts ran on clock time: 6am, 2pm, 10pm. The factory whistle, not the sun, organized the day. Esch residents still navigate CET/CEST transitions twice a year, but the post-industrial city has shifted to retail, higher education (the University of Luxembourg's science campus is here), and cross-border commuting to jobs in France. The clock adapts to whatever the economy demands.

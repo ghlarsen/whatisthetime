@@ -13,6 +13,8 @@ West Bay is a district on the western tip of Grand Cayman in the [Cayman Islands
 
 The Cayman Islands keep Eastern Standard Time, UTC-5, year-round, with no DST. This permanent UTC-5 alignment means that during US summer (when New York shifts to EDT/UTC-4), the Caymans are one hour behind the US East Coast rather than synchronized with it. For winter, the clocks match New York exactly.
 
+## offshore finance and fixed UTC gap
+
 The decision suits the Caymans' economy. The islands are one of the world's largest offshore financial centers, home to thousands of registered investment funds and banking entities. Financial operations coordinate primarily with London and New York. The fixed UTC-5 simplifies scheduling relative to London (constant 5-hour gap) and creates a predictable relationship with US markets.
 
 Grand Cayman's latitude at 19 degrees north means very modest daylight variation. Sunrise and sunset shift by only about 45 minutes across the year. Clock changes would be purely bureaucratic with no practical daylight benefit.

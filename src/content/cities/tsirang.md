@@ -15,6 +15,8 @@ All of [Bhutan](/country/bhutan) keeps Bhutan Standard Time, UTC+6, year-round w
 
 Tsirang's southern location puts it close to the Indian state of Assam, and the Bengali and Nepali communities in southern Bhutan maintain cultural rhythms that cross the border. Market days and religious calendars from both countries layer over the official Bhutan Time.
 
+## happiness index and time use surveys
+
 Gross National Happiness, Bhutan's development philosophy, explicitly addresses time allocation in its survey methodology. Citizens in Tsirang are surveyed on how they spend their hours, not just on income and consumption, making time use a formal measure of national wellbeing.
 
 [9am in Tsirang is 3am in London](/when/9am-tsirang/london). [Thimphu](/thimphu) shares the same Bhutan Time.

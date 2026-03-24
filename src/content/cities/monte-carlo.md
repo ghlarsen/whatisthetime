@@ -13,6 +13,8 @@ Monte-Carlo is the most famous district of [Monaco](/monaco), home to the Casino
 
 The Casino de Monte-Carlo, designed by Charles Garnier (who also designed the Paris Opera) and opened in 1863, runs on its own internal time. Casinos famously remove windows and clocks from gambling floors, creating a sealed temporal environment where players lose track of how long they have been sitting. The technique is global casino design practice, but Monte-Carlo's casino was among the first to perfect it.
 
+## Grand Prix circuit through city streets
+
 The Monaco Grand Prix circuit runs through Monte-Carlo's streets, past the casino and down to the harbor. The race has been run on this circuit since 1929, and the schedule is set in Central European Time. The track itself passes multiple national landmarks in a single lap, creating a geography impossible anywhere except a city-state this compact.
 
 [Monaco](/monaco) shares this timezone. [9am in Monte-Carlo is 8am in London](/when/9am-monte-carlo/london) during European winter.

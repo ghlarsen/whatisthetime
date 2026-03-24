@@ -15,6 +15,8 @@ The airport's presence makes Sector 6 a transit zone where timezone awareness ma
 
 Romania advances clocks on the last Sunday of March and returns on the last Sunday of October, in alignment with EU DST rules. Discussions about ending DST have circulated in the EU for years, with Romania engaged in those debates, but the changes have not been implemented.
 
+## commercial growth and commuter neighborhoods
+
 Bucharest's western sector has developed significant commercial areas alongside its residential character, with major shopping centers and office parks serving the commuter populations.
 
 [Sector 3](/sector-3) across the city on the eastern side keeps the same clock.

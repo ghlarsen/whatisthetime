@@ -15,6 +15,8 @@ On May 5, 1862, Mexican forces under General Ignacio Zaragoza defeated a larger 
 
 Puebla sits at 2,135 meters elevation in the Valley of Cuetlaxcoapan, surrounded by volcanoes: Popocatépetl to the west, La Malinche to the north, Iztaccíhuatl to the northwest. At this altitude, the sun feels direct and the air is thin. Morning light on the Talavera tile facades of the centro histórico comes early and goes golden fast.
 
+## cuisine, seasons, and civic identity
+
 The city's food culture is inseparable from its identity. Mole poblano, chile en nogada, cemitas: Puebla's cuisine is specific in its ingredients and seasons. The cooking calendar, tied to produce and festivity, runs alongside the civil one.
 
 [9am in Puebla is 3pm in London](/when/9am-puebla/london) in winter.

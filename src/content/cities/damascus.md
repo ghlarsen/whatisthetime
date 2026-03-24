@@ -13,6 +13,8 @@ Damascus, one of the oldest continuously inhabited cities in the world, runs on 
 
 The IANA timezone `Asia/Damascus` has a long and politically complex history in its transition table. Syria has changed its DST rules numerous times over the decades, sometimes aligning with neighboring countries like Lebanon and Jordan, sometimes diverging. The 2022 shift to permanent time is the latest in a series of adjustments driven by political and practical circumstances rather than astronomical ones.
 
+## Ancient rhythms outlast every clock change
+
 Damascus sits at 33.5 degrees north, where the summer solstice brings about 14.5 hours of daylight and the winter solstice about 10 hours. The city's ancient rhythm, structured for millennia around the Umayyad Mosque's call to prayer and the Damascus souk's trading hours, predates every modern timezone convention. The old city still wakes before dawn during Ramadan and quiets to near-silence at the midday heat. The clock has changed many times. The city's bones have not.
 
 [Convert 9am Damascus time to London](/when/9am-damascus/london)

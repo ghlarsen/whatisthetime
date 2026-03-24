@@ -13,6 +13,8 @@ Mixco is one of the largest municipalities bordering Guatemala City, effectively
 
 Guatemala City's metropolitan area, of which Mixco is a significant western component, sits at about 1,500 meters altitude in the central highlands. The altitude makes the climate cooler than the latitude suggests, with dry and rainy seasons being the primary temporal organizers rather than daylight shifts.
 
+## manufacturing and a fixed UTC-6
+
 Mixco is known for its textile and manufacturing industries and is one of Guatemala's most populated municipalities outside the capital proper. The factory work schedule runs on consistent clock time that the fixed UTC-6 simplifies.
 
 [9am in Mixco is 3pm in London](/when/9am-mixco/london) during European winter, a six-hour gap consistent year-round.

@@ -15,6 +15,8 @@ Port Louis was made by the trade winds. The Dutch settled Mauritius in 1638 usin
 
 The city's stock exchange, founded in 1989, was one of Africa's first, and its financial sector means that Port Louis is plugged into global trading schedules. The exchange operates on the same clock it always has, but global finance demands awareness of London, New York, and Singapore in the same working day.
 
+## indentured labor and the immigration depot
+
 The Aapravasi Ghat, a UNESCO World Heritage site in Port Louis, was the first immigration depot established by the British Empire after the abolition of slavery, where indentured laborers from India arrived to work the sugar plantations. Between 1834 and 1923, nearly half a million people passed through this gate. Every one of them arrived having crossed a vast ocean to a new timezone.
 
 [9am in Port Louis is 5am in London](/when/9am-port-louis/london).

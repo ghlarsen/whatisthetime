@@ -13,6 +13,8 @@ Tarawa is an atoll, a thin strip of coral and sand in the central Pacific, and t
 
 What is dramatic is the timezone. Tarawa runs at UTC+12, which places it among the first inhabited places on Earth to enter each calendar day. New Year's Eve broadcasts sometimes cut to Kiribati as the symbolic first celebration, though the Marshall Islands and Samoa have nudged in on that distinction over the years.
 
+## one country, one date
+
 The Gilbert Islands group, where Tarawa sits, pushed to UTC+12 in the 1990s to align the entire country under one timezone, even though the Phoenix and Line Islands to the east technically sit in earlier-day longitude. It was a practical and political decision. One country, one date.
 
 [9am in Tarawa is 9pm the previous day in London](/when/9am-tarawa/london). Neighbors on the same clock include [Majuro](/majuro) in the Marshall Islands.

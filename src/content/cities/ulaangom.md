@@ -15,6 +15,8 @@ Mongolia uses two timezones. Most of the country, including the capital Ulaanbaa
 
 Ulaangom is among Mongolia's more isolated provincial capitals. The region is home to Kazakh, Tuvan, and other Mongolian ethnic groups. Traditional nomadic herding continues alongside settled town life, and the herders' relationship with time is organized around seasonal pasture movements and livestock cycles rather than civil hours.
 
+## extreme climate and nomadic time
+
 The Uvs region experiences extreme continental climate: winters reach -40°C, summers can hit 40°C. The relationship between the clock and usable daylight hours matters enormously when temperature, not just light, defines when outdoor work is possible.
 
 [9am in Ulaangom is 2am in London](/when/9am-ulaangom/london). [Hovd](/hovd) to the south shares the same western Mongolian timezone.

@@ -15,6 +15,8 @@ The timezone arrangement at Troll is genuinely unusual. The station uses UTC+0 d
 
 This creates a DST-like switch in reverse from the northern hemisphere: Troll advances clocks in the southern spring and retires them in the southern autumn. The effect is that the station's clock change aligns with Norway's, not with Antarctic seasons.
 
+## polar extremes and a coordination clock
+
 At 72 degrees south, the station experiences complete polar night in winter (no sun for weeks) and complete polar day in summer (the sun does not set for weeks). The clock's relationship to natural light is essentially decorative during these extremes. Time here is a coordination tool, not a light indicator.
 
 [9am at Troll is 9am in London](/when/9am-troll/london) in the Antarctic winter. [Vostok Station](/vostok) in the Russian sector keeps its own Antarctic time.

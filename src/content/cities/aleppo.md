@@ -15,6 +15,8 @@ The clock is Eastern European Time, UTC+2 in winter, UTC+3 during summer DST. Th
 
 Syria has had a complicated relationship with daylight saving time. The practice was abolished and reintroduced multiple times in the 20th century. Since 2011 and the onset of the Syrian conflict, time administration has been disrupted. Practical observation of DST transitions has varied by year and by the realities of which authorities control which areas.
 
+## War, destruction, and the old clock
+
 Aleppo has suffered enormously in Syria's civil war. Significant portions of the historic city center, the souks, the old quarters, were destroyed between 2012 and 2016. Reconstruction is ongoing, but the old rhythms of market days and trading caravans exist now as history, not present reality.
 
 [Damascus](/damascus) shares the same timezone, keeping the country's two major cities synchronized. [9am in Aleppo is 7am in London](/when/9am-aleppo/london) during European winter.

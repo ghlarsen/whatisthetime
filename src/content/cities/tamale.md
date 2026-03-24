@@ -13,6 +13,8 @@ Tamale is the capital of Ghana's Northern Region and the country's fourth-larges
 
 [Ghana](/country/ghana) straddles the prime meridian, and Tamale's position means local solar noon falls within minutes of noon on the clock. This alignment is unusual: most cities with GMT offsets are not actually at zero longitude, and the difference between clock noon and solar noon is a small but real offset for them. Tamale barely has that offset.
 
+## market days and the prime meridian
+
 The city is the commercial and administrative hub of northern Ghana, which is culturally and economically distinct from the more industrialized south. Market activity is central: Tamale's daily market and the larger weekly Katampe market attract traders from across the region. Market days organize the commercial week in a way that parallel the official seven-day clock.
 
 Tamale has a predominantly Muslim population in the north, and the call to prayer marks the day's rhythmic structure alongside any clock schedule.

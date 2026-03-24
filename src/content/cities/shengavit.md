@@ -15,6 +15,8 @@ Armenia runs on Armenia Time (UTC+4) all year. Armenia observed daylight saving 
 
 At 40 degrees north, Yerevan and its districts have real seasonal light variation: about 14.5 hours of daylight in June and about 9.5 hours in December. The elimination of DST means that winter mornings in Shengavit are darker than they would be under the old system, but the clock stays fixed.
 
+## Mount Ararat and the Armenian year
+
 The Ararat plain that Yerevan overlooks to the south, and the peak of Mount Ararat itself (visible from the city on clear days despite being in Turkey), provide the defining temporal landmark of the Armenian year: the first days when Ararat's snow cap becomes visible in autumn, the last sightings before summer haze obscures it.
 
 [Sumqayıt](/sumqay-t) in neighboring Azerbaijan keeps the same UTC+4 offset on a different political clock.

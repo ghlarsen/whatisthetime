@@ -15,6 +15,8 @@ Willemstad's harbor front is immediately recognizable: rows of Dutch colonial bu
 
 Curaçao has been a Dutch possession since 1634, and the Papiamentu language spoken here, a creole of Portuguese, Spanish, Dutch, English, and African languages, reflects the island's role as a crossroads of Atlantic trade. The island's deepwater harbor made it one of the Caribbean's most important trading posts. The slave trade passed through here in enormous numbers.
 
+## harbor crossings and Atlantic trade legacy
+
 The Queen Emma Bridge (Koningin Emmabrug), a pontoon bridge that swings open to let ships through, connects the two halves of Willemstad. When the bridge opens for a vessel, the city's two halves briefly disconnect. Residents wait, or take the free ferry. The ships don't wait for anyone's schedule.
 
 [9am in Willemstad is 1pm in London](/when/9am-willemstad/london). [Oranjestad](/oranjestad) in Aruba shares the same Atlantic Standard Time.

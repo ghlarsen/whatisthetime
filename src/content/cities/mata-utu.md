@@ -13,6 +13,8 @@ Mata-Utu is the capital of Wallis and Futuna, a French overseas collectivity con
 
 Wallis and Futuna is one of France's most remote and least-known overseas territories. The combined population is around 11,000 people. The islands have no airports with scheduled international service; the main connection is via Fiji or Noumea. In a territory this isolated, civil time primarily serves the purpose of synchronizing with French administrative schedules and the supply ships that connect the islands to the outside world.
 
+## three kings and French administration
+
 The territory has a traditional hierarchy of three kings who hold authority alongside the French government. This dual governance has its own temporal rhythms, with traditional ceremonies and agricultural seasons operating independently of bureaucratic schedules.
 
 [9am in Mata-Utu is 9pm in London](/when/9am-mata-utu/london) the previous evening.

@@ -13,6 +13,8 @@ Stockholm sits on the Baltic coast at 59 degrees north, spread across fourteen i
 
 The clock is consistent. The light is not. In June, Stockholm's sunset comes after 10pm, and the sky never fully darkens. In December, the sun rises after 8:30am and sets before 3pm. Seven hours of pale winter daylight versus nearly eighteen hours of Nordic summer light. The clock says the same numbers; the sky tells a completely different story in each season.
 
+## light, darkness, and Swedish culture
+
 This extreme variation has shaped Swedish culture in distinctive ways. The concept of lagom, balance and moderation, partly reflects a people who have learned to live through both extremes. The summer light creates a manic energy: Swedes stay outside late, the parks and waterfronts fill after dinner, and the sense of borrowed time creates an urgency. The winter darkness creates a cosiness that the Swedes call mysig, a warmth made more meaningful by what surrounds it.
 
 Sweden participated in EU discussions about abolishing DST, expressing preference for keeping permanent summer time (UTC+2 year-round). The question remains unresolved.

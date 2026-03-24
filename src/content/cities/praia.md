@@ -15,6 +15,8 @@ Cabo Verde sits in the Atlantic, about 570 kilometers west of Senegal, which mak
 
 Praia sits on a plateau above the southern coast of Santiago, the Portuguese word for "beach." The city spills down to the Quebra Canela beach below. The northeast trade winds cool the city most of the year, though the harmattan blows red dust from the Sahara in winter, tinting the air and reducing visibility.
 
+## morna, saudade, and island time
+
 The music born in Cabo Verde, morna, carries a specific weight called saudade: longing, nostalgia, the feeling of someone or something absent. It is island music, ocean music. The great Cesária Évora, who grew up in the northern island of São Vicente, carried this sound to international audiences. Her time was her own, unhurried, like the tide.
 
 [9am in Praia is 10am in London](/when/9am-praia/london) in winter.

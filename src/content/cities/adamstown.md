@@ -15,6 +15,8 @@ The island runs on UTC-8, year-round, no daylight saving. This offset is unusual
 
 The IANA identifier is Pacific/Pitcairn. There are no other cities in that timezone group. Adamstown is, in timezone database terms, alone.
 
+## Time on the edge of the world
+
 Time has a different quality on an island with under 50 residents. Supply ships arrive roughly every three months. There is no rush hour. The rhythms of the settlement are tied to boat schedules, fishing tides, and the amateur radio transmissions the islanders use to communicate with the outside world.
 
 [9am in Adamstown is 5pm in London](/when/9am-adamstown/london), an 8-hour gap that reflects just how far removed this tiny capital is from the centers of global time.

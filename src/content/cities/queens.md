@@ -15,6 +15,8 @@ The borough runs on Eastern Time, UTC-5 in winter (EST) and UTC-4 in summer (EDT
 
 What differs is how time is structured within it. The lunar New Year in Flushing brings a different kind of morning in late January or February. The Diwali celebrations in Jamaica and Richmond Hill light up October evenings. The Eid prayers at the many mosques in Jamaica and Corona run on the Islamic lunar calendar. John F. Kennedy International Airport at the borough's southern edge runs 24 hours, a constant pulse of arrivals from every timezone on Earth.
 
+## airports and the pulse of arrivals
+
 LaGuardia Airport, more intimate and domestic, connects Queens to the American mainland. JFK connects it to everywhere else.
 
 [9am in Queens is 2pm in London](/when/9am-queens/london) in winter.

@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Khartoum North (also known as Bahri) sits on the east bank of the Nile, directly across from [Khartoum](/khartoum), connected by the Blue Nile and Shambat bridges. It is part of the greater Khartoum metropolitan area and keeps identical time: Africa/Khartoum, UTC+3, year-round, no daylight saving.
 
+## the industrial twin across the Nile
+
 Where Khartoum is the administrative center, Khartoum North is the industrial one. Cement factories, power stations, and manufacturing plants define its skyline. The working day here starts early by clock and by sun: at 16 degrees north, dawn breaks close to 6am most of the year.
 
 The Nile crossing between Khartoum and Khartoum North carries tens of thousands of commuters daily. The bridges are the bottleneck, and the commuter peak in the morning and evening shapes the rhythm of both sides of the river. No clock adjustment, no timezone difference, just the same UTC+3 on both banks of the Blue Nile.

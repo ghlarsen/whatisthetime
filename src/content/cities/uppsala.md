@@ -15,6 +15,8 @@ Uppsala was the religious capital of Sweden before Stockholm grew to dominance, 
 
 Uppsala Cathedral, the largest church in Scandinavia, has tolled time for the city since the 15th century. The university's academic terms, Michaelmas and spring, divide the year in the older tradition, and student nations (student associations with their own buildings and schedules) create a micro-temporal layer within the city's rhythm.
 
+## university city and academic time
+
 Carl Linnaeus, who developed the taxonomic classification system for all living things, was a professor here. His Uppsala garden still grows specimens he catalogued, organized by scientific time rather than seasonal intuition.
 
 [9am in Uppsala is 8am in London](/when/9am-uppsala/london). [Stockholm](/stockholm) and [Gothenburg](/gothenburg) share the same Swedish timezone.

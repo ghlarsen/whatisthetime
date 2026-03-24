@@ -15,6 +15,8 @@ Rijeka is one of Europe's genuinely contested cities. In 1920, after WWI, it was
 
 Rijeka sits on a steep hillside descending to the Kvarner Gulf, with the Gorski Kotar mountains behind it. The city faces the Adriatic and catches the bura wind, the fierce cold northeast wind that blows off the mountains in winter. The bura can reach 200 km/h in extreme cases. The city has learned to live with it.
 
+## harbor, wind, and island ferries
+
 The harbor handles containers, passenger ferries to the Dalmatian islands and beyond, and the general business of Croatia's main port. The ferry to the islands is where island time begins: the boat pulls away from the dock and mainland schedules become abstract.
 
 [9am in Rijeka is 8am in London](/when/9am-rijeka/london) in winter.

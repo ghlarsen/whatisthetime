@@ -15,6 +15,8 @@ Porto-Novo is the official capital of Benin, though the larger city of Cotonou, 
 
 The name Porto-Novo, "New Port" in Portuguese, reflects the city's origin as a Portuguese trading post in the 16th century. The Yoruba kingdom of Hogbonou was already established here when the Portuguese arrived. The city carries both histories in its architecture, its religious practices (Vodoun and Catholicism coexist), and its market rhythms.
 
+## traditional markets and their calendar
+
 The Adjarra market near Porto-Novo is a significant regional market, gathering traders from across southern Benin and from Nigeria nearby. The market day, on a specific rotational schedule tied to traditional four-day weeks, imposes its own calendar on the region alongside the civil clock.
 
 [9am in Porto-Novo is 8am in London](/when/9am-porto-novo/london) in winter.

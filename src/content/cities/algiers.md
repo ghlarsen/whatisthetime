@@ -15,6 +15,8 @@ This creates an interesting situation seasonally. In European winter, Algiers is
 
 Algeria's sun alignment is actually closer to UTC+1 than much of Spain, which uses Central European Time despite being geographically aligned with the UK. Algiers sits at roughly 3 degrees east longitude, for which UTC+0 or UTC+1 would be the most natural fit, and it has found its UTC+1 home.
 
+## The Casbah and the Bay
+
 The city itself climbs a hillside overlooking the Bay of Algiers, a whitewashed and blue-roofed city visible from the sea. The Casbah, the old Ottoman-era medina, is a UNESCO World Heritage site dense with narrow lanes and traditional architecture. The city's pace is Mediterranean: slow mornings, active evenings, a long afternoon rest during summer.
 
 [Annaba](/annaba) to the northeast shares the same timezone. [9am in Algiers is 8am in London](/when/9am-algiers/london) during European winter.

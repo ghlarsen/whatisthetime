@@ -13,6 +13,8 @@ Dumont d'Urville is France's main Antarctic research station, located on Petrel 
 
 The reasoning is logistical: the station is supplied from Hobart, Tasmania (UTC+10/+11) and coordinates with Australian operations and the French supply vessel L'Astrolabe. Keeping the station's clock close to Australian time reduces scheduling confusion for the supply chain.
 
+## polar science and the logistics of isolation
+
 At 66.7 degrees south, the polar circle's effects are pronounced. In summer, the sun stays above the horizon for weeks. In winter, the darkness is total. The station's rotating scientific crews maintain a schedule built around research programs, equipment maintenance, and weather observation, none of which depend on whether it's day or night outside. UTC+10 is simply the reference point that connects Dumont d'Urville to the nearest operational civilizational infrastructure.
 
 [Convert 9am DumontDUrville time to London](/when/9am-dumontdurville/london)

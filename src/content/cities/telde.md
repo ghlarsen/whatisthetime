@@ -13,6 +13,8 @@ Telde sits on the eastern coast of Gran Canaria, one of the Canary Islands off t
 
 The offset makes geographic sense. The Canaries sit closer in longitude to Morocco and the UK than to the Iberian Peninsula. Putting them on the same clock as mainland Spain would mean solar noon arriving close to 2pm in winter, an already-late midday pushed even further.
 
+## pre-Hispanic roots and fixed one-hour gap
+
 Telde itself is older than Las Palmas de Gran Canaria, the island capital. The pre-Hispanic Guanche people established significant settlements here. The colonial city that followed kept their road patterns in parts, giving Telde a different texture than the grid-planned later towns.
 
 The Canaries do not observe DST in isolation: they switch in sync with the rest of Europe, so the one-hour gap from mainland Spain is constant year-round. For businesses dealing with Madrid, the difference is a fixed and easy adjustment.

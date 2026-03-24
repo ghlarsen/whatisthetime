@@ -15,6 +15,8 @@ The clock today is Arabia Standard Time, UTC+3. The IANA identifier is Asia/Bagh
 
 [Al Basrah al Qadimah](/al-basrah-al-qadimah) in southern Iraq shares the timezone, keeping Iraq's two major cities synchronized across a 550-kilometer distance.
 
+## Returning to the riverbank
+
 Baghdad's daily rhythm today is shaped by decades of conflict and reconstruction. Security improvements since the worst years of the 2000s have allowed a gradual return of outdoor cafe culture, evening markets, and the social life of a naturally sociable city. The Tigris River, which bisects Baghdad, has walkways that fill in the cooler evening hours.
 
 At 33 degrees north, Baghdad has real seasons. Winters can be cold with occasional frost. Summers are brutal: July temperatures regularly exceed 45 degrees Celsius. The city adjusts: outdoor activity concentrates in spring (March-May) and autumn (October-November), the two tolerable seasons.

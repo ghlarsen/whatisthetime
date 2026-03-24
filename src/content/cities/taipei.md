@@ -13,6 +13,8 @@ Taipei sits in a basin in northern [Taiwan](/country/taiwan), ringed by mountain
 
 The city's relationship with time is partly defined by its night markets. Shilin, Raohe, Ningxia, and the others don't really start until 6pm and peak between 8 and 11pm. Taipei's evening economy is as serious as its daytime one. The MRT runs until midnight. Hot pot restaurants fill at 10pm. The concept of "too late" takes some recalibration for visitors from cities where everything closes by 9.
 
+## night markets and late-night city
+
 At 25 degrees north, Taipei has moderate seasonal light variation. Summer evenings carry light past 7pm. Winter afternoons close by 5:30pm. The fixed UTC+8 means these shifts happen against a consistent clock background.
 
 Taiwan's IANA timezone identifier is `Asia/Taipei`, distinct from China's `Asia/Shanghai` even though both are UTC+8. The political distinction matters for historical records: Taiwan observed DST at different times than mainland China, and the transition dates in their respective histories differ.

@@ -13,6 +13,8 @@ Pearl City sits on the north shore of Pearl Harbor, immediately adjacent to the 
 
 Hawaii uses Hawaii Standard Time, UTC-10, year-round, with no daylight saving. The US state is the only one that doesn't observe DST. Hawaii's IANA identifier is Pacific/Honolulu. At 21.4 degrees north, the islands' daylight varies modestly: from about 11 hours in December to 13.5 hours in June. The consistent tropical climate makes seasonal clock adjustments pointless, and Hawaii has never been interested in participating.
 
+## coordinating across the Pacific gap
+
 The UTC-10 offset places Pearl City and the rest of Hawaii significantly behind the US mainland: 5 hours behind New York in winter, 6 in summer. Hawaii's workday, when it begins, is already mid-afternoon or evening on the East Coast. This gap requires deliberate scheduling for any coast-to-coast coordination, and many Hawaii businesses are accustomed to catching mainland calls in early morning, before the rest of Hawaii has fully woken up.
 
 The Naval Station Pearl Harbor operates around the clock regardless of civilian time, though scheduled activities, flights, and maintenance windows follow Hawaiian Time.

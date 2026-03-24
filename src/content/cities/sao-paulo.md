@@ -15,6 +15,8 @@ The DST abolition was controversial. São Paulo sits at 23 degrees south, far en
 
 Since 2019, São Paulo has stayed at UTC-3 year-round. The city's relationship with time has never been purely about the clock anyway. Traffic here operates on its own logic: rush hour can mean anything from 7am to 10pm, and the city's famous gridlock has been cited as equivalent to hours of lost productivity daily. The fixed timezone simplified at least one dimension of this chaos.
 
+## the stock exchange and New York alignment
+
 São Paulo is also a major financial center, and the BM&F Bovespa stock exchange's operating hours synchronized with New York markets matter intensely. UTC-3 puts São Paulo two hours ahead of New York during US Eastern Standard Time, one hour ahead during EDT.
 
 [9am in São Paulo is 12pm in London](/when/9am-sao-paulo/london) in winter, 1pm during British Summer Time.

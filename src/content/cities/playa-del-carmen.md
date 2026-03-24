@@ -15,6 +15,8 @@ The reason was economic. Quintana Roo's tourism industry argued that keeping the
 
 [Mexico](/country/mexico) has several timezone quirks, but Quintana Roo's permanent EST is among the most consequential for daily life. Visitors from Mexico City, arriving on the same time zone theoretically, find the clocks matching in winter but diverging by an hour in summer.
 
+## beach life and daylight patterns
+
 Playa del Carmen sits at 20 degrees north. Daylight variation is modest: sunrise between 5:50am and 7am, sunset between 6:15pm and 7:30pm. The beach doesn't care much about the calendar. The water temperature stays warm year-round. Time, here, is mostly about when the cenotes open.
 
 [9am in Playa del Carmen is 2pm in London](/when/9am-playa-del-carmen/london) in winter. The same as [Cancun](/cancun) just to the north.

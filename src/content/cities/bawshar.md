@@ -17,6 +17,8 @@ UTC+4 aligns Oman with the UAE to the northwest. [Al Ain City](/al-ain-city) in 
 
 At 23.6 degrees north latitude, Oman's daylight variation is modest. Summer days run about 13.5 hours. Winter days run about 10.5 hours. The strong argument for DST that exists in high-latitude countries doesn't apply here.
 
+## A university and an oil-funded economy
+
 Bawshar's Sultan Qaboos University gives the area an academic rhythm alongside the standard governmental and residential character. Research programs, student schedules, and academic calendars layer over the broader working patterns of a capital district.
 
 Oman's oil industry, which funds much of the country's development, coordinates globally, and the financial sector works primarily with the London and New York opens, three hours after and nine hours before UTC+4 respectively.

@@ -15,6 +15,8 @@ Port-de-Paix is one of the oldest French colonial settlements in Haiti, sitting 
 
 The northwest of Haiti is among the country's driest regions. The rains that sustain farming elsewhere are less consistent here. The daily rhythm is shaped by the heat: activity early in the morning and again in the cooler late afternoon, the midday hours reserved for shade and slower work. The body finds its own time when the sun is most direct.
 
+## Tortuga and the pirate past
+
 The Île de la Tortue, Tortuga Island, sits just off the coast of Port-de-Paix. In the 17th century, Tortuga was the base for Caribbean buccaneers, the pirates and privateers who operated in the cracks between European empires. Their schedules were governed by tides and wind more than any clock.
 
 [9am in Port-de-Paix is 2pm in London](/when/9am-port-de-paix/london) in winter.

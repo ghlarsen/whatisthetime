@@ -15,6 +15,8 @@ Jordan uses Eastern European Time, UTC+2, in winter and observes daylight saving
 
 The daylight saving transition in Jordan has historically occurred at the last Friday of March and the last Friday of September, following Islamic prayer scheduling logic. The Friday evening timing minimizes disruption to the working week.
 
+## Evening city, late nights
+
 Amman's daily rhythm reflects both its climate and its culture. The city wakes early for morning prayers, cools down during the early afternoon especially in summer, and comes fully alive in the evenings. Restaurants and cafes fill after 9pm. The city's social life runs late by Western standards.
 
 The Friday-Saturday weekend (Jordan switched from Thursday-Friday in 2000) means the workweek starts Sunday, creating a one-day offset from European business schedules.

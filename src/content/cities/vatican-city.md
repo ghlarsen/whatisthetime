@@ -15,6 +15,8 @@ The [Vatican](/country/vatican) keeps Central European Time, UTC+1 in winter and
 
 For a state whose primary function is managing a global institution, the timezone calculation is perpetually active. Papal addresses, Vatican broadcasts, and liturgical announcements are coordinated across every timezone simultaneously. The Angelus prayer, broadcast at noon Rome time from St. Peter's Square on Sundays, is watched by audiences in Asia at 7pm, in the Americas at 6am, and in Australia past midnight.
 
+## canonical hours and the origin of noon
+
 The tradition of marking canonical hours, originating in monastic communities, gave Western civilization its first consistent daily time division: Matins, Lauds, Prime, Terce, Sext, None, Vespers, Compline. The word "noon" derives from "None," the ninth hour of daylight reckoning, originally around 3pm, which migrated to midday over centuries.
 
 [9am in Vatican City is 8am in London](/when/9am-vatican-city/london). [Rome](/rome) immediately surrounds it on the same clock.

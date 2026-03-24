@@ -17,6 +17,8 @@ The shift happened abruptly in late March 2014. Residents who went to sleep on E
 
 The IANA timezone database lists the peninsula as `Europe/Simferopol` and tracks both the pre-2014 and post-2014 transitions. For software handling historical data from Crimea, the switch in spring 2014 requires careful attention.
 
+## a naval city and two sieges
+
 The city's naval history stretches back to ancient Greek colonies. The Siege of Sebastopol during the Crimean War (1854-1855) and its defense during World War II are both defining episodes in the city's identity.
 
 [9am in Sevastopol is 6am in London](/when/9am-sevastopol/london) in winter, 7am during British Summer Time.

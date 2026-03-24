@@ -15,6 +15,8 @@ The clock is West Africa Time, UTC+1. The IANA identifier is Africa/Douala, name
 
 At roughly 5.4 degrees north latitude, Bafoussam has minimal seasonal daylight variation. The highland elevation (1,450 meters) gives it a pleasant climate quite different from the coastal heat of Douala. Mornings are cool and often misty. The city comes fully alive in the afternoon.
 
+## Connected through coffee and commerce
+
 The Bamiléké diaspora, spread across Cameroon and internationally, maintains strong commercial networks that make Bafoussam's market economy more connected to global trade than its size might suggest. Coffee exported through here reaches European and American markets. The rhythm of harvest season and commodity prices shapes the city's economic heartbeat as much as any clock.
 
 [9am in Bafoussam is 8am in London](/when/9am-bafoussam/london) during European winter.

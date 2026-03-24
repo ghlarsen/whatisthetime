@@ -15,6 +15,8 @@ But Sarajevo's relationship with time goes deeper than a timezone offset. The ci
 
 The 1914 assassination of Archduke Franz Ferdinand in Sarajevo is the moment that crashed European political time into a new era. The precise hour, 10:45am on June 28, is fixed in histories of the twentieth century's first catastrophe.
 
+## the siege and its parallel time systems
+
 The siege of Sarajevo from 1992 to 1996 imposed its own temporal logic: the clock kept running, but the shelling schedule, the sniper fire patterns, and the rotation of UN convoys created a parallel time system that residents navigated alongside official hours.
 
 [9am in Sarajevo is 8am in London](/when/9am-sarajevo/london) in winter, one hour behind Central European Time.

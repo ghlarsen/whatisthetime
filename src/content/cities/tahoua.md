@@ -15,6 +15,8 @@ Niger uses UTC+1 despite being on roughly the same longitude as the United Kingd
 
 At 14 degrees north, Tahoua sits in the Sahel's contested zone, where rainfall is uncertain and the difference between an adequate harvest year and a lean one can be a matter of weeks of rain falling at the right time. The agricultural calendar here runs on rainfall patterns and planting windows rather than any clock schedule.
 
+## Sahel crossroads and seasonal rhythms
+
 Tahoua is also a transit point for people moving between West Africa and North Africa, and the city has seen significant flows related to migration patterns across the Sahara. Market day, held on a weekly cycle, remains a major organizing principle of the city's commercial time.
 
 [9am in Tahoua is 8am in London](/when/9am-tahoua/london) in winter, 7am during British Summer Time.

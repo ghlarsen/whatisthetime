@@ -15,6 +15,8 @@ Julius Caesar reformed the Roman calendar in 45 BC, creating the Julian Calendar
 
 At 42 degrees north, Rome's summer evenings are long and warm. July sunset comes after 8:30pm. The evening passeggiata, the Italian tradition of an early evening walk, emerges naturally from this light: the worst heat has passed, the light is golden, and the fountains run cold. Roman summer is lived outdoors from 6pm to midnight.
 
+## the Vatican's liturgical time
+
 The Vatican, the sovereign state within Rome, operates on the same clock as Italy but its schedule is governed by liturgical time: the Angelus at noon and 6pm, the schedule of papal audiences, the feast days of the Catholic calendar. It runs on its own kind of time.
 
 [9am in Rome is 8am in London](/when/9am-rome/london) in winter.

@@ -15,6 +15,8 @@ Timor-Leste's timezone was established when the country became independent after
 
 At about 9 degrees south, near the equator, Suai sees minimal daylight variation across the year. The fixed timezone requires no adjustment, and the Indonesian occupation-era clock has remained in place.
 
+## massacre, independence, and rebuilding
+
 Suai carries one of the most painful chapters of the independence struggle. In September 1999, following the independence referendum, pro-Indonesian militia attacked the town and massacred hundreds of internally displaced people sheltering in and around the local church. The Igreja de Suai massacre is a defining event in Timorese historical memory.
 
 The country has rebuilt, and Suai's port has been developed to serve offshore oil exploration in the Timor Sea, giving the small coastal town an economic connection to the region's energy resources.

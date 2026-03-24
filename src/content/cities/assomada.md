@@ -15,6 +15,8 @@ Assomada is the second-largest town on Santiago, Cape Verde's largest island, si
 
 This timezone is significant because it is one of only two UTC-1 timezones in the world (the other being the Azores during standard time). Cape Verde's physical position in the Atlantic puts it westward enough to warrant this unique offset.
 
+## Highland market at the island's center
+
 Assomada's highland location, at around 700 meters elevation, gives Santiago island's interior a cooler, greener character than the arid coastal zones. The Ribeira Seca valley and surrounding hills are used for agriculture in a way the coastal zones cannot support. The rhythm of market days and agricultural seasons defines Assomada more than any global financial calendar.
 
 The town's weekly market draws people from hours away, on foot and by collective taxi. Those market mornings are the peak hours of activity in a town that otherwise maintains a gentler pace.

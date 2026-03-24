@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 East Jerusalem is one of the few places on Earth where the timezone itself is a political statement. The IANA database assigns the `Asia/Hebron` timezone to East Jerusalem and the Palestinian West Bank. Israel administers the area under its `Asia/Jerusalem` timezone. For a resident in East Jerusalem, which clock applies depends entirely on which authority they recognize.
 
+## two clocks in the same space
+
 Palestine Standard Time follows a DST schedule set by the Palestinian Authority, typically shifting clocks in March and October, though the exact dates have varied year to year. Israel Standard Time follows its own schedule, set by the Knesset, which also changes and does not always align with the Palestinian schedule. There have been periods when the two zones are offset by one hour despite being a few hundred meters apart.
 
 In practical daily life, residents of East Jerusalem use whichever clock is relevant to their context: Israeli clock when interacting with Israeli institutions, Palestinian clock otherwise, and UTC for anything international. The two times coexist in the same physical space, which is not unusual in divided cities but is unusually codified here. The IANA database's decision to maintain separate entries for `Asia/Jerusalem` and `Asia/Hebron` reflects the reality that these two timezones have genuinely diverged.

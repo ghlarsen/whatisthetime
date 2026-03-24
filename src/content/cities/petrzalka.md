@@ -13,6 +13,8 @@ Petržalka sits on the south bank of the Danube, connected to Bratislava by brid
 
 [Slovakia](/country/slovakia) runs on Central European Time, UTC+1 in winter and UTC+2 during summer. That means long July evenings when daylight stretches past 9pm and December afternoons when darkness arrives before 4. The latitude here is about 48 degrees north. Seasonal contrast is real.
 
+## the Danube commute and daily rhythm
+
 The towers of Petržalka catch the sunrise from the east before the old town across the river, a few minutes of geometric precision each morning. Commuters heading into Bratislava cross the Most SNP bridge, the UFO-shaped structure that has defined this corner of the Danube since 1972. Rush hour here runs on the same CET schedule as [Vienna](/vienna), just 65 kilometers away.
 
 [Converting 9am Petržalka time to London](/when/9am-petrzalka/london) is a one-hour difference in winter, zero in summer when both regions align briefly.

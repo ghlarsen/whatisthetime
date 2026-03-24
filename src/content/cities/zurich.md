@@ -15,6 +15,8 @@ Zürich made watches before it made banks, and it made banks before it made the 
 
 Swiss Federal Railways (SBB) publishes performance statistics showing that nearly 93% of trains arrive within three minutes of schedule. The network is famous enough that the Swiss railway clock, designed by Hans Hilfiker in 1944, became an iconic object: the sweeping red second hand that pauses slightly at the top before the minute turns was adopted by Apple as the default clock face on the first iPad, leading to a licensing agreement after SBB pointed out the resemblance.
 
+## Bahnhofstrasse and the watch shops
+
 The Bahnhofstrasse, Zürich's main commercial street, runs from the main station to the lake. The watch shops are not metaphorical. They are actual stores selling instruments for measuring the thing the city has always cared about most.
 
 [9am in Zürich is 8am in London](/when/9am-zurich/london). [Vaduz](/vaduz) in neighboring Liechtenstein keeps the same clock.

@@ -15,6 +15,8 @@ Puerto Rico runs on Atlantic Standard Time, UTC-4, year-round. The IANA identifi
 
 This creates an interesting situation for Puerto Rico's relationship with the US mainland. Most of the continental US observes daylight saving time, advancing one hour in spring. Puerto Rico does not. So for half the year, Puerto Rico is one hour ahead of Eastern Time (the time zone most closely associated with New York and the federal government). For the other half, it is in sync with Eastern Time during DST.
 
+## One hour ahead of New York, sometimes
+
 When New York is on EST (UTC-5), Puerto Rico at UTC-4 is one hour ahead. When New York is on EDT (UTC-4), the two are synchronized. Business calls, court filings, federal deadlines: these all carry this seasonal hour offset.
 
 [Bayamón](/bayamon) and San Juan share the same clock. The island of Puerto Rico is small enough that a single timezone covers it easily, and the tropical latitude (18.4 degrees north) means DST is climatically irrelevant.

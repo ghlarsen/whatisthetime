@@ -15,6 +15,8 @@ The clock is UTC-11, year-round. No daylight saving. The IANA identifier is Paci
 
 Niue's geography explains the offset. The island sits west of the 180-degree meridian but uses UTC-11 rather than UTC+13, placing it a full day behind rather than a day ahead. This keeps the island on the same calendar day as [Avarua](/avarua) in the Cook Islands to the east, which makes administrative and travel coordination with New Zealand more practical.
 
+## An island economy outside global time
+
 The island's economy is small and largely self-sufficient, with remittances from Niueans living in New Zealand providing significant income. The pace here is determined by the ocean and the agricultural calendar, not global financial markets. The 11-hour offset from UTC is practically irrelevant to most daily life.
 
 [9am in Alofi is 8pm in London](/when/9am-alofi/london) the previous evening, a 23-hour difference that puts Alofi nearly a full day behind the UK.

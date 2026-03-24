@@ -13,6 +13,8 @@ Mbabane is the administrative capital of Eswatini (formerly Swaziland), sitting 
 
 [Eswatini](/country/eswatini) is one of the world's last absolute monarchies, and Mbabane hosts the governmental functions while Manzini serves as the commercial center. The highland climate makes Mbabane notably cooler than much of the surrounding region, a colonial legacy of siting the capital at altitude for European comfort.
 
+## traditional ceremonies and national rhythm
+
 The country's traditional calendar, structured around the annual Ncwala (First Fruits) ceremony and the Reed Dance (Umhlanga), operates on lunar and agricultural cycles that supplement the civil clock. These ceremonies are matters of national identity that continue to shape the year's rhythm for Swazis.
 
 [9am in Mbabane is 7am in London](/when/9am-mbabane/london) during European winter.

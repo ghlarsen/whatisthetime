@@ -15,6 +15,8 @@ Samarinda sits on the Mahakam River in East Kalimantan, on the island of Borneo.
 
 East Kalimantan is the location of Indonesia's new capital, Nusantara, currently under construction about 70 kilometers south of Samarinda. The decision to move the capital from Jakarta, announced in 2019 and confirmed by legislation in 2022, will eventually make this region the administrative heart of the world's fourth most populous country. Samarinda will be its nearest major city.
 
+## the river route into Borneo's interior
+
 The Mahakam River above Samarinda leads to the Dayak communities of the interior, including the Kutai Kertanegara kingdom area around Tenggarong. The river trip takes days, the pace set by the current and the boats available. The interior of Borneo is still one of the world's most biologically diverse and least accessible regions.
 
 [9am in Samarinda is 1am in London](/when/9am-samarinda/london).

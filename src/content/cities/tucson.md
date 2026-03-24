@@ -15,6 +15,8 @@ The practical result is that Tucson runs on Mountain Standard Time, UTC-7, year-
 
 Within Arizona, the Navajo Nation is an exception. The Navajo reservation, which extends into Utah and New Mexico, does observe DST, meaning parts of the state within the Navajo lands switch while the rest of Arizona does not.
 
+## desert astronomy and the Navajo exception
+
 Tucson's saguaro cactus forests and the University of Arizona's astronomy facilities give it a particular interest in solar cycles. The saguaro blooms between late April and June, timed to desert heat rather than civil dates. The observatories at Kitt Peak, southwest of the city, operate on precise astronomical time.
 
 [9am in Tucson is 4pm in London](/when/9am-tucson/london). [Phoenix](/phoenix) shares the permanent UTC-7 clock.

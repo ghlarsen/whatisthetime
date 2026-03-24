@@ -15,6 +15,8 @@ Ponce calls itself La Perla del Sur, the Pearl of the South, and the people of P
 
 Ponce sits on the southern coast, sheltered from the Atlantic trade winds by the central mountain range. The climate here is drier than San Juan and hotter. The afternoon light in Ponce is intense and direct. The famous Ponce fire station, the Parque de Bombas, in red and black stripes at the center of the plaza, has been a landmark since 1882.
 
+## carnival and the Pearl of the South
+
 The city's annual Carnaval de Ponce, held in February, operates on its own suspended schedule: masks, music, and color that run through the night and into the next afternoon, where civil time becomes mostly theoretical.
 
 [9am in Ponce is 1pm in London](/when/9am-ponce/london).

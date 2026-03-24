@@ -15,6 +15,8 @@ The islands keep Cocos Islands Time, UTC+6:30, one of the world's rarer half-hou
 
 The Cocos Malay community maintains a distinct cultural identity, language (a Malay creole), and calendar of Islamic festivals that runs in parallel to the civil one. Home Island, across the lagoon from West Island, is where the Cocos Malay community primarily lives.
 
+## Cocos Malay community and administration gap
+
 The territory is administered from Christmas Island and ultimately from Canberra. For practical communication, the difference between Australian Eastern Time (UTC+8 or UTC+11) and the local UTC+6:30 is a constant factor in scheduling.
 
 [9am on West Island is 2:30am in London](/when/9am-west-island/london). The nearest comparable timezone is [Yangon](/yangon) in Myanmar, also at UTC+6:30.

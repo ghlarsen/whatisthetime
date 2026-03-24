@@ -15,6 +15,8 @@ The civil settlement is now called Qaanaaq. The name "Thule" survives in the nea
 
 At 76 degrees north, Thule experiences extreme light cycles. For about four months, the sun does not set. For about four months, it does not rise. Polar night runs from mid-October to late February. The midnight sun runs from mid-April to late August. The clock at UTC-4 (or UTC-3 during DST) bears little relationship to the local solar experience during these extremes.
 
+## polar extremes and American DST alignment
+
 Greenland uses several different timezones across its vast territory. Thule's timezone, `America/Thule`, applies specifically to the Thule area and observes DST on the American schedule, creating alignment with eastern Canada during summer, which matters for logistics and flight connections.
 
 [9am in Thule is 1pm in London](/when/9am-thule/london). [Nuuk](/nuuk) in southern Greenland uses a different timezone.

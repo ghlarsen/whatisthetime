@@ -15,6 +15,8 @@ Suriname is the smallest sovereign country in South America and one of the most 
 
 Suriname's interior is among the least disturbed tropical rainforests in the world. More than 90% of the country is forest. The interior communities, accessible mainly by river or small aircraft, run on rhythms set by the forest, the rivers, and the seasons as much as by any civil clock.
 
+## seasons and interior forest communities
+
 The wet and dry seasons define the year more than clock time does in the interior. The long wet season (April-August) brings flooding, which restricts river travel and harvests. The short dry season (September-November) opens access. The Maroon and indigenous communities of the interior have managed this calendar for generations.
 
 [9am in Rainville is noon in London](/when/9am-rainville/london).

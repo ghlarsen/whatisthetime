@@ -13,6 +13,8 @@ Santo Domingo was founded in 1496 on the southern coast of Hispaniola, making it
 
 The city keeps Atlantic Standard Time (UTC-4) year-round. [The Dominican Republic](/country/dominican-republic) dropped daylight saving time in 1974 and has maintained the fixed offset since. At 18 degrees north, daylight barely shifts across the seasons, making the fixed clock practically comfortable.
 
+## late nights and the malecón waterfront
+
 The city's daily rhythm runs warm and late. Business hours tend to stretch into the evening, meals happen later than in North America, and the malecón waterfront promenade fills after sundown when the tropical heat becomes bearable. The clock says 8pm but the energy feels like early afternoon elsewhere.
 
 [Santiago de los Caballeros](/santiago-de-los-caballeros) to the north and [Santo Domingo Este](/santo-domingo-este) just across the Ozama River are all on the same fixed offset.

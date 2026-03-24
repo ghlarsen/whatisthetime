@@ -13,6 +13,8 @@ N'Djamena sits at the confluence of the Chari and Logone rivers, on the border w
 
 [Chad](/country/chad) runs on West Africa Time, UTC+1, year-round with no daylight saving. The IANA identifier is Africa/Ndjamena, making this city the reference point for its own timezone. At 12 degrees north, the city's daylight ranges from about 11 to 13 hours across the year. Sunrise falls between 5:30am and 6:30am through most of the year.
 
+## Ramadan, dust, and a Sahelian schedule
+
 The city's rhythm is heavily organized around the Islamic calendar. Friday prayers structure the week. Ramadan reorganizes the entire daily schedule: the city becomes quiet during fasting hours, then erupts into activity after iftar as restaurants fill and markets come alive well into the night.
 
 N'Djamena also shares its timezone with [Moundou](/moundou) to the south. The two cities are connected by one of Chad's main roads, but they represent very different regions of the country, one Sahelian, one more humid and agricultural.

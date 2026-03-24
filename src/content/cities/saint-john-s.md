@@ -15,6 +15,8 @@ Saint John's is a small capital with an outsized cricket reputation. Antigua pro
 
 Antigua's sailing season peaks in late April and early May with Antigua Sailing Week, one of the Caribbean's premier regattas. Falmouth Harbour and English Harbour, on the island's south coast, fill with racing yachts. The race schedule is set by wind and tide, but the shore parties run by their own logic.
 
+## market, port, and trading history
+
 The city's market and port area reflects three centuries of trading history: the docks, the public market selling local produce, the tourist-facing vendors in Heritage Quay. Time moves at different speeds in each.
 
 [9am in Saint John's is 1pm in London](/when/9am-saint-john-s/london).

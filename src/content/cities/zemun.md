@@ -15,6 +15,8 @@ The clock in [Serbia](/country/serbia) is Central European Time, UTC+1 in winter
 
 The Habsburg past is still visible in Zemun's architecture. The central square has an Austro-Hungarian scale and a Mediterranean ease that contrasts with Belgrade's more assertive post-Ottoman and socialist-era buildings. The Gardoš Tower on the hill above the Danube was built in 1896 to mark the millennium of the Magyar settlement in the Carpathian Basin.
 
+## Habsburg border town on the Danube
+
 The fish restaurants along Zemun's quay, overlooking the Danube toward the Pannonian plain, are a Belgrade institution. Sunday lunch by the river is a tradition that operates on its own elastic time, starting at noon, finishing whenever the conversation ends.
 
 [9am in Zemun is 8am in London](/when/9am-zemun/london). [Novi Sad](/novi-sad) to the north shares the same Belgrade timezone.

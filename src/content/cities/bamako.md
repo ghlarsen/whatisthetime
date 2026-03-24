@@ -17,6 +17,8 @@ The clock is UTC+0. The IANA identifier is Africa/Bamako. No daylight saving.
 
 The city wakes early. Markets are active before 7am. The day's pace slows in the hottest afternoon hours and picks up again after 4pm. Evening is social time: the outdoor grills, the tea ceremonies, the music culture that has made Bamako a recognized center of West African music.
 
+## Gold, music, and global commodity clocks
+
 The gold mining industry, one of Mali's most significant economic activities, connects Bamako to global commodity markets. The mining regions are largely to the west and south, but financial flows and export logistics pass through the capital. The city's banks and logistics companies work on timezone offsets that connect UTC+0 to London (same time in winter), New York (5 hours behind), and Dubai (4 hours ahead).
 
 [9am in Bamako is 9am in London](/when/9am-bamako/london) during European winter.

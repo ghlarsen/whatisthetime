@@ -15,6 +15,8 @@ The IANA identifier Pacific/Bougainville was added to the timezone database spec
 
 Arawa was built in the 1960s as a modern town to support the Panguna copper mine, one of the world's largest open-pit copper mines at the time. The Panguna mine was central to the Bougainville Crisis of 1988 to 1998, a conflict over mining revenues and autonomy that cost thousands of lives. The mine remains closed. Arawa is now rebuilding as the administrative capital of a region charting its own path.
 
+## Aligning with the Solomon Islands
+
 The timezone change, placing Bougainville with the Solomon Islands (UTC+11) rather than Papua New Guinea (UTC+10), reflects Bougainville's closer geographic and cultural ties to the Solomon Islands chain.
 
 [9am in Arawa is 10pm the previous night in London](/when/9am-arawa/london) during European winter.

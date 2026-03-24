@@ -13,7 +13,9 @@ Santo Domingo Oeste lies west of the Ozama River, on the opposite side of the ca
 
 The province runs on Atlantic Standard Time (UTC-4) all year. The [Dominican Republic](/country/dominican-republic) has kept this fixed offset without daylight saving since 1974. At 18 degrees north, the country's solar geometry makes DST largely unnecessary: the sun rises and sets at nearly the same hours year-round.
 
-Santo Domingo Oeste includes parts of the capital's industrial zone along the western edge of the metropolitan area. Manufacturing activity here follows standard commercial hours on the fixed clock, with shift work organized around the reliable UTC-4 offset that makes international scheduling straightforward for export-oriented businesses.
+Santo Domingo Oeste includes parts of the capital's industrial zone along the western edge of the metropolitan area. ## industrial zone and export-oriented schedules
+
+Manufacturing activity here follows standard commercial hours on the fixed clock, with shift work organized around the reliable UTC-4 offset that makes international scheduling straightforward for export-oriented businesses.
 
 [Santo Domingo](/santo-domingo) at the center and [Santiago de los Caballeros](/santiago-de-los-caballeros) to the north are all synchronized on the same Atlantic Standard Time.
 

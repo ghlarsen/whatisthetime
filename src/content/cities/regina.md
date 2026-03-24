@@ -15,6 +15,8 @@ Regina runs on Central Standard Time, UTC-6, every day of the year. No spring fo
 
 The practical consequence shifts by season. In winter, Regina is on the same clock as Chicago. In summer, when the US Central Time zone advances to CDT (UTC-5), Regina stays on CST (UTC-6). This means summer Reginans are an hour behind Winnipeg and an hour ahead of the Mountain Time zones.
 
+## prairie extremes and seasonal daylight
+
 Regina sits at 50 degrees north on the flat prairie, which means extremes. January temperatures can reach -40 degrees Celsius. July days can hit 40 degrees. The daylight shifts dramatically: June brings nearly 17 hours of sunlight. December delivers under 8. Saskatchewan humor acknowledges this: the flat land means you can watch your dog run away for three days.
 
 [9am in Regina is 3pm in London](/when/9am-regina/london) in winter, same as [Prince Albert](/prince-albert).

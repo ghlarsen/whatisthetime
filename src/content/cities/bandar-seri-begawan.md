@@ -17,6 +17,8 @@ UTC+8 aligns Brunei with [Singapore](/singapore) and peninsular Malaysia, the co
 
 The city's Kampong Ayer, a water village of 30,000 people on stilts over the Brunei River, is one of the largest water settlements in the world. It is ancient: Portuguese explorer Ferdinand Magellan visited in 1521 and described a prosperous city on stilts. The water village exists alongside the contemporary capital on the riverbanks.
 
+## A working week unlike the neighbors
+
 Daily rhythm here follows Islamic prayer times and the Gulf-influenced pattern from Brunei's strong ties to the Arab world. The working week runs Monday to Thursday and Saturday (Friday and Sunday are rest days). This unusual schedule means the business day starts differently than neighboring Malaysia and Singapore.
 
 [9am in Bandar Seri Begawan is 1am in London](/when/9am-bandar-seri-begawan/london) during European winter.

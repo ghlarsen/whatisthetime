@@ -13,6 +13,8 @@ Touba is a city that runs on two clocks simultaneously. The official one says UT
 
 The Grand Magal of Touba, held on the 18th day of the Islamic month of Safar, draws several million pilgrims to the city each year, making it one of the largest religious gatherings in Africa. The date shifts annually in the Gregorian calendar. For residents and organizers, the Islamic calendar and the civil calendar must be tracked in parallel.
 
+## Mouride Brotherhood and religious time
+
 Touba was founded in 1887 by Cheikh Amadou Bamba, the founder of the Mouride Brotherhood, a Sufi Islamic order with millions of followers in Senegal and the diaspora. The city is his legacy. It operates under a significant degree of religious authority distinct from the Senegalese state.
 
 At 14 degrees north, Touba experiences the full West African pattern: a rainy season from July to September and a long dry season where the harmattan wind from the Sahara sets the pace.

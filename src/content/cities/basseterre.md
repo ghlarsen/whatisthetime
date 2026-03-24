@@ -15,6 +15,8 @@ The clock is Atlantic Standard Time, UTC-4. The IANA identifier is America/St_Ki
 
 The Caribbean's small island nations almost universally use UTC-4 without daylight saving. The latitude of Saint Kitts, at 17 degrees north, makes DST largely irrelevant: day length varies from roughly 11.5 to 12.5 hours throughout the year. There is no compelling case for adjusting the clock.
 
+## A colonial clock in the town center
+
 Basseterre's Circus, modeled on London's Piccadilly Circus (though considerably smaller), is the colonial-era center of town. The Berkeley Memorial, a drinking fountain clock built in 1883 for a local merchant, still stands there. Clocks and colonial governance went together.
 
 Saint Kitts has a sugar cane history going back centuries. The old sugar plantations, now largely converted to other uses or left as ruins, dot the island's landscape. The Brimstone Hill Fortress, a UNESCO World Heritage site, still overlooks the western coast.

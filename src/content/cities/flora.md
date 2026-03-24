@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Flora is a village in Suriname's Sipaliwini district, the vast forested interior that constitutes most of the country's territory but holds only a small fraction of its population. It runs on Suriname Time, UTC-3, year-round, under the IANA identifier `America/Paramaribo`. No daylight saving has ever been observed.
 
+## Maroon communities and the rainforest interior
+
 Suriname uses UTC-3, which suits its longitude (55-58 degrees west, corresponding to roughly UTC-3.7 to UTC-3.5) reasonably well. The country sits in the equatorial zone, with minimal daylight variation across the year, which makes DST essentially pointless. Sunrise and sunset in the interior move less than 40 minutes across the whole calendar year.
 
 Flora and Suriname's interior villages are connected to the capital [Paramaribo](/paramaribo) by small aircraft and waterways rather than roads. The region is home to Maroon communities, descendants of escaped enslaved people who formed independent societies in the rainforest in the 17th and 18th centuries. These communities maintain their own cultural rhythms, agricultural calendars, and social structures that run alongside but not dependent on any standard timezone framework.

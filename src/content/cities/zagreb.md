@@ -15,6 +15,8 @@ Zagreb has two parts that tell different stories. The upper town (Gornji Grad), 
 
 At 45 degrees north, Zagreb gets meaningful seasonal daylight variation. Summer evenings extend well past 9pm. Winter afternoons go dark by 4:30pm. The city's café terrace culture is sensitive to this: outdoor seating fills from spring to autumn and thins noticeably as the days shorten.
 
+## earthquake timestamp and seasonal café culture
+
 The 2020 earthquake that struck Zagreb on March 22, 2020, did so at 6:24am, just as the city was beginning to wake. The precise timing, during the early COVID-19 lockdown, added a surreal layer to an already disorienting event.
 
 [9am in Zagreb is 8am in London](/when/9am-zagreb/london). [Ljubljana](/ljubljana) in Slovenia shares the same timezone.

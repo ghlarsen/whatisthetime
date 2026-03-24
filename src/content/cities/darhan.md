@@ -13,6 +13,8 @@ Darhan, Mongolia's second-largest city and an industrial center built during the
 
 Mongolia spans nearly 50 degrees of longitude, meaning UTC+8 is a political compromise. In Darhan at 49 degrees north, the sun rises considerably east of what UTC+8 implies. Solar noon falls around 12:30pm in winter. In the far western provinces, solar noon doesn't arrive until 3pm under UTC+8. Ulaanbaatar's choice of UTC+8 reflects the capital's gravitational pull on the country's official time, regardless of what the sun is doing elsewhere.
 
+## A Soviet industrial clock still running
+
 Darhan was a planned Soviet industrial city, founded in 1961 to reduce the dominance of Ulaanbaatar in Mongolian industry. Steel mills, factories, and workers' housing blocks were built to a timetable. The city still carries that Soviet precision in its grid layout, and its industrial schedules still run on the same centrally determined clock.
 
 [Convert 9am Darhan time to London](/when/9am-darhan/london)

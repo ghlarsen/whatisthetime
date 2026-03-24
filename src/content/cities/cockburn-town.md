@@ -13,6 +13,8 @@ Cockburn Town on Grand Turk island is the capital of the Turks and Caicos Island
 
 In 2015, the British government shifted the islands to Eastern Time with DST, aligning them with the United States. The stated reason was economic: most tourists and business partners were American, and the one-hour gap during summer was creating friction. The change was made without local referendum.
 
+## A reversal after three years
+
 By 2018, the islands reversed course. The government cited disruption to daily life, particularly early sunrises that wasted morning light under DST and late sunsets that confused children's bedtimes. The IANA timezone `America/Grand_Turk` records this unusual back-and-forth in its transition history. The islands now sit at UTC-5 year-round, no daylight saving.
 
 [Convert 9am Cockburn Town time to London](/when/9am-cockburn-town/london)

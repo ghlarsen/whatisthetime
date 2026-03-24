@@ -15,6 +15,8 @@ Santiago sits at 33 degrees south latitude, in a valley between the Andes and th
 
 Chile's DST history has been genuinely complicated. The country suspended DST between 2015 and 2016, then reinstated it. The Atacama region in the north has sometimes followed different rules than Santiago. The system has been revised multiple times, and Chile's IANA database entry requires careful tracking of historical exceptions.
 
+## the working day and long summer evenings
+
 Santiago's working day starts early. A city culture of long commutes and early office starts means activity peaks from roughly 7am. The long summer evenings (sunset past 8pm in January) fuel outdoor dining and social life that can stretch well past midnight.
 
 [9am in Santiago is 1pm in London](/when/9am-santiago/london) during Chilean summer (when Santiago is UTC-3 and London is on UTC+0), shifting as respective DST schedules diverge.

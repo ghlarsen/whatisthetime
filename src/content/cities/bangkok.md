@@ -13,6 +13,8 @@ Bangkok runs on Indochina Time, UTC+7. No daylight saving. Thailand has not chan
 
 The city's relationship with time is less about the clock and more about the heat. Bangkok sits at 13.7 degrees north latitude with a tropical climate: hot and humid most of the year, wet from May to October. The sun doesn't drive behavior here; the heat does. Activity concentrates in the early morning and evening, with a definite midday lull in exposed outdoor areas.
 
+## Markets, heat, and midnight street food
+
 Night markets and street food culture extend Bangkok's active hours well past midnight. The city's famous Yaowarat (Chinatown) and Khao San Road districts maintain significant activity until 2 or 3am. The elevated BTS Skytrain runs until midnight on weekdays and later on weekends, infrastructure that supports this extended evening economy.
 
 Bangkok's timezone creates convenient overlaps with Singapore and other Southeast Asian commercial hubs (UTC+8, one hour ahead). The financial sector's working hours align with the regional pattern. Morning in Bangkok is still morning in Singapore.

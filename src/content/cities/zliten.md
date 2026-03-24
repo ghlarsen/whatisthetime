@@ -15,6 +15,8 @@ Zliten sits on Libya's Mediterranean coast about 160 kilometers east of Tripoli,
 
 At about 32 degrees north on the Mediterranean coast, Zliten gets a mild Mediterranean climate: warm dry summers, moderate wet winters. Daylight variation is moderate at this latitude: summer days run about 14 hours, winter days about 10.
 
+## fragmentation and the consistent civil clock
+
 Libya's political fragmentation since 2011, with rival governments in Tripoli and the east, has meant that daily life in cities like Zliten is structured around whatever civil authority is present locally rather than national policy. The civil clock remains consistent, but the reliability of other services it coordinates, electricity, banking, government offices, has varied.
 
 [9am in Zliten is 7am in London](/when/9am-zliten/london). [Tripoli](/tripoli-libya) to the west keeps the same Libyan timezone.

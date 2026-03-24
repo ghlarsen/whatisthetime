@@ -15,6 +15,8 @@ The two cities share a timezone. Tijuana keeps Pacific Time, UTC-8 in winter and
 
 The alignment is deliberate and practical. Maquiladora factories on the Mexican side depend on synchronized scheduling with supply chains and management offices in California. Commuters who work in San Diego and live in Tijuana need to show up at the same time as their colleagues.
 
+## shared clock, distinct identity
+
 Tijuana's cultural identity is genuinely its own, not just a San Diego suburb across a line. The food, art, music scene, and the Zona Norte's nightlife have their own character. But the clock is shared, because the economics demand it.
 
 [9am in Tijuana is 5pm in London](/when/9am-tijuana/london). [San Jose](/san-jose-costa-rica) and [Vancouver](/vancouver) share parts of the Pacific timezone range.

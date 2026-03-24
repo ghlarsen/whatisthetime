@@ -15,6 +15,8 @@ Spain keeps Central European Time, UTC+1 in winter and UTC+2 during summer DST. 
 
 The result is Spain's famously late daily schedule. Lunch at 2-3pm is standard. Dinner at 9-10pm. The Pilar Fiesta evening processions can run past midnight to streets still full of families with children.
 
+## late lunches and the Franco-era clock
+
 Zaragoza was a Roman city (Caesar Augusta), then a Moorish capital (Saraqusta), then the seat of the Crown of Aragon. Each civilization left a temporal layer in its architecture and its saints' days.
 
 [9am in Zaragoza is 8am in London](/when/9am-zaragoza/london). [Madrid](/madrid) and [Barcelona](/barcelona) share the same Spanish timezone.

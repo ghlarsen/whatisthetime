@@ -15,6 +15,8 @@ San Antonio runs on Central Time, UTC-6 in winter (CST) and UTC-5 in summer (CDT
 
 The River Walk, the famous paseo along the San Antonio River below street level, defines the city's social geography. Restaurants and bars face the water; the ambient noise of the city is muted by the embankment walls. The River Walk operates late by Texas standards, the tables full until midnight in summer.
 
+## military bases and River Walk nights
+
 San Antonio's military presence: Fort Sam Houston, Lackland Air Force Base, Randolph Air Force Base, gives it a military clock overlay. Base schedules, deployments, and the 24-hour operational rhythms of the installations run beneath the civilian city's schedule.
 
 [9am in San Antonio is 3pm in London](/when/9am-san-antonio/london) in winter.

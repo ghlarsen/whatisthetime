@@ -15,6 +15,8 @@ Guernsey is 48 kilometers from the French coast of Normandy and 120 kilometers f
 
 Saint Peter Port climbs steeply from the harbor on the east coast. The Victorian market building, the narrow lanes, and Castle Cornet at the harbor entrance give the town a specific character. The harbor itself is tidal: at low tide, the walls drop far below the boat level. The tidal range here, like all of the Channel Islands, is considerable.
 
+## Victor Hugo and the island in exile
+
 Victor Hugo lived in Guernsey in exile from 1855 to 1870, writing Les Misérables and Toilers of the Sea (set on the island) in Hauteville House, which still stands. He looked out at the sea from his glass study on the roof and wrote on French time.
 
 [9am in Saint Peter Port is 9am in London](/when/9am-saint-peter-port/london) in winter.

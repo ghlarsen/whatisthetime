@@ -15,6 +15,8 @@ Belarus runs on a permanent UTC+3, year-round. The country observed DST until 20
 
 At 55 degrees north, Vitebsk gets significant daylight variation. In summer, UTC+3 means the sun rises very early by clock, sometimes before 4am solar time, and the evenings extend long. In deep winter, UTC+3 without DST means the morning stays dark well into the work day, a trade-off that the permanent clock accepts.
 
+## permanent summer time and seasonal light
+
 The Dvina River runs through Vitebsk, and the river's freeze in winter and thaw in spring are still informally tracked as seasonal markers by residents.
 
 [9am in Vitebsk is 6am in London](/when/9am-vitebsk/london). [Minsk](/minsk) to the southwest keeps the same permanent UTC+3.

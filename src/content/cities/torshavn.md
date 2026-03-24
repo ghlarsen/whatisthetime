@@ -15,6 +15,8 @@ The Faroes observe Western European Time, UTC+0 in winter and UTC+1 during summe
 
 The summer light at this latitude has a particular quality, low-angled and extended, that gives the green islands their dramatic visual texture in photographs. The winter dark brings the northern lights.
 
+## autonomous time, North Atlantic alignment
+
 The Faroes are an autonomous territory of Denmark but control their own time policy. The decision to align with UK time (rather than Denmark's Central European Time) reflects stronger practical connections to Scottish fishing ports and the North Atlantic shipping lanes than to Copenhagen.
 
 [9am in Tórshavn is 9am in London](/when/9am-torshavn/london) in winter. [Reykjavik](/reykjavik) to the west keeps the same UTC+0 year-round.

@@ -15,6 +15,8 @@ Popondetta is the town where the Kokoda Track begins, or ends, depending on whic
 
 The Kokoda Track walk takes most hikers 8 to 12 days in either direction. The schedule is driven by how many daylight hours you can physically use before heat and humidity and mountains stop you. The sun, not the clock, defines the day on the track.
 
+## the valley town beyond the track
+
 Popondetta town itself sits in the Oro River valley, a flat agricultural lowland surrounded by volcanic soil that produces some of Papua New Guinea's finest cocoa and rubber. The market opens early, before the heat of the day builds.
 
 [9am in Popondetta is 11pm the previous night in London](/when/9am-popondetta/london).

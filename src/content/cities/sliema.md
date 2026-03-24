@@ -13,6 +13,8 @@ Sliema sits across the harbor from Valletta, connected by a regular ferry servic
 
 Malta observes EU daylight saving rules, advancing clocks on the last Sunday of March and returning on the last Sunday of October. The island's position at 36 degrees north means summer evenings stretch past 8pm, and the promenade walks and waterfront dining that define Sliema's tourism season are made possible by the long Mediterranean light.
 
+## from fishing village to resort
+
 Sliema developed from a small fishing village into a fashionable residential address during the British colonial period. The British presence left the island on Central European Time, which Malta retained after independence in 1964, maintaining the alignment with Italy just 93 kilometers to the north.
 
 The ferry crossing between Sliema and Valletta takes about ten minutes. Both sides keep the same clock, but the contrast in what fills each hour is stark: government and museums on one shore, hotels and beach cafes on the other.

@@ -15,6 +15,8 @@ Then, in May 2018, three days before a historic inter-Korean summit, North Korea
 
 [North Korea](/country/north-korea) now uses the `Asia/Pyongyang` IANA identifier, currently set to UTC+9. The IANA database carries the full history of the Pyongyang Time experiment between the two changes.
 
+## the city few outsiders see
+
 Pyongyang sits at 39 degrees north, with real seasons. Summer is warm and humid. Winter is cold and dry. The city is built for display: wide boulevards, grand monuments, the Juche Tower on the Taedong River bank. The pace of daily life in Pyongyang is visible to very few outsiders.
 
 [9am in Pyongyang is 12am in London](/when/9am-pyongyang/london).

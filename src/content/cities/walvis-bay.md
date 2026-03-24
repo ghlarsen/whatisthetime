@@ -15,6 +15,8 @@ Walvis Bay sits in a natural harbor on Namibia's Atlantic coast, sheltered by th
 
 Walvis Bay has a complex colonial history. It was administered as part of South Africa separately from the rest of Namibia (then South West Africa) for decades, only fully integrated into Namibia in 1994, four years after independence. The port's deep-water harbor, the only one of significance on the Namibian coast, has always made it strategically valuable.
 
+## Benguela Current, fog, and flamingos
+
 The flamingo lagoon at Walvis Bay is one of the largest flamingo aggregations in southern Africa. The birds time their presence around food availability in the shallow saline lagoon, a biological clock that ignores UTC offsets entirely.
 
 [9am in Walvis Bay is 7am in London](/when/9am-walvis-bay/london). [Windhoek](/windhoek) inland shares the same Namibian timezone.

@@ -15,6 +15,8 @@ The absence of DST in Queensland creates a summer timezone situation where the S
 
 Queensland's reasons for rejecting DST have been consistently practical: the state's latitude (the Sunshine Coast is at about 26 degrees south) means summer afternoons are still significantly light late into the evening even without DST. Moving the clock forward would push evening light past 8:30pm in December, which the state has decided is unnecessary. There have been repeated referendums and votes on the question; the majority has consistently said no.
 
+## beach economy and Queensland's no-DST choice
+
 The Sunshine Coast's economy runs heavily on tourism, beach recreation, and lifestyle real estate. Outdoor activity peaks in the long Australian summer, which on AEST means consistent early morning light for surfing and activity that starts before 6am.
 
 [9am on the Sunshine Coast is 11pm in London](/when/9am-sunshine-coast/london) the previous day in winter, 10pm during British Summer Time.

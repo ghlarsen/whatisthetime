@@ -15,6 +15,8 @@ Quito is 22 kilometers south of the equator. The Ciudad Mitad del Mundo monument
 
 This consistency means no need for DST. The country does not observe it. [Guayaquil](/guayaquil) on the coast shares the same clock.
 
+## high altitude and equatorial climate
+
 At 2,850 meters elevation, Quito's climate is permanent spring: daytime temperatures of 15-20 degrees Celsius, cooler nights, and intense midday sun due to the altitude and equatorial angle. The city is warm enough to be comfortable without the tropical heat of the coast. The Andes trap the weather: afternoons often bring quick showers that clear by evening.
 
 [9am in Quito is 2pm in London](/when/9am-quito/london) in winter.

@@ -15,6 +15,8 @@ Nayarit uses Mountain Standard Time, UTC-7, year-round, without daylight saving 
 
 Most of [Mexico](/country/mexico) observes DST. Nayarit's exemption means that during the summer months, Tepic runs one hour behind Guadalajara to the south, even though the two cities are only about 200 kilometers apart. This creates practical friction for businesses and families straddling the state line, but residents treat it as a known variable.
 
+## indigenous time and civil calendar
+
 The Huichol (Wixaritari) people of the Sierra Madre in Nayarit maintain one of Mexico's most distinct Indigenous cultures, with time structured around ceremonial cycles that run parallel to the civil calendar.
 
 [9am in Tepic is 4pm in London](/when/9am-tepic/london). [Hermosillo](/hermosillo) in Sonora shares the permanent UTC-7 clock.

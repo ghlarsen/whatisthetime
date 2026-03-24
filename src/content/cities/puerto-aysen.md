@@ -15,6 +15,8 @@ The Aysén Region uses `America/Punta_Arenas` timezone: UTC-3, year-round withou
 
 At 45 degrees south, Puerto Aysén's December brings nearly 16 hours of daylight. June brings fewer than 9. The fjord geography amplifies this: valleys and channels oriented east-west catch sun differently from those running north-south, and the mountain walls throw long shadows in winter.
 
+## rivers, floods, and Patagonian seasons
+
 The Simpson River flows through Puerto Aysén, regularly flooding its banks in spring when the snowmelt comes down from the Andes. The town was moved to its current location after a catastrophic flood in 1966. Aysén understands that geography and season, not calendars, set the real schedule.
 
 [9am in Puerto Aysén is 12pm in London](/when/9am-puerto-aysen/london).

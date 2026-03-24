@@ -15,6 +15,8 @@ San Fernando sits on Trinidad's southwestern coast, 58 kilometers south of Port 
 
 Naparima Hill, the distinctive knoll that rises above San Fernando, has been used as a navigation landmark by sailors approaching the Gulf of Paria for centuries. The view from the summit takes in the Gulf, the Venezuelan coast opposite, and the oil facilities that now define the southern Trinidad skyline.
 
+## Diwali and the Hindu lunar calendar
+
 Diwali in San Fernando is one of Trinidad's most spectacular celebrations. The Indo-Trinidadian community is particularly large in the south, and Diwali sees the streets and houses lit with deyas (clay lamps) and electric displays from nightfall. The timing follows the Hindu lunar calendar, usually falling in October or November, an entirely different schedule from the civil clock.
 
 [9am in San Fernando is 1pm in London](/when/9am-san-fernando/london).

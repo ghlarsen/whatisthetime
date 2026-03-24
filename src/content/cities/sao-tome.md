@@ -13,6 +13,8 @@ São Tomé sits almost exactly on the equator, on an island in the Gulf of Guine
 
 On the equator, daylight variation is essentially zero. Sunrise and sunset occur within minutes of the same time every day of the year. There is no astronomical reason to move the clocks, and none are moved. The sun rises between roughly 6:00am and 6:15am year-round and sets between 6:00pm and 6:15pm. Life and the clock align directly with the sun in a way that is unusual for any city in the world.
 
+## colonial history and plantation economy
+
 São Tomé was uninhabited when Portuguese explorers arrived around 1470. It became a significant transshipment point in the Atlantic slave trade and later an important producer of sugar and then cocoa. The colonial economic calendar, tied to plantation cycles and shipping schedules, was layered over the equatorial rhythm.
 
 Today the city is a small capital with a laid-back tempo. The consistent daylight pattern contributes to a schedule that changes little across the year: the same hours of light, the same heat, the same rain patterns in their season.

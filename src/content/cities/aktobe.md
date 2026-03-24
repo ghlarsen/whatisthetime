@@ -13,6 +13,8 @@ Aktobe is a large industrial city in western Kazakhstan, an oil-industry hub sit
 
 The IANA identifier for Aktobe is Asia/Aqtobe, using an alternate spelling of the city's name. Kazakhstan uses two timezones across its enormous territory: UTC+5 for the west and UTC+6 for the rest. Aktobe sits in the UTC+5 zone, which means [Almaty](/almaty), the country's financial capital to the east, is one hour ahead.
 
+## Two timezones within one country
+
 This internal time difference is a practical reality for Kazakh businesses. A conference call between Aktobe and Almaty requires a one-hour adjustment. The capital Nur-Sultan (formerly Astana) also runs on UTC+6, so government business from Aktobe to the capital involves that same one-hour accounting.
 
 The city's oil industry connects it heavily to Russia and to global commodity markets. Traders working Moscow markets note a two-hour offset in winter (Moscow is UTC+3), widening to three hours when Russia observes permanent standard time shifts.

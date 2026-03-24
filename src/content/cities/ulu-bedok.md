@@ -15,6 +15,8 @@ Singapore runs on Singapore Standard Time, UTC+8, year-round with no DST and no 
 
 Singapore's relationship with time is broadly punctual. The MRT (Mass Rapid Transit) system, which connects Ulu Bedok and the rest of the eastern region to the city center, tracks performance to the minute. The on-time performance targets are published and taken seriously.
 
+## trading hub alignment and punctual transit
+
 UTC+8 puts Singapore in the same timezone as China, the Philippines, and parts of Australia, and slightly ahead of the rest of Southeast Asia. For a trading hub whose economy depends on financial market coordination with Hong Kong, Shanghai, and regional partners, the clock alignment matters.
 
 [9am in Ulu Bedok is 1am in London](/when/9am-ulu-bedok/london). [Kuala Lumpur](/kuala-lumpur) nearby also runs on UTC+8.

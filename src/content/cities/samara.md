@@ -15,6 +15,8 @@ At 53 degrees north on the Volga, Samara has extreme Russian seasons. Summer is 
 
 [Russia](/country/russia) kept this UTC+4 zone for the Samara region after the 2014 reform. The city of Samara had been on Samara Time (UTC+4) in summer and UTC+3 in winter. Keeping UTC+4 year-round gave them permanent late sunsets in summer (after 9pm in June) at the cost of very late winter sunrises (after 9:30am in December).
 
+## Stalin's bunker and wartime capital
+
 During World War II, Samara (then called Kuibyshev) served as the alternative capital of the Soviet Union, with government ministries relocated there after the German advance threatened Moscow. Stalin's bunker, built beneath the city, is preserved as a museum.
 
 [9am in Samara is 5am in London](/when/9am-samara/london) in winter.

@@ -15,6 +15,8 @@ The [Northern Mariana Islands](/country/northern-mariana-islands) use Chamorro S
 
 At 15 degrees north, Saipan has minimal daylight variation: the sun rises and sets within a roughly 30-minute range year-round. The climate is tropical: warm, with a wet season from July to November when typhoons are possible. The typhoon season is one of the island's major annual rhythms, a period when the Pacific's power is felt directly.
 
+## the Pacific War and its memorials
+
 The Battle of Saipan in June-July 1944 was one of the Pacific War's decisive actions. Nearly 30,000 Japanese soldiers and thousands of civilians died on the island. The Banzai Cliff and Suicide Cliff are preserved memorial sites where civilians jumped rather than surrender.
 
 [9am in Saipan is 11pm the previous night in London](/when/9am-saipan/london).

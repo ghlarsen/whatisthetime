@@ -15,6 +15,8 @@ The clock is UTC+12, using the IANA identifier Asia/Kamchatka. Russia abolished 
 
 Russia spans 11 timezones, the widest of any country. Moscow is UTC+3. Anadyr is UTC+12. That is a nine-hour difference within a single country. When Moscow wakes up for the workday on a Monday morning, Anadyr is already finishing its Monday evening.
 
+## Near-Arctic daylight extremes
+
 At 64 degrees north latitude, Anadyr has extreme seasonal variation in daylight. In June, there are roughly 21 hours of daylight. In December, there are roughly 5 hours. The city sits near enough to the Arctic that this variation is one of the defining features of life here.
 
 The Bering Strait crossing, one of the most discussed potential mega-infrastructure projects in the world, would connect Anadyr's region to Alaska. It hasn't been built. But the idea says something about how close Anadyr is to the western coast of North America.

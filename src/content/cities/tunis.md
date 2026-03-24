@@ -15,6 +15,8 @@ Tunis sits at 37 degrees north, at the cap of the African continent that juts in
 
 The medina of Tunis is a UNESCO World Heritage Site, the old walled city whose covered souk streets have been in continuous commercial use for over a thousand years. The merchant rhythms of the souk, opening around 9am and closing in the afternoon heat, have adapted to the fixed UTC+1 clock without friction.
 
+## Arab Spring and a fixed clock
+
 Tunisia was the first country of the Arab Spring in December 2010 and January 2011. The revolution began partly as a response to economic exclusion, and the country's subsequent democratic transition, however turbulent, has made Tunis one of the region's more open cities.
 
 [9am in Tunis is 8am in London](/when/9am-tunis/london). [Algiers](/algiers) in neighboring Algeria keeps the same UTC+1 year-round.

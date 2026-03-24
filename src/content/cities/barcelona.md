@@ -15,6 +15,8 @@ Spain's timezone choice is a historical oddity. In 1940, Franco aligned Spain wi
 
 This clock-sun mismatch shapes Barcelona's legendary later schedule more than culture alone. When solar noon is at 2pm, a 3pm lunch isn't eccentric; it's actually close to solar midday. Tapas at midnight is 10pm by the sun.
 
+## The case for a different clock
+
 Barcelona has discussed switching to a timezone closer to its solar position, particularly since a 2016 parliamentary committee recommended it. The change has not happened.
 
 The city's creative and tech economy intersects with a European business day that runs broadly 9am to 6pm CET, which Barcelona follows. The startups, media companies, and design studios keep hours roughly aligned with the rest of Europe, even if the social day runs much later.

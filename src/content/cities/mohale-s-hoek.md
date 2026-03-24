@@ -13,6 +13,8 @@ Mohale's Hoek is the capital of the Mohale's Hoek district in southern [Lesotho]
 
 The Senqu River, which flows through this region, eventually becomes the Orange River in South Africa and flows to the Atlantic. For the pastoral communities of southern Lesotho, river levels and seasonal rainfall matter more than clock-based scheduling.
 
+## highlands, mohair, and the sun's position
+
 The town is surrounded by the Maloti mountains, and the landscape supports the sheepherding and mohair production that are important parts of Lesotho's highland economy. Basotho horsemen on highland ponies move through territories where the sun's position in the sky is a more reliable guide than a wristwatch.
 
 [Maseru](/maseru) to the north shares this timezone. [9am in Mohale's Hoek is 7am in London](/when/9am-mohale-s-hoek/london) during European winter.

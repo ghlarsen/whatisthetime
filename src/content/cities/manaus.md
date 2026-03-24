@@ -13,6 +13,8 @@ Manaus is the capital of Amazonas state and a city of over two million people si
 
 This creates a seasonal offset between Manaus and cities like [São Paulo](/sao-paulo) and Rio de Janeiro. For most of the year they're one hour apart, but during the southern hemisphere summer when coastal Brazil shifts its clocks, the gap narrows to zero for a few months. Brazilians who travel between Manaus and the coast keep track of this.
 
+## rubber, opera, and the Amazon's rhythm
+
 The city grew dramatically during the rubber boom of the late nineteenth and early twentieth centuries, when Amazonian rubber was the world's primary source. The Teatro Amazonas opera house, built in 1896, is the surviving monument to that era: pink and gold, extravagant, incongruous in the jungle.
 
 At 3 degrees south latitude, Manaus has essentially no seasonal daylight variation. The equatorial sun rises and sets at almost the same times year-round. DST would accomplish nothing here. The rhythm is set by rain.

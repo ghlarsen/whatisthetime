@@ -13,6 +13,8 @@ Massawa is the main port of [Eritrea](/country/eritrea), sitting on the Red Sea 
 
 The city has been under successive foreign administrations: Ottoman, Egyptian, Italian, British, Ethiopian, and finally Eritrean after independence in 1993. Each period left architectural marks, and the port's Ottoman and Italian colonial buildings, many damaged in the independence war, give Massawa a layered visual history.
 
+## heat as the dominant clock
+
 The heat at Massawa is a primary organizer of daily life. Temperatures regularly exceed 40°C in summer. Activity happens in the early morning before 10am and again in the evening after 5pm. The midday hours are largely empty. This is solar time operating through physiology rather than clocks.
 
 The Red Sea shipping lanes run through Massawa's waters, and port logistics coordinate with international maritime time, which aligns with UTC.

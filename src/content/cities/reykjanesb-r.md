@@ -15,6 +15,8 @@ Keflavík International Airport is where Iceland meets the world. Located on the
 
 Iceland's decision to forgo DST is old and consistent. The country argued that DST's energy-saving rationale made little sense in a country that runs primarily on geothermal and hydroelectric power, and that clock changes disrupted sheep farming schedules and other agricultural rhythms.
 
+## midnight sun and polar darkness
+
 At 63 degrees north on the Reykjanes Peninsula, Reykjanesbær's summer solstice brings close to 24 hours of usable light: the sun barely dips below the horizon. Winter solstice brings fewer than 5 hours. The midnight sun and polar darkness are not metaphors here; they are the actual conditions.
 
 [9am in Reykjanesbær is 9am in London](/when/9am-reykjanesb-r/london) in winter, same time.

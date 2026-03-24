@@ -17,6 +17,8 @@ At UTC+4, Baku is one hour ahead of Moscow in winter and two hours ahead when Az
 
 [Batumi](/batumi) in Georgia, on the Black Sea coast, uses UTC+4 permanently (Georgia does not observe DST), creating a partial year alignment.
 
+## Fire ancient and modern
+
 Baku's Flame Towers, three skyscrapers shaped like flames, are lit at night with LED displays visible across the city. Fire has been sacred in this region since Zoroastrian times, when natural gas seeps fed flames that appeared to burn permanently. The city has a layered relationship with fire and, by extension, with time: the ancient and the modern in continuous conversation.
 
 [9am in Baku is 5am in London](/when/9am-baku/london) during European winter.

@@ -13,6 +13,8 @@ Sucre is Bolivia's constitutional capital, though the government functions large
 
 Bolivia runs on Bolivia Time (UTC-4) all year, with no daylight saving. [Bolivia](/country/bolivia) has not observed DST since 1932. At 19 degrees south, the seasonal daylight variation is moderate: roughly 13 hours in December (local summer) and about 11 hours in June. The fixed offset keeps scheduling simple across the country's challenging geography.
 
+## birthplace of Bolivian independence
+
 Sucre was the city where Bolivian independence was declared in 1825, after Simon Bolívar's campaigns against Spanish colonial rule. The Casa de la Libertad, where the declaration was signed, is the city's central historical monument.
 
 The city's relative isolation from the lowland economic activity of Santa Cruz and the political pressure of La Paz gives it a quieter pace. The university is one of the oldest in South America, and the student population gives Sucre a cultural liveliness out of proportion to its small size.

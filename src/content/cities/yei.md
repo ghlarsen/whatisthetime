@@ -15,6 +15,8 @@ South Sudan keeps East Africa Time, UTC+3, matching Kenya, Uganda, and Tanzania 
 
 Yei experienced severe violence during the South Sudanese civil conflict that began in 2013 and again in 2016. Large portions of the population fled to refugee camps in Uganda, creating a displaced community that lives across two countries but maintains connections back to Yei. Seasonal returns, agricultural cycles, and the slow process of reconstruction mean that the population's temporal relationship with the town itself is fragmented.
 
+## conflict, displacement, and seasonal return
+
 At 4 degrees north latitude, Yei receives equatorial rainfall and has the forest-savanna mosaic characteristic of the Central African transition zone. The seasons are defined by rain and its absence, not by daylight variation.
 
 [9am in Yei is 6am in London](/when/9am-yei/london). [Juba](/juba) to the north shares the same East Africa Time.

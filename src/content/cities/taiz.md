@@ -13,6 +13,8 @@ Taiz is situated in the southwestern highlands of [Yemen](/country/yemen), at ro
 
 The city runs on Arabia Standard Time (UTC+3) all year, the fixed offset shared with [Sanaa](/sanaa) to the north and the rest of Yemen. No daylight saving adjustment.
 
+## conflict and disrupted daily rhythms
+
 Taiz has been among the most severely affected cities in Yemen's ongoing conflict, which began in 2015. The city has been encircled, besieged, and fought over, creating a humanitarian situation that has profoundly disrupted the rhythms of daily life. Schools, hospitals, and commerce have operated intermittently under conditions that make any discussion of clock time feel secondary to questions of survival. The formal UTC+3 offset continues; the informal schedule of life has been shaped by frontlines and supply routes rather than any institutional clock.
 
 At 13 degrees north, the city's pre-war daily rhythm involved early morning activity, a midday slowdown in the heat, and resumed activity in the afternoon.

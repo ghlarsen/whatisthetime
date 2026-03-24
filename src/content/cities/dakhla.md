@@ -13,6 +13,8 @@ Dakhla occupies a narrow peninsula on Western Sahara's Atlantic coast, at 23 deg
 
 Western Sahara's timezone history mirrors Morocco's turbulent DST experiments. Morocco observed and suspended DST multiple times in the 2010s, particularly suspending it during Ramadan to keep iftar (the evening meal breaking the fast) at an earlier clock hour. After years of back-and-forth, Morocco settled on permanent UTC+1 in 2018, and the territory it administers followed.
 
+## Kitesurfers, wind, and an hour fast by the sun
+
 Dakhla is now known internationally for kitesurfing, drawing athletes from Europe who come for its reliable Atlantic winds and flat lagoon water. The town's small size and remote location mean its clock is largely irrelevant to its visitors, who arrive focused on wind forecasts rather than local business hours. But the timezone does create an interesting quirk: Dakhla is geographically at a longitude where UTC+0 would be more solar-accurate, putting it an hour fast by the sun.
 
 [Convert 9am Dakhla time to London](/when/9am-dakhla/london)

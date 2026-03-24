@@ -15,6 +15,8 @@ San Francisco's timezone has an outsized effect on the world. When Google, Apple
 
 San Francisco at 37 degrees north has the marine climate that Karl the Fog enforces: summers are cool and frequently foggy, winters are mild, and the temperature variation through the year is less than almost anywhere else in the US at this latitude. The fog comes in through the Golden Gate each afternoon, pouring over the hills. The city's outdoor calendar runs from September through November when the fog pulls back and the sun arrives.
 
+## the 1906 earthquake and the rebuilt city
+
 The 1906 earthquake struck at 5:12am on April 18. The fire that followed burned for three days. The time is precise because the seismographs were running. The city rebuilt entirely within a decade.
 
 [9am in San Francisco is 5pm in London](/when/9am-san-francisco/london) in winter.

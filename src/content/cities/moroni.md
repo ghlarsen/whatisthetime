@@ -13,6 +13,8 @@ Moroni is the capital of the Comoros, a small island nation in the Indian Ocean 
 
 The Comoros is a predominantly Muslim nation, and the five daily prayers structure the day in Moroni as much as the civil clock does. The Grande Mosquée de Moroni, one of the largest mosques in the Indian Ocean region, broadcasts the adhan across the city at each prayer time.
 
+## coups, prayer times, and a stable UTC+3
+
 The islands have a complex political history: a series of coups in the decades after independence from France in 1975 gave the Comoros one of the highest per-capita coup rates in the world. Through all the political changes, the timezone remained stable at UTC+3.
 
 [Mamoudzou](/mamoudzou) in nearby Mayotte (French territory) shares this offset. [9am in Moroni is 6am in London](/when/9am-moroni/london) during European winter.

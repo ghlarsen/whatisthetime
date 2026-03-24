@@ -13,6 +13,8 @@ Pärnu is Estonia's summer capital by informal designation, the beach city on th
 
 [Estonia](/country/estonia) uses Eastern European Time, UTC+2 in winter and UTC+3 in summer (EEST), following EU daylight saving rules. Pärnu shares this with [Tallinn](/tallinn) to the north and [Narva](/narva) to the east. At 58.4 degrees north, the seasonal light extremes are significant: June brings nearly 18.5 hours of light and white nights, while December brings under 7 hours.
 
+## white nights and the summer season
+
 The white nights of June are the fulcrum of Pärnu's year. When daylight doesn't end until 10:30pm and starts again at 4am, and when the air is warm and the beach is sand rather than stone, the city fills with people who have been waiting through Estonia's long dark winter for exactly this. The summer solstice is celebrated, and the days around it are the height of the Pärnu summer.
 
 The spa tradition, European-style health resorts based on the mud baths and mineral waters found here, has been operating since the 1830s. The Estonian sauna culture layers over this, and the combination gives Pärnu a wellness identity that persists year-round.

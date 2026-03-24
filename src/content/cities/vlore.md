@@ -15,6 +15,8 @@ Albania keeps Central European Time, UTC+1 in winter and UTC+2 during summer DST
 
 The Bay of Vlorë is one of the more dramatic natural harbors in the Adriatic, with the Karaburun Peninsula forming a long natural breakwater. The sea here sets a Mediterranean rhythm: slow summer evenings, September warmth that outlasts what northerners expect, a winter that is mild by European standards.
 
+## independence declaration and Adriatic coast
+
 During the 1990s, the Albanian Riviera between Vlorë and the southern border was little known to outsiders. Since the early 2000s, tourism has grown steadily, and the cliff-backed beaches attract visitors from across Europe who find they can set their clocks back from the frantic pace of more established resort coasts.
 
 [9am in Vlorë is 8am in London](/when/9am-vlore/london). [Tirana](/tirana) inland shares the same Albanian timezone.

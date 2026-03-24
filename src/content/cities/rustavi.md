@@ -15,6 +15,8 @@ Rustavi was built to make steel. The Soviet planners chose the location in the K
 
 At 41 degrees north, Rustavi has warm summers and cold winters in the Kura River valley. The valley is lower and more arid than the mountains surrounding it. Snow arrives most winters, though not with the intensity of the Georgian highland towns.
 
+## football culture and industrial identity
+
 Rustavi FC, one of Georgia's historic football clubs, gives the industrial city a cultural marker beyond the steelworks. Georgian football culture, particularly around Tbilisi's Dinamo, has always been intense, and Rustavi holds its own place in that tradition.
 
 [9am in Rustavi is 5am in London](/when/9am-rustavi/london) in winter.

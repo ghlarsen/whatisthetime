@@ -13,6 +13,8 @@ The Adelaide Hills rise sharply east of the city, a cool-climate wine region kno
 
 The half-hour offset that distinguishes South Australia from the eastern states is just as present here as in the city. A winery scheduling harvest logistics with a Sydney supplier has to navigate that 30-minute difference. It is small enough to feel trivial, large enough to cause missed calls.
 
+## Hill towns and harvest rhythms
+
 The hills communities, towns like Hahndorf (Australia's oldest surviving German settlement), Stirling, and Crafers, run on a slightly different rhythm than central Adelaide. Morning starts earlier in the growing season, when vineyard work begins at first light. The cool temperatures mean that even in December and January, the early morning hours are comfortable for outdoor work.
 
 The daily temperature swing between the hills and the city below can be 5 to 10 degrees Celsius, which makes the region a summer retreat. But the clock does not change when you drive up the freeway from Adelaide. Same timezone, different microclimate.

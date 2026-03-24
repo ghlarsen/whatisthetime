@@ -15,6 +15,8 @@ Italy keeps Central European Time, UTC+1 in winter and UTC+2 during summer DST. 
 
 The Fiat Lingotto factory, built in the 1920s with a rooftop test track where completed cars did speed runs above the factory floor, is one of the most architecturally audacious industrial buildings ever constructed. It's now a conference center and shopping mall. Time moves differently through former factories.
 
+## Olympics, Alps, and northern work culture
+
 Turin hosted the 2006 Winter Olympics. The city's relationship with winter is practical rather than romantic: the Alps are an hour away, and the cold is a fact of life rather than a novelty.
 
 [9am in Turin is 8am in London](/when/9am-turin/london). [Milan](/milan) and [Genoa](/genoa) nearby share the Rome timezone.

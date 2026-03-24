@@ -15,6 +15,8 @@ Phuntsholing sits directly on the Indian border, separated from the Indian city 
 
 The town is low and tropical compared to the mountain capital. Situated in the southern foothills of the Himalayas, Phuntsholing is warm and humid where Thimphu is cool. Sunrise here comes around 6am year-round, consistent with the equatorial influence this far south despite the Himalayan latitude overhead.
 
+## daily life at the border crossing
+
 The border gate formally closes at night, though the two towns blend economically and culturally. Indians come for the relative quiet of the Bhutanese side. Bhutanese cross to reach the Indian rail network. The clock difference is part of the daily transaction.
 
 [9am in Phuntsholing is 3:30am in London](/when/9am-phuntsholing/london).

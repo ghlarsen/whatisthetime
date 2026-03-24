@@ -13,6 +13,8 @@ Daugavpils, Latvia's second-largest city, sits in the country's southeastern cor
 
 The city is geographically unusual within Latvia: roughly half its population speaks Russian as a first language, a legacy of Soviet-era demographics. This creates a kind of psychological timezone division that the official clock doesn't capture. Moscow runs on UTC+3 year-round. In summer, when Daugavpils shifts to EEST (also UTC+3), the city's Russian-speaking residents are, for a few months, on the same clock as Moscow. In winter, they're an hour behind.
 
+## Dramatic daylight and a divided community
+
 At 55.9 degrees north, nearly the same latitude as [Copenhagen](/copenhagen), Daugavpils has dramatic daylight variation: 18 hours of daylight near the summer solstice and fewer than 7 hours near the winter solstice. The EU debate about ending seasonal clock changes would affect Daugavpils as it would affect all of Latvia, and the city's divided community would have its own views on whether permanent summer or permanent winter time feels more natural.
 
 [Convert 9am Daugavpils time to London](/when/9am-daugavpils/london)

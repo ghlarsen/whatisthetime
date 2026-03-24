@@ -13,6 +13,8 @@ Steinbach sits about 50 kilometers southeast of Winnipeg in southern [Canada](/c
 
 The city has Mennonite roots: its founders were Low German-speaking Mennonites from Russia who settled in the region in the late nineteenth century. That community's agricultural heritage shaped the early economy, and the city grew as a regional service center. Steinbach is now one of the fastest-growing municipalities in Manitoba.
 
+## farming seasons and the clock
+
 At about 49 degrees north, Steinbach has significant seasonal light variation. Summer evenings on CDT push sunset past 9:30pm. Winter days are short: the sun sets before 5pm on Central Standard Time. The agricultural and farming traditions of the region are tied to the practical reality of those seasonal rhythms, making the twice-yearly clock change a real event in the annual calendar rather than an administrative formality.
 
 The city's commercial strip caters to the regional population from the southeast Manitoba agricultural hinterland, and its economic rhythm follows farming seasons and harvest schedules as much as any clock convention.

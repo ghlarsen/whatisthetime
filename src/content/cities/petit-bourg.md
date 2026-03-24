@@ -15,6 +15,8 @@ Petit-Bourg is one of Guadeloupe's municipalities on the larger island of Basse-
 
 At 16 degrees north, Petit-Bourg's daylight barely varies: around 11 to 13 hours across the year. The rhythm is shaped by the wet and dry season cycle of the Caribbean: the dry season (February through June) and the wet season (July through December, with the hurricane risk from August through October).
 
+## agriculture and seasonal rhythms
+
 Agriculture in the Petit-Bourg area includes banana cultivation, which is one of Guadeloupe's main export products. The banana harvest has a continuous rather than seasonal rhythm, with fruit ready year-round in the right conditions.
 
 [9am in Petit-Bourg is 1pm in London](/when/9am-petit-bourg/london).

@@ -15,6 +15,8 @@ Guam keeps Chamorro Standard Time, UTC+10, year-round with no DST. The `Pacific/
 
 The timezone distance from the US mainland is striking. Guam is 14 or 15 hours ahead of the US East Coast (depending on DST), meaning that Guam's Monday morning happens while the US is still in Sunday. Business and administrative coordination with Washington, DC operates with this constant awareness: events in DC on a Monday afternoon often don't reach Guam until Tuesday morning local time.
 
+## Chamorro culture and DC time lag
+
 The Chamorro people, the island's indigenous Micronesian inhabitants, maintain cultural practices including the chenchule (reciprocal community support system) that organizes social obligations around events, births, deaths, and celebrations rather than the civil clock.
 
 [9am in Yigo Village is 11pm the previous day in London](/when/9am-yigo-village/london). [Hagåtña](/hagatna), Guam's capital, shares the same Chamorro Standard Time.

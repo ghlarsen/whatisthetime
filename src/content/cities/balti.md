@@ -15,6 +15,8 @@ The clock is Eastern European Time, UTC+2 in winter and UTC+3 during daylight sa
 
 Moldova's timezone situation has some complexity. The country itself uses the EU DST schedule. But the breakaway territory of Transnistria, on Moldova's eastern border, also uses UTC+2/UTC+3 in practice. Ukraine, to the north and east, uses the same offset. Romania, to the west, uses the same offset. Essentially all of Moldova's neighbors are on the same clock.
 
+## The north's practical capital
+
 Moldova is one of Europe's most rural countries, and Bălți serves as the north's practical capital for commerce, education, and healthcare. The city's rhythm is more Soviet-influenced in its patterns than the Romanianized south: heavier industry, collective-era apartment blocks, and a workforce historically connected to the Soviet agricultural and light manufacturing sector.
 
 [Baltiysk](/baltiysk) in Russia's Kaliningrad exclave shares a similar name but a completely different timezone.

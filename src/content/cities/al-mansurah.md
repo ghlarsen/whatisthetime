@@ -13,6 +13,8 @@ Al Mansourah is one of Doha's older commercial and residential districts, a dens
 
 The clock is Arabia Standard Time, UTC+3. Qatar adopted this timezone and has maintained it without daylight saving adjustments. The IANA identifier is Asia/Qatar.
 
+## A stable clock for global business
+
 Qatar's stable timezone is partly a financial decision. Doha's ambitions as a global financial and events hub are better served by a fixed clock that doesn't shift every spring and autumn. The Qatar Investment Authority and the Qatar Stock Exchange operate on schedules that benefit from predictable offsets from London and New York.
 
 [Ar Rayyan](/ar-rayyan), another large Qatar municipality, shares the same clock, as does the rest of the country. Qatar is small enough that a single timezone covers everything without controversy.

@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Kikwit sits on the Kwilu River in the Kwilu Province of the Democratic Republic of the Congo, about 500 kilometers east of [Kinshasa](/kinshasa). It shares Kinshasa's timezone: Africa/Kinshasa, UTC+1, year-round. The DRC is a geographically vast country, and the eastern provinces use UTC+2 (Africa/Lubumbashi), creating a one-hour internal division.
 
+## Kwilu River city and the 1995 Ebola outbreak
+
 Kikwit became internationally known in 1995 as the site of an Ebola outbreak that killed over 250 people. The outbreak was eventually contained through contact tracing and isolation, but it put a previously obscure city on the global public health map. The city has since built medical infrastructure in part because of that history.
 
 At 5 degrees south of the equator, Kikwit has nearly constant daylength throughout the year: sunrise around 6am, sunset around 6pm, every day. The two rainy seasons (roughly March-May and October-December) structure the agricultural calendar more than any solar consideration does.

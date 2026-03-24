@@ -13,6 +13,8 @@ Cobán sits high in the Alta Verapaz highlands, wrapped in perpetual cloud cover
 
 Guatemala abolished daylight saving time in 1977 and has not returned to it. The country sits between roughly 14 and 18 degrees north latitude, close enough to the equator that sunrise and sunset don't vary dramatically by season. In Cobán, the winter solstice sunrise comes around 6:20am and the summer solstice around 5:30am. Shifting clocks would gain almost nothing.
 
+## Coffee, cardamom, and the harvest clock
+
 The town's rhythm follows the Q'eqchi' market calendar and the coffee harvest. Cobán is the center of Guatemalan cardamom and coffee production, and the fields define when people wake. Cobaneros say the day starts with fog and ends with more fog. But the buses leave on time regardless: the terminal is busy by 5:30am.
 
 [Convert 9am Cobán time to London](/when/9am-coban/london)

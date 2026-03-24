@@ -13,6 +13,8 @@ Cuiabá sits near the geographical center of South America, at the edge of the P
 
 Before 2013, Cuiabá observed DST along with southern Brazil, shifting clocks in October and March. The agricultural sector in Mato Grosso, one of Brazil's major soybean and cattle-producing states, consistently argued that the time changes disrupted livestock, harvest operations, and supply chains. The exemption was granted and the clock has stayed put since.
 
+## Heat that shapes the daily schedule
+
 Cuiabá is famously one of Brazil's hottest cities, regularly recording temperatures above 40°C in summer. The intense heat shapes daily schedules more than any clock policy: businesses close during the hottest afternoon hours and reopen in the evening. Activity shifts toward early morning and late evening. The clock says 4pm UTC-4; the body says find shade.
 
 [Convert 9am Cuiabá time to London](/when/9am-cuiaba/london)

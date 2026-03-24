@@ -15,6 +15,8 @@ The timezone is America/Asuncion, UTC-4 in standard time and UTC-3 during daylig
 
 This schedule creates an interesting misalignment. Paraguay's spring-forward happens in September, but Brazil and Argentina, its neighbors, have different DST schedules or don't observe it at all. Brazil eliminated national DST in 2019. Argentina does not observe DST. For a period each year, coordination across the Paraguayan border requires more careful timezone math than usual.
 
+## Cross-border trade and timezone math
+
 Paraguay's economy has a significant informal sector and a large Chinese and Lebanese immigrant community, particularly active in Ciudad del Este on the Brazilian border, one of the world's busiest free-trade zones. The time there is the same as Asunción but the trade networks run on multiple timezone relationships simultaneously.
 
 Asunción itself is tropical and hot most of the year. The city's daily rhythm extends into the evening, when temperatures drop enough to make outdoor life comfortable.

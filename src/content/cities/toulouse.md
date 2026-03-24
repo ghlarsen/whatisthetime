@@ -15,6 +15,8 @@ France keeps Central European Time, UTC+1 in winter and UTC+2 during summer DST,
 
 The practical result is that solar noon in Toulouse falls around 1:30pm in winter, and sunsets in summer push past 10pm. French meal times, already late by northern European standards, accommodate this. Dinner at 8pm is considered early.
 
+## aerospace hub and occupied-era clock
+
 Toulouse is also the home of Airbus headquarters and the center of European aerospace. The engineers and executives coordinating with Hamburg, Madrid, and Toulouse across European timezone overlap have a practical framework that the shared CET makes simpler.
 
 [9am in Toulouse is 8am in London](/when/9am-toulouse/london). [Bordeaux](/bordeaux) to the northwest and [Montpellier](/montpellier) to the east share the same Paris timezone.

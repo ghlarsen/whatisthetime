@@ -13,6 +13,8 @@ Dnipro (formerly Dnipropetrovsk) is Ukraine's fourth-largest city, an industrial
 
 Ukraine's timezone has been politically contested. After the 2014 events in Crimea, the annexed peninsula shifted from EET/EEST to Moscow Time (UTC+3 year-round), creating a clock difference between Ukrainian-controlled territory and Russian-administered Crimea. Dnipro, firmly in Ukrainian territory, continued on EET/EEST. The timezone boundary became one of many fault lines in the broader conflict.
 
+## Rocket science and the countdown clock
+
 Dnipro is home to Yuzhnoye Design Bureau and Pivdenmash (Yuzhmash), the factory complex that built Soviet ICBMs and later supplied rocket components to international space programs. Rocket science at Dnipro's scale requires precise timekeeping: launch windows are measured in seconds, and coordination with mission control in Kyiv requires clocks synchronized to fractions of a second. The city's official clock observes DST. The countdown timers at the aerospace facility do not.
 
 [Convert 9am Dnipro time to London](/when/9am-dnipro/london)

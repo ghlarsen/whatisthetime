@@ -15,6 +15,8 @@ Quezon City was designed as a capital. President Manuel Quezon laid the cornerst
 
 The city contains several of the Philippines' major universities: the University of the Philippines Diliman, the Ateneo de Manila University, and others. This gives Quezon City a strong academic and young-professional character. The semester calendar and bar exam cycle structure daily rhythms in ways the civil clock only partially captures.
 
+## the memorial circle and daily rhythms
+
 Quezon Memorial Circle, the central landmark, sits at the geometric heart of the city's original plan, a grand oval park surrounding the mausoleum of President Quezon. It is also a public space where the city runs its own rhythms: morning joggers at 6am, weekend market crowds, flag ceremonies on Mondays.
 
 [9am in Quezon City is 1am in London](/when/9am-quezon-city/london).

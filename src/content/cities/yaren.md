@@ -13,6 +13,8 @@ Nauru is the world's smallest republic and the third-smallest country by area, a
 
 [Nauru](/country/nauru) keeps Nauru Time, UTC+12, year-round. This places the island among the first permanently inhabited places to see each new day. The clock was not always at UTC+12. During World War II, the Japanese occupation moved the island's time to Japan Standard Time. After the war, Nauru returned to an earlier standard before eventually settling on UTC+12.
 
+## phosphate wealth and economic collapse
+
 The island was strip-mined for phosphate through most of the 20th century, and the mining revenue created one of the highest per-capita incomes in the world briefly in the 1970s and 1980s. When the phosphate ran out, the money ran out, and Nauru entered a prolonged economic crisis. Most of the island's interior remains a lunar landscape of mined-out coral.
 
 At 0.5 degrees south, Nauru is as close to the equator as you can get, and sunrise and sunset vary by only minutes across the year. The clock here is entirely administrative.

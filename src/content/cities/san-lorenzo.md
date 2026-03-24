@@ -15,6 +15,8 @@ San Lorenzo is the largest city in the Asunción metropolitan area that is not A
 
 Paraguay sits at 25 degrees south, landlocked between Brazil, Argentina, and Bolivia. The subtropical climate brings hot, humid summers and mild winters. The Semana de la Juventud (Youth Week) and the Feria Nacional de Artesanía, held in San Lorenzo, are among the city's major annual events, drawing visitors from across Paraguay.
 
+## the basilica and annual celebrations
+
 The Basilica of San Lorenzo, the city's patron saint's church, is one of Paraguay's most visited religious sites. The feast of San Lorenzo on August 10 brings processions and celebrations that fill the streets around the basilica with their own schedule.
 
 [9am in San Lorenzo is 1pm in London](/when/9am-san-lorenzo/london) during Paraguayan winter.

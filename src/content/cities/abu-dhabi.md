@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Abu Dhabi operates on Gulf Standard Time, UTC+4, and has never used daylight saving time. The clock here is fixed, deliberate, and has not changed since the UAE was formed in 1971. For a city that has otherwise transformed itself at extraordinary speed, the static timezone is a quiet constant.
 
+## A shifted working week
+
 The working week is the more distinctive time feature. Since 2022, the UAE shifted to a Monday-Friday workweek for the public sector, ending a long-running Saturday-Thursday schedule. The change was partly designed to improve overlap with global financial markets. Abu Dhabi's working hours now align more closely with European trading hours than they did before.
 
 The IANA timezone identifier is Asia/Dubai, shared with [Dubai](/dubai) and the rest of the [United Arab Emirates](/country/united-arab-emirates). This makes Abu Dhabi and Dubai, despite their different characters and occasional rivalries, exactly synchronized.

@@ -15,6 +15,8 @@ The city keeps Cuba Standard Time (UTC-5 in winter), observing daylight saving t
 
 At 20 degrees north, Santiago is noticeably hotter and more humid than Havana. The heat shapes the day: activity starts early in the morning, slows dramatically in the midday heat, and resumes as the afternoon cools. The famous Casa de la Trova on Heredia Street, where traditional son music plays daily, tends to fill up in the late afternoon and evening when the temperature has dropped to something livable.
 
+## Carnival and the July anniversary
+
 Santiago's Carnival, one of the Caribbean's most celebrated, traditionally runs in late July, timed around the anniversary of the Moncada attack.
 
 [9am in Santiago de Cuba is 2pm in London](/when/9am-santiago-de-cuba/london) during summer when both cities are on their respective DST schedules.

@@ -15,6 +15,8 @@ Vanuatu has the world's highest number of languages per capita: roughly 280 lang
 
 Port-Vila sits at 17 degrees south latitude, tropical and warm year-round. The wet season (November to April) brings cyclone risk. Vanuatu is located on the Pacific Ring of Fire and the southern end of the subduction zone between the Australian and Pacific plates. Earthquakes are regular. Mount Yasur on Tanna Island, one of the world's most accessible active volcanoes, is 200 kilometers south.
 
+## harbor market and daily waterfront life
+
 The harbor is a lagoon of extraordinary blue-green water, protected by small islands. Cruise ships anchor here regularly. The daily market on the waterfront runs from before dawn, with fishing boats arriving with the morning catch.
 
 [9am in Port-Vila is 10pm the previous night in London](/when/9am-port-vila/london).

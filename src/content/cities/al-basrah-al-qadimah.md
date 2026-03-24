@@ -15,6 +15,8 @@ The clock is Arabia Standard Time, UTC+3. The IANA identifier is Asia/Baghdad. I
 
 [Baghdad](/baghdad) and Basra share the timezone, keeping the country's north-south axis synchronized. The two cities are about 550 kilometers apart, but the business of Iraq, government in the north, oil infrastructure in the south, runs on the same clock.
 
+## Heat, water, and evening life
+
 Basra's heat is legendary. Summers push past 50 degrees Celsius. The city's daily schedule adjusts: work starts early, pause in the afternoon, resume in the evening. The waterways of the Shatt al-Arab, and the date palm groves that made Basra famous, offer marginal relief. Evening activity extends well past midnight in summer, when the air finally cools enough to be comfortable.
 
 [9am in Basra is 6am in London](/when/9am-al-basrah-al-qadimah/london) during European winter.

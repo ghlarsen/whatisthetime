@@ -13,6 +13,8 @@ Durban, on KwaZulu-Natal's Indian Ocean coast, runs on South Africa Standard Tim
 
 At 30 degrees south, Durban has meaningful daylight variation: about 14 hours at the summer solstice (December) and 10.5 hours at the winter solstice (June). The year-round UTC+2 means summer sunrise arrives relatively early by clock (around 5:10am in December) and winter sunset comes early (5:15pm in June). Proposals to introduce DST have occasionally been raised but consistently rejected, with arguments citing the cattle farming and mining industries, which would be disrupted, outweighing any benefit.
 
+## beach city, port city
+
 Durban's Indian Ocean beach culture shapes a daily rhythm where the sea and weather matter more than the clock. Morning surfing, long lunch hours, and late evening dinners in uShaka Marine World or Florida Road are dictated by conditions and culture rather than by a DST policy. The port of Durban, the busiest in sub-Saharan Africa, runs to container ship schedules that don't care whether the government's clocks change.
 
 [Convert 9am Durban time to London](/when/9am-durban/london)

@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Franceville sits in southeastern Gabon, in the Haut-Ogooué province near the Republic of Congo border. It uses `Africa/Libreville`, West Africa Time, UTC+1, year-round. No daylight saving. At 1.6 degrees south, just below the equator, the daylight variation is minimal and DST would accomplish almost nothing.
 
+## manganese mines and primate research
+
 Franceville is the center of Gabon's manganese mining industry and home to the Centre International de Recherches Médicales de Franceville (CIRMF), a primate research center that has contributed significantly to Ebola and HIV research. The research center operates on a schedule that coordinates with international partners in Paris, Washington, and Geneva, all many time zones away.
 
 The Trans-Gabon Railway connects Franceville to the coast at Libreville. The railway was completed in 1986 after decades of construction through some of the world's most challenging equatorial forest terrain. Manganese ore loads onto trains at Franceville and arrives at the port of Owendo days later. The railway schedule is the primary time reference for the mining economy, and it runs on WAT year-round.

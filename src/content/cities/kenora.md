@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Kenora is one of Ontario's geographic oddities. Ontario runs on Eastern Time, but Kenora, tucked into the province's far northwestern corner just east of the Manitoba border, follows Central Time. UTC-6 in winter, UTC-5 in summer with daylight saving. The same time as [Winnipeg](/winnipeg), 200 kilometers to the west.
 
+## Lake of the Woods and the case for Central Time
+
 The reason is practical. Kenora is economically and geographically closer to Winnipeg than to Toronto. Keeping Eastern Time would mean solar noon arriving closer to 1pm in midsummer, which makes less sense for a community whose rhythms are tied to Lake of the Woods, a 15,000-island wilderness area that provides the city's outdoor identity.
 
 Lake of the Woods creates Kenora's particular relationship with summer light. At nearly 50 degrees north, summer evenings here stretch past 10pm on Central Daylight Time. Fishing boats return late. Dockside restaurants stay busy long after dark elsewhere would have settled in. The lake glitters under a sky that refuses to go fully dark.

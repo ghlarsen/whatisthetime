@@ -15,6 +15,8 @@ The clock is Central European Time, Europe/Sarajevo timezone, UTC+1 in winter an
 
 Bosnia's timezone situation is geographically interesting. The country is surrounded by Croatia on three sides (and Serbia to the east), and all its neighbors use Central European Time. Internal timezone unity is both practical and diplomatically uncontested, one of the few simple coordinates that the country's complex political structure shares.
 
+## A city distinct from Sarajevo
+
 Banja Luka's character is quite different from Sarajevo. Less Ottoman-influenced, more Central European in its architecture and pace. The Ferhadija Mosque, destroyed during the 1992-1995 war and rebuilt by 2016, is a key landmark. The Vrbas River runs through the city center with rapids and riverside parks.
 
 The Banja Luka economic zone has grown with post-war reconstruction and now has significant retail and logistics development, particularly along the corridor connecting the city to the Croatian border.

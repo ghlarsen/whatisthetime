@@ -13,6 +13,8 @@ Skopje sits in a valley in the center of [North Macedonia](/country/north-macedo
 
 The city has a layered architectural history tied to its violent past. A catastrophic earthquake in 1963 destroyed much of the older city center. The reconstruction that followed, planned with international assistance, created a modernist urban fabric. Then, from around 2010, the Skopje 2014 project added neoclassical statues, triumphal arches, and marble-clad buildings to the city center in a controversial effort to construct a nationalist aesthetic identity. The old bazaar quarter, Čaršija, survived the earthquake and the renovations and remains the most organically historic part of the city.
 
+## seasons and daily light
+
 At 42 degrees north, Skopje has clear seasonal variation: about 15 hours of daylight in June and under 9 hours in December. The summer evenings are warm and the terraced cafés of the riverside stay busy until late. Winter closes things down earlier, the mountains visible from the city collecting snow while the valley city stays relatively mild.
 
 [Sofia](/sofia) in neighboring Bulgaria and [Sarajevo](/sarajevo) in Bosnia keep the same Central European Time across the Balkan region.

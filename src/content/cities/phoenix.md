@@ -15,6 +15,8 @@ The logic is desert logic. Phoenix summers are already punishing, regularly exce
 
 The practical consequence is that Phoenix's time relationship to the rest of the country shifts twice a year. In winter, Phoenix matches [Denver](/denver) and is two hours behind New York. In summer, when California and Colorado spring forward, Phoenix suddenly matches Los Angeles and is only three hours behind New York. The city stays still while everyone else moves.
 
+## the exception within the exception
+
 The exception within the exception: the Navajo Nation, which covers a large portion of northeastern Arizona, does observe daylight saving time. The Hopi Reservation, surrounded by the Navajo Nation, does not. Drivers crossing these lands in summer pass through a patchwork of different clock-states.
 
 [9am in Phoenix is 4pm in London](/when/9am-phoenix/london) in winter, 5pm in summer.

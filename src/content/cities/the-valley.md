@@ -13,6 +13,8 @@ The Valley is the capital of [Anguilla](/country/anguilla), a flat coral island 
 
 Anguilla keeps Atlantic Standard Time, UTC-4, year-round. Unlike some Caribbean neighbors that observe US Eastern time or switch between AST and EDT for tourism alignment, Anguilla holds steady at UTC-4 without DST adjustments. At 18 degrees north, the island's daylight variation is modest enough that clock changes offer little practical benefit.
 
+## luxury tourism and Caribbean time
+
 The island is known for extreme-quality beaches and, unusually for a Caribbean territory of its size, a sophisticated luxury tourism sector. Beach bars here run on Caribbean time, which is to say, on appetite and tide rather than clock. High season (December through April) sees the island fill with visitors from North America and Europe who are already recalibrating their biological clocks.
 
 [9am in The Valley is 1pm in London](/when/9am-the-valley/london). [Saint John's](/saint-johns) in Antigua shares the Atlantic Standard Time clock.

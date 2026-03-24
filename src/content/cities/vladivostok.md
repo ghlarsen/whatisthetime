@@ -15,6 +15,8 @@ Vladivostok is where Russia ends, or begins, depending on which direction you're
 
 Russia eliminated DST in 2014, locking the clocks permanently. Vladivostok had previously shifted between UTC+10 and UTC+11 seasonally. The permanent UTC+10 was initially unpopular because it moved winter sunrise to later hours, but the adjustment period passed.
 
+## Pacific terminus and frozen harbor
+
 At 43 degrees north on the Pacific coast, Vladivostok has a distinctive climate: continental winters with Siberian cold, moderated in summer by the Pacific. The Golden Horn Bay freezes in winter, requiring icebreakers. Sunrise varies from about 5:30am in summer to after 8:30am in winter, amplified by the late UTC+10 in winter months.
 
 [9am in Vladivostok is 11pm the previous day in London](/when/9am-vladivostok/london). [Yuzhno-Sakhalinsk](/yuzhno-sakhalinsk) to the northeast is one timezone further east.

@@ -15,6 +15,8 @@ Thailand runs on Indochina Time, UTC+7, year-round. No daylight saving. [Thailan
 
 At 13 degrees north, Nonthaburi's mornings are roughly consistent all year. Traffic begins building by 5:30am, the river boats start running early, and the peak commute clogs the roads in both directions between 7am and 9am. Evening rush does the same in reverse. The clock that matters most in this city is the one displaying the next boat departure.
 
+## city beyond the commuter label
+
 Nonthaburi has its own identity beyond the commuter label: a historic center with one of Thailand's oldest provincial halls, a famous durian market that draws buyers from across the region, and stretches of riverbank that still feel slower than the capital.
 
 [9am in Mueang Nonthaburi is 2am in London](/when/9am-mueang-nonthaburi/london), placing it on a schedule that aligns mornings here with European late nights. Shared timezone with [Bangkok](/bangkok).

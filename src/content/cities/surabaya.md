@@ -15,6 +15,8 @@ Indonesia's three timezone system, Western (UTC+7), Central (UTC+8), and Eastern
 
 Surabaya is one of Southeast Asia's largest ports and a manufacturing hub for east Java's industrial output. The city's naval history is significant: the Battle of Surabaya in November 1945, when Indonesian independence fighters resisted British and Dutch forces, is commemorated on November 10 as Heroes' Day (Hari Pahlawan). Time here carries that weight.
 
+## monsoon rhythms and commercial port
+
 At 7 degrees south, Surabaya is near the equator, with minimal daylight variation. The city's rhythm is shaped by the monsoon seasons and the flow of commercial shipping more than by any seasonal clock.
 
 [Jakarta](/jakarta) to the west shares the same Western Indonesia Time.

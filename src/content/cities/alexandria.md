@@ -15,6 +15,8 @@ The clock is Eastern European Standard Time, UTC+2, permanent. Egypt abandoned d
 
 Alexandria's sea-facing position gives it a softer climate than Cairo to the southeast. The Mediterranean moderates the heat in summer and brings actual rain in winter, which Cairo rarely sees. The city's daily rhythm reflects this: a slightly more languid pace than Cairo, a city that spends time on its corniche by the sea.
 
+## From lighthouse to corniche
+
 The ancient lighthouse that defined Alexandria's position as a navigational landmark is long gone. Its light guided ships through one of the ancient world's busiest harbors. Now the Qaitbay Citadel stands where the Pharos once did. The city still marks the transition between the Mediterranean and Africa.
 
 [Cairo](/cairo) shares the same timezone. [9am in Alexandria is 7am in London](/when/9am-alexandria/london) during European winter.

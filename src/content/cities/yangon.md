@@ -15,6 +15,8 @@ The half-hour offset has origins in the British colonial period, when Burma (as 
 
 Yangon (formerly Rangoon) was Myanmar's capital until 2006, when the military junta moved the capital to the newly built city of Naypyidaw. Yangon remains the country's largest city, commercial center, and cultural heart. Shwedagon Pagoda, the dominant landmark, is covered in 60 tonnes of gold leaf and orients the city spiritually and physically.
 
+## Buddhist calendar and half-hour distinctiveness
+
 The Buddhist calendar governs religious life. Buddhist Lent, the Thadingyut Festival of Lights, and Thingyan (Water Festival at New Year) follow lunar dates that shift annually in the civil calendar.
 
 [9am in Yangon is 2:30am in London](/when/9am-yangon/london). [West Island](/west-island) in the Cocos Islands shares the UTC+6:30 offset.

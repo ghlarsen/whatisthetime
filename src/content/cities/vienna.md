@@ -13,6 +13,8 @@ Vienna runs on Central European Time, UTC+1 in winter and UTC+2 during summer DS
 
 The Viennese Kaffeehaus is not primarily a coffee shop. It is an institution for occupying a table for as long as you wish, nursing a single Melange or Verlängerter while reading the complimentary newspapers, writing, thinking, or meeting. The house does not rush you. The newspaper holder is provided. The glass of water is refilled. You may stay two hours, or five. The clock on the wall is informational.
 
+## musical precision and Kaffeehaus hours
+
 Vienna's musical heritage imposed its own temporal precision in a different direction. The Vienna Philharmonic's New Year's Concert has broadcast annually on January 1st since 1939, with start times precise to the minute, transmitted to over 90 countries. Viennese classical performance culture has an exacting relationship with the downbeat.
 
 [Austria](/country/austria) at 48 degrees north gets meaningful seasonal variation. Summer evenings extend past 9pm. December afternoons go dark by 4pm. The Christmas market season, which defines the city's December pace, runs on a schedule of advent weeks older than the modern timezone system.

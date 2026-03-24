@@ -15,6 +15,8 @@ Malawi keeps Central Africa Time, UTC+2, year-round with no daylight saving. At 
 
 The University of Malawi's Chancellor College is in Zomba, and the institution dates to 1964, making it one of Central Africa's older universities. The academic calendar divides the year in a different temporal layer from the agricultural one: planting season (November), rains (December-March), harvest (April-May), dry season (May-October).
 
+## former capital, plateau climate, and colonial past
+
 Zomba Prison, established during the colonial period, has been rebuilt as a hotel with tourism programming that explicitly grapples with its history. The transformation of colonial infrastructure into contemporary spaces is a temporal comment on how Malawi reads its own past.
 
 [9am in Zomba is 7am in London](/when/9am-zomba/london). [Blantyre](/blantyre) to the south keeps the same Central Africa Time.

@@ -13,6 +13,8 @@ Tarauacá sits deep in the Brazilian state of Acre, pressed against the Peruvian
 
 The clock here runs on Acre Time, UTC-5, which puts Tarauacá five hours behind London and two hours behind Brasília. [Brazil](/country/brazil) spans four official timezones, and Acre is the westernmost. When it's noon in Brasília, it's 10am here. The gap matters: federal broadcast schedules, banking hours, and bureaucratic deadlines all run on Brasília time, meaning residents must constantly translate.
 
+## Amazon rhythms over the clock
+
 The Amazon's rhythms dominate the actual experience of time. River levels rise and fall with the wet season (November through March), and whole communities orient their calendars around flood and drought rather than daylight saving. Acre dropped out of DST in 2013, and the decision has mostly held since.
 
 [9am in Tarauacá is 2pm in London](/when/9am-tarauaca/london). A shared timezone neighbor is [Rio Branco](/rio-branco), the Acre state capital upstream.

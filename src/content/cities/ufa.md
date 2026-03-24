@@ -15,6 +15,8 @@ Ufa is the capital of Bashkortostan, one of Russia's most ethnically distinct re
 
 At 54 degrees north, Ufa gets significant seasonal daylight variation. Summer evenings are long, and the city's parks and outdoor spaces fill with residents making the most of the light. Winter brings short days and serious cold, a Ural Mountain climate that is neither as extreme as Siberia nor as mild as European Russia.
 
+## Bashkir culture and industrial rhythms
+
 Ufa is a major petrochemical center, and its industrial rhythms are set by factory schedules rather than natural light. The Bashkir language has its own calendar terminology, though civil timekeeping follows the Russian standard.
 
 [9am in Ufa is 4am in London](/when/9am-ufa/london). [Yekaterinburg](/yekaterinburg) to the northeast shares the same timezone.

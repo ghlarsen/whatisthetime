@@ -13,6 +13,8 @@ Bamenda is the capital of Cameroon's Northwest Region, one of the two English-sp
 
 The clock is West Africa Time, UTC+1. The IANA identifier is Africa/Douala. [Bafoussam](/bafoussam) to the southeast shares the same timezone, as does all of [Cameroon](/country/cameroon). No daylight saving.
 
+## Crisis in the highlands
+
 Bamenda has been at the center of Cameroon's anglophone crisis since 2016, when protests over the marginalization of English-speaking regions escalated into an ongoing armed conflict. This context shapes daily life in the city in ways that run deeper than any timezone consideration: business activity, movement, and social life all operate under the constraints of ongoing insecurity.
 
 Bamenda's highland position, at the edge of the Adamawa Plateau, gives it pleasant days and cool nights. The surrounding area produces food crops, coffee, and vegetables for regional markets. The city's market, one of the largest in the Northwest, brings traders and buyers from a wide radius.

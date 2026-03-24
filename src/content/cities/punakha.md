@@ -15,6 +15,8 @@ Punākha was Bhutan's capital until 1955, when the court moved to Thimphu. The P
 
 Punākha sits at about 1,200 meters elevation, several hundred meters lower than Thimphu. This makes it warmer: fruit trees bloom early here, and rice is double-cropped in the valley floor. In February and March, the jacaranda trees along the river turn purple before most of Bhutan has shed its winter. Spring comes first to Punākha.
 
+## the spring festival and lunar calendar
+
 The Punākha Tshechu, a religious festival held each spring at the dzong, draws visitors from across Bhutan and abroad. It centers on masked dances (chhams) depicting scenes from Bhutanese Buddhist history, ending with the unfurling of a giant thangka at dawn. The timing is set by the lunar calendar, not the civil one.
 
 [9am in Punākha is 3am in London](/when/9am-punakha/london).

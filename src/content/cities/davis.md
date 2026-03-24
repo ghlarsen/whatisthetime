@@ -13,6 +13,8 @@ Davis Station is an Australian Antarctic research base on the Ingrid Christensen
 
 The choice of UTC+7 aligns Davis with the AEST time in the Heard Island and McDonald Islands territory, which Australia uses as a convenient reference for its Antarctic operations in that sector. In practical terms, it facilitates scheduling with Australian capital cities during the station's operational seasons.
 
+## Where days and nights last for months
+
 At 68 degrees south, Davis experiences extreme polar conditions. In summer (December-January), the sun doesn't set for weeks. In winter, darkness is continuous. The concept of a "day" becomes meaningless in any solar sense for several months of the year. The clock at Davis is maintained primarily for coordination with the Australian Antarctic Division in Hobart, Tasmania, which is UTC+11 in summer (AEDT) and UTC+10 in winter (AEST). Davis's UTC+7 sits four hours behind.
 
 [Convert 9am Davis time to London](/when/9am-davis/london)

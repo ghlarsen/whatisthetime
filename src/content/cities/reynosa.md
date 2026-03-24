@@ -15,6 +15,8 @@ Reynosa and McAllen, Texas are separated by the Rio Grande and connected by the 
 
 Reynosa at 26 degrees north is Sonoran Desert country. Summers are intensely hot, easily reaching 40 degrees Celsius. Winters are mild. The city is flat and sprawling, a product of rapid industrial growth from the 1970s onward as maquiladoras multiplied along the border.
 
+## the border river and industrial growth
+
 The Rio Grande, the border itself, has shrunk. Water withdrawals for agriculture and cities have reduced it substantially from its historical flow. The river that marks the time zone boundary between two nations is thinner than it used to be.
 
 [9am in Reynosa is 3pm in London](/when/9am-reynosa/london) in winter.

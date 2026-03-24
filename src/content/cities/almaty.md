@@ -13,6 +13,8 @@ Almaty is not the capital of Kazakhstan (that distinction belongs to Nur-Sultan 
 
 The clock is UTC+6. Kazakhstan abolished daylight saving time in 2005, and the eastern zone of the country has been on UTC+6 ever since. The IANA identifier is Asia/Almaty.
 
+## Time between Moscow and Beijing
+
 Almaty's timezone creates an interesting regional network. [Aktobe](/aktobe) in western Kazakhstan is one hour behind. Nur-Sultan to the north is on the same UTC+6. Beijing, China, is formally on UTC+8 but its enormous territory means solar noon in western China is quite different from the official clock, a famously awkward arrangement. Almaty's UTC+6 puts it comfortably between these different systems.
 
 The city's commercial rhythm is shaped by its double role: a domestic financial center and a Central Asian hub with connections to Russia, China, and the broader Silk Road network. Business with Moscow operates on a three-hour difference. Business with Shanghai operates on a two-hour difference.

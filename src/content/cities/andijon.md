@@ -13,6 +13,8 @@ Andijon sits in the eastern end of the Fergana Valley, one of Central Asia's mos
 
 The city runs on Uzbekistan Time, UTC+5. The IANA identifier is Asia/Tashkent, used for all of Uzbekistan. No daylight saving. Uzbekistan abolished DST in 1991 after independence from the Soviet Union.
 
+## Babur, massacre, and the Fergana borders
+
 Andijon is famous for two things in recent history: being the birthplace of Babur, the founder of the Mughal Empire, and the site of the 2005 Andijon massacre, when government forces fired on protesters. The city's name carries different weight depending on where in the world you say it.
 
 The Fergana Valley's geography makes it a complex place. Andijon is very close to the borders of Tajikistan (UTC+5) and Kyrgyzstan (UTC+6). Cross into Kyrgyzstan and the clock jumps one hour forward. The borders here are complex and contested, a legacy of Soviet administrative decisions.

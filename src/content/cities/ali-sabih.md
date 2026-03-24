@@ -15,6 +15,8 @@ The clock is East Africa Time, UTC+3. The IANA identifier is Africa/Djibouti. No
 
 Ali Sabih sits in the interior highlands, which are slightly cooler and less humid than the coastal capital. But this is relative: Djibouti is home to some of the highest recorded average temperatures on Earth. The Danakil Depression, nearby in Ethiopia, holds records for the hottest inhabited place in the world. Ali Sabih is not quite that extreme, but the heat shapes everything. Activity is concentrated in early mornings and evenings.
 
+## The railway connection east
+
 The town has strategic position in that it connects the coastal capital to the Ethiopian interior, which is why the Addis Ababa-Djibouti Railway passes through this region. That railway, rebuilt as a modern electric line and opened in 2018, restored a transit link that had been central to East African trade for over a century.
 
 [9am in Ali Sabih is 6am in London](/when/9am-ali-sabih/london) during European winter.

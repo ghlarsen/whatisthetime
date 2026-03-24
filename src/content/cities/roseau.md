@@ -15,6 +15,8 @@ Dominica is not the Dominican Republic. This distinction, which requires explain
 
 Roseau sits beneath volcanic mountains that catch the Atlantic trade winds and wring extraordinary amounts of rainfall from them. Dominica has 365 rivers, one for every day of the year by tradition. The interior boiling lake, the world's second-largest boiling lake, sits in an active volcanic crater accessible only on foot. The island has geothermal energy potential that is still being developed.
 
+## the morning market and volcanic produce
+
 The morning in Roseau smells like flowers and rain. The market opens early along the river, vendors setting out fresh produce from the volcanic soil. The fruits here are specific to the Caribbean altitude: sour oranges, dasheen, breadfruit, plantain in a dozen varieties.
 
 [9am in Roseau is 1pm in London](/when/9am-roseau/london).

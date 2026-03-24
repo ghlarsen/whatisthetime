@@ -13,6 +13,8 @@ Santa Cruz de la Sierra is [Bolivia](/country/bolivia)'s largest city by populat
 
 The city runs on Bolivia Time (UTC-4) all year. Bolivia has not observed daylight saving time since 1932, and the fixed offset applies uniformly from the Altiplano to the eastern lowlands. At about 18 degrees south, Santa Cruz sees roughly 13 hours of daylight in December (its local summer) and around 11 hours in June.
 
+## rapid growth and multiple rhythms
+
 Santa Cruz grew explosively in the second half of the twentieth century, transforming from a modest regional town into a metropolis. That growth happened quickly enough that the city's internal rhythms never fully consolidated around a single pattern. The newer commercial districts run on schedules that would be familiar in any Latin American business hub. The older neighborhoods follow a slower calendar.
 
 [Sucre](/sucre), Bolivia's constitutional capital, shares the same Bolivia Time offset in the western highlands.

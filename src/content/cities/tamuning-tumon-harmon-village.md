@@ -15,6 +15,8 @@ Tumon Bay is the visual and commercial heart of Guam's tourism industry. The cre
 
 At UTC+10, Tumon Bay sees each new calendar day significantly before the Japanese and Korean visitors' home cities (both at UTC+9). The single hour difference is small, but it means that technically, guests arriving from Tokyo or Seoul in the evening are arriving into the next calendar day local time.
 
+## wartime history and resort present
+
 Guam was heavily fortified by Japan during World War II and liberated by US forces in August 1944, a campaign that took three weeks. The war is present in the landscape: Liberation Day is a public holiday, and the Guam War Survivors' Memorial is near the airport.
 
 [Tamuning](/tamuning) nearby shares the same Chamorro Standard Time.

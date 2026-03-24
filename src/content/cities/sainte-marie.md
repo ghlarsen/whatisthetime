@@ -15,6 +15,8 @@ Sainte-Marie sits on Martinique's northeastern coast, where the Atlantic trade w
 
 The northeastern coast faces the rougher Atlantic side of Martinique. The waves are larger here than on the sheltered Caribbean west coast. Wind sports: kitesurfing, windsurfing, are popular in the trade wind conditions. The landscape is hilly and green, banana and pineapple plantations covering the slopes between the coast and the peaks of the Caravelle Peninsula nearby.
 
+## the Caravelle Peninsula and colonial history
+
 The Caravelle Peninsula nature reserve, jutting into the Atlantic east of Sainte-Marie, has the ruins of the Château Dubuc, a 17th-century estate whose history includes connections to both legitimate trade and the slave trade. History in the Caribbean is never far from the surface.
 
 [9am in Sainte-Marie is 1pm in London](/when/9am-sainte-marie/london).

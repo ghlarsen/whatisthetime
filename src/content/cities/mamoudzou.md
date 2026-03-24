@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Mamoudzou is the capital of Mayotte, a French overseas department and region sitting in the Indian Ocean between the Comoros and northwestern Madagascar. It runs on East Africa Time, UTC+3, with no daylight saving, the same offset as [Moroni](/moroni) in the nearby Comoros.
 
+## France's southernmost territory
+
 Mayotte's political status is unusual. The Comoros archipelago voted for independence from France in a 1974 referendum, but Mayotte alone voted to remain French. The island has been a French department since 2011, the EU's only territory in the southern hemisphere. France, six time zones away in Paris, is several hours behind during European winter.
 
 The island sits at 13 degrees south latitude, in the Mozambique Channel. Cyclone season from November to April brings the primary seasonal disruption to daily rhythms. The rest of the year runs on a predictable equatorial schedule.

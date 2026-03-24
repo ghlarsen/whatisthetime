@@ -15,6 +15,8 @@ Portmore is technically separate from Kingston, but the two cities form one cont
 
 At 18 degrees north, Jamaica's daylight variation is modest. Sunrise in Kingston and Portmore comes between 5:45am and 6:30am. Sunset falls between 6pm and 7pm. The days feel consistent throughout the year, which is one of the pleasures of low-latitude living.
 
+## fishing, farming, and the morning commute
+
 The Old Harbour Bay fishing community near Portmore heads out before dawn, as fishing communities everywhere tend to do. The fish market opens when the boats return, around 7am or 8am, and the rhythms of the sea assert themselves over any civil schedule.
 
 [9am in Portmore is 2pm in London](/when/9am-portmore/london) in winter.

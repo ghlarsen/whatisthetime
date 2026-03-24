@@ -13,6 +13,8 @@ Coyhaique sits at 45 degrees south in Chilean Patagonia, a region so remote that
 
 Chile as a whole has had a turbulent relationship with its clocks. The mainland shifted between DST schedules multiple times in the 2010s, responding to drought and energy concerns, before eventually freezing clocks in most southern regions at UTC-3 permanently. Coyhaique sits far enough south that the summer solstice brings nearly 16 hours of daylight and the winter solstice fewer than 9. Shifting clocks was creating significant disruption to the daily rhythms of a small, isolated community.
 
+## Patagonian self-sufficiency and the clock
+
 The Carretera Austral, Chile's southern highway that runs through Coyhaique, is one of the most isolated stretches of road in the Americas. Residents here are accustomed to solving problems with limited external support. The timezone decision reflected that self-sufficiency: when Santiago's clock changes were creating chaos in Patagonian schools and farms, the south simply stopped following.
 
 [Convert 9am Coyhaique time to London](/when/9am-coyhaique/london)

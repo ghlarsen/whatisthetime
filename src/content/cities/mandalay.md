@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Mandalay was the last capital of the Burmese kingdom before British annexation in 1885, and today it is Myanmar's second-largest city and cultural heart. It runs on Myanmar Time, UTC+6:30, a half-hour offset shared with [Yangon](/yangon) and the entire country.
 
+## a half-hour offset and its neighbors
+
 Myanmar's unusual 30-minute offset has British colonial roots. The country was administered as part of British India, which also used a non-standard offset, and when Burma established its own time standard it chose UTC+6:30 rather than aligning with India or the neighboring UTC+7 countries. The offset has remained unchanged since 1945.
 
 The practical effect is that Mandalay is always slightly off from every neighbor: Thailand and Vietnam are at UTC+7, Bangladesh at UTC+6, India at UTC+5:30. Scheduling across any border requires non-round-number arithmetic.

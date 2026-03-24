@@ -15,6 +15,8 @@ Malaysia uses Malaysia Time, UTC+8, year-round with no daylight saving. The IANA
 
 At 3 degrees north of the equator, Petaling Jaya has essentially constant daylight year-round: sunrise around 7am, sunset around 7:15pm, every day. The concept of seasonal time adjustment is meaningless. The rhythm that matters is the monsoon cycle: the northeast monsoon from November through March brings heavy rain to the east coast, while PJ on the west coast gets its wetter periods from the southwest monsoon from May through September.
 
+## tech hub in the greater KL area
+
 PJ is Malaysia's tech and media hub, home to many corporate offices and studios. The working rhythm is determined by corporate and broadcast schedules more than any natural time cue.
 
 [9am in Petaling Jaya is 1am in London](/when/9am-petaling-jaya/london), the same as [Kuala Lumpur](/kuala-lumpur).

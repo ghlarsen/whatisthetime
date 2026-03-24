@@ -15,6 +15,8 @@ Mzuzu sits at around 1,250 meters elevation in Malawi's Northern Region, cool en
 
 The city is a market and service hub for the surrounding rural districts. The weekly market days pull in buyers and sellers from hours away. Transport connections to Blantyre and to Lilongwe pass through or near Mzuzu, and the city functions as a northern waypoint on the M1 highway that runs the length of the country.
 
+## university, markets, and highland rhythm
+
 Mzuzu also has Mzuzu University, one of Malawi's main institutions of higher education, which gives the city a younger demographic mix and an academic rhythm that structures part of its year around the academic calendar.
 
 [9am in Mzuzu is 7am in London](/when/9am-mzuzu/london).

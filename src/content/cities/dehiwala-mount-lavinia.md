@@ -13,6 +13,8 @@ Dehiwala-Mount Lavinia is a municipality directly south of [Colombo](/colombo) o
 
 The city's beach strip at Mount Lavinia, once the site of the colonial Governor's residence, now hosts hotels and seafood restaurants. Sunset here over the Indian Ocean arrives around 6pm year-round, give or take about 30 minutes across seasons, and the beach crowds respond to solar rather than clock time. Families gather as the light changes, regardless of what the official hour says.
 
+## Between the Gulf and Southeast Asia
+
 Sri Lanka's half-hour offset (UTC+5:30) creates a natural break point between the Indian Subcontinent and the Southeast Asian timezone bloc. Dehiwala-Mount Lavinia's morning, at 5:30am standard time, is already a business morning in the Gulf (UTC+3 to UTC+4) but still pre-dawn in Singapore. The offset is a historical accident that continues to suit the island's position between trading zones.
 
 [Convert 9am Dehiwala-Mount Lavinia time to London](/when/9am-dehiwala-mount-lavinia/london)

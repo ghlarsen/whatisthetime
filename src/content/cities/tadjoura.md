@@ -15,6 +15,8 @@ Djibouti has not observed daylight saving time. At 11 degrees north, the country
 
 Tadjoura's age distinguishes it in a region where most infrastructure is relatively recent. The town was a significant port for the Afar people's trade networks, and its dhow harbor connected the interior of the Horn with the Arabian trade routes. The Hamoudi Mosque is one of the oldest Islamic structures in the country.
 
+## a quieter pace across the gulf
+
 Today Tadjoura is quieter than the capital. The ferry connection to Djibouti City crosses the gulf in about an hour, and the town retains a pace that feels distinct from the logistics and military activity that define the capital. The Gulf of Tadjoura itself is notable for whale shark aggregations that draw dive tourism, adding a seasonal pattern to the town's economy.
 
 [9am in Tadjoura is 6am in London](/when/9am-tadjoura/london) in winter, 7am during British Summer Time.

@@ -15,6 +15,8 @@ At 61 degrees north, Tampere's seasonal light is extreme. In June, the sun sets 
 
 Finland has been among the most vocal EU member states about ending DST, with consistent public support for permanent summer time (Eastern European Summer Time, UTC+3 year-round). The country's experience with extreme seasonal light variation makes the artificial one-hour shift in spring and autumn feel both more significant and more pointless than it does in countries with moderate latitudes.
 
+## industrial heritage and Finland's DST debate
+
 Tampere is a major university city and a tech and manufacturing hub, with a cultural identity built around its industrial working-class heritage. The Vapriikki museum complex occupies a former factory building. The Tammerkoski rapids that powered the mills now power a very different economy.
 
 [9am in Tampere is 7am in London](/when/9am-tampere/london) in winter, 6am during British Summer Time when both observe DST.

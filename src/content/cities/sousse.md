@@ -13,6 +13,8 @@ Sousse sits on Tunisia's eastern Mediterranean coast, roughly 140 kilometers sou
 
 The fixed UTC+1 offset means Sousse's beach season operates on a predictable light schedule. In July, the height of the resort season, the sun sets around 8:30pm, giving tourists a long afternoon on the beach followed by an early evening with good light. The decision to drop DST was partly about simplifying tourism schedules, which depend on coordinated arrivals from European cities.
 
+## medina and resort in one city
+
 Sousse's medina is a working historic city center, not just a heritage site. The ribat (a fortified monastery from the eighth century) and the Great Mosque are the structural core of the old city. Medieval time here was organized by prayer calls from the minaret rather than a clock face.
 
 The 2015 terrorist attack at the Sousse resort beach killed 38 tourists and severely damaged the city's tourism economy for several years. The recovery has been gradual.

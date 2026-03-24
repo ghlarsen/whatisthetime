@@ -15,6 +15,8 @@ Utrecht's canals are different from Amsterdam's. The older city dug its waterway
 
 Utrecht's Dom Tower, the tallest church tower in the Netherlands at 112 meters, has rung the hours for the city since 1382. The original nave of the cathedral collapsed in a 1674 storm and was never rebuilt, leaving a gap between the tower and the remaining choir that has been an open square ever since.
 
+## Dom Tower and treaty timestamps
+
 The Treaty of Utrecht, signed in 1713, ended the War of the Spanish Succession and redrew European borders. The treaty was dated precisely, with timezone distinctions that mattered even in 1713 for coordinating signatures across delegations.
 
 [9am in Utrecht is 8am in London](/when/9am-utrecht/london). [Rotterdam](/rotterdam) to the south shares the Amsterdam timezone.

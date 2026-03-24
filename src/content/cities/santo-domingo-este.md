@@ -13,6 +13,8 @@ Santo Domingo Este is a province and urban district immediately east of the Domi
 
 The province runs on Atlantic Standard Time (UTC-4) all year, matching the rest of the [Dominican Republic](/country/dominican-republic). No daylight saving, no clock changes. The fixed offset has held since 1974.
 
+## commutes and a stable daily schedule
+
 Daily commutes across the Ozama River bridges connect Santo Domingo Este to the historic center and commercial districts of the capital. The commute schedule, the school bell, and the lunch hour all operate on the same stable Atlantic Standard Time that residents have known their whole lives without the disorientation of twice-yearly clock changes.
 
 [Santo Domingo Oeste](/santo-domingo-oeste) across the capital to the west keeps the same offset.

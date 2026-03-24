@@ -15,6 +15,8 @@ Moutsamoudou is the largest city on Anjouan, the second-largest island in the Co
 
 Moutsamoudou is a port city on a mountainous island, and its daily rhythm begins at the harbor. The morning dhow traffic, the fish market, the ferry connections to the other islands and to Mayotte nearby all run on schedules shaped by tides and trade winds as much as clock time. The Comorian Islands were a center of Indian Ocean trade for centuries before European contact, and that maritime orientation still defines how the city moves.
 
+## ylang-ylang harvest and early mornings
+
 The city is also known for ylang-ylang production, the intensely fragrant flower that goes into perfumes. The harvest happens by hand, in the early morning before the heat concentrates the volatile oils. The farmers who do this work have their own sense of what time it is.
 
 [9am in Moutsamoudou is 6am in London](/when/9am-moutsamoudou/london).

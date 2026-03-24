@@ -15,6 +15,8 @@ The city was the capital of the Bambara Empire from the late seventeenth century
 
 At 13 degrees north, Ségou sees roughly 13 hours of daylight in June and about 11 in December. The variation is real but the temperatures are extreme enough year-round that the solar geometry matters less than the difference between the dry Harmattan season and the wet season in terms of daily activity patterns.
 
+## the Niger River festival and seasonal rhythms
+
 Ségou is also known for the Festival sur le Niger, an annual arts and culture festival held on the river. The event brings musicians, artists, and visitors from across West Africa and beyond, creating a brief seasonal disruption of the city's usual rhythm.
 
 [Sikasso](/sikasso) to the south and Bamako further west share the same GMT offset.

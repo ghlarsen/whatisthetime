@@ -15,6 +15,8 @@ Pljevlja sits in the high plateau of northern Montenegro, close to the Serbian a
 
 At 43 degrees north and over 1,000 meters elevation, Pljevlja's light is different from the coast. Summer days are long and clear at altitude. Winter brings early dusk amplified by surrounding mountains. The Tara River canyon nearby, one of Europe's deepest, creates its own microclimate. Morning fog sits in the gorge while the town above is already in sun.
 
+## Ottoman history and highland character
+
 The town has a significant Ottoman history, visible in the Husein-Pasha Mosque built in 1569, one of the oldest Ottoman monuments in Montenegro. Time in Pljevlja carries that layered quality common to Balkan towns that have been under multiple empires.
 
 [9am in Pljevlja is 8am in London](/when/9am-pljevlja/london) in winter.

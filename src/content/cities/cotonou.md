@@ -13,6 +13,8 @@ Cotonou is the largest city in Benin and its economic center, but the country's 
 
 Benin sits between roughly 6 and 12 degrees north latitude. In Cotonou, close to the coast at 6 degrees, sunrise runs from about 6:00am to 6:40am across the year and sunset from 6:20pm to 7:00pm. The modest variation makes year-round consistency practical and sensible.
 
+## Named for the capital, based in the commercial city
+
 The IANA identifier `Africa/Porto-Novo` is one of several African timezone names that reference a lesser-known capital over the more prominent city. Similar to how [Douala](/douala) and [Dar es Salaam](/dar-es-salaam) are larger than their respective capitals, Cotonou is the city where business gets done while Porto-Novo holds the formal title. The clocks, at least, are identical.
 
 [Convert 9am Cotonou time to London](/when/9am-cotonou/london)

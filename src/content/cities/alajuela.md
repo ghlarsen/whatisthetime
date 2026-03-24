@@ -15,6 +15,8 @@ The timezone is Central Standard Time, UTC-6, permanent. Costa Rica abolished da
 
 At 10 degrees north latitude, the logic of daylight saving simply doesn't apply with the same force as in temperate countries. Day length varies from roughly 11.5 hours in December to 12.5 hours in June. That's a one-hour variation across the entire year. There is no dramatic swing of summer evenings that makes extended daylight feel valuable.
 
+## Airport and coffee country rhythms
+
 Alajuela's daily rhythm is shaped partly by the airport. Early morning arrivals and departures mean the city has a 24-hour tourism economy layered over its agricultural base. The coffee harvest season, from October to February, adds another rhythm: the early morning call of pickers heading to the fields, the smell of processing from the beneficios.
 
 [9am in Alajuela is 3pm in London](/when/9am-alajuela/london) during European winter.

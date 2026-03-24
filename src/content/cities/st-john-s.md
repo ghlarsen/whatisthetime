@@ -13,6 +13,8 @@ St. John's, the capital of Newfoundland and Labrador, keeps one of the most unus
 
 The half-hour offset reflects Newfoundland's position and identity. The island sits east of the mainland Canadian provinces, but not quite far enough east to cleanly fall into the Atlantic timezone (UTC-4). Newfoundland's longitude is also close to that of the Atlantic coast of Europe, which creates a distinctive relationship with daylight: St. John's is the easternmost city in North America, and its sun rises before any other city on the continent.
 
+## Newfoundland Time as identity
+
 The timezone has been a source of Newfoundland pride and gentle mockery for generations. Mainlanders arriving in St. John's are reminded that the time is not simply "plus one" or "plus one and a half" from wherever they came from: it is Newfoundland Time, which is its own thing.
 
 [Canada](/country/canada) as a country spans six time zones. St. John's and its half-hour offset sits at the far eastern end of that span.

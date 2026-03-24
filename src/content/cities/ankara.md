@@ -17,6 +17,8 @@ Ankara sits at 39 degrees north, about the same latitude as Lisbon or Beijing. I
 
 Turkey's permanent UTC+3 creates an interesting border situation. [Greece](/country/greece) to the west uses Eastern European Time: UTC+2 in winter, UTC+3 in summer. So for half the year, Athens and Ankara are in sync. In winter, they diverge: Athens goes to UTC+2 while Ankara stays at UTC+3.
 
+## A planned capital, a permanent clock
+
 Ankara itself is a planned capital, designated by Atatürk after the founding of the republic in 1923. The government complex, wide republican boulevards, and parliamentary buildings make it a city of administration more than commerce.
 
 [9am in Ankara is 6am in London](/when/9am-ankara/london) during European winter.

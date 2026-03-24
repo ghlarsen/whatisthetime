@@ -13,6 +13,8 @@ Xitole is a small town in Guinea-Bissau's Quinára region, in the interior of on
 
 [Guinea-Bissau](/country/guinea-bissau) keeps Greenwich Mean Time, UTC+0, year-round with no daylight saving. The country is at roughly 12 degrees north, where daylight variation is minimal: sunrise and sunset shift by about an hour across the year. The climate here is driven by the monsoon, with a wet season from June to November and a long dry season, and these cycles, not the clock, organize agricultural and economic life.
 
+## monsoon rhythms and agricultural life
+
 Guinea-Bissau gained independence from Portugal in 1974 after a decade-long independence war led by Amílcar Cabral and the PAIGC. The country has experienced repeated political instability and military coups since independence, and for rural towns like Xitole, the rhythms of farming, fishing, and family life have often continued regardless of what is happening in the capital, Bissau.
 
 The Quinára region's forests and rivers are part of a biodiversity zone that extends across the Guinea coast. The Orango Islands National Park nearby protects coastal ecosystems including nesting sea turtles.

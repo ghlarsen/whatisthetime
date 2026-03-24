@@ -15,6 +15,8 @@ The [Turks and Caicos Islands](/country/turks-and-caicos-islands) use Eastern Ti
 
 At 21 degrees north, the daylight variation is modest. Summer evenings extend to around 7:30pm. Winter days end closer to 6pm. The consistency of Caribbean light is one of the things that makes the islands feel timeless in the resort brochure sense, and genuinely peaceful in the real sense.
 
+## Grand Turk and the salt industry
+
 Grand Turk, the administrative capital, is a different island 150 kilometers to the southeast. It uses the same timezone but has a very different character: quieter, more residential, less developed, with a historic salt industry in the salt ponds.
 
 [9am in Providenciales is 2pm in London](/when/9am-providenciales/london) in winter.

@@ -15,6 +15,8 @@ Nepal uses Nepal Time, UTC+5:45, the only UTC+5:45 offset in the world. The 45-m
 
 At 27.7 degrees north in the Himalayan foothills, Pātan's daylight ranges from about 10.5 hours in December to 13.5 hours in June. The valley's 1,400-meter elevation moderates the temperature relative to the lowland Terai, and the seasons are distinct: monsoon from June through September brings heavy rain and humidity, winter brings cold fog and frost, spring and autumn are the clearest and most pleasant seasons.
 
+## festivals and Newari culture
+
 Pātan's Newari community, the indigenous people of the Kathmandu Valley, maintains a calendar of festivals that is among the most dense in the world. Major festivals occur nearly monthly, with elaborate preparations that involve the entire community.
 
 [9am in Pātan is 3:15am in London](/when/9am-patan/london), the same as [Kathmandu](/kathmandu).

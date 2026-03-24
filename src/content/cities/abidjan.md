@@ -13,6 +13,8 @@ Abidjan is the economic capital of [Ivory Coast](/country/ivory-coast) and the l
 
 That permanence is relatively rare for a city of this size and importance. Most of the world's major financial centers drift with daylight saving. Abidjan does not. For the commodity traders, cocoa exporters, and banking houses that make this city West Africa's commercial nerve center, the stable clock matters.
 
+## Districts on the lagoon
+
 The city is organized around a lagoon, and the different districts wake at different hours. Plateau, the business district, is early. Treichville and the markets start before dawn. Cocody, the residential and diplomatic quarter, moves later. The clock is the same across all of them, but the rhythms are not.
 
 [Accra](/accra), Ghana's capital just to the east, shares the same UTC+0 timezone, which simplifies coordination across one of West Africa's busiest trade corridors.

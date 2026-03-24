@@ -15,6 +15,8 @@ Brunei sits on the northern coast of Borneo, at about 4 to 5 degrees north latit
 
 The sultanate operates its working week on a Sunday through Thursday schedule, with Friday and Saturday as the weekend. This religious calendar distinction means that when Sengkurong is at midday on Thursday, its working week is about to end while Singapore and Malaysia, sharing the same UTC+8 clock across the border, are at the midpoint of their own Thursday.
 
+## oil wealth and suburban character
+
 Brunei's oil wealth has funded a generous welfare state, and the suburban fabric of areas like Sengkurong reflects this: well-maintained housing, good roads, relatively little commercial intensity compared to neighboring Malaysian cities.
 
 [Singapore](/singapore) and [Kuala Lumpur](/kuala-lumpur) across the borders keep the same UTC+8 offset.

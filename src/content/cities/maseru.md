@@ -13,6 +13,8 @@ Maseru is the capital and largest city of Lesotho, the "Mountain Kingdom" entire
 
 Lesotho is one of only three countries in the world (along with San Marino and Vatican City) to be completely surrounded by a single other country. Its timezone alignment with South Africa is the natural consequence of that geography. Every border crossing requires no clock change.
 
+## a highland capital surrounded by one country
+
 The country sits at high altitude: Maseru itself is at about 1,600 meters, and much of Lesotho is even higher. The highland climate is cooler than the surrounding South African lowlands, and the agricultural calendar responds to altitude-specific growing seasons.
 
 [Mafeteng](/mafeteng) and [Maputsoe](/maputsoe) share this timezone. [9am in Maseru is 7am in London](/when/9am-maseru/london) during European winter.

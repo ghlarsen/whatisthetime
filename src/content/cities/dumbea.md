@@ -13,6 +13,8 @@ Dumbéa is the municipality immediately north of [Nouméa](/noumea), New Caledon
 
 UTC+11 aligns New Caledonia with [Sydney](/sydney) in summer (when eastern Australia is on AEDT, also UTC+11) and puts the territory one hour behind during Sydney's winter (when Sydney reverts to AEST, UTC+10). The French administrative connection means [Paris](/paris) is 10 or 11 hours behind depending on the season, making morning calls from Nouméa arrive at Parisian midnight.
 
+## Kanak communities and unresolved politics
+
 Dumbéa has significant Kanak (indigenous Melanesian) communities alongside settler and Caldoche (creole) populations. New Caledonia's unresolved political status, following a series of independence referendums in 2018, 2020, and 2021, means that questions about governance and identity are very much alive. The clock, at least, is not in dispute. UTC+11 is one of the few fixed points in an otherwise contested territory.
 
 [Convert 9am Dumbéa time to London](/when/9am-dumbea/london)

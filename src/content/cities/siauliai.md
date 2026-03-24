@@ -13,6 +13,8 @@ lastUpdated: "2026-03-23"
 
 At 56 degrees north, Šiauliai has pronounced seasonal light variation. In June, the sun sets past 10:30pm and rises before 5am. The summer evenings are genuinely long and luminous. In December, daylight lasts only around seven hours, with the sun rising after 9am and setting before 4pm. The difference between summer and winter is not just weather, it is the fundamental texture of the day.
 
+## the Hill of Crosses and cultural persistence
+
 The city is best known internationally for the Hill of Crosses, a pilgrimage site about 12 kilometers north of the city center where hundreds of thousands of crosses have been placed over centuries. During the Soviet occupation, the site was bulldozed multiple times, and each time the crosses returned. The hill became a symbol of Lithuanian cultural and religious persistence across a specific period of political time.
 
 Šiauliai also has a significant aviation history: the Šiauliai International Airport, once a major Soviet military airfield, still operates as an international facility.

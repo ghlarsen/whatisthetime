@@ -13,6 +13,8 @@ Debrecen, Hungary's second-largest city, sits in the Great Hungarian Plain near 
 
 Debrecen's longitude is well east of the Central European timezone's theoretical center. Solar noon arrives around 11:40am in winter and 12:40pm in summer, meaning the clock runs about 20 minutes fast relative to the sun. This is a mild version of the geographic mismatch common across Central European countries that adopted the CET/Berlin time block for economic and political coordination rather than geographic accuracy.
 
+## Markets, Reformed College, and market days
+
 The city is famous in Hungary as a Protestant stronghold: the Reformed College of Debrecen (founded 1538) is the oldest continuously operating higher education institution in Hungary, and the Great Reformed Church is one of the largest Protestant churches in the country. The town's market traditions are equally old, and the weekly market at Piac utca still defines the rhythm of the center city. Neither religious services nor market days align to UTC arithmetic, but they arrive reliably on schedule nonetheless.
 
 [Convert 9am Debrecen time to London](/when/9am-debrecen/london)

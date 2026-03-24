@@ -15,6 +15,8 @@ Kazakhstan spans five actual time zones geographically, but the country operates
 
 At 42 degrees north, Shymkent has substantial daylight variation: roughly 15 hours in June and around 9 hours in December. The long summer evenings in Central Asian summer are genuinely warm and are used for outdoor activity that would be uncomfortable in winter's early darkness.
 
+## Silk Road crossroads and commercial growth
+
 Shymkent has grown significantly as a commercial hub for southern Kazakhstan and a transit point between Kazakhstan, Uzbekistan, and Kyrgyzstan. The Silk Road passed through this region, and the city's commercial character reflects centuries of that crossroads geography.
 
 [9am in Shymkent is 4am in London](/when/9am-shymkent/london) in winter, 5am during British Summer Time.

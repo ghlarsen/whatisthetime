@@ -13,6 +13,8 @@ Piraeus is Europe's largest port by cargo volume, a fact that ancient Athenians 
 
 [Greece](/country/greece) runs on Eastern European Time, UTC+2 in winter and UTC+3 during summer daylight saving. Piraeus follows the same clock as [Athens](/athens) immediately to the northeast. The two cities are administratively separate but practically continuous, connected by the Athens Metro's green line.
 
+## ferry schedules and island connections
+
 Ferry schedules govern Piraeus time as much as civil time does. The port connects mainland Greece to hundreds of islands across the Aegean. Ferries depart for Crete, Rhodes, the Cyclades, and the Dodecanese on a schedule that has been the heartbeat of Greek island life for generations. A 9am departure from Gate E2 means something very specific to everyone waiting with luggage and cars.
 
 Summer daylight here is generous. By June, sunset comes after 8:30pm. The islands visible from the upper decks of departing ferries catch the light long into the evening. Winter brings the opposite: December evenings closing around 5pm, the harbor lights coming on early.

@@ -13,6 +13,8 @@ Copenhagen sits at 55.7 degrees north, making it one of the northernmost major E
 
 Denmark has been among the EU member states debating whether to abolish the twice-yearly clock change. The EU Parliament voted in 2019 to end the practice, allowing member states to choose their permanent time. But the proposal has stalled in member-state coordination. Copenhagen would likely choose permanent summer time (UTC+2) if given the choice, keeping those long evenings.
 
+## A cycling city shaped by daylight
+
 The city's cycling culture is famously light-sensitive. More Copenhageners commute by bike than by car, and sunrise and sunset times shape when streets fill with cyclists. On long June evenings, the harbor is busy with swimmers and kayakers past 9pm. The clock's relationship to daylight is felt physically in a city where so much life happens outdoors and on two wheels.
 
 [Convert 9am Copenhagen time to London](/when/9am-copenhagen/london)

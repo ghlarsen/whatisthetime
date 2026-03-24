@@ -15,6 +15,8 @@ Ra's Bayrūt is the headland that gives Beirut its face to the Mediterranean. Th
 
 Beirut at 33 degrees north has generous Mediterranean winters: mild, sometimes rainy, rarely cold enough to close the outdoor cafes. Summer is long and warm, the sea swimmable from April through October. The light on the western headland at sunset, hitting the limestone cliffs and the seafront buildings, is one of the city's defining daily moments.
 
+## rebuilding through repeated catastrophe
+
 The city has rebuilt from civil war, from explosions, from economic collapse, from more, and continues. Time in Beirut is layered with all of it.
 
 [9am in Ra's Bayrūt is 7am in London](/when/9am-ra-s-bayrut/london) in winter.

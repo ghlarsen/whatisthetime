@@ -13,6 +13,8 @@ Peshawar is one of the oldest continuously inhabited cities in Asia, positioned 
 
 [Pakistan](/country/pakistan) uses Pakistan Standard Time, UTC+5, year-round with no daylight saving. Peshawar shares this with Karachi, Lahore, and Islamabad. At 34 degrees north, Peshawar has real seasonal variation: summer days push toward 14.5 hours of light, winter days shorten to under 10. The sun rises from behind the eastern mountains later than it would on the plain, and sets earlier into the western ranges.
 
+## the Afghan border and modern history
+
 The city's proximity to the Afghan border has shaped its modern history profoundly. Waves of Afghan refugees beginning in the 1980s have made Peshawar one of the world's cities most affected by a neighboring conflict. The refugee economy, the humanitarian organizations, and the transit trade between Afghanistan and Pakistan have all given the city a particular intensity.
 
 The morning in Peshawar belongs to the bazaars: the old city's markets begin early, before the heat of the day builds.

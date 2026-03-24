@@ -13,6 +13,8 @@ Mentiri is one of the mukims (sub-districts) of Brunei Muara, the most populated
 
 Brunei is a small but wealthy sultanate on the north coast of Borneo, with a GDP per capita among the highest in Southeast Asia due to oil and natural gas revenues. The country's single timezone reflects its small geographic size: there is no longitude spread large enough to require more than one.
 
+## Islamic calendar alongside the civil clock
+
 The Islamic calendar structures life in Brunei alongside the civil clock. The sultanate enforces Sharia law for its Muslim citizens, and the Friday prayer break is a structural part of the working week. Prayer times, calculated daily based on the sun's position, shift gradually through the year.
 
 [9am in Mentiri is 1am in London](/when/9am-mentiri/london) during European winter, eight hours ahead.

@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Kenema sits in eastern Sierra Leone, a city that built its modern identity around diamonds. The Bo-Kenema highway cuts through secondary forest and farmland, and the city itself is a busy market hub where the informal economy works around the same clock as the official one: GMT, UTC+0, all year.
 
+## diamonds, markets, and a steady GMT clock
+
 Sierra Leone never observes daylight saving time. The country is close enough to the equator (about 8 degrees north) that seasonal daylight variation is small, roughly 11 to 13 hours of daylight across the year. There is no meaningful reason to shift clocks.
 
 The informal diamond trade that defines Kenema operates on its own time logic: buyers and sellers often work at unconventional hours, particularly around shipment and valuation schedules tied to international gem markets. But the city's food markets, clinics, and schools keep to solar time naturally, since the sun rises close to 6am and sets close to 7pm nearly every day.

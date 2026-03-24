@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Elbasan sits in central Albania, in the Shkumbin River valley, and uses `Europe/Tirane`: CET (UTC+1) in winter and CEST (UTC+2) in summer, the same as [Durrës](/durres) and the capital Tirana. Albania follows EU-aligned DST rules.
 
+## a city shaped by industrial shifts
+
 The city is known for its Ottoman-era bazaar and fortress, but also for the large steel complex built with Chinese assistance in the 1970s, which was once the largest industrial facility in Albania. The steel works defined Elbasan's identity for a generation, employing tens of thousands and operating on a schedule of industrial shifts rather than daylight hours.
 
 The steel complex has declined significantly since the communist era, but Elbasan remains an industrial city with cement production and other manufacturing. The shift-work culture persists in the city's bones: waking at 4am for the early shift, finishing at 2pm, the industrial clock running ahead of most white-collar city rhythms. CET/CEST is the official framework, but the factory schedule underneath it is older and more persistent.

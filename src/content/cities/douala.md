@@ -13,6 +13,8 @@ Douala, Cameroon's largest city, holds the unusual distinction of having the IAN
 
 At roughly 4 degrees north, Douala sits just above the equator with nearly constant day lengths. Sunrise and sunset vary by less than an hour across the year. UTC+1 is geographically appropriate (the city sits at roughly 9.7 degrees east longitude, where UTC+1 is reasonably solar-accurate).
 
+## A port running on tide tables
+
 Douala's port is the main maritime gateway for [Cameroon](/cameroon), Chad, the Central African Republic, and parts of the Central African interior. Container ships, fishing boats, and river craft mix in the port area. The city sits at the head of the Wouri Estuary, where the rains can arrive suddenly and thoroughly in any month. Weather governs more than the clock does here. The port runs to tide tables and ship manifests, not to European time standards imposed at independence.
 
 [Convert 9am Douala time to London](/when/9am-douala/london)

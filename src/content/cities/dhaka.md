@@ -13,6 +13,8 @@ Dhaka, Bangladesh's capital and one of the world's most densely populated cities
 
 Bangladesh occupies a narrow band of longitude (88-92 degrees east), making UTC+6 a reasonably good geographic fit. Solar noon falls around 12:10pm in Dhaka, close to clock noon. The sun rises between 5:22am and 6:22am and sets between 5:35pm and 6:45pm, with moderate seasonal variation at 23.7 degrees north.
 
+## Garment industry schedules across time zones
+
 Dhaka's working day in the garment sector, which employs roughly 4 million workers and earns the bulk of Bangladesh's export revenue, starts before 8am and runs shifts into the evening. These schedules coordinate with buyers in Europe and North America who are many hours behind. The 2009 DST experiment created immediate confusion about delivery deadlines and shift start times. The industry's reaction was a significant factor in the reversal.
 
 [Convert 9am Dhaka time to London](/when/9am-dhaka/london)

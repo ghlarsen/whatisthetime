@@ -15,6 +15,8 @@ Pacific Time, UTC-8 in winter and UTC-7 during summer DST, is the clock. The sea
 
 Vancouver has a perpetually discussed relationship with the DST debate. British Columbia came close to permanently adopting Pacific Standard Time (eliminating the clock change) in 2019, passing a resolution in the provincial legislature. The decision was conditional on coordinated action with Washington, Oregon, and California, and the cross-border alignment has not materialized.
 
+## DST debate and East Asian connections
+
 The city's Asian-Canadian communities maintain strong connections to East Asian time zones. A significant portion of Vancouver's population has family, business, and real estate ties in Hong Kong, Beijing, and Shanghai, and the 16-17 hour time difference is a daily practical reality.
 
 [9am in Vancouver is 5pm in London](/when/9am-vancouver/london). [Victoria](/victoria) on Vancouver Island shares the same Pacific Time.

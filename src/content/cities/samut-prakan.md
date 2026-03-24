@@ -15,6 +15,8 @@ Samut Prakan sits where the Chao Phraya River, Bangkok's great artery, finally m
 
 The Pak Nam area at the river mouth has been a fishing and trading community for centuries. The mangrove forests around the estuary once extended much further; urbanization has reduced them, though some protected areas remain. The Bang Pu Nature Education Center protects a wetland area used by hundreds of bird species, many in transit between Siberia and Southeast Asia on the East Asian-Australasian Flyway. The shorebirds arrive and depart on schedules set by Arctic breeding seasons and monsoon winds.
 
+## the river estuary and migratory birds
+
 The crocodile farm south of the city, one of Thailand's oldest tourist attractions, holds thousands of crocodiles and has been operating since the 1950s. It has its own kind of time: reptiles whose ancestors were contemporary with the dinosaurs, waiting in enclosures built in the 20th century.
 
 [9am in Samut Prakan is 2am in London](/when/9am-samut-prakan/london).

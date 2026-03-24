@@ -13,6 +13,8 @@ Delmas is the most densely populated commune in Haiti, effectively the eastern s
 
 Haiti's choice to observe US-synchronized DST reflects the strength of economic ties with the US and the large Haitian diaspora in Florida and the Northeast US, whose remittances are a major source of national income. When New York shifts its clocks, families in Delmas adjust their calls home accordingly.
 
+## Power outages and the real working day
+
 Delmas is a chaotic, dense urban zone with some of the most intense informal commerce in the Caribbean. The Delmas road stretches 15 kilometers from the capital's center to the hills above, lined with markets, mechanic shops, and tap-tap (minibus) stops. Daily rhythms here are shaped by traffic, heat, and the availability of electricity more than by any clock. Power outages frequently reset the practical working day. When the grid comes on determines when the work gets done.
 
 [Convert 9am Delmas time to London](/when/9am-delmas/london)

@@ -13,6 +13,8 @@ Córdoba, Argentina's second city and the country's academic capital, runs on UT
 
 At 31 degrees south, Córdoba has meaningful daylight variation. Summer solstice (December) brings roughly 14 hours of daylight. Winter solstice (June) drops to about 10 hours. UTC-3 is geographically appropriate for Córdoba's longitude; the sun crosses solar noon around 12:20pm in winter, reasonably close to clock noon.
 
+## Late nights in an academic city
+
 The city's universities, including the National University of Córdoba founded in 1613 (one of the oldest in the Americas), run on a schedule shaped by Argentina's late-night culture. Dinner at 10pm, bars open until 4am, and a social life that begins after most Europeans would be asleep. This isn't clock-driven: it's cultural. UTC-3 is just the background against which Córdoba keeps its own particular pace.
 
 [Convert 9am Córdoba time to London](/when/9am-cordoba/london)

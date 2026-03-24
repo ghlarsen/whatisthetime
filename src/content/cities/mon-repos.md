@@ -13,6 +13,8 @@ Mon Repos is a village on the east coast of Trinidad, facing the Atlantic and ru
 
 Trinidad sits just off the Venezuelan coast, close to the equator at 10 degrees north latitude. Day length varies modestly: about 11.5 hours in December, 12.5 hours in June. There is no meaningful DST case to make at this latitude.
 
+## carnival culture and a fixed UTC-4
+
 The east coast of Trinidad is quieter than the west, where Port of Spain and the major commercial activity sit. Mon Repos is primarily a residential and agricultural community. The parish festivals and Carnival culture that define Trinidadian time are organized around the Catholic and Hindu calendars rather than civil clock adjustments.
 
 [Port of Spain](/port-of-spain) to the west shares this timezone. [9am in Mon Repos is 1pm in London](/when/9am-mon-repos/london) during European winter.

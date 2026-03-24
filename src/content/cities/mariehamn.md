@@ -13,6 +13,8 @@ Mariehamn is the capital of the Åland Islands, an autonomous Swedish-speaking a
 
 This timezone creates a one-hour difference from Sweden across the short water crossing. Swedes sailing to Åland from Stockholm arrive in a different timezone. The same sea, one hour later.
 
+## autonomy, demilitarization, and Finnish time
+
 The Åland Islands have a unique political status: demilitarized and autonomous under a 1921 League of Nations ruling. They have their own parliament, issue their own stamps, and control their own internal affairs, but remain Finnish territory. The EET timezone is one of many small alignments with Helsinki rather than Stockholm.
 
 At 60 degrees north, Mariehamn experiences dramatic daylight variation: midsummer brings nearly white nights, midwinter reduces daylight to under six hours. The maritime community here, historically one of the world's most significant per capita, lives by a clock oriented around weather and sea conditions more than civil schedules.

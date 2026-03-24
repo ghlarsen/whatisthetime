@@ -15,6 +15,8 @@ Both the UAE (Asia/Dubai) and Oman (Asia/Muscat) use UTC+4. This is convenient f
 
 Al Ain runs on Gulf Standard Time, the same as [Abu Dhabi](/abu-dhabi) and [Dubai](/dubai), the [United Arab Emirates'](/country/united-arab-emirates) other major cities. No daylight saving. The clock is fixed year-round.
 
+## A slower pace inland
+
 What makes Al Ain distinctive is its character. While Abu Dhabi and Dubai have become globally recognized for density and development, Al Ain retains a slower pace. It is a university city, a historic oasis town with ancient falaj water channels, and a popular weekend destination for UAE residents. The mornings here feel different from coastal UAE: cooler in winter, less humid even in summer. The rhythm of the city follows its character more than its latitude.
 
 [9am in Al Ain is 5am in London](/when/9am-al-ain-city/london) during European winter.

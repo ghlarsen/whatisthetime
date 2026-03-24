@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Fort St. John, in the Peace River region of northeastern British Columbia, uses `America/Fort_Nelson` (sometimes listed under `America/Whitehorse`), UTC-7 year-round, without observing daylight saving time. While the rest of British Columbia uses Pacific Time (UTC-8 in winter, UTC-7 in summer with DST), the Peace River region and Fort St. John opt for permanent Mountain Standard Time.
 
+## oil country clocks, oriented toward Alberta
+
 The choice reflects the region's economic orientation. Fort St. John is the hub of northeastern BC's oil and gas industry, and its supply chains and business relationships run east toward [Edmonton](/edmonton) and Alberta (which uses Mountain Time with DST) as much as west toward Vancouver (Pacific Time). A permanent UTC-7 creates minimal friction with Alberta while avoiding the confusion of following Pacific Time's clock changes.
 
 Fort St. John's permanent UTC-7 means that during Pacific Daylight Time (summer), the rest of BC catches up to Fort St. John's clock. In winter, the difference is one hour. Year-round, it's enough of a difference to require attention when scheduling calls or meetings with Vancouver.

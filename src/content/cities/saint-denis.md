@@ -15,6 +15,8 @@ Réunion is a French department: legally, administratively, and electorally part
 
 Réunion's interior is dominated by the Piton de la Fournaise volcano, one of the world's most active, which erupts several times a year on average. The eruptions are generally non-explosive and flow toward the ocean at the island's southern tip. Scientists monitor the volcano continuously. The island also contains three cirques: ancient calderas now eroded into dramatic amphitheaters of cliffs and waterfalls: Cilaos, Mafate, and Salazie.
 
+## the isolated cirque of Mafate
+
 Mafate is accessible only on foot or by helicopter. The communities there, called îlets, have no road access. Time in Mafate runs on foot travel, helicopter schedules, and the agriculture of isolated mountain farming. The civil clock is present but the island's geography enforces its own.
 
 [9am in Saint-Denis is 5am in London](/when/9am-saint-denis/london).

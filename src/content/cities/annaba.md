@@ -15,6 +15,8 @@ Like all of [Algeria](/country/algeria), Annaba runs on UTC+1, the Africa/Algier
 
 Annaba's geography puts it in an interesting timezone position. It sits at roughly 8.4 degrees east longitude, which is actually further east than most of Europe's Central European Time zone. Yet it uses UTC+1 rather than UTC+2. Neighboring Tunisia, just to the east, also uses UTC+1. The timezone boundary cuts in the other direction: Libya, to Tunisia's east, uses UTC+2.
 
+## Mediterranean summers, ancient foundations
+
 The city's Mediterranean position means it has a climate with hot, dry summers and mild, wet winters. This seasonal swing is more pronounced than in southern Algeria but less extreme than in the Sahara. Summer evenings are active: the port, the cafe strips, the long Mediterranean twilight.
 
 [Algiers](/algiers) is about 600 kilometers to the west, sharing the same timezone. [9am in Annaba is 8am in London](/when/9am-annaba/london) during European winter.

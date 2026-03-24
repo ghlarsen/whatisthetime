@@ -15,6 +15,8 @@ South Sudan adopted East Africa Time, UTC+3, when it became the world's newest c
 
 At about 9 degrees north latitude, Winejok and the Aweil region get minimal daylight variation across the year. The seasonal distinction is defined entirely by rainfall: the wet season from May to October transforms the landscape from dust to green, and the movement of livestock to seasonal pastures follows this cycle with more precision than any almanac.
 
+## food security and the agricultural calendar
+
 Northern Bahr el Ghazal experienced severe famine during the Second Sudanese Civil War, and food security remains a dominant temporal concern for communities here. Planting windows, harvest timing, and lean seasons between harvests are the most consequential calendar events.
 
 [9am in Winejok is 6am in London](/when/9am-winejok/london). [Juba](/juba), South Sudan's capital, keeps the same East Africa Time.

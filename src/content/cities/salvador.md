@@ -15,6 +15,8 @@ Salvador was the first capital of Brazil and the center of the transatlantic sla
 
 The Candomblé religious calendar runs on a different axis from the civil one. The orixás, the Yoruba-derived deities, have feast days and obligations that move through the year according to their own schedule. The month of February, which includes Carnival and also several major Candomblé observances, is particularly dense with layered calendars.
 
+## Carnival and the trio elétrico
+
 Carnival in Salvador is its own form: not the Sambódromo parades of Rio but the trio elétrico, massive sound trucks with bands on top moving through the streets, pulling crowds of hundreds of thousands behind them. The city becomes its own time for five days. The abadá (costume) wristband defines access.
 
 [9am in Salvador is noon in London](/when/9am-salvador/london).

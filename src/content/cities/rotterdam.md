@@ -13,6 +13,8 @@ Rotterdam is the largest port in Europe by cargo volume and one of the largest i
 
 [The Netherlands](/country/the-netherlands) follows Central European Time, UTC+1 in winter (CET) and UTC+2 during summer (CEST). Rotterdam shares this clock with [Amsterdam](/amsterdam) to the north and with most of continental Europe.
 
+## postwar architecture and the rebuilt city
+
 Rotterdam was almost completely destroyed in a German bombing raid on May 14, 1940, which killed about 900 people and leveled the city center. The rebuilding that followed produced the modernist and contemporary architecture Rotterdam is now known for: the Cube Houses (Kubuswoningen), the Market Hall, the Erasmusbrug. The city rebuilt from scratch and decided to do it differently.
 
 The Euromast tower, built in 1960, offers views across the city and the port to the horizon. On clear days, the rows of cranes along the Maasvlakte are visible, small and distant, still moving.

@@ -15,6 +15,8 @@ China officially uses a single timezone: China Standard Time (UTC+8). But Xinjia
 
 In response, Xinjiang's Uyghur population and local government have long used an unofficial Xinjiang Time (UTC+6), two hours behind Beijing. Two clocks coexist in many Xinjiang cities: the official UTC+8 used for government, official business, and Han Chinese institutions; and the de facto UTC+6 used by Uyghur communities and many local businesses.
 
+## two clocks in one city
+
 The IANA database includes `Asia/Urumqi` as a separate entry for Xinjiang, acknowledging the practical reality of the offset. For Shihezi, which has a predominantly Han Chinese population from the state-organized migration, the UTC+8 official clock is more consistently followed than in Uyghur-majority cities.
 
 [9am official time in Shihezi is 1am in London](/when/9am-shihezi/london) in winter, 2am during British Summer Time.

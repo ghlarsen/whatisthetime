@@ -15,6 +15,8 @@ Pacific Time, UTC-8 in winter and UTC-7 during summer DST, is the clock, shared 
 
 British Columbia has been debating permanent Pacific Standard Time (eliminating the clock change) since a 2019 provincial vote. The change hasn't happened because it requires alignment with Washington, Oregon, and California to avoid creating a timezone gap across the US-Canada border. The conversation continues.
 
+## afternoon tea on a precise schedule
+
 The legislative buildings completed in 1898 gave Victoria its formal civic architecture, and the Empress Hotel (1908) cemented its reputation as a city that does afternoon tea, properly. The tea service runs at scheduled times, which is rather the point.
 
 [9am in Victoria is 5pm in London](/when/9am-victoria/london). [Vancouver](/vancouver) across the strait shares the same Pacific Time.

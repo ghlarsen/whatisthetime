@@ -15,6 +15,8 @@ Western Australia uses Australia/Perth: UTC+8, year-round. No daylight saving. W
 
 The UTC+8 permanent position means Perth is always 2 hours behind Sydney and Melbourne in Eastern Standard Time, and 3 hours behind when the eastern states are on Daylight Saving Time. A flight from Perth to Sydney takes 4.5 hours and crosses 3 time zones on the return.
 
+## daylight and beach culture
+
 At 31.9 degrees south, Perth has more daylight variation than its tropical north: summer days approach 14 hours, winter days shorten to under 10. The Mediterranean climate, dry hot summers and mild wet winters, is one of Australia's most pleasant, and the beach culture of Cottesloe and Scarborough runs on afternoon light.
 
 [9am in Perth is 1am in London](/when/9am-perth/london).

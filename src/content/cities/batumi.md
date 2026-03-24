@@ -15,6 +15,8 @@ The clock is Georgia Standard Time, UTC+4. The IANA identifier is Asia/Tbilisi. 
 
 At UTC+4, Batumi is synchronized with [Baku](/baku) in Azerbaijan across the Caucasus and with the UAE. In winter, this is two hours ahead of Moscow and one hour ahead of Turkey. In summer, Turkey moves to UTC+3 permanently, and Batumi remains ahead.
 
+## Resort city, casino nights, botanical gardens
+
 The Black Sea coast here has mild winters and warm summers. July and August are peak season: tourists from across Russia, Georgia, and increasingly from Turkey and Israel fill the waterfront boulevard. The casino industry operates 24 hours. The city has a genuinely cosmopolitan nightlife compared to Georgia's interior.
 
 The Batumi Botanical Garden, established in 1912 on the coastal cliffs, is one of the oldest and most significant botanical gardens in the Caucasus. The garden's collection reflects the region's subtropical richness.

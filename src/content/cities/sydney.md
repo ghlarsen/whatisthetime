@@ -13,6 +13,8 @@ Sydney is the largest city on Cape Breton Island in Nova Scotia, [Canada](/count
 
 The city was a major center of Canadian steel production through the twentieth century. The Sydney Steel Corporation (SYSCO) plant dominated the local economy for decades before its closure in 2001. The environmental legacy of the steel industry, including the Sydney Tar Ponds contamination, is one of Canada's largest industrial cleanup sites. The transition from an industrial economy to a tourism and university-based economy has reshaped what the working day looks like in Sydney.
 
+## Celtic heritage and post-industrial time
+
 Cape Breton Island sits at about 46 degrees north. Summer evenings on ADT push sunset past 9pm, long enough for outdoor concerts and events at the Membertou area and the waterfront. Winter afternoons on AST close around 4:30pm.
 
 Cape Breton and the Sydney area have a distinctive Celtic cultural heritage tied to Scottish Highland emigration in the eighteenth and nineteenth centuries. The Cape Breton fiddle tradition and Gaelic language communities have created a cultural calendar of music festivals and gatherings that define the social year.

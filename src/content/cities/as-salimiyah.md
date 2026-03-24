@@ -17,6 +17,8 @@ The clock is Kuwait Standard Time, UTC+3. The IANA identifier is Asia/Kuwait. No
 
 Kuwait's timezone places it three hours ahead of UTC, which creates predictable rhythms for international business. Gulf trading hours overlap with European morning (London opens at 7am local Kuwait time during European winter). New York is eight hours behind (UTC-5 in winter), meaning New York morning trading happens in Kuwait's late afternoon.
 
+## The waterfront and seasonal life
+
 The district's Gulf waterfront has been developed with walkways, cafes, and marina infrastructure. In the cooler months, October through April, this is where Kuwait City comes to breathe: walking, cycling, sitting by the water. The extreme summer heat pushes this activity almost entirely indoors.
 
 [9am in As Salimiyah is 6am in London](/when/9am-as-salimiyah/london) during European winter.

@@ -13,6 +13,8 @@ Dolisie (formerly Loubomo) sits in the Niari Valley of the Republic of the Congo
 
 At roughly 4 degrees south, Dolisie is close to the equator, with sunrise and sunset varying by less than 45 minutes across the year. UTC+1 is a reasonable fit for the country's longitude. Solar noon falls around 12:10pm.
 
+## The railway clock that runs this city
+
 The Congo-Ocean Railway, completed in 1934 under French colonial rule and built with forced labor, gave Dolisie its importance. Trains connecting the interior timber and agricultural regions to the port at Pointe-Noire pass through Dolisie, and the rail schedule defines much of the city's commercial rhythm. Freight moves when the trains run, and the trains run on a posted schedule. The clock in Dolisie serves the railway more than it serves the sun.
 
 [Convert 9am Dolisie time to London](/when/9am-dolisie/london)

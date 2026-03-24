@@ -13,6 +13,8 @@ San Pedro sits on Ambergris Caye, the largest island in [Belize](/country/belize
 
 At 18 degrees north, San Pedro sees about 13 hours of daylight at the summer solstice and about 11 hours in December. The variation is real but not dramatic. More practically, San Pedro's daily schedule is organized around boats: water taxis from Belize City arrive and depart on fixed schedules, and much of island life, whether tourist activity, supply deliveries, or inter-island travel, is coordinated around those departures.
 
+## golf carts and island time
+
 The town is small and walkable, with no cars on the main streets and golf carts as the primary transport. Local time operates on a relaxed register despite the fixed UTC-6 offset. "Island time" has a meaning beyond the timezone abbreviation.
 
 [Belize City](/belize-city) to the west shares the same clock across the country.

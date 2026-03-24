@@ -15,6 +15,8 @@ The [territory](/country/saint-pierre-and-miquelon) uses Miquelon Time, UTC-3 in
 
 Saint-Pierre is a proper French town, misplaced: bakeries, a patisserie, tricolores, Citroëns driven on the right. The population is about 5,500 people. The economy, historically built on cod fishing and fish processing, has declined as North Atlantic stocks collapsed. Some smuggling history remains part of local lore: the prohibition era in the US made Saint-Pierre a convenient transit point for alcohol shipments.
 
+## fog, cod, and prohibition smuggling
+
 The fog is constant. The Grand Banks nearby produce the conditions: warm Gulf Stream water meeting cold Labrador Current water. The fog horn at the entrance to the harbor is one of the island's characteristic sounds.
 
 [9am in Saint-Pierre is noon in London](/when/9am-saint-pierre/london) in winter.

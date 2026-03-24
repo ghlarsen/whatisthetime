@@ -15,6 +15,8 @@ Uruguay's DST history involved multiple suspensions and reintroductions over the
 
 At 34 degrees south, Montevideo's daylight shifts meaningfully across the year: about 9.5 hours in June, 14.5 hours in December. The fixed UTC-3 means summer evenings are long naturally, with sunset after 8pm in January, and winter afternoons are short without any DST padding.
 
+## the rambla and seasonal light
+
 The city is known for its riverfront rambla, a 22-kilometer promenade along the Río de la Plata that serves as the social spine of the city. The evening paseo on the rambla happens later in summer when the light cooperates and earlier in winter when it doesn't.
 
 [9am in Montevideo is 12pm in London](/when/9am-montevideo/london) during European winter.

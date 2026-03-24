@@ -15,6 +15,8 @@ Peru keeps Peru Standard Time, UTC-5, year-round with no daylight saving. The co
 
 The coastal desert climate means Trujillo rarely sees rain, and the seasonal variation is defined by water temperature and the Humboldt Current rather than sunlight patterns. The city is known for the marinera, a national dance that requires precise partnering and timing, performed competitively in January at the Festival Nacional de la Marinera.
 
+## Moche astronomy and ancient solar tracking
+
 Huacas del Sol y de la Luna, the Temples of the Sun and Moon built by the Moche civilization around 100 CE, stand a few kilometers from the city center. The Moche tracked astronomical time carefully; their ceramic art documents the timing of rituals synchronized with equinoxes and solstices.
 
 [9am in Trujillo is 2pm in London](/when/9am-trujillo/london). [Lima](/lima) to the south shares Peru Standard Time.

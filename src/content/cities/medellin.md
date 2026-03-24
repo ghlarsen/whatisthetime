@@ -13,6 +13,8 @@ Medellín sits in the Andes at about 1,500 meters elevation, earning its nicknam
 
 At 6 degrees north latitude, day length barely shifts. Sunrise is around 6am year-round. Sunset around 6pm. No adjustment is needed. The city's climate is more shaped by the altitudinal position in the Andes than by any seasonal astronomical cycle.
 
+## cable cars and a city remade
+
 Medellín's transformation over the past three decades is one of urban history's most-cited stories. Once ranked among the world's most dangerous cities, it invested in cable cars, outdoor escalators, and library-parks in hillside comunas that had been isolated from the city center. The urban transformation changed how time works here: cable cars and escalators run on schedules, connecting hillside communities to downtown employment by clock rather than by geography.
 
 [Bogotá](/bogota) shares this timezone. [9am in Medellín is 2pm in London](/when/9am-medellin/london) during European winter.

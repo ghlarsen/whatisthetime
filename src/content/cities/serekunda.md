@@ -15,6 +15,8 @@ Gambia is the smallest country on mainland Africa, a narrow strip along the Gamb
 
 Gambia switched from GMT to West Africa Time (UTC+1) in 2012, then switched back to GMT in 2015, causing considerable confusion for residents and businesses in the interval. The reversal reflected a preference for the stable and historically understood GMT offset rather than an alignment with neighboring Senegal that proved impractical.
 
+## the market and trading rhythms
+
 Serekunda's commercial markets, the Serekunda Market being one of the busiest in West Africa, run on schedules tied to trading patterns and opening hours rather than clock precision.
 
 [Sukuta](/sukuta) nearby keeps the same GMT offset.

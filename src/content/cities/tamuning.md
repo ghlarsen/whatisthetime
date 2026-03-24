@@ -15,6 +15,8 @@ Guam at UTC+10 is one of the first US-administered territories to experience eac
 
 At 13 degrees north, Guam has minimal seasonal daylight variation: about 13 hours in June, about 11.5 hours in December. The fixed offset needs no adjustment.
 
+## Chamorro identity and colonial time
+
 Guam was a Spanish colony for over 200 years before the US took possession in 1898. The island's Chamorro people, the indigenous population, have navigated multiple colonial temporal regimes. The calendar name Chamorro Standard Time was formally adopted in recent years, acknowledging the indigenous cultural identity alongside the administrative timezone.
 
 Tamuning-Tumon-Harmon Village, listed separately in some databases, effectively covers the same commercial and tourist zone.

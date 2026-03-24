@@ -13,6 +13,8 @@ Mazatlán is a Pacific coast resort city in Sinaloa state, sitting at the same l
 
 [Mexico](/country/mexico) has been simplifying its DST situation. The federal government eliminated DST for most of the country in 2022, and Sinaloa joined other border and tourist states in a fixed-offset arrangement. Mazatlán, whose economy depends heavily on American tourists from the western US and Canada, now runs at the same UTC-7 as Mountain Standard Time year-round, which is US Mountain Time in winter and matches US Pacific time in summer when Pacific states move to UTC-7 for DST.
 
+## Carnaval, sunsets, and a fixed Pacific clock
+
 The city is known for its long beachfront malecón, its Carnaval celebration (one of Mexico's largest), and as a ferry terminal to Baja California. The Pacific sunsets from Mazatlán's beaches are among Mexico's most celebrated.
 
 [9am in Mazatlán is 4pm in London](/when/9am-mazatlan/london) during European winter.

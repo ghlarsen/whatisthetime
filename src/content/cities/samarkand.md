@@ -15,6 +15,8 @@ Samarkand is among the oldest continuously inhabited cities in the world. Greek 
 
 Samarkand was the great node of the Silk Road, the overland trade routes connecting China to the Mediterranean. Camel caravans arrived and departed on schedules set by the stars, the seasons, and the availability of water. The city's fortune was built on being the place where East met West. Time here was measured in caravan days and the lunar Islamic calendar.
 
+## the Silk Road node and buried past
+
 The Afrosiab archaeological site north of the old city contains the ruins of pre-Islamic Samarkand, buried under centuries of deposit. Excavation continues. The city's past keeps being uncovered.
 
 [9am in Samarkand is 4am in London](/when/9am-samarkand/london) in winter.

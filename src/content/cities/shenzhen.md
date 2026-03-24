@@ -15,6 +15,8 @@ The speed of Shenzhen's growth is a temporal story as much as an economic one. B
 
 Shenzhen is where most of the world's consumer electronics are manufactured, designed, and refined. Huawei, DJI, Tencent, and hundreds of hardware startups cluster here. The Huaqiangbei electronics market, the world's largest component market, operates on schedules tied to factory shifts and delivery windows more than any daily rhythm.
 
+## electronics markets and cross-border clocks
+
 Hong Kong, just across the border, also runs on UTC+8, which keeps cross-border business scheduling simple. The political boundary between the two systems exists, but the clocks agree.
 
 [Shanghai](/shanghai) to the north shares the same China Standard Time.

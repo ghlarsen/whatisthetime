@@ -15,6 +15,8 @@ Acre is Brazil's westernmost state, jutting into Peru and Bolivia in a geographi
 
 The Acre River runs through Rio Branco, giving the city its waterfront identity. The city is surrounded by the Amazon rainforest, and rubber extraction, though far from its peak, shaped the economy and culture. Chico Mendes, the rubber tapper and environmental activist murdered in 1988 for opposing deforestation, was from Acre. His work contributed to the creation of extractive reserves, protected areas where communities can continue traditional forest uses.
 
+## seasons and the Amazonian flood cycle
+
 The Amazonian wet season (November to April) floods the Acre River and the low-lying parts of the city. The dry season brings heat and, in severe years, drought. Time in Rio Branco bends around these seasons.
 
 [9am in Rio Branco is 2pm in London](/when/9am-rio-branco/london) in winter.

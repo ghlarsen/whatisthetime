@@ -13,6 +13,8 @@ Tuzla means "salt" in Turkish, and the city has been extracting and trading salt
 
 [Bosnia and Herzegovina](/country/bosnia-and-herzegovina) keeps Central European Time, UTC+1 in winter and UTC+2 during summer DST, matching [Sarajevo](/sarajevo) and the rest of the country. At 44 degrees north, Tuzla gets moderate seasonal daylight variation with summer evenings extending past 9pm.
 
+## salt city and wartime resistance
+
 Tuzla was one of the few cities in Bosnia that maintained a multi-ethnic, civic identity during the 1992-1995 war. The city's political leadership resisted nationalist pressure from all sides, and it was never besieged in the way Sarajevo was. The Kapija tragedy of May 1995, when a shell struck young people gathered in the central square, killed 71 people and remains a defining wound.
 
 The city has a significant university, founded during the Yugoslav period, and its industrial and educational identity distinguishes it from Bosnia's more tourism-oriented cities.

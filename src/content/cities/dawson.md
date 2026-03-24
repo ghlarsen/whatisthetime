@@ -13,6 +13,8 @@ Dawson, the historic gold rush town at the confluence of the Yukon and Klondike 
 
 The decision was welcomed in Dawson. At 64 degrees north, the city's summer days are extraordinary: the sun barely sets in June, dipping below the horizon for only a few hours. Adding an hour forward in spring and back in fall was creating disruption without delivering any meaningful benefit in a place where light operates by its own polar logic. The stable clock, unchanged through the year, lets residents plan against a fixed reference point.
 
+## Gold rush legacy and a fixed clock
+
 Dawson's gold rush history draws visitors to the Klondike goldfields, the restored Victorian-era buildings, and the legacy of the 1898 rush that briefly made this one of North America's most populated cities west of Winnipeg. The town now runs on tourism, history, and its place in the Yukon's First Nations territory. The clock changed in 2020. The town's sense of itself is considerably older.
 
 [Convert 9am Dawson time to London](/when/9am-dawson/london)

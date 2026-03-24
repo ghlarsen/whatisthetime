@@ -15,6 +15,8 @@ Saratov's assignment to UTC+4 rather than UTC+3 (Moscow Time) reflects the geogr
 
 The city was founded in 1590 as a fortress on the Volga. During the Soviet era, Saratov was a major closed city: home to military industry, space technology development, and research facilities that were not open to foreign visitors. Yuri Gagarin landed near Saratov after his 1961 spaceflight, returning to the same Volga landscape he had grown up near.
 
+## Gagarin's landing and closed-city history
+
 The time precision required by spaceflight operations, the kind of exact UTC coordination that mission control depends on, connects oddly to a city that experienced decades of deliberate obscurity on Soviet maps.
 
 [Samara](/samara) further up the Volga shares the same UTC+4 offset.

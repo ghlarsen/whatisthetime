@@ -15,6 +15,8 @@ Wrocław has been called Breslau, Wratislavia, and Presslaw by different rulers 
 
 The city was known as Festung Breslau during the final months of World War II, when the German command declared it a fortress city to be held to the last. The siege from February to May 1945 destroyed much of the city. The Polish population that was moved in after the war (and the German population expelled) inherited a shattered city and built a new identity within its ruins.
 
+## postwar reinvention and new identity
+
 Wrocław hosted the European Capital of Culture in 2016. The city's reinvention from a contested postwar settlement to a thriving university and technology city has happened within living memory, faster than most urban transformations.
 
 [9am in Wrocław is 8am in London](/when/9am-wroc-aw/london). [Warsaw](/warsaw) to the east shares the same Polish timezone.

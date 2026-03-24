@@ -15,6 +15,8 @@ Morocco's standard time is UTC+1, which it observes year-round with one notable 
 
 The result is a twice-yearly clock change that doesn't align with any other country's schedule, and which moves on the Islamic lunar calendar rather than a fixed date. Since Ramadan shifts about 11 days earlier each Gregorian year, the timing of Morocco's clock changes is different every year.
 
+## Ramadan clock and the Strait crossing
+
 For Tangier, this creates a city that is sometimes synchronized with Madrid across the Strait and sometimes not, depending on the time of year and whether Morocco is currently observing the Ramadan UTC+0. The city's cross-strait ferry connections mean the difference matters practically for hundreds of daily travelers.
 
 Tangier's historical role as a crossroads of cultures and trading routes has always meant navigating multiple systems of time and authority simultaneously.

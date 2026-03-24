@@ -15,6 +15,8 @@ Sorong sits at the northwestern tip of New Guinea, the main transit point for bo
 
 At about 1 degree south, Sorong is just below the equator. Daylight variation is minimal: about 12 hours year-round with barely perceptible seasonal drift. The fixed UTC+9 offset does not need to compensate for light variation because there is essentially none to compensate for.
 
+## gateway to Raja Ampat
+
 The city's identity has shifted in recent decades toward diving tourism. Raja Ampat's coral triangle has made Sorong the arrival point for divers from around the world, and the town's practical infrastructure, airport, port, hotels, runs on the logistics of those arrivals and departures.
 
 UTC+9 means Sorong shares its clock with Tokyo and Seoul, despite being a small Indonesian port city. The coincidence is purely numerical.

@@ -13,6 +13,8 @@ Tiraspol is one of Europe's stranger geopolitical situations. It is the capital 
 
 Despite the political separation, Tiraspol runs on Eastern European Time, UTC+2 in winter and UTC+3 during summer DST, the same as [Moldova](/country/moldova)'s Chișinău 70 kilometers west. The shared clock is one of the few practical alignments between the two entities. Trade, electricity, and gas connections cross the administrative boundary constantly.
 
+## Soviet nostalgia in a frozen conflict
+
 Soviet nostalgia is palpable in Tiraspol. A large Lenin statue stands in the central square. Soviet-era street names were retained. The Transnistrian ruble, printed by the local government, features a watermark of Alexander Suvorov, the Russian general who founded the city in the 18th century.
 
 The Kvint distillery in Tiraspol produces brandy that has won international competitions. It's one of Transnistria's few exports with genuine external recognition.

@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Kiffa sits in the middle of Mauritania, a long day's drive from the Atlantic coast and the Sahara proper, at the intersection of routes connecting the country's north and south. It runs on Africa/Nouakchott time: GMT, UTC+0, year-round. No daylight saving.
 
+## Saharan crossroads, livestock markets, and GMT
+
 The city is the capital of the Assaba region, a transit point between the Saharan north and the Sahel south, and home to a significant livestock market where camels, cattle, and goats are traded across a wide regional network. The market day follows the early morning, before the desert sun climbs high enough to make outdoor work miserable.
 
 At 16 degrees north, Kiffa receives close to 12 hours of daylight year-round, with minor seasonal variation. What varies more dramatically is the quality of those hours: the harmattan wind in winter carries fine Saharan dust that reduces visibility and turns the sky a pale orange for days at a time.

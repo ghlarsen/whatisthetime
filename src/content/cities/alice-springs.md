@@ -15,6 +15,8 @@ The clock is Central Standard Time, UTC+9:30 year-round. The Northern Territory 
 
 The half-hour offset places Alice Springs in an interesting position during daylight saving season in the eastern states. When Sydney and Melbourne spring forward to UTC+11, Alice Springs stays at UTC+9:30, making it 1.5 hours behind the east coast. For a town that does significant business with Adelaide (UTC+10:30 in summer), it means a one-hour difference that requires tracking.
 
+## Hub for the Red Centre
+
 Alice Springs is the logistical hub for a vast region of central Australia. The Alice Springs to Darwin railway, the Ghan, takes around 55 hours to travel its 2,979-kilometer route. The town's time is shaped by these long distances and the rhythm of road trains, cattle stations, and tourist operations in the surrounding country.
 
 [9am in Alice Springs is 11:30pm the previous night in London](/when/9am-alice-springs/london) during Australian winter.

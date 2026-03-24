@@ -15,6 +15,8 @@ The result is striking at 60 degrees north. In summer, without the clock springi
 
 The Yukon's relationship with natural time is shaped by the extremes. The winter is dark enough that seasonal affective disorder is taken seriously as a public health matter. The summer is light enough that blackout curtains are standard household equipment. The permanent UTC-7 accepts longer winter darkness in the morning in exchange for more predictable scheduling.
 
+## permanent MST and extreme seasonal light
+
 The Klondike Gold Rush of 1898 put Whitehorse on the map and established the Yukon as a place where time moved differently from polite society. Stamp mills ran around the clock in the goldfields. The rhythm was extraction, not daylight.
 
 [9am in Whitehorse is 4pm in London](/when/9am-whitehorse/london). [Dawson City](/dawson-city) in the Yukon shares the same permanent UTC-7.

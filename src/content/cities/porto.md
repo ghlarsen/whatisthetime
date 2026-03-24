@@ -15,6 +15,8 @@ Porto's sunset in summer comes late, close to 9:15pm at the June solstice. This 
 
 The Douro River divides Porto from Vila Nova de Gaia, where the port wine lodges age their barrels. The wine comes from the Douro Valley to the east and crosses the Dom Luís I Bridge into the city. The bridge, a double-decked iron arch from 1886, is the most photographed clock-free landmark in a city that has learned to market the view.
 
+## the ribeira and Atlantic evenings
+
 The ribeira, the old quayside district, is medieval in layout and contemporary in energy. Wine bars stay open late. The Atlantic is 5 kilometers west, the influence of the ocean moderating temperature and extending the comfortable outdoor hours from May through October.
 
 [9am in Porto is 9am in London](/when/9am-porto/london) in winter, same time, matching clocks.

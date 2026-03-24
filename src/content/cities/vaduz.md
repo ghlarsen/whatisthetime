@@ -15,6 +15,8 @@ The country keeps Central European Time, UTC+1 in winter and UTC+2 during summer
 
 Vaduz Castle sits above the capital on a hillside, home to the ruling Princely House. The Prince of Liechtenstein is an active constitutional monarch, and the small scale of the country means the head of state's presence is not abstract. Residents can, and do, meet him at local events.
 
+## sovereign identifier, shared Zurich clock
+
 Liechtenstein has one of the world's highest per capita incomes, driven by financial services and precision manufacturing. The business day in Vaduz runs on Central European business hours, tightly coordinated with Zurich and Vienna on either side.
 
 [9am in Vaduz is 8am in London](/when/9am-vaduz/london). [Zurich](/zurich) a short drive away shares the same clock.

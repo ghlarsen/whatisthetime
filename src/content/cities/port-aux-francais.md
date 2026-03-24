@@ -15,6 +15,8 @@ The [French Southern Territories](/country/french-southern-territories) use UTC+
 
 At 49 degrees south latitude, Kerguelen's daylight variation is significant. December brings nearly 17 hours of daylight. June brings fewer than 8. The Southern Ocean context means that this daylight comes with wind: Kerguelen averages 150 days of gale-force winds per year. The island was named "Desolation Island" by early English sailors, and the name fits.
 
+## isolation, ecology, and remote science
+
 Cats brought to the island as pets in the 19th century went feral and devastated the local rabbit population (which were also introduced). Eradication programs have been ongoing. The island runs on a specific kind of ecological time as well as UTC+5.
 
 [9am at Port-aux-Français is 4am in London](/when/9am-port-aux-francais/london).

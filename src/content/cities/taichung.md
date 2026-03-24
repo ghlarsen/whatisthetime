@@ -15,6 +15,8 @@ The city is known for its relatively mild climate compared to Taipei's heat and 
 
 At 24 degrees north, Taichung has moderate seasonal variation: about 13.5 hours of daylight in June, about 10.5 in December. The fixed UTC+8 means the clock aligns well with solar time for most of the island.
 
+## political timezone and numerical coincidence
+
 Taiwan's timezone designation in the IANA database is `Asia/Taipei`, reflecting the political sensitivities around Taiwan's status. The offset (UTC+8) is the same as China, but Taiwan's relationship with China Standard Time is not one of alignment: it is purely coincidental numerical agreement.
 
 [Taipei](/taipei) to the north keeps the same National Standard Time.

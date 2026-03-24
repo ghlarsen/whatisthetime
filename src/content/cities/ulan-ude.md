@@ -13,6 +13,8 @@ Ulan-Ude is the capital of Buryatia, a republic of [Russia](/country/russia) whe
 
 The city runs on Irkutsk Time, UTC+8, shared with nearby [Irkutsk](/irkutsk) to the west and consistent year-round since Russia abolished DST in 2014. Lake Baikal's southern tip is roughly 50 kilometers away. The lake's enormous thermal mass moderates the local climate slightly, though winters here still reach extreme cold.
 
+## Trans-Siberian Railway and dual time
+
 The Trans-Siberian Railway is a central fact of Ulan-Ude's existence. The city sits at the junction where the Trans-Mongolian Railway branches south toward Ulaanbaatar and Beijing, and the train schedules that coordinate these routes run on Moscow Time for official operations, creating a constant dual-time reality: local time at UTC+8, railway schedule at UTC+3.
 
 The giant Lenin head in the central square, one of the largest in Russia, has become an ironic landmark. Tourists photograph it. The Buryats note, without much ceremony, that it exists.

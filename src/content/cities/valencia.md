@@ -15,6 +15,8 @@ Venezuela keeps Venezuela Standard Time, UTC-4. The country's timezone history i
 
 At 10 degrees north, Valencia has minimal daylight variation: sunrise and sunset move by only about 45 minutes across the year. The clock adjustments of 2007 and 2016 had more political and practical significance than any seasonal logic could supply.
 
+## Chávez's 30-minute clock experiment
+
 Valencia's industrial rhythm follows factory schedules, and the auto assembly plants that anchor the city's economy run on coordinated shift systems aligned with Caracas business hours.
 
 [9am in Valencia is 1pm in London](/when/9am-valencia/london). [Caracas](/caracas) keeps the same Venezuela Standard Time.

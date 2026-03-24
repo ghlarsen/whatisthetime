@@ -15,6 +15,8 @@ Morocco's timezone is genuinely unusual. The country observes daylight saving ti
 
 The Ramadan adjustment reflects the importance of the holy month in Moroccan society. Many businesses, particularly restaurants and shops, operate on inverted schedules during Ramadan: closed during the day, open late into the night after iftar. The standard time reversion during Ramadan, theoretically, means daylight arrives an hour earlier, which aligns better with the pre-dawn suhoor meal.
 
+## the medina and prayer time rhythms
+
 Rabat's medina, the old walled city, operates on a rhythm that predates civil timekeeping. The call to prayer, sounded five times daily based on solar position, structures the day. The Kasbah of the Udayas above the Bou Regreg estuary catches the Atlantic light each afternoon.
 
 [9am in Rabat is 9am in London](/when/9am-rabat/london) in winter.

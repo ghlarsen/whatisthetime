@@ -15,6 +15,8 @@ Lebanon observes DST in line with its neighbors in the Eastern Mediterranean: UT
 
 At 33 degrees north, Sidon has moderate seasonal light variation: about 14 hours of daylight in June, about 10 hours in December. The Mediterranean climate means the long summer days are also the hottest, and afternoon activity slows dramatically before resuming in the cooler evening.
 
+## the Sea Castle and 4,000 years of port history
+
 The Sea Castle, a Crusader fortress built on a small island just off the coast, is one of Sidon's most visible landmarks. It was constructed in 1228, replacing even older fortifications on the same site, a structure built on the very edge between sea and city time.
 
 [9am in Sidon is 7am in London](/when/9am-sidon/london) in winter, 6am during British Summer Time.

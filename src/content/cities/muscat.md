@@ -13,6 +13,8 @@ Muscat hugs the Gulf of Oman between the Hajar Mountains and the sea, one of the
 
 [Oman](/country/oman) uses Gulf Standard Time, UTC+4, year-round. No daylight saving. Oman's neighbors in the UAE use the same clock, but Saudi Arabia, Qatar, and Bahrain sit on UTC+3. The Gulf Cooperation Council has never standardized its timezones, leaving a patchwork of offsets across the Arabian Peninsula.
 
+## Gulf work week and the connecting hub
+
 The Omani work week runs Sunday through Thursday, a pattern common across the Gulf region. Friday is the holy day, and the city's pace shifts noticeably: the souks in Muttrah are quiet in the morning, prayer attendance fills the mosques, and the afternoon belongs to family. Thursday evenings carry the social energy that Friday evenings carry in a Western work week.
 
 Muscat's airport operates as a regional hub, and the flight schedules that flow through it connect the Gulf's UTC+4 to Mumbai's UTC+5:30, Nairobi's UTC+3, and London's UTC+0 or UTC+1. The timezone sits usefully between Europe and Asia for connecting flights.

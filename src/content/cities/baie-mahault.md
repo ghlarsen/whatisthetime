@@ -13,6 +13,8 @@ Baie-Mahault is Guadeloupe's economic engine, even if it is not the island's mos
 
 [Guadeloupe](/country/guadeloupe) is a French overseas department and region, part of France and therefore part of the European Union. But its timezone is Atlantic Standard Time, UTC-4, four hours behind mainland France. No daylight saving.
 
+## France on Caribbean time
+
 This creates an interesting administrative situation: Guadeloupe is legally France but keeps a clock that is 5 or 6 hours behind Paris (depending on whether France is on summer or winter time). Government offices open on Caribbean time, but they must coordinate with ministries in Paris that are up to 6 hours ahead.
 
 The timezone aligns Guadeloupe with the eastern Caribbean: Martinique, Barbados, and most of the Windward and Leeward Islands also run on UTC-4 in winter. The regional business connections are more practically relevant than the Paris time alignment.

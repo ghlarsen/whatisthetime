@@ -15,6 +15,8 @@ Rothera Research Station sits on Adelaide Island, on the Antarctic Peninsula, at
 
 At 67 degrees south, the solar extremes are significant. In December, the sun never sets: 24 hours of daylight. In June, the sun barely rises, if at all. The research station runs on a schedule that ignores the sky entirely for much of the year: meal times, work shifts, and recreation schedules operate on clock time regardless of what the Antarctic summer or winter is doing outside.
 
+## sea ice research and climate data
+
 The Antarctic sea ice is a subject of ongoing research at Rothera. Its extent each September (winter minimum) and February (summer maximum) is one of the indices scientists use to track climate change. Time, at Rothera, is measured in ice cores as much as in hours.
 
 [9am at Rothera is noon in London](/when/9am-rothera/london).

@@ -13,6 +13,8 @@ Barquisimeto is Venezuela's fourth-largest city and its self-declared musical ca
 
 The clock is Venezuela Standard Time, UTC-4. The IANA identifier is America/Caracas.
 
+## The 30-minute experiment
+
 Venezuela's timezone has a recent and unusual history. In 2007, then-president Hugo Chávez moved the clocks back by 30 minutes, shifting from UTC-4 to UTC-4:30. This was justified partly as better aligning Venezuela's sleep and work schedules with natural solar time, partly as a symbolic assertion of independence from North American temporal norms. In 2016, the country moved the clocks forward again to UTC-4, returning to the previous offset. The IANA database preserves this brief UTC-4:30 period as a historical entry.
 
 At 10.1 degrees north latitude, Barquisimeto has minimal seasonal variation in daylight. The city's semi-arid climate, different from Venezuela's humid coast or Amazon interior, gives it a distinctive dry-season character from December to April.

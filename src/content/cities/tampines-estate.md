@@ -15,6 +15,8 @@ Like the rest of Singapore, Tampines keeps Singapore Standard Time (UTC+8) all y
 
 Tampines was developed according to the "new town" planning philosophy that Singapore applied systematically: each town designed to be self-sufficient with schools, markets, transport links, and recreational facilities within walking distance. The result is a daily routine that is organized locally, with the MRT (Mass Rapid Transit) schedule marking departure times for work and school as precisely as any clock.
 
+## planned town, precise daily schedule
+
 The Tampines Mall and nearby commercial developments serve the residential population, and the town's commercial strip runs on the same 24-hour mentality that characterizes Singapore broadly: food centers stay open late, and much of the city's hawker food culture extends well into the evening.
 
 [9am in Tampines Estate is 1am in London](/when/9am-tampines-estate/london) in winter, 2am during British Summer Time.

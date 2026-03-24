@@ -13,6 +13,8 @@ Maun is the safari capital of Botswana and the main gateway to the Okavango Delt
 
 The tourism economy here runs on wildlife time more than civil time. Game drives start before sunrise, around 5:30am, to catch animals at their most active in the cool morning hours. Afternoon drives go out again at 4pm to catch the golden hour. Dinner follows, usually late. The clock sets the daily structure, but the animals' schedules set the actual rhythm.
 
+## safari industry and the bush flight schedule
+
 Maun grew from a small Tswana settlement to a modern town largely because of the safari industry that developed from the 1970s onward. The airport is one of Africa's busiest in terms of small aircraft movements, with dozens of bush flights daily ferrying tourists to camps in the delta.
 
 [Mogoditshane](/mogoditshane), a city in Botswana's south, shares this timezone. [9am in Maun is 7am in London](/when/9am-maun/london) during European winter.

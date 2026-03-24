@@ -13,6 +13,8 @@ Cochabamba sits in a sheltered valley at 2,558 meters, which Bolivians call the 
 
 The city shares its timezone with [La Paz](/la-paz) and all of Bolivia. Being UTC-4 makes it one hour ahead of Peru and Ecuador to the west, and one hour behind Brazil's main timezone to the east. For Cochabamba's substantial commercial class, the offset means early morning calls to São Paulo and afternoon calls to Lima fit naturally into a single working day.
 
+## The Water War and a city's stubborn clock
+
 Cochabamba became famous internationally through the 2000 Water War, when the city's residents shut down the streets for weeks over water privatization. The protests ran by their own clock: the blockades went up at dawn, negotiations broke down at midnight, and the final reversal of the water contract came after days of sustained pressure. The city's sense of time runs deep, stubborn, and collective.
 
 [Convert 9am Cochabamba time to London](/when/9am-cochabamba/london)

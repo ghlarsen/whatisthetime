@@ -15,6 +15,8 @@ Armenia keeps Armenia Time, UTC+4, year-round with no DST. The country briefly o
 
 At 40 degrees north, Yerevan gets genuine seasonal variation. Summer evenings are long and warm, feeding the outdoor café and rooftop culture for which the city is known. Winters can be cold, but the city's southerly continental position makes it milder than comparable Russian latitudes.
 
+## ancient city and liturgical calendar
+
 The Armenian Apostolic Church, one of the world's oldest national churches, structures the religious calendar. The Blessing of Grapes ceremony, the feast of the Assumption in late August, marks the harvest season in a way that connects the liturgical calendar to agricultural time.
 
 [9am in Yerevan is 5am in London](/when/9am-yerevan/london). [Tbilisi](/tbilisi) in Georgia shares the UTC+4 clock.

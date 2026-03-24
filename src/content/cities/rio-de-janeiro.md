@@ -15,6 +15,8 @@ Rio de Janeiro is one of the world's most time-aware cities because it produces 
 
 At 23 degrees south, Rio's seasons are reversed from the northern hemisphere. December and January are summer: hot, humid, rainy, and the height of Carnival preparation. June and July are the dry, cooler winter, still warm by most standards. The beach culture is year-round, but each season has its character.
 
+## hills, forests, and microclimates
+
 The city's hills and bays create microclimates. The North Zone is hotter than the beach zones. Tijuca Forest, inside the city limits, is one of the world's largest urban forests, and it generates its own weather patterns. The Cristo Redentor statue on Corcovado mountain catches sun when the city below is in cloud.
 
 [9am in Rio de Janeiro is noon in London](/when/9am-rio-de-janeiro/london).

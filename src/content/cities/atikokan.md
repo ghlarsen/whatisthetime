@@ -15,6 +15,8 @@ When the rest of Ontario springs forward in March and moves to UTC-4, Atikokan s
 
 The town sits in the Canadian Shield near the Quetico Provincial Park wilderness area. It was founded around an iron ore mine that closed in the 1970s. The town has since pivoted to forestry, tourism, and a wood pellet manufacturing industry.
 
+## How Atikokan got its own timezone
+
 Atikokan is geographically in the Central time zone's territory, but historically aligned with Eastern Time due to its administrative connections to Ontario. When Ontario adopted DST, Atikokan chose not to follow. The result: its own timezone entry in the IANA database, making it one of the smallest places with that distinction.
 
 [9am in Atikokan is 2pm in London](/when/9am-atikokan/london) during European winter.

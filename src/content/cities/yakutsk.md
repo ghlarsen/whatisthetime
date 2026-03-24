@@ -15,6 +15,8 @@ Yakutsk is the world's coldest city by average annual temperature. Winter temper
 
 At 62 degrees north in continental Siberia, Yakutsk experiences daylight extremes. Summer brings continuous or near-continuous daylight: in June, the sun is above the horizon for about 20 hours. Winter brings extreme darkness: in December, the sun barely rises, clearing the horizon for perhaps 4-5 hours. The combination of extreme cold and extreme darkness in winter creates conditions that have produced a distinctive local culture, one that finds the darkness livable and the cold navigable.
 
+## permafrost city and Sakha seasonal culture
+
 The Yakut (Sakha) people maintain traditional reindeer herding, horse breeding (the Yakutian horse, extraordinarily cold-adapted), and a cultural calendar oriented around the seasons that the clock describes in reduced form.
 
 [9am in Yakutsk is midnight in London](/when/9am-yakutsk/london). [Vladivostok](/vladivostok) to the south is one hour further ahead.

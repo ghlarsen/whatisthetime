@@ -13,6 +13,8 @@ Conakry occupies a narrow peninsula jutting into the Atlantic Ocean on West Afri
 
 Guinea's clock matches [Dakar](/dakar) in Senegal to the north, and [Freetown](/freetown) in Sierra Leone to the south. The three capitals form a GMT corridor along the bulge of West Africa. To the east, countries like Mali and Burkina Faso use West Africa Time (UTC+1), creating a subtle but real scheduling difference for regional trade and travel.
 
+## Weather sets the pace here
+
 Conakry's working day is structured around heat rather than light. The city sits in a tropical zone that receives over 4,000mm of rain annually. The hottest and driest period runs November to March, when business activity peaks. During the May-October rainy season, flooding can reshape daily schedules more than any clock change would. The city runs to its own rhythm, where weather sets the pace and the clock is secondary.
 
 [Convert 9am Conakry time to London](/when/9am-conakry/london)

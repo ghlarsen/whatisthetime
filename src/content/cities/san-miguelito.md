@@ -15,6 +15,8 @@ The decision to forgo clock changes makes practical sense for a country near the
 
 San Miguelito grew rapidly during the twentieth century as workers moved in from rural Panama and from across the region, drawn by the Canal economy and the city's commercial activity. The district's daily rhythm follows the capital's: early morning commutes on crowded buses, long afternoons, and evening activity that stretches well past dark.
 
+## fixed offset and the US East Coast gap
+
 Panama's fixed UTC-5 offset creates a curious situation: for several months of the year, when the US East Coast is on Eastern Daylight Time, Panama and New York share the same clock. Then the US falls back, and a one-hour difference opens up again.
 
 [9am in San Miguelito is 2pm in London](/when/9am-san-miguelito/london), a gap that holds steady year-round.

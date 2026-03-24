@@ -13,6 +13,8 @@ Sfax is [Tunisia](/country/tunisia)'s second-largest city and the economic cente
 
 Tunisia's decision to stop observing DST was pragmatic. The country sits at about 35 degrees north, where daylight variation across the seasons is real but not extreme: roughly 14.5 hours in June versus about 10 hours in December. The twice-yearly clock change was seen as more disruptive than beneficial, particularly for the agricultural sector.
 
+## a commercial city and its working medina
+
 Sfax has a reputation as one of Tunisia's hardest-working cities: commercially focused, less oriented toward the tourism that dominates coastal cities to the north, and with a merchant culture that prizes practical results over formality. The city's medina is large and less tourist-oriented than Tunis or Sousse, still functioning primarily as a commercial and residential quarter rather than a heritage site.
 
 [Sousse](/sousse) to the north shares the same fixed UTC+1 offset.

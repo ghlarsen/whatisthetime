@@ -13,6 +13,8 @@ Two people born in Rosario have become globally recognized symbols of Argentina 
 
 [Argentina](/country/argentina) runs on Argentina Time, UTC-3, year-round without daylight saving. Argentina abolished DST in 2008 after years of inconsistent application. Rosario shares the fixed UTC-3 offset with [Buenos Aires](/buenos-aires) to the southeast.
 
+## the Paraná waterfront and city character
+
 Rosario sits on the western bank of the Paraná River, the second-longest river in South America. The waterfront has been transformed in recent decades from industrial docks to parks and promenades. The Paraná Delta begins south of the city, spreading into the maze of islands and channels that define the approach to Buenos Aires.
 
 At 33 degrees south, Rosario's seasons are reversed but significant. January is hot, humid, and Argentina's summer. June is cool and short-dayed. The city is flat, open to the pampas winds in winter. The nightlife, characteristic of Argentine cities, runs late regardless of season.

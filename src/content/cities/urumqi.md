@@ -13,6 +13,8 @@ lastUpdated: "2026-03-23"
 
 [China](/country/china) officially uses a single national timezone, China Standard Time at UTC+8. All Chinese clocks, from Beijing to Ürümqi, show the same time by law. The consequence in Ürümqi is stark: on China Standard Time, sunrise in midwinter arrives after 10am, and summer nights don't darken until close to midnight.
 
+## two clocks and cultural identity
+
 In practice, Xinjiang operates on an unofficial dual-clock system. Han Chinese institutions, government offices, and businesses often run on Beijing time. Uyghur communities and many local businesses use "Xinjiang Time," UTC+6, which is what the IANA database records as `Asia/Urumqi`. The two-hour gap between the official and practical clocks is a quiet assertion of cultural identity, and the question of which clock someone uses carries social and political weight.
 
 At 3,694 kilometers from the nearest ocean, Ürümqi is sometimes cited as the world's most continental city. Climate is extreme: hot dry summers, bitterly cold winters.

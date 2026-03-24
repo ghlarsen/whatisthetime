@@ -13,6 +13,8 @@ Tanki Leendert is a residential district in the northern part of [Aruba](/countr
 
 At 12 degrees north, Aruba sits close enough to the equator that daylight variation is minimal. The sun rises between about 6:00am and 6:30am year-round and sets between about 6:15pm and 7:00pm. There is no practical reason to shift the clocks, and none are shifted.
 
+## Dutch heritage and island water infrastructure
+
 Tanki Leendert's name reflects Aruba's Dutch colonial heritage: "tanki" refers to a cistern or water tank, a critical piece of infrastructure on an island with limited natural fresh water, and Leendert is a Dutch personal name. The island's water supply has historically depended on cisterns and desalination, and the infrastructure of water collection has shaped settlement patterns across Aruba including this area.
 
 The neighborhood is away from the resort strip on the western coast, giving it a more residential character. The daily rhythm is shaped by commutes to Oranjestad and the tourist areas rather than by tourism directly.

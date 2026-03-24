@@ -15,6 +15,8 @@ The city sits at 2,325 meters elevation on the Eritrean plateau, giving it a sur
 
 The clock is East Africa Time, UTC+3. The IANA identifier is Africa/Asmara (previously Africa/Asmera in older databases). No daylight saving.
 
+## Isolation and a frozen-in-time city
+
 Eritrea has been largely isolated from global connectivity since the late 1990s, following a devastating border war with Ethiopia and subsequent government policies restricting emigration and information. Reliable current information about daily life in Asmara is sparse. What exists suggests the city retains a slow, almost frozen-in-time quality: the Italian-era cafes and cinemas still functioning, the walking culture of the city's wide boulevards maintained by the relative absence of private cars.
 
 [Addis Ababa](/addis-ababa) in Ethiopia shares the UTC+3 clock, though the two capitals have had deeply complicated political relations for decades.

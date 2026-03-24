@@ -15,6 +15,8 @@ Parakou sits at 9 degrees north in central Benin, at the point where the country
 
 At 9 degrees north, Parakou's daylight ranges from about 11.5 to 12.5 hours across the year. The seasonal rhythm is governed by the rains: the wet season from May through October (with a peak in August) and the dry season from November through April. The harmattan wind from the north in the dry season brings haze and dust and a bone-dry air that cracks lips and makes eyes itch.
 
+## daily life and market cycles
+
 Parakou has a significant Muslim population, and the call to prayer structures the daily rhythm alongside the market cycles. The central market is one of the largest in northern Benin, and the weekly market days draw traders from hundreds of kilometers.
 
 [9am in Parakou is 8am in London](/when/9am-parakou/london).

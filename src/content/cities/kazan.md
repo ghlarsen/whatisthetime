@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Kazan is the capital of Tatarstan, a republic with its own language, culture, and history, sitting at the confluence of the Volga and Kazanka rivers. The city runs on Moscow Time, UTC+3, year-round, ever since Russia permanently abolished daylight saving time in 2014. No spring forward, no fall back: just UTC+3, always.
 
+## two cathedrals, two calendars, one timezone
+
 The decision to stick with permanent winter time was made under President Putin, who framed it as reducing the health and productivity disruption of twice-yearly clock changes. Debate continues about whether this was the right choice, since summer mornings in Moscow get light early but the long summer evenings lose some of their daylight by not advancing the clock. Kazan, slightly east of Moscow, feels this acutely.
 
 Kazan is geographically between Moscow and Yekaterinburg, far enough east that true solar noon arrives about 30-40 minutes before the clock reads 12:00. The mismatch is noticeable to anyone who pays attention to shadows.

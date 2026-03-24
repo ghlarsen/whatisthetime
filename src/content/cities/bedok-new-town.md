@@ -17,6 +17,8 @@ Singapore's timezone has an interesting history. Geographically, it sits at roug
 
 The result is that Singapore's solar noon falls around 1pm on the clock. Sunrise in summer is before 7am. The island sits near the equator (1.3 degrees north), so day length varies minimally throughout the year: roughly 12 hours of daylight, consistent. The mismatch between clock and sun is barely felt because the equatorial latitude smooths everything out.
 
+## Hawker centers and evening rhythms
+
 Bedok's hawker center culture means the early evening hours, from 6pm to 10pm, are peak social and eating times. The town's MRT connection to the city makes it a genuine mixed residential and commercial area rather than a dormitory suburb.
 
 [9am in Bedok is 1am in London](/when/9am-bedok-new-town/london) during European winter.

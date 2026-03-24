@@ -15,6 +15,8 @@ Mauritius keeps Mauritius Time, UTC+4, year-round. No DST. At 20 degrees south, 
 
 Mauritius attempted daylight saving time once, in 1982, and did not repeat the experiment. The change was disruptive and the population was not enthusiastic.
 
+## cyclone warnings and plateau climate
+
 Vacoas is home to the Mauritian military base and the meteorological station that monitors Indian Ocean cyclones. The cyclone season, November to April, runs on its own calendar, and when a cyclone warning is issued, the civil time becomes less important than the storm class. Class 1 through 4 warnings progressively shut down daily life, and the timing of warnings and lifts is broadcast by radio with specific clock times.
 
 The tea estates of the central plateau produce a Mauritian tea that is mostly consumed locally. Harvest timing follows seasonal and agricultural cycles that run in parallel to the UTC+4 clock.

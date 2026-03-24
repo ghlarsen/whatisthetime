@@ -13,6 +13,8 @@ Soyapango is a municipality immediately east of [El Salvador](/country/el-salvad
 
 The city's industrial character, factories, warehouses, transit depots, means that its daily schedule operates on shift patterns and delivery windows rather than a conventional morning-to-evening working day. The clock's fixed offset makes scheduling across the Central American region simpler: no seasonal recalculations.
 
+## urban life and public time
+
 Soyapango has had significant security challenges over recent decades, associated with gang activity that has affected much of urban El Salvador. The city's residents have experienced a distinct relationship with public time, navigating curfews, restricted hours, and the particular geography of safe and unsafe times of day that gang presence imposes on urban life.
 
 [San Salvador](/san-salvador) to the west and [San Miguel](/san-miguel) further east share the same fixed clock across the country.

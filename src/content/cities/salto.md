@@ -13,6 +13,8 @@ Salto sits on the Uruguay River, directly across from Concordia, Argentina. Urug
 
 [Uruguay](/country/uruguay) uses Uruguay Standard Time, UTC-3, year-round. Uruguay observes no daylight saving time, having abolished it in 2015. Salto shares this fixed offset with [Montevideo](/montevideo) to the south.
 
+## thermal springs and agricultural economy
+
 The thermal springs that bubble up in the Salto region have made the area a tourism destination. The Termas del Daymán and Termas de Arapey outside the city attract visitors from Argentina and Uruguay seeking the mineral-rich geothermal water. The springs maintain a constant temperature regardless of the season.
 
 Salto's traditional economy was agricultural and ranching, the Uruguay River plain supporting cattle and citrus. The thermal industry has added a new layer. The city hosts one of Uruguay's most passionate football rivalries at Club Atlético River Plate of Salto, a name that causes some confusion with the more famous Buenos Aires club.

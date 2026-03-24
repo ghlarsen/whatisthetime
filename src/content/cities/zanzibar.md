@@ -13,6 +13,8 @@ Zanzibar keeps East Africa Time, UTC+3, like the rest of [Tanzania](/country/tan
 
 The two systems run in parallel, and residents switch between them without obvious friction. When someone says "saa tatu" (hour three), they mean 9am civil time. When someone says "three o'clock," they mean 3pm civil. The context disambiguates. Foreigners sometimes find themselves confused about meeting times until they confirm which clock is being used.
 
+## Stone Town, spice trade, and tidal clocks
+
 Zanzibar's history as the center of the East African spice trade, and its later role as a hub of the Indian Ocean slave trade, gave the island connections to South Asia, the Arabian Peninsula, and the African interior. The Stone Town UNESCO World Heritage site reflects this layered identity: Omani Arab architecture, Indian merchant carving, and British colonial overlay.
 
 The tides of the Indian Ocean channel between Zanzibar and the mainland set another clock for fishermen and ferry operators: the dhow sailboats that still ply the channel depend on tidal windows and seasonal monsoon winds.

@@ -17,6 +17,8 @@ The practical consequence: summer in Amsterdam feels very long. Terrace culture 
 
 [Antwerpen](/antwerpen) in Belgium shares the same timezone, just to the south. The two cities are closely linked by rail and share the Benelux economic space.
 
+## The world's oldest stock exchange
+
 The city's financial sector, the Amsterdam Stock Exchange is the oldest in the world, operates on Central European Time. The exchange opened in 1602 to trade shares in the Dutch East India Company.
 
 [9am in Amsterdam is 8am in London](/when/9am-amsterdam/london) during European winter.

@@ -15,6 +15,8 @@ The settlement follows West Greenland Time, which aligns with America/Nuuk in th
 
 At 70 degrees north, the daylight extremes are dramatic even by Arctic standards. In summer, the sun does not set for several weeks. In winter, the polar night lasts for over a month. No timezone can fully manage the dissonance between clock time and solar time at this latitude. The clock says what it says; the sky does something entirely different.
 
+## hunting seasons and supply deliveries
+
 The settlement was founded in 1925, primarily populated with Inuit families relocated from West Greenland. About 350 people live there. Daily life is organized more around hunting seasons, weather windows, and supply deliveries than around any clock-driven schedule.
 
 [9am in Scoresbysund is 11am in London](/when/9am-scoresbysund/london) in winter, with the gap shifting as both move through DST on different schedules.

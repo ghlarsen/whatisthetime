@@ -15,6 +15,8 @@ The clock is Novosibirsk Time, UTC+7. The IANA identifier is Asia/Novosibirsk. R
 
 At 53 degrees north latitude, Barnaul has pronounced seasonal daylight variation. June days run about 17 hours. December days are barely 7 hours long. The Siberian winter at this latitude means these short winter days come with severe cold, regularly below minus 20 degrees Celsius. The summer is warm and agriculturally productive.
 
+## Grain harvest and Siberian seasons
+
 The Altai region is one of Russia's most significant agricultural zones. Grain harvests in September drive an intense period of activity. Winter settles the land and the pace.
 
 Barnaul's industrial base, established in the 18th century around silver smelting from nearby mines, has evolved to include machinery manufacturing, chemicals, and food processing. The city maintains a cultural scene befitting its status as a regional capital.

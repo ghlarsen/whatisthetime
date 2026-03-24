@@ -15,6 +15,8 @@ Vilnius has one of the largest surviving baroque Old Towns in Europe, a UNESCO W
 
 At 54 degrees north, Vilnius has strong seasonal daylight variation. June brings nearly 17 hours of daylight. December gives the city about 7 hours. The long summer evenings feed the city's outdoor café culture and the courtyard concerts that are a feature of the Old Town in summer.
 
+## layered calendars and Baltic identity
+
 Vilnius has a particularly significant Jewish history: it was called "Jerusalem of Lithuania" before World War II. The Jewish community's calendar and the Lithuanian Catholic calendar layered complex time references over the civil one for centuries.
 
 [9am in Vilnius is 7am in London](/when/9am-vilnius/london). [Riga](/riga) and [Tallinn](/tallinn) to the north share the same Baltic timezone.

@@ -13,6 +13,8 @@ Sovetsk sits on the Neman River at the border between Russia's Kaliningrad excla
 
 Kaliningrad Time is notable for being the only Russian timezone that currently matches Eastern European Standard Time (UTC+2 in winter). When Russia abolished daylight saving time in 2014, most Russian regions shifted forward to permanent UTC+3 or higher. Kaliningrad, which was at UTC+3 briefly, then moved to UTC+2. The region effectively operates on the same clock as its EU neighbors, Poland and Lithuania, which makes cross-border scheduling straightforward despite political separation.
 
+## Tilsit's history on the Neman
+
 The Peace of Tilsit was signed on a raft in the Neman River here in 1807, between Napoleon and Tsar Alexander I, briefly dividing Europe between French and Russian spheres of influence. The river is still the border, now between Russia and Lithuania.
 
 [9am in Sovetsk is 7am in London](/when/9am-sovetsk/london) in winter. During British Summer Time, the gap closes to one hour as London advances to UTC+1.

@@ -17,6 +17,8 @@ Equatorial Guinea's oil discovery in the 1990s transformed it from one of Africa
 
 At 1.9 degrees north latitude, Bata sits almost exactly on the equator. Day length is essentially constant year-round: just over 12 hours of daylight every day. No seasonal variation, no argument for adjusting clocks. The equatorial climate is hot and humid throughout the year.
 
+## Fishing, oil, and the equatorial coast
+
 The Gulf of Guinea coastline here is lined with mangroves and tropical forest. Bata's rhythm is shaped by fishing, commerce, and the oil service economy.
 
 [9am in Bata is 8am in London](/when/9am-bata/london) during European winter.

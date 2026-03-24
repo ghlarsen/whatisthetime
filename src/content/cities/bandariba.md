@@ -19,6 +19,8 @@ Curaçao's economy is anchored by oil refining, tourism, and offshore financial 
 
 The island's Dutch-influenced architecture, particularly in Willemstad's Punda and Otrobanda districts, is a UNESCO World Heritage site. The pastel-colored buildings along St. Anna Bay are among the most photographed in the Caribbean.
 
+## A quieter corner of the island
+
 Bandariba's own character is quieter and more residential than the commercial districts of Willemstad. Life here follows the rhythms of a small Caribbean community: morning market activity, afternoon heat, evening coastal breeze.
 
 [9am in Bandariba is 1pm in London](/when/9am-bandariba/london) during European winter.

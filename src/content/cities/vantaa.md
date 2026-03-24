@@ -15,6 +15,8 @@ Finland keeps Eastern European Time, UTC+2 in winter and UTC+3 during summer DST
 
 Vantaa is a planned postwar city. Helsinki's growth in the 20th century spilled into the surrounding municipalities, and Vantaa grew to house both suburban residential districts and major industrial and logistics facilities. The airport economy gives it a 24-hour character unusual for a Nordic city.
 
+## airport city and 24-hour character
+
 The river Vantaa (Vantaanjoki) that gives the city its name runs into the sea at Vanhankaupunginlahti. The river delta is a migratory bird site, and the spring arrival of birds is one of the informal markers of seasonal transition for local birdwatchers.
 
 [9am in Vantaa is 7am in London](/when/9am-vantaa/london). [Helsinki](/helsinki) directly south shares the same timezone.

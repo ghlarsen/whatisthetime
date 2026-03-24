@@ -13,6 +13,8 @@ Davao, the largest city on Mindanao and one of the most populous cities in South
 
 The Philippines' use of UTC+8 creates a mild geographic anomaly at Davao's longitude (125 degrees east). UTC+8 corresponds to 120 degrees east, placing Manila near the center of the theoretical timezone band. Davao, further east, runs slightly fast by solar time. In practice, the single-timezone approach means every island in the Philippines, from Batanes in the far north to Tawi-Tawi near Borneo, checks the same clock.
 
+## Durian, port logistics, and one national clock
+
 Davao is known for durian, export agriculture, and a relatively low crime rate that was a source of municipal pride during the tenure of former mayor Rodrigo Duterte. The city's port handles agricultural exports to Japan, China, and the Middle East, and the shipping schedules coordinate across UTC+8 to UTC+9 to UTC+3 without requiring complex timezone math. The clock at Davao port is straightforward; the supply chains it serves are not.
 
 [Convert 9am Davao time to London](/when/9am-davao/london)

@@ -15,6 +15,8 @@ The time here is Indochina Time, UTC+7, shared across Laos, Thailand, Vietnam, a
 
 Thakhèk is the gateway to Kong Lor Cave, a spectacular river cave system in Khammouane Province that draws travelers from across Southeast Asia. Boat departures into the cave are calibrated to available light inside, making the natural clock more relevant than the civil one.
 
+## river crossing and colonial heritage
+
 The city retains French colonial architecture from the Indochinese period, when it was known as Cammon. The wide riverfront boulevard still has the proportions of a European promenade dropped into a tropical setting.
 
 [9am in Thakhèk is 2am in London](/when/9am-thakhek/london). [Vientiane](/vientiane) to the south shares the same Indochina Time.

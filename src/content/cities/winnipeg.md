@@ -17,6 +17,8 @@ Winnipeg has some of the most extreme temperature swings of any major city in th
 
 The Red River Flood of 1997, and the city's subsequent construction of a massive floodway, demonstrated Winnipeg's willingness to engineer around natural cycles rather than simply accept them.
 
+## extreme winters and engineering solutions
+
 The city's large Indigenous and Métis population maintains cultural calendars connected to the Red River and the land that run in parallel to the civil clock.
 
 [9am in Winnipeg is 3pm in London](/when/9am-winnipeg/london). [Regina](/regina) in Saskatchewan nearby uses Central Time as well.

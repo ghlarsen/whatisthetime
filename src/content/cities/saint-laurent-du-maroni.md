@@ -15,6 +15,8 @@ Saint-Laurent-du-Maroni is divided from Albina, Suriname, by the Maroni River. P
 
 Saint-Laurent's history is dark. It served as the administrative center for the French penal colony that operated across French Guiana until 1953, including the notorious Devil's Island. The Camp de la Transportation, the main deportation facility, still stands in the city center as a museum. More than 70,000 prisoners were transported here over the colony's history.
 
+## the river highway into the interior
+
 The Maroni River is the highway into the interior for the Maroon communities of the rainforest. The Aluku, Ndyuka, and Saramaka peoples navigate the river in pirogues, reaching communities that have no road access. The river is time as much as it is a waterway.
 
 [9am in Saint-Laurent-du-Maroni is noon in London](/when/9am-saint-laurent-du-maroni/london).

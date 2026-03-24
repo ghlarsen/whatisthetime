@@ -15,6 +15,8 @@ San Jose is the largest city in Silicon Valley and the seat of Santa Clara Count
 
 The Santa Clara Valley, before it became Silicon Valley, was covered in orchards: prunes, apricots, cherries. The agricultural rhythm of the valley ran from spring blossom to autumn harvest. The last orchard in San Jose proper was replaced by development decades ago. The valley runs on quarterly earnings cycles and product launch windows now.
 
+## tech history in a specific timezone
+
 San Jose's Tech Museum of Innovation, the Computer History Museum in nearby Mountain View, and the Intel Museum in Santa Clara are all within a short drive of each other. The history of computing was made in this particular timezone, in these specific buildings.
 
 [9am in San Jose is 5pm in London](/when/9am-san-jose/london) in winter.

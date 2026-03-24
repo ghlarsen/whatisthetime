@@ -15,6 +15,8 @@ The clock is Western Indonesia Time, UTC+7. The IANA identifier is Asia/Jakarta.
 
 Indonesia spans three timezones, and Bandung is solidly in the western zone. This puts it in alignment with Bangkok and Hanoi, one hour behind Singapore, and two hours behind eastern Indonesia.
 
+## Fashion, fog, and weekend visitors
+
 Bandung's creative industries, particularly fashion, design, and music, give it a cultural character different from Jakarta's financial-administrative character. The city's factory outlet shopping districts attract day-trippers from across Java. Its universities, including the prestigious Institut Teknologi Bandung, produce graduates who feed Indonesia's tech sector.
 
 The highland climate means Bandung has actual seasons by Indonesian standards: a drier July-September and a wetter December-February. Fog in the morning is common. The arrival of weekend visitors from Jakarta for the cooler air creates a distinct weekend surge in the city's economy.

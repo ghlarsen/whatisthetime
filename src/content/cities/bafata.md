@@ -15,6 +15,8 @@ Bafatá is Guinea-Bissau's second city, sitting in the eastern interior along th
 
 The country is one of West Africa's smallest and poorest by most economic measures, but it has a rich cultural heritage and an important cashew nut industry, being one of the world's largest cashew exporters relative to its size. Bafatá, as the regional center for the eastern interior, is a market and administrative hub for the surrounding agricultural zone.
 
+## Cashews, rain, and the dry season
+
 The rainy season, from June to October, transforms the landscape and shapes the agricultural calendar. The dry season brings harmattan winds from the Sahara. These seasonal rhythms matter more to daily life than the clock.
 
 [Abidjan](/abidjan) to the southeast also runs on UTC+0, sharing the coastal West African timezone band.

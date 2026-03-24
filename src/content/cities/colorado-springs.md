@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Colorado Springs sits at 1,839 meters on the eastern edge of the Rocky Mountains, with Pikes Peak (4,302m) rising immediately to the west. Mountain Time, UTC-7 standard and UTC-6 with daylight saving, puts the city two hours behind the East Coast and one hour ahead of the Pacific. Sunrise in summer arrives before 5:30am. The long summer evenings, still light past 8pm, are one of the things residents notice most when daylight saving kicks in each March.
 
+## Military precision and Mountain Time
+
 The city hosts several major US military installations, including NORAD and the US Space Command at Peterson Space Force Base. Military facilities operate on precise timekeeping, and the coordination between Mountain Time and UTC is constant. NORAD's clocks have tracked the precise moment every year since the 1950s.
 
 Colorado Springs and [Denver](/denver) share the same timezone and observe the same DST transitions together. The two cities are 70 miles apart on the Front Range, close enough that driving between them means your car clock never needs adjusting. But cross into the Utah portion of the Navajo Nation to the west, and the timezone arithmetic gets complicated fast.

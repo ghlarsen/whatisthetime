@@ -13,6 +13,8 @@ Saint Petersburg's white nights are among the most documented natural phenomena 
 
 [Russia](/country/russia) moved to permanent Moscow Time in 2014, abandoning the DST switches that Russia had practiced. Saint Petersburg, which uses Moscow Time (`Europe/Moscow`, UTC+3), now has no clock changes. This means summer evenings extend even further into the night: the civil clock runs an hour ahead of what solar position would suggest, pushing sunset as late as 10pm while civil midnight is still two hours away in June.
 
+## winter darkness and the arts season
+
 At 60 degrees north, Saint Petersburg has some of the most extreme seasonal daylight variation of any major city. June brings about 18.5 hours of official daylight. December delivers under 6 hours. The winter is dark in a specific, heavy way, and the city compensates with the arts: the Mariinsky Theatre, the Hermitage, the restaurants, all open their brightest and loudest in the winter months.
 
 [9am in Saint Petersburg is 6am in London](/when/9am-saint-petersburg/london) in winter.

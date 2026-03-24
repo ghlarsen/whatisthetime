@@ -15,6 +15,8 @@ Phnom Penh was built where rivers meet. The Chatomukh, or Four Faces, is the con
 
 The morning in Phnom Penh starts at the river. Vendors set up before dawn along Sisowath Quay. The first light comes off the Tonle Sap, which flows north toward the great lake for half the year and reverses direction when the monsoon fills the Mekong in June. That reversal is one of the natural world's stranger clocks.
 
+## history and the weight of Year Zero
+
 The Khmer Rouge abolished time in its own way between 1975 and 1979, renaming 1975 "Year Zero" and attempting to restart history. The city is still, in some ways, measuring how far it has come from that particular moment.
 
 [9am in Phnom Penh is 2am in London](/when/9am-phnom-penh/london).

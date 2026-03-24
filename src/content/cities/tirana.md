@@ -15,6 +15,8 @@ Tirana was one of the most isolated cities in the world for four decades. Under 
 
 At 41 degrees north, Tirana gets meaningful seasonal daylight variation. Summer evenings are long, and the city's outdoor café culture extends late into the night. The bajram (Albanian afternoon rest period) persists in some sectors, creating a midday quiet and a later active afternoon.
 
+## from forbidden zone to nightlife hub
+
 The Blloku neighborhood, once the exclusive preserve of Communist Party elites and completely off-limits to ordinary Albanians until 1991, is now Tirana's trendiest area. The transformation from forbidden zone to nightlife hub happened within a single generation.
 
 [9am in Tirana is 8am in London](/when/9am-tirana/london). [Vlorë](/vlore) on the coast shares the same timezone.

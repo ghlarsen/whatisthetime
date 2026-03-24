@@ -15,6 +15,8 @@ India uses one clock for a country that spans 30 degrees of longitude, from Rann
 
 None of this slows Mumbai down. The city of roughly 20 million operates at a pace and density that treats clock time as a suggestion more than a rule. The local trains run to the minute, carrying 7 million passengers a day on a network that has barely changed since the British built it. Everything else runs on "IST," which locals sometimes call Indian Stretchable Time, a rueful acknowledgment that schedules flex.
 
+## Bollywood's internal clock
+
 The film industry, centered in the Film City complex in Goregaon, runs its own hours: shoots that start at noon and run past midnight, editing sessions at 3am, music recordings timed to avoid peak traffic. Bollywood's internal clock has always been offset from the rest of the city.
 
 [9am in Mumbai is 3:30am in London](/when/9am-mumbai/london), which means Mumbai's morning overlap with European business hours is essentially zero. The city does its most globally connected work in its evenings.

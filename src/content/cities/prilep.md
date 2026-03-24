@@ -15,6 +15,8 @@ Prilep sits in the broad Pelagonia valley, the largest in the western Balkans, s
 
 Above the city, the ruins of the medieval fortress of Marko's Tower sit on dramatic rocky crags. King Marko (Marko Mrnjavčević), a 14th-century Serbian vassal king, became a legendary hero figure in South Slavic oral tradition, celebrated in epic poetry throughout the Balkans. His tower is visible from almost anywhere in Prilep, a constant reminder that time here runs in very long arcs.
 
+## tobacco harvest and agricultural calendar
+
 Tobacco agriculture shapes the daily rhythm in the surrounding villages from summer through autumn: planting, tending, harvesting, and then the meticulous drying process that fills the tobacco barns with the specific smell of cured leaf. The valley runs its own calendar around the crop.
 
 [9am in Prilep is 8am in London](/when/9am-prilep/london) in winter.

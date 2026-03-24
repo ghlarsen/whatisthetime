@@ -13,6 +13,8 @@ Antwerp is one of Europe's most important cities that doesn't always make the he
 
 The clock is Central European Time, Europe/Brussels timezone (shared with all of [Belgium](/country/belgium)), UTC+1 in winter and UTC+2 during daylight saving.
 
+## A port operating around the clock
+
 Antwerp's port runs on a 24-hour schedule that doesn't follow the clock's regular rhythms. Container ships arrive and depart around the clock, and the logistics networks feeding the port operate on global timezone coordination. When the Rotterdam and Antwerp ports are scheduling cargo, they are working with partners in [Shanghai](/shanghai) (UTC+8), [Singapore](/singapore) (UTC+8), and [Los Angeles](/los-angeles) (UTC-8).
 
 [Amsterdam](/amsterdam) is just 100 kilometers north in the Netherlands, sharing the same timezone and forming part of the same densely networked North Sea port region.

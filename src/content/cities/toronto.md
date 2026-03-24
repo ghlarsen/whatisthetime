@@ -15,6 +15,8 @@ Eastern Time, UTC-5 in winter and UTC-4 during summer DST, puts Toronto in exact
 
 Toronto's latitude means meaningful daylight variation. June sunsets come after 9pm. December brings darkness by 4:45pm. The city handles this with the pragmatic energy of a place that has a lot to accomplish: indoor life during winter is as active as outdoor summer life.
 
+## multicultural city, shared financial clock
+
 The city is one of the world's most diverse by foreign-born population percentage, and different communities maintain their own temporal rhythms within the Eastern Time framework. The Chinese New Year, Diwali, Eid, and Caribbean Carnival all impose their own time-signatures on the city's calendar.
 
 [9am in Toronto is 2pm in London](/when/9am-toronto/london). [Montreal](/montreal) and [Ottawa](/ottawa) share the Eastern Time clock.

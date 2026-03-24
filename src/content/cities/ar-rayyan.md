@@ -17,6 +17,8 @@ Al Rayyan's landscape is characteristically Qatari: low-rise commercial strips, 
 
 [Al Mansourah](/al-mansurah) and [Al Matar al Atiq](/al-matar-al-atiq) in greater Doha share the same timezone, as does all of Qatar.
 
+## World Cup and global broadcast timing
+
 The 2022 World Cup required significant logistical coordination between Qatar's UTC+3 and the broadcasting schedules of over 200 countries. The unusual scheduling of the tournament in November-December rather than the traditional June-July was itself partly a concession to Qatar's extreme summer heat.
 
 [9am in Al Rayyan is 6am in London](/when/9am-ar-rayyan/london) during European winter.

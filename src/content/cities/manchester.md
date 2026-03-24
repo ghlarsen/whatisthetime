@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Manchester is England's second city, built on cotton, coal, and the industrial revolution. At 53 degrees north, it sits considerably higher in latitude than London, and the difference matters for daylight. In June, the sun doesn't set until nearly 10pm. In December, darkness falls before 4pm. The clock is the same as [London](/london), Greenwich Mean Time in winter and British Summer Time in summer, but the light tells a different story.
 
+## clocks, mills, and contested hours
+
 The city's industrial heritage is inseparable from timekeeping. The Factory Acts of the 1830s and 40s, which regulated working hours in mills and factories, were largely responses to conditions in northern England's industrial cities. Before those laws, mill owners used clocks strategically, speeding them up during working hours, slowing them down at meal breaks. Workers fought for regulated hours counted honestly.
 
 Manchester United and Manchester City, the city's two Premier League clubs, both schedule matches with a global audience in mind. A 3pm Saturday kick-off is 10pm in Tokyo and 7am in Los Angeles: the club manages communications across all three offsets simultaneously.

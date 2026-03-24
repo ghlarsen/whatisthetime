@@ -17,6 +17,8 @@ Mauritius sits in the Indian Ocean at roughly 20 degrees south latitude. The isl
 
 Mauritius's economy is built on financial services, tourism, and textiles. The financial sector coordinates globally, with particular connections to Africa (Mauritius is a major investment hub for African-bound capital), India (a significant source of trade and tourism), and Europe. UTC+4 allows morning overlap with Europe and afternoon overlap with the Asian financial centers.
 
+## Sugar, finance, and African investment
+
 The island's sugar industry, which defined its economy for 200 years, still operates in the surrounding agricultural plateau. Harvest season (June to December) marks a distinct agricultural rhythm alongside the tourism-driven economy.
 
 [9am in Beau Bassin-Rose Hill is 5am in London](/when/9am-beau-bassin-rose-hill/london) during European winter.

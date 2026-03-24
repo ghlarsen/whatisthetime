@@ -15,6 +15,8 @@ San Juan has been continuously inhabited since 1521, making it the oldest city u
 
 Puerto Rico's relationship with time includes its diaspora: millions of Puerto Ricans live on the US mainland, mostly in New York and Florida. The connection between San Juan and New York is so constant that the one-hour winter difference and summer alignment shape daily communication, TV scheduling, and business hours.
 
+## the bioluminescent bay on moonless nights
+
 The bioluminescent bay at Mosquito Bay on Vieques island (accessible from San Juan) is best seen in darkness, around midnight. The water glows blue-green when disturbed, an effect from billions of dinoflagellates. The bay runs on its own biological schedule, brightest on moonless nights.
 
 [9am in San Juan is 1pm in London](/when/9am-san-juan/london).

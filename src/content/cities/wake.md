@@ -13,6 +13,8 @@ Wake Island is a coral atoll in the central Pacific, roughly 3,700 kilometers we
 
 Wake keeps UTC+12 (`Pacific/Wake`), placing it among the first occupied locations to enter each new calendar day. The timezone choice is practical for the military installation: coordination with Guam (UTC+10) and Hawaii (UTC-10) defines the operational day.
 
+## Pacific War and the Date Line
+
 The island entered history on December 8, 1941, when Japanese forces attacked simultaneously with Pearl Harbor. The Wake Island garrison, a combination of US Marines and civilian contractors, held out for 15 days before surrendering on December 23, 1941. The battle is remembered in American military history as one of the most determined defensive stands of the Pacific War. The date discrepancy (Pearl Harbor was December 7 in Hawaii, but December 8 at Wake, due to the International Date Line) illustrates exactly how timezone boundaries affect the recording of history.
 
 The lagoon inside the atoll is home to sea turtles, seabirds, and remarkable coral. The military residents see the sunsets and the phosphorescent nights.

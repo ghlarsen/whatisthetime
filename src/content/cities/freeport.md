@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Freeport, on Grand Bahama Island, uses `America/Nassau`, Eastern Standard Time in winter (UTC-5) and Eastern Daylight Time in summer (UTC-4), following the same DST schedule as the United States. Grand Bahama is roughly 100 kilometers from Florida's Palm Beach County. The shared clock with Florida is practically essential for the tourism and trade that connect the islands to the US mainland.
 
+## built for American business, on American time
+
 The Bahamas could have chosen not to observe DST, like their Caribbean neighbors to the south. Instead, they align with US Eastern Time, which means Bahamian businesses, airlines, and resorts never have to explain a one-hour difference to American visitors. When Florida changes its clocks, the Bahamas changes theirs too.
 
 Freeport was developed from scratch in the 1950s as a free-trade zone, designed to attract American business investment. Its entire economic rationale was integration with the US market. The shared timezone is part of that integration. A Freeport casino and a Miami hotel run on the same clock, and that is not an accident.

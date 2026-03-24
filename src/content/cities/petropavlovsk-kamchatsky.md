@@ -15,6 +15,8 @@ Petropavlovsk-Kamchatsky might be the most dramatic setting of any city on earth
 
 At 53 degrees north, the city's seasonal light variation is significant: June brings over 17 hours of daylight, December brings under 7. The Pacific climate, moderated by the Kamchatka Current, makes this less severe than interior Siberia at the same latitude, but winters are still cold and dark.
 
+## military history and Pacific wildlife
+
 The city is closed to most foreigners without special permits (changed partially in 2019) due to its historical military significance as a nuclear submarine base during the Cold War. The Pacific Fleet still operates here.
 
 Salmon runs from the rivers emptying into the Pacific nearby are one of the most significant wildlife events in the world, and the bears that congregate to catch them are visible from certain points near the city.

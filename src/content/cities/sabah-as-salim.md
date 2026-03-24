@@ -15,6 +15,8 @@ lastUpdated: "2026-03-23"
 
 Kuwait sits at 29 degrees north, well into the subtropical zone. Summers are extreme: July and August temperatures regularly exceed 45 degrees Celsius, making Kuwait one of the hottest places on Earth during these months. The outdoor rhythm of daily life retreats to early morning and after 8pm in summer. Air conditioning is not a luxury here; it is infrastructure.
 
+## summer heat and inverted daily schedules
+
 The Kuwaiti day in summer often inverts: people sleep through the hottest midday hours, work in the air-conditioned afternoon, and the evening comes alive after sunset. The foreign worker population, which constitutes the majority of Kuwait's residents, maintains its own schedule within this.
 
 [9am in Şabāḩ as Sālim is 6am in London](/when/9am-sabah-as-salim/london) in winter.

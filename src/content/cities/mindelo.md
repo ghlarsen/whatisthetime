@@ -15,6 +15,8 @@ The city is Cabo Verde's cultural capital, known for the morna music tradition m
 
 At 17 degrees north latitude, day length shifts modestly across the year. The Atlantic trade winds that made these islands a colonial staging point for ships crossing to the Americas still shape the climate.
 
+## independence and a timezone of its own
+
 Cape Verde's independence from Portugal in 1975 coincided with a timezone adjustment: the islands moved from GMT to UTC-1, establishing a distinct island time separate from the European metropole.
 
 [9am in Mindelo is 10am in London](/when/9am-mindelo/london) during European winter, an unusual reversal where the Atlantic island is one hour behind.

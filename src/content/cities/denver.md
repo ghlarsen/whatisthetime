@@ -13,6 +13,8 @@ Denver, Colorado's capital at 1,609 meters (the mile-high city), is the primary 
 
 Denver's mountain location creates dramatic summer evenings. Near the summer solstice, sunset comes after 8:30pm MDT, and the Front Range sky turns purple and gold behind the Rockies in a display that rewards the late clock. Sunrise in summer, before 5:30am, is early enough that many runners and cyclists are on the trails before 6am.
 
+## Neutral ground between two coasts
+
 Denver is two hours behind New York and one hour ahead of Los Angeles, a position that makes it useful as a neutral meeting point for bicoastal companies. A 10am call with New York is 8am in Denver; an afternoon call with San Francisco works into Denver's mid-day. [Colorado Springs](/colorado-springs), 70 miles south, shares the same timezone and the same clock dynamics. Denver's airport, one of the busiest in the US, operates on Mountain Time while coordinating with aircraft routing through every US timezone zone.
 
 [Convert 9am Denver time to London](/when/9am-denver/london)

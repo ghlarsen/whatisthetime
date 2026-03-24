@@ -15,6 +15,8 @@ Manukau City is now officially part of the Auckland Council super-city, formed i
 
 At 37 degrees south, day length shifts meaningfully across the year: about 9.5 hours in June, 14.5 hours in December. The DST adjustment captures the long summer evenings productively.
 
+## Maori calendar and Pacific roots
+
 The Manukau area has significant Maori and Pacific Islander communities. The Maori calendar, based on the lunar cycle and the rising of the Matariki star cluster (New Zealand's Pleiades), marks the Maori New Year in June, which falls during the southern hemisphere winter when nights are long.
 
 [Auckland](/auckland) to the north shares this timezone. [9am in Manukau City is 9pm in London](/when/9am-manukau-city/london) the previous evening during New Zealand summer.

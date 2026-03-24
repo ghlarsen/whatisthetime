@@ -15,6 +15,8 @@ Before the German occupation of 1940, France used GMT+0 in winter and GMT+1 in s
 
 [France](/country/france) follows Europe/Paris: UTC+1 in winter (CET) and UTC+2 in summer (CEST), with EU standard daylight saving transitions.
 
+## how time shapes Parisian life
+
 The Eiffel Tower was built for the 1889 World's Fair and has been lit at night since 1900. The light show that runs every hour on the hour after dark, on the hour in Paris time, has been a fixed reference point for the city's evening rhythm for decades. The last show is at 1am.
 
 Parisian restaurant culture runs late: dinner service rarely begins before 7:30pm, peak tables are at 8:30pm, and a table at 9pm is entirely normal. This is partly cultural, but partly a consequence of a timezone that puts solar sunset at nearly 10pm in midsummer.

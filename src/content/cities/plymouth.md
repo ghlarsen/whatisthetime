@@ -13,6 +13,8 @@ Plymouth is unlike any other capital city in the world. It is buried. On July 25
 
 [Montserrat](/country/montserrat) runs on Atlantic Standard Time, UTC-4, year-round, with no daylight saving. The new de facto center of island life is Brades in the north, which operates on AST alongside [Saint John's](/saint-john-s) in Antigua to the southeast. But Plymouth remains the official capital, legally at least.
 
+## the exclusion zone and the frozen city
+
 The exclusion zone around southern Montserrat still exists. Scientists and authorized visitors occasionally enter to study the ongoing volcanic activity. The buried city is a time capsule in the literal sense: a record of 1997 preserved under volcanic rock.
 
 The island's population, about 12,000 before the eruption, dropped to around 4,000 as residents fled, many to Britain under emergency travel documents. The community that remained rebuilt life in the north, on the same clock, in a different place.

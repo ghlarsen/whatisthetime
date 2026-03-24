@@ -13,6 +13,8 @@ Cozumel, the Caribbean island off Mexico's Yucatán Peninsula, uses `America/Can
 
 The decision was commercial. Quintana Roo's economy runs on American tourists, and the region's resorts, airlines, and cruise operators all run their schedules against US East Coast time. When Mexico observed DST and Florida did not (or vice versa), the one-hour gap created visible friction: flights to Miami seemed to arrive at odd hours, and cruise ships departing Port Everglades could appear to arrive in Cozumel before they left. Fixing the clock removed the confusion.
 
+## Reefs, dive boats, and early mornings
+
 Cozumel's famous reefs and dive sites attract divers from around the world. The dive operators start their days early: first boats are in the water by 7am regardless of the season. The sun rises around 6am year-round this close to the equator (20 degrees north), so UTC-5 permanent keeps the sun and clock reasonably aligned. A clear morning over the Palancar reef needs no clock adjustment.
 
 [Convert 9am Cozumel time to London](/when/9am-cozumel/london)

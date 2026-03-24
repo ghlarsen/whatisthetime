@@ -13,6 +13,8 @@ Djibouti city sits at the mouth of the Gulf of Tadjoura, where it opens into the
 
 The port of Djibouti is the country's economic core and the primary import gateway for landlocked [Ethiopia](/ethiopia). Container ships from Asia arrive continuously, and the port's operations don't follow sunrise or sunset. The city's rhythms are shaped by two overlapping schedules: the Muslim prayer calendar (which follows solar time) and the 24-hour port operations calendar (which follows UTC+3 around the clock).
 
+## Multiple military clocks in one city
+
 Djibouti hosts military bases from France, the US, China, Japan, and several other countries, an unusual concentration of foreign military presence reflecting the strategic importance of the Red Sea chokepoint. These bases maintain their own internal schedules based on home-country time while operating in UTC+3 officially. A US base in Djibouti at 3pm local is operating at 7am Eastern Standard Time. This temporal complexity is invisible on any map but shapes every communication between Djibouti and Washington.
 
 [Convert 9am Djibouti time to London](/when/9am-djibouti/london)

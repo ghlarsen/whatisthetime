@@ -15,6 +15,8 @@ Pikine is effectively a city within a city. It sprawls east of central Dakar, pa
 
 At 14 degrees north latitude, Pikine has modest daylight variation. The sun rises between 6:30am and 7:15am depending on season and sets between 6:30pm and 7:30pm. The harmattan winds from the Sahara arrive in December and January, bringing haze and a particular orange quality to the afternoon light.
 
+## prayer time and local rhythms
+
 The call to prayer governs much of the day's structure in Pikine. The Mouride brotherhood is particularly influential in Senegal, and the rhythms of Islamic prayer time layer over GMT in ways that create a distinctly local schedule, regardless of what the civil clock says.
 
 [9am in Pikine is 9am in London](/when/9am-pikine/london) in winter, making it one of the simpler time conversions across the Atlantic.

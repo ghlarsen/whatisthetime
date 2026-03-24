@@ -13,6 +13,8 @@ Vostok Station recorded -89.2°C on July 21, 1983. It remains the lowest natural
 
 The station is operated by Russia and keeps UTC+6, aligning with the `Antarctica/Mawson` timezone used by nearby Australian and Russian Antarctic operations. The clock at Vostok is a coordination tool for logistics, research scheduling, and communication with supply aircraft. It has no relationship to natural light at 78 degrees south latitude, where polar night and polar day each last for roughly four to five months.
 
+## Lake Vostok and deep geological time
+
 Lake Vostok, one of the world's largest subglacial lakes, sits beneath approximately 4 kilometers of ice directly under the station. Scientists have been drilling toward it for decades, studying the lake as an analog for subsurface oceans on Europa and Enceladus. The timescales involved in the ice cores extracted at Vostok reach back 400,000 years, recording climate cycles that dwarf human history.
 
 Supply traverses from the coast (Mirny Station) to Vostok take weeks by tractor convoy across the ice plateau, following a schedule calibrated to weather windows rather than calendar months.

@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Espargos is the main town on Sal, the flat, arid island that hosts Cabo Verde's busiest international airport (Amílcar Cabral International). The island is the first stop for most visitors to the archipelago. Espargos runs on Cape Verde Time, UTC-1, year-round, under the IANA identifier `Atlantic/Cape_Verde`. No daylight saving.
 
+## Atlantic gateway, transit and tourism hub
+
 Cabo Verde sits in the Atlantic Ocean, 570 kilometers off the coast of Senegal. UTC-1 is geographically plausible: the islands' longitude (roughly 22-25 degrees west) corresponds to a natural zone around UTC-1 to UTC-1:30. The single-timezone approach, covering an archipelago that spans about 300 kilometers, is practical.
 
 Espargos functions primarily as a transit and tourism service town rather than a cultural center. Sal's beaches and reef diving draw European tourists, and the airport processes flights from Lisbon, London, Amsterdam, and Frankfurt. The one-hour offset from European winter time (UTC+0) and two-hour gap from summer time (UTC+1) makes scheduling straightforward: European morning flights arrive in late Espargos morning, and late afternoon departures catch the day's last light.

@@ -15,6 +15,8 @@ At 37 degrees north, Seoul has genuine seasonal light variation: about 14.5 hour
 
 What makes Seoul's relationship with time distinctive is cultural rather than astronomical. Korea's culture of long office hours, known colloquially as "overtime culture," has historically kept the city running well past midnight. The last subway trains leave central stations after midnight, and the neon of the city's commercial districts stays bright for hours after most European capitals have closed. The Korean concept of nunchi, roughly a social awareness of unspoken expectations, extends to work hours: leaving before colleagues is understood as a signal of insufficient commitment.
 
+## shifting work culture and younger generations
+
 This is changing. Government policies since the 2010s have pushed for reduced working hours, and younger generations have pushed back against the expectation of late-night presence. The clock still says the same time, but what it means to be working at 10pm in Seoul is shifting.
 
 Korea Standard Time also creates a notable political timezone situation: North Korea used to be on UTC+9, then shifted to UTC+8:30 in 2015 to distinguish itself from the South, then shifted back to UTC+9 in 2018 as a symbolic gesture during inter-Korean diplomacy.

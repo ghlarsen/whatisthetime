@@ -15,6 +15,8 @@ The reasoning was agricultural. Saskatchewan's farming economy meant that mornin
 
 The consequence is notable. In summer, when the rest of Canada observes DST, Saskatoon sits on Central Standard Time while neighboring Manitoba to the east is on Central Daylight Time (UTC-5) and Alberta to the west is on Mountain Daylight Time (UTC-6). The result: Saskatoon shares its UTC-6 offset with Alberta's MDT during summer, even though the two provinces are technically in different "timezone zones."
 
+## dramatic daylight and the DST holdout
+
 At 52 degrees north, Saskatoon has dramatic daylight variation. In June, the sun sets past 9:30pm on Central Standard Time. That is already late light. Moving clocks an hour forward would push sunset past 10:30pm, which the province decided was unnecessary.
 
 [Regina](/regina), Saskatchewan's capital, shares the same fixed UTC-6 offset.

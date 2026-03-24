@@ -13,6 +13,8 @@ Dodoma sits in the center of Tanzania, a deliberate choice when the government d
 
 At 6 degrees south and 1,120 meters elevation, Dodoma has a drier and cooler climate than the coast. The central plateau gives the city clearer skies and more defined seasonal rhythms. Sunrise falls around 6am year-round. The city's working life follows a relatively straightforward schedule, government business hours, markets in the morning, the midday heat driving people inside.
 
+## Swahili time at the market
+
 Tanzania, like its neighbor Kenya, uses the Swahili time system (saa za Kiswahili) alongside standard East Africa Time. Dodoma's government offices run on official EAT, but the central market and informal sectors follow the Swahili clock, counting hours from sunrise. "Saa tatu asubuhi" (3 o'clock in the morning, meaning 9am standard time) is how a market vendor would set an appointment, not 9:00.
 
 [Convert 9am Dodoma time to London](/when/9am-dodoma/london)

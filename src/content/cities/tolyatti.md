@@ -15,6 +15,8 @@ The AvtoVAZ factory here, opened in 1970 with help from Fiat, produced the Zhigu
 
 The city runs on Samara Time, UTC+4, the same timezone as [Russia](/country/russia)'s Samara Oblast. [Russia](/country/russia) eliminated DST in 2014 when it decided to remain permanently on summer time. Samara Oblast had its own history of timezone changes, shifting between UTC+3 and UTC+4 multiple times before settling at UTC+4 permanently.
 
+## drowned city and rebuilt factory town
+
 The Volga River here is dammed to form the Kuibyshev Reservoir, one of the largest man-made lakes in the world. The dam shifted the entire landscape and flooded the original city of Stavropol-on-Volga in the 1950s, which was rebuilt higher and renamed Tolyatti.
 
 [9am in Tolyatti is 5am in London](/when/9am-tolyatti/london). [Samara](/samara) is the regional center on the same clock.

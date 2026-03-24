@@ -13,6 +13,8 @@ Malé is the capital of the Maldives and one of the most densely populated citie
 
 The city sits at 4 degrees north latitude, where sunrise and sunset vary by less than an hour across the entire year. There is no solar seasonal signal strong enough to warrant adjusting clocks. The Maldives' climate has two seasons: wet and dry, but both are warm.
 
+## sea level and the long horizon
+
 Malé has become one of the most cited examples in discussions of climate and time. The average elevation of Maldivian islands is around 1.5 meters above sea level. The government famously held a cabinet meeting underwater in 2009 to dramatize the threat from rising seas. The question of the Maldives' future is measured in centimeters of ocean rise per decade, a form of time reckoning entirely separate from civil clocks.
 
 [9am in Malé is 4am in London](/when/9am-male/london) during European winter, a five-hour gap that aligns the Maldivian working afternoon with European mornings.

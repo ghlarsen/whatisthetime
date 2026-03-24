@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Dushanbe, Tajikistan's capital, runs on UTC+5 year-round. The IANA timezone `Asia/Dushanbe` has not included a daylight saving transition since 1991, when Tajikistan ceased observing the Soviet-era practice following independence. The country has remained on permanent UTC+5 since.
 
+## mountains, valleys, and daylight
+
 Dushanbe sits at 800 meters elevation in the Hissar Valley, surrounded by the Pamir, Zerafshan, and Gissar mountain ranges. At 38.5 degrees north, it has substantial daylight variation: about 15 hours in summer and 9.5 hours in winter. The mountains amplify this effect locally, with valley floors losing direct sun earlier than flat terrain would suggest as the peaks block low-angle light.
 
 Tajikistan is the poorest post-Soviet republic by GDP, and its economy depends heavily on remittances from Tajik workers in Russia and Kazakhstan. The flow of wire transfers, phone calls, and news from those workers follows Moscow time (UTC+3) or Almaty time (UTC+5/+6). Dushanbe's UTC+5 puts it at the same offset as Karachi, two hours ahead of Moscow in winter. The mountains isolate the city; the money flows out across those distance-collapsed timezone gaps.

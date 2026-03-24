@@ -15,6 +15,8 @@ What exists today is a reconstruction, built from historical photographs, painti
 
 [Poland](/country/poland) keeps Central European Time, UTC+1 in winter and UTC+2 during summer DST. Warsaw sits at 52 degrees north, with meaningful seasonal daylight variation: June sunsets past 9pm, December darkness before 4pm.
 
+## reconstruction, memory, and precise records
+
 The Jewish quarter of Warsaw, once home to the largest Jewish community in Europe, was liquidated in the Holocaust. The POLIN Museum of the History of Polish Jews, opened in 2013 on the site of the former ghetto, chronicles a thousand years of Jewish life in Poland with specific attention to dates and places.
 
 [9am in Warsaw is 8am in London](/when/9am-warsaw/london). [Wrocław](/wroc-aw) to the southwest shares the same Polish timezone.

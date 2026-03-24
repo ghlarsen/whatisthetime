@@ -13,6 +13,8 @@ Paramaribo's Waterkant, the historic waterfront district, is a UNESCO World Heri
 
 [Suriname](/country/suriname) uses Suriname Time, UTC-3, year-round with no daylight saving. The IANA identifier is America/Paramaribo. At 5.8 degrees north, the daylight barely varies: around 12 hours year-round. No seasonal adjustment is needed or wanted.
 
+## the most diverse capital in the Americas
+
 Paramaribo is arguably the most ethnically diverse capital city in the Americas. The population is roughly composed of: Hindustani (Indo-Surinamese), Maroon (descendants of escaped enslaved Africans), Creole (mixed African-European), Javanese (brought as contract workers from Dutch colonial Indonesia), and smaller groups of Amerindians, Chinese, Brazilians, and Dutch. Hindu temples, mosques, synagogues, and Catholic churches stand within blocks of each other in the inner city. The calendars of Diwali, Eid, Holi, Easter, and Hanukkah all structure different parts of the city's year.
 
 This diversity is not celebrated as a tourist branding exercise: it is simply what the city is, the result of a colonial history that brought people from four continents to this piece of South American coast.

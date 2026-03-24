@@ -15,6 +15,8 @@ Russeifa is one of Jordan's larger industrial cities, located in the Balqa Gover
 
 At 32 degrees north, Russeifa has a Mediterranean-influenced climate with hot dry summers and cooler, occasionally rainy winters. The Jordan Valley nearby has a different microclimate: lower elevation, hotter in summer, mild in winter.
 
+## phosphate industry and industrial time
+
 The phosphate mines around Russeifa and the broader Zarqa governorate are visible from the main road: terraced cuts in the desert hillside, conveyor belts, processing facilities. Jordan is one of the world's leading phosphate exporters. The mines run on industrial time, which pays no particular attention to the clock on the wall.
 
 [9am in Russeifa is 7am in London](/when/9am-russeifa/london) in winter.

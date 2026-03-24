@@ -13,6 +13,8 @@ Wellington is reliably described as the world's windiest capital, and the observ
 
 [New Zealand](/country/new-zealand) keeps New Zealand Standard Time, UTC+12 in winter and UTC+13 during summer DST. The DST change follows the southern hemisphere calendar: clocks spring forward in late September and fall back in early April. New Zealand is among the world's earliest inhabited time zones, among the first to see each new year, and the country's end-of-year celebrations carry a symbolic global-first quality that the timezone enables.
 
+## seasonal light and government early starts
+
 Wellington's latitude of about 41 degrees south gives it meaningful daylight variation. Summer evenings extend past 9pm. Winter afternoons go dark before 5pm. The southerly storms that pass through in winter can make the city feel arctic briefly, then it clears and the harbor is luminous.
 
 The Beehive, New Zealand's executive wing of Parliament, sits above Lambton Quay, the main street of a compact CBD built into the hillsides. Government business here starts early to catch a few hours of overlap with Australian business hours before the gap opens.

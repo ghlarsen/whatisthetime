@@ -15,6 +15,8 @@ The city's modern identity was transformed by the discovery of oil in the North 
 
 At 59 degrees north, Stavanger's summer is luminous in a way that requires adjustment. In June, the sun does not fully set: nautical twilight gives way to astronomical twilight briefly around 1am before the sky begins to lighten again. The city stays awake. Terraces fill. People forget to go home.
 
+## dark winters and the oil economy
+
 Winter is the inversion: the sun rises around 9:30am and sets before 3:30pm in December. The fjord winter light is horizontal and silver and lasts only a few hours. The darkness is a real condition that shapes energy use, mood, and the economy in ways that Norwegian society has developed specific cultural tools to manage.
 
 [9am in Stavanger is 8am in London](/when/9am-stavanger/london) in winter, 7am during British Summer Time.

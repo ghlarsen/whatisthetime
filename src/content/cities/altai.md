@@ -15,6 +15,8 @@ The clock is UTC+7, using the IANA identifier Asia/Hovd (named for Khovd, the ma
 
 This creates a one-hour internal time difference within Mongolia. The capital is one hour ahead of Altai. For administrative and government purposes, this requires coordination.
 
+## Seasonal shifts and summer alignment
+
 Mongolia observes daylight saving time, moving clocks forward in late March and back in late September. So UTC+7 becomes UTC+8 in summer, which means western Mongolia matches the capital's standard time in summer months.
 
 The Altai mountain range that gives this city its name is one of the world's significant mountain systems, running through Russia, Kazakhstan, Mongolia, and China. The city serves as the gateway to this region and to extensive gold and copper mining operations in the surrounding area.

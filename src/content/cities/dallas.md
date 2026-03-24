@@ -13,6 +13,8 @@ Dallas-Fort Worth is the fourth-largest metropolitan area in the United States, 
 
 Texas as a whole uses Central Time, with the exception of the El Paso area in the far west, which uses Mountain Time. Dallas's position in north-central Texas puts it solidly in the Central zone. At 32.7 degrees north, summer solstice brings about 14 hours of daylight and winter solstice about 10 hours. The CDT shift in summer means the sun doesn't set until close to 8:30pm in June, long summer evenings that feel incongruous in a city better known for relentless heat.
 
+## Bridging two coasts by timezone
+
 Dallas is a financial and logistics hub, and its timezone position has real commercial significance. The city bridges East Coast banking hours (which begin two hours earlier) and West Coast tech hours (which begin two hours later). A Dallas businessperson has overlapping working hours with both coasts in the same day. This centrality, both geographic and temporal, is part of why Dallas grew into a major corporate headquarters city.
 
 [Convert 9am Dallas time to London](/when/9am-dallas/london)

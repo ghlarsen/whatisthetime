@@ -15,6 +15,8 @@ Paysandú sits on the western bank of the Uruguay River, directly facing the Arg
 
 At 32 degrees south, Paysandú experiences real seasonal variation: summer days in December approach 14 hours of light, winter days in June shorten to under 10. The Uruguay River moderates the temperature somewhat, and the riparian landscape is greener and more humid than the interior.
 
+## economy and regional character
+
 Paysandú is known for its leather industry and its beef production from the surrounding ranching lands. The city has a slower, more pastoral character than Montevideo on the coast, and the rhythm of the agricultural year, the cattle movements, the grain harvest, shapes the economic calendar.
 
 [9am in Paysandú is 12pm in London](/when/9am-paysandu/london), the same as [Montevideo](/montevideo).

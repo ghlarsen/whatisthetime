@@ -15,6 +15,8 @@ The city sits at the point where Switzerland, France, and Germany converge, on t
 
 The clock is Europe/Zurich, UTC+1 in winter and UTC+2 during daylight saving, shared with all of [Switzerland](/country/switzerland).
 
+## Art, carnival, and Rhine mists
+
 Basel's Art Basel fair every June draws the global contemporary art world for a week. The city's February Fasnacht is one of Europe's most celebrated carnival traditions.
 
 At 47.5 degrees north, Basel has meaningful seasonal daylight variation. Summer evenings stay light past 9pm. Winter afternoons darken before 5pm. The Rhine mists of autumn and the cold clarity of winter give the city distinct seasonal characters.

@@ -15,6 +15,8 @@ While Dubai is known for finance and tourism, Sharjah has cultivated a reputatio
 
 Sharjah International Airport handles significant traffic independently of Dubai's airports, and the emirate's port on the east coast (on the Gulf of Oman rather than the Arabian Gulf) gives it access to both the Arabian Gulf and Indian Ocean shipping routes.
 
+## summer heat and the indoor working day
+
 At 25 degrees north, Sharjah has about 13.5 hours of daylight in June and about 10.5 in December. The summer heat, pushing toward 45 degrees Celsius, drives virtually all commercial and social activity indoors during midday hours from roughly May through September, creating a de facto shift in when the productive day actually happens.
 
 [Seeb](/seeb) in Oman across the Gulf shares the same UTC+4 offset.

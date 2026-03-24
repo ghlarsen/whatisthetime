@@ -13,6 +13,8 @@ Varna sits on the western Black Sea coast, [Bulgaria](/country/bulgaria)'s large
 
 Bulgaria keeps Eastern European Time, UTC+2 in winter and UTC+3 during summer DST, matching Sofia and the rest of the country. At 43 degrees north on the Black Sea coast, Varna gets genuinely long summer evenings: sunset after 9pm in June, warm air off the sea, and a resort rhythm that runs late.
 
+## beach tourism and the Black Sea season
+
 The city calls itself "the Sea Capital of Bulgaria," and during summer the population swells dramatically. Beach tourism from Germany, Russia, Romania, and across Eastern Europe has given Varna a seasonal economy that completely rewrites the city's pace from May through September, then returns to a calmer rhythm for the colder months.
 
 The Black Sea itself has a temporal effect on local climate: it moderates temperatures and delays autumn, making Varna's summer season extend later than its latitude alone would suggest.

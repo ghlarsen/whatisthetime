@@ -15,6 +15,8 @@ Baja California is the one Mexican state that follows Pacific Time, matching Cal
 
 [Mexico](/country/mexico)'s other border states use Central Time, but the Baja California peninsula's longitude and its California connections make Pacific Time the sensible choice. The state has consistently voted to maintain DST observance, unlike most of Mexico, because keeping the same clock as California matters for business and daily crossings.
 
+## the cold Pacific coast
+
 The Pacific at Rosarito is colder than the Gulf of Mexico or the Caribbean, fed by the California Current bringing cold water from the north. The coast is dramatic: the road south toward Ensenada runs along bluffs above the ocean, with the waves visible far below.
 
 [9am in Rosarito is 5pm in London](/when/9am-rosarito/london) in winter.

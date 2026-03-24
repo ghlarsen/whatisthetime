@@ -15,6 +15,8 @@ Jersey is not part of the United Kingdom, but it keeps the same time as London. 
 
 At 49 degrees north, Jersey's tides are among the most dramatic in the world. The tidal range in Saint Helier can exceed 12 meters, among the highest anywhere. At low tide, vast areas of sand and rock are exposed. At high tide, the harbor fills and the beaches shrink. The island's calendar is marked by tide tables as much as by anything the civil clock provides.
 
+## finance, tides, and London hours
+
 Jersey's financial sector, one of the world's most significant offshore finance centers, operates on UK business hours. Fund managers, bankers, and lawyers in Saint Helier track London, Frankfurt, and New York markets on a schedule set by the same clocks they share with Britain.
 
 [9am in Saint Helier is 9am in London](/when/9am-saint-helier/london) in winter.

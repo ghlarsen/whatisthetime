@@ -15,6 +15,8 @@ Colombia runs on UTC-5 year-round. No daylight saving. The IANA identifier is Am
 
 At 11 degrees north latitude, Barranquilla has essentially uniform day length throughout the year, roughly 12 hours of daylight. The arguments for daylight saving simply don't apply at this latitude. Colombia recognized this early and has never used it.
 
+## Port logistics and Carnival fame
+
 The city's port, Puerto Colombia and the newer Bocas de Ceniza facilities, handles much of Colombia's import and export cargo. The logistics sector coordinates with shipping lines on global schedules, meaning UTC-5 is the clock for calculating loading windows and vessel arrival times in relation to UTC.
 
 Barranquilla was also the Colombian city that gave the world Shakira. The cultural exports, from music to carnival, have made the city internationally known beyond its port logistics function.

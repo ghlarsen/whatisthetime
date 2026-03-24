@@ -13,6 +13,8 @@ Melbourne is [Australia's](/country/australia) second-largest city, sitting at 3
 
 At 37 degrees south, the seasonal daylight shift is meaningful: about 9.5 hours in June, 14.5 hours in December. The spring-forward in October is genuinely anticipated, particularly by the outdoor cafe and sporting cultures that define Melbourne. The city's AFL (Australian Football League) grand final in September-October coincides with the transition.
 
+## weather, culture, and the daylight saving switch
+
 Melbourne has a reputation for unpredictable weather: "four seasons in one day" is a local cliché with genuine basis. The weather doesn't observe the clock, but the social calendar does, and Melbourne's cafe, arts, and restaurant culture runs decidedly later than Sydney's more beach-focused equivalent.
 
 [Sydney](/sydney) shares this timezone. [9am in Melbourne is 11pm in London](/when/9am-melbourne/london) the previous evening during AEST, a 10-hour gap that makes real-time collaboration with European teams require very early Melbourne starts.

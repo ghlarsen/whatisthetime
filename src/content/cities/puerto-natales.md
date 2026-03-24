@@ -15,6 +15,8 @@ Puerto Natales sits at 51 degrees south latitude, on the shore of Última Espera
 
 At 51 degrees south, December's solstice brings close to 19 hours of daylight. Hikers on the Torres del Paine circuit plan their days around this: setting off at 7am in January, still hiking in bright evening light at 10pm. June inverts everything: short days, long nights, and few visitors.
 
+## trekker season and summer light
+
 Torres del Paine National Park sees most of its visitors between November and March. The W circuit, the O circuit, and the base camp treks all depend on the summer light. Puerto Natales runs on trekker time during those months: gear shops open early, buses leave before dawn, and the town's hostels fill with people checking weather apps.
 
 [9am in Puerto Natales is noon in London](/when/9am-puerto-natales/london).

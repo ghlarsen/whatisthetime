@@ -13,6 +13,8 @@ South Dublin is a county administrative area covering the southwestern suburbs o
 
 Ireland's timezone situation has a technical peculiarity. Rather than using "daylight saving time" as most countries do (advancing from a winter standard), Ireland legally uses a different arrangement: Irish Standard Time at UTC+1 is the defined "standard time" for summer, with the winter period (UTC+0) technically treated as "winter time." The practical result is identical to other countries observing DST, but the legal framing is inverted. This matters for software that needs to correctly identify whether a given time is standard or DST.
 
+## suburban rhythm and seasonal light
+
 At 53 degrees north, South Dublin and the broader city have significant seasonal light variation. Summer evenings stay light past 10pm. The long evenings define Irish summer culture: outdoor events, pub gardens, and the particular pleasure of a warm evening that feels borrowed from somewhere further south.
 
 South Dublin's suburban character developed rapidly in the latter half of the twentieth century, with large housing estates built to accommodate Dublin's expanding population. The commuter belt rhythm, early morning departures and evening returns, structures the daily clock of the county.

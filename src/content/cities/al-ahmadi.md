@@ -15,6 +15,8 @@ The clock is Kuwait Standard Time, UTC+3. The IANA identifier is Asia/Kuwait. No
 
 For the petroleum industry that defines Al Ahmadi, the stable clock matters. Oil trading operates globally, and the Kuwait Stock Exchange's connections to energy markets require coordination with London (UTC+0/+1) and New York (UTC-5/-4). A fixed UTC+3 means the math is always the same.
 
+## Extreme heat, fixed clock
+
 The city sits near the northern end of the Arabian Gulf, where summer heat is extreme. July and August temperatures routinely exceed 45 degrees Celsius. In these months, the working day restructures around the heat: early starts, long midday breaks, and a return to activity in the late afternoon. The clock doesn't change, but life shifts around it.
 
 [As Salimiyah](/as-salimiyah), Kuwait City's large suburban district, shares the same timezone and the same rhythms. [9am in Al Ahmadi is 6am in London](/when/9am-al-ahmadi/london).

@@ -15,6 +15,8 @@ The clock is East Africa Time, UTC+3. The IANA identifier is Indian/Antananarivo
 
 Madagascar's position in the Indian Ocean, southeast of the African continent, puts it in the same timezone neighborhood as East African mainland cities like Nairobi and Addis Ababa, though Madagascar has its own distinct political and cultural identity entirely separate from the continental mainland.
 
+## Highland rains and plateau rhythms
+
 The highland capital has a climate quite different from the tropical coasts. Evenings are cool year-round. The rainy season runs from November to April, when afternoon thunderstorms are reliable. The dry winter months of June to August are clear and cool, sometimes cold at night.
 
 [Antsirabe](/antsirabe), a city further south in the highlands, shares the same timezone. The two highland cities are connected by one of Madagascar's better roads and have a shared rhythm shaped by the cool plateau climate.

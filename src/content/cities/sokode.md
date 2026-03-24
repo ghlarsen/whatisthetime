@@ -13,6 +13,8 @@ Sokodé is [Togo](/country/togo)'s second-largest city, positioned in the center
 
 Togo has not observed daylight saving time. At roughly 9 degrees north, the daylight variation across the year is small enough, between about 12 and 13 hours, that clock adjustments would provide no meaningful benefit.
 
+## market rhythms and religious calendar
+
 Sokodé has a different character from the coastal capital. Lomé is an outward-looking port city with French colonial architecture; Sokodé is a Sahel-adjacent market town with a predominantly Muslim population and a traditional culture tied to the Kotokoli people. The city is known for its Adossa festival, a fire-walking ceremony that happens at certain Islamic celebrations and draws visitors from across the region.
 
 Market day rhythms and religious calendars organize Sokodé's week alongside the clock. Friday prayers at the central mosque define a weekly temporal punctuation that intersects with the commercial schedule.

@@ -13,6 +13,8 @@ Sukuta is a town in the Kombo North district of the [Gambia](/country/gambia), w
 
 Gambia runs on Greenwich Mean Time (UTC+0) all year. The country briefly switched to West Africa Time (UTC+1) in 2012, then returned to GMT in 2015. The reversal was driven by practical considerations: Gambia's geographic position and its close economic ties with Senegal, which uses GMT, made the alignment more natural despite Senegal officially being on WAT.
 
+## growing suburb on Greenwich Mean Time
+
 At 13 degrees north, Sukuta and the Gambia generally see about 12.5 hours of daylight in June and about 11.5 hours in December. The variation is small, and the fixed GMT offset aligns the country reasonably well with solar time.
 
 Sukuta's economy includes market gardening, trade, and the service activities that serve the wider Banjul urban area. The town's growth reflects the pattern of West African urban expansion, where capital city populations overflow into surrounding communities.

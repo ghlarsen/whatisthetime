@@ -13,6 +13,8 @@ Albuquerque sits at 5,300 feet elevation in the Rio Grande valley, flanked by th
 
 The city runs on Mountain Time, America/Denver timezone, UTC-7 in standard time and UTC-6 during daylight saving. [Denver](/denver) is the reference city, but Albuquerque has its own distinct relationship with that clock.
 
+## Navajo Nation and the DST patchwork
+
 One complication worth noting: Albuquerque is surrounded by Navajo Nation territory, which observes daylight saving time unlike the neighboring state of Arizona (which does not). New Mexico observes DST. So when you drive through this region, the clock can change and change back depending on whether you are crossing state or tribal boundaries.
 
 The city's tech and research economy, centered on Sandia National Laboratories and the University of New Mexico, operates on standard business hours, which means the Mountain Time timezone is the practical working clock. But Albuquerque's cultural rhythms run later than many American cities. Dinner at 8pm is not unusual. The nightlife starts late.

@@ -15,6 +15,8 @@ Port-Gentil has no road connection to the rest of Gabon. The city sits on the Ma
 
 The city grew around oil. Gabon's offshore petroleum industry, developed from the 1950s onward, made Port-Gentil the economic engine of the country. The port handles oil exports, supply vessels for offshore platforms, and the general logistics of a resource economy. The rigs visible offshore operate on their own continuous schedules: 24 hours, every day, regardless of what the sun is doing.
 
+## delta wetlands and oil economy
+
 The Ogooué River delta around Port-Gentil is one of central Africa's significant wetland systems, home to forest elephants, hippos, and sitatunga antelopes in the mangroves. The city and the wilderness exist in close proximity.
 
 [9am in Port-Gentil is 8am in London](/when/9am-port-gentil/london) in winter.

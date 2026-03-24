@@ -13,6 +13,8 @@ San Marino occupies 61 square kilometers on the slopes of Monte Titano, complete
 
 The microstate's position at roughly 44 degrees north means summers bring long evenings stretching past 9pm, pleasant for the tourists who arrive in large numbers relative to the resident population of around 34,000. Winter afternoons close earlier, the stone towers of the three peaks catching the last light before the valley goes dark.
 
+## practical geography and the shared clock
+
 San Marino adopted standard time alongside Italy in the late nineteenth century. The republic has maintained its legal independence for over 1,700 years, but practical geography determines the clock. [Country](/country/san-marino) residents set their watches to the same signal as their Italian neighbors.
 
 [9am in San Marino is 8am in London](/when/9am-san-marino/london), the same conversion that applies across Central Europe in winter, shifting to a two-hour difference when British Summer Time and Central European Summer Time both activate in spring.

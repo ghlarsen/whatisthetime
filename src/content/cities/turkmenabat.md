@@ -15,6 +15,8 @@ Türkmenabat (formerly Charjew or Chardzhou) sits where the Trans-Caspian Railwa
 
 Türkmenabat's position at 39 degrees north gives it hot summers and cold winters, a continental interior climate far from any moderating ocean. The Karakum Desert covers most of Turkmenistan, and the heat in summer is serious. Work and commerce shift earlier in the day during the hottest months.
 
+## border town and cross-border trade rhythms
+
 The city is the capital of Lebap Province, which borders both Uzbekistan and Afghanistan. Cross-border trade patterns create informal temporal alignments with Uzbek market schedules, even where the official clocks differ by a small margin.
 
 [9am in Türkmenabat is 4am in London](/when/9am-turkmenabat/london). [Ashgabat](/ashgabat), the capital, keeps the same Turkmenistan Time.

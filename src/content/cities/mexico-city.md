@@ -15,6 +15,8 @@ The DST abolition was not controversial. Surveys showed most Mexicans disliked t
 
 At 19 degrees north latitude, Mexico City's day length shifts modestly: about 11 hours in December, 13 hours in June. The altitude (2,240 meters) makes the climate more temperate than the latitude suggests. The city runs on a schedule that includes extended lunch breaks and late dinners, though more moderate than Spain's solar-displaced schedule.
 
+## ancient calendars beneath a modern capital
+
 The Aztec city of Tenochtitlan, which preceded Mexico City, had its own sophisticated timekeeping system. The Aztec calendar combined a 365-day solar year with a 260-day ritual calendar cycle that meshed in 52-year periods. The Spanish conquest imposed European time on a city that already had elaborate temporal infrastructure.
 
 [9am in Mexico City is 3pm in London](/when/9am-mexico-city/london) during European winter.

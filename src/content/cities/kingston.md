@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Kingston is one of the few capitals in the Americas that does not move its clocks. Jamaica has kept UTC-5 permanently since 1983, when the country abandoned daylight saving time. The result is that in summer, when New York and Miami advance to EDT (UTC-4), Kingston falls an hour behind its northern neighbors despite sitting at nearly the same latitude.
 
+## reggae studios and a clock that never moves
+
 This permanent UTC-5 setting means Jamaican summer evenings end about an hour earlier by the clock than in comparable US east coast cities. Sunset in Kingston in June is around 6:30pm by local time, while Miami's clock shows 8:15pm. Same sun, different numbers.
 
 The music industry that defines Kingston's global reputation has long operated on its own schedule. The recording studios in New Kingston historically ran from late afternoon well into the night, when the city cooled slightly and the creative energy peaked. Reggae culture has never been especially reverent of the 9-to-5 clock.

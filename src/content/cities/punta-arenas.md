@@ -15,6 +15,8 @@ Punta Arenas has its own timezone identifier: `America/Punta_Arenas`, UTC-3, yea
 
 At 53 degrees south, the June solstice brings fewer than 7 hours of daylight. The December solstice brings more than 17 hours. On some December days, the city barely has true night: a long twilight transitions directly back to dawn. This is not metaphor. The sky turns pink before midnight and begins brightening after 3am.
 
+## views across the strait and constant wind
+
 The Cerro Mirador above the city offers views across the Magellan Strait to the mountains of Tierra del Fuego. On the clearest days, you can see as far as the ice fields. The wind, a constant 50-80 km/h in summer, is the constant companion.
 
 [9am in Punta Arenas is noon in London](/when/9am-punta-arenas/london), same as [Puerto Natales](/puerto-natales) to the north.

@@ -15,6 +15,8 @@ Riga has been a Baltic trading city since 1201, when it was founded by the Livon
 
 The June solstice brings over 17 hours of daylight. Jāņi, the Latvian Midsummer festival on June 23-24, is one of the most significant cultural events of the year: bonfires, folk songs, and a night that barely gets dark. Latvian Midsummer is authentic midsummer celebration, rooted in pre-Christian Baltic tradition.
 
+## midsummer festivals and winter darkness
+
 The December solstice inverts everything. The sun rises after 9am and sets before 4pm. About 6.5 hours of light. The Christmas markets in the old town bring warmth and light to compensate, and Riga claims (with some historical evidence) to have held one of the world's first public Christmas trees in 1510.
 
 [9am in Riga is 7am in London](/when/9am-riga/london) in winter.

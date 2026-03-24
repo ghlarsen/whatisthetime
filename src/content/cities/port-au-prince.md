@@ -15,6 +15,8 @@ Port-au-Prince follows Eastern Time, the same offset as New York, Miami, and the
 
 Port-au-Prince sits at 18 degrees north, close enough to the equator that daylight variation is modest. Sunrise comes between 5:45am and 6:30am, sunset between 5:50pm and 7:00pm. The city's famous traffic, the tap-taps crowding the streets, the markets that overflow sidewalks into roads, runs on a rhythm that survives every disruption the city has faced.
 
+## time marked by catastrophe and resilience
+
 The earthquake of January 12, 2010, struck at 4:53pm local time. The moment is specific in every account of it. Time, in a city that has survived repeated catastrophe, is marked by what happened before and after.
 
 [9am in Port-au-Prince is 2pm in London](/when/9am-port-au-prince/london) in winter.

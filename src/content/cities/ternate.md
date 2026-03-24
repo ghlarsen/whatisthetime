@@ -13,6 +13,8 @@ Ternate is a city built on the slopes of an active volcano, Gamalama, on an isla
 
 Today, Ternate is the largest city in North Maluku province and runs on Eastern Indonesia Time, UTC+9, the same clock used in Papua and the far eastern islands of [Indonesia](/country/indonesia). Indonesia uses three timezone bands across its vast east-west span, and Ternate sits in the easternmost.
 
+## equatorial island, prayer and tides
+
 At roughly 0.8 degrees north latitude, Ternate is nearly on the equator. Sunrise and sunset vary by only a few minutes across the year. The clock here is almost irrelevant to natural light cycles. What matters more is the call to prayer (the population is predominantly Muslim), the ferry schedule to nearby Tidore island, and the fishing tides.
 
 [9am in Ternate is midnight in London](/when/9am-ternate/london). [Jayapura](/jayapura) in Papua shares the Eastern Indonesia Time zone.

@@ -15,6 +15,8 @@ At 45 degrees north, Montréal's daylight shifts are substantial. June evenings 
 
 Montréal's bilingual character creates a city that operates partly on French rhythms, including longer lunches and later dinners, and partly on North American English schedules, the nine-to-five workday and the early-to-bed culture. The tension between these modes is one of the city's distinctive social textures.
 
+## festivals, terrasses, and long summer evenings
+
 The city hosts major international festivals through the summer, including the Jazz Festival and Juste pour Rire (Just for Laughs), which all run on Eastern Daylight Time and coordinate with audiences from across North America and Europe.
 
 [9am in Montréal is 2pm in London](/when/9am-montreal/london) during European winter.

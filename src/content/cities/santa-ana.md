@@ -13,6 +13,8 @@ Santa Ana is [El Salvador](/country/el-salvador)'s second-largest city, sitting 
 
 The city runs on Central Standard Time (UTC-6) all year. El Salvador dropped daylight saving time in 1987, and the fixed offset has held since. At 14 degrees north, the difference in daylight between summer and winter is small enough that the adjustment would be largely symbolic.
 
+## the cathedral square and cool evenings
+
 Santa Ana's Cathedral, one of the finest neo-Gothic buildings in Central America, has served as a visual anchor of the city center for over a century. The park in front of it is the social heart of the city, particularly in the cooler evenings when the heat of the day has eased.
 
 [San Salvador](/san-salvador) and [Soyapango](/soyapango) are on the same clock across the country's compact geography.

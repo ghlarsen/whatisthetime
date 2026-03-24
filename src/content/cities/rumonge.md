@@ -15,6 +15,8 @@ Rumonge sits on the eastern shore of Lake Tanganyika, one of the world's deepest
 
 Lake Tanganyika moderates the local climate. The lake's thermal mass keeps temperatures more consistent than the inland plateau. Fishing is central to Rumonge's economy: kapenta (small sardine-like fish), dagaa, and larger cichlids are harvested from the lake. The fishing boats head out at night using lights to attract kapenta near the surface. The lake at night, lit by dozens of boats, is one of Rumonge's distinctive sights.
 
+## agriculture and highland farming
+
 The rainy seasons (October-December and March-May) and dry seasons define the agricultural calendar around Rumonge. Coffee and tea grow in the highlands above the lake. The altitude here, about 800 meters above sea level, is lower than the plateau but still significantly cooler than equatorial lowlands.
 
 [9am in Rumonge is 7am in London](/when/9am-rumonge/london) in winter.

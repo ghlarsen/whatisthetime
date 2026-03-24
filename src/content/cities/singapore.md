@@ -15,6 +15,8 @@ Singapore Standard Time (UTC+8) has been stable since 1982, when Malaysia and Si
 
 Singapore is a transit city in the deepest sense: Changi Airport is one of the world's most connected aviation hubs, and the Port of Singapore handles some of the highest container volumes on Earth. The fixed, predictable timezone matters for scheduling at scale. Every flight connection, every vessel berth, every financial transaction depends on the clock being exactly where it always is.
 
+## trading hub and fixed time
+
 The city-state's financial markets open at 9am Singapore time, which is 1am London time in winter. The gap between Singapore and New York's markets means there is a window each day when neither major financial center is fully active, which Singapore's exchange has historically used to develop its own trading products for Asian hours.
 
 [Tampines Estate](/tampines-estate) across the city shares the same Singapore Standard Time.

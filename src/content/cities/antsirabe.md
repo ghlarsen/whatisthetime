@@ -13,6 +13,8 @@ Antsirabe sits at 1,500 meters elevation in Madagascar's central highlands, abou
 
 The city runs on East Africa Time, UTC+3. The IANA identifier is Indian/Antananarivo, shared with the capital and the rest of [Madagascar](/country/madagascar). No daylight saving.
 
+## Pousse-pousse and highland cool
+
 Antsirabe is famous for its pousse-pousse, the decorated two-wheeled rickshaws pulled by runners that serve as the city's distinctive taxi service. The rhythm of the streets here is punctuated by the calls of pousse-pousse drivers, the morning market crowds, and the afternoon slowdown during the cool winter dry season.
 
 The city is also an industrial center for Madagascar, with food processing, textile production, and small manufacturing. Beer brewing is significant: the national beer, THB (Three Horses Beer), is brewed here.

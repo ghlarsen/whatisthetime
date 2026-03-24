@@ -13,6 +13,8 @@ Auckland has a claim to fame that comes around once a year: it is consistently a
 
 The timezone is Pacific/Auckland, UTC+12 in standard time (New Zealand's winter, which is the Northern Hemisphere summer) and UTC+13 during daylight saving. New Zealand observes DST, advancing clocks in late September and returning them in early April.
 
+## A business day that ends before London begins
+
 New Zealand sits at the far end of the Pacific from Europe, and this creates a distinctive business communications pattern. Auckland's working day is completely over before London's begins. A call from Auckland at the end of the working day reaches London before London has started work. [Wellington](/wellington), New Zealand's capital, shares the same timezone.
 
 The city's position means that when a global event happens, Auckland often processes it before or after the rest of the world depending on the time of day. A Sunday morning crisis in New York is Saturday evening in Auckland the day before.

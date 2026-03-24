@@ -15,6 +15,8 @@ The IANA timezone identifier is Africa/Accra, and it runs on UTC+0 permanently. 
 
 [Ghana](/country/ghana) adopted this clock in 1918, and it has not changed since. For a country at roughly 5 to 11 degrees north latitude, the approach makes practical sense: day length varies only modestly across seasons, so the arguments for daylight saving (more usable evening light in summer) don't carry the same weight as in higher latitudes.
 
+## The city's daily rhythm
+
 The city wakes early. Markets at Makola and Kaneshie are running by 6am. The heat builds through midday and the pace adjusts. Downtown [Accra](/accra) has a genuine afternoon lull before activity picks up again around 4pm.
 
 [9am in Accra is 9am in Abidjan](/when/9am-accra/abidjan), a clean same-timezone connection for West African trade.

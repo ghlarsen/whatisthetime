@@ -13,6 +13,8 @@ Mashhad is Iran's second-largest city and one of the most important pilgrimage d
 
 [Iran](/country/iran) has maintained its distinctive half-hour offset since 1945, when it set the clock at the meridian running through Tehran rather than rounding to the nearest hour. This creates a perpetual scheduling wrinkle for anyone coordinating with neighboring countries: Afghanistan (UTC+4:30) shares the half-hour sensibility, but Turkey (UTC+3), Iraq (UTC+3), and Pakistan (UTC+5) all use whole-hour offsets.
 
+## pilgrimage city beyond the civil clock
+
 The pilgrimage to Mashhad operates on its own rhythms. The shrine complex is open for ziyarat (visiting) twenty-four hours a day, accommodating pilgrims on buses arriving at 3am, noon, and midnight. Civil time is a scheduling framework, but the actual city runs whenever people need it to.
 
 [9am in Mashhad is 5:30am in London](/when/9am-mashhad/london) during European winter, that 30-minute offset making the calculation slightly pause.

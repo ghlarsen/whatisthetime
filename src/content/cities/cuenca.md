@@ -13,6 +13,8 @@ Cuenca, Ecuador's third-largest city, sits at 2,550 meters in the Andes, a UNESC
 
 The sun rises in Cuenca between 5:50am and 6:15am year-round and sets between 6:05pm and 6:30pm. Consistent, predictable, equatorial. The city's famous flower and food markets start filling by 5am, long before official business hours begin. The rhythm here is agricultural and ancient, set by the Andean planting calendar more than by any government decree.
 
+## Expats who stopped thinking about DST
+
 Cuenca is home to a large expatriate community, attracted by the climate and low cost of living. Many come from the US and Europe, where they are accustomed to DST adjustments. In Cuenca, they stop thinking about it. UTC-5 in February is UTC-5 in August. The sun comes up and goes down at the same time, give or take 15 minutes. After years of clock anxiety, some find this the most peaceful thing about the place.
 
 [Convert 9am Cuenca time to London](/when/9am-cuenca/london)

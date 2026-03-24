@@ -17,6 +17,8 @@ The clock is Arabia Standard Time, UTC+3. The IANA identifier is Asia/Bahrain. N
 
 Ar Rifa's Royal Golf Club and some of Bahrain's premium residential developments are in this area, giving the city a more affluent character than the dense commercial districts of Manama. The working rhythms here follow Bahrain's official schedule: Sunday through Thursday, with Friday-Saturday as the weekend.
 
+## Linked to Saudi Arabia by the causeway
+
 The proximity to Saudi Arabia, just across the King Fahd Causeway, means Bahrain's economy and rhythms are closely tied to the Saudi mainland. Saudi Arabia is also UTC+3, making cross-causeway business straightforward from a timezone perspective.
 
 [9am in Ar Rifa is 6am in London](/when/9am-ar-rifa/london) during European winter.

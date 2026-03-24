@@ -15,6 +15,8 @@ Indochina Time, UTC+7, is the clock, with no DST. Thailand directly across the r
 
 The Pha That Luang stupa, the national symbol of Laos, was built in 1566 and rebuilt multiple times. The Buddhist calendar and the Buddhist festivals mark the year's key dates: Boun Pi Mai Lao (Lao New Year) in April, Boun Ok Phansa at the end of Buddhist Lent, and the That Luang Festival in November. These religious calendars layer over the civil one.
 
+## Buddhist calendar and Mekong seasons
+
 The Mekong itself functions as a clock of sorts: high season from November to February when the river is low and the sandbars appear, wet season when the river rises 10 meters or more.
 
 [9am in Vientiane is 2am in London](/when/9am-vientiane/london). [Thakhèk](/thakhek) to the south shares the same Indochina Time.

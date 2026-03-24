@@ -13,6 +13,8 @@ Nakuru sits in the Rift Valley at 1,850 meters, higher than [Nairobi](/nairobi),
 
 [Kenya](/country/kenya) runs on East Africa Time, UTC+3, year-round. Nakuru shares this with [Nairobi](/nairobi) to the southeast. At 0.3 degrees south of the equator, the city's daylight barely moves across seasons. Sunrise and sunset arrive within 30 minutes of the same time year-round.
 
+## flamingos, the Rift Valley, and equatorial light
+
 Nakuru is Kenya's fourth-largest city and was elevated to city status in 2021. It's a major agricultural market and the commercial center for the surrounding Rift Valley counties. The railway from Mombasa to Kampala passes through, and the city's position on this line shaped its growth through the colonial period. The station is still there, though passenger services are limited.
 
 The rhythm of Nakuru involves early morning farm markets, midday transport activity along the highway, and the sunset hour when the light over the escarpment turns golden before dropping quickly, as equatorial sunsets always do: no long twilight, just light and then dark.

@@ -15,6 +15,8 @@ The [British Virgin Islands](/country/british-virgin-islands) run on Atlantic St
 
 Tortola is the center of the BVI's sailing industry. The Sir Francis Drake Channel, which separates Tortola from the southern BVI islands, is one of the best sailing waters in the world: consistent trade winds, clear water, a maze of anchorages. The annual BVI Spring Regatta brings boats from across the Caribbean and beyond.
 
+## sailing time versus civil time
+
 Sailors operate on two time systems simultaneously: the civil clock for check-in times and marina closings, and the tide and wind schedule that runs by the sea's own rules. The best anchorages fill at specific times of day based on weather windows, not based on what the clock says.
 
 [9am in Road Town is 1pm in London](/when/9am-road-town/london).

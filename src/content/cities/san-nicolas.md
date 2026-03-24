@@ -13,6 +13,8 @@ San Nicolas sits at the southeastern tip of [Aruba](/country/aruba), about 10 ki
 
 Aruba runs on Atlantic Standard Time (UTC-4) all year, with no daylight saving adjustment. The island sits at roughly 12 degrees north latitude, where sunrise and sunset times barely shift across the seasons. In December, the sun rises around 6:30am and sets around 6:20pm. In June, those times move to roughly 6:00am and 6:55pm. The variation is small enough that clock adjustments would serve no real purpose.
 
+## after the refinery: arts and Carnival
+
 The refinery closed in 1985, dealing a severe blow to San Nicolas. It reopened partially in later years under new ownership, but the town never fully recovered its former size. What remains is a quieter place with a distinct identity, sometimes called "the cultural capital" of Aruba for its murals, arts scene, and Carnival tradition.
 
 [Tanki Leendert](/tanki-leendert) and [San Nicolas](/san-nicolas) share the same fixed clock across the small island.

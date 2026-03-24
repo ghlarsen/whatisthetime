@@ -17,6 +17,8 @@ Turkmenistan is one of the world's most closed countries. Reliable information a
 
 At 37.9 degrees north, Ashgabat sits in a harsh climate: hot summers (regularly above 40 degrees Celsius), cold winters, and very little rainfall in the Karakum Desert that surrounds the city on three sides. The Kopetdag mountain range rises dramatically to the south, forming the border with Iran.
 
+## Empty boulevards, extreme heat
+
 The city's white boulevards and golden domes are largely empty of pedestrian traffic in the midday heat. Life happens in the early morning and evening, with a long midday pause when the temperature makes outdoor activity dangerous.
 
 [9am in Ashgabat is 4am in London](/when/9am-ashgabat/london) during European winter.

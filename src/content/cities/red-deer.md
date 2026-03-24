@@ -15,6 +15,8 @@ Red Deer is almost exactly halfway between Calgary and Edmonton on the Queen Eli
 
 At 52 degrees north, Red Deer has dramatic daylight variation. June's solstice brings nearly 17 hours of daylight. December brings under 8 hours. The winter darkness arrives early and hard in the central Alberta prairie, where the sky is enormous and unobstructed by mountain or forest.
 
+## the river valley and prairie sky
+
 The Red Deer River runs through the city in a deep, forested valley that provides a green corridor through the urban landscape. The valley is unexpected: you drive through flat prairie and suddenly the land drops 40 meters to the river below. The valley has its own microclimate, sheltered from the prairie wind.
 
 [9am in Red Deer is 4pm in London](/when/9am-red-deer/london) in winter.
