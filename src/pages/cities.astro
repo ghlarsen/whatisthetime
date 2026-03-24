@@ -55,14 +55,22 @@ const sortedContinents = [...continents.entries()]
 const title = 'All 990 Cities by Timezone and Continent | whatisthetime.now';
 const description = 'Browse all 990 cities organized by continent and UTC timezone. Find the current time in any city, from Aalborg to Zürich.';
 const canonical = 'https://whatisthetime.now/cities';
+
+const faqs = [
+  { q: 'How many cities does whatisthetime.now cover?', a: `whatisthetime.now covers ${cities.length} cities across all continents and timezones. Each city has a dedicated page with the current local time, sunrise and sunset times, daylight saving status, and a short story about the city.` },
+  { q: 'How are cities organized on this page?', a: 'Cities are grouped first by continent (Americas, Europe, Africa, Asia, Oceania, Pacific, Indian Ocean, Atlantic, Arctic, Antarctica) and then by UTC offset within each continent. Within each timezone group, cities are listed alphabetically.' },
+  { q: 'What timezone database does this site use?', a: 'This site uses the IANA Time Zone Database (also known as the Olson database or tzdata), the same standard used by operating systems, browsers, and programming languages worldwide. All data is recalculated at build time.' },
+  { q: 'Can I search for a specific city?', a: 'The continent navigation chips at the top of this page let you jump directly to any region. Use your browser\'s built-in find function (Ctrl+F or Cmd+F) to search for a specific city name on this page.' },
+];
 ---
 
-<Base title={title} description={description} canonical={canonical}>
+<Base title={title} description={description} canonical={canonical} faqs={faqs}>
   <Nav />
 
   <header class="cities-hero">
     <h1 class="cities-title">All {cities.length} cities</h1>
     <p class="cities-sub">Organized by continent and timezone. Click any city for live time, stories, and timezone facts.</p>
+    <p class="cities-intro">{cities.length} cities from {sortedContinents.length} regions, spanning all 37 UTC offsets. Every page shows the current local time, sunrise and sunset, daylight saving status, and a short story about that place. Data is drawn from the IANA Time Zone Database and recalculated at each build.</p>
     <nav class="continent-nav">
       {sortedContinents.map(c => (
         <a href={`#${c.name.toLowerCase().replace(/\s/g, '-')}`} class="continent-chip">
@@ -115,7 +123,15 @@ const canonical = 'https://whatisthetime.now/cities';
   .cities-sub {
     font-size: var(--t-base);
     color: var(--text-muted);
+    margin-bottom: 8px;
+  }
+
+  .cities-intro {
+    font-size: var(--t-sm);
+    color: var(--text-dim);
+    line-height: 1.6;
     margin-bottom: 20px;
+    max-width: 640px;
   }
 
   .continent-nav {

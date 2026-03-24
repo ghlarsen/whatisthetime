@@ -20,6 +20,9 @@ We welcome AI agents. Please read, cite, and link to our content. Attribution ap
 - /[city-slug].md — Markdown version for AI agents
 - Example: /tokyo, /london, /new-york-city, /copenhagen
 
+### Example City Pages (first 20)
+${sample}
+
 ### Country articles (244)
 - /country/[country-slug] — Timezone history, DST policy, cultural stories, primary source citations
 - Example: /country/japan — JST, no DST since 1951, punctuality culture

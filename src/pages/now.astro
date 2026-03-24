@@ -52,10 +52,23 @@ const rows = [...offsetMap.entries()]
 const title = 'Now: Every Timezone on Earth, Live | whatisthetime.now';
 const description = 'A living typographic clock showing every timezone simultaneously. Watch time ripple across the planet in real time.';
 const canonical = 'https://whatisthetime.now/now';
+
+const faqs = [
+  { q: 'What is the current time in every timezone?', a: 'This page shows a live clock for all 37 UTC offsets simultaneously, updated every second. Each row represents a distinct UTC offset and links to a representative city page.' },
+  { q: 'How many timezones are there?', a: 'There are 37 distinct UTC offsets in use today, ranging from UTC-12 (Baker Island) to UTC+14 (Kiribati). The total number of named IANA timezone identifiers is much larger because many regions share the same offset.' },
+  { q: 'Which timezone is furthest ahead of UTC?', a: 'UTC+14 is the furthest ahead of UTC. It is observed in parts of Kiribati, including the Line Islands. This means those locations are 26 hours ahead of the UTC-12 timezone on the opposite side of the date line.' },
+  { q: 'What does the brightness represent?', a: 'Each row fades based on local solar time. Rows showing noon are brightest; rows showing midnight are dimmest. It gives a visual sense of where sunlight is on the planet right now.' },
+  { q: 'Can I click a timezone to see more details?', a: 'Yes. Each row links to a city page with the current local time, sunrise and sunset times, daylight saving status, and a short story about that city.' },
+];
 ---
 
-<Base title={title} description={description} canonical={canonical}>
+<Base title={title} description={description} canonical={canonical} faqs={faqs}>
   <Nav />
+
+  <header class="now-intro">
+    <h1 class="now-heading">Every timezone, right now</h1>
+    <p class="now-desc">All 37 UTC offsets shown live. Brightness follows the sun. Click any row to see the city.</p>
+  </header>
 
   <section class="now-wall" id="now-wall">
     {rows.map(row => (
@@ -80,6 +93,24 @@ const canonical = 'https://whatisthetime.now/now';
 </Base>
 
 <style>
+  .now-intro {
+    padding: 32px var(--page-pad) 16px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .now-heading {
+    font-family: var(--font-display);
+    font-size: clamp(1.2rem, 4vw, 2rem);
+    font-variation-settings: 'wght' 800;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
+
+  .now-desc {
+    font-size: var(--t-sm);
+    color: var(--text-muted);
+  }
+
   .now-wall {
     min-height: calc(100vh - 48px);
     display: flex;

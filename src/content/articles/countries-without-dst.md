@@ -5,6 +5,15 @@ description: "Most of the world's population never changes their clocks, and the
 lastUpdated: "2026-03-24"
 ---
 
+The majority of countries on Earth, approximately 140, do not observe daylight saving time.
+
+**Key facts:**
+- Equatorial countries skip daylight saving because the variation in day length between seasons is too small to make the adjustment worthwhile
+- Japan abolished daylight saving in 1952 after the Allied occupation imposed it in 1948; the public opposed it as extending the working day
+- China abolished daylight saving in 1992 after observing it from 1986 to 1991
+- Russia abolished daylight saving in 2014 after a failed experiment with permanent summer time from 2011
+- In a 2018 EU public consultation, 84% of 4.6 million respondents voted to eliminate the biannual clock change
+
 Twice a year, roughly a quarter of the world's population adjusts their clocks by one hour. The rest of the world does nothing. No announcement. No confusion about whether the microwave is now showing the right time. No week of waking up at the wrong moment.
 
 The majority of countries on Earth do not observe daylight saving time. This is not inertia or underdevelopment. It is, in most cases, a deliberate decision based on geography, history, or explicit policy choice. The question of why some countries changed clocks, and why most never bothered, reveals how deeply political the organization of time actually is.

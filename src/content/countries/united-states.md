@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+The US uses six primary time zones: Eastern (UTC-5), Central (UTC-6), Mountain (UTC-7), Pacific (UTC-8), Alaska (UTC-9), and Hawaii (UTC-10). Most states observe DST, shifting each zone one hour forward from the second Sunday in March to the first Sunday in November. IANA identifiers: `America/New_York`, `America/Chicago`, `America/Denver`, `America/Los_Angeles`, `America/Anchorage`, `Pacific/Honolulu`.
+
+**Key facts about time in the United States**
+- Timezone: Eastern (ET), Central (CT), Mountain (MT), Pacific (PT), Alaska (AKT), Hawaii-Aleutian (HAT)
+- UTC offset: UTC-5 to UTC-10 (standard); UTC-4 to UTC-9 (DST, where observed)
+- DST: Yes (except Arizona and Hawaii), second Sunday in March to first Sunday in November
+- IANA identifier: `America/New_York`, `America/Chicago`, `America/Denver`, `America/Los_Angeles`, `America/Anchorage`, `Pacific/Honolulu`
+- Capital: Washington, D.C.
+
 Before November 18, 1883, every city in the United States kept its own time. Each city's noon was when the sun reached its highest point locally. Chicago's noon was 11:50 AM in St. Louis, 11:27 AM in Omaha, 12:09 PM in Detroit. A train arriving in Pittsburgh from Philadelphia might cross through 15 different local times on a single journey.
 
 Railroad companies maintained separate timetables for each city they served. The Pennsylvania Railroad, one of the largest in the country, ran its trains on Philadelphia time throughout its network, but cities along the route kept their own clocks. Getting on a train meant figuring out what time the railroad thought it was versus what time the town thought it was. The Pennsylvania Railroad's timetable for 1882 showed over 100 different local times in use across its lines.

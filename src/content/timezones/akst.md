@@ -11,6 +11,15 @@ countries: ["United States"]
 lastUpdated: "2026-03-24"
 ---
 
+Alaska Standard Time (AKST) is UTC-9, used across most of Alaska including Anchorage, Fairbanks, and Juneau. It shifts to AKDT (UTC-8) from the second Sunday in March to the first Sunday in November. IANA identifiers: `America/Anchorage`, `America/Juneau`, `America/Nome`.
+
+**Key facts about AKST**
+- Full name: Alaska Standard Time
+- UTC offset: UTC-9
+- DST: Yes, AKDT (UTC-8), second Sunday in March to first Sunday in November
+- IANA identifiers: America/Anchorage, America/Juneau, America/Nome
+- Countries: United States
+
 Alaska runs on its own clock. While the continental United States spans four time zones, Alaska gets a fifth -- Alaska Standard Time, UTC-9 -- that reflects the state's position 1,300 kilometers further west than Seattle. In summer it shifts to Alaska Daylight Time (AKDT), UTC-8, following the same pattern as the rest of the country while remaining one hour behind the Pacific Coast.
 
 ## The purchase and the timezone problem

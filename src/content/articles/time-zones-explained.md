@@ -5,6 +5,14 @@ description: "From sundials to railroad schedules to the IANA database, the stor
 lastUpdated: "2026-03-24"
 ---
 
+Time zones are geographic regions that observe a uniform standard time, offset from UTC by a whole or fractional number of hours. The world has approximately 37 distinct offsets, not the theoretical 24.
+
+**Key facts:**
+- The 1884 International Meridian Conference in Washington D.C. established Greenwich as the global prime meridian
+- China spans five natural geographic time zones but observes exactly one: UTC+8
+- India uses UTC+5:30, a deliberate choice to avoid splitting the country into two zones
+- Nepal uses UTC+5:45, the only country on a 45-minute offset
+
 Before 1883, every city in the United States kept its own time. Chicago ran on Chicago solar time. New York ran on New York solar time. Boston ran about 11 minutes ahead of New York. None of this was a problem when travel between cities took days by horse or weeks by ship. It became a catastrophic logistical problem when the railroads arrived.
 
 The Louisville and Nashville Railroad, operating in the 1870s and 1880s, published a schedule that required passengers to reconcile times in Louisville, Nashville, Memphis, and New Orleans, each running on its own local solar standard. A passenger changing trains in Louisville needed to know that the connecting departure was given in Louisville time, not the city they had come from. The same train could depart at different times depending on which station clock you were looking at. Collisions happened. Not metaphorically.

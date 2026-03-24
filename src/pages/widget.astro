@@ -11,9 +11,16 @@ import Footer from '../components/Footer.astro';
 const title = 'Embeddable Clock Widget | whatisthetime.now';
 const description = 'Add a live world clock to your website. Free embeddable widget for any city. One line of code.';
 const canonical = 'https://whatisthetime.now/widget';
+
+const faqs = [
+  { q: 'Is it free?', a: 'Yes. The widget is free and includes a small "whatisthetime.now" attribution link.' },
+  { q: 'Does it slow down my page?', a: 'No. The script is 3KB, loads asynchronously, and uses only the browser\'s built-in Intl API. No external API calls.' },
+  { q: 'Can I use any timezone?', a: 'Yes. Use any IANA timezone identifier in data-city (e.g. data-city="Asia/Kolkata"). The preset list covers major cities.' },
+  { q: 'Can I add multiple clocks?', a: 'Yes. Add multiple div tags with different data-city values. They share one script.' },
+];
 ---
 
-<Base title={title} description={description} canonical={canonical}>
+<Base title={title} description={description} canonical={canonical} faqs={faqs}>
   <Nav />
 
   <section class="widget-hero">

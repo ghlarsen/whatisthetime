@@ -23,6 +23,39 @@ const title = entry.data.title + ' | whatisthetime.now';
 const description = entry.data.description;
 const canonical = `https://whatisthetime.now/articles/${entry.data.slug}`;
 
+const articleFaqs: Record<string, {q: string; a: string}[]> = {
+  'jet-lag': [
+    { q: 'How long does jet lag last?', a: 'Recovery from jet lag takes roughly one day per timezone crossed. A New York to Tokyo trip (13 zones) can require 6 to 13 days for full circadian re-entrainment.' },
+    { q: 'Is eastbound or westbound jet lag worse?', a: 'Eastbound travel causes worse jet lag because the human circadian clock naturally runs slightly longer than 24 hours (approximately 24.2 hours), making it easier to delay the cycle (westbound) than advance it (eastbound).' },
+    { q: 'Does melatonin help with jet lag?', a: 'Yes. Research published in Sleep Medicine Reviews found that low-dose melatonin (0.5mg) taken at the destination bedtime is as effective as higher doses for accelerating circadian re-entrainment.' },
+    { q: 'What causes jet lag?', a: 'Jet lag is caused by a mismatch between the body internal circadian clock and the external light-dark cycle at the destination. The suprachiasmatic nucleus in the brain re-entrains at roughly 1 to 2 hours per day.' },
+  ],
+  'utc-vs-gmt': [
+    { q: 'Are UTC and GMT the same thing?', a: 'UTC and GMT show the same time on a clock but are defined differently. GMT is based on Earth rotation (solar observation from Greenwich). UTC is based on atomic oscillation (cesium-133 clocks) and maintained by the BIPM in Paris.' },
+    { q: 'Which should I use in software, UTC or GMT?', a: 'Always use UTC for software timestamps, databases, logs, and APIs. UTC is unambiguous, does not observe daylight saving time, and is the basis of Unix timestamps and ISO 8601.' },
+    { q: 'What is a leap second?', a: 'A leap second is a one-second adjustment added to UTC to keep it within 0.9 seconds of Earth rotation. 27 leap seconds have been inserted since 1972. The 2022 CGPM voted to suspend new leap seconds by 2035.' },
+  ],
+  'time-zones-explained': [
+    { q: 'How many time zones are there in the world?', a: 'There are 37 distinct UTC offsets in use worldwide, not the theoretical 24. The extra offsets come from countries using half-hour (India at UTC+5:30, Iran at UTC+3:30) and quarter-hour (Nepal at UTC+5:45) adjustments.' },
+    { q: 'When were time zones invented?', a: 'Time zones were first standardized on November 18, 1883, when US railroad companies synchronized their clocks into four zones. The international system was established at the 1884 International Meridian Conference in Washington D.C.' },
+    { q: 'Why does China have only one time zone?', a: 'China uses a single timezone (UTC+8) across its entire territory for political unity, despite spanning five geographic timezone zones. The western region of Xinjiang informally operates on UTC+6.' },
+  ],
+  'international-date-line': [
+    { q: 'What happens when you cross the International Date Line?', a: 'Crossing the International Date Line westward (toward Asia) advances your calendar by one day. Crossing eastward (toward the Americas) moves it back one day. The line runs roughly along the 180th meridian in the Pacific Ocean.' },
+    { q: 'Why does the International Date Line zigzag?', a: 'The date line swerves around island nations to keep each country on a single calendar day. The largest detours accommodate Kiribati (which moved to UTC+14 in 1995) and Samoa (which crossed the line in 2011).' },
+  ],
+  'military-time': [
+    { q: 'How do you convert military time to regular time?', a: 'For hours 0000 to 1159, the military time is the same as AM time (0900 = 9:00 AM). For 1200 to 2359, subtract 1200 to get PM time (1430 = 2:30 PM). 0000 is midnight, 1200 is noon.' },
+    { q: 'What is Zulu time?', a: 'Zulu time is the NATO designation for UTC (Coordinated Universal Time), the global reference timezone at zero offset. The letter Z ("Zulu" in the NATO phonetic alphabet) is appended to timestamps to indicate UTC.' },
+  ],
+  'countries-without-dst': [
+    { q: 'Which countries do not observe daylight saving time?', a: 'Approximately 140 countries do not observe DST, including most of Asia (Japan, China, India, South Korea), the Middle East, Africa, and equatorial regions. Russia abolished DST in 2014, Brazil in 2019, and Turkey in 2016.' },
+    { q: 'Why does Japan not observe daylight saving time?', a: 'Japan tried DST from 1948 to 1951 under American occupation. Workers complained it simply extended working hours. The Diet abolished it in 1952 and proposals to reintroduce it have been rejected repeatedly.' },
+  ],
+};
+
+const faqs = articleFaqs[entry.data.slug] ?? [];
+
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
@@ -46,7 +79,7 @@ const breadcrumbs = {
 };
 ---
 
-<Base title={title} description={description} canonical={canonical}>
+<Base title={title} description={description} canonical={canonical} faqs={faqs}>
   <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbs)} />
   <Nav />

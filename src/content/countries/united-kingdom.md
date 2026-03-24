@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+The UK uses GMT (UTC+0) in winter and BST (UTC+1) in summer. Clocks change on the last Sunday in March (forward) and the last Sunday in October (back). IANA identifier: `Europe/London`.
+
+**Key facts about time in the United Kingdom**
+- Timezone: Greenwich Mean Time (GMT) / British Summer Time (BST)
+- UTC offset: UTC+0 (winter), UTC+1 (summer)
+- DST: Yes, last Sunday in March (spring forward) to last Sunday in October (fall back)
+- IANA identifier: `Europe/London`
+- Capital: London
+
 In 1851, the Great Exhibition opened in Hyde Park. A million objects from forty countries displayed in the Crystal Palace, the world's industrial output under glass. Britain was the workshop of the world, and London was its address. That same year, the British railway system first used Greenwich Mean Time across its entire network, beginning the process by which one small observatory on a hill in southeast London would become the reference point for every clock on Earth.
 
 This did not happen because Greenwich is particularly special. It happened because the British Empire was particularly large.

@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Spain uses CET (UTC+1) in winter and CEST (UTC+2) in summer. Clocks change on the last Sunday in March and the last Sunday in October. IANA identifiers: `Europe/Madrid` (mainland), `Atlantic/Canary` (Canary Islands, UTC+0 / UTC+1 DST).
+
+**Key facts about time in Spain**
+- Timezone: Central European Time (CET) / Central European Summer Time (CEST); Canary Islands: WET/WEST
+- UTC offset: UTC+1 (winter), UTC+2 (summer); Canary Islands: UTC+0 (winter), UTC+1 (summer)
+- DST: Yes, last Sunday in March (spring forward) to last Sunday in October (fall back)
+- IANA identifier: `Europe/Madrid` (mainland), `Atlantic/Canary` (Canary Islands)
+- Capital: Madrid
+
 Spain is, geographically, in the wrong timezone. Madrid sits at 3.7 degrees West longitude, almost identical to Lisbon, London, and Dublin. The sun rises and sets over Spain at the same angles as in Portugal and Britain. Solar noon in Madrid occurs around 13:41 in winter, nearly two hours after the clock says noon.
 
 Spain is on Central European Time. The same timezone as Berlin, Warsaw, and Rome. When it is noon on the clock in Madrid, the sun has not yet reached its apex. Lunch in Spain, famously eaten at 2 or 3 PM, happens at something close to actual solar noon.

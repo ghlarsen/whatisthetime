@@ -11,6 +11,15 @@ countries: ["United States", "Canada"]
 lastUpdated: "2026-03-24"
 ---
 
+Eastern Standard Time (EST) is UTC-5, used along the US East Coast including New York, Washington DC, Boston, and Miami, as well as eastern Canada. It shifts to EDT (UTC-4) from the second Sunday in March to the first Sunday in November. IANA identifiers: `America/New_York`, `America/Toronto`, `America/Detroit`.
+
+**Key facts about EST**
+- Full name: Eastern Standard Time
+- UTC offset: UTC-5
+- DST: Yes, EDT (UTC-4), second Sunday in March to first Sunday in November
+- IANA identifiers: America/New_York, America/Toronto, America/Detroit
+- Countries: United States, Canada
+
 Eastern Standard Time is the timezone of American power. The financial capital, the political capital, the media capital, the cultural production engine of the world's largest economy -- all on one clock. UTC-5 in winter, UTC-4 in summer as Eastern Daylight Time (EDT). If you live outside the United States and deal with American business, EST is the clock you adjust to.
 
 ## Wall Street and the financial day

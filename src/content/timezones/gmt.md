@@ -11,6 +11,15 @@ countries: ["United Kingdom", "Iceland", "Ireland", "Ghana", "Ivory Coast", "Sen
 lastUpdated: "2026-03-24"
 ---
 
+Greenwich Mean Time (GMT) is UTC+0, the baseline from which all other timezones are measured. It is used year-round in Iceland, West Africa (including Ghana and Ivory Coast), and by the United Kingdom in winter, which shifts to BST (UTC+1) in summer. IANA identifiers: `Europe/London`, `Atlantic/Reykjavik`, `Africa/Accra`, `Africa/Abidjan`.
+
+**Key facts about GMT**
+- Full name: Greenwich Mean Time
+- UTC offset: UTC+0
+- DST: UK and Ireland observe BST/IST (UTC+1) in summer; Iceland and West Africa observe no DST
+- IANA identifiers: Europe/London, Atlantic/Reykjavik, Africa/Accra, Africa/Abidjan
+- Countries: United Kingdom, Iceland, Ireland, Ghana, Ivory Coast, Senegal, Gambia, Guinea-Bissau, Guinea, Sierra Leone, Liberia, Togo, Burkina Faso, Mali
+
 Greenwich Mean Time is the zero point. Every other timezone on earth is defined by its relationship to GMT: how many hours ahead or behind. It is the baseline of global timekeeping, set at the Greenwich Observatory in London, and it has been the reference for international coordination since the Washington Meridian Conference of 1884.
 
 ## How Greenwich became the center of time

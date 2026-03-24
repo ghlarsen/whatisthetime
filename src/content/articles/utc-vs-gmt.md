@@ -5,6 +5,13 @@ description: "GMT is solar. UTC is atomic. They read the same on a clock but are
 lastUpdated: "2026-03-24"
 ---
 
+UTC (Coordinated Universal Time) is defined by atomic clocks and maintained by international treaty. GMT (Greenwich Mean Time) is defined by Earth's rotation relative to the Sun. They read identically on a clock but are measured differently.
+
+**Key facts:**
+- The second is defined as exactly 9,192,631,770 oscillations of the cesium-133 atom
+- 27 leap seconds have been inserted since the leap second system was formalized in 1972
+- In 2022, the General Conference on Weights and Measures (CGPM) voted to suspend leap second insertions by 2035
+
 Ask most people what time it is in London and they will say GMT. Ask a network engineer what timestamp to use in a distributed system and they will say UTC. Both answers point to the same clock on the wall. Neither person is wrong. But they are describing two fundamentally different things that happen to agree with each other, most of the time, by design.
 
 The difference between UTC and GMT is not cosmetic. It goes down to how time is measured, who controls it, and what problem each was originally built to solve.

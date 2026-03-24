@@ -5,6 +5,14 @@ description: "What happens to your body when you cross timezones, why eastbound 
 lastUpdated: "2026-03-24"
 ---
 
+Jet lag is a physiological disruption of the circadian system caused by rapid travel across multiple time zones, occurring when the body's internal clock remains set to the departure timezone.
+
+**Key facts:**
+- Recovery rate: approximately 1 to 2 hours per day
+- Eastbound travel produces more severe and longer-lasting jet lag than westbound
+- The molecular mechanisms of circadian rhythms won the 2017 Nobel Prize in Physiology or Medicine
+- 0.5mg melatonin is roughly as effective as 5mg for shifting the clock, per *Sleep Medicine Reviews*
+
 Your body is running on yesterday. Your eyes say afternoon. Your gut says 3am. The hotel room is bright and the city outside is alive, but some deeper clock is insisting, with quiet authority, that you should be asleep.
 
 This is jet lag. Not a mood. Not weakness. A genuine physiological disruption, as measurable as a fever.

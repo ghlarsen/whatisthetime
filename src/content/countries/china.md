@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+China uses a single timezone, China Standard Time (CST), at UTC+8 across the entire country. China does not observe DST. IANA identifier: `Asia/Shanghai`.
+
+**Key facts about time in China**
+- Timezone: China Standard Time (CST)
+- UTC offset: UTC+8 (year-round)
+- DST: No
+- IANA identifier: `Asia/Shanghai` (official); `Asia/Urumqi` (UTC+6, unofficial Xinjiang usage)
+- Capital: Beijing
+
 China is almost as wide as the United States. It spans 62 degrees of longitude, from 73°E on the Tajikistan border to 135°E where the Heilongjiang River meets Russia. By any geographical logic, this means China should use approximately five time zones.
 
 It uses one.

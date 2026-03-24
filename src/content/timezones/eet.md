@@ -11,6 +11,15 @@ countries: ["Greece", "Romania", "Finland", "Bulgaria", "Estonia", "Latvia", "Li
 lastUpdated: "2026-03-24"
 ---
 
+Eastern European Time (EET) is UTC+2, used across southeastern Europe, the eastern Mediterranean, and parts of Africa and the Middle East, including Greece, Romania, Finland, Bulgaria, and Egypt. Eastern European Summer Time (EEST, UTC+3) applies from the last Sunday in March to the last Sunday in October for EU member countries. IANA identifiers: `Europe/Athens`, `Europe/Bucharest`, `Europe/Helsinki`, `Africa/Cairo`, `Europe/Sofia`.
+
+**Key facts about EET**
+- Full name: Eastern European Time
+- UTC offset: UTC+2
+- DST: Yes (EU members), EEST (UTC+3), last Sunday in March to last Sunday in October; Egypt observes no DST
+- IANA identifiers: Europe/Athens, Europe/Bucharest, Europe/Helsinki, Africa/Cairo, Europe/Sofia
+- Countries: Greece, Romania, Finland, Bulgaria, Estonia, Latvia, Lithuania, Ukraine, Moldova, Cyprus, Lebanon, Jordan, Israel, Egypt, Libya
+
 Eastern European Time covers an unusually diverse band of countries. Finland in the north. Greece in the south. Egypt along the Nile. Romania and Bulgaria in the Balkans. Israel and Jordan in the Levant. These countries share UTC+2, though their relationships with daylight saving time vary considerably.
 
 ## A timezone that crosses cultural boundaries

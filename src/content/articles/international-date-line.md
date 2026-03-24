@@ -5,6 +5,14 @@ description: "A line in the Pacific Ocean where the calendar changes, it zigzags
 lastUpdated: "2026-03-24"
 ---
 
+The International Date Line is a boundary in the Pacific Ocean, running roughly along the 180th meridian, where crossing westward advances the calendar by one day and crossing eastward moves it back one day.
+
+**Key facts:**
+- In 1995, Kiribati moved its eastern islands from UTC-12 to UTC+14, creating the largest eastward deviation of the date line
+- In 2011, Samoa skipped December 30 entirely to move from UTC-11 to UTC+13, aligning with its main trading partners
+- The total span of time zones from UTC-12 to UTC+14 is 26 hours
+- Jules Verne's *Around the World in Eighty Days* built its plot twist on the mathematical reality the date line formalizes
+
 Somewhere in the Pacific Ocean, right now, two ships can be sailing side by side and experiencing different calendar days. One is in Tuesday. One is in Wednesday. They are separated by a few hundred meters of open water.
 
 The line that divides them has no physical reality. No buoy marks it. No coastguard patrols it. It is a legal and mathematical convention, agreed upon by international consensus, that allows a continuous sequence of time zones to wrap around the Earth without creating a calendar crisis. Without it, if you traveled west far enough, you would eventually lose a day with no accounting for where it went.

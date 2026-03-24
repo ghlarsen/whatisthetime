@@ -11,6 +11,15 @@ countries: ["Germany", "France", "Italy", "Spain", "Poland", "Netherlands", "Bel
 lastUpdated: "2026-03-24"
 ---
 
+Central European Time (CET) is UTC+1, used by more than 20 European countries including Germany, France, Italy, Spain, and Poland. Central European Summer Time (CEST, UTC+2) applies from the last Sunday in March to the last Sunday in October. IANA identifiers: `Europe/Berlin`, `Europe/Paris`, `Europe/Rome`, `Europe/Madrid`, `Europe/Amsterdam`.
+
+**Key facts about CET**
+- Full name: Central European Time
+- UTC offset: UTC+1
+- DST: Yes, CEST (UTC+2), last Sunday in March to last Sunday in October
+- IANA identifiers: Europe/Berlin, Europe/Paris, Europe/Rome, Europe/Madrid, Europe/Amsterdam, Europe/Warsaw, Europe/Stockholm
+- Countries: Germany, France, Italy, Spain, Poland, Netherlands, Belgium, Austria, Switzerland, Czech Republic, Slovakia, Hungary, Croatia, Slovenia, Serbia, and others
+
 Central European Time is the timezone of the European project. When 27 European Union member states sit down to negotiate, more than half of them are on the same clock. CET covers an arc from Spain's Atlantic coast to Poland's border with Belarus, from Norway's North Sea coast to the Croatian Adriatic. It is, by population, one of the most used single timezones in the world.
 
 ## The geography of a political timezone

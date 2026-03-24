@@ -9,6 +9,15 @@ countries: ["Iceland"]
 lastUpdated: "2026-03-24"
 ---
 
+Greenwich Mean Time Iceland (GMT) is UTC+0, used year-round across Iceland with no daylight saving time. Iceland is one of the few countries that permanently observes UTC+0 without seasonal adjustment. IANA identifier: `Atlantic/Reykjavik`.
+
+**Key facts about GMT (Iceland)**
+- Full name: Greenwich Mean Time (Iceland)
+- UTC offset: UTC+0
+- DST: No, Iceland observes UTC+0 permanently year-round
+- IANA identifiers: Atlantic/Reykjavik
+- Countries: Iceland
+
 Iceland runs on UTC+0 year-round. No daylight saving. No seasonal adjustment. The entire country, from Reykjavik in the southwest to the farms of the East Fjords, shares one permanent clock aligned with Greenwich Mean Time.
 
 This is unusual. Most of Europe adjusts its clocks twice a year, and Iceland's geographic position at high latitude, where summer daylight and winter darkness are both extreme, might seem to argue for some kind of seasonal compensation. Iceland chose the opposite approach: one consistent clock, all year, and let people adapt their schedules to the light rather than the other way around.

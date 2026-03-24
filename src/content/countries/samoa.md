@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+Samoa uses UTC+13 in winter and UTC+14 during daylight saving time (approximately September through April). DST makes Samoa the furthest-ahead timezone on Earth. IANA identifier: `Pacific/Apia`.
+
+**Key facts about time in Samoa**
+- Timezone: Samoa Standard Time (SST) / Samoa Daylight Time (SDT)
+- UTC offset: UTC+13 (standard), UTC+14 (DST)
+- DST: Yes, approximately September through April
+- IANA identifier: `Pacific/Apia`
+- Capital: Apia
+
 At midnight between Thursday December 29 and what should have been Friday December 30, 2011, Samoa crossed the International Date Line. Clocks rolled from 23:59 Thursday to 00:00 Saturday. A whole calendar day ceased to exist for the roughly 190,000 people living on the island.
 
 No Samoan was born on December 30, 2011. No one died. No contracts were signed, no anniversaries celebrated, no debt payments made. The day simply did not happen.

@@ -5,6 +5,13 @@ description: "Why the military, aviation, and medicine abandoned AM and PM, and 
 lastUpdated: "2026-03-24"
 ---
 
+**Key facts:**
+- The 24-hour clock runs from 0000 to 2359; midnight is 0000, noon is 1200
+- Zulu (Z) designates UTC in all NATO military and international aviation communications
+- ICAO (International Civil Aviation Organization) mandates UTC for all aviation timekeeping globally
+- The United States military standardized on the 24-hour clock during World War II
+- NATO assigns a phonetic alphabet letter to each timezone offset, from Alpha (UTC+1) through Yankee (UTC-10), with Zulu as UTC+0
+
 At 2:00, do you mean day or night?
 
 In civilian life, context usually answers that question. If someone says "meet me at 2:00," you assume afternoon because almost nothing happens at 2am without further explanation. The assumption usually holds. In military operations, aviation, and medicine, the assumption fails often enough to be dangerous.

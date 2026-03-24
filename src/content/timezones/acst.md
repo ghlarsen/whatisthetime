@@ -11,6 +11,15 @@ countries: ["Australia"]
 lastUpdated: "2026-03-24"
 ---
 
+Australian Central Standard Time (ACST) is UTC+9:30, used in South Australia and the Northern Territory. South Australia observes ACDT (UTC+10:30) in summer; the Northern Territory does not observe daylight saving time. IANA identifiers: `Australia/Adelaide`, `Australia/Darwin`.
+
+**Key facts about ACST**
+- Full name: Australian Central Standard Time
+- UTC offset: UTC+9:30
+- DST: Yes (South Australia only), ACDT (UTC+10:30), first Sunday in October to first Sunday in April
+- IANA identifiers: Australia/Adelaide, Australia/Darwin
+- Countries: Australia
+
 Most of the world divides time into neat hourly chunks. Australia did not get that memo. Australian Central Standard Time sits at UTC+9:30, a half-hour offset that puts Adelaide and Darwin squarely between the timezones their neighbors use. It is one of a small handful of 30-minute offsets in active use anywhere on earth, and it has a history worth knowing.
 
 ## The geography that makes this necessary

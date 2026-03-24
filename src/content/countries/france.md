@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+France uses CET (UTC+1) in winter and CEST (UTC+2) in summer. Clocks change on the last Sunday in March and the last Sunday in October, following the EU standard. IANA identifier: `Europe/Paris`.
+
+**Key facts about time in France**
+- Timezone: Central European Time (CET) / Central European Summer Time (CEST)
+- UTC offset: UTC+1 (winter), UTC+2 (summer)
+- DST: Yes, last Sunday in March (spring forward) to last Sunday in October (fall back)
+- IANA identifier: `Europe/Paris`
+- Capital: Paris
+
 France runs on Central European Time: UTC+1 in winter, UTC+2 in summer (CEST). DST follows the EU standard. The clocks change on the last Sunday in March and the last Sunday in October, as they do across most of Europe.
 
 This is, frankly, the boring part of the French time story.
