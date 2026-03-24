@@ -9,20 +9,37 @@ import Footer from '../components/Footer.astro';
 import { getUtcOffsetMinutes, formatUtcOffset } from '../lib/timezone.ts';
 import cities from '../data/cities.ts';
 
+// Preferred city per offset (most recognizable worldwide)
+const preferredCities: Record<string, string> = {
+  'UTC-11': 'pago-pago', 'UTC-10': 'honolulu', 'UTC-9:30': 'marquesas',
+  'UTC-9': 'anchorage', 'UTC-8': 'los-angeles', 'UTC-7': 'denver',
+  'UTC-6': 'chicago', 'UTC-5': 'new-york-city', 'UTC-4': 'caracas',
+  'UTC-3': 'buenos-aires', 'UTC-2:30': 'corner-brook', 'UTC-2': 'noronha',
+  'UTC-1': 'praia', 'UTC+0': 'london', 'UTC+1': 'paris',
+  'UTC+2': 'cairo', 'UTC+3': 'moscow', 'UTC+3:30': 'tehran',
+  'UTC+4': 'dubai', 'UTC+4:30': 'kabul', 'UTC+5': 'karachi',
+  'UTC+5:30': 'mumbai', 'UTC+5:45': 'kathmandu', 'UTC+6': 'dhaka',
+  'UTC+6:30': 'yangon', 'UTC+7': 'bangkok', 'UTC+8': 'shanghai',
+  'UTC+8:45': 'eucla', 'UTC+9': 'tokyo', 'UTC+9:30': 'adelaide',
+  'UTC+10': 'sydney', 'UTC+10:30': 'lord-howe', 'UTC+11': 'noumea',
+  'UTC+12': 'auckland', 'UTC+13': 'apia', 'UTC+13:45': 'chatham',
+  'UTC+14': 'kiritimati',
+};
+
 // Build 37 timezone rows (one per distinct UTC offset)
 const offsetMap = new Map<number, { label: string; city: string; slug: string; timezone: string; lat: number; lng: number }>();
 
 for (const c of cities) {
   const offset = getUtcOffsetMinutes(c.timezone);
+  const label = formatUtcOffset(offset);
+  const preferred = preferredCities[label];
+
   if (!offsetMap.has(offset)) {
-    offsetMap.set(offset, {
-      label: formatUtcOffset(offset),
-      city: c.name,
-      slug: c.slug,
-      timezone: c.timezone,
-      lat: c.lat,
-      lng: c.lng,
-    });
+    offsetMap.set(offset, { label, city: c.name, slug: c.slug, timezone: c.timezone, lat: c.lat, lng: c.lng });
+  }
+  // Replace with preferred city if this is the one
+  if (preferred && c.slug === preferred) {
+    offsetMap.set(offset, { label, city: c.name, slug: c.slug, timezone: c.timezone, lat: c.lat, lng: c.lng });
   }
 }
 
@@ -166,6 +183,10 @@ const canonical = 'https://whatisthetime.now/now';
       // 0 at noon = opacity 1.0, 12 at midnight = opacity 0.15
       const opacity = 1.0 - (distFromNoon / 12) * 0.85;
       row.style.opacity = String(Math.max(0.15, opacity).toFixed(2));
+
+      // Font weight: heavier at noon (800), lighter at midnight (300)
+      const weight = Math.round(300 + (1 - distFromNoon / 12) * 500);
+      if (timeEl) timeEl.style.fontVariationSettings = `'wght' ${weight}, 'opsz' 50`;
     });
   }
 
