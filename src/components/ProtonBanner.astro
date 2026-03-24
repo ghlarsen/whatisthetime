@@ -75,24 +75,13 @@ const AFFILIATE_URL = 'https://go.getproton.me/aff_c?offer_id=26&aff_id=15505&ra
     height: auto;
   }
 
-  /* Theme visibility — toggled by data-theme on <html> */
-  :root[data-theme="dark"]  .dark-only  { display: block; }
-  :root[data-theme="light"] .light-only { display: block; }
+  /* Everything hidden by default. Only show the correct theme + size combo. */
 
-  /* Responsive: which size to show */
-  /* Default: desktop leaderboard */
-  .proton-desktop { display: block; }
-  .proton-mid     { display: none; }
-  .proton-mobile  { display: none; }
-
-  /* Theme overrides must come after size defaults */
+  /* Desktop (>800px) */
   :root[data-theme="dark"]  .dark-only.proton-desktop  { display: block; }
-  :root[data-theme="dark"]  .dark-only.proton-mid      { display: none; }
-  :root[data-theme="dark"]  .dark-only.proton-mobile   { display: none; }
   :root[data-theme="light"] .light-only.proton-desktop { display: block; }
-  :root[data-theme="light"] .light-only.proton-mid     { display: none; }
-  :root[data-theme="light"] .light-only.proton-mobile  { display: none; }
 
+  /* Tablet (501-800px) */
   @media (max-width: 800px) {
     :root[data-theme="dark"]  .dark-only.proton-desktop  { display: none; }
     :root[data-theme="dark"]  .dark-only.proton-mid      { display: block; }
@@ -100,6 +89,7 @@ const AFFILIATE_URL = 'https://go.getproton.me/aff_c?offer_id=26&aff_id=15505&ra
     :root[data-theme="light"] .light-only.proton-mid     { display: block; }
   }
 
+  /* Mobile (<=500px) */
   @media (max-width: 500px) {
     :root[data-theme="dark"]  .dark-only.proton-mid    { display: none; }
     :root[data-theme="dark"]  .dark-only.proton-mobile { display: block; }
