@@ -8,6 +8,7 @@ import Nav from '../../components/Nav.astro';
 import ProtonBanner from '../../components/ProtonBanner.astro';
 import DualClock from '../../components/DualClock.astro';
 import Footer from '../../components/Footer.astro';
+import { getCurrentTime, formatUtcOffset } from '../../lib/timezone.ts';
 
 export async function getStaticPaths() {
   const countries = await getCollection('countries');
@@ -19,6 +20,12 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
+
+const primaryTz = entry.data.timezones[0];
+const time = getCurrentTime(primaryTz);
+const pad = (n: number) => String(n).padStart(2, '0');
+const countryTimeStr = `${pad(time.hours)}:${pad(time.minutes)}:${pad(time.seconds)}`;
+const utcLabel = formatUtcOffset(time.utcOffsetMinutes);
 
 const title = entry.data.title + ' | whatisthetime.now';
 const description = entry.data.description;
@@ -52,7 +59,12 @@ const breadcrumbs = {
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbs)} />
   <Nav />
 
-  <DualClock timezone={entry.data.timezones[0]} label={entry.data.country} href={`/country/${entry.data.slug}`} />
+  <section class="country-clock">
+    <div class="country-clock-label">{entry.data.capital}, {entry.data.country} · {utcLabel}</div>
+    <div class="country-clock-time" id="country-clock" data-tz={primaryTz}>{countryTimeStr}</div>
+  </section>
+
+  <DualClock timezone={primaryTz} label={entry.data.country} href={`/country/${entry.data.slug}`} />
   <ProtonBanner />
 
   <article class="country-article">
@@ -83,6 +95,25 @@ const breadcrumbs = {
 </Base>
 
 <style>
+  .country-clock {
+    padding: 32px var(--page-pad) 16px;
+  }
+
+  .country-clock-label {
+    font-size: var(--t-sm);
+    color: var(--text-muted);
+    margin-bottom: 8px;
+  }
+
+  .country-clock-time {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: clamp(2.5rem, 10vw, 6rem);
+    font-variation-settings: 'wght' 800, 'opsz' 50;
+    font-variant-numeric: tabular-nums;
+    color: var(--text);
+    line-height: 1;
+  }
+
   .country-article {
     max-width: 720px;
     padding: 0 var(--page-pad);
@@ -220,5 +251,23 @@ const breadcrumbs = {
 
   @media (max-width: 500px) {
     .article-header { padding-top: 32px; }
+    .country-clock { padding-top: 24px; }
   }
 </style>
+
+<script>
+  const el = document.getElementById('country-clock') as HTMLElement;
+  if (el) {
+    const tz = el.dataset.tz!;
+    function tick() {
+      const parts = new Intl.DateTimeFormat('en-US', {
+        timeZone: tz, hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false,
+      }).formatToParts(new Date());
+      const get = (t: string) => parts.find(p => p.type === t)?.value ?? '00';
+      const h = get('hour') === '24' ? '00' : get('hour');
+      el.textContent = `${h}:${get('minute')}:${get('second')}`;
+    }
+    tick();
+    setInterval(tick, 1000);
+  }
+</script>
