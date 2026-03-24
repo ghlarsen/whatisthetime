@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Lord Howe Island, a volcanic speck in the Tasman Sea between [Australia](/country/australia) and New Zealand, does something almost no other place on earth does: it shifts its clocks by exactly 30 minutes for daylight saving time. In summer, it runs UTC+10:30. In winter, UTC+11. That half-hour increment makes it distinct from every major timezone neighbor.
 
+## 350 residents and a half-hour DST shift
+
 The island has around 350 permanent residents, a strict 400-tourist-at-a-time cap, and a UNESCO World Heritage designation. Time here is a practical matter: fishing boats, supply flights from Sydney, and the rhythms of a community that still turns off generators at night. The unusual DST offset traces back to a 1981 decision to align summer hours loosely with New South Wales while acknowledging the island's geographic uniqueness.
 
 The effect is that Lord Howe Island is almost never exactly on the hour with any major city. Scheduling a call with [Sydney](/sydney) or [Melbourne](/melbourne) requires arithmetic rather than memory.

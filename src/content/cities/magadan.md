@@ -13,6 +13,8 @@ Magadan is eleven hours ahead of Moscow and eleven hours ahead of UTC, sitting o
 
 [Russia](/country/russia) spans eleven timezones. Magadan occupies one of the easternmost, sharing the Magadan Time zone (UTC+11) with a stretch of the Russian Far East. Russia abolished daylight saving time nationally in 2014, fixing Magadan permanently at UTC+11.
 
+## Gulag history and the gold fields of Kolyma
+
 The Gulag history here is inescapable in any temporal discussion. During the Stalin era, Kolyma labor camps in the Magadan region held hundreds of thousands of prisoners, whose workdays were dictated not by civil time but by production quotas and guards' schedules. The city that exists today grew directly from that infrastructure.
 
 The gold fields of Kolyma are still active. Mining operations run shifts around the clock, and at UTC+11, coordination with European buyers means working across a ten-to-twelve hour gap.

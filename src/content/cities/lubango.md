@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Lubango sits at around 1,700 meters above sea level in the Huila Province of southern Angola, and the altitude means bright, clear days where the light feels different from the coastal heat of [Luanda](/luanda). Both cities share [Angola's](/country/angola) single timezone: West Africa Time, UTC+1, with no daylight saving.
 
+## highland climate and Portuguese settler origins
+
 The city was founded by Portuguese settlers from Madeira in the 1880s as Sá da Bandeira, and its highland climate, far cooler than the Angolan coast, made it a favored colonial retreat. Independence came in 1975, and the name changed to Lubango.
 
 At 15 degrees south of the equator, day length varies modestly: roughly 11 hours in June, 13 hours in December. The clocks don't move to reflect that variation, and in a place where agricultural rhythms still matter to many residents, the sun's schedule is a more reliable clock than civil time.

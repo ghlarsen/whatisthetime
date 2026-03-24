@@ -15,6 +15,8 @@ Nzérékoré sits in the deep forest zone of southeastern Guinea, at a three-cou
 
 The forest climate shapes the daily schedule. The rainy season from May through October brings intense and prolonged rainfall that can make roads impassable. The dry season from November through April is drier but can bring haze from the harmattan. Most outdoor activity concentrates in the morning hours before midday heat and humidity peak.
 
+## forest networks and the Ebola outbreak
+
 The Ebola epidemic that began in the forest villages near Nzérékoré in late 2013 and spread to cause the largest outbreak in history was traced to a community in Guéckédou district nearby. The region's remoteness and cross-border forest networks shaped how the epidemic initially spread.
 
 [9am in Nzérékoré is 9am in London](/when/9am-nzerekore/london).

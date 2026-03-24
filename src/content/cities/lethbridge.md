@@ -13,6 +13,8 @@ Lethbridge sits on the short-grass prairie of southern Alberta, at the edge of t
 
 The chinook is the most dramatic temporal phenomenon in Lethbridge's experience. When the warm wind arrives, the city can gain twenty degrees in an afternoon. The local saying is that you can hear the chinook arch before you feel it: a curved band of cloud forms west of the city, and Lethbridge residents know warmer weather is hours away. The clock says what it says, but the chinook says something else.
 
+## 300 sunny days, chinook country on the prairies
+
 Lethbridge has one of the highest rates of sunshine of any Canadian city, with over 300 sunny days per year. At 49 degrees north, the latitude makes for meaningful seasonal daylight differences: summer days run past 10pm, winter days end around 4:30pm. Daylight saving in summer shifts that evening light meaningfully for outdoor agriculture and recreation.
 
 The Oldman River runs through a deep coulee beneath the city center. The High Level Bridge, a railway trestle, crosses it and remains one of the longest and tallest of its type in the world.

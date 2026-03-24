@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Kumasi is the capital of the Ashanti Region and the historical seat of the Ashanti Confederacy, one of West Africa's most significant precolonial kingdoms. The city runs on Africa/Accra time: GMT, UTC+0, year-round. Ghana has not observed daylight saving since 1942.
 
+## Kejetia market and the Ashanti kingdom's seat
+
 The Kejetia Market in Kumasi is one of West Africa's largest markets, a daily organized chaos that begins before dawn and winds down only after dark. Market time here is primal: sellers arrive when it's cool enough to set up, buyers come when they have need, and the whole system runs on social and economic logic rather than clock precision. But the clock is there. The Kejetia bus terminal announces departures; the banks open at 8.
 
 At 6.7 degrees north of the equator, Kumasi has nearly constant daylength. Sunrise around 6am, sunset around 6pm, every day. The rainy seasons (April-June and September-November) matter far more to the agricultural calendar than any solar event.

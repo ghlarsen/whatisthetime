@@ -13,6 +13,8 @@ Ngerulmud became Palau's capital in 2006 when the government relocated from Koro
 
 Palau uses Palau Time, UTC+9, year-round with no daylight saving. The IANA identifier is Pacific/Palau. At 7 degrees north, the islands barely experience seasonal daylight variation. Sunrise and sunset maintain near-constant times throughout the year, around 6am and 6pm with small variation.
 
+## Japanese legacy and a Pacific clock
+
 The timezone places Palau on the same clock as [Tokyo](/tokyo) and [Nagoya](/nagoya), despite being more than 3,000 kilometers to the south. The Japanese connection is historical: Japan administered the islands as a League of Nations mandate from 1914 until 1945, and Japanese influence remains visible in place names, architecture, and cultural practices.
 
 Palau's famous diving sites, the Rock Islands, and Jellyfish Lake draw international visitors whose schedules are built around dive times and underwater light conditions. The dive shops run their own clock: first dive often begins at 8am, timed for optimal light penetration at depth.

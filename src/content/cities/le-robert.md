@@ -13,6 +13,8 @@ Le Robert is one of Martinique's main fishing communities, on the windward Atlan
 
 Fishing in Le Robert follows the most ancient time logic: tides, season, and the behavior of the fish. Boats go out before dawn and the morning market on the dock happens while the catch is still fresh, around 6-7am. By late morning, the market day has largely ended. The clock says UTC-4, but the fishermen are running on something older.
 
+## Atlantic winds, fishing boats before dawn
+
 Martinique's eastern coast catches the Atlantic swell and trade winds that the western, Caribbean-facing coast does not. Le Robert's bay is sheltered by a ring of small islets that calm the water enough for the local boats. The islets are popular snorkeling spots, and the afternoon light on the Atlantic side of the island comes differently than the Caribbean-facing sunset.
 
 The permanent UTC-4, without daylight saving, means the island's relationship with Paris time (five to six hours ahead) stays consistent year-round. Local government and business schedules have adapted to this perennial offset.

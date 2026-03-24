@@ -15,6 +15,8 @@ Omsk sits at the confluence of the Irtysh and Om rivers in western Siberia, the 
 
 At 55 degrees north, Omsk's seasonal light variation is significant: June brings over 17 hours of daylight and white nights, while December brings under 7.5 hours of light and extreme cold. Winter temperatures regularly drop below -30 degrees, and the Irtysh River freezes solidly enough to support vehicle crossings.
 
+## Dostoyevsky's prison and Siberian endurance
+
 Dostoyevsky served four years of hard labor in Omsk's prison fort from 1849 to 1854, the experience that produced Notes from the House of the Dead and, in deeper ways, shaped The Brothers Karamazov. A museum in the city marks the location of the original prison.
 
 The city is large, industrial, and not on most tourist itineraries. Its residents understand that Siberia is not a place you pass through on the way to somewhere more interesting: it is the somewhere.

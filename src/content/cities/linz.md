@@ -13,6 +13,8 @@ Linz sits where the Danube bends north through Upper Austria, a city that has tr
 
 Adolf Hitler grew up partly in Linz and never stopped claiming it as his hometown, intending it to become the Nazi empire's cultural capital. The grandiose construction plans for "Führerstadt Linz" were never realized. The city has since built a genuinely distinctive cultural identity that has nothing to do with that history.
 
+## Ars Electronica and Danube evening light
+
 At 48 degrees north, Linz has meaningful seasonal light variation. Summer evenings extend past 9pm during CEST. December afternoons end before 4pm. The Danube reflects the changing quality of light across the year, from the sharp blue-white of summer to the muted grey of winter fog.
 
 Austria follows EU DST transitions. The ongoing debate about abolishing daylight saving across Europe could particularly affect a city like Linz, which uses evening light heavily for its outdoor café and riverside culture.

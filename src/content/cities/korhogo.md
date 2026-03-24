@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Korhogo is the main city of northern Ivory Coast, a center for Senufo culture and cotton production. It runs on Africa/Abidjan time: GMT, UTC+0, year-round. No daylight saving.
 
+## Senufo culture, cotton, and West African GMT
+
 The city sits at 9 degrees north, comfortably near the equator, where daylight varies little across the year. The Senufo people are known for their craftsmanship, particularly weaving and bronze casting, industries that follow the light naturally without needing clock adjustments.
 
 Ivory Coast (Côte d'Ivoire) has maintained UTC+0 since independence in 1960. The country briefly used UTC+1 during French colonial rule but reverted on independence. The decision to stay at GMT reflects both geographic logic (the country sits close to the prime meridian) and a break from the colonial time framework.

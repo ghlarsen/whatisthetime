@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Kralendijk is the small, colorful capital of Bonaire, a flat coral island in the southern Caribbean known worldwide among divers for its accessible, well-preserved reefs. The city runs on America/Kralendijk time: UTC-4, year-round. No daylight saving.
 
+## dive industry, early mornings, and reef time
+
 Bonaire is a special municipality of the Netherlands, alongside the islands of Sint Eustatius and Saba, which are administered separately (America/Lower_Princes for the other two, in practice). Bonaire's UTC-4 matches the permanently fixed clock of much of the Caribbean, avoiding the DST adjustments that complicate scheduling with North America.
 
 The dive industry that drives Bonaire's economy operates on daylight schedules: boats go out at first light, return around noon, and some groups do a second dive in the afternoon. The entire tourism-service economy aligns with this early-morning pattern, making Kralendijk a city where 6am feels less unusual than it would elsewhere.

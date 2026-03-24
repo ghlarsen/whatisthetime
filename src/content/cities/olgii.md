@@ -15,6 +15,8 @@ Mongolia's western provinces use IANA Asia/Hovd, UTC+7, year-round. The rest of 
 
 At 48.8 degrees north at high altitude, Ölgii has an extreme continental climate. Winters are severe: temperatures can drop below -40 degrees, and snow covers the ground from October through April. Summers are short and intense. The Altai light in summer, at nearly 16 hours of daylight, is brilliant and sharp at this altitude.
 
+## eagle hunters of the Altai
+
 The Golden Eagle Festival, held each October in the nearby countryside, has become internationally known. Eagle hunters demonstrate the ancient Kazakh practice of hunting with trained golden eagles, timed to the autumn hunting season before winter closes the mountains.
 
 [9am in Ölgii is 2am in London](/when/9am-olgii/london).

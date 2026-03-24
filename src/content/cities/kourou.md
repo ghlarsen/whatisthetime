@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Kourou is where Europe sends its rockets. The Guiana Space Centre, operated by the European Space Agency and CNES, launches Ariane, Vega, and Soyuz vehicles from a site a few kilometers from the city. The location was chosen deliberately: at 5 degrees north latitude, rockets launched eastward get a significant boost from the Earth's rotation. The equatorial location is Kourou's superpower.
 
+## space launches run on UTC, not local time
+
 The city runs on America/Cayenne time: UTC-3, year-round, no daylight saving. French Guiana does not observe DST despite being a French overseas territory. France itself (in Europe) uses CET/CEST, meaning French Guiana is always 4 or 5 hours behind the metropole, depending on European DST.
 
 Launch schedules from Kourou are coordinated in UTC, the universal time reference for spaceflight. Local Kourou time is relevant for ground crews and logistics, but the launch window is defined in UTC and communicated globally. When mission control in Toulouse counts down, Kourou time is the ground truth of what the countdown means locally.

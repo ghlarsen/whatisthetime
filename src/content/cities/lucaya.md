@@ -13,6 +13,8 @@ Lucaya is the resort district of Freeport on Grand Bahama Island, sitting about 
 
 This alignment is pragmatic. The Bahamian economy depends heavily on American tourism, and a timezone match with the US East Coast removes friction: flights, vacation bookings, business calls, all happen within the same temporal frame as the Florida cities they connect to.
 
+## resort built for American tourists, on American time
+
 The island was largely created as a planned resort development in the 1950s and 60s under an agreement between the Bahamian government and American financier Wallace Groves. Its identity as a tourist destination has always pulled it toward American time rather than Caribbean independence from it.
 
 [Nassau](/nassau), the national capital on New Providence Island, shares the same offset. [9am in Lucaya is 9am in Miami](/when/9am-lucaya/miami), no conversion required, which is the point.

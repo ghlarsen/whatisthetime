@@ -13,6 +13,8 @@ Naples operates on the same timezone as Stockholm, but you'd never know it from 
 
 [Italy](/country/italy) follows the European CET/CEST system: UTC+1 in winter, UTC+2 in summer, with the transition on the last Sunday of March and October. Naples, at 40 degrees north on the Mediterranean coast, experiences meaningful seasonal daylight variation. June sunset comes after 8:30pm, adding to the already-late evening culture. December sunset is before 5pm.
 
+## Vesuvius, passeggiata, and a 3,000-year rhythm
+
 The city's rhythm is ancient. Naples was founded by Greek colonists around the 8th century BC, built over by Romans, layered with Norman, Angevin, and Spanish architecture. Vesuvius dominates the eastern skyline and has defined the region's relationship with time in a more fundamental way than any timezone: the knowledge that the mountain could again disrupt everything, as it did in 79 AD.
 
 The passeggiata, the evening stroll, begins around 6pm and peaks at sunset. The city fills the lungomare and the historic center with walkers who are in no hurry whatsoever.

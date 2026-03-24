@@ -13,6 +13,8 @@ Noord is a municipality in Aruba's northern region, home to the high-rise hotel 
 
 The island sits at 12 degrees north of the equator, well south of the Caribbean hurricane belt, which is part of its appeal to tourists. The daylight barely varies: sunrise around 6:15am to 6:30am year-round, sunset around 6:15pm to 6:45pm. There's no dramatic seasonal light shift, and no reason to adjust the clocks.
 
+## tourist time versus local time
+
 Noord's rhythm runs on tourist time. Palm Beach, one of the Caribbean's most developed stretches of resort coast, generates a commercial day that starts with breakfast at the hotels around 7am and ends past midnight in the casino bars. The residential parts of Noord that house Aruba's working population operate on a different, earlier schedule.
 
 Aruba shares its timezone with [Oranjestad](/oranjestad), the capital. The two are close enough that the distinction is nearly academic: the island is only 32 kilometers long.

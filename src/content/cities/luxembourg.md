@@ -13,6 +13,8 @@ Luxembourg City is one of the three official capitals of the European Union and 
 
 The tiny country's prosperity comes from its position at the intersection of French, German, and Belgian economies. The financial sector manages funds totaling trillions of euros. Keeping the same clock as the major European exchanges is not optional: it is what makes the business possible.
 
+## contested territory to EU financial capital
+
 Historically, Luxembourg was a contested territory held at various points by Burgundy, Spain, France, Austria, and the Netherlands before becoming an independent duchy in 1839. Each occupying power brought its own administrative rhythms. The current timezone dates to the standardization era of the late nineteenth century, when railways made common time a European necessity.
 
 The country sits at about 49 degrees north, so summer evenings are long and December afternoons are short. The DST transition in spring and autumn lands with the same mild disruption it does across the continent.

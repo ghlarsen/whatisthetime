@@ -13,6 +13,8 @@ Novi Sad sits on the Danube at the edge of the Fruška Gora hills, and the Petro
 
 [Serbia](/country/serbia) follows Central European Time, UTC+1 in winter and UTC+2 in summer, with EU-aligned daylight saving transitions. Novi Sad shares this with [Belgrade](/belgrade) to the south. At 45 degrees north, seasonal light variation is significant: June brings over 15.5 hours of daylight, December under 8.5.
 
+## Vojvodina's ethnic patchwork and river seasons
+
 Vojvodina, the autonomous province Novi Sad governs, is one of Europe's most ethnically diverse regions, with Serbs, Hungarians, Romani, Slovaks, Croats, and others living in a complex patchwork. Multiple languages appear on official signs, and multiple religious and cultural calendars structure the year.
 
 The Danube freezes in severe winters, and the ice break-up in spring is an event. The river's level has a practical effect on the city: flooding is an occasional threat, and the 1999 NATO bombing destroyed the Žeželj Bridge, rebuilt and reopened in 2018.

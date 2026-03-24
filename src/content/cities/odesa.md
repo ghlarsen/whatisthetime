@@ -15,6 +15,8 @@ Odesa was built on the Black Sea coast by Catherine the Great's decree in 1794, 
 
 The Black Sea moderates the climate, making Odesa milder than Kyiv and dryer than the forest zones of northern Ukraine. The summer beach season on the Odesa coast is a major cultural institution, drawing visitors from across Ukraine and historically from Russia. The summers are hot, the sea is warm, and the outdoor restaurant culture runs until midnight.
 
+## the port city in wartime
+
 Since 2022, the city's seaport, historically its reason for existing, has been affected by conflict in the Black Sea. The city has continued to function, with air raid sirens integrating into the daily rhythm.
 
 [9am in Odesa is 7am in London](/when/9am-odesa/london).

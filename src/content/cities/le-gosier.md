@@ -13,6 +13,8 @@ Le Gosier sits on the southern coast of Grande-Terre, Guadeloupe's eastern wing,
 
 Guadeloupe is a French overseas region, and while metropolitan France uses CET/CEST, the island is permanently at UTC-4, always four or five hours behind Paris depending on European DST. Flight arrivals from France land in people who have crossed four time zones in about 8 hours.
 
+## resort coast, trade winds, and Paris time gap
+
 At 16 degrees north, Le Gosier has close to 12 hours of daylight all year, with mild variation. The Atlantic trade wind keeps temperatures moderate despite the latitude. The tourist season peaks in December-April, the drier, slightly cooler months when European visitors escape winter.
 
 [Les Abymes](/les-abymes) to the north, which contains the island's main airport, keeps the same time. As does [Pointe-à-Pitre](/pointe-a-pitre), the commercial center of Guadeloupe.

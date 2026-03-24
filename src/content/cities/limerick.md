@@ -13,6 +13,8 @@ Limerick sits at the head of the Shannon estuary, where Ireland's longest river 
 
 The distinction matters historically. Ireland chose to frame its summer clock advance as "Irish Standard Time" rather than "British Summer Time," a small but deliberate linguistic independence from the UK. The clocks move at the same moment, but the names differ.
 
+## Treaty City, the Shannon, and Irish Standard Time
+
 Limerick earned the name "Treaty City" from the Treaty of Limerick in 1691, which ended the Jacobite war in Ireland. The city's history is bound up with the complications of Irish-British political time in a very literal sense: for much of the 20th century, Ireland used Dublin Mean Time (25 minutes behind London), then synchronised with the UK, then contested the calendar at every political turn.
 
 At 52.7 degrees north, Limerick has significant seasonal light extremes. Midsummer evenings extend past 10pm. December days deliver less than 8 hours of light. The Shannon in winter reflects a pale sky that lingers in a way that has been written about since the first Irish monks arrived on these riverbanks.

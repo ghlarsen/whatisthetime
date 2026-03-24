@@ -15,6 +15,8 @@ New Amsterdam is Guyana's second city, sitting at the mouth of the Berbice River
 
 New Amsterdam sits just 2 degrees from the equator in terms of latitude. The light is consistent, the temperature is consistently warm and humid, and the Atlantic trades bring some relief to the coastal heat. The Berbice River is tidal at this point, and the rhythm of the river traffic, the ferries, the fishing boats, responds to tides as much as clock time.
 
+## ethnic diversity and tidal river rhythms
+
 The city has a diverse population reflecting Guyana's remarkable ethnic mix: Indo-Guyanese, Afro-Guyanese, and smaller communities of Amerindians, Chinese, and Portuguese. Each community brings its own calendar observances to the city's rhythm.
 
 [9am in New Amsterdam is 1pm in London](/when/9am-new-amsterdam/london), the same offset as [Georgetown](/georgetown).

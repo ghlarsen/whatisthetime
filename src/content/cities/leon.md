@@ -13,6 +13,8 @@ León was Nicaragua's capital until 1852, and it has never entirely accepted los
 
 The cathedral's white facade is a landmark visible across León's flat layout. Time in this city has been marked by cathedral bells since the colonial period. The bell schedule still organizes the day for many residents, particularly in the older neighborhoods around the central plaza.
 
+## volcanic belt sunsets and a permanent UTC-6
+
 At 12 degrees north, León has close to 12 hours of daylight year-round. The dry season (November-April) and wet season (May-October) divide the year. León sits on the Pacific side of Nicaragua, in the volcanic belt where the heat is intense and the landscape is flat and open. The sunsets here, with the volcanoes in the distance, are unhurried and spectacular.
 
 Nicaragua's permanent UTC-6 means the country is in sync with neighboring Honduras and El Salvador for most of the year, which simplifies regional commerce and transport.

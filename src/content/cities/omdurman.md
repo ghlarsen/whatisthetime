@@ -15,6 +15,8 @@ Omdurman and Khartoum face each other across the Nile, connected by bridges but 
 
 The Nile gives Omdurman its orientation. The city faces the river, its markets and neighborhoods extending back from the waterfront. The confluence of the Blue and White Niles just south of the city is one of Africa's most significant geographic features: two river systems merging into the world's longest river and continuing north through Egypt to the Mediterranean.
 
+## the souk, the dervishes, and the Nile confluence
+
 Whirling dervish ceremonies take place in Omdurman on Thursday evenings near the tomb of a local sheikh, a tradition that has drawn visitors and participants for generations.
 
 [9am in Omdurman is 7am in London](/when/9am-omdurman/london).

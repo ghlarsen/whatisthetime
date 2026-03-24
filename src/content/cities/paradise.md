@@ -13,6 +13,8 @@ Paradise is one of Newfoundland's fastest-growing municipalities, a suburban com
 
 [Canada](/country/canada) handles Newfoundland's timezone separately from the rest: the province uses NST at UTC-3:30 in standard time and NDT at UTC-2:30 during daylight saving. Paradise observes both, shifting with the rest of Newfoundland on the second Sunday of March (clocks forward) and first Sunday of November (clocks back).
 
+## the half-hour offset and scheduling puzzles
+
 The half-hour offset makes Newfoundland a persistent scheduling puzzle for anyone working across Canadian provinces. Paradise residents who work with mainland Canada deal with 1.5-hour differences rather than clean single-hour gaps. Calls with Ontario and Quebec, the centers of Canadian commerce, fall into windows that feel slightly offset from any natural rhythm.
 
 At 47.5 degrees north, Paradise's seasonal light is significant but not extreme. Summer evenings extend toward 9pm, winter afternoons end before 5pm. The North Atlantic climate means frequent fog, wind, and the unpredictable weather patterns that Newfoundlanders have developed a specific relationship with: you dress in layers, you keep moving, you don't complain about the rain.

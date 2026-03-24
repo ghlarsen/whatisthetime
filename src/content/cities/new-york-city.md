@@ -15,6 +15,8 @@ The United States uses Eastern Time for its most populous corridor, from Maine t
 
 At 40 degrees north, New York's seasonal light variation is real. Summer solstice brings nearly 15 hours of daylight, and the long July evenings in Central Park have a quality unlike anywhere else. December solstice brings under 9.5 hours. The city adjusts: the outdoor café culture migrates inside, the evening entertainment schedule compresses, the morning run goes dark.
 
+## overlapping rhythms of a city that never stops
+
 New York City runs on several overlapping time rhythms. Financial time: 9:30am to 4pm, market hours. Restaurant time: lunch from noon, dinner service from 5:30pm with peak at 7:30pm. Theater time: curtains at 8pm, or 7pm on weeknights. Subway time: 24 hours, though with gaps.
 
 [9am in New York City is 2pm in London](/when/9am-new-york-city/london), one of the most practically important timezone conversions in global business.

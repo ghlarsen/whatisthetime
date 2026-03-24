@@ -15,6 +15,8 @@ Nkayi sits in the Bouenza region of the Republic of the Congo, about 350 kilomet
 
 The sugar complex runs on industrial time: the processing season, the harvest schedule, the shift rotations at the refinery. Agricultural time and industrial time layer over each other. The harvest of sugarcane happens when the cane is ready, not on a fixed calendar date, and the refinery's rhythm adjusts accordingly.
 
+## the Congo-Ocean Railway and colonial cost
+
 The Niari Valley, where Nkayi sits, was connected to the coast by the Congo-Ocean Railway, one of the most costly construction projects in colonial African history, built between 1921 and 1934 at enormous human cost.
 
 [9am in Nkayi is 8am in London](/when/9am-nkayi/london).

@@ -13,6 +13,8 @@ Laayoune is the largest city in Western Sahara, a disputed territory administere
 
 Morocco's Ramadan reversion is one of the more unusual timezone practices in the world. The government advances clocks in spring for DST, then reverts them during Ramadan (even if Ramadan falls in summer), then advances again after Ramadan ends, before finally reverting at the end of DST in autumn. In years when Ramadan spans the DST transition dates, the clock can change four or five times within a few weeks.
 
+## disputed territory, Morocco's most subsidized city
+
 Laayoune is a planned city, laid out under Spanish colonial administration as the capital of the Spanish Sahara province. Spain withdrew in 1975 and Morocco moved in. The current city is heavily subsidized by Morocco as a political statement of integration.
 
 At 27 degrees north, Laayoune has noticeable seasonal light variation: about 10.5 hours in December, 13.5 in June. The Saharan climate delivers relentless sunshine almost year-round, making daylight variation more about heat intensity than usable light.

@@ -13,6 +13,8 @@ Les Escaldes is a city of thermal springs and shopping, essentially merging with
 
 Andorra sits in the Pyrenees at elevations between 1,000 and 3,000 meters. The mountains create dramatic variations in sunrise and sunset timing across different parts of this small country. Les Escaldes at valley level gets morning sun later than the ridges above, but the effect is felt rather than clock-significant.
 
+## duty-free shopping, thermal springs, and CET
+
 The city's economy runs on shopping tourism. Andorra's duty-free status attracts shoppers from France and Spain, and the stores along Avinguda Meritxell (the main commercial street, shared between Les Escaldes and Andorra la Vella) keep hours that are designed to capture every possible tourist hour rather than following any conventional retail schedule.
 
 Central European Time is the natural choice here: Andorra borders France (same timezone) and Spain (same timezone). The same clock on both sides of the mountains makes cross-border commerce frictionless.

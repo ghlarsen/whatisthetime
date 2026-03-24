@@ -13,6 +13,8 @@ Linden sits on the Demerara River about 100 kilometers south of Georgetown, buil
 
 Bauxite mining is an industrial, continuous operation. The mines and processing facilities in and around Linden have historically run on shift schedules, making solar time less relevant to the city's actual working rhythm. The Mackenzie-Christianburg-Wismar area that forms greater Linden grew up as a company town, organized around the mining operation's schedule.
 
+## company town, equatorial forest, and UTC-4
+
 At 6 degrees north, Linden has near-constant daylength: about 12 hours every day of the year. The equatorial rainforest climate brings substantial rainfall (over 2,000mm annually) that structures outdoor activity more meaningfully than any light-based seasonal change.
 
 Guyana has kept UTC-4 since 1991, when it moved from UTC-3:45 (an unusual quarter-hour offset) to the cleaner full-hour position. The change simplified scheduling with neighboring countries and international businesses.

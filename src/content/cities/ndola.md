@@ -13,6 +13,8 @@ Ndola is the capital of the Copperbelt Province, Zambia's industrial north. The 
 
 [Zambia](/country/zambia) runs on Central Africa Time, UTC+2, year-round. No daylight saving. Ndola shares this clock with [Lusaka](/lusaka) to the south. At 12 degrees south, the city's daylight ranges from roughly 11 to 13 hours across the year, with summer days in December noticeably longer than the winter short days in June.
 
+## copper shifts and industrial time
+
 The mining operations don't observe a day clock. The smelters and processing facilities run on 24-hour shift cycles. For a significant portion of Ndola's working population, "morning" is defined by shift rotation rather than sunrise. This industrial clock has existed in the Copperbelt since the colonial period and shapes the social rhythm of neighborhoods around the mines.
 
 Ndola also has a historic significance in international politics: the plane crash that killed UN Secretary-General Dag Hammarskjöld occurred near Ndola airport in September 1961, one of Cold War history's enduring mysteries.

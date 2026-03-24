@@ -15,6 +15,8 @@ Niš has a stronger claim than most cities to having changed world history. Cons
 
 Niš sits at the junction of the routes connecting Western Europe to Istanbul, which gave it strategic importance through the Roman, Byzantine, Ottoman, and Yugoslav periods. The E75 and E80 European routes still converge near here. The city has a slightly more relaxed pace than Belgrade, provincial in a way that residents seem to embrace rather than resent.
 
+## kafana culture and social time
+
 The kafana culture of southern Serbia is strong in Niš: coffee houses that open early, stay open late, and function as the city's real meeting rooms. The schedule runs on social time more than clock time.
 
 [9am in Niš is 8am in London](/when/9am-nis/london).

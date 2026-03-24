@@ -13,6 +13,8 @@ Nyagatare is the capital of Rwanda's Eastern Province, sitting on flatter, drier
 
 [Rwanda](/country/rwanda) runs on Central Africa Time, UTC+2, year-round with no daylight saving. Nyagatare shares this with [Kigali](/kigali) and [Musanze](/musanze). At 1.3 degrees south of the equator, the daylight is nearly constant. Sunrise stays between 5:30am and 6am, sunset between 6pm and 6:30pm throughout the year.
 
+## return, resettlement, and a cattle economy
+
 The Eastern Province has a history shaped by the 1994 genocide and the subsequent return and resettlement of refugees from Uganda, many of them long-established Tutsi diaspora who had not lived in Rwanda for decades. Nyagatare became a resettlement hub, and the cattle economy in the region partly reflects the pastoral traditions these returnees brought.
 
 The weekly market day in Nyagatare is one of the region's significant commercial gatherings, drawing traders and farmers from the surrounding villages. The rhythm of the week turns around it.

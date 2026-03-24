@@ -15,6 +15,8 @@ lastUpdated: "2026-03-23"
 
 The city was devastated in World War II. Its large Jewish community, once 30% of the population, was annihilated in the Łódź Ghetto. The physical traces are still visible in the former ghetto district. The city has not entirely recovered its prewar population.
 
+## film school, design district, and creative rebirth
+
 The creative economy pivot has been real: the Łódź Film School has produced directors including Roman Polański and Krzysztof Kieślowski. The city now styles itself as a design and creative hub, with the old factory district as its showpiece. The working day in the design studios and film school runs on its own schedule.
 
 [9am in Łódź is 8am in London](/when/9am-odz/london).

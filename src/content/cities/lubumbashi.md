@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 The Democratic Republic of the Congo is one of the few countries in the world that spans two standard timezones within its own borders. Kinshasa in the west uses UTC+1. Lubumbashi in the southeast uses UTC+2, Central Africa Time. The country is simply too wide for a single clock to make geographic sense.
 
+## copper country on the Zambian border
+
 Lubumbashi sits near the Zambian border, in the copper-rich Katanga region that has driven much of the DRC's mining economy. Coordinating with [Lusaka](/lusaka) next door is clean: both cities run on the same UTC+2 offset, and the copper supply chain flows across that border without a timezone complication.
 
 The city has been known by several names. Belgian colonial authorities called it Élisabethville. After independence in 1960, it was briefly the capital of the secessionist state of Katanga before reunification in 1963. The name Lubumbashi came in 1966. Through all these changes the clocks kept the same offset.

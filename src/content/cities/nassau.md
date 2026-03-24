@@ -15,6 +15,8 @@ The timezone alignment reflects economic reality. The Bahamas' two largest indus
 
 Nassau's natural daylight at 25 degrees north doesn't differ dramatically from Miami's. Summer days approach 13.5 hours of light; winter days shorten to under 10.5. The daylight saving switch, applied in line with the US schedule, shifts the evening hour but doesn't alter the character of the city.
 
+## tourist time and banking time in one city
+
 Cable Beach and the Paradise Island strip run on tourist time, which means late. Downtown Nassau follows the banking and government schedule, which means early. The two rhythms coexist in the same timezone but in their own temporal worlds.
 
 [9am in Nassau is 2pm in London](/when/9am-nassau/london).

@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Kosrae is the easternmost and most isolated of Micronesia's four states, a single volcanic island rising from the Pacific with a profile that from the sea resembles a reclining woman, earning its nickname "Sleeping Lady." It runs on Pacific/Kosrae time, UTC+11, year-round. No daylight saving.
 
+## ancient ruins, Japanese wrecks, and pristine reefs
+
 At 5 degrees north latitude, Kosrae has essentially constant daylength. The sun rises around 6am and sets around 6pm, every day of the year. There is nothing for daylight saving to accomplish.
 
 The island is famous among divers for its largely pristine reefs and the wrecks of Japanese naval vessels sunk in the lagoon during World War II. Kosrae was a significant Japanese base, and the ruins of Japanese-era buildings mix with older stone ruins from the Lelu Harbor archaeological site, where ancient Kosraeans built a sophisticated urban center of stone-canal construction around 1400 CE.

@@ -15,6 +15,8 @@ American Samoa uses Samoa Standard Time, UTC-11, year-round with no daylight sav
 
 The history is political: Western Samoa crossed the Date Line in 2011 to align itself commercially with Australia and New Zealand. American Samoa remained at UTC-11, maintaining alignment with the US West Coast 2,600 kilometers away. The result is a geographic absurdity where near neighbors operate on dates 24 hours apart.
 
+## the harbor, the canneries, and the date line quirk
+
 At 14 degrees south, Pago Pago's daylight varies modestly: roughly 11 to 13 hours across the year. The harbor is one of the world's deepest natural ports, and the tuna canneries that once dominated the economy ran on processing schedules tied to the fishing fleet's arrivals.
 
 [9am in Pago Pago is 8pm in London](/when/9am-pago-pago/london).

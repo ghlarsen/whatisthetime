@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Kuala Belait sits on the southwestern coast of Brunei, at the mouth of the Belait River, close to the Malaysian border. It is the center of Brunei's oil and gas industry, the foundation of the sultanate's wealth. The city runs on Asia/Brunei time: UTC+8, year-round, no daylight saving.
 
+## offshore platforms and the oil industry's clock
+
 The oil industry imposes its own temporal logic on Kuala Belait. Offshore platforms operate on 24-hour cycles. Supply boats and personnel transfers run on tides and weather windows as much as on clock schedules. The onshore support infrastructure, offices, maintenance facilities, and logistics hubs, follows standard business hours tied loosely to UTC+8.
 
 Brunei's UTC+8 puts it on the same clock as [Kuala Lumpur](/kuala-lumpur) in Malaysia, despite Brunei being entirely surrounded by Malaysian Borneo (Sarawak). The shared timezone simplifies cross-border logistics for the oil industry, which straddles the Brunei-Malaysia border in the Belait area.

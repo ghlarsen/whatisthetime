@@ -15,6 +15,8 @@ Tonga moved its clocks to UTC+13 in 1995. Before that, the islands sat at UTC-11
 
 [Tonga](/country/tonga) uses Pacific/Tongatapu in the IANA database, with no daylight saving. At 21 degrees south, the islands have modest seasonal daylight variation. The climate is warm and tropical year-round, with a cyclone season from November to April.
 
+## the royal palace and a strictly kept Sunday
+
 Nuku'alofa is the capital and the main port, on the largest island, Tongatapu. The royal palace, on the waterfront, is occupied by the Tongan monarchy, one of the few remaining Pacific hereditary kingdoms. The church is central to daily life: Sunday is strictly observed, with shops closed and streets quiet in a way that feels genuinely different from other Pacific capitals.
 
 [9am in Nuku'alofa is 10pm the previous day in London](/when/9am-nuku-alofa/london).

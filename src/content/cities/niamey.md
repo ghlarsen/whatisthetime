@@ -13,6 +13,8 @@ Niamey sits on the Niger River, one of West Africa's great waterways, at 13 degr
 
 [Niger](/country/niger) uses West Africa Time, UTC+1, the same as Nigeria and most of West Africa. The IANA identifier Africa/Niamey designates this city as the reference point for its own timezone entry. No daylight saving applies.
 
+## the river, the heat, and the market day
+
 The Niger River is the city's lifeline and its calendar. Seasonal fluctuations in river level determine when fishing is good, when certain crossing points are viable, and when agricultural land along the banks can be cultivated. The river is lower in the dry season and swells dramatically during the rains. Hippos are occasionally sighted in and near the city.
 
 The Grand Marché, destroyed by fire and rebuilt, remains the commercial heart of the city. Its opening and closing times, the rhythm of deliveries and vendors, sets the commercial day. The call to prayer from the mosques structures the day alongside it.

@@ -15,6 +15,8 @@ Nor Nork is one of the administrative districts of Yerevan, Armenia's capital, b
 
 Nor Nork's Soviet-era architecture is characteristic: large apartment blocks, wide avenues, a grid that prioritized cars and collective space over the organic street patterns of older neighborhoods. The district houses a large portion of Yerevan's population and is thoroughly integrated into the city's daily rhythm. The morning minibus routes that run downtown carry workers whose schedules are set by the capital's government and business offices.
 
+## Ararat on the horizon
+
 Mount Ararat's visibility is a kind of informal clock for residents: clear mornings when the peak appears are different in quality from overcast days. The mountain has been in Turkey since 1921 but remains on Armenia's national symbols.
 
 [9am in Nor Nork is 5am in London](/when/9am-nor-nork/london), the same as [Yerevan](/yerevan).

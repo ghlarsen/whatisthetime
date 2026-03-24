@@ -15,6 +15,8 @@ Nicosia is the world's last divided capital. The UN Buffer Zone, a line of empty
 
 At 35 degrees north in the eastern Mediterranean, Nicosia's summers are hot and long. It's among the hottest European capitals: July averages above 37 degrees. The long summer days, with sunset after 8:15pm, allow an outdoor evening culture to flourish despite the heat. Winters are mild by European standards, with short rainy seasons.
 
+## crossing the buffer zone
+
 The city's division creates odd temporal artifacts. The old walled city straddles the buffer zone. Ledra Street, once a main shopping street, was cut by the border and reopened in 2008. Walking the few hundred meters from the Greek Cypriot side to the Turkish Cypriot side doesn't change your clock, but it changes your currency, your language, and your legal framework.
 
 [9am in Nicosia is 7am in London](/when/9am-nicosia/london).

@@ -13,6 +13,8 @@ Latakia is Syria's main seaport, a Mediterranean city on a coast that has been i
 
 Syria had observed DST for decades, shifting clocks forward in spring and back in autumn. In 2022, the government announced it would keep clocks at UTC+3 (which had been summer DST time) year-round. The change effectively moves Syria to permanent summer time, meaning winter mornings are darker but evenings are lighter.
 
+## port city aligned with Moscow Time
+
 At 35 degrees north, Latakia has meaningful seasonal light variation. The Mediterranean climate brings dry, hot summers and mild, wetter winters. The sun sets past 8pm in June (with the permanent UTC+3 setting advancing this by an hour relative to solar time). In December, dusk arrives around 5:30pm.
 
 Latakia's harbor handles a significant portion of Syria's remaining trade. The Russia-operated Tartus naval base to the south has been in operation since the Soviet era, and coordination between the Syrian port infrastructure and the Russian military facility runs on clocks that are, for once, nearly aligned: Moscow Time (UTC+3) and Syria Time (UTC+3) match exactly.

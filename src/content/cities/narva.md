@@ -13,6 +13,8 @@ Narva and the Russian city of Ivangorod face each other across the Narva River, 
 
 This particular border is one of the sharpest timezone edges in Europe. The old Narva castle on the Estonian side and the Ivangorod fortress on the Russian side stare at each other across the river. During the Soviet era, the border was internal and meaningless. Since 1991, it's been an EU external border and one of the most significant geopolitical dividing lines in northern Europe.
 
+## white nights and a Russian-speaking EU city
+
 Narva sits at 59 degrees north, giving it pronounced seasonal daylight variation. Summer solstice brings roughly 19 hours of daylight, and white nights where it never gets fully dark. December brings under 6 hours of daylight. The summer midnight glow is something the city shares with [Tallinn](/tallinn) and the rest of the Baltic states.
 
 The city is majority Russian-speaking, a demographic legacy of Soviet-era industrial migration. This creates a particular identity: EU citizens, Estonian passport holders, deeply connected culturally to the country across the river.

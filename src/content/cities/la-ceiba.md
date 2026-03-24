@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 La Ceiba sits on the Caribbean coast of Honduras, a port city of beaches, banana plantations, and the main gateway to the Bay Islands, a world-class diving destination offshore. The city runs on America/Tegucigalpa time: UTC-6, year-round. Honduras abolished daylight saving time in 1988.
 
+## bananas, Bay Islands diving, and Caribbean carnival
+
 The permanent UTC-6 setting means La Ceiba keeps steady time with [Tegucigalpa](/tegucigalpa) in the highlands and with most of Central America. No spring-forward, no fall-back. The banana export industry that built the city operates on international shipping schedules, and the stable clock simplifies coordination.
 
 La Ceiba's annual carnival in May is one of Central America's largest, drawing visitors from across the region. The carnival rhythms push city life into a completely different gear, with activity peaking in the late evenings and running through the night for a week.

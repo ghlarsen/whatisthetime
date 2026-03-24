@@ -15,6 +15,8 @@ Mexico's northeastern border zone follows America/Matamoros: UTC-6 in winter (Ce
 
 At 27 degrees north, Nuevo Laredo has pronounced seasons. Summer temperatures regularly exceed 40 degrees. Winter brings occasional freezes. The light ranges from about 10 hours in December to nearly 14 in June. The heat in summer pushes significant amounts of outdoor activity to early morning and evening.
 
+## bridges, trucks, and the 24-hour border
+
 The bridge traffic runs 24 hours. Customs operations, inspections, and the logistics of freight create their own time: the morning rush of commercial trucks begins before sunrise, and the queues can stretch for kilometers. For the city's workers, the shift schedule at the maquiladoras often runs in three shifts around the clock.
 
 [9am in Nuevo Laredo is 3pm in London](/when/9am-nuevo-laredo/london).

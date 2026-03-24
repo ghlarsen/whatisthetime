@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Kumanovo is North Macedonia's second city, a manufacturing and commercial center north of [Skopje](/skopje), close to the Serbian border. It runs on Europe/Skopje time: UTC+1 in winter (CET), UTC+2 in summer (CEST). DST transitions follow the standard European schedule.
 
+## peace agreement, ethnic diversity, and CET rhythms
+
 The city has a diverse ethnic composition, with Macedonian, Albanian, and Romani communities, and the daily rhythms reflect that plurality. Markets open early, the morning coffee culture is strong, and evenings extend late into warm months. At 42 degrees north, summer dusk doesn't arrive until past 9pm during CEST.
 
 The Kumanovo Peace Agreement of 2001, signed at the Arachinovo barracks, ended the brief insurgency in North Macedonia and was a significant stabilizing moment for the country. The agreement's timing, signed in August 2001, placed it in summer daylight saving time.

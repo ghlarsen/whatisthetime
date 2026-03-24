@@ -15,6 +15,8 @@ The city was Australia's most important coal port for most of the 20th century. 
 
 At 32 degrees south, Newcastle's daylight ranges from about 10 hours in mid-winter June to nearly 14.5 hours at the summer solstice in December. The summer evenings, when daylight saving pushes sunset past 8pm, fill the beaches at Nobbys and Bar Beach well past working hours. The winter sunsets at 5pm give Newcastle a different pace.
 
+## surf culture and working-class identity
+
 The city has long had its own identity distinct from Sydney: working-class, rugby league, beach-focused. The surf culture means that dawn patrol sessions in the water are a serious part of the city's daily rhythm, with regulars in the water before 6am year-round.
 
 [9am in Newcastle is 11pm the previous day in London](/when/9am-newcastle/london), the same as [Sydney](/sydney).

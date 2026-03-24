@@ -15,6 +15,8 @@ Nuuk sits at 64 degrees north, making it the world's second-northernmost capital
 
 The 2023 change unified most of Greenland's inhabited west coast on America/Nuuk with DST, making Nuuk's clock more predictable for people dealing with it externally. Previously, Nuuk and the surrounding areas had a more complex arrangement.
 
+## midnight sun, polar night, and elastic time
+
 Life in Nuuk is organized around the extreme light. The midnight sun in June means that activity patterns shift: people are outside late, children are awake past midnight, the sense of time becomes elastic. The dark months of December and January mean the opposite contraction. The aurora borealis, which appears in the dark season, is not merely a tourist attraction but a part of what winter looks like here.
 
 Nuuk's population of around 20,000 makes it a small city by most measures, but it is Greenland's largest and the center of its self-government, education, and commerce.

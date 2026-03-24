@@ -13,6 +13,8 @@ Lyon sits at roughly 5 degrees east longitude, where UTC+1 would be the natural 
 
 The effect is most noticeable in summer evenings. Darkness doesn't fall until after 10pm in June. The city's outdoor restaurant culture, the famous bouchons serving quenelles and andouillette on terrasse tables, runs late. Nobody eats before 8pm. Sunset is still an hour away.
 
+## bouchons, terrasse tables, and late summer evenings
+
 [France](/country/france) standardized its clock alongside the rest of continental Europe after World War II, switching from a pre-war offset that had been more aligned with Greenwich Mean Time. The current setup maximizes evening daylight, which suits a country that has always valued leisure time.
 
 Lyon is the gastronomic capital of France, and its culinary traditions have their own time logic: the Marché Saint-Antoine opens at dawn, lunch runs from noon to 2pm, dinner from 7:30 onward. [Paris](/paris) to the north shares the same timezone and the same meal schedule.

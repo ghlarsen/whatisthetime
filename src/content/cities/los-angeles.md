@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Los Angeles is three hours behind New York and eight behind London, and the entertainment industry built its entire workflow around those gaps. Scripts land on desks at 6am Pacific so New York executives can review them by 9. The last edit on a feature film might clear at midnight Pacific, which is already 8am in Europe. Hollywood runs at the edge of the American day.
 
+## Pacific Time and the vote for permanent DST
+
 The city follows Pacific Time, sharing [America/Los_Angeles](/country/united-states) with [San Francisco](/san-francisco) to the north and [Las Vegas](/las-vegas) to the east. Daylight saving applies each spring, pushing clocks to UTC-7 from March through November. The region's latitude means sunrise and sunset times are relatively stable year-round compared to cities further north, which makes the DST debate feel less urgent here than in Seattle or Portland.
 
 California has voted to stay on permanent daylight saving time. The state legislature passed a measure in 2018 but federal law requires congressional approval to change timezone observance, and that approval has not come. The clocks still change twice a year.

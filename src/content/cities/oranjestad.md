@@ -15,6 +15,8 @@ Oranjestad is a small capital with distinctive Dutch colonial architecture paint
 
 The trade winds that blow consistently from the northeast give Aruba its character: the air is rarely still, the vegetation leans permanently westward, and the temperature is moderated to a year-round average around 28 degrees. The island sits below the hurricane belt, which is a significant selling point to tourists from North America who want Caribbean weather without Caribbean weather risk.
 
+## cruise ships, trade winds, and evening waterfront
+
 Oranjestad's rhythm is divided between the cruise ship arrivals, which flood the small downtown from morning until early afternoon, and the quieter pace of the permanent residents who work in tourism, government, and services. The evening belongs to the waterfront restaurants.
 
 [9am in Oranjestad is 1pm in London](/when/9am-oranjestad/london), the same as [Noord](/noord).

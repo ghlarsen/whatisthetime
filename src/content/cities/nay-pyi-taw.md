@@ -15,6 +15,8 @@ Nay Pyi Taw didn't exist as a capital city until November 2005, when the militar
 
 At 19 degrees north, Nay Pyi Taw has pronounced seasonal variation. The Irrawaddy Plains climate means a hot dry season from March through May, monsoon rains from June through October, and a cooler dry season from November through February. Government hours reflect the heat: morning activity peaks before the midday temperatures become oppressive.
 
+## a capital built to run on administrative time
+
 The city's daily rhythms are shaped entirely by government and military schedules. There are few private businesses, limited tourism, and no organic urban culture of the kind that develops over generations. Nay Pyi Taw runs on administrative time.
 
 [9am in Nay Pyi Taw is 2:30am in London](/when/9am-nay-pyi-taw/london), the same offset as [Yangon](/yangon).

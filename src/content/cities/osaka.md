@@ -15,6 +15,8 @@ Osaka runs by the same clock as the rest of Japan, JST at UTC+9, but the city ha
 
 Osaka has been Japan's commercial capital since at least the 17th century, when the Tokugawa shogunate designated it as the country's rice market and distribution hub. The city's identity was built on trade, and the rhythms of commerce still define it. The Kuromon Market has operated daily since 1902.
 
+## Osaka Castle and cherry blossom season
+
 Osaka Castle, the castle rebuilt by Toyotomi Hideyoshi in the 16th century, is illuminated at night and visible from much of the city. The spring cherry blossoms around the castle grounds mark one of the year's most important social occasions, when office workers abandon their desks to sit under the trees in the afternoon light.
 
 [9am in Osaka is 12am in London](/when/9am-osaka/london), the same as [Tokyo](/tokyo) and [Nagoya](/nagoya).

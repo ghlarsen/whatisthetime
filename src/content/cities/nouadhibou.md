@@ -15,6 +15,8 @@ Nouadhibou occupies a narrow peninsula jutting into the Atlantic at the northern
 
 The port handles two main businesses: iron ore exports from the mines at Zouerate, transported by one of the world's longest freight trains (sometimes over 2 kilometers of wagons), and the fishing fleet. The ore train runs on its own schedule, independent of city time, departing Zouerate and arriving at the ore port on cycles of roughly 36 hours.
 
+## the ore train and the ship graveyard
+
 Nouadhibou also has a famous ship graveyard in its harbor, where dozens of derelict vessels have been left to rust over decades, a visible monument to the fishing industry's boom-and-bust cycles.
 
 [9am in Nouadhibou is 9am in London](/when/9am-nouadhibou/london), matching [Nouakchott](/nouakchott).

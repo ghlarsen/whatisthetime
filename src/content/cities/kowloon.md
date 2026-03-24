@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Kowloon is the peninsula that forms the continental half of Hong Kong's urban core, separated from Hong Kong Island by Victoria Harbour and connected by three underwater tunnels and the Star Ferry. It runs on Asia/Hong_Kong time: UTC+8, year-round. No daylight saving. Hong Kong has not adjusted its clocks since 1979.
 
+## Mong Kok density and the 24-hour city
+
 The density of Kowloon is extreme. Mong Kok, within Kowloon, has been cited as one of the most densely populated districts on earth. The streets here are active at hours when most cities would be quiet. The night markets, 24-hour restaurants, and shops that close only for a few hours before dawn create a city that operates outside the constraints of a normal solar day.
 
 The old Kowloon Walled City, demolished in 1994, was a stateless urban enclave within Kowloon that operated entirely by its own rules, including its own commerce hours and internal governance. It's gone now, replaced by a park, but it exemplified Kowloon's tendency toward dense, self-organizing urban life.

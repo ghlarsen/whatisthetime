@@ -13,6 +13,8 @@ Lilongwe became Malawi's capital in 1975, replacing [Blantyre](/blantyre) in the
 
 At 14 degrees south, Lilongwe has moderate seasonal daylight variation: about 10.5 hours in June (southern hemisphere winter) and 13.5 in December. The rainy season from November through March brings enough water to turn the plateau green; the dry season from May through October brings cool, clear days and cold nights.
 
+## planned capital, Old Town market schedule
+
 Malawi, the "Warm Heart of Africa," is one of the smallest and most densely populated countries in the region. Lilongwe is a planned capital built partly from scratch, with a distinct City Centre area of government buildings and an Old Town where the pre-capital settlement still operates on a traditional market schedule.
 
 The country borders [Mozambique](/mozambique), [Zambia](/zambia), and [Tanzania](/tanzania), all of which use UTC+2 (or in Tanzania's case, UTC+3). Coordination with neighbors is mostly seamless at UTC+2.

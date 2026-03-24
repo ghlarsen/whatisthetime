@@ -13,6 +13,8 @@ Le Lamentin is the largest commune in Martinique, occupying much of the island's
 
 The airport at Le Lamentin is the entry point for most visitors to Martinique, and it runs on a schedule synchronized with Air France and other European airlines operating on CET/CEST. Arriving from Paris means crossing five or six hours in the cabin, landing in a place that will be significantly further into its morning than the plane's departure time suggested.
 
+## French department, five hours behind Paris
+
 Martinique is a French overseas region, a department of France administratively, but its UTC-4 timezone keeps it well behind Paris. French administrative systems, government deadlines, and television broadcasts from the metropole all arrive at times that don't quite match the local solar day.
 
 At 14 degrees north, Le Lamentin has near-constant daylength and year-round tropical warmth. The sugarcane harvest (January-July) structures the agricultural rhythm more than any calendar.

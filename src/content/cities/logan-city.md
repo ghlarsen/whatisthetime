@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Logan City occupies the corridor between Brisbane and the Gold Coast in southeastern Queensland, one of Australia's fastest-growing urban areas. It runs on Australia/Brisbane time: UTC+10, year-round. Queensland does not observe daylight saving.
 
+## Queensland's refusal to observe daylight saving
+
 Queensland's refusal to observe daylight saving is one of Australia's great ongoing provincial arguments. New South Wales and Victoria advance their clocks in summer (to UTC+11), while Queensland stays at UTC+10. For Brisbane and the Gold Coast corridor, which trades heavily with Sydney and Melbourne, this creates a one-hour gap in summer that affects business coordination, TV broadcast schedules, and the timing of national sporting events.
 
 The Queensland no-DST position was confirmed in a 1992 referendum, and has been tested in subsequent public debate. The argument for keeping standard time centers on Queensland's northern latitude: Brisbane at 27 degrees south gets about 14 hours of daylight in summer, and advancing the clock would push sunrise past 6:30am while extending evenings past 8pm. The farmers, who are often cited in this argument, say the early morning heat makes an already-hot start to the day worse if sunrise is delayed by policy.

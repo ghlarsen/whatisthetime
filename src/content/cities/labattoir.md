@@ -13,6 +13,8 @@ Labattoir is the largest town on Petite-Terre, the smaller of Mayotte's two main
 
 Petite-Terre is just a few kilometers across, and Labattoir sits on its southern end. The ferry crossing to Mamoudzou on Grande-Terre takes about 15 minutes, running frequently throughout the day. Many Labattoir residents commute daily, making the Dzaoudzi-Labattoir area functionally part of the greater Mamoudzou urban area despite being on a separate island.
 
+## airport, Paris flights, and a colonial name
+
 The airport on Petite-Terre connects Mayotte to Paris via Réunion, a link that keeps the island administratively and temporally connected to France even while its UTC+3 clock diverges from metropolitan France by two or three hours depending on DST.
 
 The name Labattoir reflects the island's French colonial history, named for a slaughterhouse that once operated here. The name has endured long after the facility itself.

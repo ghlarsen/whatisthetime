@@ -15,6 +15,8 @@ New Kingston is the modern commercial district of Jamaica's capital, built in th
 
 At 18 degrees north, Jamaica's daylight variation is modest. Summer days run to about 13 hours; winter days shorten to just over 11. The consistent tropical climate makes seasonal adjustments feel unnecessary. The reggae hour is not defined by the clock.
 
+## finance district and the dollar clock
+
 New Kingston specifically operates on international finance time: its banks and offices calibrate their hours against New York trading hours, which makes the permanent UTC-5 alignment logical. The business of Jamaica's financial sector is largely denominated in US dollars and priced off US benchmarks.
 
 [9am in New Kingston is 2pm in London](/when/9am-new-kingston/london).

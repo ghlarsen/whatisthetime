@@ -13,6 +13,8 @@ Mahajanga sits on the northwestern coast of Madagascar, facing the Mozambique Ch
 
 The city was a major Arab and Swahili trading post before French colonization in the late nineteenth century. Its Comoran and Comorian-descended community, the Karana, are a visible part of the city's commercial life today, linking Mahajanga to [Moroni](/moroni) across the channel, which shares the same timezone.
 
+## Arab trade post to seasonal port city
+
 Madagascar's western coast sees some of the country's most dramatic seasonal change. The dry season brings dusty winds and clear skies. The wet season from November to April brings cyclones and torrential rain. The daily rhythm of fishing boats, market stalls, and ferry traffic adjusts to these patterns more than to the clock.
 
 [Antananarivo](/antananarivo), the national capital, shares this offset. [9am in Mahajanga is 6am in London](/when/9am-mahajanga/london) during European winter.

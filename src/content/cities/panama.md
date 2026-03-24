@@ -17,6 +17,8 @@ The decision to maintain a stable clock reflects the Canal's operational logic: 
 
 At 9 degrees north of the equator, Panama City's daylight barely varies: around 12 hours year-round. The city never needs to adjust for seasonal light. What changes are the rains: the dry season from January through April is clear and popular with visitors; the wet season from May through December brings daily afternoon downpours that last for hours but rarely all day.
 
+## a dramatic skyline and the dry season calendar
+
 The skyline of Panama City, a cluster of high-rise towers on a narrow isthmus, is one of the most dramatic in Latin America.
 
 [9am in Panamá is 2pm in London](/when/9am-panama/london).

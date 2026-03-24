@@ -13,6 +13,8 @@ Lankaran sits at the southern end of Azerbaijan, where the Talysh Mountains desc
 
 The subtropical microclimate here is a product of the mountains catching moisture from the Caspian and blocking cold continental air. Lankaran receives more rainfall than anywhere else in Azerbaijan, and the tea grown on its hillsides (Azerbaijani tea is a cultural institution) depends on that moisture.
 
+## tea, citrus, and the Talysh borderlands
+
 At 38 degrees north, Lankaran has meaningful seasonal daylight variation: about 9.5 hours in December, 15 in June. The permanent UTC+4 offset, without DST, means that summer evenings are not as extended by the clock as they would be with a seasonal adjustment, but Azerbaijan's decision to stop adjusting clocks in 2016 has been broadly accepted.
 
 The city's proximity to Iran, just across the Aras River to the south, creates an interesting dual-culture character. Talysh people straddle the border, sharing language and culture across the international divide.

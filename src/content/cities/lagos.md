@@ -13,6 +13,8 @@ Lagos is one of the world's largest and fastest-growing cities, a megacity of ov
 
 The city never stops. Traffic on the Third Mainland Bridge at 2am is heavier than in most cities at noon. The markets of Lagos Island start in the pre-dawn hours. Night buses keep the city connected around the clock. Lagos has a relationship with time that is less about the clock and more about energy, momentum, and opportunity.
 
+## harmattan season and the city that never sleeps
+
 At 6 degrees north, Lagos has consistent daylength: close to 12 hours year-round. The rainy season (April through October) and dry harmattan months (November through March) structure the year far more than any light-based cycle. The harmattan, when Saharan dust reduces visibility and dries everything out, changes the city's atmosphere and tempo in ways a clock adjustment never could.
 
 Nigeria is the most populous country in Africa, and Lagos is its economic engine. The city's financial markets, port operations, and media industry all tie to international time standards. Lagos Time (WAT, UTC+1) is a fixed, reliable reference in regional business.

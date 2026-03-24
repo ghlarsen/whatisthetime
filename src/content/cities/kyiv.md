@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Kyiv is one of Europe's oldest capitals, a city on the Dnieper River whose history reaches back over 1,500 years. It runs on Eastern European Time: UTC+2 in winter, UTC+3 during summer daylight saving.
 
+## Europe/Kyiv: a renamed timezone in wartime
+
 The IANA timezone database updated its identifier from Europe/Kiev to Europe/Kyiv in 2022, following the widespread adoption of the Ukrainian transliteration as the official English spelling. It's a small but significant change: timezone identifiers are one of the least-changed pieces of computing infrastructure, and the update reflected a broad shift in how the world renders the city's name.
 
 Ukraine observes EU-standard DST transitions, advancing clocks in late March and reverting in late October. At 50 degrees north, the light difference between summer and winter is real: Kyiv gets close to 16 hours of daylight at midsummer and barely 8 in December. The golden-domed monasteries on the city's hills catch morning light in summer in a way that has been described since the 10th century.

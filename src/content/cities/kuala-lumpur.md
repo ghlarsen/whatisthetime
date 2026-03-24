@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Kuala Lumpur runs on Malaysia Standard Time: UTC+8, year-round, no daylight saving. But the city was not always on this clock.
 
+## the 1982 shift that moved solar noon to 12:35pm
+
 Until 1982, peninsular Malaysia used UTC+7:30, a half-hour offset from the full hour. In 1982, Malaysia advanced its clocks by 30 minutes to UTC+8, unifying with the East Malaysian states of Sabah and Sarawak on Borneo. The logic was administrative: one country, one time, simpler coordination.
 
 The consequence for Kuala Lumpur is that the city runs about 35 minutes ahead of where solar time would place it. True solar noon in KL falls around 12:35pm by the clock. Sunrise in December arrives around 7:10am. The mismatch is noticeable if you pay attention, though after 40 years most residents simply accept it as natural.

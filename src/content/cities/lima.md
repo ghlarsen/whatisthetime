@@ -13,6 +13,8 @@ Lima sits on Peru's Pacific coast at 12 degrees south, a desert city where almos
 
 Peru has not observed daylight saving since 1994. The country briefly experimented with it in 1990, found no meaningful benefit, and has not returned. The stable UTC-5 aligns Lima with New York's winter time, a useful constant for business communication with North America's east coast.
 
+## garúa season: a city without visible sun
+
 The marine layer has a temporal quality to it. Lima winters (June-August in the southern hemisphere) are known as "garúa" season, when the grey mist settles over the city, and the coastal neighborhoods feel as though they're operating in a perpetual afternoon light, never fully bright, never fully dark. Locals from the sierra joke that Limeños don't know what sunlight looks like.
 
 The Miraflores and Barranco districts perch on the cliffs above the Pacific, and the afternoons when the garúa lifts and the sun breaks through over the ocean are genuinely celebrated.

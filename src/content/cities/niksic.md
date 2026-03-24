@@ -15,6 +15,8 @@ Nikšić is Montenegro's second-largest city, sitting in a wide upland basin sur
 
 The city has a university and a well-known beer brand, Nikšićko pivo, which has been brewed here since the 1960s. The brewery is one of the city's main economic anchors. The brewing schedule runs independent of seasons, but the consumption definitely picks up in summer, when the basin heats up and cold beer becomes a necessity.
 
+## long winters and a slower inland pace
+
 Winter evenings here are long and dark, colder than the coast, and the city has a slower, more introspective rhythm than Podgorica. The mountains hold snow into spring.
 
 [9am in Nikšić is 8am in London](/when/9am-niksic/london), shared with [Podgorica](/podgorica).

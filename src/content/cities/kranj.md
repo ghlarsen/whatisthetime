@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Kranj sits where the Sava and Kokra rivers meet, with the Karavanke and Kamnik-Savinja Alps rising steeply to the north. It's Slovenia's fourth-largest city and one of its industrial centers, running on Europe/Ljubljana time: UTC+1 in winter (CET), UTC+2 in summer (CEST). The DST transitions follow EU schedule.
 
+## Alpine light and Prešeren's legacy
+
 The city's position at the foot of the Alps creates dramatic morning light. In summer, the sun clears the peaks to the east and floods the valley floor early. In winter, the surrounding ridges delay sunrise until the sun is high enough to crest them, shaving time off already short December days.
 
 France Prešeren, Slovenia's national poet, was born near Kranj and is buried there. His statue anchors the old town square, and the café culture surrounding it has developed a reputation for lingering late over coffee, the alpine style of spending time.

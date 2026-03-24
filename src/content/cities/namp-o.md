@@ -13,6 +13,8 @@ Namp'o is North Korea's principal port, sitting on the Yellow Sea coast at the m
 
 [North Korea](/country/north-korea) uses Korean Standard Time, UTC+9, which it shares with South Korea and Japan. This wasn't always the case. In 2015, North Korea moved its clocks back 30 minutes to create "Pyongyang Time" at UTC+8:30, explicitly framing the change as rejecting the timezone imposed by Japanese colonialism. In 2018, before the inter-Korean summit, Kim Jong-un ordered the clocks moved forward again to align with Seoul.
 
+## Pyongyang Time and a political clock
+
 At 38 degrees north, Namp'o experiences real seasons. Summer days approach 14.5 hours of daylight. Winter days shorten to under 10. The tidal flat agriculture and fishing activities around the port area operate on schedules shaped as much by season and tide as by the clock.
 
 Information from Namp'o is scarce, like most of North Korea. What's known comes from satellite imagery, defector accounts, and the occasional state media release. The port's activity levels fluctuate with sanctions and diplomatic conditions.

@@ -13,6 +13,8 @@ Lae is Papua New Guinea's second city and its industrial heartland, a port on th
 
 The Huon Gulf receives the Markham River, one of Papua New Guinea's most significant waterways, which drains the broad Markham Valley toward the coast at Lae. The valley floor is a critical agricultural zone, and Lae's port handles much of the valley's copra, coffee, and palm oil exports.
 
+## WWII airfields and PNG's industrial engine
+
 Lae has historical significance from World War II. The city was occupied by Japan from 1942 to 1943, and the campaign to retake it, including parachute drops on Nadzab in the Markham Valley, was among the first large-scale airborne operations in the Pacific. The airfields built during that period became the foundation of modern air transport in PNG.
 
 At 6 degrees south of the equator, Lae has near-constant daylength. Sunrise around 6am, sunset around 6pm, year-round. The wet and dry seasons, and the tidal schedule at the port, matter more to daily life than the clock.

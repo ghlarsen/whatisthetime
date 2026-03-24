@@ -15,6 +15,8 @@ The Northern Territory uses Australia/Darwin: UTC+9:30, year-round, no daylight 
 
 At 12.5 degrees south, Palmerston barely registers seasonal light variation. Sunrise and sunset stay within about 45 minutes of the same time year-round. The climate operates on the tropical wet/dry cycle: the wet season from October through April brings monsoon rains, flooding, and humidity; the dry season from May through September is clear, warm, and comfortable.
 
+## military time and the tropical wet season
+
 Palmerston has a large Defence Force presence nearby and houses many military families. The rhythms of RAAF Base Darwin and the nearby Robertson Barracks give part of the city a schedule that runs on military time.
 
 [9am in Palmerston is 11:30pm the previous day in London](/when/9am-palmerston/london), the same as [Darwin](/darwin).

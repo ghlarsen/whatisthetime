@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Makassar is the capital of South Sulawesi and the largest city in eastern Indonesia. It runs on Central Indonesia Time, UTC+8, locally known as WITA. Indonesia splits across three timezones: WIB (UTC+7) in the west including Jakarta, WITA (UTC+8) in the center, and WIT (UTC+9) in the east.
 
+## Bugis navigators and the spice islands gateway
+
 The city was historically one of the most important trading ports in Southeast Asia, linking the spice islands of Maluku to the west. The Makassarese and Bugis seafarers from this coast were legendary navigators who reached as far as northern Australia centuries before European contact. The city's trading identity remains: Makassar is today the primary commercial hub for eastern Indonesia.
 
 At 5 degrees south latitude, daylight barely shifts across the year. No DST applies. The daily rhythm is more shaped by the monsoonal calendar, wet season from November to March, dry season from April to October, than by any clock adjustment.

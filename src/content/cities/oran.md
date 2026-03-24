@@ -15,6 +15,8 @@ Oran is Algeria's second-largest city, facing the Mediterranean from the northwe
 
 At 35.7 degrees north on the Mediterranean, Oran has a classic Mediterranean climate: dry hot summers, mild wet winters. The summer heat shapes the city's rhythm: the siesta is not a cliché but a practical response to afternoon temperatures. Activity concentrates in mornings and evenings, and the waterfront promenade fills late in the evening when the sea breeze brings the temperature down.
 
+## raï music and late-night rhythm
+
 Oran has a strong tradition in raï music, the genre that emerged from the city's working-class neighborhoods in the 1970s and spread globally. The concert scene runs on its own late-night schedule.
 
 [9am in Oran is 8am in London](/when/9am-oran/london).

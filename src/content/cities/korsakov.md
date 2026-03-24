@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Korsakov is the main port of Sakhalin Island's southern tip, the entry point for ferries from Hokkaido and the gateway to the Kuril Islands stretching northeast toward Japan. It runs on Asia/Sakhalin time, UTC+11, year-round. Like [Kholmsk](/kholmsk) on the island's west coast, it has not observed daylight saving since Russia abolished it in 2014.
 
+## salmon runs, canneries, and around-the-clock fishing
+
 The city was Otomari under Japanese administration until 1945, and its port infrastructure still bears traces of that period. The Japanese-built cold storage facilities for the fishing industry were among the earliest examples of industrial refrigeration in the region.
 
 Sakhalin's fishing economy operates around the Pacific salmon run, which peaks from July through September. During these months, the canneries and processing plants run around the clock, making the difference between shift time and solar time largely academic. Crews track the fish run, not the sun.

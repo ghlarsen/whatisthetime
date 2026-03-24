@@ -15,6 +15,8 @@ Nouakchott is one of the world's youngest capital cities. When Mauritania gained
 
 Sand is the city's persistent opponent. The Sahara encroaches from the east, and wind-blown sand is a constant presence in the city's streets, buildings, and lungs. Major sandstorms can reduce visibility to near zero. The harshest conditions arrive between February and April with the harmattan winds from the northeast.
 
+## sand, heat, and a city organized around avoidance
+
 The daily rhythm is organized around prayer times and heat avoidance. Midday is quiet, shops close, and the city retreats indoors. Activity resumes in the late afternoon and evening, when the temperature drops and the sea breeze occasionally brings relief.
 
 [9am in Nouakchott is 9am in London](/when/9am-nouakchott/london).

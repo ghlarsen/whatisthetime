@@ -15,6 +15,8 @@ French Polynesia uses Tahiti Time, UTC-10, year-round with no daylight saving. T
 
 The Marquesas Islands, further northeast, use a different offset: UTC-9:30, one of the world's remaining half-hour timezone anomalies. French Polynesia's territory spans an ocean area larger than Europe, and the timezones vary accordingly.
 
+## Gauguin's light and the half-hour Marquesas
+
 Paul Gauguin came to Tahiti seeking a world outside European industrial time, and the paintings he made here document light and skin and vegetation at particular hours of particular days. The Musée Paul Gauguin in Papeete holds some of his work and some of the light he was trying to capture.
 
 [9am in Papeete is 7pm in London](/when/9am-papeete/london).

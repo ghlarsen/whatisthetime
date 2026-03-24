@@ -15,6 +15,8 @@ The FSM uses multiple timezones across its scattered islands. Pohnpei, where Pal
 
 At 6.9 degrees north, Palikir's daylight barely varies: around 12 hours year-round. Pohnpei is famously one of the wettest places on earth, receiving over 7,000 millimeters of rain annually in some parts of the island. The wetness shapes everything: the lush forest that covers the mountainous interior, the agricultural practices, and the daily rhythm of working around the rainfall that can arrive at any time.
 
+## Nan Madol and a civilization without writing
+
 The Nan Madol megalithic city, a complex of artificial islets connected by canals built between 1200 and 1500 AD, sits off Pohnpei's eastern coast. It was the ceremonial and political center of the Saudeleur dynasty and was constructed without any metal tools or written records.
 
 [9am in Palikir is 10pm the previous day in London](/when/9am-palikir/london).

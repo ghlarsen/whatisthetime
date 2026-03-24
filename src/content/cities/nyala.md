@@ -15,6 +15,8 @@ Nyala is the capital of South Darfur state and one of Sudan's largest cities, th
 
 Nyala functions as the main commercial hub for Darfur, a region roughly the size of France. Its markets handle goods for a vast rural hinterland that has no other comparable urban center nearby. The city's market economy connects nomadic pastoralists, settled farmers, and long-distance traders in networks that have existed for centuries along Saharan and Sahelian routes.
 
+## conflict, displacement, and humanitarian operations
+
 The conflict in Darfur that began in 2003 has made Nyala the base for one of the world's largest humanitarian operations. UN agencies, NGOs, and peacekeeping missions have operated from here, adding an international institutional time layer to the city's existing rhythms.
 
 [9am in Nyala is 7am in London](/when/9am-nyala/london), the same as [Omdurman](/omdurman).

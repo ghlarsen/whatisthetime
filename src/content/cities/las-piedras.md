@@ -13,6 +13,8 @@ Las Piedras sits in the Canelones department, about 30 kilometers north of Monte
 
 Uruguay's decision to abandon DST came after research suggested the energy savings were marginal and the disruption to sleep patterns and public health was measurable. The permanent UTC-3 setting aligned the country permanently with its winter time, which most researchers consider better for circadian health.
 
+## wine harvest, grape picking before dawn
+
 At 34 degrees south (southern hemisphere), Las Piedras has its summer in December-February and winter in June-August. The seasonal daylight reversal from the northern hemisphere means that December evenings here stay light until past 8:30pm, while June dusks arrive around 5:30pm.
 
 The wine harvest in March and April is the agricultural event that anchors the year in Las Piedras's surrounding vineyards. This is the moment when the working hours extend: grape picking often begins before sunrise to capture cool temperatures before the autumn heat builds.

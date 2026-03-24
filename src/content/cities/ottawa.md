@@ -15,6 +15,8 @@ Ottawa is the coldest national capital in the world after Ulaanbaatar. This is n
 
 At 45.4 degrees north, Ottawa has real seasonal extremes: summer days push toward 15.5 hours of light, with warm July temperatures that seem incongruous after the winter. The spring thaw and the summer heat are not gentle transitions; they're dramatic reversals.
 
+## the river border and parliamentary time
+
 The Ottawa River divides Ontario and Quebec, and the city of Gatineau, Quebec, is directly across the river. Both cities are in the same timezone, but Quebec and Ontario have occasionally differed on DST policy. Currently both observe the same transitions.
 
 [9am in Ottawa is 2pm in London](/when/9am-ottawa/london), the same as [Toronto](/toronto).

@@ -15,6 +15,8 @@ New Caledonia uses New Caledonia Time, NCT, UTC+11, year-round with no daylight 
 
 Nouméa is unusual among Pacific capitals for its very French character: baguettes, wine, roundabouts, and a sense of design that distinguishes it from Suva or Port Moresby. But the indigenous Kanak population and their land rights have been central to the territory's political life for decades. The Noumea Accord of 1998, the independence referenda of 2018, 2020, and 2021 (all won by those wishing to remain French), are the political rhythm underlying the city's daily life.
 
+## nickel, independence referenda, and French Pacific life
+
 Nickel mining is the economic foundation. New Caledonia holds roughly a quarter of the world's known nickel reserves, and the smelting operations at Doniambo near Nouméa run around the clock.
 
 [9am in Nouméa is 10pm the previous day in London](/when/9am-noumea/london).

@@ -13,6 +13,8 @@ Nitra has been continuously inhabited since the Paleolithic, and the castle on t
 
 Slovakia follows Central European Time, UTC+1 in winter and UTC+2 during summer, with EU standard daylight saving transitions. [Slovakia](/country/slovakia) shares this with [Bratislava](/bratislava) to the southwest. Nitra sits at 48 degrees north, giving it real seasonal light variation: summer days stretch toward 16 hours of daylight, while December days shorten to under 8.5 hours. The long summer evenings are used: the castle illuminated at night, outdoor concerts in the medieval courtyard.
 
+## harvests, fairs, and an ancient valley rhythm
+
 Nitra is also a significant agricultural city, sitting in one of Slovakia's most productive farming regions. The agricultural fair held here annually is one of the largest in Central Europe. The autumn harvest rhythm has structured this valley's schedule for a thousand years.
 
 The city has a university and a research institute focused on the region's agricultural industry. The academic year layers an additional calendar structure over the older agricultural one.

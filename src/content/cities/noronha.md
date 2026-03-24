@@ -15,6 +15,8 @@ Fernando de Noronha is an archipelago of 21 islands 354 kilometers off the north
 
 The island itself is a UNESCO World Heritage Site and a Brazilian national park. Tourism is strictly controlled, access is limited, and an environmental tax applies to all visitors. The result is one of the cleanest and most pristine marine environments in the South Atlantic, with diving conditions that attract specialists from around the world.
 
+## a protected island on its own clock
+
 Daily life on Noronha runs to the dive schedule and the weather. The dive operators organize morning and afternoon sessions around the light conditions. Sunrise over the Atlantic, with the volcanic peaks of Pico do Meio and Morro do Leão behind you, is the kind of moment that makes the two-hour timezone difference from mainland Brazil feel entirely appropriate.
 
 [9am in Noronha is 11am in London](/when/9am-noronha/london).

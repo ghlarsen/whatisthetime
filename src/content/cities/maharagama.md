@@ -13,6 +13,8 @@ Maharagama is a city in the Western Province of Sri Lanka, effectively part of t
 
 Sri Lanka's current offset dates to 1996. Before that, the country briefly used UTC+6:30 from 1996 to the same year, then revised it back. Earlier, Sri Lanka had used UTC+5:30 in alignment with India. The half-hour increments are unusual globally and reflect the island's desire to maintain a distinct identity from its larger neighbor while acknowledging geographic reality.
 
+## UTC+5:30 and Sri Lanka's distinct timekeeping identity
+
 Colombo and its suburbs sit just 7 degrees north of the equator, where day length barely varies across the year. Sunrise is around 6am year-round. Sunset around 6pm. The stable daylight makes DST irrelevant in any practical sense.
 
 [Colombo](/colombo), the commercial capital, shares this timezone. [9am in Maharagama is 3:30am in London](/when/9am-maharagama/london), the kind of offset that catches British-Sri Lankan businesses unprepared because it's neither a round number nor immediately calculable.

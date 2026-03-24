@@ -13,6 +13,8 @@ Macau was a Portuguese colony for over four centuries, returning to Chinese admi
 
 The clock alignment with Hong Kong is economically essential. Most visitors to Macau's casinos arrive from the mainland and Hong Kong. The high-speed ferry service runs on Hong Kong time. The gaming tables run on Hong Kong time. Macau's GDP per capita, among the highest in the world, is denominated in Hong Kong dollar transactions and Macanese pataca, and the financial day in both cities runs simultaneously.
 
+## former colony, shared clock with Hong Kong
+
 Portugal itself is in UTC (winter) or UTC+1 (summer), meaning the former colonizer and the former colony are separated by eight or nine hours depending on the season. The Portuguese architectural legacy of Macau, the Baroque churches, the cobblestone Senado Square, all exist in a timezone that puts them almost exactly opposite the Iberian clock.
 
 [Luhuan](/luhuan), a district within Macau, shares this same time. [9am in Macau is 1am in London](/when/9am-macau/london), a gap that matters for European financial institutions with operations in Macau's gaming licensing sector.

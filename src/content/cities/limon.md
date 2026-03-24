@@ -13,6 +13,8 @@ Limón (Puerto Limón) is Costa Rica's main port on the Caribbean coast, a city 
 
 The railway that brought Limón's population into being is largely non-functional now. The port handles container traffic and banana exports, but the city itself has declined relative to its late 19th-century peak. What remains is the Caribbean character that developed in its own direction from the rest of Costa Rica.
 
+## Afro-Caribbean culture and Caribbean rainfall
+
 At 10 degrees north, Limón has consistent daylength close to 12 hours. The Caribbean coast receives significantly more rainfall than the Pacific side, often exceeding 4,000 mm per year. The rains fall at their own schedule, paying no attention to the clock.
 
 Costa Rica's permanent UTC-6 (with no daylight saving) means Limón is consistently in the same timezone as Guatemala City and most of Central America's Caribbean ports.

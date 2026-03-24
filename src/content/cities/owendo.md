@@ -15,6 +15,8 @@ Owendo is the port and industrial zone of greater Libreville, sitting on the Gab
 
 The equatorial position means that the concept of seasons is replaced by the wet and dry season cycle. The main dry season from June to September and the main wet season from October to December govern what can be done outdoors. Humidity is consistently high regardless of season.
 
+## declining oil and the manganese port
+
 Gabon's oil wealth, which funded much of the country's development since the 1970s, is declining as reserves deplete. The manganese exports from Owendo port take on increasing importance as Gabon manages this transition.
 
 [9am in Owendo is 8am in London](/when/9am-owendo/london).

@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Lomé sits on the southern coast of Togo, right at the border with Ghana. The city's western outskirts effectively touch Aflao, Ghana's border town, and the two settlements merge into a single urban area divided by a border crossing. Both cities run on UTC+0: Lomé on Africa/Lome, Accra on Africa/Accra. No daylight saving on either side.
 
+## walking across the border from the city center
+
 This shared clock makes the Lomé-Accra border one of the most temporally frictionless crossings in Africa. No clock adjustment needed, no "lose an hour, gain an hour" calculation at the crossing. Traders who work across this border every day operate on a single time reference.
 
 Lomé is the only capital city in the world where you can walk across the border into another country from the city center. The Grand Marché (Grand Market) extends close to the Ghana border, and the informal economy here straddles the crossing with complete indifference to national boundaries.

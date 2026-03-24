@@ -15,6 +15,8 @@ Novosibirsk is Russia's third-largest city and the de facto capital of Siberia, 
 
 At 55 degrees north, the seasonal light variation in Novosibirsk is extreme. June brings over 17 hours of daylight and white nights where it never gets fully dark. January brings under 8 hours, with intense Siberian cold that can push temperatures below -40 degrees. The city was designed for this climate: underground passages connect major buildings, and the central heating system runs communally from massive district heating plants.
 
+## Akademgorodok and intellectual Siberia
+
 The Akademgorodok, a science city built in the forest south of Novosibirsk in the 1950s, houses dozens of research institutes and one of Russia's most prestigious universities. It runs on its own intellectual time zone.
 
 [9am in Novosibirsk is 2am in London](/when/9am-novosibirsk/london).

@@ -13,6 +13,8 @@ New Taipei City wraps around Taipei on three sides, a ring municipality of mount
 
 Taiwan uses China Standard Time, UTC+8, no daylight saving. The island last observed DST in 1979 and has not returned to it. At 25 degrees north, Taiwan's seasonal light variation is moderate: summer days approach 13.5 hours, winter days shorten to under 11. The consistent subtropical climate reduces the argument for seasonal adjustment.
 
+## neighborhoods, mountains, and ceramics
+
 New Taipei City contains some of Taiwan's most distinctive neighborhoods. Jiufen, the old gold-mining town in the northeastern mountains, inspired the Miyazaki film aesthetic discussion that cycles through international internet forums every few years. Danshui on the estuary has been a transit point since the 17th century. Yingge is the ceramics capital. The municipality contains multitudes.
 
 The commuter rhythm is significant: the MRT extensions into New Taipei City have enabled residential sprawl that feeds Taipei's office hours. The morning crush on the Zhonghe-Xinlu and Danshui-Xinyi lines peaks between 7:30am and 9am.

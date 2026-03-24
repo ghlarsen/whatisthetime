@@ -13,6 +13,8 @@ Les Abymes is the most populated commune in Guadeloupe, a sprawling urban area o
 
 The airport is the temporal gateway for most visitors to Guadeloupe. Flights from Paris arrive in the early morning after an 8-hour red-eye, landing into an island that is four hours behind, meaning a 6am Paris departure lands at 10am local time despite being a long flight. The arithmetic of Caribbean time works in the traveler's favor on arrival.
 
+## airport suburbs and the four-hour Paris gap
+
 Les Abymes takes its name from the swamps (abymes) that once covered the low-lying land between the sea and the inland hills. The city grew around the airport and the commercial arteries connecting it to Pointe-à-Pitre, developing into a dense suburban and commercial zone.
 
 [Le Gosier](/le-gosier) to the south and Pointe-à-Pitre to the west keep the same UTC-4 clock. At 16 degrees north, Les Abymes has near-constant daylength. The trade winds keep it comfortable despite the latitude.

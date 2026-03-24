@@ -13,6 +13,8 @@ Kapolei, Makakilo, and Honokai Hale are communities on the western side of Oahu,
 
 The reasoning is geographic. Hawaii sits at about 21 degrees north latitude, where the difference in day length between winter and summer is modest: roughly 11 hours in December, 13.5 hours in June. Shifting clocks by an hour provides minimal practical benefit. Hawaii's legislature tried introducing DST during World War II under federal mandate, then dropped it as soon as the mandate ended.
 
+## Oahu's second city, same fixed clock
+
 Kapolei was developed in the 1980s and 90s as Oahu's "second city," intended to take development pressure off Honolulu. The planned community grew around a new infrastructure separate from the crowded southeast corridor.
 
 [Honolulu](/honolulu) sits just east on the same island and shares this timezone. [9am in Kapolei is 7pm in London](/when/9am-makakilo-kapolei-honokai-hale/london), placing Hawaii in a dramatically different working day from the US mainland's East Coast, let alone Europe.

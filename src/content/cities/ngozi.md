@@ -15,6 +15,8 @@ Ngozi sits in the northern highlands of Burundi at around 1,700 meters elevation
 
 Ngozi is a provincial capital and administrative center. The weekly market is one of the largest in the north of the country, drawing trade from surrounding hills. The agricultural calendar, driven by two rainy seasons (February to May and September to November), shapes the rhythm more than any administrative schedule.
 
+## highland coffee and seasonal harvests
+
 Coffee is a major crop in Burundi's highlands, and the harvest timing around Ngozi is economically critical. The processing cooperatives operate on the seasonal schedule of the coffee cherries more than any fiscal year calendar.
 
 [9am in Ngozi is 7am in London](/when/9am-ngozi/london).

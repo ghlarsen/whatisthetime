@@ -15,6 +15,8 @@ Russia uses Moscow Time, UTC+3, year-round without daylight saving across much o
 
 At 56 degrees north, the city's seasonal light swing is dramatic. Summer solstice brings nearly 18 hours of daylight and white nights when twilight lingers after midnight. December brings under 7 hours. The Volga freezes in winter, typically in November or December, and the ice break-up in April is a significant seasonal event, marking the end of winter and the beginning of river navigation season.
 
+## Gorky years and the Volga freeze
+
 The city was renamed Gorky during the Soviet period and served as a closed scientific city. It's now open and home to automobile manufacturing (the GAZ plant), one of Russia's largest auto companies, and a growing technology sector.
 
 [9am in Nizhniy Novgorod is 6am in London](/when/9am-nizhniy-novgorod/london).

@@ -15,6 +15,8 @@ December inverts this completely. The sun rises at 9:18am and sets at 3:12pm. Ju
 
 [Norway](/country/norway) follows Central European Time, UTC+1 in winter and UTC+2 in summer (CEST), with EU standard transitions. Oslo shares this with [Copenhagen](/copenhagen) and [Stockholm](/stockholm), all clustered in the same timezone despite sitting at latitudes where the light behaves very differently from southern Europe.
 
+## the fjord and the friluftsliv calendar
+
 Oslo is a wealthy, compact city organized around the Oslofjord. The fjord is part of the city's rhythm: the ferry connections to the islands in the harbor, the summer sailing culture, the winter skating on coastal bays when the water is cold enough to freeze.
 
 [9am in Oslo is 8am in London](/when/9am-oslo/london).

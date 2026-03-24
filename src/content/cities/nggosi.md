@@ -15,6 +15,8 @@ Nggosi is a small community in the Solomon Islands, part of the Pacific archipel
 
 The Solomon Islands' remote communities like Nggosi operate on rhythms shaped by traditional subsistence agriculture and fishing. Gardening often begins before full daylight to take advantage of cooler temperatures. Fishing trips time themselves around the tides and the fish patterns rather than any clock.
 
+## Guadalcanal and the weight of wartime history
+
 Guadalcanal, the main island and site of the capital Honiara, was the scene of one of World War II's longest and most brutal land campaigns. The battle for Guadalcanal from August 1942 to February 1943 shaped the island's landscape and collective memory. Remnants of that history are still visible.
 
 [9am in Nggosi is 10pm the previous day in London](/when/9am-nggosi/london), the same as [Honiara](/honiara).

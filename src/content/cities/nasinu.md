@@ -15,6 +15,8 @@ Nasinu is a dense suburban city in the greater Suva area on Viti Levu, Fiji's ma
 
 At 18 degrees south, Nasinu's climate is warm and humid year-round, with a wet season from November to April. The seasonal variation in daylight is modest, around an hour and a half between the longest and shortest days. The rhythm of the city is shaped more by rainfall, school terms, and the sugar and tourism seasons than by any major daylight shift.
 
+## cultural calendars layered on Fiji Time
+
 The Indo-Fijian community, which represents roughly 37% of Fiji's population and a significant share of Nasinu's residents, has brought Diwali and Holi into the city's annual calendar alongside Fijian and Christian observances. The city's time is layered with multiple cultural rhythms.
 
 [9am in Nasinu is 9pm the previous day in London](/when/9am-nasinu/london), the same as [Nadi](/nadi).

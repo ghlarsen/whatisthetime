@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 La Laguna is the historic capital of Tenerife, a UNESCO World Heritage city whose grid layout, designed in 1496, became the model for Spanish colonial cities across the Americas. It runs on Atlantic/Canary time: UTC+0 in winter, UTC+1 in summer, making it one hour behind mainland Spain despite being politically part of Spain.
 
+## Atlantic islands, one hour behind mainland Spain
+
 The Canary Islands sit off the northwest coast of Africa, roughly at the latitude of southern Morocco. Geographically, they belong to the Atlantic rather than Europe. Their timezone reflects this: Western European Time, matching [Lisbon](/lisbon) and [London](/london) in winter rather than Madrid.
 
 La Laguna's University of La Laguna, founded in 1701, has long been one of Spain's academic centers. The university culture creates a particular rhythm: late mornings, long lunches, evenings that run well past midnight in the student quarter. Canarian social time runs naturally late, with dinner rarely before 9pm.

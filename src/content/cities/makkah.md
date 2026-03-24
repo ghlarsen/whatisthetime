@@ -13,6 +13,8 @@ Makkah is the holiest city in Islam and the destination of the Hajj pilgrimage t
 
 The city's time is structured by the five daily prayers, which are announced by loudspeakers from the Masjid al-Haram, the Grand Mosque containing the Kaaba. During Hajj season, pilgrims from across every timezone arrive and immediately adjust to Makkah time, not just civil time but the sacred schedule of prayers that mark each portion of the day.
 
+## the world's largest clock face and Mecca Time
+
 The Abraj Al-Bait clock tower complex adjacent to the Grand Mosque houses what is claimed to be the world's largest clock face, visible for kilometers and deliberately designed to broadcast Islamic time across the city. Saudi Arabia proposed at one point establishing "Mecca Time" as a global alternative to Greenwich Mean Time, arguing that Makkah lies on a longitude with no magnetic anomaly. The proposal did not gain international traction.
 
 [Madinah](/madinah) and [Riyadh](/riyadh) share the same offset. [9am in Makkah is 6am in London](/when/9am-makkah/london) during European winter, a three-hour gap that is consistent year-round.

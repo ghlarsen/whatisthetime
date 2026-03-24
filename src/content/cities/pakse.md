@@ -15,6 +15,8 @@ Pakse sits at the confluence of the Xe Don and Mekong rivers in Champasak provin
 
 The Bolaven Plateau above Pakse is Laos' coffee-growing region, producing mostly robusta and arabica beans that have found international markets in recent years. The coffee harvest from November through March gives Pakse's agricultural hinterland a seasonal economic pulse.
 
+## coffee plateau and colonial streetscape
+
 Pakse has a distinctive Franco-Lao colonial architecture in its older quarters, built during the French Indochina period when it served as the provincial capital. The old market building and riverside hotels date from this era.
 
 [9am in Pakse is 2am in London](/when/9am-pakse/london).

@@ -15,6 +15,8 @@ Osh has been continuously inhabited for at least 3,000 years. The Sulayman Mount
 
 Osh sits in the Fergana Valley, which it shares with parts of Uzbekistan and Tajikistan. The borders drawn by Soviet cartographers in the 1920s and 1930s deliberately interleaved the three nations' territories in the valley, creating a patchwork of enclaves and exclaves that has led to recurring border conflicts.
 
+## Jayma Bazaar and pre-industrial market time
+
 The Jayma Bazaar, one of Central Asia's oldest and largest markets, operates on market days along the bank of the Ak-Buura River. The market's rhythm is pre-industrial: buyers and sellers arrive from hundreds of kilometers, the transactions are face-to-face, and the schedule is seasonal.
 
 [9am in Osh is 3am in London](/when/9am-osh/london), the same as [Bishkek](/bishkek).

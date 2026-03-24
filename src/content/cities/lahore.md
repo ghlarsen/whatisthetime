@@ -13,6 +13,8 @@ Lahore is Pakistan's cultural heartland, a city of Mughal gardens, colonial-era 
 
 The Lahore Fort and Badshahi Mosque, both UNESCO World Heritage Sites, were built when time in this part of the world was kept by sundials and muezzins. The five daily prayers still structure the day for much of Lahore's population, particularly in the older districts, overlaying the digital clock with an older temporal rhythm.
 
+## thirty minutes from Amritsar, a different clock
+
 Lahore sits at 31 degrees north, giving it more seasonal daylight variation than [Karachi](/karachi) to the south: about 10 hours in December, 14 in June. Summer evenings here stay light until close to 7:30pm, and the evening culture of the city, outdoor restaurants, cricket games in the parks, extended family gatherings, naturally takes advantage of it.
 
 The city's position near the Indian border means that Lahore operates on a different clock from Amritsar, just 50 kilometers away across the border. Indian Standard Time is UTC+5:30, a 30-minute difference that creates a small but real timezone gap between two historically connected cities.

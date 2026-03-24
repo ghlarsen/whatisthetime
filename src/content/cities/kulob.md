@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Kŭlob (also written Kulyab) sits in southern Tajikistan, in the Khatlon Province, at the edge of the Vakhsh River valley. It runs on Tajikistan Time, UTC+5, year-round, the same clock as [Dushanbe](/dushanbe). No daylight saving.
 
+## civil war stronghold and aluminum smelter city
+
 Tajikistan fixed its clocks permanently at UTC+5 in 1991 on independence, a clean break from the Soviet-era summer time adjustments. The decision aligned Tajikistan with the natural solar position for the country's western extent.
 
 Kŭlob played a significant political role during the Tajikistani civil war of 1992-1997. The city was a stronghold for forces that eventually prevailed, and the political identity of the region remains distinct from the north. This history gives the city a weight that its modest size doesn't suggest.

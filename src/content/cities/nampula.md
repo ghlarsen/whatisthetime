@@ -13,6 +13,8 @@ Nampula is the commercial and transport hub for northern Mozambique, sitting on 
 
 [Mozambique](/country/mozambique) uses Central Africa Time, UTC+2, with no daylight saving. Nampula shares this clock with [Maputo](/maputo) far to the south, though the two cities sit in strikingly different Mozambique. At around 15 degrees south, Nampula's days range from roughly 11 to 13 hours of light across the year. The dry season runs from May through October; the wet season brings heavy rains and can disrupt the unpaved roads that connect surrounding rural areas to the city.
 
+## two calendars in one city
+
 Nampula is a Catholic-majority city in a country where the north skews more Muslim than the south. The cathedral built by Portuguese colonizers dominates the central square. Both the Catholic calendar and the Islamic one structure different parts of the city's year.
 
 The city's position on the Nacala Corridor, the rail and road connection between the port of Nacala and the interior, gives it commercial significance beyond its immediate region. Goods from Malawi, Zambia, and inland Mozambique move through.

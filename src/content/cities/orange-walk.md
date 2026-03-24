@@ -15,6 +15,8 @@ At 18 degrees north, Orange Walk's daylight varies modestly: around 11 hours in 
 
 The Crooked Tree Wildlife Sanctuary to the south and the Maya ruins at Lamanai up the New River are the region's main draws for outside visitors. Lamanai, an active Maya city from around 1500 BC until the Spanish period, gives the Orange Walk area a depth of human time that puts the colonial-era sugar economy in perspective.
 
+## many cultures, one clock
+
 Orange Walk's population includes Maya communities, Mennonite farming settlements, Garifuna, and the mixed Creole and Mestizo communities that characterize northern Belize. Multiple cultures, one clock, one language of commerce.
 
 [9am in Orange Walk is 3pm in London](/when/9am-orange-walk/london).

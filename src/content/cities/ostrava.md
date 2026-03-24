@@ -15,6 +15,8 @@ Ostrava was the Pittsburgh of Central Europe for much of the 20th century, a cit
 
 Ostrava sits near the Moravian-Silesian border with Poland and Slovakia, and the tripoint where the three countries meet is within easy day-trip distance. The Oder River headwaters are nearby. The city has reinvented itself partly as a music venue: the Colors of Ostrava festival, held in the Dolní Vítkovice industrial heritage site in July, is one of Central Europe's most distinctive music events.
 
+## steel legacy and summer festival correction
+
 The winters here have a Silesian heaviness: grey, cold, and long. Summer, with its 15-hour days and outdoor festival culture, is the corrective.
 
 [9am in Ostrava is 8am in London](/when/9am-ostrava/london), the same as [Prague](/prague).

@@ -13,6 +13,8 @@ La Paz sits in a canyon that drops sharply from the Altiplano at over 4,000 mete
 
 At this altitude, the atmosphere is thin enough to notice. The UV index is extreme, even on overcast days. Sunrise feels different at altitude: sharper, more immediate, without the coastal haze that softens dawn at sea level. Visitors take days to acclimatize.
 
+## canyon capital and El Alto
+
 Bolivia has kept UTC-4 since 1932, and the absence of daylight saving reflects the country's geographic position and economic structure. Bolivia is landlocked, situated in the tropics, and the agricultural and mining sectors that drive the economy follow seasonal and natural cycles rather than politically adjusted clock time.
 
 El Alto, the city that sits at the canyon rim above La Paz, is a separate municipality at over 4,000 meters and runs on the same UTC-4 clock. Together they form one of South America's largest urban areas.

@@ -13,6 +13,8 @@ Madinah is Islam's second holiest city, and time here is structured by something
 
 [Saudi Arabia](/country/saudi-arabia) runs on Arabia Standard Time, UTC+3, year-round. No daylight saving. The kingdom made a permanent commitment to a fixed clock, which means the prayer times, calculated astronomically, shift slowly across the civil hours through the seasons. The mosque schedule is posted daily, not assumed.
 
+## pilgrims from every timezone, one local clock
+
 The city receives millions of pilgrims annually who arrive from dozens of timezones. A visitor from Indonesia is 4 hours ahead of local time. One from Morocco is 3 hours behind. The city absorbs this multiplicity: its hotels, restaurants, and services operate at all hours to accommodate arrivals on every kind of body clock.
 
 [Makkah](/makkah) and [Riyadh](/riyadh) share the same timezone. [9am in Madinah is 6am in London](/when/9am-madinah/london) during European winter, reflecting the three-hour UTC offset.

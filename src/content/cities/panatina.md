@@ -17,6 +17,8 @@ The Panatina area includes Panatina Stadium, one of the Solomons' main football 
 
 Guadalcanal's landscape behind Honiara is steep, forested, and interspersed with rivers that can flood dramatically during the heavy rains of the wet season. The April 2014 flash floods that killed over 20 people in Honiara were a reminder that the tropical rainfall regime shapes the city's vulnerability as much as its rhythm.
 
+## wartime Guadalcanal and its lasting presence
+
 The historical significance of Guadalcanal in World War II, the scene of the 1942-43 campaign, gives the island a particular gravity. The rusting remains of warships and aircraft are still visible in parts of the island.
 
 [9am in Panatina is 10pm the previous day in London](/when/9am-panatina/london), the same as [Nggosi](/nggosi).

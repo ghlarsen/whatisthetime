@@ -15,6 +15,8 @@ The timezone Antarctica/Palmer follows Chilean timezone conventions, UTC-3, matc
 
 At 64 degrees south, Palmer experiences extreme seasonal light. The southern summer (November to February) brings near-continuous daylight, with the sun barely dipping below the horizon at midnight in December. The southern winter (May to August) brings the opposite: brief twilight days and months of near-total darkness. Penguins, Weddell seals, and leopard seals operate on biological time regardless of what the clock says.
 
+## research rotations in a warming peninsula
+
 The research at Palmer focuses on marine biology, climate change monitoring, and the ecosystems of the Antarctic Peninsula, one of the fastest-warming regions on earth. The scientists and support staff work seasonal rotations, and their schedules are built around research windows rather than conventional workdays.
 
 [9am at Palmer is 12pm in London](/when/9am-palmer/london).

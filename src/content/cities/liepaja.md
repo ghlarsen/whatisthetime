@@ -13,6 +13,8 @@ Liepāja sits on the Baltic Sea coast of western Latvia, a port city with a mili
 
 At 56 degrees north, Liepāja has pronounced seasonal light extremes. Midsummer evenings stay bright past 11pm. December days deliver just over 7 hours of weak light. The Baltic Sea moderates the temperature compared to inland Latvia, but the light extremes are the same.
 
+## Karosta naval base and Baltic light extremes
+
 The Soviet military occupied a significant part of Liepāja for decades, maintaining the Karosta naval base complex. The base included a hospital, barracks, and prison, all of which are now partly open to tourists as one of the Baltic states' more unusual heritage sites. The abandoned military infrastructure is a reminder that for much of the 20th century, Liepāja was organized around military schedules rather than civilian ones.
 
 Latvia joined the EU in 2004, bringing its DST schedule into alignment with the EU-wide standard. The debate about abolishing DST in Europe is ongoing, and Liepāja, at its latitude, would be particularly affected by whichever permanent time is eventually chosen.

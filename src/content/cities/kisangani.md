@@ -11,6 +11,8 @@ lastUpdated: "2026-03-23"
 
 Kisangani sits at the head of navigation on the Congo River, the point where the river becomes impassable upstream due to the Boyoma Falls. For over a century, this has made the city a crucial trading node: goods coming downriver from the interior of the DRC arrive here, then transfer to boats that can navigate the lower river toward [Kinshasa](/kinshasa). It runs on Africa/Lubumbashi time, UTC+2, year-round.
 
+## Conrad's inner station, Congo's river node
+
 The DRC is so large that it spans two timezones: western provinces including Kinshasa use UTC+1, while eastern provinces including Kisangani use UTC+2. Coordination between the capital and Kisangani involves a one-hour conversion.
 
 Joseph Conrad set his novella *Heart of Darkness* on the journey from the Congo River mouth toward this city, which he called "the Inner Station." Conrad traveled to what was then Stanleyville in 1890. The city has been renamed (Stanleyville under Belgian rule, then Kisangani after independence), but the river still bends through dense equatorial forest the way Conrad described it.
