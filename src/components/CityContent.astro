@@ -13,6 +13,24 @@ const year = new Date().getFullYear();
 const dst = getDSTTransitions(city.timezone, year);
 const now = getCurrentTime(city.timezone);
 
+// "Compare with" links: major world hubs + 1-2 regional cities
+const worldHubs = ['new-york-city', 'london', 'tokyo', 'sydney', 'dubai', 'singapore'];
+const compareTargets = worldHubs
+  .filter(slug => slug !== city.slug)
+  .slice(0, 4);
+// Add 2 regional cities (different timezone, same continent prefix)
+const continentPrefix = city.timezone.split('/')[0];
+const regionalCompares = cities
+  .filter(c =>
+    c.slug !== city.slug &&
+    c.timezone.startsWith(continentPrefix) &&
+    c.timezone !== city.timezone &&
+    !compareTargets.includes(c.slug)
+  )
+  .slice(0, 2)
+  .map(c => c.slug);
+const allCompares = [...compareTargets, ...regionalCompares];
+
 const winterLabel = formatUtcOffset(dst.winterOffset);
 const summerLabel = dst.hasDST ? formatUtcOffset(dst.summerOffset) : null;
 const currentOffset = formatUtcOffset(now.utcOffsetMinutes);
@@ -251,6 +269,22 @@ if (isEuropeCET) {
   </section>
 )}
 
+<!-- ─── Compare With ────────────────────────────────────── -->
+<section class="compare-section">
+  <h2 class="section-heading">Compare {city.name} with</h2>
+  <div class="compare-list">
+    {allCompares.map(slug => {
+      const target = cities.find(c => c.slug === slug);
+      if (!target) return null;
+      return (
+        <a href={`/compare/${city.slug}/${target.slug}`} class="compare-chip">
+          {target.name}
+        </a>
+      );
+    })}
+  </div>
+</section>
+
 <!-- ─── FAQ ───────────────────────────────────────────── -->
 <section class="faq-section">
   <h2 class="section-heading">Questions about time in {city.name}</h2>
@@ -363,6 +397,32 @@ if (isEuropeCET) {
     color: var(--text-dim);
     padding: 4px 10px;
     align-self: center;
+  }
+
+  /* ── Compare ── */
+  .compare-section {
+    padding: 36px var(--page-pad) 32px;
+    border-top: 1px solid var(--border);
+  }
+
+  .compare-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .compare-chip {
+    font-size: var(--t-sm);
+    color: var(--text-muted);
+    text-decoration: none;
+    padding: 6px 12px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .compare-chip:hover {
+    color: var(--text);
+    border-color: var(--text-muted);
   }
 
   /* ── FAQ ── */
