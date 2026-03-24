@@ -90,12 +90,12 @@ const canonical = 'https://whatisthetime.now/now';
 
   .now-row {
     display: grid;
-    grid-template-columns: 80px 1fr auto;
+    grid-template-columns: 1fr auto auto 1fr;
     align-items: baseline;
     padding: 4px 0;
     text-decoration: none;
     transition: opacity 0.4s;
-    gap: 12px;
+    gap: 0;
   }
 
   .now-row:hover {
@@ -107,6 +107,7 @@ const canonical = 'https://whatisthetime.now/now';
     font-size: var(--t-xs);
     color: var(--text-dim);
     text-align: right;
+    padding-right: 16px;
   }
 
   .now-time {
@@ -123,7 +124,8 @@ const canonical = 'https://whatisthetime.now/now';
   .now-city {
     font-size: var(--t-xs);
     color: var(--text-dim);
-    text-align: right;
+    text-align: left;
+    padding-left: 16px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -139,8 +141,8 @@ const canonical = 'https://whatisthetime.now/now';
   }
 
   @media (max-width: 500px) {
-    .now-offset { font-size: 9px; width: 50px; }
-    .now-row { grid-template-columns: 50px 1fr auto; gap: 8px; }
+    .now-offset { font-size: 9px; }
+    .now-row { grid-template-columns: 1fr auto auto 1fr; }
     .now-city { display: none; }
   }
 </style>
