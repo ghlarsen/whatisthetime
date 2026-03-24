@@ -28,7 +28,7 @@ const canonical = `https://whatisthetime.now/country/${entry.data.slug}`;
 <Base title={title} description={description} canonical={canonical}>
   <Nav />
 
-  <DualClock timezone={entry.data.timezones[0]} label={entry.data.country} />
+  <DualClock timezone={entry.data.timezones[0]} label={entry.data.country} href={`/country/${entry.data.slug}`} />
   <ProtonBanner />
 
   <article class="country-article">

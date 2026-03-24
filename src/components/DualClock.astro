@@ -4,9 +4,10 @@
 export interface Props {
   timezone: string;
   label: string; // e.g. "Tokyo" or "Japan"
+  href?: string; // optional link for the label
 }
 
-const { timezone, label } = Astro.props;
+const { timezone, label, href } = Astro.props;
 ---
 
 <div class="dual-clock" data-tz={timezone}>
@@ -16,7 +17,10 @@ const { timezone, label } = Astro.props;
   </div>
   <div class="dual-sep"></div>
   <div class="dual-col">
-    <span class="dual-label">{label}</span>
+    {href
+      ? <a href={href} class="dual-label dual-link">{label}</a>
+      : <span class="dual-label">{label}</span>
+    }
     <span class="dual-time" id="dual-theirs">--:--</span>
   </div>
   <span class="dual-diff" id="dual-diff"></span>
@@ -43,6 +47,16 @@ const { timezone, label } = Astro.props;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--text-dim);
+  }
+
+  .dual-link {
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .dual-link:hover {
+    color: var(--text-muted);
+    border-bottom-color: var(--text-dim);
   }
 
   .dual-time {

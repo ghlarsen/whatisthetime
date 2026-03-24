@@ -1,0 +1,228 @@
+---
+// src/pages/summertime.astro
+// Global DST status page: is it summertime right now?
+export const prerender = true;
+
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import ProtonBanner from '../components/ProtonBanner.astro';
+import Footer from '../components/Footer.astro';
+import cities from '../data/cities.ts';
+import { getDSTTransitions, getUtcOffsetMinutes, formatUtcOffset } from '../lib/timezone.ts';
+
+const year = new Date().getFullYear();
+
+// Build country-level DST status
+const countryDST = new Map<string, { country: string; slug: string; hasDST: boolean; isInDST: boolean; offset: string; dstOffset: string; start: string | null; end: string | null }>();
+
+for (const city of cities) {
+  if (countryDST.has(city.country)) continue;
+  const dst = getDSTTransitions(city.timezone, year);
+  const currentOffset = getUtcOffsetMinutes(city.timezone);
+  const isInDST = dst.hasDST && currentOffset === dst.summerOffset;
+  const slug = city.country.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+  const fmtDate = (d: Date | null) =>
+    d ? new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric' }).format(d) : null;
+
+  countryDST.set(city.country, {
+    country: city.country,
+    slug,
+    hasDST: dst.hasDST,
+    isInDST,
+    offset: formatUtcOffset(dst.winterOffset),
+    dstOffset: dst.hasDST ? formatUtcOffset(dst.summerOffset) : '',
+    start: fmtDate(dst.start),
+    end: fmtDate(dst.end),
+  });
+}
+
+const sorted = [...countryDST.values()].sort((a, b) => a.country.localeCompare(b.country));
+const dstActive = sorted.filter(c => c.isInDST);
+const dstInactive = sorted.filter(c => c.hasDST && !c.isInDST);
+const noDST = sorted.filter(c => !c.hasDST);
+
+const title = 'Is It Summertime? DST Status Worldwide | whatisthetime.now';
+const description = `Daylight saving time status for every country. ${dstActive.length} countries currently in DST, ${noDST.length} countries never observe it.`;
+const canonical = 'https://whatisthetime.now/summertime';
+
+const faqs = [
+  { q: 'Which countries are currently in daylight saving time?', a: `${dstActive.length} countries are currently observing DST (summer time). This changes twice a year as countries in different hemispheres enter and exit their summer periods.` },
+  { q: 'Which countries never observe daylight saving time?', a: `${noDST.length} countries do not observe DST. This includes most countries near the equator (where day length barely varies), plus Japan, China, India, Russia, and most of Africa and Southeast Asia.` },
+  { q: 'When do clocks change?', a: 'In Europe, clocks go forward on the last Sunday of March and back on the last Sunday of October. In North America, clocks go forward on the second Sunday of March and back on the first Sunday of November. Southern hemisphere countries (Australia, New Zealand, Chile, Paraguay) change on opposite dates.' },
+  { q: 'Is daylight saving time being abolished?', a: 'The European Parliament voted to abolish seasonal clock changes in 2019, but implementation has stalled in the European Council. Individual EU member states have not agreed on whether to stay on permanent summer or winter time. The US Sunshine Protection Act (permanent DST) passed the Senate in 2022 but did not pass the House.' },
+];
+---
+
+<Base title={title} description={description} canonical={canonical} faqs={faqs}>
+  <Nav />
+
+  <header class="summer-hero">
+    <h1 class="summer-title">Is it summertime?</h1>
+    <p class="summer-sub">
+      DST status for every country, updated live.
+      <strong>{dstActive.length}</strong> in DST now,
+      <strong>{dstInactive.length}</strong> observing but not active,
+      <strong>{noDST.length}</strong> never observe DST.
+    </p>
+  </header>
+
+  {dstActive.length > 0 && (
+    <section class="dst-section">
+      <h2 class="dst-heading"><span class="dst-dot active"></span> DST active now ({dstActive.length})</h2>
+      <div class="dst-grid">
+        {dstActive.map(c => (
+          <a href={`/country/${c.slug}`} class="dst-card active">
+            <span class="dst-country">{c.country}</span>
+            <span class="dst-info">{c.dstOffset} until {c.end}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <ProtonBanner />
+
+  {dstInactive.length > 0 && (
+    <section class="dst-section">
+      <h2 class="dst-heading"><span class="dst-dot standard"></span> Standard time, DST upcoming ({dstInactive.length})</h2>
+      <div class="dst-grid">
+        {dstInactive.map(c => (
+          <a href={`/country/${c.slug}`} class="dst-card standard">
+            <span class="dst-country">{c.country}</span>
+            <span class="dst-info">{c.offset} until {c.start}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section class="dst-section">
+    <h2 class="dst-heading"><span class="dst-dot none"></span> No DST ({noDST.length})</h2>
+    <div class="dst-grid">
+      {noDST.map(c => (
+        <a href={`/country/${c.slug}`} class="dst-card none">
+          <span class="dst-country">{c.country}</span>
+          <span class="dst-info">{c.offset} year-round</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="summer-faq">
+    <h2 class="section-heading">Questions about daylight saving time</h2>
+    <dl class="faq-list">
+      {faqs.map(({ q, a }) => (
+        <>
+          <dt class="faq-q">{q}</dt>
+          <dd class="faq-a">{a}</dd>
+        </>
+      ))}
+    </dl>
+  </section>
+
+  <ProtonBanner />
+  <Footer />
+</Base>
+
+<style>
+  .summer-hero {
+    padding: 48px var(--page-pad) 32px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .summer-title {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-variation-settings: 'wght' 800;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+
+  .summer-sub {
+    font-size: var(--t-base);
+    color: var(--text-muted);
+  }
+  .summer-sub strong { color: var(--text); }
+
+  .dst-section {
+    padding: 32px var(--page-pad);
+    border-top: 1px solid var(--border);
+  }
+
+  .dst-heading {
+    font-size: var(--t-sm);
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .dst-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .dst-dot.active { background: #4caf50; }
+  .dst-dot.standard { background: #ff9800; }
+  .dst-dot.none { background: var(--text-dim); }
+
+  .dst-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 4px;
+  }
+
+  .dst-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.1s;
+    gap: 8px;
+  }
+  .dst-card:hover { background: var(--bg-subtle); }
+
+  .dst-country {
+    font-size: var(--t-sm);
+    color: var(--text);
+  }
+
+  .dst-info {
+    font-size: var(--t-xs);
+    color: var(--text-dim);
+    white-space: nowrap;
+  }
+
+  .summer-faq {
+    padding: 40px var(--page-pad) 64px;
+    border-top: 1px solid var(--border);
+    max-width: 720px;
+  }
+
+  .section-heading {
+    font-size: var(--t-sm);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 24px;
+  }
+  .faq-list { margin: 0; }
+  .faq-q { font-size: var(--t-base); font-weight: 600; color: var(--text); margin: 24px 0 6px; line-height: 1.4; }
+  .faq-q:first-child { margin-top: 0; }
+  .faq-a { font-size: var(--t-base); color: var(--text-muted); line-height: 1.7; margin: 0; }
+
+  @media (max-width: 500px) {
+    .summer-hero { padding-top: 32px; }
+    .dst-grid { grid-template-columns: 1fr; }
+  }
+</style>

@@ -204,22 +204,22 @@ if (isEuropeCET) {
   <div class="facts-grid">
     <div class="fact">
       <span class="fact-label">IANA timezone</span>
-      <span class="fact-value mono">{city.timezone}</span>
+      <a href="/timezones" class="fact-value mono fact-link">{city.timezone}</a>
     </div>
     <div class="fact">
       <span class="fact-label">Current offset</span>
-      <span class="fact-value">{currentOffset}{dst.hasDST ? (isInDST ? ' (summer)' : ' (winter)') : ''}</span>
+      <a href="/timezones" class="fact-value fact-link">{currentOffset}{dst.hasDST ? (isInDST ? ' (summer)' : ' (winter)') : ''}</a>
     </div>
     {dst.hasDST && (
       <div class="fact">
         <span class="fact-label">Standard time</span>
-        <span class="fact-value">{winterLabel}</span>
+        <a href="/timezones" class="fact-value fact-link">{winterLabel}</a>
       </div>
     )}
     {dst.hasDST && summerLabel && (
       <div class="fact">
         <span class="fact-label">Summer time</span>
-        <span class="fact-value">{summerLabel}</span>
+        <a href="/timezones" class="fact-value fact-link">{summerLabel}</a>
       </div>
     )}
     {dst.hasDST && dstStart && (
@@ -237,7 +237,7 @@ if (isEuropeCET) {
     {!dst.hasDST && (
       <div class="fact">
         <span class="fact-label">Daylight saving</span>
-        <span class="fact-value">No DST observed</span>
+        <a href="/summertime" class="fact-value fact-link">No DST observed</a>
       </div>
     )}
   </div>
@@ -328,6 +328,15 @@ if (isEuropeCET) {
   .mono {
     font-family: ui-monospace, 'SF Mono', 'Fira Code', monospace;
     font-size: var(--t-sm);
+  }
+
+  .fact-link {
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .fact-link:hover {
+    border-bottom-color: var(--text-dim);
   }
 
   /* ── Business Hours ── */
