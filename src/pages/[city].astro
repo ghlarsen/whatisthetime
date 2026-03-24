@@ -94,7 +94,7 @@ const canonical = `https://whatisthetime.now/${city.slug}`;
   <Nav />
   <ClockHero city={city} />
   <DualClock timezone={city.timezone} label={city.name} href={`/${city.slug}`} />
-  <ProtonBanner />
+  <ProtonBanner eager />
   <MeetingGrid defaultCities={[city.slug, 'new-york-city', 'london', 'tokyo']} />
 
   {StoryContent && (

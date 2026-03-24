@@ -3,56 +3,43 @@
 // Theme-aware Proton VPN affiliate banner
 // Affiliate link: https://go.getproton.me/aff_c?offer_id=26&aff_id=15505
 
+export interface Props {
+  eager?: boolean;
+}
+const { eager = false } = Astro.props;
 const AFFILIATE_URL = 'https://go.getproton.me/aff_c?offer_id=26&aff_id=15505&random_url=1&source=whatisthetime';
+const load = eager ? 'eager' : 'lazy';
 ---
 
 <div class="proton-wrap">
   <a href={AFFILIATE_URL} target="_blank" rel="noopener sponsored" class="proton-link">
     <!-- Desktop: leaderboard (728x90 dark / 768x90 light) -->
-    <img
-      class="proton-img proton-desktop dark-only"
-      src="/proton/VPN_HSD_728X90.png"
-      alt="Proton VPN — secure, private internet"
-      width="728" height="90"
-      loading="lazy"
-    />
-    <img
-      class="proton-img proton-desktop light-only"
-      src="/proton/VPN_HSL_768X90.png"
-      alt="Proton VPN — secure, private internet"
-      width="768" height="90"
-      loading="lazy"
-    />
+    <picture class="proton-img proton-desktop dark-only">
+      <source srcset="/proton/VPN_HSD_728X90.webp" type="image/webp" />
+      <img src="/proton/VPN_HSD_728X90.png" alt="Proton VPN" width="728" height="90" loading={load} />
+    </picture>
+    <picture class="proton-img proton-desktop light-only">
+      <source srcset="/proton/VPN_HSL_768X90.webp" type="image/webp" />
+      <img src="/proton/VPN_HSL_768X90.png" alt="Proton VPN" width="768" height="90" loading={load} />
+    </picture>
     <!-- Tablet/mid: medium rectangle (300x250) -->
-    <img
-      class="proton-img proton-mid dark-only"
-      src="/proton/VPN_HSD_300X250.png"
-      alt="Proton VPN — secure, private internet"
-      width="300" height="250"
-      loading="lazy"
-    />
-    <img
-      class="proton-img proton-mid light-only"
-      src="/proton/VPN_HSL_300X250.png"
-      alt="Proton VPN — secure, private internet"
-      width="300" height="250"
-      loading="lazy"
-    />
+    <picture class="proton-img proton-mid dark-only">
+      <source srcset="/proton/VPN_HSD_300X250.webp" type="image/webp" />
+      <img src="/proton/VPN_HSD_300X250.png" alt="Proton VPN" width="300" height="250" loading={load} />
+    </picture>
+    <picture class="proton-img proton-mid light-only">
+      <source srcset="/proton/VPN_HSL_300X250.webp" type="image/webp" />
+      <img src="/proton/VPN_HSL_300X250.png" alt="Proton VPN" width="300" height="250" loading={load} />
+    </picture>
     <!-- Mobile: strip (320x50) -->
-    <img
-      class="proton-img proton-mobile dark-only"
-      src="/proton/VPN_HSD_320x50.png"
-      alt="Proton VPN — secure, private internet"
-      width="320" height="50"
-      loading="lazy"
-    />
-    <img
-      class="proton-img proton-mobile light-only"
-      src="/proton/VPN_HSL_320x50.png"
-      alt="Proton VPN — secure, private internet"
-      width="320" height="50"
-      loading="lazy"
-    />
+    <picture class="proton-img proton-mobile dark-only">
+      <source srcset="/proton/VPN_HSD_320x50.webp" type="image/webp" />
+      <img src="/proton/VPN_HSD_320x50.png" alt="Proton VPN" width="320" height="50" loading={load} />
+    </picture>
+    <picture class="proton-img proton-mobile light-only">
+      <source srcset="/proton/VPN_HSL_320x50.webp" type="image/webp" />
+      <img src="/proton/VPN_HSL_320x50.png" alt="Proton VPN" width="320" height="50" loading={load} />
+    </picture>
   </a>
 </div>
 
