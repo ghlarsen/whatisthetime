@@ -1,0 +1,174 @@
+---
+// src/pages/now.astro
+// Time Typography: a living typographic clock wall
+export const prerender = true;
+
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import { getUtcOffsetMinutes, formatUtcOffset } from '../lib/timezone.ts';
+import cities from '../data/cities.ts';
+
+// Build 37 timezone rows (one per distinct UTC offset)
+const offsetMap = new Map<number, { label: string; city: string; slug: string; timezone: string; lat: number; lng: number }>();
+
+for (const c of cities) {
+  const offset = getUtcOffsetMinutes(c.timezone);
+  if (!offsetMap.has(offset)) {
+    offsetMap.set(offset, {
+      label: formatUtcOffset(offset),
+      city: c.name,
+      slug: c.slug,
+      timezone: c.timezone,
+      lat: c.lat,
+      lng: c.lng,
+    });
+  }
+}
+
+const rows = [...offsetMap.entries()]
+  .sort((a, b) => a[0] - b[0])
+  .map(([offset, data]) => ({
+    offset,
+    ...data,
+  }));
+
+const title = 'Now: Every Timezone on Earth, Live | whatisthetime.now';
+const description = 'A living typographic clock showing every timezone simultaneously. Watch time ripple across the planet in real time.';
+const canonical = 'https://whatisthetime.now/now';
+---
+
+<Base title={title} description={description} canonical={canonical}>
+  <Nav />
+
+  <section class="now-wall" id="now-wall">
+    {rows.map(row => (
+      <a
+        href={`/${row.slug}`}
+        class="now-row"
+        data-tz={row.timezone}
+        data-lat={row.lat}
+        data-lng={row.lng}
+        data-offset={row.label}
+      >
+        <span class="now-offset">{row.label}</span>
+        <span class="now-time">--:--:--</span>
+        <span class="now-city">{row.city}</span>
+      </a>
+    ))}
+  </section>
+
+  <Footer />
+</Base>
+
+<style>
+  .now-wall {
+    min-height: calc(100vh - 48px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px var(--page-pad);
+    gap: 0;
+  }
+
+  .now-row {
+    display: grid;
+    grid-template-columns: 80px 1fr auto;
+    align-items: baseline;
+    padding: 4px 0;
+    text-decoration: none;
+    transition: opacity 0.4s;
+    gap: 12px;
+  }
+
+  .now-row:hover {
+    opacity: 1 !important;
+  }
+
+  .now-offset {
+    font-family: ui-monospace, 'SF Mono', monospace;
+    font-size: var(--t-xs);
+    color: var(--text-dim);
+    text-align: right;
+  }
+
+  .now-time {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: clamp(1.2rem, 3vw, 2.5rem);
+    font-variation-settings: 'wght' 700, 'opsz' 50;
+    font-variant-numeric: tabular-nums;
+    color: var(--text);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    transition: opacity 0.4s;
+  }
+
+  .now-city {
+    font-size: var(--t-xs);
+    color: var(--text-dim);
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Highlight user's own timezone */
+  .now-row.is-local .now-time {
+    color: #4caf50;
+  }
+  .now-row.is-local .now-offset,
+  .now-row.is-local .now-city {
+    color: var(--text-muted);
+  }
+
+  @media (max-width: 500px) {
+    .now-offset { font-size: 9px; width: 50px; }
+    .now-row { grid-template-columns: 50px 1fr auto; gap: 8px; }
+    .now-city { display: none; }
+  }
+</style>
+
+<script>
+  const rows = document.querySelectorAll<HTMLAnchorElement>('.now-row');
+  const localTz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+  // Mark user's local timezone
+  rows.forEach(row => {
+    if (row.dataset.tz === localTz) {
+      row.classList.add('is-local');
+    }
+  });
+
+  function tick() {
+    const now = new Date();
+
+    rows.forEach(row => {
+      const tz = row.dataset.tz!;
+
+      // Update time
+      const parts = new Intl.DateTimeFormat('en-US', {
+        timeZone: tz,
+        hour: '2-digit', minute: '2-digit', second: '2-digit',
+        hour12: false,
+      }).formatToParts(now);
+      const get = (t: string) => parts.find(p => p.type === t)?.value ?? '00';
+      const h = get('hour') === '24' ? '00' : get('hour');
+      const timeEl = row.querySelector('.now-time') as HTMLElement;
+      if (timeEl) timeEl.textContent = `${h}:${get('minute')}:${get('second')}`;
+
+      // Sun-based opacity using local hour as proxy
+      // Get the local hour in this timezone (0-23)
+      const hourVal = parseInt(h, 10);
+      const minVal = parseInt(get('minute'), 10);
+      const localHour = hourVal + minVal / 60;
+      // Map hour to brightness: noon (12) = brightest, midnight (0/24) = dimmest
+      const distFromNoon = Math.abs(localHour - 12);
+      // 0 at noon = opacity 1.0, 12 at midnight = opacity 0.15
+      const opacity = 1.0 - (distFromNoon / 12) * 0.85;
+      row.style.opacity = String(Math.max(0.15, opacity).toFixed(2));
+    });
+  }
+
+  tick();
+  setInterval(tick, 1000);
+</script>
