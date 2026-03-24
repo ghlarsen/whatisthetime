@@ -64,13 +64,15 @@ const canonical = 'https://whatisthetime.now/now';
         href={`/${row.slug}`}
         class="now-row"
         data-tz={row.timezone}
-        data-lat={row.lat}
-        data-lng={row.lng}
         data-offset={row.label}
       >
-        <span class="now-offset">{row.label}</span>
-        <span class="now-time">--:--:--</span>
-        <span class="now-city">{row.city}</span>
+        <div class="now-left">
+          <span class="now-offset">{row.label}</span>
+          <span class="now-time">--:--:--</span>
+        </div>
+        <div class="now-right">
+          <span class="now-city">{row.city}</span>
+        </div>
       </a>
     ))}
   </section>
@@ -90,7 +92,7 @@ const canonical = 'https://whatisthetime.now/now';
 
   .now-row {
     display: grid;
-    grid-template-columns: 1fr auto auto 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: baseline;
     padding: 4px 0;
     text-decoration: none;
@@ -102,12 +104,22 @@ const canonical = 'https://whatisthetime.now/now';
     opacity: 1 !important;
   }
 
+  .now-left {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    gap: 12px;
+    padding-right: 20px;
+  }
+
+  .now-right {
+    padding-left: 20px;
+  }
+
   .now-offset {
     font-family: ui-monospace, 'SF Mono', monospace;
     font-size: var(--t-xs);
     color: var(--text-dim);
-    text-align: right;
-    padding-right: 16px;
   }
 
   .now-time {
@@ -118,17 +130,15 @@ const canonical = 'https://whatisthetime.now/now';
     color: var(--text);
     line-height: 1.2;
     letter-spacing: -0.02em;
-    transition: opacity 0.4s;
+    min-width: 7ch;
+    text-align: right;
   }
 
   .now-city {
     font-size: var(--t-xs);
     color: var(--text-dim);
     text-align: left;
-    padding-left: 16px;
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 
   /* Highlight user's own timezone */
@@ -142,8 +152,8 @@ const canonical = 'https://whatisthetime.now/now';
 
   @media (max-width: 500px) {
     .now-offset { font-size: 9px; }
-    .now-row { grid-template-columns: 1fr auto auto 1fr; }
-    .now-city { display: none; }
+    .now-left { padding-right: 12px; gap: 8px; }
+    .now-right { padding-left: 12px; }
   }
 </style>
 
