@@ -1,0 +1,312 @@
+---
+// src/pages/compare/[...cities].astro
+// /compare/copenhagen/tokyo — side-by-side city time comparison
+export const prerender = false;
+
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+import DualClock from '../../components/DualClock.astro';
+import MeetingGrid from '../../components/MeetingGrid.astro';
+import ProtonBanner from '../../components/ProtonBanner.astro';
+import Footer from '../../components/Footer.astro';
+import { getCityBySlug, formatUtcOffset, getUtcOffsetMinutes, getCurrentTime } from '../../lib/timezone.ts';
+
+const { cities: citiesParam } = Astro.params;
+const slugs = (citiesParam ?? '').split('/').filter(Boolean);
+
+if (slugs.length < 2) {
+  return new Response('Compare two cities: /compare/city1/city2', { status: 404 });
+}
+
+const city1 = getCityBySlug(slugs[0]);
+const city2 = getCityBySlug(slugs[1]);
+
+if (!city1 || !city2) {
+  return new Response('City not found', { status: 404 });
+}
+
+const time1 = getCurrentTime(city1.timezone);
+const time2 = getCurrentTime(city2.timezone);
+const offset1 = getUtcOffsetMinutes(city1.timezone);
+const offset2 = getUtcOffsetMinutes(city2.timezone);
+const utcLabel1 = formatUtcOffset(offset1);
+const utcLabel2 = formatUtcOffset(offset2);
+
+// Time difference
+const diffMinutes = offset2 - offset1;
+const absDiff = Math.abs(diffMinutes);
+const diffH = Math.floor(absDiff / 60);
+const diffM = absDiff % 60;
+const diffParts: string[] = [];
+if (diffH > 0) diffParts.push(`${diffH} hour${diffH !== 1 ? 's' : ''}`);
+if (diffM > 0) diffParts.push(`${diffM} minute${diffM !== 1 ? 's' : ''}`);
+const diffLabel = diffParts.join(' ') || 'no difference';
+const aheadBehind = diffMinutes > 0 ? 'ahead of' : diffMinutes < 0 ? 'behind' : 'same time as';
+
+const pad = (n: number) => String(n).padStart(2, '0');
+const timeStr1 = `${pad(time1.hours)}:${pad(time1.minutes)}`;
+const timeStr2 = `${pad(time2.hours)}:${pad(time2.minutes)}`;
+
+// Country slugs for links
+const countrySlug1 = city1.country.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const countrySlug2 = city2.country.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+const title = `${city1.name} vs ${city2.name} Time Difference | whatisthetime.now`;
+const description = `${city2.name} is ${diffLabel} ${aheadBehind} ${city1.name}. Compare timezones, business hours, and plan meetings between ${city1.name} (${utcLabel1}) and ${city2.name} (${utcLabel2}).`;
+const canonical = `https://whatisthetime.now/compare/${city1.slug}/${city2.slug}`;
+
+const faqs = [
+  {
+    q: `What is the time difference between ${city1.name} and ${city2.name}?`,
+    a: diffMinutes === 0
+      ? `${city1.name} and ${city2.name} are in the same timezone. There is no time difference.`
+      : `${city2.name} is ${diffLabel} ${aheadBehind} ${city1.name}. When it is noon in ${city1.name}, it is ${timeStr2.replace(pad(time2.hours), pad((12 + Math.round(diffMinutes / 60)) % 24))} in ${city2.name}.`,
+  },
+  {
+    q: `What timezone is ${city1.name} in?`,
+    a: `${city1.name} uses ${city1.timezone} (${utcLabel1}).`,
+  },
+  {
+    q: `What timezone is ${city2.name} in?`,
+    a: `${city2.name} uses ${city2.timezone} (${utcLabel2}).`,
+  },
+];
+---
+
+<Base title={title} description={description} canonical={canonical} faqs={faqs}>
+  <Nav />
+
+  <section class="compare-hero">
+    <div class="compare-card">
+      <a href={`/${city1.slug}`} class="compare-city-link">
+        <span class="compare-label">{city1.name}, {city1.country}</span>
+        <span class="compare-time" id="compare-time-1" data-tz={city1.timezone}>{timeStr1}</span>
+        <span class="compare-offset">{utcLabel1}</span>
+      </a>
+    </div>
+
+    <div class="compare-diff">
+      <span class="diff-value">{diffLabel}</span>
+      <span class="diff-direction">{city2.name} is {aheadBehind} {city1.name}</span>
+    </div>
+
+    <div class="compare-card">
+      <a href={`/${city2.slug}`} class="compare-city-link">
+        <span class="compare-label">{city2.name}, {city2.country}</span>
+        <span class="compare-time" id="compare-time-2" data-tz={city2.timezone}>{timeStr2}</span>
+        <span class="compare-offset">{utcLabel2}</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Quick conversions -->
+  <section class="quick-convert">
+    <div class="convert-row">
+      <span class="convert-label">Quick convert</span>
+      <a href={`/when/9am-${city1.slug}/${city2.slug}`} class="convert-link">9am {city1.name}</a>
+      <a href={`/when/12pm-${city1.slug}/${city2.slug}`} class="convert-link">12pm {city1.name}</a>
+      <a href={`/when/5pm-${city1.slug}/${city2.slug}`} class="convert-link">5pm {city1.name}</a>
+      <a href={`/when/9am-${city2.slug}/${city1.slug}`} class="convert-link">9am {city2.name}</a>
+    </div>
+  </section>
+
+  <ProtonBanner />
+
+  <MeetingGrid defaultCities={[city1.slug, city2.slug, 'london', 'new-york-city']} />
+
+  <!-- Read more -->
+  <section class="read-more">
+    <a href={`/country/${countrySlug1}`} class="read-link">Time in {city1.country}</a>
+    <a href={`/country/${countrySlug2}`} class="read-link">Time in {city2.country}</a>
+    <a href="/timezones" class="read-link">World Timezone Map</a>
+  </section>
+
+  <!-- FAQ -->
+  <section class="compare-faq">
+    <dl class="faq-list">
+      {faqs.map(({ q, a }) => (
+        <>
+          <dt class="faq-q">{q}</dt>
+          <dd class="faq-a">{a}</dd>
+        </>
+      ))}
+    </dl>
+  </section>
+
+  <ProtonBanner />
+  <Footer />
+</Base>
+
+<style>
+  .compare-hero {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 48px var(--page-pad) 32px;
+    flex-wrap: wrap;
+  }
+
+  .compare-card {
+    flex: 1;
+    min-width: 200px;
+  }
+
+  .compare-city-link {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-decoration: none;
+    padding: 16px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    transition: border-color 0.15s;
+  }
+  .compare-city-link:hover { border-color: var(--text-muted); }
+
+  .compare-label {
+    font-size: var(--t-sm);
+    color: var(--text-muted);
+  }
+
+  .compare-time {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: clamp(2rem, 8vw, 4rem);
+    font-variation-settings: 'wght' 800;
+    color: var(--text);
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+  }
+
+  .compare-offset {
+    font-family: ui-monospace, 'SF Mono', monospace;
+    font-size: var(--t-xs);
+    color: var(--text-dim);
+  }
+
+  .compare-diff {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+    padding: 8px 0;
+  }
+
+  .diff-value {
+    font-family: ui-monospace, 'SF Mono', monospace;
+    font-size: var(--t-base);
+    font-weight: 700;
+    color: var(--text);
+  }
+
+  .diff-direction {
+    font-size: var(--t-xs);
+    color: var(--text-dim);
+    text-align: center;
+  }
+
+  /* Quick convert */
+  .quick-convert {
+    padding: 16px var(--page-pad);
+    border-top: 1px solid var(--border);
+  }
+
+  .convert-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .convert-label {
+    font-size: var(--t-xs);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+  }
+
+  .convert-link {
+    font-size: var(--t-sm);
+    color: var(--text-muted);
+    text-decoration: none;
+    padding: 4px 10px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .convert-link:hover {
+    color: var(--text);
+    border-color: var(--text-muted);
+  }
+
+  /* Read more */
+  .read-more {
+    padding: 24px var(--page-pad);
+    border-top: 1px solid var(--border);
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .read-link {
+    font-size: var(--t-sm);
+    color: var(--text-muted);
+    text-decoration: none;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 2px;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .read-link:hover {
+    color: var(--text);
+    border-color: var(--text-muted);
+  }
+
+  /* FAQ */
+  .compare-faq {
+    padding: 32px var(--page-pad) 48px;
+    border-top: 1px solid var(--border);
+    max-width: 720px;
+  }
+
+  .faq-list { margin: 0; }
+  .faq-q {
+    font-size: var(--t-base);
+    font-weight: 600;
+    color: var(--text);
+    margin: 20px 0 6px;
+    line-height: 1.4;
+  }
+  .faq-q:first-child { margin-top: 0; }
+  .faq-a {
+    font-size: var(--t-base);
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  @media (max-width: 500px) {
+    .compare-hero { padding-top: 32px; gap: 16px; }
+    .compare-card { min-width: 100%; }
+  }
+</style>
+
+<script>
+  // Live ticking compare clocks
+  const els = document.querySelectorAll<HTMLElement>('.compare-time');
+  function tick() {
+    const now = new Date();
+    els.forEach(el => {
+      const tz = el.dataset.tz!;
+      const parts = new Intl.DateTimeFormat('en-US', {
+        timeZone: tz,
+        hour: '2-digit', minute: '2-digit',
+        hour12: false,
+      }).formatToParts(now);
+      const get = (t: string) => parts.find(p => p.type === t)?.value ?? '00';
+      const h = get('hour') === '24' ? '00' : get('hour');
+      el.textContent = `${h}:${get('minute')}`;
+    });
+  }
+  tick();
+  setInterval(tick, 1000);
+</script>
