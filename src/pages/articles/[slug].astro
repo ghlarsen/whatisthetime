@@ -1,0 +1,146 @@
+---
+// src/pages/articles/[slug].astro
+export const prerender = true;
+
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+import ProtonBanner from '../../components/ProtonBanner.astro';
+import Footer from '../../components/Footer.astro';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+  return articles.map(entry => ({
+    params: { slug: entry.data.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const title = entry.data.title + ' | whatisthetime.now';
+const description = entry.data.description;
+const canonical = `https://whatisthetime.now/articles/${entry.data.slug}`;
+---
+
+<Base title={title} description={description} canonical={canonical}>
+  <Nav />
+
+  <article class="feature-article">
+    <header class="article-header">
+      <span class="article-type">Feature</span>
+      <h1 class="article-title">{entry.data.title}</h1>
+      <p class="article-desc">{entry.data.description}</p>
+    </header>
+
+    <div class="article-body">
+      <Content />
+    </div>
+  </article>
+
+  <ProtonBanner />
+  <Footer />
+</Base>
+
+<style>
+  .feature-article {
+    max-width: 720px;
+    padding: 0 var(--page-pad);
+  }
+
+  .article-header {
+    padding: 48px 0 32px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .article-type {
+    font-size: var(--t-xs);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 12px;
+    display: block;
+  }
+
+  .article-title {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: clamp(1.5rem, 4vw, 2.25rem);
+    font-variation-settings: 'wght' 700;
+    color: var(--text);
+    line-height: 1.2;
+    margin-bottom: 12px;
+  }
+
+  .article-desc {
+    font-size: var(--t-base);
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+
+  .article-body {
+    padding: 32px 0 64px;
+  }
+
+  .article-body :global(h2) {
+    font-size: var(--t-base);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin: 40px 0 12px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+  }
+
+  .article-body :global(h3) {
+    font-size: var(--t-base);
+    font-weight: 600;
+    color: var(--text);
+    margin: 24px 0 8px;
+  }
+
+  .article-body :global(p) {
+    font-size: var(--t-base);
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin: 0 0 16px;
+  }
+
+  .article-body :global(a) {
+    color: var(--text);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .article-body :global(a:hover) { color: var(--text-muted); }
+
+  .article-body :global(ul), .article-body :global(ol) {
+    font-size: var(--t-base);
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin: 0 0 16px;
+    padding-left: 20px;
+  }
+
+  .article-body :global(li) { margin-bottom: 4px; }
+
+  .article-body :global(blockquote) {
+    border-left: 3px solid var(--border);
+    padding-left: 16px;
+    margin: 16px 0;
+    font-style: italic;
+    color: var(--text-dim);
+  }
+
+  .article-body :global(code) {
+    font-family: ui-monospace, 'SF Mono', 'Fira Code', monospace;
+    font-size: var(--t-sm);
+    background: var(--bg-subtle);
+    padding: 1px 5px;
+    border-radius: 3px;
+  }
+
+  @media (max-width: 500px) {
+    .article-header { padding-top: 32px; }
+  }
+</style>
