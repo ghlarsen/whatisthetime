@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Anguilla uses Atlantic Standard Time (AST) (UTC-4) year-round with no daylight saving. IANA identifier: `America/Anguilla`.
+
+**Key facts about time in Anguilla**
+- Timezone: Atlantic Standard Time (AST)
+- UTC offset: UTC-4
+- DST: No
+- IANA identifier: America/Anguilla
+- Capital: The Valley
+
 Anguilla is a flat coral island of 91 square kilometers in the northeastern Caribbean, home to about 18,000 people and some genuinely excellent beaches. Its timezone is `America/Anguilla` in the IANA database, running at UTC-4 year-round.
 
 No daylight saving. No complexity. The clock here doesn't move.

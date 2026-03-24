@@ -11,6 +11,15 @@ continent: "South America"
 lastUpdated: "2026-03-23"
 ---
 
+Guyana uses Guyana Time (GYT) (UTC-4). No daylight saving time. IANA: `America/Guyana`.
+
+**Key facts about time in Guyana**
+- Timezone: Guyana Time (GYT)
+- UTC offset: -04:00
+- DST: No
+- IANA identifier: `America/Guyana`
+- Capital: Georgetown
+
 Guyana uses GYT (Guyana Time), UTC-4, year-round. No daylight saving time. The IANA identifier is `America/Guyana`.
 
 Guyana is the only sovereign state in South America where English is the official language. Its cultural affinities are with the Caribbean, not the rest of the continent: British Guiana became independent in 1966, and the country's legal system, parliamentary structure, and cultural references are broadly anglophone Caribbean.

@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+Kiribati spans three timezones: UTC+12 (Gilbert Islands), UTC+13 (Phoenix Islands), and UTC+14 (Line Islands). No daylight saving time is observed. IANA: `Pacific/Tarawa`, `Pacific/Kanton`, `Pacific/Kiritimati`.
+
+**Key facts about time in Kiribati**
+- Timezone: Gilbert Islands Time (UTC+12), Phoenix Islands Time (UTC+13), Line Islands Time (UTC+14)
+- UTC offset: +12:00, +13:00, +14:00
+- DST: No
+- IANA identifier: `Pacific/Tarawa`, `Pacific/Kanton`, `Pacific/Kiritimati`
+- Capital: Tarawa
+
 Kiribati (pronounced "Kiribas") did something in 1995 that almost no country has ever done: it moved the International Date Line.
 
 Not conceptually. Literally. The government of this Pacific island nation announced that the eastern portion of its territory, the Line Islands including Kiritimati (Christmas Island), would jump forward from UTC-10 to UTC+14. Overnight, those islands went from being among the last places on Earth to see each new day to being the very first.

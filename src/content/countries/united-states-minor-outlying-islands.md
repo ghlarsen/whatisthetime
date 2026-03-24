@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+The U.S. Minor Outlying Islands span multiple timezones (UTC-11 to UTC+12). No DST observed. IANA: `Pacific/Midway`, `Pacific/Wake`.
+
+**Key facts about time in United States Minor Outlying Islands**
+- Timezone: Samoa Standard Time / Wake Island Time (varies by territory)
+- UTC offset: -11:00 (Midway), +12:00 (Wake)
+- DST: no
+- IANA identifier: `Pacific/Midway`, `Pacific/Wake`
+- Capital: none
+
 The United States Minor Outlying Islands is a catch-all legal category for nine remote US territories that are not part of any state or the District of Columbia. They range from tiny atolls in the Pacific to uninhabited coral reefs in the Caribbean. Together they cover less than 2,000 square kilometers of land, and most of that land hosts no permanent civilian population.
 
 They span an enormous range of longitudes.

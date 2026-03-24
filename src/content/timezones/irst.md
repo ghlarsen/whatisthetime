@@ -11,7 +11,14 @@ countries: ["Iran"]
 lastUpdated: "2026-03-24"
 ---
 
-Iran Standard Time is UTC+3:30. Not UTC+3, not UTC+4 -- exactly halfway between them, on the 52.5-degree meridian that passes through Tehran. Iran is one of the few countries in the world using a 30-minute offset, and it adds a further distinction: it also observes daylight saving time, shifting to Iran Daylight Time (IRDT, UTC+4:30) in summer. The result is one of the more unusual timezone situations on earth -- a country that is perpetually off the hour in both standard and summer configurations.
+Iran Standard Time is UTC+3:30. Not UTC+3, not UTC+4 -- exactly halfway between them, on the 52.5-degree meridian that passes through Tehran.
+
+**Key facts about IRST**
+- Full name: Iran Standard Time
+- UTC offset: UTC+3:30
+- DST: yes, IRDT (UTC+4:30) from approximately late March to late September
+- IANA identifiers: Asia/Tehran
+- Countries: Iran Iran is one of the few countries in the world using a 30-minute offset, and it adds a further distinction: it also observes daylight saving time, shifting to Iran Daylight Time (IRDT, UTC+4:30) in summer. The result is one of the more unusual timezone situations on earth -- a country that is perpetually off the hour in both standard and summer configurations.
 
 ## Why 3:30
 

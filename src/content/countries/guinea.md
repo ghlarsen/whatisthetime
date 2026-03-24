@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Guinea uses Greenwich Mean Time (GMT) (UTC+0). No daylight saving time. IANA: `Africa/Conakry`.
+
+**Key facts about time in Guinea**
+- Timezone: Greenwich Mean Time (GMT)
+- UTC offset: +00:00
+- DST: No
+- IANA identifier: `Africa/Conakry`
+- Capital: Conakry
+
 Guinea uses GMT, UTC+0, year-round. No daylight saving time. The IANA identifier is `Africa/Conakry`.
 
 Guinea sits on the west coast of Africa, with Conakry at roughly 13.5 degrees west longitude. Solar noon in Conakry falls at about 12:54 PM by the standard clock, making UTC+0 a reasonable fit: slightly slow relative to the sun, but not by much.

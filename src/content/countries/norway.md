@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Norway uses Central European Time (UTC+1 in winter, UTC+2 in summer). DST observed. IANA: `Europe/Oslo`.
+
+**Key facts about time in Norway**
+- Timezone: Central European Time (CET) / Central European Summer Time (CEST)
+- UTC offset: +01:00 / +02:00
+- DST: Yes
+- IANA identifier: `Europe/Oslo`
+- Capital: Oslo
+
 Norway runs on Central European Time: UTC+1 in winter (CET), UTC+2 in summer (CEST). The country changes clocks with the rest of the EU on the last Sunday in March and the last Sunday in October, even though Norway is not an EU member (it is part of the European Economic Area and has observer status in EU time-coordination processes).
 
 This makes Norway's DST schedule identical to Germany, France, and Sweden. For a country that does enormous amounts of trade and tourism with Central European neighbors, the alignment makes commercial sense.

@@ -9,7 +9,14 @@ countries: ["Hong Kong"]
 lastUpdated: "2026-03-24"
 ---
 
-Hong Kong Time is UTC+8, fixed year-round. No daylight saving, no adjustments. The same clock in January and July. Hong Kong shares this offset with mainland China, Singapore, the Philippines, and Taiwan, but it maintains its own timezone identity in the IANA database: `Asia/Hong_Kong`. This is not an accident.
+Hong Kong Time is UTC+8, fixed year-round. No daylight saving, no adjustments. The same clock in January and July.
+
+**Key facts about HKT**
+- Full name: Hong Kong Time
+- UTC offset: UTC+8
+- DST: no
+- IANA identifiers: Asia/Hong_Kong
+- Countries: Hong Kong Hong Kong shares this offset with mainland China, Singapore, the Philippines, and Taiwan, but it maintains its own timezone identity in the IANA database: `Asia/Hong_Kong`. This is not an accident.
 
 ## A separate identity in the database
 

@@ -11,6 +11,13 @@ lastUpdated: "2026-03-24"
 
 Bangladesh Standard Time is UTC+6. The country runs on a single clock, has not observed daylight saving time since 2009, and sits at an offset shared with Bhutan, Kazakhstan (most of), Kyrgyzstan, and the Cocos Islands.
 
+**Key facts about BST**
+- Full name: Bangladesh Standard Time
+- UTC offset: UTC+6
+- DST: no
+- IANA identifiers: Asia/Dhaka
+- Countries: Bangladesh
+
 Bangladesh is roughly the size of the state of Iowa and has a population of approximately 170 million, making it one of the most densely populated countries in the world. Dhaka, its capital, is among the ten largest cities on Earth.
 
 ## A new nation, an inherited clock

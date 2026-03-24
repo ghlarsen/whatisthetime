@@ -9,7 +9,14 @@ countries: ["India", "Sri Lanka"]
 lastUpdated: "2026-03-24"
 ---
 
-India Standard Time is UTC+5:30. One clock for 1.4 billion people, stretched across a country nearly as wide as the continental United States. No daylight saving. No regional exceptions. The entire subcontinent -- from the Thar Desert in the west to the hills of Manipur in the east, from the Himalayas in the north to the tip of Tamil Nadu in the south -- runs on IST.
+India Standard Time is UTC+5:30. One clock for 1.4 billion people, stretched across a country nearly as wide as the continental United States.
+
+**Key facts about IST**
+- Full name: India Standard Time
+- UTC offset: UTC+5:30
+- DST: no
+- IANA identifiers: Asia/Kolkata, Asia/Colombo
+- Countries: India, Sri Lanka No daylight saving. No regional exceptions. The entire subcontinent -- from the Thar Desert in the west to the hills of Manipur in the east, from the Himalayas in the north to the tip of Tamil Nadu in the south -- runs on IST.
 
 ## The half-hour and the geography
 

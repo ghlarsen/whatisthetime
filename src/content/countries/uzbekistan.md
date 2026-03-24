@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Uzbekistan uses Uzbekistan Time (UTC+5). No DST observed. IANA: `Asia/Tashkent`.
+
+**Key facts about time in Uzbekistan**
+- Timezone: Uzbekistan Time (UZT)
+- UTC offset: +05:00
+- DST: no
+- IANA identifier: `Asia/Tashkent`
+- Capital: Tashkent
+
 Uzbekistan is UTC+5, year-round, no daylight saving. The IANA identifier is `Asia/Tashkent`.
 
 This is the Soviet-inherited timezone, retained at independence in 1991 and unchanged since. Tashkent sits at 69.3 degrees East, which corresponds naturally to about UTC+4:37. UTC+5 runs about 23 minutes ahead of solar noon, a minor offset that causes no practical inconvenience.

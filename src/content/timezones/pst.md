@@ -11,7 +11,14 @@ countries: ["United States", "Canada"]
 lastUpdated: "2026-03-24"
 ---
 
-Pacific Standard Time is UTC-8. It covers the western edge of North America: the California coast from San Diego to the Oregon border, the Pacific Northwest through Washington and Oregon, and the Canadian province of British Columbia. In summer, most of the zone observes Pacific Daylight Time (PDT) at UTC-7.
+Pacific Standard Time is UTC-8. It covers the western edge of North America: the California coast from San Diego to the Oregon border, the Pacific Northwest through Washington and Oregon, and the Canadian province of British Columbia.
+
+**Key facts about PST**
+- Full name: Pacific Standard Time
+- UTC offset: UTC-8
+- DST: yes, PDT (UTC-7)
+- IANA identifiers: America/Los_Angeles, America/Vancouver, America/Seattle
+- Countries: United States, Canada In summer, most of the zone observes Pacific Daylight Time (PDT) at UTC-7.
 
 PST is the timezone of the American technology industry, the global film business, and two of the world's most recognizable city names: Los Angeles and San Francisco. The decisions made in office buildings in this timezone reverberate through daily digital life everywhere on Earth.
 

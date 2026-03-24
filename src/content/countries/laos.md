@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Laos uses Indochina Time (UTC+7). No daylight saving time is observed. IANA: `Asia/Vientiane`.
+
+**Key facts about time in Laos**
+- Timezone: Indochina Time (ICT)
+- UTC offset: +07:00
+- DST: No
+- IANA identifier: `Asia/Vientiane`
+- Capital: Vientiane
+
 The classic way to enter Laos from Thailand is the slow boat down the Mekong River. From the border crossing at Huay Xai, travelers board wooden longboats that spend two days drifting downstream to Luang Prabang. There's no particular schedule. The boat leaves when it's ready. It arrives when it arrives.
 
 This is Laos. UTC+7, Indochina Time, officially. But the real governing principle is something closer to "boat time."

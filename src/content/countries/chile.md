@@ -11,6 +11,15 @@ continent: "South America"
 lastUpdated: "2026-03-23"
 ---
 
+Chile uses three timezones: Chile Standard Time (UTC-4 in winter, UTC-3 in summer) for most of the country, Magallanes Time (UTC-3, permanent) for the southernmost region, and Easter Island Time (UTC-6 in winter, UTC-5 in summer). IANA identifiers: `America/Santiago`, `America/Punta_Arenas`, `Pacific/Easter`.
+
+**Key facts about time in Chile**
+- Timezone: Chile Standard Time (CLT/CLST), Magallanes Time (CLST, permanent), Easter Island Time (EAST/EASST)
+- UTC offset: UTC-4 (Santiago winter), UTC-3 (Santiago summer / Punta Arenas), UTC-6 (Easter Island winter), UTC-5 (Easter Island summer)
+- DST: Yes for Santiago region; no for Magallanes
+- IANA identifier: America/Santiago, America/Punta_Arenas, Pacific/Easter
+- Capital: Santiago
+
 Chile is 4,300 kilometers long and averages 177 kilometers wide. It's the world's longest and narrowest country. From the Atacama Desert in the north (the driest non-polar desert on Earth) to the glaciers of Patagonia in the south to Easter Island in the mid-Pacific, Chile is less a country than a long, thin idea, stretched across geography that defies easy governance.
 
 Its timezone system reflects this.

@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Somalia uses East Africa Time (UTC+3). No DST observed. IANA: `Africa/Mogadishu`.
+
+**Key facts about time in Somalia**
+- Timezone: East Africa Time (EAT)
+- UTC offset: +03:00
+- DST: no
+- IANA identifier: `Africa/Mogadishu`
+- Capital: Mogadishu
+
 Somalia observes East Africa Time: UTC+3, year-round, no daylight saving. The IANA identifier is `Africa/Mogadishu`.
 
 Mogadishu sits at roughly 45.3 degrees East longitude and 2 degrees North latitude. UTC+3 places local noon at approximately 12:59 local time, slightly after solar noon of around 09:59 UTC. A reasonable alignment.

@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Dominica uses Atlantic Standard Time (AST) (UTC-4). No daylight saving time. IANA: `America/Dominica`.
+
+**Key facts about time in Dominica**
+- Timezone: Atlantic Standard Time (AST)
+- UTC offset: -04:00
+- DST: No
+- IANA identifier: `America/Dominica`
+- Capital: Roseau
+
 Dominica, not to be confused with the Dominican Republic, is a small island in the Lesser Antilles with one of the most dense rainforest covers in the Caribbean. It runs on Atlantic Standard Time: UTC-4, year-round, without daylight saving.
 
 This puts Dominica one hour ahead of Eastern Standard Time (EST) in winter, but aligned with Eastern Daylight Time (EDT) in summer. From a North American perspective, the clock relationship shifts depending on the season. From Dominica's perspective, nothing shifts at all.

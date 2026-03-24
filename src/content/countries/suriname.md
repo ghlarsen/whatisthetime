@@ -11,6 +11,15 @@ continent: "South America"
 lastUpdated: "2026-03-23"
 ---
 
+Suriname uses Suriname Time (UTC-3). No DST observed. IANA: `America/Paramaribo`.
+
+**Key facts about time in Suriname**
+- Timezone: Suriname Time (SRT)
+- UTC offset: -03:00
+- DST: no
+- IANA identifier: `America/Paramaribo`
+- Capital: Paramaribo
+
 Suriname is a small country on the northeastern coast of South America, tucked between Guyana to the west, Brazil to the south, and French Guiana to the east. It observes UTC-3, year-round, no daylight saving. The IANA identifier is `America/Paramaribo`.
 
 This makes Suriname unusual. Its immediate neighbors observe UTC-3 (French Guiana) and UTC-4 (Guyana). Brazil's adjacent states use UTC-3. But Suriname's UTC-3 is fixed, while Brazil's UTC-3 zone observes daylight saving time. The practical result is that during Brazilian DST, Suriname and the relevant Brazilian states are actually synchronized, but during the rest of the year they may differ.

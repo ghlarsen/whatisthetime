@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Turkey uses Turkey Time (UTC+3). No DST observed. IANA: `Europe/Istanbul`.
+
+**Key facts about time in Turkey**
+- Timezone: Turkey Time (TRT)
+- UTC offset: +03:00
+- DST: no
+- IANA identifier: `Europe/Istanbul`
+- Capital: Ankara
+
 Turkey used to change its clocks twice a year like most of Europe. In March, clocks sprang forward. In October, they fell back. Then, in September 2016, the government of President Recep Tayyip Erdogan announced that Turkey would not fall back.
 
 It has not fallen back since.

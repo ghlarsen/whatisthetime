@@ -11,6 +11,15 @@ continent: "South America"
 lastUpdated: "2026-03-23"
 ---
 
+Argentina uses Argentina Time (ART) (UTC-3) year-round with no daylight saving. IANA identifier: `America/Argentina/Buenos_Aires`.
+
+**Key facts about time in Argentina**
+- Timezone: Argentina Time (ART)
+- UTC offset: UTC-3
+- DST: No
+- IANA identifier: America/Argentina/Buenos_Aires
+- Capital: Buenos Aires
+
 Argentina runs on Argentina Time (ART), UTC-3, year-round. No daylight saving. The clocks don't move. This is the permanent arrangement as of 2009, when the country made its final decision to abandon seasonal time changes.
 
 Getting to this point involved twelve separate attempts at implementing daylight saving, scattered across most of the 20th century. Argentina tried it, abandoned it, tried it again, changed the rules, changed the rules again, and eventually concluded: not worth it.

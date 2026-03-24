@@ -9,7 +9,14 @@ countries: ["Turkey"]
 lastUpdated: "2026-03-24"
 ---
 
-Turkey Time is UTC+3. The entire country, from the European section of Istanbul to the border with Iran in the far east, runs on one clock. Turkey has not changed its clocks seasonally since September 2016, when the government moved to permanent summer time and never moved back.
+Turkey Time is UTC+3. The entire country, from the European section of Istanbul to the border with Iran in the far east, runs on one clock.
+
+**Key facts about TRT**
+- Full name: Turkey Time
+- UTC offset: UTC+3
+- DST: no (permanent UTC+3 since 2016)
+- IANA identifiers: Europe/Istanbul
+- Countries: Turkey Turkey has not changed its clocks seasonally since September 2016, when the government moved to permanent summer time and never moved back.
 
 The decision placed Turkey in a timezone position that is unusual in Europe: consistently ahead of Central European Time (CET) rather than occasionally aligned with it. Istanbul, which straddles two continents, now sits closer in clock terms to Moscow than to Brussels.
 

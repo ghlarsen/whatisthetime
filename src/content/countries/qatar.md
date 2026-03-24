@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Qatar uses Arabia Standard Time (UTC+3). No DST observed. IANA: `Asia/Qatar`.
+
+**Key facts about time in Qatar**
+- Timezone: Arabia Standard Time (AST)
+- UTC offset: +03:00
+- DST: No
+- IANA identifier: `Asia/Qatar`
+- Capital: Doha
+
 Qatar is a peninsula roughly the size of Connecticut, jutting into the Persian Gulf from the northeastern corner of the Arabian Peninsula. Population: about 3 million, of whom roughly 85 percent are foreign workers. GDP: one of the highest per capita in the world, driven by natural gas exports. The clock: UTC+3, year-round, no daylight saving.
 
 The IANA identifier is `Asia/Qatar`.

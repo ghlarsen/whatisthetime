@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Antigua and Barbuda uses Atlantic Standard Time (AST) (UTC-4) year-round with no daylight saving. IANA identifier: `America/Antigua`.
+
+**Key facts about time in Antigua and Barbuda**
+- Timezone: Atlantic Standard Time (AST)
+- UTC offset: UTC-4
+- DST: No
+- IANA identifier: America/Antigua
+- Capital: Saint John's
+
 Antigua and Barbuda runs at UTC-4, permanently. Atlantic Standard Time, no daylight saving adjustment. The IANA identifier is `America/Antigua`. The clock here moves only in one direction, which is forward, and it does so at the same rate year-round.
 
 This is entirely typical for the northeastern Caribbean.

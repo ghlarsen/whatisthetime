@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+North Korea uses Korea Standard Time (UTC+9). No DST observed. IANA: `Asia/Pyongyang`.
+
+**Key facts about time in North Korea**
+- Timezone: Korea Standard Time (KST)
+- UTC offset: +09:00
+- DST: No
+- IANA identifier: `Asia/Pyongyang`
+- Capital: Pyongyang
+
 On August 15, 2015, North Korea set its clocks back 30 minutes.
 
 The date was the 70th anniversary of Korea's liberation from Japanese colonial rule. The choice of date was not coincidental. The North Korean government announced that the country was correcting a wrong imposed by Japanese imperialism: Japan had moved the Korean peninsula to UTC+9 (Japan Standard Time) during colonial rule, forcing Koreans to synchronize with their colonizers. Pyongyang Time (UTC+8:30) was, officially, a restoration of Korean temporal sovereignty.

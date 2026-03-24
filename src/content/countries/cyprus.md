@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Cyprus uses Eastern European Time (EET) (UTC+2 in winter, UTC+3 in summer). DST observed. IANA: `Asia/Nicosia`.
+
+**Key facts about time in Cyprus**
+- Timezone: Eastern European Time (EET) / Eastern European Summer Time (EEST)
+- UTC offset: +02:00 (winter), +03:00 (summer)
+- DST: Yes
+- IANA identifier: `Asia/Nicosia`
+- Capital: Nicosia
+
 Cyprus officially uses Eastern European Time: UTC+2 in winter, UTC+3 (EEST) in summer. IANA identifier: `Asia/Nicosia`. Clock changes on the EU schedule, last Sunday in March and last Sunday in October.
 
 But Cyprus is divided.

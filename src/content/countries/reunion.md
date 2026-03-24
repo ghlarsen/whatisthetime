@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Reunion uses Reunion Time (UTC+4). No DST observed. IANA: `Indian/Reunion`.
+
+**Key facts about time in Reunion**
+- Timezone: Reunion Time (RET)
+- UTC offset: +04:00
+- DST: No
+- IANA identifier: `Indian/Reunion`
+- Capital: Saint-Denis
+
 Reunion is a French island in the Indian Ocean, roughly 700 kilometers east of Madagascar, and it runs on a clock four hours ahead of Paris. The IANA identifier is `Indian/Reunion`. UTC+4, no daylight saving.
 
 France keeps Reunion on the same rules that apply to its other Indian Ocean territories: fixed offset, no DST, because at 21 degrees South latitude there is not enough seasonal variation in daylight to motivate clock changes.

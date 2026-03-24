@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Zimbabwe uses Central Africa Time (UTC+2). No DST observed. IANA: `Africa/Harare`.
+
+**Key facts about time in Zimbabwe**
+- Timezone: Central Africa Time (CAT)
+- UTC offset: +02:00
+- DST: no
+- IANA identifier: `Africa/Harare`
+- Capital: Harare
+
 Zimbabwe uses Central Africa Time, UTC+2, year-round. No daylight saving. The IANA identifier is `Africa/Harare`.
 
 This is the same offset as Zambia, Malawi, Botswana, and South Africa (in winter). For a landlocked country in southern Africa at roughly 15 to 22 degrees South latitude, UTC+2 is geographically appropriate and uncontroversial. The timezone has been stable across independence from Britain in 1980, through the long rule of Robert Mugabe, through the 2008 hyperinflation crisis, and through the transition to the current government.

@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Saint Helena uses UTC+0 (GMT). No DST observed. IANA: `Atlantic/St_Helena`.
+
+**Key facts about time in Saint Helena**
+- Timezone: Greenwich Mean Time (GMT)
+- UTC offset: +00:00
+- DST: No
+- IANA identifier: `Atlantic/St_Helena`
+- Capital: Jamestown
+
 Saint Helena is a volcanic island in the South Atlantic Ocean, roughly 1,900 kilometers west of the Angolan coast. Population: approximately 4,500 people. It observes UTC+0, Greenwich Mean Time, year-round. No daylight saving.
 
 The IANA identifier is `Atlantic/St_Helena`.

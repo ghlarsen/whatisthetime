@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+Tuvalu uses Tuvalu Time (UTC+12). No DST observed. IANA: `Pacific/Funafuti`.
+
+**Key facts about time in Tuvalu**
+- Timezone: Tuvalu Time (TVT)
+- UTC offset: +12:00
+- DST: no
+- IANA identifier: `Pacific/Funafuti`
+- Capital: Funafuti
+
 Tuvalu is nine coral atolls in the central Pacific, total land area 26 square kilometers, population roughly 11,000. The capital atoll, Funafuti, includes the main runway of Funafuti International Airport, a strip of tarmac laid across the coral that would not look out of place on a large private estate.
 
 The country runs on UTC+12, year-round, no daylight saving.

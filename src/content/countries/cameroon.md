@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Cameroon uses West Africa Time (WAT) (UTC+1) year-round with no daylight saving. IANA identifier: `Africa/Douala`.
+
+**Key facts about time in Cameroon**
+- Timezone: West Africa Time (WAT)
+- UTC offset: UTC+1
+- DST: No
+- IANA identifier: Africa/Douala
+- Capital: Yaounde
+
 Cameroon uses West Africa Time (WAT), UTC+1, year-round. No daylight saving. IANA identifier: `Africa/Douala`, named after the economic capital, though Yaoundé is the political capital.
 
 UTC+1 covers most of Central and West Africa. Cameroon shares its timezone with Nigeria, Niger, Chad, the Central African Republic, Republic of Congo, Gabon, Equatorial Guinea, and Angola. It is a large, coherent African timezone block.

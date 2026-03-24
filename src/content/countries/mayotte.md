@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Mayotte uses East Africa Time (UTC+3). No daylight saving time is observed. IANA: `Indian/Mayotte`.
+
+**Key facts about time in Mayotte**
+- Timezone: East Africa Time (EAT)
+- UTC offset: +03:00
+- DST: No
+- IANA identifier: `Indian/Mayotte`
+- Capital: Mamoudzou
+
 Mayotte is 374 square kilometers of volcanic island in the Indian Ocean, wedged between Madagascar and the Mozambique coast of Africa. It is part of France: a full overseas department since 2011, with the same legal status as Guadeloupe or Réunion. Its residents are French citizens.
 
 It is also, simultaneously, claimed by the Comoros as its fourth island, occupied by France in violation of a 1975 UN General Assembly resolution. The Comoros government has not recognized Mayotte's status as a French territory.

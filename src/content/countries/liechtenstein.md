@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Liechtenstein uses Central European Time (UTC+1). Daylight saving time is observed, shifting to Central European Summer Time (UTC+2) in summer. IANA: `Europe/Vaduz`.
+
+**Key facts about time in Liechtenstein**
+- Timezone: Central European Time (CET)
+- UTC offset: +01:00 (standard), +02:00 (DST)
+- DST: Yes
+- IANA identifier: `Europe/Vaduz`
+- Capital: Vaduz
+
 Liechtenstein is 160 square kilometers. Its population is about 38,000 people, roughly the size of a small American college town. It has no airport and no army. It is doubly landlocked, surrounded by Switzerland and Austria, two countries that are themselves landlocked.
 
 And it has, somewhat remarkably, its own IANA timezone entry: `Europe/Vaduz`.

@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+The British Indian Ocean Territory uses Indian Ocean Time (IOT) (UTC+6) year-round with no daylight saving. IANA identifier: `Indian/Chagos`.
+
+**Key facts about time in British Indian Ocean Territory**
+- Timezone: Indian Ocean Time (IOT)
+- UTC offset: UTC+6
+- DST: No
+- IANA identifier: Indian/Chagos
+- Capital: None (no permanent civilian population)
+
 The British Indian Ocean Territory (BIOT) uses UTC+6, year-round. IANA identifier: `Indian/Chagos`. No daylight saving. The territory has no permanent civilian population. The clock is observed by US and UK military personnel at Diego Garcia, about 3,000 people at any given time.
 
 The territory is three things simultaneously: an archipelago of remote coral atolls in the middle of the Indian Ocean, a strategically critical military installation, and a site of one of the 20th century's more egregious forced population displacements.

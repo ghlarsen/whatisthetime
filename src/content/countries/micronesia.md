@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+The Federated States of Micronesia uses two timezones: UTC+10 for Chuuk and Yap, and UTC+11 for Pohnpei and Kosrae. No daylight saving time is observed. IANA: `Pacific/Chuuk`, `Pacific/Kosrae`.
+
+**Key facts about time in Micronesia**
+- Timezone: Chuuk Time (UTC+10), Pohnpei/Kosrae Time (UTC+11)
+- UTC offset: +10:00, +11:00
+- DST: No
+- IANA identifier: `Pacific/Chuuk`, `Pacific/Kosrae`
+- Capital: Palikir
+
 The Federated States of Micronesia (FSM) is technically one country, but its 607 islands are scattered across 2,700 kilometers of the western Pacific, a distance greater than the continental United States from New York to Denver.
 
 This geographic reality produces two timezones. The western states, Yap and Chuuk, operate at UTC+10. The eastern states, Pohnpei and Kosrae, operate at UTC+11. The capital, Palikir, is on Pohnpei, so technically the capital is one hour ahead of some of the states it governs.

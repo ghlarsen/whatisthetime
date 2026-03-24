@@ -9,7 +9,14 @@ countries: ["Colombia"]
 lastUpdated: "2026-03-24"
 ---
 
-Colombia Time is UTC-5, fixed and simple. No daylight saving, no regional subdivisions, one offset for a country that stretches from the Caribbean coast in the north to the Amazon basin in the south. Bogota, Medellin, Cali, Cartagena: they all share the same clock.
+Colombia Time is UTC-5, fixed and simple. No daylight saving, no regional subdivisions, one offset for a country that stretches from the Caribbean coast in the north to the Amazon basin in the south.
+
+**Key facts about COT**
+- Full name: Colombia Time
+- UTC offset: UTC-5
+- DST: no
+- IANA identifiers: America/Bogota
+- Countries: Colombia Bogota, Medellin, Cali, Cartagena: they all share the same clock.
 
 ## One country, one clock
 

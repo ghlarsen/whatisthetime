@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Gambia uses Greenwich Mean Time (GMT) (UTC+0). No daylight saving time. IANA: `Africa/Banjul`.
+
+**Key facts about time in Gambia**
+- Timezone: Greenwich Mean Time (GMT)
+- UTC offset: +00:00
+- DST: No
+- IANA identifier: `Africa/Banjul`
+- Capital: Banjul
+
 Gambia uses GMT, UTC+0, year-round. The IANA identifier is `Africa/Banjul`. There is no daylight saving time.
 
 Gambia occupies a striking geographic situation: it is a narrow sliver of land, roughly 50 kilometers wide at its broadest, running about 320 kilometers inland along the Gambia River. Senegal surrounds it almost completely, except for the short Atlantic coastline. The two countries share the same timezone, which makes obvious sense given their geographic entanglement.

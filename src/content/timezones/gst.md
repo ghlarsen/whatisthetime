@@ -9,7 +9,14 @@ countries: ["United Arab Emirates", "Oman"]
 lastUpdated: "2026-03-24"
 ---
 
-Gulf Standard Time is UTC+4, fixed and permanent. The United Arab Emirates and Oman share this clock, and neither observes daylight saving time. Dubai, Abu Dhabi, Muscat -- one offset, year-round, no changes.
+Gulf Standard Time is UTC+4, fixed and permanent. The United Arab Emirates and Oman share this clock, and neither observes daylight saving time.
+
+**Key facts about GST**
+- Full name: Gulf Standard Time
+- UTC offset: UTC+4
+- DST: no
+- IANA identifiers: Asia/Dubai, Asia/Muscat
+- Countries: United Arab Emirates, Oman Dubai, Abu Dhabi, Muscat -- one offset, year-round, no changes.
 
 ## The Gulf's fixed clock
 

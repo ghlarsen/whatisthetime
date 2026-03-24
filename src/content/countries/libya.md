@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Libya uses Eastern European Time (UTC+2). No daylight saving time has been observed since 2012. IANA: `Africa/Tripoli`.
+
+**Key facts about time in Libya**
+- Timezone: Eastern European Time (EET)
+- UTC offset: +02:00
+- DST: No
+- IANA identifier: `Africa/Tripoli`
+- Capital: Tripoli
+
 Libya's timezone has a political history that most countries' don't.
 
 Under Muammar Gaddafi, Libya observed UTC+2 as standard time and shifted to UTC+3 in summer. Then in November 2012, about a year after Gaddafi's death and the end of the civil war that toppled his regime, the transitional government abolished daylight saving time and fixed the clock at UTC+2 permanently.

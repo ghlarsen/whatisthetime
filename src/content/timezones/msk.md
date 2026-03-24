@@ -9,7 +9,14 @@ countries: ["Russia"]
 lastUpdated: "2026-03-24"
 ---
 
-Moscow Standard Time is UTC+3. It is the timezone of the Russian capital, the country's financial and political center, and by convention the reference clock for much of Russian public life. Train departures across the entire Russian rail network, regardless of local time, are printed in Moscow time. A passenger in Vladivostok, ten time zones east of Moscow, reads a timetable in MSK.
+Moscow Standard Time is UTC+3. It is the timezone of the Russian capital, the country's financial and political center, and by convention the reference clock for much of Russian public life.
+
+**Key facts about MSK**
+- Full name: Moscow Standard Time
+- UTC offset: UTC+3
+- DST: no (abolished 2014)
+- IANA identifiers: Europe/Moscow
+- Countries: Russia Train departures across the entire Russian rail network, regardless of local time, are printed in Moscow time. A passenger in Vladivostok, ten time zones east of Moscow, reads a timetable in MSK.
 
 Russia's relationship with its own clocks is complicated, politically charged, and surprisingly recent in its current form.
 

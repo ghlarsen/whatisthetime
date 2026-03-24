@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Malta uses Central European Time (UTC+1). Daylight saving time is observed, shifting to Central European Summer Time (UTC+2) in summer. IANA: `Europe/Malta`.
+
+**Key facts about time in Malta**
+- Timezone: Central European Time (CET)
+- UTC offset: +01:00 (standard), +02:00 (DST)
+- DST: Yes
+- IANA identifier: `Europe/Malta`
+- Capital: Valletta
+
 Malta is 316 square kilometers, smaller than the city of Vienna. It sits at the geometric center of the Mediterranean Sea, almost equidistant between Gibraltar and the Suez Canal. Every maritime civilization that crossed the Mediterranean sooner or later left marks on Malta: Phoenicians, Greeks, Romans, Arabs, Normans, Knights of St. John, French under Napoleon, British for 150 years, and finally independence in 1964.
 
 The island runs on Central European Time: UTC+1 in winter (CET), UTC+2 in summer (CEST). Malta joined the EU in 2004, and its clock aligns with Rome and Brussels.

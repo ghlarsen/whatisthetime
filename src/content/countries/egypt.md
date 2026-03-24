@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Egypt uses Eastern European Time (EET) (UTC+2). No daylight saving time. IANA: `Africa/Cairo`.
+
+**Key facts about time in Egypt**
+- Timezone: Eastern European Time (EET)
+- UTC offset: +02:00
+- DST: No
+- IANA identifier: `Africa/Cairo`
+- Capital: Cairo
+
 Egypt uses a single timezone for its entire territory: EET (Eastern European Time), UTC+2, year-round. No daylight saving time. This has been the settled position since 2011, though getting there was an unusually chaotic process.
 
 ## The DST on-off years

@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Armenia uses Armenia Time (AMT) (UTC+4) year-round with no daylight saving. IANA identifier: `Asia/Yerevan`.
+
+**Key facts about time in Armenia**
+- Timezone: Armenia Time (AMT)
+- UTC offset: UTC+4
+- DST: No
+- IANA identifier: Asia/Yerevan
+- Capital: Yerevan
+
 Armenia runs at UTC+4, year-round. Armenia Time (AMT) is the official designation. The IANA identifier is `Asia/Yerevan`. There is no daylight saving. The clock has been stable at this offset since 2012, when Armenia made its final decision to stop adjusting clocks twice a year.
 
 Yerevan is 4 hours ahead of London in winter, 3 hours ahead in summer (since London observes DST and Armenia doesn't). Moscow is one hour ahead of Yerevan, which puts Armenia firmly in the Russian sphere of temporal reference even as its geopolitical orientation grows more complicated.

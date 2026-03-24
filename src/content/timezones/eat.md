@@ -9,7 +9,14 @@ countries: ["Kenya", "Tanzania", "Uganda", "Ethiopia", "Somalia", "Eritrea", "Dj
 lastUpdated: "2026-03-24"
 ---
 
-East Africa Time is UTC+3, a fixed clock across a wide arc of eastern Africa. Kenya, Tanzania, Uganda, Ethiopia, Somalia, and a cluster of smaller nations all share this offset. No daylight saving. No internal timezone divisions. The same time from the Ethiopian highlands to the Kenyan coast, from the Tanzanian savanna to the Horn of Africa.
+East Africa Time is UTC+3, a fixed clock across a wide arc of eastern Africa.
+
+**Key facts about EAT**
+- Full name: East Africa Time
+- UTC offset: UTC+3
+- DST: no
+- IANA identifiers: Africa/Nairobi, Africa/Addis_Ababa, Africa/Dar_es_Salaam, Africa/Kampala
+- Countries: Kenya, Tanzania, Uganda, Ethiopia, Somalia, Eritrea, Djibouti, Sudan, South Sudan, Madagascar, Comoros, Mayotte, Reunion Kenya, Tanzania, Uganda, Ethiopia, Somalia, and a cluster of smaller nations all share this offset. No daylight saving. No internal timezone divisions. The same time from the Ethiopian highlands to the Kenyan coast, from the Tanzanian savanna to the Horn of Africa.
 
 ## The equatorial logic
 

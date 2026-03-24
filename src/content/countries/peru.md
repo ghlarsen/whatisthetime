@@ -11,6 +11,15 @@ continent: "South America"
 lastUpdated: "2026-03-23"
 ---
 
+Peru uses Peru Time (UTC-5). No DST observed. IANA: `America/Lima`.
+
+**Key facts about time in Peru**
+- Timezone: Peru Time (PET)
+- UTC offset: -05:00
+- DST: No
+- IANA identifier: `America/Lima`
+- Capital: Lima
+
 The Inca Empire was perhaps the most sophisticated solar civilization in history. They built temples aligned to solstices. They tracked celestial movements with precision that still impresses modern astronomers. They had no mechanical clocks, but they understood time.
 
 Modern Peru uses a mechanical clock set at UTC-5 year-round, no daylight saving. The IANA identifier is `America/Lima`.

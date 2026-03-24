@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Greece uses Eastern European Time (EET) (UTC+2 in winter, UTC+3 in summer). DST observed. IANA: `Europe/Athens`.
+
+**Key facts about time in Greece**
+- Timezone: Eastern European Time (EET) / Eastern European Summer Time (EEST)
+- UTC offset: +02:00 (winter), +03:00 (summer)
+- DST: Yes
+- IANA identifier: `Europe/Athens`
+- Capital: Athens
+
 Greece uses Eastern European Time: UTC+2 in winter, UTC+3 in summer (EEST). DST follows the EU standard, springing forward on the last Sunday in March and falling back on the last Sunday in October.
 
 Greece is in the same timezone as Estonia, Finland, and Romania, all countries further north and east. Geographically, Athens sits at about 23.5 degrees east longitude, which would place it comfortably at UTC+1 or UTC+2. UTC+2 is fine.

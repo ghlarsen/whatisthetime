@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Azerbaijan uses Azerbaijan Time (AZT) (UTC+4) year-round with no daylight saving. IANA identifier: `Asia/Baku`.
+
+**Key facts about time in Azerbaijan**
+- Timezone: Azerbaijan Time (AZT)
+- UTC offset: UTC+4
+- DST: No
+- IANA identifier: Asia/Baku
+- Capital: Baku
+
 Azerbaijan runs at UTC+4, all year. Azerbaijan Time (AZT) is the designation; `Asia/Baku` is the IANA identifier. The country abandoned daylight saving time in 2016, joining several of its regional neighbors in choosing a permanent clock.
 
 Baku sits on the Absheron Peninsula, jutting into the Caspian Sea, at roughly 49°E longitude. At this longitude, solar noon falls around UTC+3:16, making UTC+4 about 44 minutes ahead of local solar time. Not far off; the sun doesn't rise at what the clock calls 8 AM, but it's close enough.

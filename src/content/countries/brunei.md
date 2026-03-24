@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Brunei uses Brunei Darussalam Time (BNT) (UTC+8) year-round with no daylight saving. IANA identifier: `Asia/Brunei`.
+
+**Key facts about time in Brunei**
+- Timezone: Brunei Darussalam Time (BNT)
+- UTC offset: UTC+8
+- DST: No
+- IANA identifier: Asia/Brunei
+- Capital: Bandar Seri Begawan
+
 Brunei runs at UTC+8 permanently. Brunei Darussalam Time (BNT), IANA identifier `Asia/Brunei`. No daylight saving. The clock matches Malaysia (which surrounds Brunei on the island of Borneo), Singapore, and much of the broader Southeast Asian digital and commercial sphere.
 
 At approximately 115°E longitude, Bandar Seri Begawan's solar noon falls at about UTC+7:40. UTC+8 runs about 20 minutes fast relative to the sun. Acceptable.

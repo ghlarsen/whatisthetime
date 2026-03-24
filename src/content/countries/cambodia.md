@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Cambodia uses Indochina Time (ICT) (UTC+7) year-round with no daylight saving. IANA identifier: `Asia/Phnom_Penh`.
+
+**Key facts about time in Cambodia**
+- Timezone: Indochina Time (ICT)
+- UTC offset: UTC+7
+- DST: No
+- IANA identifier: Asia/Phnom_Penh
+- Capital: Phnom Penh
+
 Cambodia uses Indochina Time (ICT), UTC+7, year-round. No daylight saving. IANA identifier: `Asia/Phnom_Penh`. The clock matches Thailand, Vietnam, and Laos, creating a contiguous Southeast Asian timezone block.
 
 At 104.9°E longitude, Phnom Penh's solar noon falls at about UTC+6:59, making UTC+7 essentially astronomically perfect. The sun agrees with the clock.

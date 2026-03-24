@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Guernsey uses Greenwich Mean Time (GMT) (UTC+0 in winter, UTC+1 in summer). DST observed. IANA: `Europe/Guernsey`.
+
+**Key facts about time in Guernsey**
+- Timezone: Greenwich Mean Time (GMT) / British Summer Time (BST)
+- UTC offset: +00:00 (winter), +01:00 (summer)
+- DST: Yes
+- IANA identifier: `Europe/Guernsey`
+- Capital: Saint Peter Port
+
 Guernsey is a British Crown Dependency, not part of the United Kingdom, located in the English Channel about 50 kilometers off the Normandy coast of France. It has its own parliament, its own legal system, and its own financial regulations, but it uses British time: UTC+0 (GMT) in winter and UTC+1 (BST) in summer.
 
 DST follows the same schedule as the UK, springing forward on the last Sunday in March and falling back on the last Sunday in October.

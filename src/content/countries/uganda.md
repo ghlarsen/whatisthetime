@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Uganda uses East Africa Time (UTC+3). No DST observed. IANA: `Africa/Kampala`.
+
+**Key facts about time in Uganda**
+- Timezone: East Africa Time (EAT)
+- UTC offset: +03:00
+- DST: no
+- IANA identifier: `Africa/Kampala`
+- Capital: Kampala
+
 The equator runs through southern Uganda, through the district of Kayunga and past the shores of Lake Victoria, bisecting a country that is almost exactly 12 hours of daylight and 12 hours of night, every single day, all year long.
 
 Uganda uses East Africa Time, UTC+3. No daylight saving, no seasonal clock change. There is nothing to save.

@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Saint Lucia uses Atlantic Standard Time (UTC-4). No DST observed. IANA: `America/St_Lucia`.
+
+**Key facts about time in Saint Lucia**
+- Timezone: Atlantic Standard Time (AST)
+- UTC offset: -04:00
+- DST: No
+- IANA identifier: `America/St_Lucia`
+- Capital: Castries
+
 Saint Lucia observes Atlantic Standard Time: UTC-4, year-round, no daylight saving. The IANA identifier is `America/St_Lucia`. The island sits at roughly 61 degrees West longitude and 14 degrees North latitude in the Eastern Caribbean, and its clock is standard for the region.
 
 ## Helen of the West Indies

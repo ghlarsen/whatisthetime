@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Zambia uses Central Africa Time (UTC+2). No DST observed. IANA: `Africa/Lusaka`.
+
+**Key facts about time in Zambia**
+- Timezone: Central Africa Time (CAT)
+- UTC offset: +02:00
+- DST: no
+- IANA identifier: `Africa/Lusaka`
+- Capital: Lusaka
+
 Zambia uses Central Africa Time, UTC+2, year-round. No daylight saving. The IANA identifier is `Africa/Lusaka`.
 
 At 15 to 18 degrees South latitude, Zambia's day length varies about two hours across the year, not enough to make DST worthwhile, and the country has never bothered with it.

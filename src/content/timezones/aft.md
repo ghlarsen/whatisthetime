@@ -9,7 +9,14 @@ countries: ["Afghanistan"]
 lastUpdated: "2026-03-24"
 ---
 
-Afghanistan Time is UTC+4:30. No daylight saving, no regional divisions, one clock for a country the size of Texas. The half-hour offset puts Afghanistan between its neighbors -- Iran to the west on UTC+3:30 and Pakistan to the east on UTC+5 -- in a neat progression of half-hour steps that reflects something of the geography.
+Afghanistan Time is UTC+4:30. No daylight saving, no regional divisions, one clock for a country the size of Texas.
+
+**Key facts about AFT**
+- Full name: Afghanistan Time
+- UTC offset: UTC+4:30
+- DST: no
+- IANA identifiers: Asia/Kabul
+- Countries: Afghanistan The half-hour offset puts Afghanistan between its neighbors -- Iran to the west on UTC+3:30 and Pakistan to the east on UTC+5 -- in a neat progression of half-hour steps that reflects something of the geography.
 
 ## Why 4:30
 

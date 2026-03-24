@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Niger uses West Africa Time (UTC+1). No DST observed. IANA: `Africa/Niamey`.
+
+**Key facts about time in Niger**
+- Timezone: West Africa Time (WAT)
+- UTC offset: +01:00
+- DST: No
+- IANA identifier: `Africa/Niamey`
+- Capital: Niamey
+
 Niger is Africa's largest country by area: 1.267 million square kilometers. It is also one of the world's poorest. About 80% of its territory is Saharan desert. The population of roughly 25 million is concentrated in the southern band near the Niger River and the border with Nigeria.
 
 The country runs on West Africa Time, UTC+1, year-round. This is the same offset as Nigeria to the south, Algeria to the north, and a band of West and Central African states. No daylight saving time has ever been systematically observed.

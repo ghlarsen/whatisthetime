@@ -13,6 +13,13 @@ lastUpdated: "2026-03-24"
 
 Fiji Time is UTC+12. During daylight saving, which runs from late October through January, Fiji moves to UTC+13, placing it among the furthest-forward clocks on Earth and, on the calendar, ahead of most of the world.
 
+**Key facts about FJT**
+- Full name: Fiji Time
+- UTC offset: UTC+12
+- DST: yes, FJST (UTC+13) from late October to late January
+- IANA identifiers: Pacific/Fiji
+- Countries: Fiji
+
 Fiji is an archipelago of over 330 islands in the South Pacific, sitting close to the International Date Line. The date line itself, which runs at roughly 180 degrees longitude, passes through the Fijian island group, creating an unusual geographic situation: without an adjustment, parts of Fiji would be on one calendar day and other parts on the next.
 
 ## The date line adjustment

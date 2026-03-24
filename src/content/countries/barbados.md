@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Barbados uses Atlantic Standard Time (AST) (UTC-4) year-round with no daylight saving. IANA identifier: `America/Barbados`.
+
+**Key facts about time in Barbados**
+- Timezone: Atlantic Standard Time (AST)
+- UTC offset: UTC-4
+- DST: No
+- IANA identifier: America/Barbados
+- Capital: Bridgetown
+
 Barbados uses Atlantic Standard Time, UTC-4, permanently. No daylight saving. The IANA identifier is `America/Barbados`. Bridgetown, the capital, is the most easterly point in the Caribbean island chain, and it runs on the same clock as most of its neighbors to the north and south.
 
 ## The easternmost island and the winds

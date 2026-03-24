@@ -11,6 +11,15 @@ countries: ["Australia"]
 lastUpdated: "2026-03-24"
 ---
 
+Australian Eastern Standard Time (AEST) is UTC+10, used in Australia. DST: yes, as AEDT (UTC+11) in New South Wales, Victoria, Tasmania, and the ACT from October to April; Queensland does not observe DST. IANA identifiers: `Australia/Sydney`, `Australia/Melbourne`, `Australia/Brisbane`.
+
+**Key facts about AEST**
+- Full name: Australian Eastern Standard Time
+- UTC offset: UTC+10
+- DST: yes, AEDT (UTC+11) in southern states
+- IANA identifiers: Australia/Sydney, Australia/Melbourne, Australia/Brisbane
+- Countries: Australia
+
 Australian Eastern Standard Time covers the country's most populated corridor: Sydney, Melbourne, Brisbane, and the web of cities running down the eastern seaboard. It is UTC+10, which puts it ahead of Japan by one hour and ahead of China by two. More than half of Australia's population lives within this timezone.
 
 ## The east coast corridor

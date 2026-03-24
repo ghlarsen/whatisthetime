@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+The Maldives uses Maldives Time (UTC+5). No daylight saving time is observed. IANA: `Indian/Maldives`.
+
+**Key facts about time in the Maldives**
+- Timezone: Maldives Time (MVT)
+- UTC offset: +05:00
+- DST: No
+- IANA identifier: `Indian/Maldives`
+- Capital: Male
+
 The Maldives is the lowest-lying country on Earth. Its average ground elevation is 1.5 meters above sea level. The highest natural point on any island is approximately 2.4 meters. In a world where sea levels are projected to rise by half a meter or more by 2100, the arithmetic is uncomfortable.
 
 The country runs on Maldives Time (MVT), UTC+5, year-round. No daylight saving. No drama about the clock. The quiet certainty of UTC+5 proceeds while the country's leadership has been one of the most prominent voices in international climate negotiations, arguing that the existence of nations is at stake.

@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Finland uses Eastern European Time (EET) (UTC+2 in winter, UTC+3 in summer). DST observed. IANA: `Europe/Helsinki`.
+
+**Key facts about time in Finland**
+- Timezone: Eastern European Time (EET) / Eastern European Summer Time (EEST)
+- UTC offset: +02:00 (winter), +03:00 (summer)
+- DST: Yes
+- IANA identifier: `Europe/Helsinki`
+- Capital: Helsinki
+
 Finland uses Eastern European Time: UTC+2 in winter, UTC+3 in summer (EEST). DST follows the EU standard, springing forward on the last Sunday in March and falling back on the last Sunday in October.
 
 Finland was, in 2018, among the countries that most enthusiastically supported the EU proposal to abolish DST. Finnish health authorities cited well-documented disruption to sleep patterns, and Finnish farmers have long complained that the spring clock change interferes with livestock routines. The EU Parliament voted to end DST in 2019. The resolution remains unimplemented as member states fail to agree on which permanent time to adopt.

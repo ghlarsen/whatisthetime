@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Thailand uses Indochina Time (UTC+7). No DST observed. IANA: `Asia/Bangkok`.
+
+**Key facts about time in Thailand**
+- Timezone: Indochina Time (ICT)
+- UTC offset: +07:00
+- DST: no
+- IANA identifier: `Asia/Bangkok`
+- Capital: Bangkok
+
 In Southeast Asia, almost every country's modern timezone can be traced back to a colonial power's decision. The French set Indochina's clocks. The British set Burma and Malaya. The Dutch set the Indies. The Americans adjusted the Philippines.
 
 Thailand is the exception. Thailand was never colonized.

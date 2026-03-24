@@ -9,6 +9,15 @@ countries: ["United States"]
 lastUpdated: "2026-03-24"
 ---
 
+Hawaii Standard Time (HST) is UTC-10, used in the United States (Hawaii). DST: no. IANA identifiers: `Pacific/Honolulu`, `Pacific/Johnston`.
+
+**Key facts about HST**
+- Full name: Hawaii Standard Time
+- UTC offset: UTC-10
+- DST: no
+- IANA identifiers: Pacific/Honolulu, Pacific/Johnston
+- Countries: United States
+
 Hawaii Standard Time sits at the far western edge of the United States clock, UTC-10. Hawaii does not observe daylight saving. The islands have not shifted their clocks since 1947, when the territory abandoned the wartime DST that the federal government had imposed. The clock is fixed, the islands are remote, and the effect on daily life is a particular kind of temporal isolation that shapes how Hawaii relates to the continent it is politically part of.
 
 ## Why Hawaii doesn't observe DST

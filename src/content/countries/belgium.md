@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Belgium uses Central European Time (CET) (UTC+1 in winter, UTC+2 in summer). The country observes daylight saving time, switching on the last Sunday in March and the last Sunday in October. IANA identifier: `Europe/Brussels`.
+
+**Key facts about time in Belgium**
+- Timezone: Central European Time (CET) / Central European Summer Time (CEST)
+- UTC offset: UTC+1 (winter), UTC+2 (summer)
+- DST: Yes, last Sunday in March to last Sunday in October
+- IANA identifier: Europe/Brussels
+- Capital: Brussels
+
 Belgium uses Central European Time: UTC+1 in winter, UTC+2 in summer. IANA identifier: `Europe/Brussels`. The clock changes on the last Sunday in March (forward) and the last Sunday in October (back), matching the rest of the CET zone.
 
 Belgium is in the wrong timezone, strictly speaking. But so is France. So is Spain. So is the Netherlands. So is Luxembourg. At some point you start to wonder if "Central European Time" has anything to do with where you are on the globe.

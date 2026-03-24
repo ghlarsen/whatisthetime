@@ -11,6 +11,15 @@ continent: "South America"
 lastUpdated: "2026-03-23"
 ---
 
+The Falkland Islands use Falkland Islands Standard Time (FKST) (UTC-3). No daylight saving time. IANA: `Atlantic/Stanley`.
+
+**Key facts about time in Falkland Islands**
+- Timezone: Falkland Islands Standard Time (FKST)
+- UTC offset: -03:00
+- DST: No
+- IANA identifier: `Atlantic/Stanley`
+- Capital: Stanley
+
 The Falkland Islands sit in the South Atlantic, about 480 kilometers east of the southern tip of South America, and they keep one of the odder timezone arrangements in the world: UTC-3, year-round, no seasonal change.
 
 The interesting thing is where this clock comes from. The Falklands used to observe seasonal time changes, shifting between UTC-4 (standard) and UTC-3 (summer). In September 2010, the islands moved to permanent UTC-3 and stopped changing. They have been on what is effectively perpetual summer time ever since.

@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Burundi uses East Africa Time (EAT) (UTC+3) year-round with no daylight saving. IANA identifier: `Africa/Bujumbura`.
+
+**Key facts about time in Burundi**
+- Timezone: East Africa Time (EAT)
+- UTC offset: UTC+3
+- DST: No
+- IANA identifier: Africa/Bujumbura
+- Capital: Gitega
+
 Burundi uses East Africa Time, UTC+3, year-round. No daylight saving. IANA identifier: `Africa/Bujumbura`, named after Bujumbura, the economic capital, though the political capital was moved to Gitega in 2019.
 
 UTC+3 is shared with Kenya, Tanzania, Ethiopia, Somalia, Eritrea, Djibouti, and Madagascar, creating a unified East African timezone block. At approximately 29°E longitude, Bujumbura's solar noon falls around UTC+1:56, making UTC+3 about an hour fast relative to the sun. This is the trade-off for timezone simplicity across the region.

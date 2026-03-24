@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+The Faroe Islands use Western European Time (WET) (UTC+0 in winter, UTC+1 in summer). DST observed. IANA: `Atlantic/Faroe`.
+
+**Key facts about time in Faroe Islands**
+- Timezone: Western European Time (WET) / Western European Summer Time (WEST)
+- UTC offset: +00:00 (winter), +01:00 (summer)
+- DST: Yes
+- IANA identifier: `Atlantic/Faroe`
+- Capital: Torshavn
+
 The Faroe Islands, an autonomous territory of Denmark, keep Western European Time: UTC+0 in winter, UTC+1 in summer (BST equivalent, following the same clock-change dates as the UK and Ireland). This places the Faroes in a slightly different timezone rhythm than Denmark itself, which is on CET (UTC+1 winter, UTC+2 summer).
 
 You can be in Copenhagen and call someone in Tórshavn and be speaking with someone who is an hour behind you, despite the Faroes being a Danish territory.

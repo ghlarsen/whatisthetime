@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Belize uses Central Standard Time (CST) (UTC-6) year-round with no daylight saving. IANA identifier: `America/Belize`.
+
+**Key facts about time in Belize**
+- Timezone: Central Standard Time (CST)
+- UTC offset: UTC-6
+- DST: No
+- IANA identifier: America/Belize
+- Capital: Belmopan
+
 Belize keeps Central Standard Time, UTC-6, year-round, with no daylight saving. IANA identifier: `America/Belize`. This puts Belize one hour behind Mexico City most of the year (Mexico City uses CST but observes DST), two hours behind New York in winter, and one hour behind in summer.
 
 The timezone is clean, consistent, and requires no adjustment. Which suits a country whose vibe trends toward easy-going.

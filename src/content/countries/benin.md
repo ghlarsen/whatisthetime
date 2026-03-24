@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Benin uses West Africa Time (WAT) (UTC+1) year-round with no daylight saving. IANA identifier: `Africa/Porto-Novo`.
+
+**Key facts about time in Benin**
+- Timezone: West Africa Time (WAT)
+- UTC offset: UTC+1
+- DST: No
+- IANA identifier: Africa/Porto-Novo
+- Capital: Porto-Novo
+
 Benin runs at UTC+1, permanently. West Africa Time (WAT), IANA identifier `Africa/Porto-Novo`. No daylight saving, no seasonal adjustment, no complexity. The clock is steady.
 
 Porto-Novo is the constitutional capital, though Cotonou functions as the economic and administrative center. The IANA identifier uses Porto-Novo.

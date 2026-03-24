@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Nepal uses Nepal Time (UTC+5:45). No DST observed. IANA: `Asia/Kathmandu`.
+
+**Key facts about time in Nepal**
+- Timezone: Nepal Time (NPT)
+- UTC offset: +05:45
+- DST: No
+- IANA identifier: `Asia/Kathmandu`
+- Capital: Kathmandu
+
 Nepal runs on UTC+5:45. Not UTC+5. Not UTC+6. Five hours and forty-five minutes ahead of Greenwich.
 
 This is one of only two countries on Earth with a 45-minute offset (the other being the Chatham Islands of New Zealand, a separate timezone within a country). Nepal's offset has been the subject of curious articles, software bug reports, and the occasional frustrated question from developers building international scheduling systems: why 45 minutes?

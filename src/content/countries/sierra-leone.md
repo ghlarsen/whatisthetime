@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Sierra Leone uses Greenwich Mean Time (UTC+0). No DST observed. IANA: `Africa/Freetown`.
+
+**Key facts about time in Sierra Leone**
+- Timezone: Greenwich Mean Time (GMT)
+- UTC offset: +00:00
+- DST: No
+- IANA identifier: `Africa/Freetown`
+- Capital: Freetown
+
 Sierra Leone observes UTC+0, Greenwich Mean Time, year-round. No daylight saving. The IANA identifier is `Africa/Freetown`.
 
 Freetown sits at roughly 13.2 degrees West longitude, which corresponds to a solar noon of about 12:53 UTC at UTC+0. The clock is about 53 minutes ahead of the sun, a modest discrepancy common to countries at the western edges of GMT zones.

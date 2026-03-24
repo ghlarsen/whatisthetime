@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Oman uses Arabia Standard Time (UTC+4). No DST observed. IANA: `Asia/Muscat`.
+
+**Key facts about time in Oman**
+- Timezone: Arabia Standard Time (AST)
+- UTC offset: +04:00
+- DST: No
+- IANA identifier: `Asia/Muscat`
+- Capital: Muscat
+
 Oman sits at the southeastern corner of the Arabian Peninsula, where the Gulf of Oman meets the Arabian Sea. The country spans a surprising range of geography: dramatic fjords in the Musandam Peninsula in the north, desert plains through the interior, the lush Dhofar mountains in the south. But from the Al Hajar Mountains to Salalah, one clock governs everything: Arabia Standard Time, UTC+4.
 
 No daylight saving. No regional variation. No fuss.

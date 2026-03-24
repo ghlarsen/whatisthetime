@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Saint Barthelemy uses Atlantic Standard Time (UTC-4). No DST observed. IANA: `America/St_Barthelemy`.
+
+**Key facts about time in Saint Barthelemy**
+- Timezone: Atlantic Standard Time (AST)
+- UTC offset: -04:00
+- DST: No
+- IANA identifier: `America/St_Barthelemy`
+- Capital: Gustavia
+
 Saint Barthelemy, universally known as St. Barts, is a French overseas collectivity of roughly 10,000 residents in the northeastern Caribbean. It runs on Atlantic Standard Time: UTC-4, year-round, no daylight saving. The IANA identifier is `America/St_Barthelemy`.
 
 The island is roughly 25 square kilometers, one of the smaller inhabited islands in the Caribbean. Its capital, Gustavia, is named after Swedish King Gustav III, because St. Barts spent a period as a Swedish possession.

@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Germany uses Central European Time (CET) (UTC+1 in winter, UTC+2 in summer). DST observed. IANA: `Europe/Berlin`.
+
+**Key facts about time in Germany**
+- Timezone: Central European Time (CET) / Central European Summer Time (CEST)
+- UTC offset: +01:00 (winter), +02:00 (summer)
+- DST: Yes
+- IANA identifier: `Europe/Berlin`
+- Capital: Berlin
+
 Germany runs on Central European Time: UTC+1 in winter, UTC+2 in summer (CEST). DST transitions follow the EU standard, last Sunday in March forward, last Sunday in October back.
 
 Germany adopted standard time in 1893 with the introduction of the Central European Railway Standard Time across the newly unified nation. Before unification in 1871, different German states kept different local times. Bavaria kept Munich time. Prussia kept Berlin time. Saxony kept Dresden time. Running a train from Hamburg to Vienna required navigating a cascade of different clocks. The unified German state needed a unified clock, and Central European Time was the solution.

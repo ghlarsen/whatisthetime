@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Sudan uses East Africa Time (UTC+3). No DST observed. IANA: `Africa/Khartoum`.
+
+**Key facts about time in Sudan**
+- Timezone: East Africa Time (EAT)
+- UTC offset: +03:00
+- DST: no
+- IANA identifier: `Africa/Khartoum`
+- Capital: Khartoum
+
 Sudan observes East Africa Time: UTC+3, year-round, no daylight saving. The IANA identifier is `Africa/Khartoum`.
 
 Khartoum sits at roughly 32.5 degrees East longitude, where solar noon occurs around 09:50 UTC. UTC+3 places local noon at 12:50. A reasonable alignment.

@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Denmark uses Central European Time (CET) (UTC+1 in winter, UTC+2 in summer). DST observed. IANA: `Europe/Copenhagen`.
+
+**Key facts about time in Denmark**
+- Timezone: Central European Time (CET) / Central European Summer Time (CEST)
+- UTC offset: +01:00 (winter), +02:00 (summer)
+- DST: Yes
+- IANA identifier: `Europe/Copenhagen`
+- Capital: Copenhagen
+
 Denmark runs on Central European Time: UTC+1 in winter, UTC+2 in summer (CEST). It has done so continuously since 1940, when German occupation imposed the Central European timezone on occupied territories. Before that, Denmark had been on UTC+1 year-round, without daylight saving. The occupation changed the clocks, and they never quite went back to what they were.
 
 The irony is rich: Denmark is geographically a North Atlantic country, sitting at roughly the same longitude as the UK and Portugal. Copenhagen's solar noon falls closer to UTC+0 than UTC+1. Denmark is in the wrong timezone, and it has known this for a while.

@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+The Cocos (Keeling) Islands use Cocos Islands Time (CCT) (UTC+6:30) year-round with no daylight saving. IANA identifier: `Indian/Cocos`.
+
+**Key facts about time in Cocos Islands**
+- Timezone: Cocos Islands Time (CCT)
+- UTC offset: UTC+6:30
+- DST: No
+- IANA identifier: Indian/Cocos
+- Capital: West Island
+
 The Cocos (Keeling) Islands use Cocos Islands Time (CCT), UTC+6:30, year-round. No daylight saving. IANA identifier: `Indian/Cocos`. A half-hour offset, placing the islands in company with Myanmar (UTC+6:30) as the only two places in the world using this specific offset.
 
 The Cocos Islands are two atolls in the eastern Indian Ocean, 2,760 kilometers northwest of Perth, Australia. Total population: roughly 600 people on two inhabited islands (Direction Island is now uninhabited; only Home Island and West Island are occupied). Total land area: 14 square kilometers.

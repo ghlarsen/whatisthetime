@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Liberia uses Greenwich Mean Time (UTC+0). No daylight saving time is observed. Liberia was the last country to abandon local mean time, adopting UTC+0 in 1972. IANA: `Africa/Monrovia`.
+
+**Key facts about time in Liberia**
+- Timezone: Greenwich Mean Time (GMT)
+- UTC offset: +00:00
+- DST: No
+- IANA identifier: `Africa/Monrovia`
+- Capital: Monrovia
+
 There's a remarkable footnote in the history of standard time that belongs entirely to Liberia.
 
 When the world gradually adopted standard timezones in the late 19th and early 20th centuries, most countries fell into line within decades. Liberia did not. Until January 7, 1972, Liberia officially used Monrovia Mean Time, which was UTC-0:44:30, an offset derived from the actual solar position of the Liberian meridian rather than any standardized zone.

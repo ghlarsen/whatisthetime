@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Saint Pierre and Miquelon uses Pierre and Miquelon Standard Time (UTC-3, UTC-2 in summer). DST observed. IANA: `America/Miquelon`.
+
+**Key facts about time in Saint Pierre and Miquelon**
+- Timezone: Pierre and Miquelon Standard Time (PMST) / Pierre and Miquelon Daylight Time (PMDT)
+- UTC offset: -03:00 / -02:00
+- DST: Yes
+- IANA identifier: `America/Miquelon`
+- Capital: Saint-Pierre
+
 Twenty-five kilometers off the southern coast of Newfoundland, Canada, there is France.
 
 Saint Pierre and Miquelon, two small islands with a combined area of 242 square kilometers, have been French territory almost continuously since 1763. They are the last remnant of New France in North America, a territory that once encompassed most of Canada and the Mississippi Valley. The French population here has maintained its identity through over two and a half centuries of Canadian and American adjacency.

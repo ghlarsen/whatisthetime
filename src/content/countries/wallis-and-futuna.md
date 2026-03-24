@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+Wallis and Futuna uses Wallis and Futuna Time (UTC+12). No DST observed. IANA: `Pacific/Wallis`.
+
+**Key facts about time in Wallis and Futuna**
+- Timezone: Wallis and Futuna Time (WFT)
+- UTC offset: +12:00
+- DST: no
+- IANA identifier: `Pacific/Wallis`
+- Capital: Mata-Utu
+
 Wallis and Futuna is a French overseas collectivity in the central Pacific, about 2,000 kilometers northeast of Fiji. Total land area: 274 square kilometers. Total population: approximately 11,000 people. IANA timezone: `Pacific/Wallis`, UTC+12.
 
 It is one of France's most remote overseas territories, and it runs on a timezone that puts it 12 hours ahead of Paris in winter and 11 hours ahead in summer, when France observes CEST.

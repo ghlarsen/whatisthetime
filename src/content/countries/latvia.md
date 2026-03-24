@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Latvia uses Eastern European Time (UTC+2). Daylight saving time is observed, shifting to Eastern European Summer Time (UTC+3) in summer. IANA: `Europe/Riga`.
+
+**Key facts about time in Latvia**
+- Timezone: Eastern European Time (EET)
+- UTC offset: +02:00 (standard), +03:00 (DST)
+- DST: Yes
+- IANA identifier: `Europe/Riga`
+- Capital: Riga
+
 Latvia has one of the most extreme relationships with seasonal daylight in the European Union. Riga, the capital, sits at 56.9 degrees North latitude, close to the same latitude as Moscow and further north than most of Canada's major cities.
 
 In December, Riga gets about 6 hours and 40 minutes of daylight. In June, it gets nearly 17 and a half hours. The gap between the shortest and longest day exceeds 10 hours, more than double what you'd experience in, say, Portugal or Greece.

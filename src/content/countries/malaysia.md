@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Malaysia uses Malaysia Standard Time (UTC+8). No daylight saving time is observed. IANA: `Asia/Kuala_Lumpur`.
+
+**Key facts about time in Malaysia**
+- Timezone: Malaysia Standard Time (MST)
+- UTC offset: +08:00
+- DST: No
+- IANA identifier: `Asia/Kuala_Lumpur`
+- Capital: Kuala Lumpur
+
 Malaysia is a country split across the South China Sea. Peninsular Malaysia (or West Malaysia) shares the Malay Peninsula with Thailand and Singapore. Malaysian Borneo (East Malaysia, comprising Sabah and Sarawak) is 900 kilometers away across open water on the northwest coast of the island of Borneo.
 
 These two portions of Malaysia are geographically separated, yet they share a single timezone: UTC+8, Malaysia Standard Time (MST), year-round.

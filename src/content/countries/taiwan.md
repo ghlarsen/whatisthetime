@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Taiwan uses China Standard Time (UTC+8). No DST observed. IANA: `Asia/Taipei`.
+
+**Key facts about time in Taiwan**
+- Timezone: China Standard Time (CST)
+- UTC offset: +08:00
+- DST: no
+- IANA identifier: `Asia/Taipei`
+- Capital: Taipei
+
 Taiwan and China share an offset. Both run on UTC+8. Set your clock in Taipei, and it matches Beijing exactly. This is one of the more quietly charged facts in modern geopolitics: two governments that each claim to be the legitimate China, reading the same hour from their clocks.
 
 The timezone is the same. What it means is not.

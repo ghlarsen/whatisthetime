@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Bosnia and Herzegovina uses Central European Time (CET) (UTC+1 in winter, UTC+2 in summer). The country observes daylight saving time, switching on the last Sunday in March and the last Sunday in October. IANA identifier: `Europe/Sarajevo`.
+
+**Key facts about time in Bosnia and Herzegovina**
+- Timezone: Central European Time (CET) / Central European Summer Time (CEST)
+- UTC offset: UTC+1 (winter), UTC+2 (summer)
+- DST: Yes, last Sunday in March to last Sunday in October
+- IANA identifier: Europe/Sarajevo
+- Capital: Sarajevo
+
 Bosnia and Herzegovina uses Central European Time: UTC+1 in winter, UTC+2 (CEST) in summer. IANA identifier: `Europe/Sarajevo`. The clock changes on the standard EU schedule, last Sunday in March forward, last Sunday in October back.
 
 In a country governed by two entities (the Federation of Bosnia and Herzegovina, and Republika Srpska), three constituent peoples (Bosniaks, Serbs, and Croats), a rotating three-person presidency, and a constitutional structure designed to prevent both dominance and disintegration, the shared timezone is one of the less controversial arrangements.

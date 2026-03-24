@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Monaco uses Central European Time (UTC+1). Daylight saving time is observed, shifting to Central European Summer Time (UTC+2) in summer. IANA: `Europe/Monaco`.
+
+**Key facts about time in Monaco**
+- Timezone: Central European Time (CET)
+- UTC offset: +01:00 (standard), +02:00 (DST)
+- DST: Yes
+- IANA identifier: `Europe/Monaco`
+- Capital: Monaco
+
 Monaco covers 2.02 square kilometers. It is the second smallest sovereign state in the world after Vatican City. It has more millionaires per capita than anywhere else. It hosts one of the most glamorous Formula 1 races on the calendar. And it runs on exactly the same clock as France: Central European Time (UTC+1 in winter, CET), Central European Summer Time (UTC+2 in summer, CEST).
 
 Monaco has its own IANA timezone identifier, `Europe/Monaco`, which shadows `Europe/Paris` perfectly. The separate entry honors Monaco's sovereign status; the identical time rules acknowledge the practical reality that Monaco is surrounded on three sides by France (the fourth side is the Mediterranean Sea) and shares its economy, infrastructure, and administrative rhythms entirely.

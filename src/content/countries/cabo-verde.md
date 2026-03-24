@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Cabo Verde uses Cape Verde Time (CVT) (UTC-1) year-round with no daylight saving. IANA identifier: `Atlantic/Cape_Verde`.
+
+**Key facts about time in Cabo Verde**
+- Timezone: Cape Verde Time (CVT)
+- UTC offset: UTC-1
+- DST: No
+- IANA identifier: Atlantic/Cape_Verde
+- Capital: Praia
+
 Cabo Verde (formerly Cape Verde) uses Cape Verde Time (CVT), UTC-1, year-round. No daylight saving. IANA identifier: `Atlantic/Cape_Verde`. The archipelago of ten volcanic islands, strung across 600 kilometers of the Atlantic Ocean some 570 kilometers off the coast of Senegal, uses the only negative UTC offset of any African country.
 
 This places Cabo Verde in the same timezone as the Azores, a Portuguese archipelago also in the Atlantic. Both island groups share their longitude range and their clock.

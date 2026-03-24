@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+Australia uses multiple timezones spanning UTC+8 (Perth) to UTC+11 (Sydney/Melbourne in summer), with Lord Howe Island at UTC+10:30 and Eucla at UTC+8:45. Some states and territories observe daylight saving time while others do not. IANA identifiers: `Australia/Sydney`, `Australia/Melbourne`, `Australia/Brisbane`, `Australia/Adelaide`, `Australia/Darwin`, `Australia/Perth`, `Australia/Lord_Howe`, `Australia/Eucla`.
+
+**Key facts about time in Australia**
+- Timezone: Multiple (AWST, ACST, AEST, and variants)
+- UTC offset: UTC+8 (Perth), UTC+8:45 (Eucla), UTC+9:30 (Darwin/Adelaide), UTC+10 (Brisbane/Sydney winter), UTC+10:30 (Lord Howe winter), UTC+11 (Sydney/Melbourne summer)
+- DST: Yes in NSW, VIC, TAS, SA, ACT; no in QLD, NT, WA
+- IANA identifier: Australia/Sydney, Australia/Melbourne, Australia/Brisbane, Australia/Adelaide, Australia/Darwin, Australia/Perth, Australia/Lord_Howe, Australia/Eucla
+- Capital: Canberra
+
 Australia is, by any reasonable measure, a timezone disaster. Not because it handles time poorly, but because geography and politics have conspired to make "what time is it in Australia?" a question with as many as five correct answers simultaneously, and "what time is it in Lord Howe Island?" the kind of question that makes software developers groan.
 
 This is the full story.

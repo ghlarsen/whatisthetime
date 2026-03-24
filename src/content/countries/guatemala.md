@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Guatemala uses Central Standard Time (CST) (UTC-6). No daylight saving time. IANA: `America/Guatemala`.
+
+**Key facts about time in Guatemala**
+- Timezone: Central Standard Time (CST)
+- UTC offset: -06:00
+- DST: No
+- IANA identifier: `America/Guatemala`
+- Capital: Guatemala City
+
 Guatemala uses CST (Central Standard Time), UTC-6, year-round. No daylight saving time. Like its Central American neighbors, Guatemala observed DST briefly in the late 20th century and then abandoned it, settling permanently at UTC-6.
 
 ## The Maya Long Count Calendar

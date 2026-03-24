@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Singapore uses Singapore Standard Time (UTC+8). No DST observed. IANA: `Asia/Singapore`.
+
+**Key facts about time in Singapore**
+- Timezone: Singapore Standard Time (SST)
+- UTC offset: +08:00
+- DST: No
+- IANA identifier: `Asia/Singapore`
+- Capital: Singapore
+
 Singapore observes UTC+8 year-round, no daylight saving time. The IANA identifier is `Asia/Singapore`. This seems simple. But Singapore's clock has changed more times than you would expect from a city-state that is meticulous about almost everything else.
 
 ## The road to UTC+8

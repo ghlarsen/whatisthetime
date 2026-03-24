@@ -11,6 +11,15 @@ continent: "Antarctica"
 lastUpdated: "2026-03-23"
 ---
 
+South Georgia and the South Sandwich Islands uses South Georgia Time (UTC-2). No DST observed. IANA: `Atlantic/South_Georgia`.
+
+**Key facts about time in South Georgia and the South Sandwich Islands**
+- Timezone: South Georgia Time (GST)
+- UTC offset: -02:00
+- DST: no
+- IANA identifier: `Atlantic/South_Georgia`
+- Capital: Grytviken
+
 South Georgia is a British Overseas Territory in the South Atlantic Ocean, roughly 1,400 kilometers southeast of the Falkland Islands. It observes UTC-2, year-round, no daylight saving. The IANA identifier is `Atlantic/South_Georgia`.
 
 There are no permanent civilian residents. A rotating team of scientists and support staff from the British Antarctic Survey maintains a presence at King Edward Point. The population fluctuates between a handful and about 30 people.

@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Canada uses six standard time zones ranging from Newfoundland Standard Time (UTC-3:30) to Pacific Standard Time (UTC-8). Most provinces observe daylight saving time; Saskatchewan and parts of other regions do not. IANA identifiers include `America/Toronto`, `America/Vancouver`, `America/Edmonton`, `America/Winnipeg`, `America/Halifax`, and `America/St_Johns`.
+
+**Key facts about time in Canada**
+- Timezone: Multiple (NST, AST, EST, CST, MST, PST)
+- UTC offset: UTC-3:30 (Newfoundland), UTC-4 (Atlantic), UTC-5 (Eastern), UTC-6 (Central), UTC-7 (Mountain), UTC-8 (Pacific)
+- DST: Yes in most provinces; no in Saskatchewan and some territories
+- IANA identifier: America/Toronto, America/Vancouver, America/Edmonton, America/Winnipeg, America/Halifax, America/St_Johns (and others)
+- Capital: Ottawa
+
 Canada invented standard time.
 
 Not metaphorically. Not approximately. A Scottish-Canadian engineer named Sir Sandford Fleming proposed the system of global time zones that the world eventually adopted, and he did it because he missed a train.

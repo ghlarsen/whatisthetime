@@ -11,6 +11,15 @@ countries: ["United States", "Canada", "Mexico"]
 lastUpdated: "2026-03-24"
 ---
 
+Central Standard Time (CST) is UTC-6, used in the United States, Canada, and Mexico. DST: yes, as CDT (UTC-5) from the second Sunday in March to the first Sunday in November. IANA identifiers: `America/Chicago`, `America/Winnipeg`.
+
+**Key facts about CST**
+- Full name: Central Standard Time
+- UTC offset: UTC-6
+- DST: yes, CDT (UTC-5)
+- IANA identifiers: America/Chicago, America/Winnipeg
+- Countries: United States, Canada, Mexico
+
 Central Standard Time covers the interior of North America: the Great Plains, the Midwest, the American South from Texas to Tennessee. Chicago, Dallas, Houston, Minneapolis, Kansas City, New Orleans -- all on the same clock. In summer it becomes Central Daylight Time (CDT, UTC-5), one hour ahead.
 
 ## The railroad's timezone

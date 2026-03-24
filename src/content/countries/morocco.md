@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Morocco uses Western European Time (UTC+1). No daylight saving time is observed year-round, except that Morocco reverts to UTC+0 during Ramadan each year before returning to UTC+1. IANA: `Africa/Casablanca`.
+
+**Key facts about time in Morocco**
+- Timezone: Western European Time (WET)
+- UTC offset: +01:00 (standard), +00:00 (during Ramadan)
+- DST: No (but unique Ramadan reversion to UTC+0)
+- IANA identifier: `Africa/Casablanca`
+- Capital: Rabat
+
 Morocco runs on UTC+1, year-round. That's been the official standard since October 2018, when the country permanently adopted Western European Summer Time as its standard time and stopped observing the annual spring-forward/fall-back cycle.
 
 Except during Ramadan. During the Islamic holy month, Morocco reverts to UTC+0 for the duration of the fast, then moves back to UTC+1 after Eid al-Fitr marks the end of Ramadan.

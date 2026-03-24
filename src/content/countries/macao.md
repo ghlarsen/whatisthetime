@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Macao uses China Standard Time (UTC+8). No daylight saving time is observed. IANA: `Asia/Macau`.
+
+**Key facts about time in Macao**
+- Timezone: China Standard Time (CST)
+- UTC offset: +08:00
+- DST: No
+- IANA identifier: `Asia/Macau`
+- Capital: Macao
+
 Macao is 33 square kilometers. It generates more gambling revenue than Las Vegas. Its population of about 680,000 lives at the highest population density of any territory in the world. And it runs on UTC+8, China Standard Time.
 
 The timezone has been fixed since December 20, 1999, when Portugal handed Macao over to China as a Special Administrative Region (SAR), ending 442 years of Portuguese administration. Before 1999, Macao observed a similar offset, but the formal alignment with China Standard Time was part of the transition.

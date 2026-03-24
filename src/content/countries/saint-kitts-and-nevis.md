@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Saint Kitts and Nevis uses Atlantic Standard Time (UTC-4). No DST observed. IANA: `America/St_Kitts`.
+
+**Key facts about time in Saint Kitts and Nevis**
+- Timezone: Atlantic Standard Time (AST)
+- UTC offset: -04:00
+- DST: No
+- IANA identifier: `America/St_Kitts`
+- Capital: Basseterre
+
 Saint Kitts and Nevis is a two-island federation in the northeastern Caribbean. It is the smallest sovereign state in the Western Hemisphere by both area (261 square kilometers) and population (roughly 53,000 people). The timezone is Atlantic Standard Time: UTC-4, year-round, no daylight saving.
 
 The IANA identifier is `America/St_Kitts`.

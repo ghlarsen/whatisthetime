@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+El Salvador uses Central Standard Time (CST) (UTC-6). No daylight saving time. IANA: `America/El_Salvador`.
+
+**Key facts about time in El Salvador**
+- Timezone: Central Standard Time (CST)
+- UTC offset: -06:00
+- DST: No
+- IANA identifier: `America/El_Salvador`
+- Capital: San Salvador
+
 El Salvador uses CST (Central Standard Time), UTC-6, year-round. No daylight saving time. This aligns it with most of its Central American neighbors: Guatemala, Belize, Honduras, and Nicaragua are all at UTC-6 permanently.
 
 El Salvador is the smallest country in Central America by land area, roughly the size of Massachusetts, and the only one without a Caribbean coastline. It is bounded by Guatemala to the northwest, Honduras to the north and east, and the Pacific Ocean to the south.

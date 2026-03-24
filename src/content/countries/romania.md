@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Romania uses Eastern European Time (UTC+2 in winter, UTC+3 in summer). DST observed. IANA: `Europe/Bucharest`.
+
+**Key facts about time in Romania**
+- Timezone: Eastern European Time (EET) / Eastern European Summer Time (EEST)
+- UTC offset: +02:00 / +03:00
+- DST: Yes
+- IANA identifier: `Europe/Bucharest`
+- Capital: Bucharest
+
 Romania observes Eastern European Time: UTC+2 in winter, UTC+3 during daylight saving. The IANA identifier is `Europe/Bucharest`. Romania follows the EU DST schedule, advancing on the last Sunday in March and retreating on the last Sunday in October.
 
 Bucharest sits at roughly 26 degrees East longitude. Solar noon occurs around 10:17 UTC, meaning UTC+2 places local noon at 12:17. This is a reasonable astronomical match. Romania is in approximately the correct timezone for its geography.

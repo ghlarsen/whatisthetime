@@ -9,6 +9,15 @@ countries: ["Australia"]
 lastUpdated: "2026-03-24"
 ---
 
+Australian Western Standard Time (AWST) is UTC+8, used in Australia (Western Australia). DST: no. IANA identifier: `Australia/Perth`.
+
+**Key facts about AWST**
+- Full name: Australian Western Standard Time
+- UTC offset: UTC+8
+- DST: no
+- IANA identifiers: Australia/Perth
+- Countries: Australia
+
 Western Australia runs on UTC+8 and it runs there alone. While the rest of mainland Australia has engaged in ongoing negotiations with the clock, Western Australia settled the question by referendum -- repeatedly -- and keeps its answer the same each time: no daylight saving, UTC+8 year-round.
 
 ## Perth and the isolation offset

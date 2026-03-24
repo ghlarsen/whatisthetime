@@ -11,6 +11,13 @@ lastUpdated: "2026-03-24"
 
 Korea Standard Time is UTC+9. South Korea uses a single timezone across the peninsula, has not adjusted its clocks for daylight saving since 1988, and maintains one of the more politically charged timezone histories in East Asia.
 
+**Key facts about KST**
+- Full name: Korea Standard Time
+- UTC offset: UTC+9
+- DST: no
+- IANA identifiers: Asia/Seoul
+- Countries: South Korea
+
 KST and [JST](/timezones/jst) share the same UTC offset. They are nine hours ahead of Greenwich, and in ordinary technical practice they behave identically. But the story of how Korea arrived at UTC+9 runs through Japanese occupation, American administration, military division, and a government decision in 1961 that still provokes occasional debate.
 
 ## The Japanese meridian and its shadow

@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Saudi Arabia uses Arabia Standard Time (UTC+3). No DST observed. IANA: `Asia/Riyadh`.
+
+**Key facts about time in Saudi Arabia**
+- Timezone: Arabia Standard Time (AST)
+- UTC offset: +03:00
+- DST: No
+- IANA identifier: `Asia/Riyadh`
+- Capital: Riyadh
+
 Saudi Arabia observes Arabia Standard Time: UTC+3, year-round, no daylight saving time. The IANA identifier is `Asia/Riyadh`. Riyadh sits at roughly 46.7 degrees East longitude, and UTC+3 gives a solar noon alignment of approximately 12:53 local time. A reasonable fit.
 
 ## Prayer time as the actual schedule

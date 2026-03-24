@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Tanzania uses East Africa Time (UTC+3). No DST observed. IANA: `Africa/Dar_es_Salaam`.
+
+**Key facts about time in Tanzania**
+- Timezone: East Africa Time (EAT)
+- UTC offset: +03:00
+- DST: no
+- IANA identifier: `Africa/Dar_es_Salaam`
+- Capital: Dodoma
+
 Tanzania runs on East Africa Time, UTC+3, a timezone shared with Kenya, Uganda, and several neighboring countries. No daylight saving. No complications with that.
 
 But Tanzania is one of the places where standard time coexists with something older and more practical: Swahili time, a system for counting hours that starts not at midnight but at sunrise.

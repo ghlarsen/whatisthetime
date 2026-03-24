@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Jersey uses Greenwich Mean Time (UTC+0). Daylight saving time is observed, shifting to British Summer Time (UTC+1) in summer. IANA: `Europe/Jersey`.
+
+**Key facts about time in Jersey**
+- Timezone: Greenwich Mean Time (GMT) / British Summer Time (BST)
+- UTC offset: +00:00 (standard), +01:00 (DST)
+- DST: Yes
+- IANA identifier: `Europe/Jersey`
+- Capital: Saint Helier
+
 Jersey sits 14 miles from the Normandy coast of France. On a clear day, you can see the French mainland from its cliffs. Geographically, it belongs to Continental Europe. Legally, politically, and chronologically, it belongs to Britain.
 
 This creates one of the more quietly strange timezone situations in Europe. Jersey follows Greenwich Mean Time (GMT, UTC+0) in winter and British Summer Time (BST, UTC+1) in summer. Meanwhile, France, just across the water, runs on Central European Time (CET, UTC+1) in winter and CEST (UTC+2) in summer. At all times of year, the French coast is one hour ahead of the island you can see from it.

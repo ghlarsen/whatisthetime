@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Western Sahara uses Western European Time (UTC+1). No DST observed. IANA: `Africa/El_Aaiun`.
+
+**Key facts about time in Western Sahara**
+- Timezone: Western European Time (WET)
+- UTC offset: +01:00
+- DST: no
+- IANA identifier: `Africa/El_Aaiun`
+- Capital: El Aaiun (Laayoune)
+
 Western Sahara's timezone status, like nearly everything else about Western Sahara, is contested.
 
 The territory uses UTC+1 year-round, no daylight saving, matching Morocco's permanent clock that was adopted in 2018. The IANA identifier is `Africa/El_Aaiun`, after the territory's largest city, known in Arabic as Laayoune.

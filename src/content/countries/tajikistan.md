@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Tajikistan uses Tajikistan Time (UTC+5). No DST observed. IANA: `Asia/Dushanbe`.
+
+**Key facts about time in Tajikistan**
+- Timezone: Tajikistan Time (TJT)
+- UTC offset: +05:00
+- DST: no
+- IANA identifier: `Asia/Dushanbe`
+- Capital: Dushanbe
+
 Tajikistan sits in the Pamir Mountains, where more than half the country's land sits above 3,000 meters. It is one of the poorest post-Soviet republics and one of the most geographically extreme. The country shares borders with Afghanistan, China, Kyrgyzstan, and Uzbekistan, and its eastern Gorno-Badakhshan region bumps up against the Chinese border at altitudes that make road-building genuinely heroic work.
 
 All of this runs on UTC+5, locally called Tajikistan Time (TJT).

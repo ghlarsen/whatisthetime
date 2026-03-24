@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+American Samoa uses Samoa Standard Time (SST) (UTC-11). The territory does not observe daylight saving time. IANA identifier: `Pacific/Pago_Pago`.
+
+**Key facts about time in American Samoa**
+- Timezone: Samoa Standard Time (SST)
+- UTC offset: UTC-11
+- DST: No
+- IANA identifier: Pacific/Pago_Pago
+- Capital: Pago Pago
+
 American Samoa runs at UTC-11, which means Pago Pago is among the last places on Earth where the calendar day begins. When it's Monday in London, American Samoa is still late Sunday. When a new year arrives in New York, American Samoa has twelve more hours of the old year to sit with.
 
 This extreme western position in time is all the more striking given what sits just 77 kilometers away.

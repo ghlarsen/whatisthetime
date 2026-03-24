@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+The Marshall Islands use Marshall Islands Time (UTC+12). No daylight saving time is observed. IANA: `Pacific/Majuro`.
+
+**Key facts about time in the Marshall Islands**
+- Timezone: Marshall Islands Time (MHT)
+- UTC offset: +12:00
+- DST: No
+- IANA identifier: `Pacific/Majuro`
+- Capital: Majuro
+
 The Marshall Islands run on UTC+12, year-round. They sit in the central Pacific Ocean, a scattering of 29 atolls and 5 islands that together constitute about 181 square kilometers of land spread across 2 million square kilometers of ocean.
 
 UTC+12 puts the Marshall Islands at the eastern edge of the same calendar day as Australia, Japan, and New Zealand. When it is Sunday in the Marshall Islands, it is still Saturday in Honolulu, 3,400 kilometers to the northeast.

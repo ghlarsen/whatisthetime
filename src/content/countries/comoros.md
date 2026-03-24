@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Comoros uses East Africa Time (EAT) (UTC+3). No daylight saving time. IANA: `Indian/Comoro`.
+
+**Key facts about time in Comoros**
+- Timezone: East Africa Time (EAT)
+- UTC offset: +03:00
+- DST: No
+- IANA identifier: `Indian/Comoro`
+- Capital: Moroni
+
 Comoros uses East Africa Time (EAT), UTC+3, year-round. No daylight saving. IANA identifier: `Indian/Comoro`. The Union of the Comoros is an archipelago of three main islands (Grande Comore, Mohéli, and Anjouan) in the Indian Ocean between Madagascar and the East African coast.
 
 At approximately 44°E longitude, Moroni's solar noon falls at UTC+2:56, making UTC+3 almost exactly aligned with local solar time. The clock and the sun nearly agree.

@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Chad uses West Africa Time (WAT) (UTC+1) year-round with no daylight saving. IANA identifier: `Africa/Ndjamena`.
+
+**Key facts about time in Chad**
+- Timezone: West Africa Time (WAT)
+- UTC offset: UTC+1
+- DST: No
+- IANA identifier: Africa/Ndjamena
+- Capital: N'Djamena
+
 Chad uses West Africa Time, UTC+1, year-round. No daylight saving. IANA identifier: `Africa/Ndjamena`. The timezone is shared with nearly all of Chad's neighbors and covers the country's enormous 1.28 million square kilometers without internal division.
 
 Chad is about 80% desert. The Sahara dominates the north. The Sahel provides a thin agricultural belt in the center. The south holds the Chari-Logone wetlands and more productive farmland. UTC+1 covers all of it.

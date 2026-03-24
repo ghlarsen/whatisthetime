@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Israel uses Israel Standard Time (UTC+2). Daylight saving time is observed, shifting to Israel Daylight Time (UTC+3) in summer. IANA: `Asia/Jerusalem`.
+
+**Key facts about time in Israel**
+- Timezone: Israel Standard Time (IST)
+- UTC offset: +02:00 (standard), +03:00 (DST)
+- DST: Yes
+- IANA identifier: `Asia/Jerusalem`
+- Capital: Jerusalem
+
 Israel uses Israel Standard Time: UTC+2 in winter, UTC+3 in summer (Israel Daylight Time). The IANA identifier is `Asia/Jerusalem`.
 
 This is a timezone with political dimensions that most timezones do not have.

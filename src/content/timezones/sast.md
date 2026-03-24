@@ -11,6 +11,13 @@ lastUpdated: "2026-03-24"
 
 South Africa Standard Time is UTC+2. The country runs on one clock year-round, with no daylight saving time, anchoring the southern tip of Africa to a consistent offset shared with Eastern European countries and the eastern Mediterranean.
 
+**Key facts about SAST**
+- Full name: South Africa Standard Time
+- UTC offset: UTC+2
+- DST: no
+- IANA identifiers: Africa/Johannesburg
+- Countries: South Africa, Lesotho, Eswatini
+
 SAST covers South Africa, the landlocked kingdom of Lesotho (which is entirely surrounded by South Africa), and the small kingdom of Eswatini (formerly Swaziland). The timezone is geographically sensible: South Africa's center sits close to the 25th meridian East, which corresponds to UTC+1:40, making UTC+2 a reasonable rounding.
 
 ## The railway and the clock

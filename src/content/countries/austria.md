@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Austria uses Central European Time (CET) (UTC+1 in winter, UTC+2 in summer). The country observes daylight saving time, switching on the last Sunday in March and the last Sunday in October. IANA identifier: `Europe/Vienna`.
+
+**Key facts about time in Austria**
+- Timezone: Central European Time (CET) / Central European Summer Time (CEST)
+- UTC offset: UTC+1 (winter), UTC+2 (summer)
+- DST: Yes, last Sunday in March to last Sunday in October
+- IANA identifier: Europe/Vienna
+- Capital: Vienna
+
 Austria uses Central European Time. UTC+1 in winter, UTC+2 (CEST) in summer, on the last Sunday in March and the last Sunday in October. The IANA identifier is `Europe/Vienna`. There are no regional exceptions, no internal timezone disputes, nothing unusual to report at the technical level.
 
 The interesting stuff is cultural.

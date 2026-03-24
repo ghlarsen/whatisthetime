@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Timor-Leste uses East Timor Time (UTC+9). No DST observed. IANA: `Asia/Dili`.
+
+**Key facts about time in Timor-Leste**
+- Timezone: East Timor Time (TLT)
+- UTC offset: +09:00
+- DST: no
+- IANA identifier: `Asia/Dili`
+- Capital: Dili
+
 Timor-Leste, also called East Timor, is the eastern half of the island of Timor plus two small enclave territories. It became the 21st century's first new nation when it formally declared independence on May 20, 2002.
 
 It runs on UTC+9, matching neither its nearest large neighbor Australia (which uses multiple offsets) nor Indonesia (which uses UTC+7 for western regions and UTC+8 for Bali and east). The choice was deliberate and carries some symbolic weight.

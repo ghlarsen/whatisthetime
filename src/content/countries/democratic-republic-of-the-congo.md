@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+The Democratic Republic of the Congo uses West Africa Time (WAT, UTC+1) in the west and Central Africa Time (CAT, UTC+2) in the east. No daylight saving time. IANA: `Africa/Kinshasa` (UTC+1), `Africa/Lubumbashi` (UTC+2).
+
+**Key facts about time in Democratic Republic of the Congo**
+- Timezone: West Africa Time (WAT) / Central Africa Time (CAT)
+- UTC offset: +01:00 (west), +02:00 (east)
+- DST: No
+- IANA identifier: `Africa/Kinshasa`, `Africa/Lubumbashi`
+- Capital: Kinshasa
+
 The Democratic Republic of the Congo is the second-largest country in Africa by area, stretching almost 2,300 kilometers from its Atlantic coast to the mountains bordering Uganda and Rwanda. That geography demands two timezones, and the country obliges.
 
 Western DRC, including Kinshasa, runs on WAT (West Africa Time), UTC+1. Eastern DRC, including Lubumbashi and the mining provinces of Katanga, runs on CAT (Central Africa Time), UTC+2. The timezone boundary runs roughly through the center of the country, though the border is not precisely delineated and local practice varies in some areas.

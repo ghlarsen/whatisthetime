@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Serbia uses Central European Time (UTC+1 in winter, UTC+2 in summer). DST observed. IANA: `Europe/Belgrade`.
+
+**Key facts about time in Serbia**
+- Timezone: Central European Time (CET) / Central European Summer Time (CEST)
+- UTC offset: +01:00 / +02:00
+- DST: Yes
+- IANA identifier: `Europe/Belgrade`
+- Capital: Belgrade
+
 Serbia observes Central European Time: UTC+1 in winter, UTC+2 during daylight saving time. The IANA identifier is `Europe/Belgrade`. Serbia follows the EU DST schedule, though it is not an EU member; its candidate status and economic integration with the EU make timezone alignment practical.
 
 ## Belgrade: where time converged

@@ -11,6 +11,15 @@ continent: "South America"
 lastUpdated: "2026-03-23"
 ---
 
+Colombia uses Colombia Time (COT) (UTC-5) year-round with no daylight saving. IANA identifier: `America/Bogota`.
+
+**Key facts about time in Colombia**
+- Timezone: Colombia Time (COT)
+- UTC offset: UTC-5
+- DST: No
+- IANA identifier: America/Bogota
+- Capital: Bogota
+
 Colombia runs at UTC-5 all year. Colombia Time (COT), IANA identifier `America/Bogota`. No daylight saving, and for good reason.
 
 Bogotá sits at approximately 4.7°N latitude, just 4.7 degrees above the equator. At this latitude, the longest day in summer has about 12 hours 20 minutes of daylight and the shortest winter day has about 11 hours 40 minutes. A difference of roughly 40 minutes between the longest and shortest days of the year. Daylight saving time, which exists to capture "extra" evening light in summer, makes essentially no functional sense here.

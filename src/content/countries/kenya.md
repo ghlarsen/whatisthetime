@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Kenya uses East Africa Time (UTC+3). No daylight saving time is observed. IANA: `Africa/Nairobi`.
+
+**Key facts about time in Kenya**
+- Timezone: East Africa Time (EAT)
+- UTC offset: +03:00
+- DST: No
+- IANA identifier: `Africa/Nairobi`
+- Capital: Nairobi
+
 The equator runs through Kenya. Not metaphorically: the geographic zero line crosses the country about 40 kilometers north of Nairobi, marked by a small roadside monument on the highway to Nanyuki. You can stand with one foot in each hemisphere.
 
 This geography shapes time in Kenya in a fundamental way. Because the equator receives consistent solar radiation year-round with minimal variation, Kenya experiences very little difference in day length between seasons. Nairobi gets approximately 12 hours of daylight almost every day of the year. The sun rises close to 6am and sets close to 6pm, with maybe 30 minutes of variation across the year.

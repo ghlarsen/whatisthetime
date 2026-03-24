@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Lithuania uses Eastern European Time (UTC+2). Daylight saving time is observed, shifting to Eastern European Summer Time (UTC+3) in summer. IANA: `Europe/Vilnius`.
+
+**Key facts about time in Lithuania**
+- Timezone: Eastern European Time (EET)
+- UTC offset: +02:00 (standard), +03:00 (DST)
+- DST: Yes
+- IANA identifier: `Europe/Vilnius`
+- Capital: Vilnius
+
 Lithuania's timezone history is a story about sovereignty told in clock adjustments.
 
 Under Soviet occupation (1940-1941 and 1944-1990), Lithuania was kept on Moscow Time: UTC+3 standard, with Soviet summer time pushing it to UTC+4. The clock was Moscow's clock, imposed by a power that had no interest in whether Vilnius's solar noon aligned with administrative noon.

@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Indonesia uses three timezones: Western Indonesia Time (UTC+7), Central Indonesia Time (UTC+8), and Eastern Indonesia Time (UTC+9). No daylight saving time is observed in any zone. IANA: `Asia/Jakarta`, `Asia/Makassar`, `Asia/Jayapura`.
+
+**Key facts about time in Indonesia**
+- Timezone: Western Indonesia Time (WIB), Central Indonesia Time (WITA), Eastern Indonesia Time (WIT)
+- UTC offset: +07:00, +08:00, +09:00
+- DST: No
+- IANA identifier: `Asia/Jakarta`, `Asia/Makassar`, `Asia/Jayapura`
+- Capital: Jakarta
+
 Indonesia is the world's largest archipelago nation: 17,508 islands (of which about 6,000 are inhabited) stretching 5,100 kilometers from Sabang in the west to Merauke in the east. That distance, nearly the width of the continental United States, demands multiple timezones.
 
 Indonesia uses three:

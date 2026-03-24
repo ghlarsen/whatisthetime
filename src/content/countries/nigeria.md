@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Nigeria uses West Africa Time (UTC+1). No DST observed. IANA: `Africa/Lagos`.
+
+**Key facts about time in Nigeria**
+- Timezone: West Africa Time (WAT)
+- UTC offset: +01:00
+- DST: No
+- IANA identifier: `Africa/Lagos`
+- Capital: Abuja
+
 Nigeria runs on West Africa Time: UTC+1, year-round, no daylight saving. The IANA identifier is `Africa/Lagos`, reflecting Lagos's historical significance as the commercial capital and largest city, even though the administrative capital moved to Abuja in 1991.
 
 Nigeria is Africa's most populous country (approximately 220 million people) and its largest economy. The single UTC+1 timezone covers a country that spans roughly 15 degrees of longitude, from the Niger Delta in the southwest to Lake Chad in the northeast. The solar time variation across that span is about an hour, meaning that eastern Nigeria's sun rises an hour earlier relative to the clock than western Nigeria's.

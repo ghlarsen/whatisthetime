@@ -11,6 +11,15 @@ continent: "South America"
 lastUpdated: "2026-03-23"
 ---
 
+Brazil uses four timezones: Fernando de Noronha Time (UTC-2), Brasilia Time (UTC-3), Amazon Time (UTC-4), and Acre Time (UTC-5). Since 2019, Brazil does not observe daylight saving time. IANA identifiers: `America/Sao_Paulo`, `America/Manaus`, `America/Rio_Branco`, `America/Noronha`.
+
+**Key facts about time in Brazil**
+- Timezone: Multiple (FNT, BRT, AMT, ACT)
+- UTC offset: UTC-2 (Fernando de Noronha), UTC-3 (Brasilia/coast), UTC-4 (Amazon), UTC-5 (Acre)
+- DST: No (abolished 2019)
+- IANA identifier: America/Sao_Paulo, America/Manaus, America/Rio_Branco, America/Noronha
+- Capital: Brasilia
+
 Brazil is the fifth-largest country on Earth by area, spanning 4,400 kilometers from east to west and 4,300 kilometers from north to south. It contains Amazon rainforest, Atlantic coast, Pantanal wetlands, and a semidesert (the Sertão). And it runs on four different clocks.
 
 Getting here took about a century of DST experiments, regional negotiations, and at least one presidential decree made because a president didn't like losing an hour of golf.

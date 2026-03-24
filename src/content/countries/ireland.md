@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Ireland uses Greenwich Mean Time (UTC+0) in winter, shifting to Irish Summer Time (UTC+1) in summer. DST is observed following EU schedules. IANA: `Europe/Dublin`.
+
+**Key facts about time in Ireland**
+- Timezone: Greenwich Mean Time (GMT) / Irish Summer Time (IST)
+- UTC offset: +00:00 (standard), +01:00 (DST)
+- DST: Yes
+- IANA identifier: `Europe/Dublin`
+- Capital: Dublin
+
 Ireland's clock situation looks simple on the surface: UTC+0 in winter, UTC+1 in summer, same as the United Kingdom. But the legal mechanism is genuinely strange, and the historical path to this arrangement involves empire, political identity, and a decision that Dublin made in 1880 that shaped Irish time for over a century.
 
 ## Dublin Mean Time: 25 minutes behind London

@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Croatia uses Central European Time (CET) (UTC+1 in winter, UTC+2 in summer). DST observed. IANA: `Europe/Zagreb`.
+
+**Key facts about time in Croatia**
+- Timezone: Central European Time (CET) / Central European Summer Time (CEST)
+- UTC offset: +01:00 (winter), +02:00 (summer)
+- DST: Yes
+- IANA identifier: `Europe/Zagreb`
+- Capital: Zagreb
+
 Croatia uses Central European Time: UTC+1 in winter, UTC+2 (CEST) in summer. IANA identifier: `Europe/Zagreb`. Clock changes on the EU schedule, last Sunday in March and last Sunday in October.
 
 The Dalmatian coast, running 1,800 kilometers along the Adriatic Sea, becomes one of Europe's most visited summer destinations partly because of the extraordinary light quality in July and August. At 43°N latitude (roughly the latitude of Barcelona or Rome), midsummer daylight is about 14-15 hours. With CEST (UTC+2), sunset in Split or Dubrovnik falls around 8:30-9 PM. Dinner at 9 PM. The sea still warm. The coast still glowing. The Croatian summer evening is a specific, remarkable temporal experience.

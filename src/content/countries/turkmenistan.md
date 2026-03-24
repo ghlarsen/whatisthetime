@@ -12,6 +12,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Turkmenistan uses Turkmenistan Time (UTC+5). No DST observed. IANA: `Asia/Ashgabat`.
+
+**Key facts about time in Turkmenistan**
+- Timezone: Turkmenistan Time (TMT)
+- UTC offset: +05:00
+- DST: no
+- IANA identifier: `Asia/Ashgabat`
+- Capital: Ashgabat
+
 Turkmenistan is one of the world's most closed societies, a natural gas-rich Central Asian republic that opened slightly after independence from the Soviet Union in 1991 and closed again under President Saparmurat Niyazov, who renamed himself Turkmenbashi (Father of the Turkmen) and installed his own personality cult. His gilded rotating statue on a tripod in Ashgabat tracked the sun throughout the day. He renamed the days of the week and months of the year after himself and his family. He wrote a spiritual book, the Ruhnama, and required it to be memorized for government employment and driving tests.
 
 He died in 2006. The rotating statue was relocated. But Turkmenistan remains one of the most isolated countries on Earth.

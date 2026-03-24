@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Iran uses Iran Standard Time (UTC+3:30). Daylight saving time is observed, shifting to UTC+4:30 in summer. Iran is the only Middle Eastern country to observe DST. IANA: `Asia/Tehran`.
+
+**Key facts about time in Iran**
+- Timezone: Iran Standard Time (IRST)
+- UTC offset: +03:30 (standard), +04:30 (DST)
+- DST: Yes
+- IANA identifier: `Asia/Tehran`
+- Capital: Tehran
+
 Iran occupies a singular position in the world's timezone map. It uses UTC+3:30 in winter and shifts to UTC+4:30 in summer for daylight saving time. This half-hour offset makes Iran one of the more unusual clock situations on earth, and its DST practice makes it the only country in the Middle East that changes its clocks seasonally.
 
 ## Why UTC+3:30?

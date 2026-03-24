@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Togo uses Greenwich Mean Time (UTC+0). No DST observed. IANA: `Africa/Lome`.
+
+**Key facts about time in Togo**
+- Timezone: Greenwich Mean Time (GMT)
+- UTC offset: +00:00
+- DST: no
+- IANA identifier: `Africa/Lome`
+- Capital: Lomé
+
 Togo is a narrow strip of country running north from the Gulf of Guinea, about 600 kilometers long and averaging just 115 kilometers wide. Its capital, Lomé, sits on the coast at 1.2 degrees East longitude. Almost exactly on the Greenwich meridian line.
 
 The IANA identifier for Togo's timezone is `Africa/Lome`. UTC+0, no daylight saving, year-round. When it is noon at the Royal Observatory in Greenwich, it is noon in Lomé.

@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+The Central African Republic uses West Africa Time (WAT) (UTC+1) year-round with no daylight saving. IANA identifier: `Africa/Bangui`.
+
+**Key facts about time in Central African Republic**
+- Timezone: West Africa Time (WAT)
+- UTC offset: UTC+1
+- DST: No
+- IANA identifier: Africa/Bangui
+- Capital: Bangui
+
 The Central African Republic (CAR) uses West Africa Time, UTC+1, year-round. No daylight saving. IANA identifier: `Africa/Bangui`. The clock matches most of its neighbors: Cameroon, Chad, Republic of Congo, Democratic Republic of Congo (western portion), and Sudan.
 
 Bangui sits at approximately 18.5°E longitude, where solar noon falls at UTC+1:14. UTC+1 is almost exactly solar noon. The clock and the sun largely agree.

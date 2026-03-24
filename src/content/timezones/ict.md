@@ -9,7 +9,14 @@ countries: ["Thailand", "Vietnam", "Cambodia", "Laos"]
 lastUpdated: "2026-03-24"
 ---
 
-Indochina Time covers the mainland core of Southeast Asia at UTC+7. Thailand, Vietnam, Cambodia, and Laos share a single offset across a region of enormous cultural and historical diversity. Bangkok, Ho Chi Minh City, Hanoi, Phnom Penh, Vientiane -- one clock, no seasonal adjustments.
+Indochina Time covers the mainland core of Southeast Asia at UTC+7. Thailand, Vietnam, Cambodia, and Laos share a single offset across a region of enormous cultural and historical diversity.
+
+**Key facts about ICT**
+- Full name: Indochina Time
+- UTC offset: UTC+7
+- DST: no
+- IANA identifiers: Asia/Bangkok, Asia/Ho_Chi_Minh, Asia/Phnom_Penh, Asia/Vientiane
+- Countries: Thailand, Vietnam, Cambodia, Laos Bangkok, Ho Chi Minh City, Hanoi, Phnom Penh, Vientiane -- one clock, no seasonal adjustments.
 
 ## The geography of a shared timezone
 

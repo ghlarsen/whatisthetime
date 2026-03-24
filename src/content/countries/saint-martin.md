@@ -2,7 +2,16 @@
 country: "Saint Martin"
 slug: "saint-martin"
 title: "Time in Saint Martin: One Island, Two Countries, One Timezone"
-description: "Saint Martin is a single island shared between France (Saint-Martin, UTC-4) and the Netherlands (Sint Maarten, UTC-4). Both sides use Atlantic Standard Time year-round. The border between them is completely open, and there is almost no practical difference between the two sides except governance and passport stamps."
+description: "Saint Martin (French side) uses Atlantic Standard Time (UTC-4). No DST observed. IANA: `America/Marigot`.
+
+**Key facts about time in Saint Martin**
+- Timezone: Atlantic Standard Time (AST)
+- UTC offset: -04:00
+- DST: No
+- IANA identifier: `America/Marigot`
+- Capital: Marigot
+
+Saint Martin is a single island shared between France (Saint-Martin, UTC-4) and the Netherlands (Sint Maarten, UTC-4). Both sides use Atlantic Standard Time year-round. The border between them is completely open, and there is almost no practical difference between the two sides except governance and passport stamps."
 timezones: ["America/Marigot"]
 utcOffsets: ["-04:00"]
 hasDST: false

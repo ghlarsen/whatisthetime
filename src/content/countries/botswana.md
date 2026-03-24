@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Botswana uses Central Africa Time (CAT) (UTC+2) year-round with no daylight saving. IANA identifier: `Africa/Gaborone`.
+
+**Key facts about time in Botswana**
+- Timezone: Central Africa Time (CAT)
+- UTC offset: UTC+2
+- DST: No
+- IANA identifier: Africa/Gaborone
+- Capital: Gaborone
+
 Botswana uses Central Africa Time (CAT), UTC+2, year-round. No daylight saving. IANA identifier: `Africa/Gaborone`. The clock matches South Africa, Zimbabwe, Zambia, and Malawi, creating a coherent regional time zone across southern Africa.
 
 Gaborone sits at approximately 25°S, 25°E. At 25°E, solar noon falls at UTC+1:40, making UTC+2 about 20 minutes fast relative to the sun. A modest, reasonable offset.

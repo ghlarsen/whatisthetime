@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Kuwait uses Arabia Standard Time (UTC+3). No daylight saving time is observed. IANA: `Asia/Kuwait`.
+
+**Key facts about time in Kuwait**
+- Timezone: Arabia Standard Time (AST)
+- UTC offset: +03:00
+- DST: No
+- IANA identifier: `Asia/Kuwait`
+- Capital: Kuwait City
+
 Kuwait is small: 17,818 square kilometers, roughly the size of New Jersey. Its population is around 4.3 million, more than two-thirds of whom are expatriate workers. It sits at the northwestern tip of the Persian Gulf, bordered by Iraq to the north and Saudi Arabia to the south.
 
 What it lacks in size it makes up in oil. Kuwait holds roughly 6% of the world's proven petroleum reserves. The Kuwait Oil Company began commercial exports in 1946, and within a generation the country transformed from a pearl-diving and trading economy into one of the wealthiest states per capita on Earth.

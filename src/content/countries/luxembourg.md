@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Luxembourg uses Central European Time (UTC+1). Daylight saving time is observed, shifting to Central European Summer Time (UTC+2) in summer. IANA: `Europe/Luxembourg`.
+
+**Key facts about time in Luxembourg**
+- Timezone: Central European Time (CET)
+- UTC offset: +01:00 (standard), +02:00 (DST)
+- DST: Yes
+- IANA identifier: `Europe/Luxembourg`
+- Capital: Luxembourg
+
 Luxembourg City is the capital of the Grand Duchy of Luxembourg, a country of about 660,000 people covering 2,586 square kilometers. It is surrounded by Belgium, France, and Germany. It uses Central European Time: UTC+1 in winter (CET), UTC+2 in summer (CEST).
 
 This puts it on the same clock as Frankfurt, Paris, Brussels, Amsterdam, and Vienna. For a country whose economy is essentially continental European finance, this alignment is not incidental; it's the oxygen the banking sector breathes.

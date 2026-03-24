@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+New Caledonia uses New Caledonia Time (UTC+11). No DST observed. IANA: `Pacific/Noumea`.
+
+**Key facts about time in New Caledonia**
+- Timezone: New Caledonia Time (NCT)
+- UTC offset: +11:00
+- DST: No
+- IANA identifier: `Pacific/Noumea`
+- Capital: Nouméa
+
 New Caledonia is a French special collectivity in the southwest Pacific, about 1,200 kilometers east of Australia's Queensland coast. It uses UTC+11 (New Caledonia Time, NCT), year-round, no daylight saving.
 
 UTC+11 puts New Caledonia at the leading edge of its time group: when Sydney is at 9am (AEST), Nouméa is already at 10am. When it's midnight in Paris, it's 11am the next day in Nouméa. France and its Pacific collectivity are perpetually separated by about 11 hours.

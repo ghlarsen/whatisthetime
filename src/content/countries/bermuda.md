@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Bermuda uses Atlantic Standard Time (AST) (UTC-4 in winter, UTC-3 in summer) and observes daylight saving time from the second Sunday in March to the first Sunday in November. IANA identifier: `Atlantic/Bermuda`.
+
+**Key facts about time in Bermuda**
+- Timezone: Atlantic Standard Time (AST) / Atlantic Daylight Time (ADT)
+- UTC offset: UTC-4 (winter), UTC-3 (summer)
+- DST: Yes, second Sunday in March to first Sunday in November
+- IANA identifier: Atlantic/Bermuda
+- Capital: Hamilton
+
 Bermuda uses Atlantic Standard Time (AST), UTC-4 in winter, but observes daylight saving time, moving to UTC-3 from the second Sunday in March to the first Sunday in November. The IANA identifier is `Atlantic/Bermuda`.
 
 This makes Bermuda one of the few territories in its region that observes DST, and it creates a seasonal clock relationship with the US East Coast: in winter, Bermuda is one hour ahead of New York (EST). In summer, when Bermuda moves to UTC-3 and New York moves to EDT (also UTC-4), the gap closes to nothing. New York and Bermuda share the same clock for about eight months of the year.

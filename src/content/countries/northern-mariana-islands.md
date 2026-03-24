@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+The Northern Mariana Islands use Chamorro Standard Time (UTC+10). No DST observed. IANA: `Pacific/Saipan`.
+
+**Key facts about time in Northern Mariana Islands**
+- Timezone: Chamorro Standard Time (ChST)
+- UTC offset: +10:00
+- DST: No
+- IANA identifier: `Pacific/Saipan`
+- Capital: Saipan
+
 The Northern Mariana Islands (CNMI) are a Commonwealth of the United States: 14 islands in the western Pacific, stretching in an arc between Guam (which is separate) and Japan. The main island is Saipan, with a population of about 50,000 out of the territory's total of roughly 50,000 to 60,000.
 
 The territory uses Chamorro Standard Time (ChST): UTC+10, year-round. No daylight saving. This is the same timezone as Guam, which shares the same offset and IANA rules, though the IANA identifier for the CNMI is `Pacific/Saipan`.

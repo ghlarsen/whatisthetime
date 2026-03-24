@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Andorra uses Central European Time (CET) (UTC+1 in winter, UTC+2 in summer). The country observes daylight saving time, switching on the last Sunday in March and the last Sunday in October. IANA identifier: `Europe/Andorra`.
+
+**Key facts about time in Andorra**
+- Timezone: Central European Time (CET) / Central European Summer Time (CEST)
+- UTC offset: UTC+1 (winter), UTC+2 (summer)
+- DST: Yes, last Sunday in March to last Sunday in October
+- IANA identifier: Europe/Andorra
+- Capital: Andorra la Vella
+
 Andorra la Vella, at 1,023 meters elevation, is the highest capital city in Europe. The country it governs, nestled in the Pyrenees between France and Spain, occupies 468 square kilometers of mountain terrain. The IANA identifier is `Europe/Andorra`. The offset is UTC+1 in winter, UTC+2 in summer. There is, practically speaking, no other choice it could make.
 
 ## The co-princes and the clock

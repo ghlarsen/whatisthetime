@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+The Bahamas uses Eastern Time (UTC-5 in winter, UTC-4 in summer), following the same daylight saving schedule as the United States East Coast. IANA identifier: `America/Nassau`.
+
+**Key facts about time in Bahamas**
+- Timezone: Eastern Standard Time (EST) / Eastern Daylight Time (EDT)
+- UTC offset: UTC-5 (winter), UTC-4 (summer)
+- DST: Yes, second Sunday in March to first Sunday in November
+- IANA identifier: America/Nassau
+- Capital: Nassau
+
 The Bahamas runs on Eastern Time. UTC-5 (EST) in winter, UTC-4 (EDT) in summer, with clock changes following the same schedule as the United States East Coast. The IANA identifier is `America/Nassau`, and Nassau is, at any given moment in New York time, sharing the same hour.
 
 For a country built heavily around tourism from the eastern United States and a financial services sector deeply integrated with US markets, this is not a coincidence.

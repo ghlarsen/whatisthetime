@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Tunisia uses Central European Time (UTC+1). No DST observed. IANA: `Africa/Tunis`.
+
+**Key facts about time in Tunisia**
+- Timezone: Central European Time (CET)
+- UTC offset: +01:00
+- DST: no
+- IANA identifier: `Africa/Tunis`
+- Capital: Tunis
+
 Tunisia sits in North Africa's far north, facing Sicily across 130 kilometers of Mediterranean. The country uses UTC+1, which puts it on Central European Time's winter offset year-round. No daylight saving.
 
 Tunis sits at 10.2 degrees East longitude, which corresponds naturally to about UTC+0:40. The UTC+1 offset runs about 20 minutes ahead of solar noon. Close enough that it barely registers. But the direction of that choice, toward Europe rather than toward its sub-Saharan African neighbors running at UTC+0, reflects something about where Tunisia has always positioned itself.

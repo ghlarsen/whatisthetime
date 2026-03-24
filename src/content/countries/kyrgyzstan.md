@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Kyrgyzstan uses Kyrgyzstan Time (UTC+6). No daylight saving time is observed; it was abolished in 2005. IANA: `Asia/Bishkek`.
+
+**Key facts about time in Kyrgyzstan**
+- Timezone: Kyrgyzstan Time (KGT)
+- UTC offset: +06:00
+- DST: No
+- IANA identifier: `Asia/Bishkek`
+- Capital: Bishkek
+
 Kyrgyzstan sits at the heart of Central Asia, a landlocked country dominated by the Tian Shan mountain range, where peaks exceed 7,000 meters and about 40% of the territory is covered by mountains above 3,000 meters. The Silk Road passed through here; the ancient trade routes between China and the Mediterranean negotiated these mountain passes.
 
 The country runs on UTC+6, year-round. It abolished daylight saving time in 2005 after years of inconsistent observance. Since then, the clock hasn't moved.

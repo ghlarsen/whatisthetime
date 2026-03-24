@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+Nauru uses UTC+12. No DST observed. IANA: `Pacific/Nauru`.
+
+**Key facts about time in Nauru**
+- Timezone: Nauru Time (NRT)
+- UTC offset: +12:00
+- DST: No
+- IANA identifier: `Pacific/Nauru`
+- Capital: Yaren
+
 Nauru is 21 square kilometers. It is a raised coral limestone island in the central Pacific, roughly 3,000 kilometers northeast of Australia. Its population is about 10,000.
 
 It is the world's smallest island nation and the third smallest country overall, after Vatican City and Monaco. It runs on UTC+12, year-round.

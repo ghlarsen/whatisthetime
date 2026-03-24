@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Gibraltar uses Central European Time (CET) (UTC+1 in winter, UTC+2 in summer). DST observed. IANA: `Europe/Gibraltar`.
+
+**Key facts about time in Gibraltar**
+- Timezone: Central European Time (CET) / Central European Summer Time (CEST)
+- UTC offset: +01:00 (winter), +02:00 (summer)
+- DST: Yes
+- IANA identifier: `Europe/Gibraltar`
+- Capital: Gibraltar
+
 Gibraltar is a British Overseas Territory of 6.8 square kilometers at the southern tip of the Iberian Peninsula. Britain has held it since 1704, ceding it permanently in the Treaty of Utrecht (1713). Spain considers Gibraltar a rightful part of Spanish territory and has maintained a formal claim for over three centuries.
 
 On the question of time, Gibraltar sides with Spain.

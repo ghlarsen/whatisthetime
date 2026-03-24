@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Sweden uses Central European Time (UTC+1). DST observed: clocks advance to UTC+2 in summer. IANA: `Europe/Stockholm`.
+
+**Key facts about time in Sweden**
+- Timezone: Central European Time (CET)
+- UTC offset: +01:00 (winter), +02:00 (summer DST)
+- DST: yes
+- IANA identifier: `Europe/Stockholm`
+- Capital: Stockholm
+
 Sweden observes Central European Time: UTC+1 in winter, UTC+2 during daylight saving. The IANA identifier is `Europe/Stockholm`. Sweden follows the EU DST schedule, advancing on the last Sunday in March and retreating on the last Sunday in October.
 
 This is entirely unremarkable for a Northern European country. What is remarkable is what Sweden did in 1900.

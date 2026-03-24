@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Equatorial Guinea uses West Africa Time (WAT) (UTC+1). No daylight saving time. IANA: `Africa/Malabo`.
+
+**Key facts about time in Equatorial Guinea**
+- Timezone: West Africa Time (WAT)
+- UTC offset: +01:00
+- DST: No
+- IANA identifier: `Africa/Malabo`
+- Capital: Malabo
+
 Equatorial Guinea is a peculiarity. It is the only sovereign country in Africa where Spanish is an official language. Its capital, Malabo, sits on Bioko Island in the Gulf of Guinea, separated from the country's mainland territory (Río Muni) by the sea. The island and mainland both use West Africa Time, UTC+1, year-round.
 
 This is actually somewhat unusual. Bioko Island sits at roughly the same longitude as Nigeria and Cameroon, which are also UTC+1. But it is quite a bit east of where UTC+1 would normally apply geographically. The island's solar noon falls closer to UTC+0 than UTC+1. Still, UTC+1 is the regional standard, and the timezone decision follows the neighbors.

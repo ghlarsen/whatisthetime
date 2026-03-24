@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Algeria uses Central European Time (UTC+1) year-round with no daylight saving. IANA identifier: `Africa/Algiers`.
+
+**Key facts about time in Algeria**
+- Timezone: Central European Time (CET)
+- UTC offset: UTC+1
+- DST: No
+- IANA identifier: Africa/Algiers
+- Capital: Algiers
+
 Algeria's clock reads UTC+1, all year, every year. No daylight saving. No adjustment. The timezone identifier is `Africa/Algiers`, but the offset is identical to Central European Time in winter, and one hour behind the rest of CET-following Europe in summer when those countries switch forward.
 
 This makes Algeria the odd one out in its region. Morocco and Western Sahara use UTC+0 (with DST swings in summer). Tunisia uses UTC+1 permanently, same as Algeria. Libya uses UTC+2. Algeria sits at UTC+1, steady, while the rest of the Maghreb and the European north jog in and out of different offsets around it.

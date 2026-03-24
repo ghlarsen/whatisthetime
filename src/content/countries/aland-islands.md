@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+The Åland Islands use Eastern European Time (EET) (UTC+2 in winter, UTC+3 in summer). The islands observe daylight saving time, switching on the last Sunday in March and the last Sunday in October. IANA identifier: `Europe/Mariehamn`.
+
+**Key facts about time in Aland Islands**
+- Timezone: Eastern European Time (EET) / Eastern European Summer Time (EEST)
+- UTC offset: UTC+2 (winter), UTC+3 (summer)
+- DST: Yes, last Sunday in March to last Sunday in October
+- IANA identifier: Europe/Mariehamn
+- Capital: Mariehamn
+
 The Åland Islands are, by most definitions, confusing on purpose. They are Finnish territory, guaranteed autonomous status under a 1921 League of Nations ruling. Their population is almost entirely Swedish-speaking. Their currency is the euro, their flag is a red and yellow Nordic cross on blue, and their timezone is `Europe/Mariehamn`, UTC+2 in winter and UTC+3 in summer.
 
 This last fact is where things get interesting for anyone scheduling a call between Stockholm and Mariehamn.

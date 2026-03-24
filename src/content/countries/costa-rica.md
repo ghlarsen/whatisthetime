@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Costa Rica uses Central Standard Time (CST) (UTC-6). No daylight saving time. IANA: `America/Costa_Rica`.
+
+**Key facts about time in Costa Rica**
+- Timezone: Central Standard Time (CST)
+- UTC offset: -06:00
+- DST: No
+- IANA identifier: `America/Costa_Rica`
+- Capital: San José
+
 Costa Rica runs at UTC-6 all year. Central Standard Time, no daylight saving. IANA identifier: `America/Costa_Rica`. San José is 6 hours behind UTC permanently, synchronized with parts of Mexico, Guatemala, Honduras, El Salvador, and Nicaragua (most of which also permanently use UTC-6 without DST).
 
 Costa Rica tried daylight saving time in the mid-20th century, found it more trouble than it was worth at its latitude, and stopped.

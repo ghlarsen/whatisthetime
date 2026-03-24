@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Portugal uses Western European Time (UTC+0 in winter, UTC+1 in summer); the Azores use UTC-1 in winter, UTC+0 in summer. DST observed. IANA: `Europe/Lisbon`, `Atlantic/Azores`.
+
+**Key facts about time in Portugal**
+- Timezone: Western European Time (WET) / Western European Summer Time (WEST); Azores Time (AZOT) / Azores Summer Time (AZOST)
+- UTC offset: +00:00 / -01:00
+- DST: Yes
+- IANA identifier: `Europe/Lisbon`, `Atlantic/Azores`
+- Capital: Lisbon
+
 Portugal is, objectively, in the correct timezone for its geography.
 
 Lisbon sits at 9 degrees West longitude. The sun's natural noon at this longitude occurs around 12:36 UTC. UTC+0, Western European Time, makes Lisbon's official noon approximately 12:00. The match between solar time and clock time is nearly perfect.

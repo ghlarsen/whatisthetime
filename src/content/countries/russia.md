@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Russia spans 11 timezones (UTC+2 to UTC+12). No DST observed. IANA: `Europe/Kaliningrad`, `Europe/Moscow`, and others.
+
+**Key facts about time in Russia**
+- Timezone: Multiple (Kaliningrad Time, Moscow Time, and 9 others)
+- UTC offset: +02:00 through +12:00
+- DST: No
+- IANA identifier: `Europe/Kaliningrad`, `Europe/Moscow`, `Europe/Samara`, `Asia/Yekaterinburg`, `Asia/Omsk`, `Asia/Novosibirsk`, `Asia/Irkutsk`, `Asia/Chita`, `Asia/Yakutsk`, `Asia/Vladivostok`, `Asia/Sakhalin`, `Asia/Magadan`, `Asia/Kamchatka`, `Asia/Anadyr`
+- Capital: Moscow
+
 Russia is the largest country on Earth, spanning roughly 17 million square kilometers from the Baltic Sea to the Pacific Ocean. It covers 11 time zones. When it is 06:00 in Kaliningrad, it is 17:00 in Kamchatka. These are the same Monday morning, simultaneously, 11 hours apart.
 
 No other country in the world spans this range.

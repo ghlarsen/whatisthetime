@@ -13,6 +13,13 @@ lastUpdated: "2026-03-24"
 
 New Zealand Standard Time is UTC+12. In summer, when New Zealand observes daylight saving time, the country moves to NZDT at UTC+13, placing it among the furthest-forward timezones on Earth and among the first inhabited places on the planet to enter each new day.
 
+**Key facts about NZST**
+- Full name: New Zealand Standard Time
+- UTC offset: UTC+12
+- DST: yes, NZDT (UTC+13) from late September to early April
+- IANA identifiers: Pacific/Auckland
+- Countries: New Zealand
+
 That position at the edge of the calendar has cultural and commercial implications. On New Year's Eve, Auckland's fireworks are among the first broadcast globally. When December 31 becomes January 1 for New Zealand, it still December 31 in the United States, Europe, and much of Asia.
 
 ## Geography and the international date line

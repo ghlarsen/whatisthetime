@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Martinique uses Atlantic Standard Time (UTC-4). No daylight saving time is observed. IANA: `America/Martinique`.
+
+**Key facts about time in Martinique**
+- Timezone: Atlantic Standard Time (AST)
+- UTC offset: -04:00
+- DST: No
+- IANA identifier: `America/Martinique`
+- Capital: Fort-de-France
+
 Martinique is France. Not a colony, not a dependency: a department of France, with the same status as Seine-et-Marne or Haute-Garonne. Its residents are French citizens, vote in French elections, pay French taxes, and are subject to French law. France's president is their president. The EU's single market is their market.
 
 And yet Martinique runs on UTC-4, six hours behind Paris. Paris runs on CET (UTC+1 in winter, UTC+2 in summer). The clock difference is a simple consequence of geography: Martinique sits in the Caribbean at about 14 degrees North, 61 degrees West. It would be absurd for a Caribbean island to operate on Central European Time.

@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Mali uses Greenwich Mean Time (UTC+0). No daylight saving time is observed. IANA: `Africa/Bamako`.
+
+**Key facts about time in Mali**
+- Timezone: Greenwich Mean Time (GMT)
+- UTC offset: +00:00
+- DST: No
+- IANA identifier: `Africa/Bamako`
+- Capital: Bamako
+
 Timbuktu. The name has become a byword in English for the most remote place imaginable. "From here to Timbuktu" means an impossibly long journey to somewhere impossibly far.
 
 The irony is that Timbuktu was, for several centuries, one of the most connected cities in the world: a center of trade and Islamic scholarship where manuscripts on mathematics, astronomy, medicine, and theology accumulated by the hundreds of thousands. The city sat at the edge of the Sahara, where trans-Saharan caravan routes crossed Niger River trade networks.

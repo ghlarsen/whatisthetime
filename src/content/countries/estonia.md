@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Estonia uses Eastern European Time (EET) (UTC+2 in winter, UTC+3 in summer). DST observed. IANA: `Europe/Tallinn`.
+
+**Key facts about time in Estonia**
+- Timezone: Eastern European Time (EET) / Eastern European Summer Time (EEST)
+- UTC offset: +02:00 (winter), +03:00 (summer)
+- DST: Yes
+- IANA identifier: `Europe/Tallinn`
+- Capital: Tallinn
+
 Estonia is one of those countries where the official timezone and the geographical reality are slightly at odds, and the gap is wide enough to notice.
 
 The country uses Eastern European Time: UTC+2 in winter, UTC+3 in summer (EEST, Eastern European Summer Time). DST follows the EU standard, with clocks springing forward on the last Sunday in March and falling back on the last Sunday in October.

@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Slovenia uses Central European Time (UTC+1). DST observed: clocks advance to UTC+2 in summer. IANA: `Europe/Ljubljana`.
+
+**Key facts about time in Slovenia**
+- Timezone: Central European Time (CET)
+- UTC offset: +01:00 (winter), +02:00 (summer DST)
+- DST: yes
+- IANA identifier: `Europe/Ljubljana`
+- Capital: Ljubljana
+
 Slovenia observes Central European Time: UTC+1 in winter, UTC+2 during daylight saving. The IANA identifier is `Europe/Ljubljana`. Slovenia is an EU member and follows the EU DST schedule.
 
 ## Not Slovakia

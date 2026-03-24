@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Grenada uses Atlantic Standard Time (AST) (UTC-4). No daylight saving time. IANA: `America/Grenada`.
+
+**Key facts about time in Grenada**
+- Timezone: Atlantic Standard Time (AST)
+- UTC offset: -04:00
+- DST: No
+- IANA identifier: `America/Grenada`
+- Capital: Saint George's
+
 Grenada uses AST (Atlantic Standard Time), UTC-4, year-round. No daylight saving time. At 12 degrees north latitude, the seasonal variation in day length is minimal, making DST impractical.
 
 Grenada is the southernmost of the Windward Islands chain and is known as the Spice Isle: it is one of the world's largest producers of nutmeg and mace, and also grows significant quantities of cinnamon, cloves, ginger, and turmeric. The nutmeg industry was devastated by Hurricane Ivan in 2004, which destroyed an estimated 90% of the nutmeg crop, and took years to recover.

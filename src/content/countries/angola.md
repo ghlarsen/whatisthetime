@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Angola uses West Africa Time (WAT) (UTC+1) year-round with no daylight saving. IANA identifier: `Africa/Luanda`.
+
+**Key facts about time in Angola**
+- Timezone: West Africa Time (WAT)
+- UTC offset: UTC+1
+- DST: No
+- IANA identifier: Africa/Luanda
+- Capital: Luanda
+
 Angola runs on WAT, West Africa Time, UTC+1 all year. No daylight saving. The IANA identifier is `Africa/Luanda`. It is a clean, simple timezone arrangement for a country whose history has been anything but.
 
 At 1,246,700 square kilometers, Angola is one of sub-Saharan Africa's larger nations, spanning from the Atlantic coast into the heart of the continent. Its longitude runs from roughly 12°E to 24°E, which means solar noon across the country falls somewhere between UTC+0:48 at the western coast and UTC+1:36 in the far east. UTC+1 is a reasonable central compromise, accurate to within 30 minutes across most of the country.

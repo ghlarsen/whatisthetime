@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Haiti uses Eastern Standard Time (EST) (UTC-5 in winter, UTC-4 in summer). DST observed. IANA: `America/Port-au-Prince`.
+
+**Key facts about time in Haiti**
+- Timezone: Eastern Standard Time (EST) / Eastern Daylight Time (EDT)
+- UTC offset: -05:00 (winter), -04:00 (summer)
+- DST: Yes
+- IANA identifier: `America/Port-au-Prince`
+- Capital: Port-au-Prince
+
 Haiti uses Eastern Standard Time: UTC-5 in winter, UTC-4 in summer (EDT). DST transitions follow the US schedule, second Sunday in March forward and first Sunday in November back.
 
 This aligns Haiti with the US East Coast, a practical choice given the enormous Haitian diaspora in Florida, New York, and New Jersey, and the significant trade and remittance flows between Haiti and the United States.

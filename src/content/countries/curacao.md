@@ -11,6 +11,15 @@ continent: "South America"
 lastUpdated: "2026-03-23"
 ---
 
+Curaçao uses Atlantic Standard Time (AST) (UTC-4). No daylight saving time. IANA: `America/Curacao`.
+
+**Key facts about time in Curacao**
+- Timezone: Atlantic Standard Time (AST)
+- UTC offset: -04:00
+- DST: No
+- IANA identifier: `America/Curacao`
+- Capital: Willemstad
+
 Curaçao runs at UTC-4 permanently. Atlantic Standard Time, no daylight saving. IANA identifier: `America/Curacao`. The capital, Willemstad, has a historic harbor district (Handelskade) with distinctive colonial architecture in bright colors that has become the island's visual signature.
 
 Curaçao became a separate constituent country of the Kingdom of the Netherlands in 2010, when the Netherlands Antilles was dissolved. It shares its timezone (UTC-4) with Aruba, Bonaire, and the rest of the northeastern Caribbean.

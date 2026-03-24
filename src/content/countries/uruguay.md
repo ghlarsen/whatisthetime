@@ -11,6 +11,15 @@ continent: "South America"
 lastUpdated: "2026-03-23"
 ---
 
+Uruguay uses Uruguay Standard Time (UTC-3). No DST observed. IANA: `America/Montevideo`.
+
+**Key facts about time in Uruguay**
+- Timezone: Uruguay Standard Time (UYT)
+- UTC offset: -03:00
+- DST: no
+- IANA identifier: `America/Montevideo`
+- Capital: Montevideo
+
 Uruguay sits between Brazil and Argentina, a buffer republic that came into existence partly because neither larger neighbor wanted the other to have it. It is South America's smallest non-island country, roughly the size of Oklahoma, with a population of 3.5 million, about half of whom live in Montevideo.
 
 Since 2015, Uruguay has used UTC-3 year-round with no daylight saving time.

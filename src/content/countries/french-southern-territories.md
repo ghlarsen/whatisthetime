@@ -11,6 +11,15 @@ continent: "Antarctica"
 lastUpdated: "2026-03-23"
 ---
 
+The French Southern Territories use UTC+5. No daylight saving time. IANA: `Indian/Kerguelen`.
+
+**Key facts about time in French Southern Territories**
+- Timezone: UTC+5
+- UTC offset: +05:00
+- DST: No
+- IANA identifier: `Indian/Kerguelen`
+- Capital: Port-aux-Français
+
 The French Southern and Antarctic Territories (TAAF in French) are a collection of remote islands and an Antarctic sector administered by France. For timezone purposes, the IANA database assigns them to `Indian/Kerguelen`, UTC+5, based on the Kerguelen Islands, the most significant of the group.
 
 There is no permanent civilian population. Port-aux-Français on Kerguelen houses a rotating scientific station of around 70 to 100 researchers and support staff, depending on the season. The researchers study meteorology, biology, and geophysics. They share a clock, but no one is watching it too closely.

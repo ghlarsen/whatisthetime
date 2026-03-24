@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Ethiopia uses East Africa Time (EAT) (UTC+3). No daylight saving time. IANA: `Africa/Addis_Ababa`.
+
+**Key facts about time in Ethiopia**
+- Timezone: East Africa Time (EAT)
+- UTC offset: +03:00
+- DST: No
+- IANA identifier: `Africa/Addis_Ababa`
+- Capital: Addis Ababa
+
 Ethiopia uses East Africa Time: UTC+3, no daylight saving. That is the easy part.
 
 The fascinating part is what Ethiopians do with that UTC+3 signal once it arrives. Ethiopia has its own internal clock system, completely parallel to the international standard, which has been in continuous use for centuries and shows no signs of going anywhere.

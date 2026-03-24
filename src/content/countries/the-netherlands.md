@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+The Netherlands uses Central European Time (UTC+1). DST observed: clocks advance to UTC+2 in summer. IANA: `Europe/Amsterdam`.
+
+**Key facts about time in The Netherlands**
+- Timezone: Central European Time (CET)
+- UTC offset: +01:00 (winter), +02:00 (summer DST)
+- DST: yes
+- IANA identifier: `Europe/Amsterdam`
+- Capital: Amsterdam
+
 The Netherlands currently uses Central European Time, UTC+1 in winter and UTC+2 in summer (CEST). This is the same timezone as Germany, France, and most of Western Europe. It is also, by any solar reckoning, the wrong timezone for Amsterdam.
 
 The story of how the Netherlands got here is one of the stranger timezone histories in Europe, involving a precision-obsessed 19th century, a Nazi invasion, and a postwar choice to stay on the wrong side of the clock.

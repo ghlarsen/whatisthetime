@@ -9,7 +9,14 @@ countries: ["Indonesia"]
 lastUpdated: "2026-03-24"
 ---
 
-Western Indonesia Time is UTC+7. It covers Java, the most populous island in the world, along with Sumatra, West Kalimantan, and several smaller western islands. Jakarta, the country's capital and largest city, runs on WIB.
+Western Indonesia Time is UTC+7. It covers Java, the most populous island in the world, along with Sumatra, West Kalimantan, and several smaller western islands.
+
+**Key facts about WIB**
+- Full name: Western Indonesia Time
+- UTC offset: UTC+7
+- DST: no
+- IANA identifiers: Asia/Jakarta, Asia/Pontianak
+- Countries: Indonesia Jakarta, the country's capital and largest city, runs on WIB.
 
 Indonesia is an archipelago of over 17,000 islands stretching across more than 5,000 kilometers from west to east. A country that vast requires multiple timezones. Indonesia uses three: WIB (UTC+7) in the west, WITA (UTC+8) in the center including Bali, and WIT (UTC+9) in the east including Papua.
 

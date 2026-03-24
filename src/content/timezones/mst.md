@@ -13,6 +13,13 @@ lastUpdated: "2026-03-24"
 
 Mountain Standard Time is UTC-7. It covers the Rocky Mountain states of the American interior, a region of high elevation, ski resorts, national parks, and some of the most dramatic geography in North America.
 
+**Key facts about MST**
+- Full name: Mountain Standard Time
+- UTC offset: UTC-7
+- DST: yes, MDT (UTC-6) for most of the zone; Arizona (except Navajo Nation) does not observe DST
+- IANA identifiers: America/Denver, America/Phoenix, America/Boise
+- Countries: United States, Canada
+
 In summer, most of the Mountain zone shifts to Mountain Daylight Time (MDT) at UTC-6. But Arizona, one of the largest states in the region, mostly does not. This creates a genuine curiosity: for part of the year, Denver and Phoenix are in the same timezone, and for the rest, they are not.
 
 ## The Mountain zone in American timekeeping

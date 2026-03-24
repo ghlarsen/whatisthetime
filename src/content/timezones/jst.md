@@ -11,6 +11,13 @@ lastUpdated: "2026-03-24"
 
 Japan Standard Time is UTC+9. One timezone, one offset, no exceptions. A country of 125 million people stretching across 3,000 kilometers of ocean shares a single clock, and has done so without interruption since 1888.
 
+**Key facts about JST**
+- Full name: Japan Standard Time
+- UTC offset: UTC+9
+- DST: no
+- IANA identifiers: Asia/Tokyo
+- Countries: Japan
+
 That consistency is not an accident. It is a considered choice, and it says something about how Japan thinks about time.
 
 ## The Meiji clock

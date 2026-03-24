@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Czechia uses Central European Time (CET) (UTC+1 in winter, UTC+2 in summer). DST observed. IANA: `Europe/Prague`.
+
+**Key facts about time in Czechia**
+- Timezone: Central European Time (CET) / Central European Summer Time (CEST)
+- UTC offset: +01:00 (winter), +02:00 (summer)
+- DST: Yes
+- IANA identifier: `Europe/Prague`
+- Capital: Prague
+
 Czechia uses Central European Time: UTC+1 in winter, UTC+2 (CEST) in summer. IANA identifier: `Europe/Prague`. The clock changes on the EU schedule, last Sunday in March and last Sunday in October.
 
 Prague is at approximately 14.4°E longitude, where solar noon falls at about UTC+0:58. UTC+1 in winter is nearly astronomically exact for Prague. The city and the sun agree.

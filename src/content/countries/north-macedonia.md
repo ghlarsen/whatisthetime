@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+North Macedonia uses Central European Time (UTC+1 in winter, UTC+2 in summer). DST observed. IANA: `Europe/Skopje`.
+
+**Key facts about time in North Macedonia**
+- Timezone: Central European Time (CET) / Central European Summer Time (CEST)
+- UTC offset: +01:00 / +02:00
+- DST: Yes
+- IANA identifier: `Europe/Skopje`
+- Capital: Skopje
+
 North Macedonia uses Central European Time: UTC+1 in winter (CET), UTC+2 in summer (CEST). The IANA identifier is `Europe/Skopje`, which follows the same rules as `Europe/Belgrade` and most of the former Yugoslavia.
 
 The country's timezone is unremarkable in itself. What is remarkable is the political history of the country's name, which has unusually direct consequences for timezone database management and international software systems.

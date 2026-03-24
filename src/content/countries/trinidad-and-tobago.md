@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Trinidad and Tobago uses Atlantic Standard Time (UTC-4). No DST observed. IANA: `America/Port_of_Spain`.
+
+**Key facts about time in Trinidad and Tobago**
+- Timezone: Atlantic Standard Time (AST)
+- UTC offset: -04:00
+- DST: no
+- IANA identifier: `America/Port_of_Spain`
+- Capital: Port of Spain
+
 Trinidad and Tobago sits at the southern end of the Caribbean archipelago, just off the Venezuelan coast. The two islands run together as a republic, share a government, and share a timezone: UTC-4, year-round, no daylight saving.
 
 This puts them on Atlantic Standard Time permanently. When North American cities observe Eastern Daylight Time in summer (also UTC-4), Trinidad and Tobago are effectively synchronized with New York and Toronto. In winter, when those cities fall back to UTC-5, Trinidad and Tobago stay at UTC-4 and gain an hour of separation.

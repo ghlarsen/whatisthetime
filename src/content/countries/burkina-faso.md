@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Burkina Faso uses Greenwich Mean Time (GMT) (UTC+0) year-round with no daylight saving. IANA identifier: `Africa/Ouagadougou`.
+
+**Key facts about time in Burkina Faso**
+- Timezone: Greenwich Mean Time (GMT)
+- UTC offset: UTC+0
+- DST: No
+- IANA identifier: Africa/Ouagadougou
+- Capital: Ouagadougou
+
 Burkina Faso runs at UTC+0, year-round. Greenwich Mean Time, no adjustment. IANA identifier: `Africa/Ouagadougou`. The clock is set to Greenwich and stays there.
 
 At 1°W to 2°W longitude (roughly), Ouagadougou's solar noon falls very close to UTC+0, making this one of the more astronomically accurate timezone assignments in the world. The clock and the sun are nearly synchronized.

@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Syria uses Eastern European Time (UTC+2). DST observed: clocks advance to UTC+3 in summer. IANA: `Asia/Damascus`.
+
+**Key facts about time in Syria**
+- Timezone: Eastern European Time (EET)
+- UTC offset: +02:00 (winter), +03:00 (summer DST)
+- DST: yes
+- IANA identifier: `Asia/Damascus`
+- Capital: Damascus
+
 Syria observes Eastern European Time: UTC+2 in winter, UTC+3 during daylight saving. The IANA identifier is `Asia/Damascus`.
 
 Damascus sits at 36.3 degrees East longitude and 33.5 degrees North latitude. Solar noon occurs around 09:55 UTC, which at UTC+2 places local noon at 11:55. A close alignment.

@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Slovakia uses Central European Time (UTC+1). DST observed: clocks advance to UTC+2 in summer. IANA: `Europe/Bratislava`.
+
+**Key facts about time in Slovakia**
+- Timezone: Central European Time (CET)
+- UTC offset: +01:00 (winter), +02:00 (summer DST)
+- DST: yes
+- IANA identifier: `Europe/Bratislava`
+- Capital: Bratislava
+
 Slovakia observes Central European Time: UTC+1 in winter, UTC+2 during daylight saving. The IANA identifier is `Europe/Bratislava`. Slovakia follows the EU DST schedule.
 
 Bratislava is one of the few European capitals situated directly on a border: it sits at the meeting point of Austria, Hungary, and Slovakia, with Vienna approximately 55 kilometers away. This geographic position has made Bratislava a crossroads city across its history.

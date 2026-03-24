@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Hungary uses Central European Time (CET) (UTC+1 in winter, UTC+2 in summer). DST observed. IANA: `Europe/Budapest`.
+
+**Key facts about time in Hungary**
+- Timezone: Central European Time (CET) / Central European Summer Time (CEST)
+- UTC offset: +01:00 (winter), +02:00 (summer)
+- DST: Yes
+- IANA identifier: `Europe/Budapest`
+- Capital: Budapest
+
 Hungary uses CET (Central European Time): UTC+1 in winter, UTC+2 in summer (CEST). DST follows the EU standard, springing forward on the last Sunday in March and falling back on the last Sunday in October.
 
 Budapest sits at 47.5 degrees north, 19 degrees east, geographically central in Europe, and UTC+1 is a reasonable fit for its longitude. The sun rises at about 7:30 AM on the December solstice and sets around 3:50 PM, with the same kind of long winter nights and long summer evenings that characterize mid-latitude continental Europe.

@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+Tokelau uses Tokelau Time (UTC+13). No DST observed. IANA: `Pacific/Fakaofo`.
+
+**Key facts about time in Tokelau**
+- Timezone: Tokelau Time (TKT)
+- UTC offset: +13:00
+- DST: no
+- IANA identifier: `Pacific/Fakaofo`
+- Capital: none (administered from Apia, Samoa)
+
 Tokelau is three coral atolls: Atafu, Nukunonu, and Fakaofo. Total land area: 12 square kilometers. Total population: roughly 1,500 people. No airport. Accessed only by ferry from Samoa, a journey of 24 to 30 hours. No permanent freshwater supply. No stream, no river. Rainwater is everything.
 
 And this tiny archipelago had to choose which side of the International Date Line to sit on.

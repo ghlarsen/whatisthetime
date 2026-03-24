@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Lebanon uses Eastern European Time (UTC+2). Daylight saving time is observed, shifting to Eastern European Summer Time (UTC+3) in summer. IANA: `Asia/Beirut`.
+
+**Key facts about time in Lebanon**
+- Timezone: Eastern European Time (EET)
+- UTC offset: +02:00 (standard), +03:00 (DST)
+- DST: Yes
+- IANA identifier: `Asia/Beirut`
+- Capital: Beirut
+
 In March 2023, Lebanon accidentally became a global news story about timekeeping.
 
 The caretaker government announced, less than a week before the scheduled clock change, that daylight saving time would be delayed by a month. The stated reason was to ease the burden on Lebanese Muslims observing Ramadan, as an earlier sunrise would mean a shorter fasting day.

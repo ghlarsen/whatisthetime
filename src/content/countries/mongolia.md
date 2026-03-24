@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Mongolia uses two timezones: UTC+8 for most of the country including the capital, and UTC+7 for three western provinces. No daylight saving time is observed since 2017. IANA: `Asia/Ulaanbaatar`, `Asia/Hovd`.
+
+**Key facts about time in Mongolia**
+- Timezone: Ulaanbaatar Time (UTC+8), Hovd Time (UTC+7)
+- UTC offset: +08:00, +07:00
+- DST: No
+- IANA identifier: `Asia/Ulaanbaatar`, `Asia/Hovd`
+- Capital: Ulaanbaatar
+
 Mongolia is the world's most sparsely populated sovereign state. It covers 1.56 million square kilometers (roughly three times the size of France) with a population of about 3.4 million people, more than half of whom live in the capital Ulaanbaatar. The rest are scattered across the steppe, the Gobi Desert, and the mountain ranges that make up this vast, wind-scoured country.
 
 Such a country has legitimate questions about timezones.

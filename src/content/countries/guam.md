@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+Guam uses Chamorro Standard Time (ChST) (UTC+10). No daylight saving time. IANA: `Pacific/Guam`.
+
+**Key facts about time in Guam**
+- Timezone: Chamorro Standard Time (ChST)
+- UTC offset: +10:00
+- DST: No
+- IANA identifier: `Pacific/Guam`
+- Capital: Hagatna
+
 Guam uses ChST (Chamorro Standard Time), UTC+10, year-round, with no daylight saving time. As an unincorporated territory of the United States, Guam has its own timezone entirely separate from the contiguous US zones.
 
 At UTC+10, Guam is 15 to 16 hours ahead of the US East Coast, depending on whether DST is in effect in the Eastern timezone. When it is Monday at noon in New York, it is Tuesday at 3 or 4 AM in Guam. Guam's official tourism marketing has leaned into this with the slogan "Where America's Day Begins."

@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Christmas Island uses Christmas Island Time (CXT) (UTC+7) year-round with no daylight saving. IANA identifier: `Indian/Christmas`.
+
+**Key facts about time in Christmas Island**
+- Timezone: Christmas Island Time (CXT)
+- UTC offset: UTC+7
+- DST: No
+- IANA identifier: Indian/Christmas
+- Capital: Flying Fish Cove
+
 Christmas Island uses Christmas Island Time (CXT), UTC+7, all year. No daylight saving. IANA identifier: `Indian/Christmas`. The capital is Flying Fish Cove, the only settlement of any size on the island.
 
 Christmas Island was formally annexed by Britain on December 6, 1888, giving it its name. The annexation date was December 25, 1643, the day the island was first recorded by an English captain, according to some sources; others cite the 1888 annexation. Either way: named for the day, not the season.

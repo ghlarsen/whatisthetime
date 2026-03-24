@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Saint Vincent and the Grenadines uses Atlantic Standard Time (UTC-4). No DST observed. IANA: `America/St_Vincent`.
+
+**Key facts about time in Saint Vincent and the Grenadines**
+- Timezone: Atlantic Standard Time (AST)
+- UTC offset: -04:00
+- DST: No
+- IANA identifier: `America/St_Vincent`
+- Capital: Kingstown
+
 Saint Vincent and the Grenadines is a multi-island nation in the southeastern Caribbean: the main island of Saint Vincent plus a string of smaller islands stretching south toward Grenada, collectively called the Grenadines. The timezone is Atlantic Standard Time, UTC-4, year-round, no daylight saving. The IANA identifier is `America/St_Vincent`.
 
 ## Pirates and film locations

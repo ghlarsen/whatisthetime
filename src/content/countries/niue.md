@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+Niue uses UTC-11. No DST observed. IANA: `Pacific/Niue`.
+
+**Key facts about time in Niue**
+- Timezone: Niue Time (NUT)
+- UTC offset: -11:00
+- DST: No
+- IANA identifier: `Pacific/Niue`
+- Capital: Alofi
+
 Niue is one of the world's largest coral islands: 261 square kilometers of raised limestone plateau in the South Pacific, about 2,400 kilometers northeast of New Zealand. Its population is approximately 1,600 people, making it one of the world's least populous countries.
 
 The island runs on UTC-11, year-round. This puts it among the westernmost positions in the global clock: when it is noon on Wednesday in London, it is 1am on Wednesday in Niue. When American Samoa (UTC-11) and Niue share the same clock position, they are among the last places on Earth to begin each new day.

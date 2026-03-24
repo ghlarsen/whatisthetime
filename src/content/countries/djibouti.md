@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Djibouti uses East Africa Time (EAT) (UTC+3). No daylight saving time. IANA: `Africa/Djibouti`.
+
+**Key facts about time in Djibouti**
+- Timezone: East Africa Time (EAT)
+- UTC offset: +03:00
+- DST: No
+- IANA identifier: `Africa/Djibouti`
+- Capital: Djibouti
+
 Djibouti is a country roughly the size of New Hampshire wedged between Ethiopia, Eritrea, and Somalia on the Horn of Africa. It controls the Bab el-Mandeb Strait, the narrow passage connecting the Red Sea to the Gulf of Aden. Every container ship moving between Asia and Europe passes through these waters.
 
 The country runs on East Africa Time, UTC+3, which it shares with Ethiopia, Somalia, and Madagascar. No daylight saving time. The sun rises around 6:00 AM and sets around 6:00 PM most of the year, the near-equatorial uniformity making seasonal time adjustments pointless.

@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+Solomon Islands uses Solomon Islands Time (UTC+11). No DST observed. IANA: `Pacific/Guadalcanal`.
+
+**Key facts about time in Solomon Islands**
+- Timezone: Solomon Islands Time (SBT)
+- UTC offset: +11:00
+- DST: no
+- IANA identifier: `Pacific/Guadalcanal`
+- Capital: Honiara
+
 The Solomon Islands are a Pacific archipelago of roughly 1,000 islands east of Papua New Guinea. They observe UTC+11 year-round, no daylight saving. The IANA identifier is `Pacific/Guadalcanal`, named for the largest island in the chain.
 
 The capital, Honiara, sits on Guadalcanal's northern coast.

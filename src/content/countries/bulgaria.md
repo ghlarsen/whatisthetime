@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Bulgaria uses Eastern European Time (EET) (UTC+2 in winter, UTC+3 in summer). The country observes daylight saving time, switching on the last Sunday in March and the last Sunday in October. IANA identifier: `Europe/Sofia`.
+
+**Key facts about time in Bulgaria**
+- Timezone: Eastern European Time (EET) / Eastern European Summer Time (EEST)
+- UTC offset: UTC+2 (winter), UTC+3 (summer)
+- DST: Yes, last Sunday in March to last Sunday in October
+- IANA identifier: Europe/Sofia
+- Capital: Sofia
+
 Bulgaria uses Eastern European Time: UTC+2 in winter, UTC+3 (EEST) in summer. IANA identifier: `Europe/Sofia`. Clock changes follow EU rules, last Sunday in March and last Sunday in October.
 
 Bulgaria is in the easternmost timezone group in the EU's continental territory (along with Romania, Greece, Finland, Estonia, Latvia, and Lithuania). When most of Western Europe is on UTC+1, Bulgaria is already on UTC+2. This matters for communication windows and business coordination.

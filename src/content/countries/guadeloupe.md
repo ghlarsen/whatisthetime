@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Guadeloupe uses Atlantic Standard Time (AST) (UTC-4). No daylight saving time. IANA: `America/Guadeloupe`.
+
+**Key facts about time in Guadeloupe**
+- Timezone: Atlantic Standard Time (AST)
+- UTC offset: -04:00
+- DST: No
+- IANA identifier: `America/Guadeloupe`
+- Capital: Basse-Terre
+
 Guadeloupe is an overseas department of France, located in the Lesser Antilles in the Caribbean. Like its neighbor Martinique and like French Guiana, it is an integral part of France: same currency (euro), French law, French passports, representation in the French National Assembly.
 
 The timezone is UTC-4, year-round, with no daylight saving time. Metropolitan France is UTC+1 in winter and UTC+2 in summer, meaning Guadeloupe runs 5 or 6 hours behind Paris depending on the season.

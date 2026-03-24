@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Georgia uses Georgia Standard Time (GET) (UTC+4). No daylight saving time. IANA: `Asia/Tbilisi`.
+
+**Key facts about time in Georgia**
+- Timezone: Georgia Standard Time (GET)
+- UTC offset: +04:00
+- DST: No
+- IANA identifier: `Asia/Tbilisi`
+- Capital: Tbilisi
+
 Georgia uses GET (Georgia Standard Time), UTC+4, year-round. No daylight saving time has been observed since 2005. The IANA identifier is `Asia/Tbilisi`.
 
 This is a timezone with political history embedded in it.

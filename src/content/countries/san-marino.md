@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+San Marino uses Central European Time (UTC+1 in winter, UTC+2 in summer). DST observed. IANA: `Europe/San_Marino`.
+
+**Key facts about time in San Marino**
+- Timezone: Central European Time (CET) / Central European Summer Time (CEST)
+- UTC offset: +01:00 / +02:00
+- DST: Yes
+- IANA identifier: `Europe/San_Marino`
+- Capital: San Marino
+
 San Marino is a 61-square-kilometer enclave within Italy, sitting on and around Mount Titano in the Apennines. It observes Central European Time: UTC+1 in winter, UTC+2 during daylight saving. The IANA identifier is `Europe/San_Marino`.
 
 Being entirely surrounded by Italy, San Marino follows Italian time perfectly. There would be no practical alternative.

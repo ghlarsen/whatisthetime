@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Lesotho uses South Africa Standard Time (UTC+2). No daylight saving time is observed. IANA: `Africa/Maseru`.
+
+**Key facts about time in Lesotho**
+- Timezone: South Africa Standard Time (SAST)
+- UTC offset: +02:00
+- DST: No
+- IANA identifier: `Africa/Maseru`
+- Capital: Maseru
+
 Lesotho is one of only three countries on Earth completely surrounded by another single country. (The others are Vatican City and San Marino, both inside Italy.) Lesotho sits entirely within South Africa, a high-altitude mountain kingdom whose borders are defined by the Drakensberg and Maluti mountain ranges.
 
 It makes geographic sense that Lesotho runs on the same clock as South Africa: UTC+2 (South Africa Standard Time), year-round, no daylight saving. There's no meaningful reason for the two to differ. They share a border that stretches 909 kilometers, and the economies are deeply intertwined.

@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Yemen uses Arabia Standard Time (UTC+3). No DST observed. IANA: `Asia/Aden`.
+
+**Key facts about time in Yemen**
+- Timezone: Arabia Standard Time (AST)
+- UTC offset: +03:00
+- DST: no
+- IANA identifier: `Asia/Aden`
+- Capital: Sana'a
+
 Yemen uses Arabia Standard Time, UTC+3, year-round. No daylight saving. The IANA identifier is `Asia/Aden`, after the port city on the Gulf of Aden that was, under British colonial administration, one of the most important coaling stations in the world.
 
 The timezone is the same as Saudi Arabia, Kuwait, and Qatar. The civil clock designation is straightforward. The country's actual situation is not.

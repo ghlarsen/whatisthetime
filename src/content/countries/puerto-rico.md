@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Puerto Rico uses Atlantic Standard Time (UTC-4). No DST observed. IANA: `America/Puerto_Rico`.
+
+**Key facts about time in Puerto Rico**
+- Timezone: Atlantic Standard Time (AST)
+- UTC offset: -04:00
+- DST: No
+- IANA identifier: `America/Puerto_Rico`
+- Capital: San Juan
+
 Puerto Rico is a Caribbean island, a US territory since 1898, and one of the few jurisdictions under American influence that does not observe daylight saving time. The clock is set at UTC-4, Atlantic Standard Time (AST), year-round.
 
 The IANA identifier is `America/Puerto_Rico`.

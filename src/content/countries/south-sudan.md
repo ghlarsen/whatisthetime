@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+South Sudan uses East Africa Time (UTC+3). No DST observed. IANA: `Africa/Juba`.
+
+**Key facts about time in South Sudan**
+- Timezone: East Africa Time (EAT)
+- UTC offset: +03:00
+- DST: no
+- IANA identifier: `Africa/Juba`
+- Capital: Juba
+
 South Sudan observes East Africa Time: UTC+3, year-round, no daylight saving. The IANA identifier is `Africa/Juba`.
 
 On July 9, 2011, South Sudan became the world's newest independent state. The 2011 independence referendum produced one of the most lopsided electoral results in modern history: 98.83 percent voted for independence from Sudan.

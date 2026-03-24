@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+The Cook Islands use Cook Island Time (CKT) (UTC-10). No daylight saving time. IANA: `Pacific/Rarotonga`.
+
+**Key facts about time in Cook Islands**
+- Timezone: Cook Island Time (CKT)
+- UTC offset: -10:00
+- DST: No
+- IANA identifier: `Pacific/Rarotonga`
+- Capital: Avarua
+
 The Cook Islands run at UTC-10 all year. Cook Island Time (CKT), IANA identifier `Pacific/Rarotonga`. No daylight saving. The islands sit in the South Pacific, roughly 3,000 kilometers northeast of New Zealand, and they are 10 hours behind UTC permanently.
 
 UTC-10 is a notably remote timezone: only American Samoa (UTC-11) and the uninhabited territories at UTC-12 are further west on the clock. Rarotonga at UTC-10 is one of the later places in the world to begin each calendar day.

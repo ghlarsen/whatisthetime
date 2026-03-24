@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+India uses Indian Standard Time (UTC+5:30). No daylight saving time is observed. IANA: `Asia/Kolkata`.
+
+**Key facts about time in India**
+- Timezone: Indian Standard Time (IST)
+- UTC offset: +05:30
+- DST: No
+- IANA identifier: `Asia/Kolkata`
+- Capital: New Delhi
+
 India runs on a single clock. Indian Standard Time, UTC+5:30, applies from the Rann of Kutch in the west to Arunachal Pradesh in the east, across nearly 3,000 kilometers and approximately 28 degrees of longitude. No daylight saving time. One timezone for 1.4 billion people.
 
 This is a deliberate political choice with significant real-world costs, and it has been disputed almost continuously since independence.

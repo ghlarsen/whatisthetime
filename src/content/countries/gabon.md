@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Gabon uses West Africa Time (WAT) (UTC+1). No daylight saving time. IANA: `Africa/Libreville`.
+
+**Key facts about time in Gabon**
+- Timezone: West Africa Time (WAT)
+- UTC offset: +01:00
+- DST: No
+- IANA identifier: `Africa/Libreville`
+- Capital: Libreville
+
 Gabon straddles the equator on the Atlantic coast of central Africa. The country uses WAT (West Africa Time), UTC+1, with no daylight saving time. No DST makes perfect sense: the equator runs almost exactly through Libreville, meaning day and night are nearly equal year-round. Sunrise is approximately 6:00 AM every day. Sunset is approximately 6:00 PM. Always. No seasonal adjustment needed.
 
 This clockwork regularity is not an abstraction. Equatorial countries experience this literally. There is no need to discuss when sunset will be "early" or "late." It is always at 6.

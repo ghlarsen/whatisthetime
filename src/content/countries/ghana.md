@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Ghana uses Greenwich Mean Time (GMT) (UTC+0). No daylight saving time. IANA: `Africa/Accra`.
+
+**Key facts about time in Ghana**
+- Timezone: Greenwich Mean Time (GMT)
+- UTC offset: +00:00
+- DST: No
+- IANA identifier: `Africa/Accra`
+- Capital: Accra
+
 Most countries at UTC+0 are offset somewhat from the Prime Meridian but use it for practical regional alignment. Ghana is different: the Prime Meridian (0 degrees longitude) actually passes through eastern Ghana, running roughly through the city of Tema, just east of Accra.
 
 This makes Ghana one of the few countries in the world where the clock and the sun are genuinely synchronized. At solar noon in Accra, the standard time is very close to 12:00 noon. The meridian and the clock agree.

@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Nicaragua uses Central Standard Time (UTC-6). No DST observed. IANA: `America/Managua`.
+
+**Key facts about time in Nicaragua**
+- Timezone: Central Standard Time (CST)
+- UTC offset: -06:00
+- DST: No
+- IANA identifier: `America/Managua`
+- Capital: Managua
+
 Nicaragua sits between Honduras to the north and Costa Rica to the south, in the middle of Central America. It uses UTC-6, Central Standard Time, year-round, with no daylight saving adjustments. The IANA identifier is `America/Managua`.
 
 The permanent UTC-6 has been in place since 1998, when Nicaragua stopped observing daylight saving time. The decision followed a period of inconsistent DST observance; the country had sometimes observed it and sometimes not in the preceding years. Stable UTC-6 simplified things without meaningful cost, given Nicaragua's tropical latitude and the minimal daylight variation that makes clock changes pointless.

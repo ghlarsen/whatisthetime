@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Japan uses Japan Standard Time (UTC+9). No daylight saving time has been observed since 1951. IANA: `Asia/Tokyo`.
+
+**Key facts about time in Japan**
+- Timezone: Japan Standard Time (JST)
+- UTC offset: +09:00
+- DST: No
+- IANA identifier: `Asia/Tokyo`
+- Capital: Tokyo
+
 Japan runs on a single clock. From Hokkaido's snow-buried north to Okinawa's subtropical south, a country stretching across 3,000 kilometers, everyone shares one timezone: Japan Standard Time, UTC+9.
 
 No daylight saving. No regional exceptions. No debate. This isn't an accident. It's a choice that tells you something about the country.

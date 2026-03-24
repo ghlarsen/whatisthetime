@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+Vanuatu uses Vanuatu Time (UTC+11). No DST observed. IANA: `Pacific/Efate`.
+
+**Key facts about time in Vanuatu**
+- Timezone: Vanuatu Time (VUT)
+- UTC offset: +11:00
+- DST: no
+- IANA identifier: `Pacific/Efate`
+- Capital: Port Vila
+
 Vanuatu is an archipelago of 83 islands in the southwestern Pacific, running roughly north-south for about 1,300 kilometers. It uses UTC+11, year-round, no daylight saving.
 
 The country was known as the New Hebrides until independence in 1980. During the colonial period it was jointly administered by France and Britain under an arrangement that was so administratively absurd it earned a nickname: the Condominium. Not a residential building. An arrangement where two colonial powers ran parallel administrations, courts, police forces, and systems simultaneously, in the same territory, and neither trusted the other to handle anything alone.

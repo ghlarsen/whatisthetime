@@ -13,6 +13,13 @@ lastUpdated: "2026-03-24"
 
 Central Standard Time in Mexico is UTC-6. It covers the most populous part of the country: Mexico City, Guadalajara, Monterrey, and the central and southeastern states. In summer, most of this zone observes Central Daylight Time (CDT) at UTC-5.
 
+**Key facts about CST**
+- Full name: Central Standard Time (Mexico)
+- UTC offset: UTC-6
+- DST: yes, CDT (UTC-5) in northern border municipalities only; rest of Mexico fixed at UTC-6 since 2023
+- IANA identifiers: America/Mexico_City, America/Monterrey, America/Merida
+- Countries: Mexico
+
 Mexico operates across three timezone zones. Central Time covers roughly two-thirds of the country by population. The northwest observes Mountain Time. Baja California observes Pacific Time, aligning with California to its north.
 
 ## Mexico City

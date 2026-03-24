@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Ivory Coast uses Greenwich Mean Time (UTC+0). No daylight saving time is observed. IANA: `Africa/Abidjan`.
+
+**Key facts about time in Ivory Coast**
+- Timezone: Greenwich Mean Time (GMT)
+- UTC offset: +00:00
+- DST: No
+- IANA identifier: `Africa/Abidjan`
+- Capital: Yamoussoukro
+
 Ivory Coast, officially Côte d'Ivoire, uses GMT (UTC+0) year-round. No daylight saving time. The IANA identifier is `Africa/Abidjan`, after the country's economic capital and largest city.
 
 ## Two capitals

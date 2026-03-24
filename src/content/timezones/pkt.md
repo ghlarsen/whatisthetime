@@ -9,7 +9,14 @@ countries: ["Pakistan"]
 lastUpdated: "2026-03-24"
 ---
 
-Pakistan Standard Time is UTC+5. The whole country runs on one clock: from the Arabian Sea coast at Karachi to the Himalayan peaks of Gilgit-Baltistan, from the Thar Desert in the east to the Afghan border in the west. No daylight saving time, no regional exceptions.
+Pakistan Standard Time is UTC+5. The whole country runs on one clock: from the Arabian Sea coast at Karachi to the Himalayan peaks of Gilgit-Baltistan, from the Thar Desert in the east to the Afghan border in the west.
+
+**Key facts about PKT**
+- Full name: Pakistan Standard Time
+- UTC offset: UTC+5
+- DST: no
+- IANA identifiers: Asia/Karachi
+- Countries: Pakistan No daylight saving time, no regional exceptions.
 
 Pakistan is the world's fifth most populous country, with over 230 million people. Its timezone is shared with a handful of neighboring states: Uzbekistan, Tajikistan, and the Maldives all sit at UTC+5.
 

@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Mexico uses multiple timezones ranging from UTC-8 (Pacific border states) to UTC-5 (Cancun/Quintana Roo). Most of the country uses UTC-6 (Central Time) permanently after abolishing DST in 2022, though northern border states retain DST to sync with the United States. IANA: `America/Mexico_City`, `America/Cancun`, `America/Hermosillo`, `America/Tijuana`.
+
+**Key facts about time in Mexico**
+- Timezone: Central Standard Time (UTC-6, most of the country), Eastern Standard Time (UTC-5, Cancun), Mountain Standard Time (UTC-7, Sonora), Pacific Time (UTC-8/-7, Baja California)
+- UTC offset: -06:00, -05:00, -07:00, -08:00
+- DST: No (most of the country since 2022); yes (northern border states)
+- IANA identifier: `America/Mexico_City`, `America/Cancun`, `America/Hermosillo`, `America/Tijuana`
+- Capital: Mexico City
+
 In October 2022, Mexico made its first major timezone change in decades: the country abolished daylight saving time for most of its territory, effective immediately. The Mexican Congress passed the law; President López Obrador signed it. For most Mexicans, the clock that had shifted twice a year since 1996 would now stay put permanently.
 
 But there was a catch. The northern border states, from Baja California down to Tamaulipas, kept DST. They couldn't abandon it. The maquiladoras, the factories along the border, the export processing zones, the supply chains feeding American companies: all of it depends on synchronization with the United States. A Mexican border factory that runs out of sync with its American counterparts loses productivity. The border states kept their clocks; the rest of Mexico stopped moving theirs.

@@ -11,6 +11,15 @@ continent: "South America"
 lastUpdated: "2026-03-23"
 ---
 
+Venezuela uses Venezuela Standard Time (UTC-4:30). No DST observed. IANA: `America/Caracas`.
+
+**Key facts about time in Venezuela**
+- Timezone: Venezuela Standard Time (VET)
+- UTC offset: -04:30
+- DST: no
+- IANA identifier: `America/Caracas`
+- Capital: Caracas
+
 Most countries choose a timezone offset that is a round number of hours from UTC. Some exceptions exist: India at UTC+5:30, Nepal at UTC+5:45, Iran at UTC+3:30. These half-hour and quarter-hour offsets usually reflect genuine geographic positioning between standard hour zones, where a round-hour offset would create too large a solar discrepancy.
 
 Venezuela is not near an in-between position. Caracas sits at 66.9 degrees West longitude, which corresponds naturally to about UTC-4:28. UTC-4 would be essentially perfect. UTC-4:30 is a 30-minute deviation that serves no geographic purpose.

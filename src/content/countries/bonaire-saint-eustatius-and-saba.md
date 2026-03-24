@@ -11,6 +11,15 @@ continent: "South America"
 lastUpdated: "2026-03-23"
 ---
 
+Bonaire, Sint Eustatius and Saba use Atlantic Standard Time (AST) (UTC-4) year-round with no daylight saving. IANA identifier: `America/Kralendijk`.
+
+**Key facts about time in Bonaire, Sint Eustatius and Saba**
+- Timezone: Atlantic Standard Time (AST)
+- UTC offset: UTC-4
+- DST: No
+- IANA identifier: America/Kralendijk
+- Capital: Kralendijk
+
 Bonaire, Sint Eustatius, and Saba are three small Caribbean islands that, since 2010, have been Special Municipalities of the Netherlands, a constitutional status that makes them effectively part of the European Union while being geographically in the Caribbean. They use UTC-4, year-round, no daylight saving. IANA identifier: `America/Kralendijk` (after Bonaire's capital).
 
 These three islands share their clock. They do not otherwise share very much: they are hundreds of kilometers apart, on different geological bases, with different economies and cultures.

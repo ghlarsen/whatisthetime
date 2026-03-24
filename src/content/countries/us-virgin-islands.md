@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+The U.S. Virgin Islands uses Atlantic Standard Time (UTC-4). No DST observed. IANA: `America/St_Thomas`.
+
+**Key facts about time in U.S. Virgin Islands**
+- Timezone: Atlantic Standard Time (AST)
+- UTC offset: -04:00
+- DST: no
+- IANA identifier: `America/St_Thomas`
+- Capital: Charlotte Amalie
+
 The U.S. Virgin Islands, an unincorporated territory of the United States, sit in the northeastern Caribbean about 1,750 kilometers southeast of Miami. The three main islands are St. Thomas, St. John, and St. Croix.
 
 The territory uses UTC-4 year-round, officially Atlantic Standard Time, which is permanent. No daylight saving. This means in summer, when the US East Coast moves to EDT (UTC-4), the USVI is temporally synchronized with the mainland. In winter, when the East Coast falls back to EST (UTC-5), the USVI stays at UTC-4 and gains an hour of separation from the US mainland.

@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+The Republic of the Congo uses West Africa Time (UTC+1). No DST observed. IANA: `Africa/Brazzaville`.
+
+**Key facts about time in Republic of the Congo**
+- Timezone: West Africa Time (WAT)
+- UTC offset: +01:00
+- DST: No
+- IANA identifier: `Africa/Brazzaville`
+- Capital: Brazzaville
+
 Two countries named Congo face each other across a river. The Republic of the Congo, sometimes called Congo-Brazzaville, is the smaller one to the west. The Democratic Republic of the Congo (DRC), sometimes called Congo-Kinshasa, is the larger one to the east. Their capitals, Brazzaville and Kinshasa, are separated by roughly three kilometers of river: they are the closest capital cities in the world that are in different countries.
 
 Both countries observe West Africa Time at UTC+1. No daylight saving.

@@ -9,7 +9,14 @@ countries: ["China"]
 lastUpdated: "2026-03-24"
 ---
 
-China Standard Time is UTC+8. The People's Republic of China uses a single timezone across the entire country. This is a political decision, and it is one of the more consequential timezone choices in the world.
+China Standard Time is UTC+8. The People's Republic of China uses a single timezone across the entire country.
+
+**Key facts about CST**
+- Full name: China Standard Time
+- UTC offset: UTC+8
+- DST: no
+- IANA identifiers: Asia/Shanghai, Asia/Urumqi
+- Countries: China This is a political decision, and it is one of the more consequential timezone choices in the world.
 
 China spans roughly 5,200 kilometers from east to west, crossing what would naturally be five geographic timezone zones. A country that wide would, under normal solar time logic, run from about UTC+5 in the far west to UTC+9 in the far east. Instead, it runs on UTC+8 everywhere, creating solar noon mismatches of more than two hours in the western regions.
 

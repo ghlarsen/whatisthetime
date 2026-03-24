@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Cuba uses Central Standard Time (CST) (UTC-5 in winter, UTC-4 in summer). DST observed. IANA: `America/Havana`.
+
+**Key facts about time in Cuba**
+- Timezone: Central Standard Time (CST) / Central Daylight Time (CDT)
+- UTC offset: -05:00 (winter), -04:00 (summer)
+- DST: Yes
+- IANA identifier: `America/Havana`
+- Capital: Havana
+
 Cuba uses Central Standard Time (CST), UTC-5 in winter, shifting to UTC-4 (CDT) in summer under daylight saving time. IANA identifier: `America/Havana`. The clock changes at dates that have been, over the decades, occasionally adjusted to ensure they don't perfectly match the US schedule.
 
 This is the polite version. The more accurate version: Cuba's DST calendar has been deliberately calibrated at times to avoid synchronization with its neighbor 145 kilometers to the north, a country it has been in an adversarial relationship with since 1959.

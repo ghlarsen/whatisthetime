@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Greenland uses multiple timezones: Western Greenland Time (WGT, UTC-3) for most of the population, UTC+0 at Danmarkshavn, UTC-4 at Pituffik, and UTC-1 at Scoresbysund. No daylight saving time. IANA: `America/Nuuk`, `America/Danmarkshavn`, `America/Thule`.
+
+**Key facts about time in Greenland**
+- Timezone: Western Greenland Time (WGT) and others
+- UTC offset: -03:00 (most of population), +00:00 (Danmarkshavn), -04:00 (Pituffik)
+- DST: No
+- IANA identifier: `America/Nuuk`, `America/Danmarkshavn`, `America/Thule`
+- Capital: Nuuk
+
 Greenland is 2.16 million square kilometers of ice, rock, and fjord, making it the world's largest island (if you don't count continental landmasses). About 80% of it is covered by the Greenland Ice Sheet, which holds enough fresh water to raise global sea levels by roughly 7 meters if it melted entirely.
 
 The island spans roughly 25 degrees of longitude from its west coast to its east coast, and this geographic spread demands multiple timezones.

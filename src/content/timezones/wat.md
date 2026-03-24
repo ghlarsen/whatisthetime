@@ -9,7 +9,14 @@ countries: ["Nigeria", "Cameroon", "Chad", "Niger", "Central African Republic", 
 lastUpdated: "2026-03-24"
 ---
 
-West Africa Time is UTC+1. It covers a wide band of equatorial and tropical Africa, including some of the continent's most populous countries and its largest city. No daylight saving time is observed by any of the countries in this zone.
+West Africa Time is UTC+1. It covers a wide band of equatorial and tropical Africa, including some of the continent's most populous countries and its largest city.
+
+**Key facts about WAT**
+- Full name: West Africa Time
+- UTC offset: UTC+1
+- DST: no
+- IANA identifiers: Africa/Lagos, Africa/Bangui, Africa/Brazzaville, Africa/Douala, Africa/Kinshasa, Africa/Libreville, Africa/Luanda, Africa/Malabo, Africa/Niamey, Africa/Ndjamena
+- Countries: Nigeria, Cameroon, Chad, Niger, Central African Republic, Republic of Congo, Democratic Republic of Congo (west), Angola, Equatorial Guinea, Gabon No daylight saving time is observed by any of the countries in this zone.
 
 WAT at UTC+1 shares its offset with Central European Time (CET) in winter, the same numerical position as Paris and Rome, though the name and IANA structure are separate.
 

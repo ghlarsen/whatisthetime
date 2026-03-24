@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Bangladesh uses Bangladesh Standard Time (BST) (UTC+6) year-round with no daylight saving. IANA identifier: `Asia/Dhaka`.
+
+**Key facts about time in Bangladesh**
+- Timezone: Bangladesh Standard Time (BST)
+- UTC offset: UTC+6
+- DST: No
+- IANA identifier: Asia/Dhaka
+- Capital: Dhaka
+
 Bangladesh runs at UTC+6, permanently. Bangladesh Standard Time (BST), IANA identifier `Asia/Dhaka`. No daylight saving, and with good reason: the country tried it in 2009, watched it cause more problems than it solved, and abandoned it in 2010.
 
 At 90°E longitude, Dhaka's solar noon falls at approximately UTC+6, making Bangladesh Standard Time essentially astronomically perfect. The sun crosses the meridian at noon on the clock. This is rarer than you'd think.

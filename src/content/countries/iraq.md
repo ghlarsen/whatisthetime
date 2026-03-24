@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Iraq uses Arabia Standard Time (UTC+3). No daylight saving time has been observed since 2008. IANA: `Asia/Baghdad`.
+
+**Key facts about time in Iraq**
+- Timezone: Arabia Standard Time (AST)
+- UTC offset: +03:00
+- DST: No
+- IANA identifier: `Asia/Baghdad`
+- Capital: Baghdad
+
 Iraq uses AST (Arabia Standard Time), UTC+3, year-round. No daylight saving time has been observed since 2008, when it was abolished during the politically turbulent period following the 2003 US-led invasion.
 
 ## Mesopotamia: where timekeeping began

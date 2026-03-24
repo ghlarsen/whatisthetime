@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Pakistan uses Pakistan Standard Time (UTC+5). No DST observed. IANA: `Asia/Karachi`.
+
+**Key facts about time in Pakistan**
+- Timezone: Pakistan Standard Time (PKT)
+- UTC offset: +05:00
+- DST: No
+- IANA identifier: `Asia/Karachi`
+- Capital: Islamabad
+
 Pakistan's timezone story is not a clean one. It involves energy shortages, disputed experiments, public resistance, religious objections, and a government that changed its mind more than once within the same decade. The current situation, Pakistan Standard Time, UTC+5, with no daylight saving, is the result of all that turbulence settling out. For now.
 
 ## Pakistan Standard Time

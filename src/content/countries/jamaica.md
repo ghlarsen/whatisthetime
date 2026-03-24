@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Jamaica uses Eastern Standard Time (UTC-5). No daylight saving time is observed. IANA: `America/Jamaica`.
+
+**Key facts about time in Jamaica**
+- Timezone: Eastern Standard Time (EST)
+- UTC offset: -05:00
+- DST: No
+- IANA identifier: `America/Jamaica`
+- Capital: Kingston
+
 Jamaica operates on a fixed clock: UTC-5, year-round. No spring forward. No fall back. While much of North America and the Caribbean shuffles its clocks twice yearly, Jamaica simply does not bother.
 
 That might seem like a small administrative choice. But it has real consequences for how the island connects with the world, particularly with its enormous diaspora in New York, Toronto, and London.

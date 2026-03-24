@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Hong Kong uses Hong Kong Time (HKT) (UTC+8). No daylight saving time. IANA: `Asia/Hong_Kong`.
+
+**Key facts about time in Hong Kong**
+- Timezone: Hong Kong Time (HKT)
+- UTC offset: +08:00
+- DST: No
+- IANA identifier: `Asia/Hong_Kong`
+- Capital: Hong Kong
+
 Hong Kong runs on HKT (Hong Kong Time), UTC+8, year-round. No daylight saving time. The IANA identifier is `Asia/Hong_Kong`.
 
 This is one of the more historically layered timezone situations in the world. Hong Kong's clock was set under British colonial rule and kept without change through one of the 20th century's most dramatic transfers of sovereignty. Understanding why requires a short history of when the clock changed and when it did not.

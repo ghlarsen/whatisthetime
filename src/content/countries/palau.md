@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+Palau uses UTC+9. No DST observed. IANA: `Pacific/Palau`.
+
+**Key facts about time in Palau**
+- Timezone: Palau Time (PWT)
+- UTC offset: +09:00
+- DST: No
+- IANA identifier: `Pacific/Palau`
+- Capital: Ngerulmud
+
 Palau is an archipelago of roughly 340 islands in the western Pacific, home to about 18,000 people, and it runs on a clock that places it nine hours ahead of UTC. No daylight saving. No complexity.
 
 The IANA identifier is `Pacific/Palau`. The capital is Ngerulmud, one of the least-known national capitals in the world, a small government complex built in 2006 on the island of Babeldaob. Most international visitors fly into Koror, the commercial center, which was the capital until 2006.

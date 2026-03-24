@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Vietnam uses Indochina Time (UTC+7). No DST observed. IANA: `Asia/Ho_Chi_Minh`.
+
+**Key facts about time in Vietnam**
+- Timezone: Indochina Time (ICT)
+- UTC offset: +07:00
+- DST: no
+- IANA identifier: `Asia/Ho_Chi_Minh`
+- Capital: Hanoi
+
 Vietnam runs on Indochina Time, UTC+7. The IANA identifier is `Asia/Ho_Chi_Minh`, named for the southern city that was called Saigon before the fall of the Republic of Vietnam in 1975.
 
 There is no DST. Vietnam's position between roughly 8 and 23 degrees North latitude means day length variation is modest in the south and moderate but manageable in the north. No clock changes, year-round consistency.

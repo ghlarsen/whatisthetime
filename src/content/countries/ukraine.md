@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Ukraine uses Eastern European Time (UTC+2). DST observed: clocks advance to UTC+3 in summer. IANA: `Europe/Kyiv`.
+
+**Key facts about time in Ukraine**
+- Timezone: Eastern European Time (EET)
+- UTC offset: +02:00 (winter), +03:00 (summer DST)
+- DST: yes
+- IANA identifier: `Europe/Kyiv`
+- Capital: Kyiv
+
 Ukraine uses Eastern European Time, UTC+2 in winter and UTC+3 in summer (EEST). The IANA identifier was updated in 2022 from `Europe/Kiev` to `Europe/Kyiv`, reflecting the internationally accepted transliteration of the capital's Ukrainian-language name, replacing the Russian-derived spelling that had been in the database since the 1990s.
 
 That spelling change is, in miniature, the same argument that has been fought with artillery since 2014.

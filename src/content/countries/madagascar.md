@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Madagascar uses East Africa Time (UTC+3). No daylight saving time is observed. IANA: `Indian/Antananarivo`.
+
+**Key facts about time in Madagascar**
+- Timezone: East Africa Time (EAT)
+- UTC offset: +03:00
+- DST: No
+- IANA identifier: `Indian/Antananarivo`
+- Capital: Antananarivo
+
 Madagascar split from the African continent around 160 million years ago and from India roughly 88 million years ago. Isolated in the Indian Ocean, it evolved its own spectacular biota: roughly 90% of its wildlife is found nowhere else on Earth. The ring-tailed lemur, the fossa, the baobab forests, the chameleons that make up half of all chameleon species globally.
 
 In terms of geological time, Madagascar has been doing its own thing for longer than most of human civilization can comprehend. In terms of administrative time, it runs on East Africa Time: UTC+3, year-round, no daylight saving.

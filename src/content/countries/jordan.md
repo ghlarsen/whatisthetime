@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Jordan uses Arabia Standard Time (UTC+3). No daylight saving time has been observed since October 2022, when Jordan permanently adopted UTC+3. IANA: `Asia/Amman`.
+
+**Key facts about time in Jordan**
+- Timezone: Arabia Standard Time (AST)
+- UTC offset: +03:00
+- DST: No
+- IANA identifier: `Asia/Amman`
+- Capital: Amman
+
 Jordan made a permanent decision in 2022: stay at UTC+3, always. No more daylight saving time adjustments, no more twice-yearly clock changes. The Hashemite Kingdom of Jordan joined a growing list of countries that have permanently adopted their summer time and simply called it done.
 
 The move was made official via a cabinet decision in October 2022. Jordan would not revert to UTC+2 for winter as it had done in previous years. The clocks would stay at UTC+3 forever.

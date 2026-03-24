@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Sao Tome and Principe uses UTC+0 (GMT). No DST observed. IANA: `Africa/Sao_Tome`.
+
+**Key facts about time in Sao Tome and Principe**
+- Timezone: Greenwich Mean Time (GMT)
+- UTC offset: +00:00
+- DST: No
+- IANA identifier: `Africa/Sao_Tome`
+- Capital: Sao Tome
+
 If you wanted to design the perfect place to observe UTC+0, you could not do much better than Sao Tome and Principe.
 
 The island of Sao Tome sits at approximately 0.3 degrees North latitude and 6.7 degrees East longitude: nearly exactly at the intersection of the Prime Meridian (0 degrees longitude) and the Equator. This is the mathematical origin point of the geographic coordinate system that organizes the entire planet's maps and timezones.

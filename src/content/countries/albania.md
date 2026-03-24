@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Albania uses Central European Time (CET) (UTC+1 in winter, UTC+2 in summer). The country observes daylight saving time, switching on the last Sunday in March and the last Sunday in October. IANA identifier: `Europe/Tirane`.
+
+**Key facts about time in Albania**
+- Timezone: Central European Time (CET) / Central European Summer Time (CEST)
+- UTC offset: UTC+1 (winter), UTC+2 (summer)
+- DST: Yes, last Sunday in March to last Sunday in October
+- IANA identifier: Europe/Tirane
+- Capital: Tirana
+
 Albania's timezone is CET, UTC+1 in winter, UTC+2 (CEST) in summer. It shares this clock with Germany, France, Italy, and a dozen other Western European nations. Given its position on the Adriatic coast, looking across at Italy's heel, this is geographically sensible. Geopolitically, it took a while to get there.
 
 ## Enver Hoxha and the isolated clock

@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+The Dominican Republic uses Atlantic Standard Time (AST) (UTC-4). No daylight saving time. IANA: `America/Santo_Domingo`.
+
+**Key facts about time in Dominican Republic**
+- Timezone: Atlantic Standard Time (AST)
+- UTC offset: -04:00
+- DST: No
+- IANA identifier: `America/Santo_Domingo`
+- Capital: Santo Domingo
+
 The Dominican Republic uses Atlantic Standard Time year-round: UTC-4, no daylight saving. This is the permanent settled position after a long period of experimentation.
 
 The country shares the island of Hispaniola with Haiti. The two countries share a land border, a colonial history, and a complicated relationship that extends to their clocks: for much of the late 20th and early 21st centuries, Haiti and the Dominican Republic kept different times, sometimes diverging by an hour during periods when one observed DST and the other did not.

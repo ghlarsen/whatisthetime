@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Myanmar uses Myanmar Time (UTC+6:30). No DST observed. IANA: `Asia/Yangon`.
+
+**Key facts about time in Myanmar**
+- Timezone: Myanmar Time (MMT)
+- UTC offset: +06:30
+- DST: No
+- IANA identifier: `Asia/Yangon`
+- Capital: Naypyidaw
+
 Myanmar sits at UTC+6:30. Not UTC+6. Not UTC+7. Six and a half hours ahead of Greenwich.
 
 This 30-minute offset makes Myanmar one of a small group of countries that refuses to align with a full-hour timezone: Nepal (UTC+5:45), India (UTC+5:30), Iran (UTC+3:30), Afghanistan (UTC+4:30), and a handful of others. For most of the world, Myanmar's clocks read something ending in :30 while everyone nearby is on the hour.

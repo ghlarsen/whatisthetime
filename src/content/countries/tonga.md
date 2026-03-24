@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+Tonga uses Tonga Time (UTC+13). No DST observed. IANA: `Pacific/Tongatapu`.
+
+**Key facts about time in Tonga**
+- Timezone: Tonga Time (TOT)
+- UTC offset: +13:00
+- DST: no
+- IANA identifier: `Pacific/Tongatapu`
+- Capital: Nukualofa
+
 Every year as December 31 approaches, television broadcasts from around the world begin their countdown to midnight with footage from the Pacific. Kiribati's Line Islands make a credible claim to being technically first (UTC+14), but Tonga is the country that has made "first to see the New Year" into a national identity.
 
 This is partly geographic fact and partly deliberate positioning. The Kingdom of Tonga, an archipelago of 169 islands in the South Pacific, runs at UTC+13. It is consistently among the first inhabited places where the calendar turns.

@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Turks and Caicos Islands uses Eastern Standard Time (UTC-5). DST observed: clocks advance to UTC-4 in summer. IANA: `America/Grand_Turk`.
+
+**Key facts about time in Turks and Caicos Islands**
+- Timezone: Eastern Standard Time (EST)
+- UTC offset: -05:00 (winter), -04:00 (summer DST)
+- DST: yes
+- IANA identifier: `America/Grand_Turk`
+- Capital: Cockburn Town
+
 The Turks and Caicos Islands (TCI) are a British Overseas Territory in the Atlantic, southeast of the Bahamas. They are 40 islands and cays, of which eight are inhabited. The capital, Cockburn Town, is on Grand Turk island.
 
 The timezone is `America/Grand_Turk`: UTC-5 in winter, UTC-4 in summer. Daylight saving time follows the United States schedule, not the United Kingdom's.

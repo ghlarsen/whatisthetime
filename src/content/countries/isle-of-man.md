@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+The Isle of Man uses Greenwich Mean Time (UTC+0). Daylight saving time is observed, shifting to British Summer Time (UTC+1) in summer. IANA: `Europe/Isle_of_Man`.
+
+**Key facts about time in the Isle of Man**
+- Timezone: Greenwich Mean Time (GMT) / British Summer Time (BST)
+- UTC offset: +00:00 (standard), +01:00 (DST)
+- DST: Yes
+- IANA identifier: `Europe/Isle_of_Man`
+- Capital: Douglas
+
 The Isle of Man, a Crown Dependency of the British Crown located in the Irish Sea between Great Britain and Ireland, uses GMT (UTC+0) in winter and BST (UTC+1) in summer. DST transitions match the UK schedule, same Sunday in March and October.
 
 Like Guernsey and Jersey, the Isle of Man is not part of the United Kingdom, manages its own affairs through its parliament (Tynwald), but the British Crown is responsible for its defense and international relations.

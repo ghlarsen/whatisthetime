@@ -11,6 +11,15 @@ continent: "South America"
 lastUpdated: "2026-03-23"
 ---
 
+French Guiana uses French Guiana Time (GFT) (UTC-3). No daylight saving time. IANA: `America/Cayenne`.
+
+**Key facts about time in French Guiana**
+- Timezone: French Guiana Time (GFT)
+- UTC offset: -03:00
+- DST: No
+- IANA identifier: `America/Cayenne`
+- Capital: Cayenne
+
 French Guiana is not a colony or an overseas territory in the traditional sense. It is an integral department of France, with the same legal status as Normandy or Brittany, represented in the French National Assembly, using the euro, and covered by French law.
 
 It also sits on the northeastern coast of South America, bordered by Brazil and Suriname, with a climate that is equatorial rainforest and a population of about 300,000 people.

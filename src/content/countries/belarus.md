@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Belarus uses Further Eastern European Time (FET) (UTC+3) year-round with no daylight saving. IANA identifier: `Europe/Minsk`.
+
+**Key facts about time in Belarus**
+- Timezone: Further Eastern European Time (FET)
+- UTC offset: UTC+3
+- DST: No
+- IANA identifier: Europe/Minsk
+- Capital: Minsk
+
 Belarus runs at UTC+3, permanently. Further Eastern European Time (FET) is the official designation. The IANA identifier is `Europe/Minsk`. No daylight saving, no seasonal adjustment. The clock was frozen in 2011 and has not moved since.
 
 This isn't geographically obvious. Minsk sits at 27°E longitude, where solar noon falls at approximately UTC+1:48. That makes UTC+3 about 72 minutes faster than local solar time, meaning the sun rises late in Minsk by any astronomical reckoning. But Belarus doesn't use the clock the sun would suggest.

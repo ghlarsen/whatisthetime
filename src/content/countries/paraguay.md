@@ -11,6 +11,15 @@ continent: "South America"
 lastUpdated: "2026-03-23"
 ---
 
+Paraguay uses Paraguay Time (UTC-4, UTC-3 in summer). DST observed. IANA: `America/Asuncion`.
+
+**Key facts about time in Paraguay**
+- Timezone: Paraguay Time (PYT) / Paraguay Summer Time (PYST)
+- UTC offset: -04:00 / -03:00
+- DST: Yes
+- IANA identifier: `America/Asuncion`
+- Capital: Asuncion
+
 Paraguay is one of South America's most overlooked countries. Landlocked (along with Bolivia), wedged between Brazil, Argentina, and Bolivia, it has a population of about 7 million and a history that includes the most catastrophic war in South American history. Its timezone is UTC-4 in winter and UTC-3 in summer, via daylight saving.
 
 The IANA identifier is `America/Asuncion`.

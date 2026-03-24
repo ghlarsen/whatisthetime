@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Mauritania uses Greenwich Mean Time (UTC+0). No daylight saving time is observed. IANA: `Africa/Nouakchott`.
+
+**Key facts about time in Mauritania**
+- Timezone: Greenwich Mean Time (GMT)
+- UTC offset: +00:00
+- DST: No
+- IANA identifier: `Africa/Nouakchott`
+- Capital: Nouakchott
+
 Mauritania is enormous and mostly empty. It covers 1.03 million square kilometers, making it the 11th-largest country in the world, but about 90% of its territory is Saharan desert. Its population of roughly 4.6 million people clusters in the south and along the Atlantic coast.
 
 The country runs on UTC+0 (Greenwich Mean Time), year-round, with no daylight saving time. This is the same offset as the UK, Ireland, Portugal, and several West African neighbors. Geographically, Mauritania spans about 15 degrees of longitude, which would suggest a range of solar times within the country, but administrative convenience and regional alignment keep everything on one clock.

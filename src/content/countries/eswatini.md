@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Eswatini uses South Africa Standard Time (SAST) (UTC+2). No daylight saving time. IANA: `Africa/Mbabane`.
+
+**Key facts about time in Eswatini**
+- Timezone: South Africa Standard Time (SAST)
+- UTC offset: +02:00
+- DST: No
+- IANA identifier: `Africa/Mbabane`
+- Capital: Mbabane
+
 Eswatini, formerly known as Swaziland until 2018, is a small landlocked kingdom in southern Africa. It is surrounded almost entirely by South Africa, with a short border also shared with Mozambique to the east. The country runs on SAST (South Africa Standard Time), UTC+2, year-round.
 
 There is no daylight saving time in Eswatini, in alignment with South Africa, which also does not observe DST. For a country this closely integrated economically and geographically with South Africa, sharing the same clock simplifies everything.

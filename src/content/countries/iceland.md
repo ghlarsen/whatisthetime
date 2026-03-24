@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Iceland uses Greenwich Mean Time (UTC+0). No daylight saving time is observed, and Iceland has not adjusted its clocks seasonally since 1968. IANA: `Atlantic/Reykjavik`.
+
+**Key facts about time in Iceland**
+- Timezone: Greenwich Mean Time (GMT)
+- UTC offset: +00:00
+- DST: No
+- IANA identifier: `Atlantic/Reykjavik`
+- Capital: Reykjavik
+
 Iceland is on GMT year-round: UTC+0, no seasonal adjustment, no daylight saving time. This has been the case since 1968, when Iceland abolished daylight saving time entirely and has not looked back.
 
 This is remarkable.

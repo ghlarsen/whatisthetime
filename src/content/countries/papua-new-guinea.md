@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+Papua New Guinea uses UTC+10 (most of the country) and UTC+11 (Bougainville). No DST observed. IANA: `Pacific/Port_Moresby`, `Pacific/Bougainville`.
+
+**Key facts about time in Papua New Guinea**
+- Timezone: Papua New Guinea Time (PGT); Bougainville Standard Time (BST)
+- UTC offset: +10:00 / +11:00
+- DST: No
+- IANA identifier: `Pacific/Port_Moresby`, `Pacific/Bougainville`
+- Capital: Port Moresby
+
 Papua New Guinea occupies the eastern half of the world's second-largest island and contains approximately 800 distinct languages, more than any other country on Earth. This linguistic diversity reflects a terrain that is extraordinary: mountain ranges that isolated communities from each other for millennia, river systems navigable only by small boat, coastal areas separated from highlands by hundreds of kilometers of dense jungle.
 
 In this context, two timezones seems almost restrained.

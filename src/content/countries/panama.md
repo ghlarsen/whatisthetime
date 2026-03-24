@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Panama uses Eastern Standard Time (UTC-5). No DST observed. IANA: `America/Panama`.
+
+**Key facts about time in Panama**
+- Timezone: Eastern Standard Time (EST)
+- UTC offset: -05:00
+- DST: No
+- IANA identifier: `America/Panama`
+- Capital: Panama City
+
 Panama is where the Americas pinch to a narrow strip of land, where the Pacific and Atlantic Oceans come within 80 kilometers of each other, and where one of humanity's greatest engineering projects turned geography into a global artery. The country runs on a single clock: UTC-5, year-round, no adjustments.
 
 The IANA identifier is `America/Panama`. This is the same offset as US Eastern Standard Time in winter, but unlike the US Eastern timezone, Panama stays there through summer. When New York "springs forward" to UTC-4, Panama remains at UTC-5.

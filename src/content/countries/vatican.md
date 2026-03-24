@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Vatican City uses Central European Time (UTC+1). DST observed: clocks advance to UTC+2 in summer. IANA: `Europe/Vatican`.
+
+**Key facts about time in Vatican**
+- Timezone: Central European Time (CET)
+- UTC offset: +01:00 (winter), +02:00 (summer DST)
+- DST: yes
+- IANA identifier: `Europe/Vatican`
+- Capital: Vatican City
+
 Vatican City is 0.44 square kilometers. It has about 800 citizens. It is the smallest internationally recognized sovereign state in the world by both area and population. It is surrounded entirely by Rome.
 
 It uses `Europe/Vatican` in the IANA timezone database, which resolves to Central European Time: UTC+1 in winter, UTC+2 in summer (CEST), identical to Rome, Italy, and most of Western and Central Europe.

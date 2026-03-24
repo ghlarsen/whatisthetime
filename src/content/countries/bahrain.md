@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Bahrain uses Arabia Standard Time (AST) (UTC+3) year-round with no daylight saving. IANA identifier: `Asia/Bahrain`.
+
+**Key facts about time in Bahrain**
+- Timezone: Arabia Standard Time (AST)
+- UTC offset: UTC+3
+- DST: No
+- IANA identifier: Asia/Bahrain
+- Capital: Manama
+
 Bahrain runs at UTC+3, all year. Arabia Standard Time (AST), same as Saudi Arabia, Kuwait, Yemen, and most of the Gulf. The IANA identifier is `Asia/Bahrain`. No daylight saving; the Gulf states collectively declined to participate in the biannual clock-change exercise, and nobody in the region regrets this.
 
 At 50°E longitude, Manama's solar noon falls at approximately UTC+3:20, making UTC+3 about 20 minutes slow relative to true local solar time. Close enough.

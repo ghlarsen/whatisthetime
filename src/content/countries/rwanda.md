@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Rwanda uses Central Africa Time (UTC+2). No DST observed. IANA: `Africa/Kigali`.
+
+**Key facts about time in Rwanda**
+- Timezone: Central Africa Time (CAT)
+- UTC offset: +02:00
+- DST: No
+- IANA identifier: `Africa/Kigali`
+- Capital: Kigali
+
 Rwanda is a small, landlocked country in Central Africa, sometimes called the Land of a Thousand Hills for its rolling terrain. It observes Central Africa Time: UTC+2, year-round, no daylight saving. The IANA identifier is `Africa/Kigali`.
 
 The clock is straightforward. What Rwanda has done with the time available since 1994 is not.

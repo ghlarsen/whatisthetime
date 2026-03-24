@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+Pitcairn uses UTC-8. No DST observed. IANA: `Pacific/Pitcairn`.
+
+**Key facts about time in Pitcairn**
+- Timezone: Pitcairn Standard Time (PST)
+- UTC offset: -08:00
+- DST: No
+- IANA identifier: `Pacific/Pitcairn`
+- Capital: Adamstown
+
 Pitcairn Island has its own timezone. It has roughly 40 to 50 permanent residents. This makes `Pacific/Pitcairn` the least populated distinct timezone identifier in the IANA database, perhaps the least populated distinct timezone in the world.
 
 The island sits at 130 degrees West longitude in the South Pacific, which places it at UTC-8:30 by solar reckoning. The timezone was simplified to UTC-8:00 in 1998. No daylight saving.

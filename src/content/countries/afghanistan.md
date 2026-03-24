@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Afghanistan uses Afghanistan Time (AFT) (UTC+4:30). The country does not observe daylight saving time. IANA identifier: `Asia/Kabul`.
+
+**Key facts about time in Afghanistan**
+- Timezone: Afghanistan Time (AFT)
+- UTC offset: UTC+4:30
+- DST: No
+- IANA identifier: Asia/Kabul
+- Capital: Kabul
+
 Afghanistan runs on its own clock. Afghanistan Time (AFT) sits at UTC+4:30, a half-hour offset that places the country neatly between Iran to the west (UTC+3:30) and Pakistan and Tajikistan to the east (UTC+5). It is, in the most literal sense, a timezone splitting the difference.
 
 Half-hour offsets are rarer than you might think. Most of the world syncs to whole hours. Afghanistan is one of only a small group of countries (including India, Iran, and Myanmar) that use a 30-minute increment. The quarter-hour offsets are rarer still. The half-hour ones carry their own quiet logic.

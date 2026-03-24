@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Namibia uses Central Africa Time (UTC+2). No DST observed. IANA: `Africa/Windhoek`.
+
+**Key facts about time in Namibia**
+- Timezone: Central Africa Time (CAT)
+- UTC offset: +02:00
+- DST: No
+- IANA identifier: `Africa/Windhoek`
+- Capital: Windhoek
+
 Namibia abandoned daylight saving time in April 2024, joining most of its southern African neighbors on permanent UTC+2. Before that, Namibia observed DST from September to April (southern hemisphere spring through autumn), making it one of the few southern African countries that bothered with clock changes.
 
 The decision to drop DST aligned Namibia's clock with South Africa, Botswana, Zambia, Zimbabwe, and Mozambique year-round. The seasonal adjustment had created complications for businesses and travelers dealing with the Namibia-South Africa border, one of the busiest in the region.

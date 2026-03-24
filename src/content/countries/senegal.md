@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Senegal uses Greenwich Mean Time (UTC+0). No DST observed. IANA: `Africa/Dakar`.
+
+**Key facts about time in Senegal**
+- Timezone: Greenwich Mean Time (GMT)
+- UTC offset: +00:00
+- DST: No
+- IANA identifier: `Africa/Dakar`
+- Capital: Dakar
+
 Senegal observes Coordinated Universal Time with no offset: UTC+0, also known as Greenwich Mean Time, year-round. No daylight saving. The IANA identifier is `Africa/Dakar`.
 
 Dakar, the capital, sits at roughly 17.4 degrees West longitude and 14.7 degrees North latitude. At this longitude, UTC+0 places solar noon at around 11:10 AM local time, slightly early. But Senegal's position at the western edge of Africa makes UTC+0 an appropriate alignment; no significant West African country is further west.

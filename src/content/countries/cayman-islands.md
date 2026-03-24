@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+The Cayman Islands use Eastern Standard Time (EST) (UTC-5) year-round with no daylight saving. IANA identifier: `America/Cayman`.
+
+**Key facts about time in Cayman Islands**
+- Timezone: Eastern Standard Time (EST)
+- UTC offset: UTC-5
+- DST: No
+- IANA identifier: America/Cayman
+- Capital: George Town
+
 The Cayman Islands use Eastern Standard Time, UTC-5, permanently. No daylight saving. IANA identifier: `America/Cayman`. The clock sits at UTC-5 year-round, meaning in winter it matches New York (EST), and in summer it's one hour behind New York (EDT).
 
 For a jurisdiction whose economy is built almost entirely on financial services, this permanent clock has interesting consequences.

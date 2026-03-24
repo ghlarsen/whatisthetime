@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Poland uses Central European Time (UTC+1 in winter, UTC+2 in summer). DST observed. IANA: `Europe/Warsaw`.
+
+**Key facts about time in Poland**
+- Timezone: Central European Time (CET) / Central European Summer Time (CEST)
+- UTC offset: +01:00 / +02:00
+- DST: Yes
+- IANA identifier: `Europe/Warsaw`
+- Capital: Warsaw
+
 Poland uses Central European Time: UTC+1 in winter, UTC+2 during daylight saving time. The IANA identifier is `Europe/Warsaw`. Poland follows the EU DST schedule, moving clocks forward on the last Sunday in March and back on the last Sunday in October.
 
 This is, on the surface, a completely standard Western European timezone arrangement. But the history underneath it is anything but.

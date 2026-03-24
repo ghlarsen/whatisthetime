@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Italy uses Central European Time (UTC+1). Daylight saving time is observed, shifting to Central European Summer Time (UTC+2) in summer. IANA: `Europe/Rome`.
+
+**Key facts about time in Italy**
+- Timezone: Central European Time (CET)
+- UTC offset: +01:00 (standard), +02:00 (DST)
+- DST: Yes
+- IANA identifier: `Europe/Rome`
+- Capital: Rome
+
 Italy uses CET (Central European Time): UTC+1 in winter, UTC+2 in summer (CEST). DST follows the EU standard, springing forward on the last Sunday in March and falling back on the last Sunday in October.
 
 Italy is at approximately 9-18 degrees East longitude, making UTC+1 a reasonable timezone geographically for the western half of the country. The northeast, including Venice (12 degrees East), is also well-served. Sicily, at the western end of the Mediterranean, would arguably fit better at UTC+1 without any adjustment.

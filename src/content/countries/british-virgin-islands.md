@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+The British Virgin Islands use Atlantic Standard Time (AST) (UTC-4) year-round with no daylight saving. IANA identifier: `America/Tortola`.
+
+**Key facts about time in British Virgin Islands**
+- Timezone: Atlantic Standard Time (AST)
+- UTC offset: UTC-4
+- DST: No
+- IANA identifier: America/Tortola
+- Capital: Road Town
+
 The British Virgin Islands run at UTC-4, permanently. Atlantic Standard Time, no daylight saving. IANA identifier: `America/Tortola`. Road Town, on the island of Tortola, is the capital.
 
 The BVI sits within visual distance of the US Virgin Islands. St. Thomas (USVI) is clearly visible from Tortola on a clear day. Both territories use UTC-4. Whatever their political differences (one British, one American), they share the clock that the islands' commercial and daily life requires.

@@ -11,6 +11,13 @@ lastUpdated: "2026-03-24"
 
 Myanmar Time is UTC+6:30. That half-hour matters. In a world where most timezones sit on clean hourly boundaries, Myanmar's 30-minute offset places it firmly among a small group of exceptions, alongside Nepal, India, and Iran, where the mathematics of solar time resisted the convenience of round numbers.
 
+**Key facts about MMT**
+- Full name: Myanmar Time
+- UTC offset: UTC+6:30
+- DST: no
+- IANA identifiers: Asia/Yangon, Asia/Rangoon
+- Countries: Myanmar
+
 No daylight saving. No internal regional variation. Myanmar runs on one clock.
 
 ## Why 6:30

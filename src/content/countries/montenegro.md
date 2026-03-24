@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Montenegro uses Central European Time (UTC+1). Daylight saving time is observed, shifting to Central European Summer Time (UTC+2) in summer. IANA: `Europe/Podgorica`.
+
+**Key facts about time in Montenegro**
+- Timezone: Central European Time (CET)
+- UTC offset: +01:00 (standard), +02:00 (DST)
+- DST: Yes
+- IANA identifier: `Europe/Podgorica`
+- Capital: Podgorica
+
 Montenegro declared independence from the union with Serbia on June 3, 2006, becoming the world's newest country at the time. A referendum held on May 21, 2006 produced a 55.5% majority in favor of independence, just barely clearing the 55% threshold set by the EU. The margin was 2,300 votes.
 
 The country kept the same timezone it had operated under as part of Serbia and Yugoslavia: Central European Time (CET, UTC+1 in winter) and Central European Summer Time (CEST, UTC+2 in summer). The IANA identifier `Europe/Podgorica` was updated to reflect the new country's capital.

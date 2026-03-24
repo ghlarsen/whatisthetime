@@ -9,6 +9,15 @@ countries: ["Brazil"]
 lastUpdated: "2026-03-24"
 ---
 
+Brasilia Time (BRT) is UTC-3, used in Brazil. DST: no, since 2019. IANA identifiers: `America/Sao_Paulo`, `America/Fortaleza`, `America/Belem`.
+
+**Key facts about BRT**
+- Full name: Brasilia Time
+- UTC offset: UTC-3
+- DST: no (discontinued 2019)
+- IANA identifiers: America/Sao_Paulo, America/Fortaleza, America/Belem
+- Countries: Brazil
+
 Brasilia Time covers most of Brazil -- the east coast, the southeast, the northeast, the central plateau -- at UTC-3. It is named for the purpose-built capital that Brazil moved to in 1960, though the offset it describes encompasses the country's most populated cities: Sao Paulo, Rio de Janeiro, Salvador, Fortaleza, Recife. More than 150 million people live within BRT.
 
 ## Brazil's complicated timezone history

@@ -11,6 +11,15 @@ continent: "South America"
 lastUpdated: "2026-03-23"
 ---
 
+Bolivia uses Bolivia Time (BOT) (UTC-4) year-round with no daylight saving. IANA identifier: `America/La_Paz`.
+
+**Key facts about time in Bolivia**
+- Timezone: Bolivia Time (BOT)
+- UTC offset: UTC-4
+- DST: No
+- IANA identifier: America/La_Paz
+- Capital: Sucre
+
 Bolivia uses Bolivia Time (BOT), UTC-4, year-round. No daylight saving. The IANA identifier is `America/La_Paz`, referencing the seat of government, though Sucre is technically the constitutional capital.
 
 Bolivia at UTC-4 matches its neighbors: Brazil's western states, Paraguay, and Chile (when Chile is not on DST). The clock is simple. The geography is extraordinary.

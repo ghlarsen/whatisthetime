@@ -9,7 +9,14 @@ countries: ["Argentina"]
 lastUpdated: "2026-03-24"
 ---
 
-Argentina Time is UTC-3. Buenos Aires, Cordoba, Mendoza, and every city in the country share one clock, and that clock does not change. No daylight saving, no summer adjustments, no twice-yearly ritual of moving phones and microwave displays. Argentina settled the question in 2000 and has not revisited it.
+Argentina Time is UTC-3. Buenos Aires, Cordoba, Mendoza, and every city in the country share one clock, and that clock does not change.
+
+**Key facts about ART**
+- Full name: Argentina Time
+- UTC offset: UTC-3
+- DST: no
+- IANA identifiers: America/Argentina/Buenos_Aires, America/Argentina/Cordoba
+- Countries: Argentina No daylight saving, no summer adjustments, no twice-yearly ritual of moving phones and microwave displays. Argentina settled the question in 2000 and has not revisited it.
 
 ## The DST experiment that failed
 

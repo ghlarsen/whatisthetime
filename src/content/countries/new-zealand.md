@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+New Zealand uses New Zealand Standard Time (UTC+12, UTC+13 in summer) and Chatham Islands Time (UTC+12:45, UTC+13:45 in summer). DST observed. IANA: `Pacific/Auckland`, `Pacific/Chatham`.
+
+**Key facts about time in New Zealand**
+- Timezone: New Zealand Standard Time (NZST) / New Zealand Daylight Time (NZDT); Chatham Standard Time (CHAST) / Chatham Daylight Time (CHADT)
+- UTC offset: +12:00 / +12:45
+- DST: Yes
+- IANA identifier: `Pacific/Auckland`, `Pacific/Chatham`
+- Capital: Wellington
+
 New Zealand uses New Zealand Standard Time (NZST), UTC+12, for its main islands. In summer (September to April, southern hemisphere), it advances to New Zealand Daylight Time (NZDT), UTC+13.
 
 The Chatham Islands, a small archipelago about 800 kilometers east of the main islands, use their own timezone: UTC+12:45 in winter, UTC+13:45 in summer. The Chatham Islands are one of the very few places on Earth with a 45-minute offset from the hour.

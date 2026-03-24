@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Sint Maarten uses Atlantic Standard Time (UTC-4). No DST observed. IANA: `America/Lower_Princes`.
+
+**Key facts about time in Sint Maarten**
+- Timezone: Atlantic Standard Time (AST)
+- UTC offset: -04:00
+- DST: No
+- IANA identifier: `America/Lower_Princes`
+- Capital: Philipsburg
+
 Sint Maarten is the southern, Dutch half of the island Saint Martin/Sint Maarten, a constituent country of the Kingdom of the Netherlands. It observes Atlantic Standard Time: UTC-4, year-round, no daylight saving. The IANA identifier is `America/Lower_Princes`.
 
 The French half (Saint-Martin) observes the same UTC-4 offset under the identifier `America/Marigot`. Crossing the island changes your country, your language, and your currency, but not your clock.

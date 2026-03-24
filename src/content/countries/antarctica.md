@@ -11,6 +11,15 @@ continent: "Antarctica"
 lastUpdated: "2026-03-23"
 ---
 
+Antarctica uses multiple timezones across its research stations, spanning UTC-3 (Palmer) to UTC+13 (McMurdo/South Pole). No daylight saving is observed. IANA identifiers: `Antarctica/Casey`, `Antarctica/Davis`, `Antarctica/DumontDUrville`, `Antarctica/Mawson`, `Antarctica/McMurdo`, `Antarctica/Palmer`, `Antarctica/Syowa`, `Antarctica/Troll`.
+
+**Key facts about time in Antarctica**
+- Timezone: Multiple (UTC-3 to UTC+13 depending on station)
+- UTC offset: UTC-3 (Palmer), UTC+3 (Syowa), UTC+5 (Mawson), UTC+7 (Davis), UTC+8 (Casey), UTC+10 (DumontDUrville), UTC+13 (McMurdo), UTC+0 (Troll winter)
+- DST: No
+- IANA identifier: Antarctica/Casey, Antarctica/Davis, Antarctica/DumontDUrville, Antarctica/Mawson, Antarctica/McMurdo, Antarctica/Palmer, Antarctica/Syowa, Antarctica/Troll
+- Capital: None
+
 Antarctica has no permanent population. No government. No sovereign jurisdiction. And yet the IANA timezone database contains eight separate entries for the continent, covering research stations from Casey to Troll, spanning offsets from UTC-3 to UTC+13.
 
 Every one of those timezones is, in some sense, arbitrary. And every one of them makes perfect sense for exactly the same reason.

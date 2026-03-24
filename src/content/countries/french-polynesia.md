@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+French Polynesia uses Tahiti Time (TAHT) (UTC-10) for the Society Islands, UTC-9 for the Gambier Islands, and UTC-9:30 for the Marquesas. No daylight saving time. IANA: `Pacific/Tahiti`, `Pacific/Gambier`, `Pacific/Marquesas`.
+
+**Key facts about time in French Polynesia**
+- Timezone: Tahiti Time (TAHT) / Gambier Time (GAMT) / Marquesas Time (MART)
+- UTC offset: -10:00 (Society Islands), -09:00 (Gambier), -09:30 (Marquesas)
+- DST: No
+- IANA identifier: `Pacific/Tahiti`, `Pacific/Gambier`, `Pacific/Marquesas`
+- Capital: Papeete
+
 French Polynesia stretches across an enormous swath of the South Pacific, covering an ocean area roughly the size of Europe, though its total land area is just 4,000 square kilometers. Five archipelagos, 118 islands, and three different timezones.
 
 The Society Islands, including Tahiti and Bora Bora, use TAHT: UTC-10. The Gambier Islands use UTC-9 (GAMT). The Marquesas Islands use UTC-9:30, which is one of the relatively rare half-hour offset timezones on earth.

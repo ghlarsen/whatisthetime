@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+South Africa uses South Africa Standard Time (UTC+2). No DST observed. IANA: `Africa/Johannesburg`.
+
+**Key facts about time in South Africa**
+- Timezone: South Africa Standard Time (SAST)
+- UTC offset: +02:00
+- DST: no
+- IANA identifier: `Africa/Johannesburg`
+- Capital: Pretoria
+
 South Africa observes South Africa Standard Time: UTC+2, year-round, no daylight saving. The IANA identifier is `Africa/Johannesburg`.
 
 South Africa's geography spans from 22 to 35 degrees South latitude, a range where daylight variation between summer and winter is meaningful: Cape Town sees about four hours of difference between its longest and shortest days. This is enough variation that DST has occasionally been discussed.

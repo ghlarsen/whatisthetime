@@ -11,6 +11,15 @@ continent: "Europe"
 lastUpdated: "2026-03-23"
 ---
 
+Moldova uses Eastern European Time (UTC+2). Daylight saving time is observed, shifting to Eastern European Summer Time (UTC+3) in summer. IANA: `Europe/Chisinau`.
+
+**Key facts about time in Moldova**
+- Timezone: Eastern European Time (EET)
+- UTC offset: +02:00 (standard), +03:00 (DST)
+- DST: Yes
+- IANA identifier: `Europe/Chisinau`
+- Capital: Chisinau
+
 Moldova is small: 33,846 square kilometers, about the size of Maryland. It is landlocked between Romania to the west and Ukraine to the north, east, and south. It uses Eastern European Time: UTC+2 in winter, UTC+3 in summer.
 
 But Moldova contains a territory that doesn't fully agree: Transnistria (officially the Pridnestrovian Moldavian Republic), a narrow strip of land along the eastern bank of the Dniester River. Transnistria has been under de facto self-governance with Russian military and political support since 1992, when a brief war followed the Soviet Union's collapse. It is not recognized as independent by any UN member state, yet it has its own government, currency, military, and time: Moscow Time, UTC+3 in winter, UTC+4 in summer (until Russia abolished its summer time adjustment in 2014, after which Transnistria's UTC+3 became permanent while the rest of Moldova still adjusts).

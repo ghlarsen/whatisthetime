@@ -9,7 +9,14 @@ countries: ["Singapore"]
 lastUpdated: "2026-03-24"
 ---
 
-Singapore Standard Time is UTC+8. The city-state runs on a single clock, has not observed daylight saving time, and sits at the UTC+8 offset shared by China, Hong Kong, Taiwan, Malaysia, and the Philippines. From a timezone standpoint, Singapore is at the center of Asia's most economically active band.
+Singapore Standard Time is UTC+8. The city-state runs on a single clock, has not observed daylight saving time, and sits at the UTC+8 offset shared by China, Hong Kong, Taiwan, Malaysia, and the Philippines.
+
+**Key facts about SGT**
+- Full name: Singapore Standard Time
+- UTC offset: UTC+8
+- DST: no
+- IANA identifiers: Asia/Singapore
+- Countries: Singapore From a timezone standpoint, Singapore is at the center of Asia's most economically active band.
 
 The story of how Singapore arrived at UTC+8 is surprisingly recent and involves a deliberate political decision.
 

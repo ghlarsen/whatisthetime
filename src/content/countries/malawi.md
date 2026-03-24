@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Malawi uses Central Africa Time (UTC+2). No daylight saving time is observed. IANA: `Africa/Blantyre`.
+
+**Key facts about time in Malawi**
+- Timezone: Central Africa Time (CAT)
+- UTC offset: +02:00
+- DST: No
+- IANA identifier: `Africa/Blantyre`
+- Capital: Lilongwe
+
 Malawi's national tourist board gave the country a slogan decades ago that has stuck: "The Warm Heart of Africa." It refers to the warmth of the people rather than the climate, though the climate is also warm. The country runs on Central Africa Time (CAT), UTC+2, year-round, no daylight saving.
 
 The IANA identifier is `Africa/Blantyre`, reflecting the city that was long the administrative capital before Lilongwe took that role at independence. Blantyre, named by Scottish missionaries after the birthplace of David Livingstone, remains the country's commercial capital and largest city.

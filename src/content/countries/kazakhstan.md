@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Kazakhstan uses two timezones: UTC+5 for western regions and UTC+6 for the rest of the country including the capital. No daylight saving time is observed. IANA: `Asia/Almaty` (UTC+6), `Asia/Aqtau` / `Asia/Aqtobe` (UTC+5).
+
+**Key facts about time in Kazakhstan**
+- Timezone: Kazakhstan Time (UTC+5 west, UTC+6 east)
+- UTC offset: +05:00, +06:00
+- DST: No
+- IANA identifier: `Asia/Almaty`, `Asia/Aqtau`
+- Capital: Astana
+
 Kazakhstan is the ninth-largest country on Earth. It stretches 3,000 kilometers from its western border near the Caspian Sea to its eastern border with China. Geographically, it spans territory equivalent to five or six timezone widths. In practice, it uses two.
 
 The western portion, including the Atyrau and Mangystau regions on the Caspian coast, runs at UTC+5. Everything else, which is most of the country, including the commercial capital Almaty and the administrative capital Astana (formerly Nursultan, formerly Astana), runs at UTC+6. No daylight saving time. No seasonal adjustments.

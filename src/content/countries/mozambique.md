@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Mozambique uses Central Africa Time (UTC+2). No DST observed. IANA: `Africa/Maputo`.
+
+**Key facts about time in Mozambique**
+- Timezone: Central Africa Time (CAT)
+- UTC offset: +02:00
+- DST: No
+- IANA identifier: `Africa/Maputo`
+- Capital: Maputo
+
 Mozambique runs on Central Africa Time: UTC+2, year-round, no daylight saving. The country stretches roughly 2,500 kilometers along Africa's Indian Ocean coast, from Tanzania in the north to South Africa and Swaziland in the south, with its capital Maputo at the very southern tip.
 
 UTC+2 aligns Mozambique with its immediate neighbors: South Africa, Zimbabwe, Zambia, Malawi, and Tanzania. It's the standard southern African clock, appropriate for the region's latitude and economic integration.

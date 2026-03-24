@@ -11,6 +11,15 @@ continent: "Oceania"
 lastUpdated: "2026-03-23"
 ---
 
+Fiji uses Fiji Time (FJT) (UTC+12 in standard time, UTC+13 during DST). DST observed. IANA: `Pacific/Fiji`.
+
+**Key facts about time in Fiji**
+- Timezone: Fiji Time (FJT) / Fiji Summer Time (FJST)
+- UTC offset: +12:00 (standard), +13:00 (summer)
+- DST: Yes
+- IANA identifier: `Pacific/Fiji`
+- Capital: Suva
+
 Fiji sits just west of the International Date Line in the South Pacific, at UTC+12 in standard time. When daylight saving is in effect (roughly October to January, the Southern Hemisphere summer), Fiji moves to UTC+13, meaning it is simultaneously ahead of most of the world and sharing a date with tomorrow's UTC+14 territories to the east.
 
 This makes Fiji one of the very first places to welcome the new year on January 1, a distinction the country has enthusiastically leaned into for tourism marketing.

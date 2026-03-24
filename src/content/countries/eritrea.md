@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Eritrea uses East Africa Time (EAT) (UTC+3). No daylight saving time. IANA: `Africa/Asmara`.
+
+**Key facts about time in Eritrea**
+- Timezone: East Africa Time (EAT)
+- UTC offset: +03:00
+- DST: No
+- IANA identifier: `Africa/Asmara`
+- Capital: Asmara
+
 Eritrea did not exist as a sovereign nation until May 24, 1993. Before that, it was a province of Ethiopia following a 30-year war of independence that began in 1961 and ended in 1991 with Eritrean forces defeating the Ethiopian army. The independence referendum came in 1993, and Eritrea took its place in the international order with its own flag, its own currency, and its own timezone: East Africa Time, UTC+3.
 
 The choice was simple. UTC+3 was already the timezone in use throughout the territory during Ethiopian administration, and it aligned with the broader East African region. No adjustment was needed.

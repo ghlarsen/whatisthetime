@@ -9,7 +9,14 @@ countries: ["Nepal"]
 lastUpdated: "2026-03-24"
 ---
 
-Nepal Time is UTC+5:45. It is the only widely-used timezone in the world with a 45-minute offset from UTC, which makes it immediately notable to anyone working across international time. No daylight saving. No internal variation. Nepal runs on a single clock, 15 minutes ahead of India and 15 minutes behind Bangladesh.
+Nepal Time is UTC+5:45. It is the only widely-used timezone in the world with a 45-minute offset from UTC, which makes it immediately notable to anyone working across international time.
+
+**Key facts about NPT**
+- Full name: Nepal Time
+- UTC offset: UTC+5:45
+- DST: no
+- IANA identifiers: Asia/Kathmandu
+- Countries: Nepal No daylight saving. No internal variation. Nepal runs on a single clock, 15 minutes ahead of India and 15 minutes behind Bangladesh.
 
 The specificity of that 45-minute mark is not arbitrary. It is solar.
 

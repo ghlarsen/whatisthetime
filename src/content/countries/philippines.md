@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+The Philippines uses Philippine Standard Time (UTC+8). No DST observed. IANA: `Asia/Manila`.
+
+**Key facts about time in Philippines**
+- Timezone: Philippine Standard Time (PST)
+- UTC offset: +08:00
+- DST: No
+- IANA identifier: `Asia/Manila`
+- Capital: Manila
+
 The Philippines runs on Philippine Standard Time: UTC+8, year-round, no daylight saving time. The IANA identifier is `Asia/Manila`. That is the straightforward part.
 
 The complicated part is what Filipinos themselves have said about their relationship with the clock.

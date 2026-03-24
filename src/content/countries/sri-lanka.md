@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Sri Lanka uses India Standard Time (UTC+5:30). No DST observed. IANA: `Asia/Colombo`.
+
+**Key facts about time in Sri Lanka**
+- Timezone: India Standard Time (IST)
+- UTC offset: +05:30
+- DST: no
+- IANA identifier: `Asia/Colombo`
+- Capital: Sri Jayawardenepura Kotte
+
 Sri Lanka observes UTC+5:30 year-round, no daylight saving. The IANA identifier is `Asia/Colombo`. This is the same offset as India, its large neighbor to the northwest.
 
 ## The 17-year experiment

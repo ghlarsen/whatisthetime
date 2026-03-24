@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+South Korea uses Korea Standard Time (UTC+9). No DST observed. IANA: `Asia/Seoul`.
+
+**Key facts about time in South Korea**
+- Timezone: Korea Standard Time (KST)
+- UTC offset: +09:00
+- DST: no
+- IANA identifier: `Asia/Seoul`
+- Capital: Seoul
+
 South Korea runs on Korea Standard Time: UTC+9, year-round, no daylight saving. The IANA identifier is `Asia/Seoul`.
 
 This is the same timezone as Japan.

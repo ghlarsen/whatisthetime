@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Mauritius uses Mauritius Time (UTC+4). No daylight saving time is observed. IANA: `Indian/Mauritius`.
+
+**Key facts about time in Mauritius**
+- Timezone: Mauritius Time (MUT)
+- UTC offset: +04:00
+- DST: No
+- IANA identifier: `Indian/Mauritius`
+- Capital: Port Louis
+
 Mauritius has been continuously inhabited for less than 400 years. Before Dutch sailors arrived in 1598, the island was uninhabited by humans. It had never been. The animals that evolved there over millions of years had developed in a world without terrestrial predators.
 
 The dodo, Raphus cucullatus, was a flightless bird roughly the size of a turkey that had lost its ability to fly because it had no reason to fly. There were no predators. There was no need. It had existed this way for hundreds of thousands of years, isolated and undisturbed, until European sailors arrived and found it excellent eating.

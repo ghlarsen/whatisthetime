@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Honduras uses Central Standard Time (CST) (UTC-6). No daylight saving time. IANA: `America/Tegucigalpa`.
+
+**Key facts about time in Honduras**
+- Timezone: Central Standard Time (CST)
+- UTC offset: -06:00
+- DST: No
+- IANA identifier: `America/Tegucigalpa`
+- Capital: Tegucigalpa
+
 Honduras uses CST (Central Standard Time), UTC-6, year-round. No daylight saving time has been observed since 1987, when Honduras discontinued it along with most other Central American nations.
 
 The permanent UTC-6 alignment makes sense: Honduras borders Guatemala (UTC-6), El Salvador (UTC-6), and Nicaragua (UTC-6). A unified time across Central America simplifies commerce, travel, and communication across borders that are more porous in practice than official crossings suggest.

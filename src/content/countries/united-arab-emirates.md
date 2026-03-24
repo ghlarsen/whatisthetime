@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+The United Arab Emirates uses Gulf Standard Time (UTC+4). No DST observed. IANA: `Asia/Dubai`.
+
+**Key facts about time in United Arab Emirates**
+- Timezone: Gulf Standard Time (GST)
+- UTC offset: +04:00
+- DST: no
+- IANA identifier: `Asia/Dubai`
+- Capital: Abu Dhabi
+
 The United Arab Emirates runs on UTC+4 year-round. Gulf Standard Time. No daylight saving, no clock changes, no seasonal disruption.
 
 The IANA identifier is `Asia/Dubai`, after the emirate that has become the UAE's global face. Dubai's airport handles around 90 million passengers annually, making it one of the busiest international airports in the world. The UTC+4 timezone is not incidental to this: it places Dubai's business hours in partial overlap with both European morning (when Dubai is at 8 AM, London is at 4 AM in winter, 5 AM in summer) and Asian working hours. The timezone is a geographic pivot.

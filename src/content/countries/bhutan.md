@@ -11,6 +11,15 @@ continent: "Asia"
 lastUpdated: "2026-03-23"
 ---
 
+Bhutan uses Bhutan Time (BTT) (UTC+6) year-round with no daylight saving. IANA identifier: `Asia/Thimphu`.
+
+**Key facts about time in Bhutan**
+- Timezone: Bhutan Time (BTT)
+- UTC offset: UTC+6
+- DST: No
+- IANA identifier: Asia/Thimphu
+- Capital: Thimphu
+
 Bhutan runs at UTC+6 all year. Bhutan Time (BTT), IANA identifier `Asia/Thimphu`. No daylight saving. The clock is stable and has been for decades.
 
 Thimphu sits at approximately 89.6°E longitude, where solar noon falls very close to UTC+5:58, making UTC+6 essentially exact for local solar time. The sun cooperates with the policy. This is surprisingly rare.

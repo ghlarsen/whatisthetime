@@ -11,6 +11,15 @@ continent: "Africa"
 lastUpdated: "2026-03-23"
 ---
 
+Guinea-Bissau uses Greenwich Mean Time (GMT) (UTC+0). No daylight saving time. IANA: `Africa/Bissau`.
+
+**Key facts about time in Guinea-Bissau**
+- Timezone: Greenwich Mean Time (GMT)
+- UTC offset: +00:00
+- DST: No
+- IANA identifier: `Africa/Bissau`
+- Capital: Bissau
+
 Guinea-Bissau uses GMT, UTC+0, year-round. No daylight saving time. The IANA identifier is `Africa/Bissau`.
 
 This is a small detail with a story: Guinea-Bissau used to be at UTC-1. Under Portuguese colonial rule as Portuguese Guinea, the territory ran on the same timezone as Portugal's Atlantic islands. When the country gained independence on September 24, 1974, after a long independence war led by the PAIGC party under Amílcar Cabral, one of the administrative changes was shifting the timezone to UTC+0, aligning with neighboring West African countries.

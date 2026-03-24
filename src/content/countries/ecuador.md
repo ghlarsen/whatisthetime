@@ -11,6 +11,15 @@ continent: "South America"
 lastUpdated: "2026-03-23"
 ---
 
+Ecuador uses Ecuador Time (ECT) (UTC-5) on the mainland and UTC-6 on the Galapagos Islands. No daylight saving time. IANA: `America/Guayaquil`, `Pacific/Galapagos`.
+
+**Key facts about time in Ecuador**
+- Timezone: Ecuador Time (ECT) / Galapagos Time (GALT)
+- UTC offset: -05:00 (mainland), -06:00 (Galapagos)
+- DST: No
+- IANA identifier: `America/Guayaquil`, `Pacific/Galapagos`
+- Capital: Quito
+
 Ecuador sits on the equator. The country is named for it. And like most equatorial countries, it has no interest in daylight saving time: the sun rises at roughly 6:00 AM and sets at roughly 6:00 PM every day of the year, never varying much. There is no usable extra light to capture.
 
 The mainland and the Galapagos Islands, roughly 900 kilometers off the Pacific coast, use different timezones. The mainland runs on ECT (Ecuador Time), UTC-5. The Galapagos runs one hour behind at UTC-6, using the IANA identifier `Pacific/Galapagos`.

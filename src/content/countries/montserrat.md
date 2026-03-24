@@ -11,6 +11,15 @@ continent: "North America"
 lastUpdated: "2026-03-23"
 ---
 
+Montserrat uses Atlantic Standard Time (UTC-4). No daylight saving time is observed. IANA: `America/Montserrat`.
+
+**Key facts about time in Montserrat**
+- Timezone: Atlantic Standard Time (AST)
+- UTC offset: -04:00
+- DST: No
+- IANA identifier: `America/Montserrat`
+- Capital: Brades
+
 Montserrat has had a difficult few decades.
 
 In July 1995, the Soufrière Hills volcano, dormant for centuries, began erupting. The eruptions continued for years. By 1997, pyroclastic flows had destroyed Plymouth, the capital city, and buried the southern half of the island under meters of volcanic debris. Two-thirds of the island's population fled to Britain, the United States, and neighboring Caribbean islands.

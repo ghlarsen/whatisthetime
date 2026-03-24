@@ -11,6 +11,15 @@ continent: "South America"
 lastUpdated: "2026-03-23"
 ---
 
+Aruba uses Atlantic Standard Time (AST) (UTC-4) year-round with no daylight saving. IANA identifier: `America/Aruba`.
+
+**Key facts about time in Aruba**
+- Timezone: Atlantic Standard Time (AST)
+- UTC offset: UTC-4
+- DST: No
+- IANA identifier: America/Aruba
+- Capital: Oranjestad
+
 Aruba runs at UTC-4 all year. Atlantic Standard Time, permanent, no adjustment. The IANA identifier is `America/Aruba`. The capital is Oranjestad, named, like many things in Aruba, in Dutch.
 
 Aruba is one of three constituent countries of the Kingdom of the Netherlands in the southern Caribbean, alongside Curaçao and Sint Maarten. It has its own parliament, its own currency (the Aruban florin, tied to the US dollar), and its own clock, which runs at UTC-4.
