@@ -131,6 +131,14 @@ const websiteSchema = {
     <p class="hero-sub">Live clocks for 990 cities · Every timezone · Meeting planner</p>
   </header>
 
+  <!-- My Cities (localStorage, client-side only) -->
+  <section class="my-cities" id="my-cities" style="display:none">
+    <div class="my-cities-header">
+      <span class="my-cities-label">MY CITIES</span>
+    </div>
+    <div class="my-cities-grid" id="my-cities-grid"></div>
+  </section>
+
   <WorldClocks />
   <ProtonBanner />
   <MeetingGrid defaultCities={['new-york-city', 'london', 'tokyo', 'sydney']} />
@@ -193,6 +201,59 @@ const websiteSchema = {
 
     tickLocal();
     setInterval(tickLocal, 1000);
+
+    // My Cities from localStorage
+    const myCities: string[] = JSON.parse(localStorage.getItem('myCities') || '[]');
+    const mcSection = document.getElementById('my-cities');
+    const mcGrid = document.getElementById('my-cities-grid');
+
+    if (myCities.length > 0 && mcSection && mcGrid) {
+      mcSection.style.display = 'block';
+
+      myCities.forEach(slug => {
+        const card = document.createElement('a');
+        card.href = '/' + slug;
+        card.className = 'mc-card';
+
+        const nameEl = document.createElement('span');
+        nameEl.className = 'mc-name';
+        nameEl.textContent = slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+
+        const timeEl = document.createElement('span');
+        timeEl.className = 'mc-time';
+        timeEl.dataset.slug = slug;
+        timeEl.textContent = '--:--';
+
+        card.appendChild(nameEl);
+        card.appendChild(timeEl);
+        mcGrid.appendChild(card);
+      });
+
+      // We need timezone data for each slug. Import it.
+      import('../data/cities-client.ts').then(mod => {
+        const allCities = mod.default;
+
+        function tickMyCities() {
+          const now = new Date();
+          mcGrid!.querySelectorAll<HTMLElement>('.mc-time').forEach(el => {
+            const s = el.dataset.slug!;
+            const city = allCities.find((c: any) => c.slug === s);
+            if (!city) return;
+            const parts = new Intl.DateTimeFormat('en-US', {
+              timeZone: city.timezone,
+              hour: '2-digit', minute: '2-digit', second: '2-digit',
+              hour12: false,
+            }).formatToParts(now);
+            const get = (t: string) => parts.find((p: any) => p.type === t)?.value ?? '00';
+            const h = get('hour') === '24' ? '00' : get('hour');
+            el.textContent = `${h}:${get('minute')}:${get('second')}`;
+          });
+        }
+
+        tickMyCities();
+        setInterval(tickMyCities, 1000);
+      });
+    }
   </script>
 </Base>
 
@@ -228,6 +289,63 @@ const websiteSchema = {
     transition: border-color 0.15s;
   }
   .hero-city-link:hover { border-color: var(--text-muted); }
+
+  /* My Cities */
+  .my-cities {
+    border-bottom: 1px solid var(--border);
+    padding: 16px var(--page-pad);
+  }
+
+  .my-cities-header {
+    margin-bottom: 12px;
+  }
+
+  .my-cities-label {
+    font-size: var(--t-sm);
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    color: var(--text-dim);
+  }
+
+  .my-cities-grid {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+  }
+
+  .my-cities-grid :global(.mc-card) {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 12px 16px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    text-decoration: none;
+    min-width: 120px;
+    flex-shrink: 0;
+    transition: border-color 0.15s;
+  }
+  .my-cities-grid :global(.mc-card:hover) { border-color: var(--text-muted); }
+
+  .my-cities-grid :global(.mc-name) {
+    font-size: var(--t-sm);
+    color: var(--text-muted);
+  }
+
+  .my-cities-grid :global(.mc-time) {
+    font-family: ui-monospace, 'SF Mono', monospace;
+    font-size: var(--t-panel);
+    font-variant-numeric: tabular-nums;
+    color: var(--text);
+    line-height: 1;
+  }
+
+  .my-cities-grid :global(.mc-offset) {
+    font-size: var(--t-xs);
+    color: var(--text-dim);
+    font-family: ui-monospace, 'SF Mono', monospace;
+  }
 
   .hero-offset {
     font-size: var(--t-sm);

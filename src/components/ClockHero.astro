@@ -47,7 +47,10 @@ if (city.lat !== 0 || city.lng !== 0) {
 ---
 
 <section class="clock-section">
-  <div class="city-label">{city.name}, {city.country} · {utcLabel}</div>
+  <div class="city-label">
+    {city.name}, {city.country} · {utcLabel}
+    <button class="star-btn" id="star-btn" data-slug={city.slug} data-name={city.name} data-tz={city.timezone} data-country={city.country} aria-label="Save to My Cities">&#9734;</button>
+  </div>
   <div
     id="clock"
     data-timezone={city.timezone}
@@ -80,7 +83,23 @@ if (city.lat !== 0 || city.lng !== 0) {
     font-size: var(--t-base);
     color: var(--text-muted);
     margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
   }
+
+  .star-btn {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: var(--text-dim);
+    padding: 0;
+    line-height: 1;
+    transition: color 0.15s;
+  }
+  .star-btn:hover { color: var(--text); }
+  .star-btn.starred { color: #f5a623; }
 
   #clock {
     font-family: 'Bricolage Grotesque', sans-serif;
@@ -176,4 +195,29 @@ if (city.lat !== 0 || city.lng !== 0) {
 
   tick();
   setInterval(tick, 1000);
+
+  // Star / My Cities
+  const starBtn = document.getElementById('star-btn') as HTMLButtonElement;
+  if (starBtn) {
+    const slug = starBtn.dataset.slug!;
+    const saved: string[] = JSON.parse(localStorage.getItem('myCities') || '[]');
+    if (saved.includes(slug)) {
+      starBtn.textContent = '\u2605';
+      starBtn.classList.add('starred');
+    }
+    starBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const current: string[] = JSON.parse(localStorage.getItem('myCities') || '[]');
+      if (current.includes(slug)) {
+        localStorage.setItem('myCities', JSON.stringify(current.filter(s => s !== slug)));
+        starBtn.textContent = '\u2606';
+        starBtn.classList.remove('starred');
+      } else {
+        current.unshift(slug);
+        localStorage.setItem('myCities', JSON.stringify(current.slice(0, 8)));
+        starBtn.textContent = '\u2605';
+        starBtn.classList.add('starred');
+      }
+    });
+  }
 </script>
