@@ -96,20 +96,32 @@ const faqSchema = faqs?.length ? {
   <style is:global>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    /* ── Type scale — four levels, defined once ─────────────────────
-       L1 micro    11px               captions, offsets, status dots
-       L2 label    12px               city names, chips, buttons, nav
-       L3 body     14px               FAQ, facts, dates, descriptions
-       L4a panel   36px               compact grid clocks (meeting, world grid)
-       L4b display clamp(3–9rem,14vw) hero/page clocks — fluid, one token
+    /* ── Design tokens — single source of truth ──────────────────────
+       Type scale (sizes):
+         L1 micro    11px   captions, offsets, status dots
+         L2 label    12px   city names, chips, buttons, nav
+         L3 body     14px   FAQ, facts, dates, descriptions
+         L4a panel   36px   compact grid clocks (meeting, world grid)
+         L4b display fluid  hero/page clocks
+
+       Font families (three stacks, never hardcode):
+         --font-display  Bricolage Grotesque   hero clocks, large headings, /now
+         --font-body     system-ui             body text, labels, UI
+         --font-mono     ui-monospace          UTC offsets, code, IANA ids, small data
     ─────────────────────────────────────────────────────────────── */
     :root {
+      /* Sizes */
       --t-xs:      0.6875rem;               /* 11px — L1 micro */
       --t-sm:      0.75rem;                /* 12px — L2 label */
       --t-base:    0.875rem;               /* 14px — L3 body */
       --t-panel:   2.25rem;                /* 36px — L4a compact grid clock */
       --t-display: clamp(3rem, 14vw, 9rem); /* L4b hero/page clock — fluid */
       --page-pad:  1.75rem;                /* 28px — horizontal page padding */
+
+      /* Font families — USE THESE, never hardcode a font stack */
+      --font-display: 'Bricolage Grotesque', sans-serif;
+      --font-body:    system-ui, -apple-system, sans-serif;
+      --font-mono:    ui-monospace, 'SF Mono', 'Fira Code', monospace;
     }
 
     @media (max-width: 500px) {
@@ -163,7 +175,7 @@ const faqSchema = faqs?.length ? {
     body {
       background: var(--bg);
       color: var(--text);
-      font-family: system-ui, -apple-system, sans-serif;
+      font-family: var(--font-body);
       min-height: 100vh;
       transition: background 0.3s, color 0.3s;
       overflow-x: hidden;
