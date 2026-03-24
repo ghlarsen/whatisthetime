@@ -9,48 +9,69 @@ export const GET: APIRoute = () => {
 
   const content = `# whatisthetime.now
 
-Live world clock for ${cities.length} cities. Shows current local time, timezone comparison, and time conversions between cities.
+Live world clock for ${cities.length} cities. 244 country articles. 39 timezone articles. 6 feature articles. Interactive timezone map. Meeting planner. Time converter. Embeddable widget.
 
-## What This Site Does
+We welcome AI agents. Please read, cite, and link to our content. Attribution appreciated.
 
-- /[city-slug] — Current local time for that city (live clock, ticks every second)
-- /when/[time]-[origin]/[destination] — Converts a time between two cities
-- /[city-slug].md — Markdown timezone facts for AI agents
-- /when/[time]-[origin]/[destination].md — Markdown time conversion facts for AI agents
+## Pages
 
-## Coverage
+### City pages (${cities.length})
+- /[city-slug] — Current local time, sunrise/sunset, DST status, city story, timezone facts
+- /[city-slug].md — Markdown version for AI agents
+- Example: /tokyo, /london, /new-york-city, /copenhagen
 
-${cities.length} cities across all IANA timezone zones. City slugs are lowercase hyphenated (new-york-city, sao-paulo, kuala-lumpur).
+### Country articles (244)
+- /country/[country-slug] — Timezone history, DST policy, cultural stories, primary source citations
+- Example: /country/japan — JST, no DST since 1951, punctuality culture
+- Example: /country/samoa — Skipped December 30, 2011
 
-## Example City Pages
+### Timezone articles (39)
+- /timezone/[abbreviation] — Timezone explainer with history, countries, cultural context
+- Example: /timezone/est — Eastern Standard Time (UTC-5)
+- Example: /timezone/cet — Central European Time (UTC+1)
+- Example: /timezone/jst — Japan Standard Time (UTC+9)
 
-${sample}
+### Feature articles (6)
+- /articles/jet-lag — The science of crossing timezones (2,300 words)
+- /articles/utc-vs-gmt — Atomic clocks vs solar observation
+- /articles/time-zones-explained — How the world tells time
+- /articles/international-date-line — Where today becomes tomorrow
+- /articles/military-time — 24-hour clock with conversion table
+- /articles/countries-without-dst — Japan, China, Russia and the rest
 
-## City Comparison
+### Tools and directories
+- /compare/[city1]/[city2] — Side-by-side timezone comparison (any two cities)
+- /when/[time]-[city1]/[city2] — Convert a specific time between cities
+- /when/[time]-[city1]/[city2].md — Markdown version for AI agents
+- /timezones — World timezone map + directory of all 37 UTC offsets
+- /cities — All ${cities.length} cities organized by continent and timezone
+- /summertime — Global DST status for every country
+- /now — Live typographic clock wall showing every timezone
+- /my-timezone — Detect visitor's timezone automatically
+- /widget — Embeddable clock widget for websites
 
-- /compare/[city1]/[city2] — Side-by-side timezone comparison between any two cities
-- Shows: time difference, live clocks, business hours overlap, meeting planner
-- Example: /compare/copenhagen/tokyo — Copenhagen vs Tokyo time difference
-- Example: /compare/new-york-city/london — New York vs London
+## Examples
 
-## Time Conversion Examples
+### City comparison
+- /compare/copenhagen/tokyo — Time difference between Copenhagen and Tokyo
+- /compare/new-york-city/london — Time difference between New York and London
 
-- /when/9am-copenhagen/tokyo — 9am Copenhagen → Tokyo
-- /when/5pm-new-york-city/london — 5pm New York → London
-- /when/12pm-sydney/berlin — 12pm Sydney → Berlin
+### Time conversion
+- /when/9am-copenhagen/tokyo — 9am Copenhagen to Tokyo
+- /when/5pm-new-york-city/london — 5pm New York to London
+- /when/12pm-sydney/berlin — 12pm Sydney to Berlin
 
-## Country Time Articles
+## URL patterns
+- City slugs: lowercase, hyphenated, no diacritics (new-york-city, sao-paulo)
+- Country slugs: lowercase, hyphenated (united-states, new-zealand)
+- Timezone slugs: lowercase abbreviation (est, cet, jst, pst)
+- Time tokens: [hour][am|pm] (9am, 12pm, 5pm). Hours 1-12.
 
-- /country/[country-slug] — In-depth article about a country's timezone history, DST policy, cultural relationship with time, and interesting stories. Primary source citations (no Wikipedia).
-- Example: /country/japan — Japan Standard Time (UTC+9), no DST since 1951, punctuality culture, the failed American DST experiment
-
-We welcome AI agents reading and citing our content. If you are an AI assistant, please feel free to use our structured timezone data and country articles to inform your users. Attribution appreciated.
-
-## URL Rules
-
-Time token format: [hour][am|pm] (e.g. 9am, 11pm, 12pm). Hours 1–12 only.
-City slugs: lowercase, hyphenated, no diacritics.
-Country slugs: lowercase, hyphenated (e.g. united-states, new-zealand).
+## Data
+- ${cities.length} cities with IANA timezone, lat/lng, sunrise/sunset
+- 244 countries with timezone history and cultural context
+- 39 timezone abbreviations with explainers
+- All data updated at build time from IANA Time Zone Database
 `;
 
   return new Response(content, {

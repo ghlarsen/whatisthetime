@@ -20,9 +20,12 @@ export const GET: APIRoute = async () => {
   // Static pages
   const staticPages = [
     `  <url><loc>${baseUrl}/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>`,
+    `  <url><loc>${baseUrl}/now</loc><changefreq>daily</changefreq><priority>0.9</priority></url>`,
     `  <url><loc>${baseUrl}/timezones</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>`,
     `  <url><loc>${baseUrl}/cities</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>`,
     `  <url><loc>${baseUrl}/summertime</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>`,
+    `  <url><loc>${baseUrl}/my-timezone</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>`,
+    `  <url><loc>${baseUrl}/widget</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>`,
   ].join('\n');
 
   // City pages
@@ -36,6 +39,15 @@ export const GET: APIRoute = async () => {
     const countries = await getCollection('countries');
     countryUrls = countries.map(c =>
       `  <url><loc>${baseUrl}/country/${c.data.slug}</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>`
+    ).join('\n');
+  } catch { /* collection may be empty */ }
+
+  // Timezone articles
+  let timezoneUrls = '';
+  try {
+    const timezones = await getCollection('timezones');
+    timezoneUrls = timezones.map(t =>
+      `  <url><loc>${baseUrl}/timezone/${t.data.slug}</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>`
     ).join('\n');
   } catch { /* collection may be empty */ }
 
@@ -77,6 +89,7 @@ export const GET: APIRoute = async () => {
 ${staticPages}
 ${cityUrls}
 ${countryUrls}
+${timezoneUrls}
 ${articleUrls}
 ${compareUrls}
 ${whenUrls}
