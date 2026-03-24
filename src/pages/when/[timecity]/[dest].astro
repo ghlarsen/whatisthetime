@@ -6,7 +6,7 @@ import Base from '../../../layouts/Base.astro';
 import Nav from '../../../components/Nav.astro';
 import ProtonBanner from '../../../components/ProtonBanner.astro';
 import Footer from '../../../components/Footer.astro';
-import ComparisonWidget from '../../../components/ComparisonWidget.astro';
+import MeetingGrid from '../../../components/MeetingGrid.astro';
 import { getCityBySlug, formatUtcOffset, getUtcOffsetMinutes } from '../../../lib/timezone.ts';
 import { parseTimecitySegment, timeTokenToHour, convertHour, formatConvertedTime } from '../../../lib/when.ts';
 
@@ -48,6 +48,14 @@ const dayOffsetLabel = converted.dayOffset === 1
 const title = `${parsed.timeToken} in ${originCity.name} = ${destTimeToken}${dayOffsetLabel} in ${destCity.name} | whatisthetime.now`;
 const description = `When it's ${parsed.timeToken} in ${originCity.name} (${originUtcLabel}), it's ${destTimeToken}${dayOffsetLabel} in ${destCity.name} (${destUtcLabel}).`;
 const canonical = `https://whatisthetime.now/when/${timecity}/${dest}`;
+
+// Deduplicated city list for meeting grid
+const gridCities = [originCity.slug, destCity.slug];
+for (const fallback of ['new-york-city', 'london', 'tokyo', 'singapore']) {
+  if (!gridCities.includes(fallback) && gridCities.length < 4) {
+    gridCities.push(fallback);
+  }
+}
 ---
 
 <Base title={title} description={description} canonical={canonical}>
@@ -67,7 +75,7 @@ const canonical = `https://whatisthetime.now/when/${timecity}/${dest}`;
     </div>
   </section>
 
-  <ComparisonWidget defaultCities={[originCity.slug, destCity.slug, 'london', 'singapore']} />
+  <MeetingGrid defaultCities={gridCities} />
 
   <!-- Static SEO copy -->
   <section class="when-info">

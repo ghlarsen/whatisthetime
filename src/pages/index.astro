@@ -148,6 +148,29 @@ const websiteSchema = {
     </dl>
   </section>
 
+  <!-- Featured content -->
+  <section class="featured">
+    <h2 class="featured-heading">Explore</h2>
+    <div class="featured-grid">
+      <a href="/timezones" class="featured-card">
+        <span class="featured-title">World Timezone Map</span>
+        <span class="featured-blurb">37 UTC offsets, 245 countries. Interactive map with real IANA timezone boundaries.</span>
+      </a>
+      <a href="/summertime" class="featured-card">
+        <span class="featured-title">Is It Summertime?</span>
+        <span class="featured-blurb">DST status for every country. See who's in summer time right now and when clocks change next.</span>
+      </a>
+      <a href="/articles/jet-lag" class="featured-card">
+        <span class="featured-title">The Science of Jet Lag</span>
+        <span class="featured-blurb">Why eastbound is worse, the 2017 Nobel Prize research, and what NASA knows about crossing timezones.</span>
+      </a>
+      <a href="/cities" class="featured-card">
+        <span class="featured-title">All 990 Cities</span>
+        <span class="featured-blurb">Every city organized by continent and timezone. Stories about time from Aalborg to Zurich.</span>
+      </a>
+    </div>
+  </section>
+
   <ProtonBanner />
   <Footer />
   <script>
@@ -257,5 +280,54 @@ const websiteSchema = {
     color: var(--text-muted);
     line-height: 1.7;
     margin: 0;
+  }
+
+  /* ── Featured ── */
+  .featured {
+    padding: 48px var(--page-pad);
+    border-top: 1px solid var(--border);
+  }
+
+  .featured-heading {
+    font-size: var(--t-sm);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 20px;
+  }
+
+  .featured-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  @media (max-width: 600px) {
+    .featured-grid { grid-template-columns: 1fr; }
+  }
+
+  .featured-card {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 16px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    text-decoration: none;
+    transition: border-color 0.15s;
+  }
+  .featured-card:hover { border-color: var(--text-muted); }
+
+  .featured-title {
+    font-size: var(--t-base);
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  .featured-blurb {
+    font-size: var(--t-sm);
+    color: var(--text-muted);
+    line-height: 1.5;
   }
 </style>
