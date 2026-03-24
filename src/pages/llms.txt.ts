@@ -26,6 +26,13 @@ ${cities.length} cities across all IANA timezone zones. City slugs are lowercase
 
 ${sample}
 
+## City Comparison
+
+- /compare/[city1]/[city2] — Side-by-side timezone comparison between any two cities
+- Shows: time difference, live clocks, business hours overlap, meeting planner
+- Example: /compare/copenhagen/tokyo — Copenhagen vs Tokyo time difference
+- Example: /compare/new-york-city/london — New York vs London
+
 ## Time Conversion Examples
 
 - /when/9am-copenhagen/tokyo — 9am Copenhagen → Tokyo
