@@ -1,0 +1,214 @@
+---
+// src/pages/my-timezone.astro
+// "What timezone am I in?" - detected from browser
+export const prerender = true;
+
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import ProtonBanner from '../components/ProtonBanner.astro';
+import Footer from '../components/Footer.astro';
+
+const title = 'What Timezone Am I In? | whatisthetime.now';
+const description = 'Detect your current timezone automatically. See your IANA timezone identifier, UTC offset, DST status, and other cities sharing your timezone.';
+const canonical = 'https://whatisthetime.now/my-timezone';
+
+const faqs = [
+  { q: 'How does this page detect my timezone?', a: 'Your browser reports your timezone using the JavaScript Intl.DateTimeFormat API. This uses your operating system timezone setting. No geolocation or IP lookup is needed.' },
+  { q: 'What is an IANA timezone identifier?', a: 'IANA identifiers like America/New_York or Europe/London are the standard timezone names used by computers, phones, and programming languages. They are maintained by the IANA Time Zone Database and updated several times per year.' },
+  { q: 'Why does my timezone show a city I don\'t live in?', a: 'IANA timezones are named after the largest city in each zone, not your specific location. If you live in Philadelphia, your timezone is America/New_York because New York is the reference city for the US Eastern timezone.' },
+];
+---
+
+<Base title={title} description={description} canonical={canonical} faqs={faqs}>
+  <Nav />
+
+  <section class="mytz-hero">
+    <h1 class="mytz-title">What timezone am I in?</h1>
+    <div class="mytz-detecting" id="mytz-detecting">Detecting your timezone...</div>
+
+    <div class="mytz-result" id="mytz-result" style="display:none">
+      <div class="mytz-clock" id="mytz-clock">--:--:--</div>
+
+      <div class="mytz-facts" id="mytz-facts"></div>
+
+      <div class="mytz-actions" id="mytz-actions"></div>
+    </div>
+  </section>
+
+  <ProtonBanner />
+
+  <section class="mytz-faq">
+    <h2 class="section-heading">About timezone detection</h2>
+    <dl class="faq-list">
+      {faqs.map(({ q, a }) => (
+        <>
+          <dt class="faq-q">{q}</dt>
+          <dd class="faq-a">{a}</dd>
+        </>
+      ))}
+    </dl>
+  </section>
+
+  <ProtonBanner />
+  <Footer />
+</Base>
+
+<style>
+  .mytz-hero {
+    padding: 48px var(--page-pad) 40px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .mytz-title {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-variation-settings: 'wght' 800;
+    color: var(--text);
+    margin-bottom: 16px;
+  }
+
+  .mytz-detecting {
+    font-size: var(--t-base);
+    color: var(--text-dim);
+  }
+
+  .mytz-clock {
+    font-family: ui-monospace, 'SF Mono', 'Fira Code', monospace;
+    font-size: var(--t-display);
+    font-variant-numeric: tabular-nums;
+    color: var(--text);
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+
+  .mytz-facts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+
+  .mytz-facts :global(.fact) {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .mytz-facts :global(.fact-label) {
+    font-size: var(--t-xs);
+    letter-spacing: 0.05em;
+    color: var(--text-dim);
+    text-transform: uppercase;
+  }
+
+  .mytz-facts :global(.fact-value) {
+    font-size: var(--t-sm);
+    color: var(--text);
+  }
+
+  .mytz-facts :global(.fact-value.mono) {
+    font-family: ui-monospace, 'SF Mono', monospace;
+  }
+
+  .mytz-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .mytz-actions :global(a) {
+    font-size: var(--t-sm);
+    color: var(--text-muted);
+    text-decoration: none;
+    padding: 6px 12px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .mytz-actions :global(a:hover) {
+    color: var(--text);
+    border-color: var(--text-muted);
+  }
+
+  .mytz-faq {
+    padding: 40px var(--page-pad) 64px;
+    border-top: 1px solid var(--border);
+    max-width: 720px;
+  }
+  .section-heading { font-size: var(--t-sm); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-dim); margin-bottom: 24px; }
+  .faq-list { margin: 0; }
+  .faq-q { font-size: var(--t-base); font-weight: 600; color: var(--text); margin: 24px 0 6px; line-height: 1.4; }
+  .faq-q:first-child { margin-top: 0; }
+  .faq-a { font-size: var(--t-base); color: var(--text-muted); line-height: 1.7; margin: 0; }
+
+  @media (max-width: 500px) {
+    .mytz-hero { padding-top: 32px; }
+  }
+</style>
+
+<script>
+  import allCities from '../data/cities-client.ts';
+
+  const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+  const detecting = document.getElementById('mytz-detecting')!;
+  const result = document.getElementById('mytz-result')!;
+  const clock = document.getElementById('mytz-clock')!;
+  const facts = document.getElementById('mytz-facts')!;
+  const actions = document.getElementById('mytz-actions')!;
+
+  // Get UTC offset
+  const now = new Date();
+  const parts = new Intl.DateTimeFormat('en-US', { timeZone: tz, timeZoneName: 'shortOffset' }).formatToParts(now);
+  const offsetStr = parts.find(p => p.type === 'timeZoneName')?.value ?? 'GMT';
+
+  // Check DST
+  const jan = new Date(now.getFullYear(), 0, 1);
+  const jul = new Date(now.getFullYear(), 6, 1);
+  const janOffset = new Intl.DateTimeFormat('en-US', { timeZone: tz, timeZoneName: 'shortOffset' }).formatToParts(jan).find(p => p.type === 'timeZoneName')?.value ?? '';
+  const julOffset = new Intl.DateTimeFormat('en-US', { timeZone: tz, timeZoneName: 'shortOffset' }).formatToParts(jul).find(p => p.type === 'timeZoneName')?.value ?? '';
+  const hasDST = janOffset !== julOffset;
+  const isInDST = hasDST && offsetStr === julOffset;
+
+  // Find cities in same timezone
+  const sameTz = allCities.filter(c => c.timezone === tz).slice(0, 8);
+  const sameOffset = allCities.filter(c => {
+    const p = new Intl.DateTimeFormat('en-US', { timeZone: c.timezone, timeZoneName: 'shortOffset' }).formatToParts(now);
+    return (p.find(p => p.type === 'timeZoneName')?.value ?? '') === offsetStr && c.timezone !== tz;
+  }).slice(0, 4);
+
+  // Country slug from first city match
+  const firstCity = sameTz[0];
+  const countrySlug = firstCity ? firstCity.country.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') : '';
+
+  // Render facts
+  facts.innerHTML = `
+    <div class="fact"><span class="fact-label">Your timezone</span><span class="fact-value mono">${tz}</span></div>
+    <div class="fact"><span class="fact-label">UTC offset</span><span class="fact-value">${offsetStr}</span></div>
+    <div class="fact"><span class="fact-label">Daylight saving</span><span class="fact-value">${hasDST ? (isInDST ? 'DST active' : 'Standard time') : 'No DST'}</span></div>
+  `;
+
+  // Render actions
+  const links: string[] = [];
+  if (firstCity) links.push(`<a href="/${firstCity.slug}">${firstCity.name} city page</a>`);
+  if (countrySlug) links.push(`<a href="/country/${countrySlug}">Time in ${firstCity?.country}</a>`);
+  links.push('<a href="/timezones">World timezone map</a>');
+  sameTz.slice(1, 5).forEach(c => links.push(`<a href="/${c.slug}">${c.name}</a>`));
+  actions.innerHTML = links.join('');
+
+  // Show result
+  detecting.style.display = 'none';
+  result.style.display = 'block';
+
+  // Tick
+  function tick() {
+    const n = new Date();
+    const p = new Intl.DateTimeFormat('en-US', {
+      timeZone: tz, hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false,
+    }).formatToParts(n);
+    const get = (t: string) => p.find(x => x.type === t)?.value ?? '00';
+    const h = get('hour') === '24' ? '00' : get('hour');
+    clock.textContent = `${h}:${get('minute')}:${get('second')}`;
+  }
+  tick();
+  setInterval(tick, 1000);
+</script>

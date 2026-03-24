@@ -1,0 +1,112 @@
+---
+// src/pages/timezone/[slug].astro
+export const prerender = true;
+
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+import DualClock from '../../components/DualClock.astro';
+import ProtonBanner from '../../components/ProtonBanner.astro';
+import Footer from '../../components/Footer.astro';
+import cities from '../../data/cities.ts';
+
+export async function getStaticPaths() {
+  const timezones = await getCollection('timezones');
+  return timezones.map(entry => ({
+    params: { slug: entry.data.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+// Find cities in this timezone
+const tzCities = cities.filter(c => entry.data.iana.includes(c.timezone)).slice(0, 20);
+
+const title = entry.data.title + ' | whatisthetime.now';
+const description = entry.data.description;
+const canonical = `https://whatisthetime.now/timezone/${entry.data.slug}`;
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: entry.data.title,
+  description,
+  url: canonical,
+  datePublished: entry.data.lastUpdated,
+  dateModified: entry.data.lastUpdated,
+  author: { '@type': 'Organization', name: 'whatisthetime.now' },
+  publisher: { '@type': 'Organization', name: 'whatisthetime.now' },
+};
+
+const breadcrumbs = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://whatisthetime.now' },
+    { '@type': 'ListItem', position: 2, name: 'Timezones', item: 'https://whatisthetime.now/timezones' },
+    { '@type': 'ListItem', position: 3, name: entry.data.timezone, item: canonical },
+  ],
+};
+---
+
+<Base title={title} description={description} canonical={canonical}>
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbs)} />
+  <Nav />
+
+  <DualClock timezone={entry.data.iana[0]} label={entry.data.timezone} href={canonical} />
+
+  <article class="tz-article">
+    <header class="article-header">
+      <div class="article-meta">
+        <span class="tz-chip">{entry.data.utcOffset}</span>
+        {entry.data.dstVariant && <span class="tz-chip">{entry.data.dstVariant} ({entry.data.dstOffset})</span>}
+        <span class="country-count">{entry.data.countries.length} countries</span>
+      </div>
+      <h1 class="article-title">{entry.data.title}</h1>
+      <p class="article-desc">{entry.data.description}</p>
+    </header>
+
+    <div class="article-body">
+      <Content />
+    </div>
+
+    {tzCities.length > 0 && (
+      <section class="tz-cities">
+        <h2 class="section-heading">Cities in this timezone</h2>
+        <div class="city-chips">
+          {tzCities.map(c => (
+            <a href={`/${c.slug}`} class="city-chip">{c.name}, {c.country}</a>
+          ))}
+        </div>
+      </section>
+    )}
+  </article>
+
+  <ProtonBanner />
+  <Footer />
+</Base>
+
+<style>
+  .tz-article { max-width: 720px; padding: 0 var(--page-pad); }
+  .article-header { padding: 48px 0 32px; border-bottom: 1px solid var(--border); }
+  .article-meta { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; }
+  .tz-chip { font-size: var(--t-xs); font-family: ui-monospace, 'SF Mono', monospace; color: var(--text-dim); padding: 2px 6px; border: 1px solid var(--border); border-radius: 3px; }
+  .country-count { font-size: var(--t-xs); color: var(--text-dim); }
+  .article-title { font-family: 'Bricolage Grotesque', sans-serif; font-size: clamp(1.5rem, 4vw, 2.25rem); font-variation-settings: 'wght' 700; color: var(--text); line-height: 1.2; margin-bottom: 12px; }
+  .article-desc { font-size: var(--t-base); color: var(--text-muted); line-height: 1.6; }
+  .article-body { padding: 32px 0 48px; }
+  .article-body :global(h2) { font-size: var(--t-base); font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--text-dim); margin: 40px 0 12px; padding-top: 24px; border-top: 1px solid var(--border); }
+  .article-body :global(p) { font-size: var(--t-base); color: var(--text-muted); line-height: 1.7; margin: 0 0 16px; }
+  .article-body :global(a) { color: var(--text); text-decoration: underline; text-underline-offset: 2px; }
+  .article-body :global(a:hover) { color: var(--text-muted); }
+  .article-body :global(ul), .article-body :global(ol) { font-size: var(--t-base); color: var(--text-muted); line-height: 1.7; margin: 0 0 16px; padding-left: 20px; }
+  .tz-cities { padding: 32px 0 48px; border-top: 1px solid var(--border); }
+  .section-heading { font-size: var(--t-sm); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-dim); margin-bottom: 12px; }
+  .city-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .city-chip { font-size: var(--t-sm); color: var(--text-muted); text-decoration: none; padding: 4px 10px; border: 1px solid var(--border); border-radius: 4px; transition: color 0.15s, border-color 0.15s; }
+  .city-chip:hover { color: var(--text); border-color: var(--text-muted); }
+  @media (max-width: 500px) { .article-header { padding-top: 32px; } }
+</style>
