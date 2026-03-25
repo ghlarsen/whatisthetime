@@ -1,0 +1,205 @@
+---
+// src/pages/contact.astro
+export const prerender = true;
+
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+
+const title = 'Contact | whatisthetime.now';
+const description = 'Get in touch with the whatisthetime.now team.';
+const canonical = 'https://whatisthetime.now/contact';
+---
+
+<Base title={title} description={description} canonical={canonical}>
+  <Nav />
+
+  <section class="contact-hero">
+    <h1 class="contact-title">Contact</h1>
+    <p class="contact-sub">Questions, feedback, partnership inquiries, or bug reports. We read everything.</p>
+  </section>
+
+  <section class="contact-form-section">
+    <form id="contact-form" class="contact-form">
+      <label class="form-label">
+        Your email
+        <input type="email" name="email" required class="form-input" placeholder="you@example.com" />
+      </label>
+
+      <label class="form-label">
+        Subject
+        <select name="subject" class="form-input">
+          <option value="general">General question</option>
+          <option value="bug">Bug report</option>
+          <option value="partnership">Partnership / advertising</option>
+          <option value="widget">Widget support</option>
+          <option value="data">Data correction</option>
+          <option value="press">Press inquiry</option>
+        </select>
+      </label>
+
+      <label class="form-label">
+        Message
+        <textarea name="message" required class="form-input form-textarea" rows="6" placeholder="What's on your mind?"></textarea>
+      </label>
+
+      <button type="submit" class="form-submit" id="submit-btn">Send message</button>
+      <p class="form-status" id="form-status"></p>
+    </form>
+  </section>
+
+  <section class="contact-info">
+    <h2 class="info-heading">About this site</h2>
+    <p class="info-text">whatisthetime.now is operated by Larsen Studio. For more about our projects, visit <a href="https://larsen.studio" target="_blank" rel="noopener">larsen.studio</a>.</p>
+  </section>
+
+  <Footer />
+</Base>
+
+<style>
+  .contact-hero {
+    padding: 48px var(--page-pad) 32px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .contact-title {
+    font-family: var(--font-display);
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-variation-settings: 'wght' 800;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+
+  .contact-sub {
+    font-size: var(--t-base);
+    color: var(--text-muted);
+  }
+
+  .contact-form-section {
+    padding: 32px var(--page-pad) 48px;
+    max-width: 560px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .form-label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: var(--t-sm);
+    color: var(--text-muted);
+  }
+
+  .form-input {
+    background: var(--bg-subtle);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-size: 16px;
+    font-family: var(--font-body);
+    padding: 10px 14px;
+    border-radius: 4px;
+    transition: border-color 0.15s;
+  }
+  .form-input:focus {
+    outline: none;
+    border-color: var(--text-muted);
+  }
+
+  .form-textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+
+  .form-submit {
+    font-size: var(--t-sm);
+    font-weight: 600;
+    color: var(--bg);
+    background: var(--text);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    align-self: flex-start;
+  }
+  .form-submit:hover { opacity: 0.85; }
+  .form-submit:disabled { opacity: 0.5; cursor: not-allowed; }
+
+  .form-status {
+    font-size: var(--t-sm);
+    margin: 0;
+  }
+
+  .contact-info {
+    padding: 32px var(--page-pad) 48px;
+    max-width: 560px;
+  }
+
+  .info-heading {
+    font-size: var(--t-sm);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 12px;
+  }
+
+  .info-text {
+    font-size: var(--t-base);
+    color: var(--text-muted);
+    line-height: 1.7;
+  }
+
+  .info-text a {
+    color: var(--text);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  @media (max-width: 500px) {
+    .contact-hero { padding-top: 32px; }
+  }
+</style>
+
+<script>
+  const form = document.getElementById('contact-form') as HTMLFormElement;
+  const status = document.getElementById('form-status')!;
+  const btn = document.getElementById('submit-btn') as HTMLButtonElement;
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    btn.disabled = true;
+    btn.textContent = 'Sending...';
+    status.textContent = '';
+
+    const data = new FormData(form);
+    const body = {
+      email: data.get('email'),
+      subject: data.get('subject'),
+      message: data.get('message'),
+      _from: 'whatisthetime.now contact form',
+    };
+
+    try {
+      // Simple mailto fallback (no backend needed)
+      const subject = encodeURIComponent(`[whatisthetime.now] ${body.subject}: from ${body.email}`);
+      const mailBody = encodeURIComponent(`From: ${body.email}\nSubject: ${body.subject}\n\n${body.message}`);
+      window.location.href = `mailto:timecontact${String.fromCharCode(64)}larsen.studio?subject=${subject}&body=${mailBody}`;
+
+      status.textContent = 'Opening your email client...';
+      status.style.color = 'var(--text-muted)';
+      btn.textContent = 'Send message';
+      btn.disabled = false;
+    } catch (err) {
+      status.textContent = 'Something went wrong. Please try again.';
+      status.style.color = '#e94560';
+      btn.textContent = 'Send message';
+      btn.disabled = false;
+    }
+  });
+</script>
