@@ -380,7 +380,26 @@ const initialCities = defaultCities
   let lockedCol: number | null = null;
   let hoveredCol: number | null = null;
 
-  // Parse URL hash
+  // Override with My Cities from localStorage
+  // On city pages: show [this city] + [my cities] (deduped)
+  // On homepage: show [my cities] if 2+, else keep defaults
+  const myCitySlugs: string[] = JSON.parse(localStorage.getItem('myCities') || '[]');
+  if (myCitySlugs.length >= 1) {
+    const myCityObjs = myCitySlugs
+      .map(s => allCities.find(c => c.slug === s))
+      .filter(Boolean) as City[];
+    if (myCityObjs.length >= 1) {
+      // Keep the first city from defaults (the page's city on city pages)
+      const pageCity = cities[0];
+      const merged = pageCity ? [pageCity] : [];
+      for (const mc of myCityObjs) {
+        if (!merged.some(c => c.slug === mc.slug)) merged.push(mc);
+      }
+      if (merged.length >= 2) cities = merged.slice(0, 6);
+    }
+  }
+
+  // Parse URL hash (overrides localStorage if present)
   (function parseHash() {
     const p = new URLSearchParams(location.hash.slice(1));
     const slugs = p.get('cities')?.split(',').filter(Boolean);
