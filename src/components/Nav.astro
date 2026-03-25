@@ -3,7 +3,7 @@
 ---
 <nav>
   <div class="nav-top">
-    <a href="/" class="logo">whatisthetime<span class="logo-tld">.now</span></a>
+    <a href="/" class="logo"><img src="/logo-rings.png" alt="" class="logo-icon" width="24" height="24" />whatisthetime<span class="logo-tld">.now</span></a>
 
     <div class="nav-search nav-search-desktop" id="nav-search">
       <input
@@ -54,11 +54,20 @@
     font-size: 1rem;
     font-weight: 600;
     letter-spacing: -0.5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
     color: var(--text);
     text-decoration: none;
     white-space: nowrap;
     flex-shrink: 0;
   }
+  .logo-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+
   .logo-tld { opacity: 0.4; }
 
   /* ── City search ── */
