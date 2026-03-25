@@ -62,6 +62,7 @@ for (const fallback of ['new-york-city', 'london', 'tokyo', 'singapore']) {
   <Nav />
 
   <section class="conversion-hero">
+    <h1 class="sr-only">{parsed.timeToken} in {originCity.name} is {destTimeToken} in {destCity.name}</h1>
     <div class="from-block">
       <div class="city-label">{originCity.name} · {originUtcLabel}</div>
       <div class="time-display">{parsed.timeToken}</div>

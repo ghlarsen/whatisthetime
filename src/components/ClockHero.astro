@@ -47,10 +47,10 @@ if (city.lat !== 0 || city.lng !== 0) {
 ---
 
 <section class="clock-section">
-  <div class="city-label">
+  <h1 class="city-label">
     {city.name}, {city.country} · {utcLabel}
     <button class="star-btn" id="star-btn" data-slug={city.slug} data-name={city.name} data-tz={city.timezone} data-country={city.country} aria-label="Save to My Cities">&#9734;</button>
-  </div>
+  </h1>
   <div
     id="clock"
     data-timezone={city.timezone}
