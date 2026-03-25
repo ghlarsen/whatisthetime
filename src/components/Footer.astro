@@ -106,7 +106,7 @@ const navLinks = [
   </div>
 
   <div class="footer-inner">
-    <a href="/" class="footer-brand">whatisthetime<span class="tld">.now</span></a>
+    <a href="/" class="footer-brand"><img src="/logo-rings.png" alt="" class="footer-logo-icon" />whatisthetime<span class="tld">.now</span></a>
     <span class="footer-meta">990 cities · 245 countries · © {new Date().getFullYear()}</span>
   </div>
 </footer>
@@ -219,6 +219,15 @@ const navLinks = [
     color: var(--bg);
     text-decoration: none;
     transition: opacity 0.15s;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .footer-logo-icon {
+    height: clamp(1.5rem, 6vw, 3rem);
+    width: auto;
+    flex-shrink: 0;
   }
   .footer-brand:hover { opacity: 0.7; }
 
