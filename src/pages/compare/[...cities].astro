@@ -8,6 +8,7 @@ import Nav from '../../components/Nav.astro';
 import DualClock from '../../components/DualClock.astro';
 import MeetingGrid from '../../components/MeetingGrid.astro';
 import ProtonBanner from '../../components/ProtonBanner.astro';
+import CalCTA from '../../components/CalCTA.astro';
 import Footer from '../../components/Footer.astro';
 import { getCityBySlug, formatUtcOffset, getUtcOffsetMinutes, getCurrentTime } from '../../lib/timezone.ts';
 
@@ -114,6 +115,8 @@ const faqs = [
   <ProtonBanner />
 
   <MeetingGrid defaultCities={[city1.slug, city2.slug, 'london', 'new-york-city']} />
+
+  <CalCTA city1={city1.name} city2={city2.name} />
 
   <!-- Read more -->
   <section class="read-more">

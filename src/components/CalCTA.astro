@@ -1,0 +1,73 @@
+---
+// src/components/CalCTA.astro
+// Contextual Cal.com affiliate CTA for meeting-intent pages
+export interface Props {
+  city1?: string;
+  city2?: string;
+}
+
+const { city1, city2 } = Astro.props;
+const AFFILIATE_URL = 'https://refer.cal.com/larsen.studio-7mza';
+const context = city1 && city2
+  ? `Schedule a meeting between ${city1} and ${city2}`
+  : 'Schedule across timezones';
+---
+
+<div class="cal-cta">
+  <div class="cal-cta-inner">
+    <div class="cal-cta-text">
+      <span class="cal-cta-headline">{context}</span>
+      <span class="cal-cta-sub">Cal.com handles timezone conversion automatically. Free to start.</span>
+    </div>
+    <a href={AFFILIATE_URL} target="_blank" rel="noopener sponsored" class="cal-cta-btn">Try Cal.com</a>
+  </div>
+</div>
+
+<style>
+  .cal-cta {
+    padding: 16px var(--page-pad);
+    border-top: 1px solid var(--border);
+  }
+
+  .cal-cta-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .cal-cta-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .cal-cta-headline {
+    font-size: var(--t-sm);
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  .cal-cta-sub {
+    font-size: var(--t-xs);
+    color: var(--text-dim);
+  }
+
+  .cal-cta-btn {
+    font-size: var(--t-sm);
+    font-weight: 600;
+    color: var(--text);
+    text-decoration: none;
+    padding: 8px 20px;
+    border: 1px solid var(--text);
+    border-radius: 4px;
+    white-space: nowrap;
+    transition: background 0.15s, color 0.15s;
+    flex-shrink: 0;
+  }
+  .cal-cta-btn:hover {
+    background: var(--text);
+    color: var(--bg);
+  }
+</style>

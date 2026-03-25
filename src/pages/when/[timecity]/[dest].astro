@@ -7,6 +7,7 @@ import Nav from '../../../components/Nav.astro';
 import ProtonBanner from '../../../components/ProtonBanner.astro';
 import Footer from '../../../components/Footer.astro';
 import MeetingGrid from '../../../components/MeetingGrid.astro';
+import CalCTA from '../../../components/CalCTA.astro';
 import { getCityBySlug, formatUtcOffset, getUtcOffsetMinutes } from '../../../lib/timezone.ts';
 import { parseTimecitySegment, timeTokenToHour, convertHour, formatConvertedTime } from '../../../lib/when.ts';
 
@@ -79,6 +80,8 @@ for (const fallback of ['new-york-city', 'london', 'tokyo', 'singapore']) {
   <ProtonBanner />
 
   <MeetingGrid defaultCities={gridCities} />
+
+  <CalCTA city1={originCity.name} city2={destCity.name} />
 
   <!-- Static SEO copy -->
   <section class="when-info">
