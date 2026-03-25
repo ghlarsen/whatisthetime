@@ -97,6 +97,13 @@ const navLinks = [
     ))}
   </div>
 
+  <div class="footer-legal">
+    <a href="/privacy" class="footer-legal-link">Privacy</a>
+    <a href="/terms" class="footer-legal-link">Terms</a>
+    <a href="/affiliate-disclosure" class="footer-legal-link">Affiliate Disclosure</a>
+    <a href="/about" class="footer-legal-link">About</a>
+  </div>
+
   <div class="footer-inner">
     <a href="/" class="footer-brand">whatisthetime<span class="tld">.now</span></a>
     <span class="footer-meta">990 cities · 245 countries · © {new Date().getFullYear()}</span>
@@ -174,6 +181,24 @@ const navLinks = [
     transition: color 0.15s;
   }
   .city-link:hover { color: var(--bg); }
+
+  /* ── Legal links ───────────────────────────────────── */
+  .footer-legal {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--footer-region);
+    flex-wrap: wrap;
+  }
+
+  .footer-legal-link {
+    font-size: var(--t-xs);
+    color: var(--footer-region);
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+  .footer-legal-link:hover { color: var(--footer-city); }
 
   /* ── Brand bar ───────────────────────────────────────── */
   .footer-inner {
