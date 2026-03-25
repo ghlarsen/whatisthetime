@@ -1,0 +1,143 @@
+---
+export const prerender = true;
+
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+
+const title = 'Privacy Policy | whatisthetime.now';
+const description = 'How whatisthetime.now handles your data. Short version: we collect very little.';
+const canonical = 'https://whatisthetime.now/privacy';
+---
+
+<Base title={title} description={description} canonical={canonical}>
+  <Nav />
+
+  <section class="page-hero">
+    <h1 class="page-title">Privacy Policy</h1>
+    <p class="page-meta">Last updated: March 25, 2026</p>
+  </section>
+
+  <article class="page-body">
+
+    <p class="lede">Short version: we collect very little, we store even less, and we do not sell or share your data.</p>
+
+    <h2>Analytics</h2>
+    <p>We use <strong>Cloudflare Web Analytics</strong>. It is privacy-friendly by design: no cookies, no cross-site tracking, no fingerprinting, no personal data collected. It gives us aggregate counts (page views, countries, referrers) with no way to identify individuals. We chose it specifically because it does not involve Google Analytics or similar cookie-based trackers.</p>
+
+    <h2>Your Cities (localStorage)</h2>
+    <p>The "My Cities" feature stores your saved cities in your browser's <code>localStorage</code>. This data never leaves your device. We cannot see it, access it, or delete it. You can clear it at any time by clearing your browser's site data for whatisthetime.now.</p>
+
+    <h2>Cloudflare and Your IP Address</h2>
+    <p>This site is hosted on Cloudflare Pages. When you visit, Cloudflare processes your request headers (including your IP address) as part of their CDN and security infrastructure. This is standard for any Cloudflare-hosted site. We do not log or store IP addresses ourselves.</p>
+    <p>On the homepage, we use Cloudflare's <code>CF-IPCountry</code> header to detect your country and show your local time automatically. This detection happens at the edge and is not stored or logged by us.</p>
+
+    <h2>Affiliate Links</h2>
+    <p>This site contains affiliate links to third-party products (currently Proton VPN and Cal.com). When you click an affiliate link, you will be redirected through a tracking domain operated by the affiliate partner. That redirect may set cookies or log your click. We have no control over what those third parties collect. See our <a href="/affiliate-disclosure">Affiliate Disclosure</a> for details.</p>
+
+    <h2>What We Do Not Collect</h2>
+    <ul>
+      <li>No email addresses</li>
+      <li>No account registration</li>
+      <li>No payment information</li>
+      <li>No tracking cookies from us</li>
+      <li>No advertising network pixels</li>
+    </ul>
+
+    <h2>Third-Party Services</h2>
+    <p>The only third-party services running on this site are Cloudflare Web Analytics and the affiliate link redirects described above. We do not embed social media widgets, video players, or ad network scripts that would track you across the web.</p>
+
+    <h2>Contact</h2>
+    <p>If you have questions about this policy, you can reach us at <a href="mailto:hello@whatisthetime.now">hello@whatisthetime.now</a>.</p>
+
+  </article>
+
+  <Footer />
+</Base>
+
+<style>
+  .page-hero {
+    padding: 48px var(--page-pad) 32px;
+    border-bottom: 1px solid var(--border);
+    max-width: 720px;
+  }
+
+  .page-title {
+    font-family: var(--font-display);
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-variation-settings: 'wght' 800;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+
+  .page-meta {
+    font-size: var(--t-sm);
+    color: var(--text-dim);
+  }
+
+  .page-body {
+    padding: 40px var(--page-pad) 64px;
+    max-width: 720px;
+    color: var(--text-muted);
+    line-height: 1.75;
+  }
+
+  .lede {
+    font-size: var(--t-base);
+    color: var(--text);
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .page-body h2 {
+    font-size: var(--t-sm);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin: 36px 0 12px;
+  }
+
+  .page-body p {
+    font-size: var(--t-base);
+    margin: 0 0 16px;
+  }
+
+  .page-body ul {
+    margin: 0 0 16px;
+    padding-left: 1.25rem;
+  }
+
+  .page-body li {
+    font-size: var(--t-base);
+    margin-bottom: 6px;
+  }
+
+  .page-body code {
+    font-family: var(--font-mono);
+    font-size: 0.875em;
+    background: var(--bg-subtle);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 1px 5px;
+    color: var(--text);
+  }
+
+  .page-body a {
+    color: var(--text);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--border);
+    transition: text-decoration-color 0.15s;
+  }
+
+  .page-body a:hover {
+    text-decoration-color: var(--text-muted);
+  }
+
+  strong {
+    color: var(--text);
+    font-weight: 600;
+  }
+</style>

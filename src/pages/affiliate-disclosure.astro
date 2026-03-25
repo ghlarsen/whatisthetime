@@ -1,0 +1,134 @@
+---
+export const prerender = true;
+
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+
+const title = 'Affiliate Disclosure | whatisthetime.now';
+const description = 'Honest disclosure of affiliate relationships on whatisthetime.now.';
+const canonical = 'https://whatisthetime.now/affiliate-disclosure';
+---
+
+<Base title={title} description={description} canonical={canonical}>
+  <Nav />
+
+  <section class="page-hero">
+    <h1 class="page-title">Affiliate Disclosure</h1>
+    <p class="page-meta">Last updated: March 25, 2026</p>
+  </section>
+
+  <article class="page-body">
+
+    <p class="lede">This site contains affiliate links. When you click one and make a purchase, we may earn a commission at no extra cost to you.</p>
+
+    <h2>What this means</h2>
+    <p>Some links on whatisthetime.now go to products or services we recommend. If you follow one of those links and buy something, the partner company pays us a referral fee. The price you pay is exactly the same whether or not you use our link.</p>
+
+    <h2>Current partners</h2>
+
+    <div class="partner">
+      <h3>Proton VPN</h3>
+      <p>We display Proton VPN banner ads. Proton offers a privacy-focused VPN service that aligns with our own approach to user privacy. We earn approximately 40% of the revenue from referrals. Proton VPN links redirect through Proton's tracking infrastructure before landing on their site.</p>
+    </div>
+
+    <div class="partner">
+      <h3>Cal.com</h3>
+      <p>We recommend Cal.com as a scheduling tool. Cal.com is an open-source scheduling platform. We earn 20% recurring commission on paid plans purchased through our links. Cal.com links redirect through their affiliate tracking system.</p>
+    </div>
+
+    <h2>Our editorial policy</h2>
+    <p>Affiliate relationships do not influence the content on this site. Timezone articles, country stories, and city data are written to be accurate and useful, full stop. We do not add affiliate links to editorial content, and we do not write about partners' products in the editorial sections.</p>
+    <p>We only partner with products we believe are genuinely useful to people who care about privacy and productivity online.</p>
+
+    <h2>Third-party tracking</h2>
+    <p>Clicking an affiliate link will redirect you through a tracking domain operated by the partner. That redirect may log your click and set cookies on the partner's domain. We have no control over what partners collect during or after that redirect. Refer to each partner's privacy policy for details.</p>
+
+    <h2>Questions</h2>
+    <p>If you have questions about any affiliate relationship on this site, reach us at <a href="mailto:hello@whatisthetime.now">hello@whatisthetime.now</a>.</p>
+
+  </article>
+
+  <Footer />
+</Base>
+
+<style>
+  .page-hero {
+    padding: 48px var(--page-pad) 32px;
+    border-bottom: 1px solid var(--border);
+    max-width: 720px;
+  }
+
+  .page-title {
+    font-family: var(--font-display);
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-variation-settings: 'wght' 800;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+
+  .page-meta {
+    font-size: var(--t-sm);
+    color: var(--text-dim);
+  }
+
+  .page-body {
+    padding: 40px var(--page-pad) 64px;
+    max-width: 720px;
+    color: var(--text-muted);
+    line-height: 1.75;
+  }
+
+  .lede {
+    font-size: var(--t-base);
+    color: var(--text);
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .page-body h2 {
+    font-size: var(--t-sm);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin: 36px 0 12px;
+  }
+
+  .partner {
+    margin-bottom: 28px;
+    padding: 20px;
+    background: var(--bg-subtle);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+  }
+
+  .partner h3 {
+    font-size: var(--t-base);
+    font-weight: 600;
+    color: var(--text);
+    margin: 0 0 8px;
+  }
+
+  .partner p {
+    margin: 0;
+  }
+
+  .page-body p {
+    font-size: var(--t-base);
+    margin: 0 0 16px;
+  }
+
+  .page-body a {
+    color: var(--text);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--border);
+    transition: text-decoration-color 0.15s;
+  }
+
+  .page-body a:hover {
+    text-decoration-color: var(--text-muted);
+  }
+</style>

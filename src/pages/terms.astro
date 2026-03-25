@@ -1,0 +1,114 @@
+---
+export const prerender = true;
+
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+
+const title = 'Terms of Use | whatisthetime.now';
+const description = 'Terms of use for whatisthetime.now. Simple and fair.';
+const canonical = 'https://whatisthetime.now/terms';
+---
+
+<Base title={title} description={description} canonical={canonical}>
+  <Nav />
+
+  <section class="page-hero">
+    <h1 class="page-title">Terms of Use</h1>
+    <p class="page-meta">Last updated: March 25, 2026</p>
+  </section>
+
+  <article class="page-body">
+
+    <p class="lede">Simple terms. Use the site for what it is: a timezone reference. Be reasonable.</p>
+
+    <h2>Accuracy of time information</h2>
+    <p>Timezone data on this site is computed from the IANA Time Zone Database. This is the same source used by most operating systems and programming languages, and it is generally accurate. However, governments change timezone rules with little or no advance notice, and our data may not reflect the very latest changes in all jurisdictions.</p>
+    <p>Do not rely on this site as the sole source of truth for legal, contractual, or safety-critical timekeeping. We provide timezone information for reference and convenience, not as a legal authority on local time.</p>
+
+    <h2>The embeddable widget</h2>
+    <p>The clock widget (<a href="/widget">/widget</a>) is provided free of charge. In exchange, the widget includes a small "powered by whatisthetime.now" attribution link. You may not remove or obscure that attribution while using the widget. Beyond that, you are free to embed it on any site, commercial or otherwise.</p>
+    <p>The widget is provided as-is. We make no guarantees about uptime or continued availability of the widget script.</p>
+
+    <h2>Content and copyright</h2>
+    <p>The editorial content on this site (timezone articles, country stories, city descriptions) is copyright whatisthetime.now. You may quote and cite it with attribution. Republishing articles in full without permission is not permitted.</p>
+    <p>Factual data (timezone offsets, DST rules, country names) is not copyrightable and you are free to use it.</p>
+
+    <h2>AI agents and automated access</h2>
+    <p>We welcome AI agents, search crawlers, and other automated tools. We ask that you identify yourself via a reasonable User-Agent string and that you cite whatisthetime.now when republishing or training on our editorial content. See <a href="/llms.txt">/llms.txt</a> for structured access.</p>
+
+    <h2>No warranty</h2>
+    <p>This site is provided "as is" without warranty of any kind. We are not liable for decisions made based on information found here. If you need legally authoritative time information, consult the relevant government authority for your jurisdiction.</p>
+
+    <h2>Changes to these terms</h2>
+    <p>We may update these terms. The date at the top of this page reflects the last revision. Continued use of the site after a change constitutes acceptance of the updated terms.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about these terms: <a href="mailto:hello@whatisthetime.now">hello@whatisthetime.now</a>.</p>
+
+  </article>
+
+  <Footer />
+</Base>
+
+<style>
+  .page-hero {
+    padding: 48px var(--page-pad) 32px;
+    border-bottom: 1px solid var(--border);
+    max-width: 720px;
+  }
+
+  .page-title {
+    font-family: var(--font-display);
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-variation-settings: 'wght' 800;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+
+  .page-meta {
+    font-size: var(--t-sm);
+    color: var(--text-dim);
+  }
+
+  .page-body {
+    padding: 40px var(--page-pad) 64px;
+    max-width: 720px;
+    color: var(--text-muted);
+    line-height: 1.75;
+  }
+
+  .lede {
+    font-size: var(--t-base);
+    color: var(--text);
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .page-body h2 {
+    font-size: var(--t-sm);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin: 36px 0 12px;
+  }
+
+  .page-body p {
+    font-size: var(--t-base);
+    margin: 0 0 16px;
+  }
+
+  .page-body a {
+    color: var(--text);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--border);
+    transition: text-decoration-color 0.15s;
+  }
+
+  .page-body a:hover {
+    text-decoration-color: var(--text-muted);
+  }
+</style>

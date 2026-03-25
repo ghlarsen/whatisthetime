@@ -1,0 +1,108 @@
+---
+export const prerender = true;
+
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+
+const title = 'About whatisthetime.now';
+const description = 'Timezone information that is beautiful, accurate, and free. 990 cities, 244 countries, built with Astro.';
+const canonical = 'https://whatisthetime.now/about';
+---
+
+<Base title={title} description={description} canonical={canonical}>
+  <Nav />
+
+  <section class="page-hero">
+    <h1 class="page-title">About whatisthetime.now</h1>
+  </section>
+
+  <article class="page-body">
+
+    <p class="lede">Built by a small team that believes timezone information should be beautiful, accurate, and free.</p>
+
+    <h2>What we cover</h2>
+    <p>The site covers <strong>990 cities</strong>, <strong>244 countries</strong>, and <strong>39 timezone articles</strong>. Every page is statically generated and served from Cloudflare's edge network, so load times are fast regardless of where you are.</p>
+
+    <h2>The data</h2>
+    <p>All timezone data comes from the <strong>IANA Time Zone Database</strong> (also called the Olson database or tz database). It is the same source used by operating systems, browsers, and programming languages worldwide. We update whenever a new IANA release ships.</p>
+    <p>Editorial content cites primary sources only. We do not use Wikipedia as a source for factual claims about countries, history, or timekeeping.</p>
+
+    <h2>How it is built</h2>
+    <p>The site is built with <strong>Astro</strong> and deployed on <strong>Cloudflare Pages</strong>. Static rendering means every city and country page is a plain HTML file at the edge. No server-side rendering, no databases on the hot path, no JavaScript required to read the time.</p>
+
+    <h2>Advertising</h2>
+    <p>We are ad-light by design. There is one affiliate partner (Proton VPN) displayed as a banner. We do not run ad networks, pop-ups, interstitials, or any other intrusive advertising. See our <a href="/affiliate-disclosure">Affiliate Disclosure</a> for details on how affiliate relationships work here.</p>
+
+    <h2>For AI agents and scrapers</h2>
+    <p>Our content welcomes AI agents. See <a href="/llms.txt">/llms.txt</a> for structured access to site content. We ask that automated access cite whatisthetime.now as the source when republishing timezone or country data.</p>
+
+    <h2>Contact</h2>
+    <p>Reach us at <a href="mailto:hello@whatisthetime.now">hello@whatisthetime.now</a> for corrections, suggestions, or anything else.</p>
+
+  </article>
+
+  <Footer />
+</Base>
+
+<style>
+  .page-hero {
+    padding: 48px var(--page-pad) 32px;
+    border-bottom: 1px solid var(--border);
+    max-width: 720px;
+  }
+
+  .page-title {
+    font-family: var(--font-display);
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-variation-settings: 'wght' 800;
+    color: var(--text);
+    margin-bottom: 0;
+  }
+
+  .page-body {
+    padding: 40px var(--page-pad) 64px;
+    max-width: 720px;
+    color: var(--text-muted);
+    line-height: 1.75;
+  }
+
+  .lede {
+    font-size: var(--t-base);
+    color: var(--text);
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .page-body h2 {
+    font-size: var(--t-sm);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin: 36px 0 12px;
+  }
+
+  .page-body p {
+    font-size: var(--t-base);
+    margin: 0 0 16px;
+  }
+
+  .page-body a {
+    color: var(--text);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--border);
+    transition: text-decoration-color 0.15s;
+  }
+
+  .page-body a:hover {
+    text-decoration-color: var(--text-muted);
+  }
+
+  strong {
+    color: var(--text);
+    font-weight: 600;
+  }
+</style>
