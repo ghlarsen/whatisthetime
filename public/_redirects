@@ -1,0 +1,3 @@
+# Remove trailing slashes (canonical URLs without slash)
+# Cloudflare Pages _redirects format
+# https://developers.cloudflare.com/pages/configuration/redirects/
