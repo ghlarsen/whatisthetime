@@ -1,0 +1,19 @@
+name = "whatisthetime-api"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+ENVIRONMENT = "production"
+
+# KV namespaces (create via: wrangler kv namespace create KEYS)
+# [[kv_namespaces]]
+# binding = "KEYS"
+# id = "TBD"
+
+# [[kv_namespaces]]
+# binding = "RATE"
+# id = "TBD"
+
+# Routes
+# routes = [{ pattern = "api.whatisthetime.now/*", zone_name = "whatisthetime.now" }]
