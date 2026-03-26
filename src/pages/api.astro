@@ -1,0 +1,294 @@
+---
+// src/pages/api.astro
+// API documentation and key signup
+export const prerender = true;
+
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import ProtonBanner from '../components/ProtonBanner.astro';
+import Footer from '../components/Footer.astro';
+
+const title = 'Timezone API | whatisthetime.now';
+const description = 'Free timezone API for developers. Current time, conversion, DST status, sunrise/sunset for 990 cities. One API key, 7 endpoints.';
+const canonical = 'https://whatisthetime.now/api';
+
+const endpoints = [
+  { method: 'GET', path: '/api/v1/time/:city', desc: 'Current time in a city', example: '/api/v1/time/tokyo' },
+  { method: 'GET', path: '/api/v1/convert', desc: 'Convert time between cities', example: '/api/v1/convert?from=london&to=tokyo&time=9am' },
+  { method: 'GET', path: '/api/v1/compare/:city1/:city2', desc: 'Time difference + business hours overlap', example: '/api/v1/compare/copenhagen/tokyo' },
+  { method: 'GET', path: '/api/v1/dst/:country', desc: 'DST status and transition dates', example: '/api/v1/dst/denmark' },
+  { method: 'GET', path: '/api/v1/sunrise/:city', desc: 'Sunrise, sunset, day length', example: '/api/v1/sunrise/copenhagen' },
+  { method: 'GET', path: '/api/v1/timezone/Asia/Tokyo', desc: 'Timezone metadata by IANA identifier', example: '/api/v1/timezone/Europe/London' },
+  { method: 'GET', path: '/api/v1/search?q=cop', desc: 'Fuzzy city search', example: '/api/v1/search?q=cop' },
+];
+
+const faqs = [
+  { q: 'Is the API free?', a: 'Yes. The free plan includes 1,000 requests per day. Pro ($9/month) gives 100,000 requests per day. Sign up to get your API key.' },
+  { q: 'How do I authenticate?', a: 'Pass your API key in the Authorization header: Authorization: Bearer witt_your_key_here. Never put API keys in query parameters.' },
+  { q: 'What data format is returned?', a: 'All responses are JSON with a consistent envelope: { ok: true/false, data: {...}, meta: { requestId, timestamp } }. Errors include a code and human-readable message.' },
+  { q: 'How many cities are covered?', a: 'The API covers 990 cities across all IANA timezone zones. Use the search endpoint to find any city by name.' },
+  { q: 'Is there rate limiting?', a: 'Yes. Free: 30 requests/minute, 1,000/day. Pro: 300/minute, 100,000/day. Rate limit headers (X-RateLimit-Remaining) are included on every response.' },
+];
+---
+
+<Base title={title} description={description} canonical={canonical} faqs={faqs}>
+  <Nav />
+
+  <section class="api-hero">
+    <h1 class="api-title">Timezone API</h1>
+    <p class="api-sub">Current time, conversion, DST, sunrise/sunset for 990 cities. Free tier, one API key, 7 endpoints.</p>
+    <div class="api-cta-row">
+      <a href="mailto:timecontact@larsen.studio?subject=API%20Key%20Request&body=I%20would%20like%20an%20API%20key%20for%20whatisthetime.now.%0A%0AProject%3A%20%0APlan%3A%20free%20%2F%20pro" class="api-cta">Request API Key</a>
+      <span class="api-cta-note">Free: 1,000 req/day. Pro: 100,000 req/day ($9/mo)</span>
+    </div>
+  </section>
+
+  <section class="api-quickstart">
+    <h2 class="section-heading">Quick start</h2>
+    <pre class="code-block">curl -H "Authorization: Bearer witt_YOUR_KEY" \
+  https://api.whatisthetime.now/api/v1/time/tokyo</pre>
+    <pre class="code-block code-response">{`{
+  "ok": true,
+  "data": {
+    "city": { "slug": "tokyo", "name": "Tokyo", "country": "Japan" },
+    "time": {
+      "formatted24": "20:30:00",
+      "formatted12": "8:30:00 PM",
+      "date": "Thursday, March 26, 2026"
+    },
+    "timezone": {
+      "iana": "Asia/Tokyo",
+      "utcOffset": "+09:00",
+      "isDST": false
+    }
+  }
+}`}</pre>
+  </section>
+
+  <section class="api-endpoints">
+    <h2 class="section-heading">Endpoints</h2>
+    <div class="endpoint-list">
+      {endpoints.map(ep => (
+        <div class="endpoint">
+          <div class="endpoint-header">
+            <span class="endpoint-method">{ep.method}</span>
+            <code class="endpoint-path">{ep.path}</code>
+          </div>
+          <p class="endpoint-desc">{ep.desc}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="api-pricing">
+    <h2 class="section-heading">Pricing</h2>
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <span class="pricing-name">Free</span>
+        <span class="pricing-price">$0</span>
+        <ul class="pricing-features">
+          <li>1,000 requests/day</li>
+          <li>30 requests/minute</li>
+          <li>All 7 endpoints</li>
+          <li>990 cities</li>
+        </ul>
+      </div>
+      <div class="pricing-card featured">
+        <span class="pricing-name">Pro</span>
+        <span class="pricing-price">$9/mo</span>
+        <ul class="pricing-features">
+          <li>100,000 requests/day</li>
+          <li>300 requests/minute</li>
+          <li>All 7 endpoints</li>
+          <li>Priority support</li>
+        </ul>
+      </div>
+      <div class="pricing-card">
+        <span class="pricing-name">Enterprise</span>
+        <span class="pricing-price">$49/mo</span>
+        <ul class="pricing-features">
+          <li>Unlimited requests</li>
+          <li>1,000 requests/minute</li>
+          <li>All 7 endpoints</li>
+          <li>SLA + dedicated support</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <ProtonBanner />
+
+  <section class="api-faq">
+    <h2 class="section-heading">FAQ</h2>
+    <dl class="faq-list">
+      {faqs.map(({ q, a }) => (
+        <>
+          <dt class="faq-q">{q}</dt>
+          <dd class="faq-a">{a}</dd>
+        </>
+      ))}
+    </dl>
+  </section>
+
+  <Footer />
+</Base>
+
+<style>
+  .api-hero {
+    padding: 48px var(--page-pad) 32px;
+    border-bottom: 1px solid var(--border);
+  }
+  .api-title {
+    font-family: var(--font-display);
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-variation-settings: 'wght' 800;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+  .api-sub {
+    font-size: var(--t-base);
+    color: var(--text-muted);
+    margin-bottom: 20px;
+  }
+  .api-cta-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .api-cta {
+    font-size: var(--t-sm);
+    font-weight: 600;
+    color: var(--bg);
+    background: var(--text);
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 4px;
+    transition: opacity 0.15s;
+  }
+  .api-cta:hover { opacity: 0.85; }
+  .api-cta-note {
+    font-size: var(--t-xs);
+    color: var(--text-dim);
+  }
+
+  .api-quickstart, .api-endpoints, .api-pricing, .api-faq {
+    padding: 32px var(--page-pad) 40px;
+    border-top: 1px solid var(--border);
+  }
+  .section-heading {
+    font-size: var(--t-sm);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 16px;
+  }
+  .code-block {
+    background: var(--bg-subtle);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 16px;
+    font-family: var(--font-mono);
+    font-size: var(--t-sm);
+    color: var(--text);
+    overflow-x: auto;
+    white-space: pre;
+    margin-bottom: 12px;
+  }
+  .code-response {
+    color: var(--text-muted);
+  }
+
+  .endpoint-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .endpoint {
+    padding: 12px 16px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+  }
+  .endpoint-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 4px;
+  }
+  .endpoint-method {
+    font-family: var(--font-mono);
+    font-size: var(--t-xs);
+    font-weight: 700;
+    color: #4caf50;
+    letter-spacing: 0.05em;
+  }
+  .endpoint-path {
+    font-family: var(--font-mono);
+    font-size: var(--t-sm);
+    color: var(--text);
+  }
+  .endpoint-desc {
+    font-size: var(--t-sm);
+    color: var(--text-muted);
+    margin: 0;
+  }
+
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  @media (max-width: 600px) {
+    .pricing-grid { grid-template-columns: 1fr; }
+  }
+  .pricing-card {
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .pricing-card.featured {
+    border-color: var(--text);
+  }
+  .pricing-name {
+    font-size: var(--t-sm);
+    font-weight: 600;
+    color: var(--text);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+  .pricing-price {
+    font-family: var(--font-display);
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-variation-settings: 'wght' 800;
+    color: var(--text);
+  }
+  .pricing-features {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .pricing-features li {
+    font-size: var(--t-sm);
+    color: var(--text-muted);
+  }
+  .pricing-features li::before {
+    content: "\2713 ";
+    color: #4caf50;
+  }
+
+  .api-faq { max-width: 720px; }
+  .faq-list { margin: 0; }
+  .faq-q { font-size: var(--t-base); font-weight: 600; color: var(--text); margin: 20px 0 6px; }
+  .faq-q:first-child { margin-top: 0; }
+  .faq-a { font-size: var(--t-base); color: var(--text-muted); line-height: 1.7; margin: 0; }
+
+  @media (max-width: 500px) {
+    .api-hero { padding-top: 32px; }
+  }
+</style>
