@@ -6,14 +6,13 @@ compatibility_flags = ["nodejs_compat"]
 [vars]
 ENVIRONMENT = "production"
 
-# KV namespaces (create via: wrangler kv namespace create KEYS)
-# [[kv_namespaces]]
-# binding = "KEYS"
-# id = "TBD"
+[[kv_namespaces]]
+binding = "KEYS"
+id = "dbabd83cc4be4ebfb3069c183ab32eca"
 
-# [[kv_namespaces]]
-# binding = "RATE"
-# id = "TBD"
+[[kv_namespaces]]
+binding = "RATE"
+id = "d71d63194e6e497f86b7531fa6d07b5a"
 
-# Routes
+# Routes (enable after DNS setup for api.whatisthetime.now)
 # routes = [{ pattern = "api.whatisthetime.now/*", zone_name = "whatisthetime.now" }]
