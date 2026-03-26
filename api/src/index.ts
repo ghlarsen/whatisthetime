@@ -1,6 +1,6 @@
 /**
  * whatisthetime.now Timezone API
- * Cloudflare Worker — Phase 1
+ * Cloudflare Worker -Phase 1
  *
  * Security model: API key required for all requests.
  * Keys stored as SHA-256 hashes in KV.
@@ -54,10 +54,8 @@ const YEAR_MAX = 2100;
 
 // ── City Data (embedded at build time) ─────────────────────────────
 
-// This will be replaced by the actual cities import at build
-// For now, we import from the shared data file
-import citiesData from '../../src/data/cities.ts';
-const cities: CityEntry[] = citiesData;
+import citiesData from './cities-data.json';
+const cities: CityEntry[] = citiesData as CityEntry[];
 
 // Build lookup maps once at isolate init
 const cityBySlug = new Map<string, CityEntry>();
@@ -111,10 +109,19 @@ function error(status: number, code: string, message: string, rid: string, sugge
 }
 
 function findSuggestion(slug: string): string | undefined {
-  // Simple Levenshtein-based suggestion for mistyped slugs
+  // Levenshtein-based suggestion with prefix filter for performance
+  const prefix = slug.slice(0, 3);
+  let candidates = cities.filter(c => c.slug.startsWith(prefix));
+  // Fall back to first-char match if prefix yields nothing
+  if (candidates.length === 0) {
+    candidates = cities.filter(c => c.slug[0] === slug[0]);
+  }
+  // Cap candidates to prevent excessive computation
+  candidates = candidates.slice(0, 50);
+
   let best = '';
   let bestDist = 4;
-  for (const c of cities) {
+  for (const c of candidates) {
     const d = levenshtein(slug, c.slug);
     if (d < bestDist) {
       bestDist = d;
@@ -212,10 +219,10 @@ function getDSTInfo(tz: string, year: number) {
     };
   }
 
-  const winterOffset = Math.min(janOffset, julOffset);
-  const summerOffset = Math.max(janOffset, julOffset);
+  const standardOffset = Math.min(janOffset, julOffset);
+  const dstOffset = Math.max(janOffset, julOffset);
   const currentOffset = getUtcOffsetMinutes(tz);
-  const isDST = currentOffset === summerOffset;
+  const isDST = currentOffset === dstOffset;
 
   // Find transitions via binary search (much faster than day-by-day)
   function findTransition(startDate: Date, endDate: Date): Date | null {
@@ -225,7 +232,7 @@ function getDSTInfo(tz: string, year: number) {
 
     let lo = startDate.getTime();
     let hi = endDate.getTime();
-    while (hi - lo > 86400000) { // Stop at day precision
+    while (hi - lo > 3600000) { // Stop at hour precision
       const mid = Math.floor((lo + hi) / 2);
       const midDate = new Date(mid);
       if (getUtcOffsetMinutes(tz, midDate) === startOffset) {
@@ -242,10 +249,10 @@ function getDSTInfo(tz: string, year: number) {
 
   return {
     hasDST: true,
-    standardOffset: formatUtcOffset(winterOffset),
-    standardOffsetMinutes: winterOffset,
-    dstOffset: formatUtcOffset(summerOffset),
-    dstOffsetMinutes: summerOffset,
+    standardOffset: formatUtcOffset(standardOffset),
+    standardOffsetMinutes: standardOffset,
+    dstOffset: formatUtcOffset(dstOffset),
+    dstOffsetMinutes: dstOffset,
     currentlyDST: isDST,
     currentOffset: formatUtcOffset(currentOffset),
     transitions: {
@@ -321,11 +328,25 @@ async function authenticate(request: Request, env: Env): Promise<{ key: string; 
     return error(401, 'UNAUTHORIZED', 'Invalid API key', rid);
   }
 
-  const meta: KeyMeta = JSON.parse(metaStr);
+  let meta: KeyMeta;
+  try {
+    meta = JSON.parse(metaStr);
+  } catch {
+    return error(500, 'INTERNAL_ERROR', 'Corrupted key metadata', rid);
+  }
   return { key: hash, meta };
 }
 
-async function checkRateLimit(keyHash: string, plan: string, env: Env): Promise<Response | null> {
+interface RateLimitResult {
+  limited: boolean;
+  response?: Response;
+  minuteCount: number;
+  dayCount: number;
+  limits: { perMinute: number; perDay: number };
+  resetSeconds: number;
+}
+
+async function checkRateLimit(keyHash: string, plan: string, env: Env, ctx: ExecutionContext): Promise<RateLimitResult> {
   const rid = requestId();
   const limits = RATE_LIMITS[plan] || RATE_LIMITS.free;
   const now = new Date();
@@ -340,20 +361,30 @@ async function checkRateLimit(keyHash: string, plan: string, env: Env): Promise<
     env.RATE.get(dayKey).then(v => parseInt(v || '0', 10)),
   ]);
 
+  const resetSeconds = 60 - now.getUTCSeconds();
+
   if (minuteCount >= limits.perMinute) {
-    return error(429, 'RATE_LIMIT_EXCEEDED', `Rate limit exceeded: ${limits.perMinute} requests per minute`, rid);
+    return {
+      limited: true,
+      response: error(429, 'RATE_LIMIT_EXCEEDED', `Rate limit exceeded: ${limits.perMinute} requests per minute`, rid),
+      minuteCount, dayCount, limits, resetSeconds,
+    };
   }
   if (dayCount >= limits.perDay) {
-    return error(429, 'RATE_LIMIT_EXCEEDED', `Daily limit exceeded: ${limits.perDay} requests per day`, rid);
+    return {
+      limited: true,
+      response: error(429, 'RATE_LIMIT_EXCEEDED', `Daily limit exceeded: ${limits.perDay} requests per day`, rid),
+      minuteCount, dayCount, limits, resetSeconds,
+    };
   }
 
-  // Increment counters (fire and forget for performance)
-  await Promise.all([
+  // Increment counters -- fire-and-forget via ctx.waitUntil (no await)
+  ctx.waitUntil(Promise.all([
     env.RATE.put(minuteKey, String(minuteCount + 1), { expirationTtl: 120 }),
     env.RATE.put(dayKey, String(dayCount + 1), { expirationTtl: 90000 }),
-  ]);
+  ]));
 
-  return null;
+  return { limited: false, minuteCount, dayCount, limits, resetSeconds };
 }
 
 // ── Route Handlers ─────────────────────────────────────────────────
@@ -406,6 +437,22 @@ function handleCompare(slug1: string, slug2: string, rid: string): Response {
   if (diffM > 0) parts.push(`${diffM} minute${diffM !== 1 ? 's' : ''}`);
   const direction = diffMinutes > 0 ? 'ahead' : diffMinutes < 0 ? 'behind' : 'same';
 
+  // N3: Check if both cities are on the same calendar day
+  const sameDay = time1.date === time2.date;
+
+  // N4: Compute basic best overlap (9:00-17:00 business hours)
+  const bStart1 = 9 * 60; // 9:00 in city1's local minutes
+  const bEnd1 = 17 * 60;  // 17:00
+  const bStart2inCity1 = bStart1 - diffMinutes; // city2's 9:00 in city1's time
+  const bEnd2inCity1 = bEnd1 - diffMinutes;     // city2's 17:00 in city1's time
+  const overlapStart = Math.max(bStart1, bStart2inCity1);
+  const overlapEnd = Math.min(bEnd1, bEnd2inCity1);
+  const overlapMinutes = Math.max(0, overlapEnd - overlapStart);
+  const fmtHM = (m: number) => `${String(Math.floor(((m % 1440) + 1440) % 1440 / 60)).padStart(2, '0')}:${String(((m % 60) + 60) % 60).padStart(2, '0')}`;
+  const bestOverlap = overlapMinutes > 0
+    ? { start: fmtHM(overlapStart), end: fmtHM(overlapEnd), overlapMinutes }
+    : null;
+
   return success({
     city1: {
       slug: city1.slug, name: city1.name, country: city1.country,
@@ -420,10 +467,12 @@ function handleCompare(slug1: string, slug2: string, rid: string): Response {
     difference: {
       hours: diffH, minutes: diffM, totalMinutes: absDiff,
       direction,
+      sameDay,
       description: diffMinutes === 0
         ? `${city1.name} and ${city2.name} are in the same timezone`
         : `${city2.name} is ${parts.join(' ')} ${direction} of ${city1.name}`,
     },
+    businessHoursOverlap: bestOverlap,
   }, rid);
 }
 
@@ -445,6 +494,7 @@ function handleConvert(url: URL, rid: string): Response {
 
   // Parse time token
   let hour: number;
+  let minute = 0;
   const tokenMatch = timeParam.match(TIME_TOKEN_RE);
   const h24Match = timeParam.match(TIME_24H_RE);
   if (tokenMatch) {
@@ -453,6 +503,7 @@ function handleConvert(url: URL, rid: string): Response {
     hour = isPM ? (h === 12 ? 12 : h + 12) : (h === 12 ? 0 : h);
   } else if (h24Match) {
     hour = parseInt(h24Match[1], 10);
+    minute = parseInt(h24Match[2], 10);
   } else {
     return error(400, 'INVALID_PARAMETER', 'Time must be format: 9am, 3pm, or 14:30', rid);
   }
@@ -460,10 +511,13 @@ function handleConvert(url: URL, rid: string): Response {
   const offset1 = getUtcOffsetMinutes(city1.timezone);
   const offset2 = getUtcOffsetMinutes(city2.timezone);
   const diffMinutes = offset2 - offset1;
-  const convertedMinutes = hour * 60 + diffMinutes;
+  const convertedMinutes = hour * 60 + minute + diffMinutes;
   const convertedHour = ((Math.floor(convertedMinutes / 60) % 24) + 24) % 24;
   const convertedMin = ((convertedMinutes % 60) + 60) % 60;
-  const dayOffset = Math.floor(convertedMinutes / 1440) + (convertedMinutes < 0 && convertedMinutes % 1440 !== 0 ? -1 : 0);
+  // I6: Simple day offset calculation
+  const dayOffset = convertedMinutes < 0
+    ? Math.ceil(convertedMinutes / 1440) - (convertedMinutes % 1440 === 0 ? 0 : 1)
+    : Math.floor(convertedMinutes / 1440);
 
   const fmt12 = (h: number, m: number) => {
     const period = h >= 12 ? 'PM' : 'AM';
@@ -552,7 +606,7 @@ function handleSunrise(slug: string, url: URL, rid: string): Response {
 
 function handleTimezone(iana: string, rid: string): Response {
   if (!VALID_TIMEZONES.has(iana)) {
-    return error(404, 'TIMEZONE_NOT_FOUND', `Invalid IANA timezone: '${iana}'`, rid);
+    return error(404, 'TIMEZONE_NOT_FOUND', 'Invalid or unrecognized IANA timezone', rid);
   }
 
   const offset = getUtcOffsetMinutes(iana);
@@ -601,7 +655,14 @@ function handleSearch(url: URL, rid: string): Response {
 
 async function handleCreateKey(request: Request, env: Env, rid: string): Promise<Response> {
   const adminSecret = request.headers.get('X-Admin-Secret');
-  if (!adminSecret || adminSecret !== env.ADMIN_SECRET) {
+  if (!adminSecret) {
+    return error(401, 'UNAUTHORIZED', 'Invalid admin credentials', rid);
+  }
+  // Constant-time comparison to prevent timing attacks
+  const encoder = new TextEncoder();
+  const a = encoder.encode(adminSecret);
+  const b = encoder.encode(env.ADMIN_SECRET);
+  if (a.byteLength !== b.byteLength || !crypto.subtle.timingSafeEqual(a, b)) {
     return error(401, 'UNAUTHORIZED', 'Invalid admin credentials', rid);
   }
 
@@ -639,8 +700,25 @@ async function handleCreateKey(request: Request, env: Env, rid: string): Promise
 
 // ── Router ─────────────────────────────────────────────────────────
 
+function addRateLimitHeaders(response: Response, rl: RateLimitResult): Response {
+  const headers = new Headers(response.headers);
+  headers.set('X-RateLimit-Limit', String(rl.limits.perMinute));
+  headers.set('X-RateLimit-Remaining', String(Math.max(0, rl.limits.perMinute - rl.minuteCount - 1)));
+  headers.set('X-RateLimit-Reset', String(rl.resetSeconds));
+  if (rl.limited) {
+    headers.set('Retry-After', String(rl.resetSeconds));
+  }
+  return new Response(response.body, { status: response.status, headers });
+}
+
+function addCacheHeader(response: Response, cacheValue: string): Response {
+  const headers = new Headers(response.headers);
+  headers.set('Cache-Control', cacheValue);
+  return new Response(response.body, { status: response.status, headers });
+}
+
 export default {
-  async fetch(request: Request, env: Env): Promise<Response> {
+  async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
     // Handle CORS preflight
     if (request.method === 'OPTIONS') {
       return new Response(null, {
@@ -654,9 +732,18 @@ export default {
       });
     }
 
+    const rid = requestId();
+
+    // C7: Top-level error handler
+    try {
+
+    // I13: Reject oversized URLs
+    if (request.url.length > 2048) {
+      return error(414, 'URI_TOO_LONG', 'Request URL exceeds maximum length of 2048 characters', rid);
+    }
+
     const url = new URL(request.url);
     const path = url.pathname;
-    const rid = requestId();
 
     // Strip unknown query params (cache bypass prevention)
     const knownParams = new Set(['format', 'from', 'to', 'time', 'date', 'year', 'q', 'limit']);
@@ -664,8 +751,11 @@ export default {
       if (!knownParams.has(key)) url.searchParams.delete(key);
     }
 
-    // Admin routes (separate auth)
-    if (path === '/api/v1/keys' && request.method === 'POST') {
+    // I12: Admin routes - enforce POST method
+    if (path === '/api/v1/keys') {
+      if (request.method !== 'POST') {
+        return error(405, 'METHOD_NOT_ALLOWED', 'Only POST requests are supported for key creation', rid);
+      }
       return handleCreateKey(request, env, rid);
     }
 
@@ -683,53 +773,90 @@ export default {
     if (authResult instanceof Response) return authResult;
     const { key: keyHash, meta } = authResult;
 
+    // I11: Update lastUsed timestamp (fire-and-forget)
+    ctx.waitUntil((async () => {
+      const updatedMeta = { ...meta, lastUsed: new Date().toISOString() };
+      await env.KEYS.put(`apikey:${keyHash}`, JSON.stringify(updatedMeta));
+    })());
+
     // Rate limiting
-    const rateLimited = await checkRateLimit(keyHash, meta.plan, env);
-    if (rateLimited) return rateLimited;
+    const rl = await checkRateLimit(keyHash, meta.plan, env, ctx);
+    if (rl.limited && rl.response) {
+      return addRateLimitHeaders(rl.response, rl);
+    }
 
     // Route matching
     const segments = path.split('/').filter(Boolean); // ['api', 'v1', ...]
 
     if (segments[0] !== 'api' || segments[1] !== 'v1') {
-      return error(404, 'NOT_FOUND', 'API routes start with /api/v1/', rid);
+      return addRateLimitHeaders(error(404, 'NOT_FOUND', 'API routes start with /api/v1/', rid), rl);
     }
 
     const route = segments[2];
     const param = segments[3];
     const param2 = segments[4];
 
+    let response: Response;
+    let cacheControl: string;
+
     switch (route) {
       case 'time':
-        if (!param) return error(400, 'INVALID_PARAMETER', 'City slug required: /api/v1/time/:city', rid);
-        return handleTime(param, rid);
+        if (!param) return addRateLimitHeaders(error(400, 'INVALID_PARAMETER', 'City slug required: /api/v1/time/:city', rid), rl);
+        response = handleTime(param, rid);
+        cacheControl = 'no-store';
+        break;
 
       case 'compare':
-        if (!param || !param2) return error(400, 'INVALID_PARAMETER', 'Two cities required: /api/v1/compare/:city1/:city2', rid);
-        return handleCompare(param, param2, rid);
+        if (!param || !param2) return addRateLimitHeaders(error(400, 'INVALID_PARAMETER', 'Two cities required: /api/v1/compare/:city1/:city2', rid), rl);
+        response = handleCompare(param, param2, rid);
+        cacheControl = 'no-store';
+        break;
 
       case 'convert':
-        return handleConvert(url, rid);
+        response = handleConvert(url, rid);
+        cacheControl = 'public, max-age=60';
+        break;
 
       case 'dst':
-        if (!param) return error(400, 'INVALID_PARAMETER', 'Country slug required: /api/v1/dst/:country', rid);
-        return handleDST(param, url, rid);
+        if (!param) return addRateLimitHeaders(error(400, 'INVALID_PARAMETER', 'Country slug required: /api/v1/dst/:country', rid), rl);
+        response = handleDST(param, url, rid);
+        cacheControl = 'public, max-age=3600';
+        break;
 
       case 'sunrise':
-        if (!param) return error(400, 'INVALID_PARAMETER', 'City slug required: /api/v1/sunrise/:city', rid);
-        return handleSunrise(param, url, rid);
+        if (!param) return addRateLimitHeaders(error(400, 'INVALID_PARAMETER', 'City slug required: /api/v1/sunrise/:city', rid), rl);
+        response = handleSunrise(param, url, rid);
+        cacheControl = 'public, max-age=60';
+        break;
 
       case 'timezone': {
         // IANA timezones have slashes: Asia/Tokyo, America/New_York
         const iana = segments.slice(3).join('/');
-        if (!iana) return error(400, 'INVALID_PARAMETER', 'IANA timezone required: /api/v1/timezone/Asia/Tokyo', rid);
-        return handleTimezone(iana, rid);
+        if (!iana) return addRateLimitHeaders(error(400, 'INVALID_PARAMETER', 'IANA timezone required: /api/v1/timezone/Asia/Tokyo', rid), rl);
+        response = handleTimezone(iana, rid);
+        cacheControl = 'no-store';
+        break;
       }
 
       case 'search':
-        return handleSearch(url, rid);
+        response = handleSearch(url, rid);
+        cacheControl = 'public, max-age=3600';
+        break;
 
       default:
-        return error(404, 'NOT_FOUND', `Unknown endpoint: ${route}`, rid);
+        return addRateLimitHeaders(error(404, 'NOT_FOUND', `Unknown endpoint: ${route}`, rid), rl);
+    }
+
+    response = addCacheHeader(response, cacheControl);
+    return addRateLimitHeaders(response, rl);
+
+    } catch (e) {
+      // C7: Catch-all error handler
+      return respond(500, {
+        ok: false,
+        error: { code: 'INTERNAL_ERROR', message: 'An unexpected error occurred' },
+        meta: { requestId: rid, timestamp: new Date().toISOString() },
+      });
     }
   },
 };
